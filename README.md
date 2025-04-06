@@ -10,8 +10,8 @@
     <br> <strong>INFORME DE TRABAJO 1 - TB1</strong> 
 </p>
 <p align="center">
-    <strong>Startup: Lucero's Inc</strong><br>
-    <strong>Producto: Lucero's Parking</strong>
+    <strong>Startup: Find&Park</strong><br>
+    <strong>Producto: ParkUp</strong>
 </p>
 
 <h3 align="center" >Team Members:</h3>
