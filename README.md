@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center">`
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <br><img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br>
     <br>
@@ -226,6 +226,36 @@
 
 ### 2.2.1. Diseño de entrevistas
 
+##### Preguntas de introducción (Para todos los segmentos):
+1. ¿Cuál es su nombre?
+2. ¿Cuántos años tiene?
+3. ¿En qué cuidad del Perú reside?
+4. ¿Cuál considera que es su estatus social limitando la descripción a Clase Baja, Clase Media, Clase Media-Alta y Clase Alta? 
+   
+##### Segmento 1: Conductores
+1. ¿Con qué frecuencia utilizas estacionamientos privados durante tu semana?
+2. ¿Cómo describirías tu experiencia ideal al momento de ingresar, estacionar y salir de un parqueo?
+3. ¿Puedes contarme sobre una experiencia positiva o negativa que hayas tenido al pagar por un servicio de estacionamiento?
+4. ¿Alguna vez se te ha perdido el ticket de estacionamiento?
+5. ¿Alguna vez ha ido a algún parking sin portar el celular?
+6. ¿Qué método de pago prefieres cuando pagas estacionamiento? (Ej. tarjeta, Yape, Plin, efectivo)
+7. ¿Qué preocupaciones tendrías al usar un sistema que lee tu placa y automatiza el pago del estacionamiento?
+8. ¿Te seria útil visualizar en la aplicación sobre que espacios hay libres antes de entrar al parking? 
+9. ¿Qué esperas ver o saber en la app al momento de estacionarte? ¿Qué información sería útil para ti?
+
+##### Segmento 2: Administradores de parking
+1. ¿Con qué frecuencia revisan cámaras de seguridad para el monitoreo de vehículos?
+2. ¿Cuál es el protocolo actual ante una emergencia o incidente de seguridad?
+3. ¿Qué tipo de información te resulta más útil visualizar a diario para monitorear el funcionamiento del estacionamiento?
+4. ¿Cómo se gestiona actualmente los errores o problemas en el sistema de validación o cobro del estacionamiento?
+5. ¿Qué funcionalidades consideras esenciales en una plataforma web para administrar y monitorear espacios de parqueo?
+6. ¿Qué herramientas usas hoy para controlar los vehículos que entran y salen?
+7. ¿Qué información consideras más importante tener a la mano mientras gestionas el estacionamiento?
+8. ¿Qué tan importante sería para ti poder ver en tiempo real quién está estacionado y quién ha pagado?
+9. ¿Te sentirías cómodo con un sistema que detecta automáticamente las placas y realiza los cobros sin que tú intervengas?
+
+
+   
 ### 2.2.2. Registro de entrevistas
 
 ### 2.2.3. Análisis de entrevistas
@@ -280,7 +310,7 @@
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
-## 4.2.X. Bounded Context: ???
+## 4.2.X. Bounded Context: 
 
 ### 4.2.X.1. Domain Layer
 
