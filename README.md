@@ -352,6 +352,32 @@ Con el fin de elaborar un Task Matrix adecuado para el proyecto, se han consider
 
 ### 2.3.3. User Journey Mapping
 
+**User Journey Mapping: Situación As-Is**
+
+En esta sección se presentan los User Journey Maps correspondientes a los perfiles de usuario elaborados para ParkUp. Los mapas muestran el recorrido actual de los usuarios antes de la existencia de la solución propuesta, ilustrando los puntos de contacto, frustraciones y oportunidades de mejora a lo largo del proceso.
+
+Los User Personas fueron creados utilizando la herramienta UXPressia, y los Journey Maps a continuación se han vinculado con cada uno de ellos.
+
+**User Journey Map - Diego Luxemburgo (Conductor):**
+
+1. Descripción general del recorrido:
+
+Diego es un profesional independiente con alta movilidad en Lima. Usa su auto diariamente para llegar a distintos puntos de interés. Su objetivo es estacionar rápido y continuar con su rutina sin perder tiempo en tareas manuales o esperas innecesarias. Actualmente, se enfrenta a un sistema tradicional de estacionamientos que requiere tickets físicos, pagos manuales y barreras que demoran.
+
+2. Imagen:
+
+![2.3.3-User-Journey-Mapping-Diego-Luxemburgo.png](assets/capitulo-2/2.3.3-User-Journey-Mapping-Diego-Luxemburgo.png)
+
+**User Journey Map - Dina Zimbabue (Administradora de estacionamiento):**
+
+1. Descripción general del recorrido:
+
+Dina es administradora de varios estacionamientos privados y/o corporativos en Lima. Busca eficiencia operativa, minimizar la intervención humana y asegurar la seguridad vehicular sin afectar la experiencia del usuario. Actualmente, depende de procedimientos manuales, personal de vigilancia y herramientas poco automatizadas como Excel y WhatsApp para gestionar entradas y salidas.
+
+2. Imagen:
+
+![2.3.3-User-Journey-Mapping-Dina-Zimbabue.png](assets/capitulo-2/2.3.3-User-Journey-Mapping-Dina-Zimbabue.png)
+
 ### 2.3.4. Empathy Mapping
 
 ### 2.3.5. As-is Scenario Mapping
