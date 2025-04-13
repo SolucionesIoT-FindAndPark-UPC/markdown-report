@@ -316,6 +316,40 @@ Ambos perfiles fueron elaborados utilizando la herramienta UXPressia, siguiendo 
 
 ### 2.3.2. User Task Matrix
 
+User Task Matrix: Diego Luxemburgo y Dina Zimbabue
+
+Con el fin de elaborar un Task Matrix adecuado para el proyecto, se han considerado los dos segmentos objetivo, producto del análisis de entrevistas, es decir, Conductores e Administradores de parking.
+
+**User Task Matrix – Diego Luxemburgo - Conductores:**
+
+| **User Task**                                                  | **Frecuencia** | **Importancia** |
+| -------------------------------------------------------------- | -------------- | --------------- |
+| Buscar estacionamiento cercano al destino                      | Alta           | Alta            |
+| Hacer fila para pagar el estacionamiento (manual o con ticket) | Alta           | Alta            |
+| Retirar ticket y conservarlo hasta el pago                     | Alta           | Alta            |
+| Buscar la máquina de pago en el local                          | Media          | Alta            |
+| Esperar a que el lector de ticket funcione correctamente       | Media          | Alta            |
+| Coordinar pagos en efectivo o encontrar sencillo               | Media          | Alta            |
+| Volver al vehículo antes que se venza el ticket o la tarifa    | Media          | Media           |
+| Revisar si la cochera está operativa, abierta o disponible     | Baja           | Media           |
+| Lidiar con problemas en la barrera de ingreso/salida           | Baja           | Alta            |
+| Llamar o buscar personal de soporte del estacionamiento        | Baja           | Media           |
+
+**User Task Matrix – Dina Zimbabue - Administradores de parking:**
+
+| **User Task**                                                    | **Frecuencia** | **Importancia** |
+| ---------------------------------------------------------------- | -------------- | --------------- |
+| Supervisar el ingreso/salida del personal y visitantes           | Alta           | Alta            |
+| Coordinar al personal para emitir tickets y controlar accesos    | Alta           | Alta            |
+| Validar manualmente placas de vehículos conocidos                | Alta           | Alta            |
+| Solucionar problemas de lectura de placas o pérdida de tickets   | Media          | Alta            |
+| Redactar reportes de ingresos/salidas de forma manual o en Excel | Media          | Alta            |
+| Contactar al personal de vigilancia ante incidentes              | Media          | Media           |
+| Verificar la disponibilidad del local mediante rondas visuales   | Media          | Alta            |
+| Atender quejas por demoras en el ingreso o salida                | Baja           | Alta            |
+| Entrenar a nuevo personal en protocolos y sistemas antiguos      | Baja           | Media           |
+| Buscar registros manuales para auditoría o consultas             | Baja           | Alta            |
+
 ### 2.3.3. User Journey Mapping
 
 ### 2.3.4. Empathy Mapping
