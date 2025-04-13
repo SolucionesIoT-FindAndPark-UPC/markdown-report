@@ -255,10 +255,41 @@
 9. ¿Te sentirías cómodo con un sistema que detecta automáticamente las placas y realiza los cobros sin que tú intervengas?
 
 
-   
+
 ### 2.2.2. Registro de entrevistas
+##### Segmento 1: Conductores
+
+##### Segmento 2: Administradores de parking
+- Primera Entrevista:
+  - Entrevistado: Jose Alberto
+  - Residencia: Lima
+  - Ocupación: Seguridad de Parking
+  - Entrevistadora: Lucero Obispo
+  - Enlace: [https://youtu.be/ebwojw4HlCo]
+  - Resumen de la entrevista:
+    0:30 - ¿Con qué frecuencia revisan cámaras de seguridad para el monitoreo de vehículos?
+    Las cámaras estan vigilando en cada momento, yo también bajo para ver y verificar que los autos no se esten llevando algo de lo ajeno.
+
+    0:57 - ¿Cuál es el protocolo actual ante una emergencia o incidente de seguridad?
+    Ante un incidente de seguridad, nos comunicamos con el gerente de tienda mediante una radio
+
+    1:13 - ¿Qué tipo de información te resulta más útil visualizar a diario para monitorear el funcionamiento del estacionamiento?
+    Las cámaras y hacer las rondas para que no pase nada
+
+    2:00 - ¿Qué funcionalidades consideras esenciales en una plataforma web para administrar y monitorear espacios de parqueo?
+    Este parqueo es gratuito así que no necesitamos una plataforma web, no se visualizaría bien la información. Sin embargo, si fuera cobro, el parqueo tuviera un costo sería diferente, ahí si se podría visualizar información útil.
+
+    2:45 - ¿Qué herramientas usas hoy para controlar los vehículos que entran y salen?
+    Los tickets y un lapicero para anotar la hora que entra el cliente, la placa y apuntar también la hora que sale el vehículo.
+
+    3:28 - ¿Qué información consideras más importante tener a la mano mientras gestionas el estacionamiento?
+    Sería el ticket, la placa y el rostro del chofer.
 
 ### 2.2.3. Análisis de entrevistas
+##### Segmento 1: Conductores
+
+##### Segmento 2: Administradores de parking
+- Primera Entrevista: El entrevistado señaló que el monitoreo se realiza principalmente mediante cámaras activas todo el tiempo y rondas presenciales para verificar el estado del parqueo. Ante emergencias, se comunica directamente con el gerente de tienda por radio, sin un protocolo formal establecido. La información más útil para su labor diaria incluye las grabaciones de las cámaras, el ticket del vehículo, la placa y el rostro del conductor. Actualmente no utilizan una plataforma web, ya que el parqueo es gratuito y no considera necesaria una visualización digital; sin embargo, si hubiera cobro, sí vería valor en implementarla. El control de ingreso y salida se realiza de forma manual con tickets y anotaciones en papel.
 
 ## 2.3. Needfinding
 
