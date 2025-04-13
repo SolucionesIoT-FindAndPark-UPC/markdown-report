@@ -228,9 +228,7 @@
 | **Ventaja Competitiva** | - Permite a los usuarios generar ingresos alquilando sus espacios privados. <br> - Ofrece una amplia variedad de opciones en zonas clave de Lima. | - Proporciona una solución integral para encontrar, reservar y pagar estacionamientos. <br> - Facilita el proceso con múltiples opciones de pago y gestión de tiempo. | - Amplia base de datos de estacionamientos disponibles en Lima. <br> - Plataforma intuitiva que simplifica la reserva y gestión de espacios. | - Proceso completamente automatizado que reduce tiempos y errores. <br> - Integración de tecnología avanzada para una experiencia sin fricciones. |
 | **Canal de distribución** | - Plataforma web accesible desde cualquier navegador. <br> - Aplicación móvil disponible para Android e iOS. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de estacionamientos locales. | - Aplicación móvil disponible para Android e iOS. <br> - Plataforma web para gestión de estacionamientos. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de gestión de estacionamientos y dispositivos IoT. |  
   
-### 2.1.2. Estrategias y tácticas frente a competidores
-
-# Estrategias y Tácticas de ParkUp frente a la Competencia
+### 2.1.2. Estrategias y tácticas frente a competidores  
 
 ## Afrontando las fortalezas de nuestros competidores
 
@@ -255,8 +253,6 @@ Desarrollar una ventaja basada en tecnología de automatización y UX fluida, qu
 - Implementar mejoras constantes en lectura de placas y eficiencia del flujo de entrada/salida.
 - Incluir comparativas visuales en redes sociales entre la experiencia ParkUp vs. tickets o apps tradicionales.
 
----
-
 ## Afrontando las oportunidades de nuestros competidores
 
 ### Oportunidades detectadas en el mercado:
@@ -276,9 +272,7 @@ Expandir ParkUp como solución plug & play para estacionamientos medianos y pequ
 - Identificar distritos con alta densidad vehicular pero baja presencia de apps de parking (ej. Lince, Surquillo, Breña).
 - Ofrecer planes B2B a propietarios con sistemas antiguos para integrar ParkUp con hardware mínimo.
 - Asistir a ferias de tecnología urbana y movilidad para visibilizar el modelo.
-
----
-
+  
 ## Afrontando las amenazas de nuestros competidores
 
 ### Amenazas comunes del mercado:
