@@ -83,16 +83,6 @@
 ### [Capítulo II: Needfinding](#capítulo-ii-needfinding)
 - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)  
-
-| Perfil  | Parkner PE  | Apparka | Parkealo  | ParkUp  |
-|:----------------------:|:-------------------------:|:----------------------:|:---------------------:|:------------------------------------------:|
-| **Overview**          | Plataforma web que permite a los usuarios registrar y alquilar espacios de estacionamiento privados en Lima, operando principalmente en los distritos de San Isidro y Miraflores. :contentReference[oaicite:1]{index=1} | Aplicación móvil que facilita la búsqueda, reserva y pago de estacionamientos en Lima, ofreciendo opciones de pago como tarjeta de crédito, débito y su monedero digital "Apparka Wallet". :contentReference[oaicite:2]{index=2} | Plataforma que permite a los usuarios encontrar y reservar estacionamientos urbanos, ofreciendo una variedad de opciones para conductores y propietarios de estacionamientos. | Aplicación móvil que automatiza la experiencia de estacionamiento, incluyendo lectura de placas, vinculación con usuarios y pagos automáticos, mejorando la eficiencia y comodidad del proceso. |
-| **Mercado Objetivo**  | Conductores en Lima que buscan alquilar espacios de estacionamiento privados, especialmente en áreas con alta demanda como San Isidro y Miraflores. | Usuarios en Lima que requieren estacionamiento en zonas urbanas, incluyendo tanto conductores frecuentes como ocasionales. | Propietarios de estacionamientos y conductores en Lima que buscan soluciones eficientes para encontrar y reservar espacios de estacionamiento. | Conductores en Lima que buscan una experiencia de estacionamiento sin contacto, con procesos automatizados y pagos simplificados. |
-| **Estrategias**      | - Permitir a los propietarios de espacios libres registrarlos y establecer precios y tiempos de alquiler. <br> - Ofrecer una plataforma que facilite la búsqueda y reserva de estacionamientos. <br> - Expandirse a otros distritos y países. :contentReference[oaicite:3]{index=3} | - Integración con estacionamientos existentes en Lima. <br> - Ofrecer múltiples métodos de pago, incluyendo su propio monedero digital. <br> - Proporcionar información en tiempo real sobre disponibilidad y tarifas. | - Crear un marketplace que conecte a propietarios de estacionamientos con conductores. <br> - Ofrecer una plataforma fácil de usar para la reserva y gestión de espacios. | - Automatizar el proceso de estacionamiento desde la llegada hasta la salida. <br> - Integrar tecnología de lectura de placas y pagos automáticos. <br> - Mejorar la experiencia del usuario con interfaces intuitivas. |
-| **Ventaja Competitiva** | - Permite a los usuarios generar ingresos alquilando sus espacios privados. <br> - Ofrece una amplia variedad de opciones en zonas clave de Lima. | - Proporciona una solución integral para encontrar, reservar y pagar estacionamientos. <br> - Facilita el proceso con múltiples opciones de pago y gestión de tiempo. | - Amplia base de datos de estacionamientos disponibles en Lima. <br> - Plataforma intuitiva que simplifica la reserva y gestión de espacios. | - Proceso completamente automatizado que reduce tiempos y errores. <br> - Integración de tecnología avanzada para una experiencia sin fricciones. |
-| **Canal de distribución** | - Plataforma web accesible desde cualquier navegador. <br> - Aplicación móvil disponible para Android e iOS. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de estacionamientos locales. | - Aplicación móvil disponible para Android e iOS. <br> - Plataforma web para gestión de estacionamientos. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de gestión de estacionamientos y dispositivos IoT. |
-
-
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
 - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
@@ -229,9 +219,85 @@
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
-
+  
+| Perfil  | Parkner PE  | Apparka | Parkealo  | ParkUp  |
+|:----------------------:|:-------------------------:|:----------------------:|:---------------------:|:------------------------------------------:|
+| **Overview**          | Plataforma web que permite a los usuarios registrar y alquilar espacios de estacionamiento privados en Lima, operando principalmente en los distritos de San Isidro y Miraflores. :contentReference[oaicite:1]{index=1} | Aplicación móvil que facilita la búsqueda, reserva y pago de estacionamientos en Lima, ofreciendo opciones de pago como tarjeta de crédito, débito y su monedero digital "Apparka Wallet". :contentReference[oaicite:2]{index=2} | Plataforma que permite a los usuarios encontrar y reservar estacionamientos urbanos, ofreciendo una variedad de opciones para conductores y propietarios de estacionamientos. | Aplicación móvil que automatiza la experiencia de estacionamiento, incluyendo lectura de placas, vinculación con usuarios y pagos automáticos, mejorando la eficiencia y comodidad del proceso. |
+| **Mercado Objetivo**  | Conductores en Lima que buscan alquilar espacios de estacionamiento privados, especialmente en áreas con alta demanda como San Isidro y Miraflores. | Usuarios en Lima que requieren estacionamiento en zonas urbanas, incluyendo tanto conductores frecuentes como ocasionales. | Propietarios de estacionamientos y conductores en Lima que buscan soluciones eficientes para encontrar y reservar espacios de estacionamiento. | Conductores en Lima que buscan una experiencia de estacionamiento sin contacto, con procesos automatizados y pagos simplificados. |
+| **Estrategias**      | - Permitir a los propietarios de espacios libres registrarlos y establecer precios y tiempos de alquiler. <br> - Ofrecer una plataforma que facilite la búsqueda y reserva de estacionamientos. <br> - Expandirse a otros distritos y países. :contentReference[oaicite:3]{index=3} | - Integración con estacionamientos existentes en Lima. <br> - Ofrecer múltiples métodos de pago, incluyendo su propio monedero digital. <br> - Proporcionar información en tiempo real sobre disponibilidad y tarifas. | - Crear un marketplace que conecte a propietarios de estacionamientos con conductores. <br> - Ofrecer una plataforma fácil de usar para la reserva y gestión de espacios. | - Automatizar el proceso de estacionamiento desde la llegada hasta la salida. <br> - Integrar tecnología de lectura de placas y pagos automáticos. <br> - Mejorar la experiencia del usuario con interfaces intuitivas. |
+| **Ventaja Competitiva** | - Permite a los usuarios generar ingresos alquilando sus espacios privados. <br> - Ofrece una amplia variedad de opciones en zonas clave de Lima. | - Proporciona una solución integral para encontrar, reservar y pagar estacionamientos. <br> - Facilita el proceso con múltiples opciones de pago y gestión de tiempo. | - Amplia base de datos de estacionamientos disponibles en Lima. <br> - Plataforma intuitiva que simplifica la reserva y gestión de espacios. | - Proceso completamente automatizado que reduce tiempos y errores. <br> - Integración de tecnología avanzada para una experiencia sin fricciones. |
+| **Canal de distribución** | - Plataforma web accesible desde cualquier navegador. <br> - Aplicación móvil disponible para Android e iOS. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de estacionamientos locales. | - Aplicación móvil disponible para Android e iOS. <br> - Plataforma web para gestión de estacionamientos. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de gestión de estacionamientos y dispositivos IoT. |  
+  
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+# Estrategias y Tácticas de ParkUp frente a la Competencia
+
+## Afrontando las fortalezas de nuestros competidores
+
+### Fortalezas identificadas en los competidores:
+- Amplia base de usuarios y presencia consolidada (ej. Apparka con Los Portales).
+- Interfaces simples con información clara de tarifas y horarios.
+- Variedad de métodos de pago y facilidad de uso.
+- Disponibilidad en zonas céntricas y de alta demanda.
+
+### Fortalezas propias de ParkUp:
+- Flujo 100% automatizado: desde lectura de placa hasta pago sin intervención del usuario.
+- Experiencia sin contacto y sin tickets.
+- Vinculación inteligente entre QR, usuario y vehículo.
+- Interfaz moderna orientada a usuarios tech-savvy.
+- Posibilidad de integración con sistemas de parking y dispositivos IoT.
+
+### Estrategia:
+Desarrollar una ventaja basada en tecnología de automatización y UX fluida, que reduzca la fricción del usuario al mínimo, superando a las apps tradicionales que aún requieren intervención manual.
+
+### Tácticas:
+- Potenciar campañas que comuniquen la experiencia “sin sacar el celular” como propuesta de valor diferenciadora.
+- Implementar mejoras constantes en lectura de placas y eficiencia del flujo de entrada/salida.
+- Incluir comparativas visuales en redes sociales entre la experiencia ParkUp vs. tickets o apps tradicionales.
+
+---
+
+## Afrontando las oportunidades de nuestros competidores
+
+### Oportunidades detectadas en el mercado:
+- Expansión geográfica a más distritos y ciudades con alto tráfico.
+- Alianzas con centros comerciales, supermercados, clínicas y universidades.
+- Posibilidad de convertirse en plataforma de referencia para movilidad urbana.
+
+### Oportunidades propias de ParkUp:
+- Crecimiento de la demanda de soluciones sin contacto post-pandemia.
+- Interés creciente en eficiencia tecnológica en ciudades como Lima.
+- Nicho aún poco explotado de “parking inteligente” con automatización completa.
+
+### Estrategia:
+Expandir ParkUp como solución plug & play para estacionamientos medianos y pequeños que aún no están digitalizados, empezando por zonas donde otras apps no tienen cobertura.
+
+### Tácticas:
+- Identificar distritos con alta densidad vehicular pero baja presencia de apps de parking (ej. Lince, Surquillo, Breña).
+- Ofrecer planes B2B a propietarios con sistemas antiguos para integrar ParkUp con hardware mínimo.
+- Asistir a ferias de tecnología urbana y movilidad para visibilizar el modelo.
+
+---
+
+## Afrontando las amenazas de nuestros competidores
+
+### Amenazas comunes del mercado:
+- Dominio de marcas ya establecidas con alianzas estratégicas.
+- Preferencia de usuarios por apps conocidas o vinculadas a marcas inmobiliarias.
+- Sensibilidad al precio o al modelo tradicional de ticket físico.
+
+### Amenazas particulares de ParkUp:
+- Ser percibidos como “demasiado nuevo” o complejo en comparación a soluciones tradicionales.
+- Requiere más educación del usuario sobre su modelo automatizado.
+
+### Estrategia:
+Adoptar una estrategia de comunicación educativa y experiencial, donde el usuario descubra el valor de ParkUp al vivirlo (más que solo leerlo).
+
+### Tácticas:
+- Crear contenido en redes mostrando el paso a paso de un usuario real usando ParkUp (incluyendo el "no sacar el celular").
+- Incentivar recomendaciones con recompensas por referidos.
+- Generar alianzas con pequeños operadores para mostrar casos de éxito reales.  
+  
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
@@ -265,7 +331,7 @@
 9. ¿Te sentirías cómodo con un sistema que detecta automáticamente las placas y realiza los cobros sin que tú intervengas?
 
 
-   
+
 ### 2.2.2. Registro de entrevistas
 
 ### 2.2.3. Análisis de entrevistas
