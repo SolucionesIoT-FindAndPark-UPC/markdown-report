@@ -264,6 +264,56 @@
 
 ### 2.3.1. User Personas
 
+Como parte del análisis centrado en el usuario, se realizaron entrevistas semiestructuradas a personas representativas de nuestros segmentos objetivo. Estas entrevistas permitieron identificar patrones comunes en sus necesidades, comportamientos, frustraciones y expectativas en torno al proceso de entrada y salida en estacionamientos.
+
+Se priorizó extraer información sobre los siguientes aspectos clave:
+
+- **Frecuencia y contexto de uso del estacionamiento**, incluyendo zonas de alta congestión o acceso restringido.
+- **Interacción actual con sistemas de pago**, validación o ingreso (boletos físicos, apps, sensores, etc.). 
+- **Problemas recurrentes o puntos de fricción** (colas, fallos en reconocimiento de placas, confusión en las apps, tiempos muertos). 
+- **Grado de familiaridad con la tecnología actual de vehículos y parking**, especialmente en relación con sensores vehiculares, apps móviles y plataformas de monitoreo. 
+- **Expectativas respecto a una experiencia fluida**, sin necesidad de intervención humana o validaciones manuales.
+
+A partir del análisis de esta información y de un benchmarking de soluciones similares en el mercado, se construyeron dos fichas de User Persona que representan a los principales usuarios de la solución propuesta:
+
+- **Diego Luxemburgo**, conductor urbano que busca eficiencia y simplicidad al momento de estacionar. 
+- **Dina Zimbabue**, administradora de estacionamientos que necesita control, automatización y reducción de la carga operativa.
+
+Ambos perfiles fueron elaborados utilizando la herramienta UXPressia, siguiendo las mejores prácticas en diseño UX y representando arquetipos realistas y accionables para el diseño posterior del sistema.
+
+**1. Diego Luxemburgo**
+
+![2.3.1-User-Persona-Diego-Luxemburgo.png](assets/capitulo-2/2.3.1-User-Persona-Diego-Luxemburgo.png)
+
+**Preferencia de ingreso:**
+
+![chart1.png](assets/capitulo-2/chart1.png)
+
+**Problemas frecuentes:**
+
+![chart2.png](assets/capitulo-2/chart2.png)
+
+**Nivel tecnológico:**
+
+![chart3.png](assets/capitulo-2/chart3.png)
+
+**2. Dina Zimbabue**
+
+![2.3.1-User-Persona-Dina-Zimbabue.png](assets/capitulo-2/2.3.1-User-Persona-Dina-Zimbabue.png)
+
+**Dispositivos de gestión:**
+
+![chart4.png](assets/capitulo-2/chart4.png)
+
+**Problemas de gestión:**
+
+![chart5.png](assets/capitulo-2/chart5.png)
+
+**Nivel tecnológico:**
+
+![chart6.png](assets/capitulo-2/chart6.png)
+
+
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping

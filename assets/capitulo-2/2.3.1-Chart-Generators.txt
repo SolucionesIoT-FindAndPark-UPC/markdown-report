@@ -1,0 +1,164 @@
+// ✅ Chart 1 – Preferencia de ingreso por usuario
+
+{
+  type: 'pie',
+  data: {
+    labels: ['Automático (placa)', 'QR', 'Ticket físico'],
+    datasets: [{
+      label: 'Preferencia de ingreso',
+      data: [2, 1, 0], // 2 eligieron automático, 1 eligió QR
+      backgroundColor: ['#2ECC71', '#F1C40F', '#E67E22'],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: 'Conductores – Preferencia de Ingreso'
+      },
+      legend: {
+        position: 'top'
+      }
+    }
+  }
+}
+
+
+// ✅ Chart 2 – Problema más frecuente al estacionar
+
+{
+  type: 'pie',
+  data: {
+    labels: ['Colas para pagar', 'Fallo lector placas', 'Pérdida de ticket'],
+    datasets: [{
+      label: 'Problemas frecuentes',
+      data: [1, 1, 1], // Cada uno tuvo un problema diferente
+      backgroundColor: ['#E74C3C', '#3498DB', '#9B59B6'],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: 'Conductores – Problemas Frecuentes'
+      },
+      legend: {
+        position: 'top'
+      }
+    }
+  }
+}
+
+// ✅ Chart 3 – Nivel de habilidad tecnológica
+
+{
+  type: 'pie',
+  data: {
+    labels: ['Alto', 'Medio', 'Bajo'],
+    datasets: [{
+      label: 'Habilidad tecnológica',
+      data: [2, 1, 0], // 2 con alta, 1 con media
+      backgroundColor: ['#1ABC9C', '#F39C12', '#BDC3C7'],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: 'Conductores – Nivel Tecnológico'
+      },
+      legend: {
+        position: 'top'
+      }
+    }
+  }
+}
+
+// ✅ Chart 4 – Dispositivo de gestión usado
+
+{
+  type: 'pie',
+  data: {
+    labels: ['Plataforma web', 'Excel/manual', 'App móvil'],
+    datasets: [{
+      label: 'Dispositivos usados',
+      data: [1, 1, 1], // Cada uno usa uno distinto
+      backgroundColor: ['#2980B9', '#F39C12', '#8E44AD'],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: 'Administradores – Dispositivos de Gestión'
+      },
+      legend: {
+        position: 'top'
+      }
+    }
+  }
+}
+
+// ✅ Chart 5 – Dolor principal en su gestión
+
+{
+  type: 'pie',
+  data: {
+    labels: ['Pérdida de tickets', 'Errores humanos', 'Poca visibilidad en tiempo real'],
+    datasets: [{
+      label: 'Problemas de gestión',
+      data: [1, 1, 1], // 1 respuesta por ítem
+      backgroundColor: ['#E74C3C', '#95A5A6', '#16A085'],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: 'Administradores – Problemas de Gestión'
+      },
+      legend: {
+        position: 'top'
+      }
+    }
+  }
+}
+
+// ✅ Chart 6 – Nivel de habilidad tecnológica
+
+{
+  type: 'pie',
+  data: {
+    labels: ['Alto', 'Medio', 'Bajo'],
+    datasets: [{
+      label: 'Habilidad tecnológica',
+      data: [1, 1, 1], // Un administrador por nivel
+      backgroundColor: ['#2ECC71', '#F1C40F', '#E67E22'],
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      title: {
+        display: true,
+        text: 'Administradores – Nivel Tecnológico'
+      },
+      legend: {
+        position: 'top'
+      }
+    }
+  }
+}
+
+
