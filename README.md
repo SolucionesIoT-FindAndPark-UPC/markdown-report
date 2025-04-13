@@ -384,6 +384,62 @@ Dina es administradora de varios estacionamientos privados y/o corporativos en L
 
 ## 2.4. Ubiquitous Language
 
+Para mantener un lenguaje estándar en el equipo de trabajo y asegurar una comunicación clara entre desarrolladores, diseñadores, stakeholders y otros participantes del proyecto, se ha definido un Lenguaje Ubicuo basado en los principios de Domain-Driven Design (DDD).
+
+Este glosario formaliza los términos clave utilizados en el dominio del sistema de estacionamiento inteligente para ParkUp, con el objetivo de evitar ambigüedades, mejorar la trazabilidad entre conceptos de negocio y su representación en el software.
+
+1. **VehicleSession**: El ciclo completo de la presencia de un vehículo en el sistema de estacionamiento, desde que es detectado al ingresar hasta que se confirma su salida.
+
+2. **AutoEntry**: Proceso mediante el cual un vehículo es reconocido (por placa, sensores o etiquetas) y se le permite el ingreso sin interacción manual.
+
+3. **AutoExit**: Proceso de reconocimiento de la intención de salida del vehículo y ejecución automática de la salida, incluyendo el cálculo de tarifas y apertura de barrera si aplica.
+
+4. **RecognitionUnit**: Subsistema (hardware y software) encargado de identificar vehículos mediante reconocimiento de placas, RFID o BLE.
+
+5. **ParkingCredential**: Identificador virtual que permite al sistema reconocer un vehículo o usuario. Puede ser una placa, una ID móvil, una etiqueta, etc.
+
+6. **FrictionlessFlow**: Estado del sistema en el cual los vehículos ingresan y salen sin detenerse ni interactuar físicamente o digitalmente.
+
+7. **SmartBarrier**: Barrera conectada vía IoT que se abre automáticamente al verificar correctamente una ParkingCredential válida.
+
+8. **AccessEvent**: Evento registrado por el sistema al detectar el ingreso o salida de un vehículo.
+
+9. **SessionAlert**: Notificación en tiempo real al administrador ante eventos inusuales como placas no reconocidas, estancias prolongadas o intento de ingreso múltiple.
+
+10. **Zone**: Área física definida dentro del estacionamiento (ej. Zona de Entrada, Zona de Salida, Zona de Administración), usada para lógica del sistema y mapeo de eventos.
+
+11. **ParkingProfile**: Configuración específica por usuario que define su comportamiento en entradas, salidas, alertas, preferencias de pago y reconocimiento.
+
+12. **FastTrackLane**: Carril dedicado para usuarios con ParkingCredential válida y alta fiabilidad de reconocimiento. Optimiza la fluidez.
+
+13. **PlateMismatch**: Evento en el cual el sistema no puede asociar una placa detectada con ninguna ParkingCredential registrada, lo que genera un SessionAlert.
+
+14. **AdminConsole**: Interfaz usada por administradores para monitorear AccessEvents, configurar el sistema, recibir alertas y generar reportes.
+
+15. **ManualOverride**: Acción administrativa que omite el sistema automático debido a excepciones como fallos de reconocimiento o caídas del sistema.
+
+16. **RecognitionConfidence**: Valor porcentual que indica el nivel de certeza con que el sistema reconoce una placa o vehículo. Se usa para decidir acciones automáticas o alertas.
+
+17. **UserIntent**: Intención inferida del conductor al acercarse al sistema (por ejemplo: entrar, salir, detenerse brevemente), utilizada para anticipar respuestas del sistema.
+
+18. **QueueEvacuation**: Respuesta automática para evitar congestión en entradas/salidas durante horas pico, activando todas las SmartBarriers para evacuar rápidamente.
+
+19. **TicketlessSession**: Sesión de estacionamiento completada sin emisión de tickets físicos o virtuales.
+
+20. **AccessAudit**: Registro detallado de todos los AccessEvents y decisiones del sistema relacionadas con una VehicleSession específica. Útil para auditoría y soporte.
+
+21. **IdentityVerificationFallback**: Método alternativo de verificación usado cuando la ParkingCredential principal falla (ej. reconocimiento facial, confirmación vía app).
+
+22. **FastExit**: Función para usuarios preautorizados que permite salir de inmediato gracias a credenciales y pagos almacenados, sin necesidad de detenerse.
+
+23. **OperationalSilence**: Estado ideal del sistema donde no se requiere atención del usuario ni intervención del administrador.
+
+24. **EntryAnomaly**: Comportamiento inusual durante el ingreso, como demoras en el reconocimiento, ingreso de múltiples vehículos, o placas conflictivas.
+
+25. **StaffBypass**: Mecanismo que permite a personal autorizado saltarse los pasos de reconocimiento mediante credenciales especiales o interruptores manuales.
+
+
+
 
 # Capítulo III: Requirements Specification
 
