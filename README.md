@@ -1089,12 +1089,21 @@ En esta sección se definirán las guías visuales clave para el diseño de **Pa
 Es fundamental considerar las decisiones y elementos visuales que respaldan los principios generales de diseño para **ParkUp**. Por esta razón, resulta esencial definir aspectos clave como la identidad de marca, la paleta de colores y la tipografía. Además, es necesario establecer el tono de comunicación y el lenguaje utilizado, que abarcan características como divertido o serio, formal o casual, respetuoso o irreverente, y entusiasta o sereno.
 
 **Branding:**
+
+<p align="center">
+  <img src="Resources/Cap5/ParkUp.jpg" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
 **ParkUp** representa innovación, confianza y eficiencia en la gestión y vigilancia inteligente de parqueos. Nuestra esencia radica en ofrecer soluciones tecnológicas modernas que permiten monitorear, optimizar y mejorar la seguridad en los espacios de estacionamiento. La marca es sinónimo de precisión, confiabilidad y una experiencia de usuario simplificada, orientada a un entorno urbano inteligente.
 
 **Logotipo:**
 El logotipo de **ParkUp** refleja la identidad de una marca moderna, segura y tecnológica. Mediante una combinación de colores vivos y un diseño minimalista pero sofisticado, el logo simboliza la eficiencia, la confianza y el uso de tecnología de vanguardia en la vigilancia de parqueo. Este logotipo debe transmitir una imagen clara de control, innovación y accesibilidad para usuarios y operadores.
 
 **Colores:**
+
+<p align="center">
+  <img src="Resources/Cap5/paleta.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
 
 Se ha utilizado los colores blanco, negro y azul oscuro como colores principales para nuestro diseño.
 
@@ -1109,35 +1118,133 @@ Los tonos grises se utilizan para los textos secundarios, bordes de campos de en
 
 **Tipografía:**
 
+<p align="center">
+  <img src="Resources/Cap5/tipografia.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
 La tipografía utilizada para **ParkUp** es **Inter** , la cual es, moderna y legible, con líneas limpias y claras. Se ha elegido una fuente que refleje la tecnología y la seguridad de la marca, mientras mantiene un aspecto novedoso y actual. Usaremos las variantes Regular, Medium, Semi-Bold y Bold.
 
 **Tonos de Comunicación:**
 
-- Formal / Confiable:
-En ParkUp adoptamos un tono formal y profesional que transmite confianza y responsabilidad, especialmente en lo relacionado a la seguridad del usuario y la gestión de sus reservas. Sin embargo, mantenemos una comunicación cercana y comprensible, accesible para todos los usuarios que buscan una solución eficiente para estacionar.
+- **Formal / Confiable:**
+En **ParkUp** adoptamos un tono formal y profesional que transmite confianza y responsabilidad, especialmente en lo relacionado a la seguridad del usuario y la gestión de sus reservas. Sin embargo, mantenemos una comunicación cercana y comprensible, accesible para todos los usuarios que buscan una solución eficiente para estacionar.
 <br>
-- Respetuoso / Cercano:
+
+- **Respetuoso / Cercano:**
 Siempre nos comunicamos con respeto, claridad y empatía. Entendemos las frustraciones comunes en la búsqueda de estacionamiento y respondemos con soluciones y mensajes que conectan con las verdaderas necesidades de nuestros usuarios, manteniendo una relación transparente y honesta.
 <br>
-- Entusiasta / Sereno:
-Transmitimos entusiasmo por cambiar la forma en que las personas se estacionan en la ciudad, destacando nuestra innovación tecnológica y eficiencia. Al mismo tiempo, mantenemos un tono sereno y confiable que le brinda al usuario la tranquilidad de saber que su experiencia con ParkUp será rápida, segura y sin complicaciones.
+
+- **Entusiasta / Sereno:**
+Transmitimos entusiasmo por cambiar la forma en que las personas se estacionan en la ciudad, destacando nuestra innovación tecnológica y eficiencia. Al mismo tiempo, mantenemos un tono sereno y confiable que le brinda al usuario la tranquilidad de saber que su experiencia con **ParkUp** será rápida, segura y sin complicaciones.
 <br>
 
 </div>
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
-## 5.2. Information Architecture
+<div align="justify">
 
+**ParkUp** contempla integraciones con sensores de parqueo, barreras automáticas y señalización inteligente. Para esto, se plantean las siguientes guías:
+
+- Estándares abiertos: Comunicación basada en protocolos como MQTT o REST para interoperabilidad con sensores de disponibilidad o control de acceso.
+
+- Feedback visual en tiempo real: Integración con señaléticas LED en los estacionamientos para indicar espacios libres, reservados o en uso, sincronizados con la app.
+
+- Autenticación con QR/NFC: Permitir que los usuarios puedan ingresar a espacios reservados escaneando un código QR o utilizando tecnología NFC desde su móvil.
+
+- Integración de Pagos: Incorporación de métodos de pago como Yape, Plin y tarjetas de crédito o débito, con el objetivo de agilizar el proceso de pago por estacionamiento y eliminar la necesidad de hacer colas.
+
+</div>
+
+## 5.2. Information Architecture
 ### 5.2.1. Organization Systems
+
+<div align="justify">
+
+La aplicación **ParkUp** ofrecerá una interfaz clara e intuitiva gracias a una estructura organizativa lógica que facilitará la gestión de estacionamientos tanto para conductores como para operadores. Los principios de organización de la información asegurarán que los usuarios puedan navegar fácilmente entre ubicaciones, reservas, reportes y configuraciones, maximizando la eficiencia en la experiencia de estacionamiento inteligente.
+
+Jerarquía visual (Visual Hierarchy): En la página principal del usuario, **ParkUp** presentará un tablero con métricas clave como el número de reservas activas, espacios disponibles cercanos y tiempo restante en el estacionamiento actual. Esta jerarquía visual resaltará los datos más relevantes mediante gráficos de ocupación, íconos llamativos y colores de estado (verde, amarillo, rojo), facilitando una comprensión rápida del estado de uso sin necesidad de navegación adicional.
+
+Organización secuencial (Step-by-step): Flujos como la creación de una reserva, selección de estacionamiento y confirmación de pago seguirán un esquema paso a paso, guiando al usuario de forma clara y sin ambigüedades. Este enfoque minimizará errores y mejorará la experiencia, especialmente en situaciones de movilidad.
+
+Esquemas de categorización del contenido:
+
+Por ubicación: Los estacionamientos se organizarán por zonas geográficas, lo cual facilitará la búsqueda del espacio más conveniente para cada usuario.
+
+Por tipo de usuario: Conductores frecuentes, visitantes esporádicos y operadores del sistema tendrán interfaces y accesos distintos. Por ejemplo, un operador podrá acceder a estadísticas de ocupación y reportes, mientras que un conductor verá sus reservas, historial y espacios disponibles.
+
+Cronológico: Las reservas, historial de uso y pagos estarán organizados cronológicamente, permitiendo a los usuarios visualizar la evolución de su actividad y acceder rápidamente a tickets anteriores.
+
+Alfabético: Las listas de estacionamientos, configuraciones de cuenta o términos del servicio estarán organizadas alfabéticamente para una navegación más eficiente en secciones estáticas.
+
+Con esta estructura organizativa, **ParkUp** garantizará que los usuarios completen sus procesos de forma eficiente, fluida y estructurada, promoviendo una movilidad urbana más inteligente y colaborativa.
+
+</div>
 
 ### 5.2.2. Labeling Systems
 
+<div align="justify">
+
+En esta sección se presenta el sistema de etiquetado que **ParkUp** utilizará para facilitar la comprensión y navegación dentro de la plataforma, tanto en la aplicación como en la landing page. Los encabezados estarán organizados de forma clara, accesible y adaptada a los distintos perfiles de usuarios.
+
+**Inicio/Home:** Vista principal con acceso a funcionalidades clave, como búsqueda de estacionamientos, reservas activas, historial y notificaciones importantes. Se presentará una introducción breve sobre la misión de **ParkUp**: facilitar el acceso y gestión de parqueo urbano en tiempo real.
+
+**Beneficios/Features:** Se describirán los principales beneficios, como la reserva anticipada, la visualización de espacios disponibles, pagos digitales seguros, y gestión en tiempo real para operadores. También se destacará el valor agregado de la integración con mapas y la experiencia sin fricciones.
+
+**Preguntas Frecuentes/FAQs:** Se responderán preguntas comunes sobre cómo registrarse, realizar reservas, cambiar métodos de pago, cancelar una reserva, etc.
+
+**Contáctanos/Contact Us:** Incluirá canales de atención como correo electrónico, WhatsApp y un formulario de contacto directo para soporte técnico o consultas comerciales.
+
+</div>
+
 ### 5.2.3. SEO Tags and Meta Tags
+
+<div align="justify">
+
+Para optimizar la visibilidad de **ParkUp** en los motores de búsqueda, se definirán las siguientes etiquetas SEO y metadatos para su landing page:
+
+Title: **ParkUp** | Tu estacionamiento inteligente en un clic.
+
+Description: **ParkUp** - Encuentra, paga, reserva tu espacio de parqueo en segundos con tu celular.
+
+Keywords: estacionamiento, parqueo inteligente, reserva de parqueo, movilidad urbana, **ParkUp** app.
+
+Author: **ParkUp** Team
+
+Canonical: ....
+
+</div>
 
 ### 5.2.4. Searching Systems
 
+<div align="justify">
+
+Para mejorar la experiencia de búsqueda dentro de **ParkUp**, se implementará un sistema que combine rapidez, precisión y facilidad de uso:
+
+Búsqueda básica: Campo de búsqueda simple disponible en la pantalla principal, donde los usuarios pueden ingresar direcciones, nombres de estacionamientos o distritos.
+
+Filtros avanzados: Los usuarios podrán filtrar por horario, tipo de vehículo (auto, moto, bicicleta), precios, espacios disponibles, acceso para discapacitados, entre otros.
+
+Ordenación de resultados: Los resultados podrán ordenarse por proximidad, precio (ascendente/descendente), calificación de usuarios o disponibilidad inmediata.
+
+</div>
+
 ### 5.2.5. Navigation Systems
+
+<div align="justify">
+
+La navegación en **ParkUp** se diseñará para ofrecer una experiencia fluida, intuitiva y centrada en las tareas más frecuentes del usuario.
+
+Menú de navegación principal: Disponible en la parte superior o inferior (según dispositivo), con acceso directo a secciones como "Inicio", "Promociones", "Historial", "Rutas", "Sitios", "Perfil".
+
+Búsqueda centralizada: Campo de búsqueda destacado para localizar espacios de parqueo rápidamente según la ubicación actual o una dirección específica.
+
+Botones de acción estratégicos (CTAs): Botones como “Reservar Ahora”, “Ver Mapa”, “Confirmar Pago” y “Finalizar Estancia” estarán claramente identificados y ubicados en lugares clave dentro de cada flujo.
+
+Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema de navegación consistente, con menús de retroceso, iconografía uniforme y rutas claras, tanto para nuevos usuarios como para conductores frecuentes u operadores.
+
+</div>
+
 
 ## 5.3. Landing Page UI Design
 
