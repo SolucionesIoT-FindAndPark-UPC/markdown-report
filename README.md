@@ -767,6 +767,7 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 </div>
 
+
 ## 5.3. Landing Page UI Design
 
 ### 5.3.1. Landing Page Wireframe
