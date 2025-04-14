@@ -645,6 +645,20 @@ Para los administradores de parking, el empathy mapping destaca la presión y el
 
 ### 2.3.5. As-is Scenario Mapping
 
+El As-Is Scenario Mapping es una herramienta que permite visualizar el estado actual de un proceso, identificando qué hacen, piensan y sienten los usuarios en cada fase. Sirve para comprender de manera detallada los pasos, los puntos de dolor y las emociones involucradas en un flujo de trabajo tradicional, facilitando la identificación de oportunidades de mejora.
+
+**As-is Scenario Mapping - Conductores:**
+
+El As-is Scenario Mapping para los conductores revela un proceso tradicional basado en tickets en papel. Al ingresar, los conductores recogen un ticket físico y deben buscar manualmente un espacio de estacionamiento, enfrentándose a incertidumbre y demoras. Durante el pago y la salida, se experimentan largas filas, riesgos de extravío y frustración general por la lentitud del sistema. En cada fase, se aprecia una mezcla de rutina, preocupación y descontento ante la ineficiencia del proceso manual.
+
+![2.3.5-As-Is-Scenario-Mapping-Conductor.jpg](assets/capitulo-2/2.3.5-As-Is-Scenario-Mapping-Conductor.jpg)
+
+**As-is Scenario Mapping - Administradores de parking:**
+
+Para los administradores de parking, el As-Is Scenario Mapping expone una gestión marcada por la dependencia de registros manuales y comprobantes en papel. Las tareas diarias incluyen la anotación de datos, la verificación física mediante rondas y la supervisión a través de cámaras de seguridad, lo que genera una alta carga de trabajo y vulnerabilidad en el control de la información.
+
+![2.3.5-As-Is-Scenario-Mapping-Administrador-Parking.jpg](assets/capitulo-2/2.3.5-As-Is-Scenario-Mapping-Administrador-Parking.jpg)
+
 ## 2.4. Ubiquitous Language
 
 Para mantener un lenguaje estándar en el equipo de trabajo y asegurar una comunicación clara entre desarrolladores, diseñadores, stakeholders y otros participantes del proyecto, se ha definido un Lenguaje Ubicuo basado en los principios de Domain-Driven Design (DDD).
