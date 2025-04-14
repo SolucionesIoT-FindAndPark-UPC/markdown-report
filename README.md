@@ -722,6 +722,20 @@ Este glosario formaliza los términos clave utilizados en el dominio del sistema
 
 ## 3.1. To-Be Scenario Mapping
 
+El to-be scenario mapping es una herramienta que describe cómo será la experiencia ideal del usuario al interactuar con una solución propuesta, como una aplicación móvil o una plataforma web. A través de fases clave del proceso, se detallan las acciones (doing), pensamientos (thinking) y emociones (feeling) de los usuarios al usar el producto, permitiendo visualizar mejoras respecto al escenario actual (as-is). Esta herramienta ayuda a validar si la solución responde a las necesidades del usuario y facilita la identificación de oportunidades para optimizar su experiencia.
+
+**To-Be Scenario Mapping - Conductores:**
+
+El To-Be Scenario Mapping para conductores muestra una experiencia digital fluida y eficiente gracias al uso de la aplicación móvil. Desde el ingreso, los usuarios pueden escanear un código QR para obtener un ticket digital y acceder al sistema del estacionamiento, encontrar espacios disponibles mediante una guía interactiva, realizar pagos sin contacto desde la app y salir del estacionamiento sin fricciones. Este nuevo flujo mejora significativamente la comodidad, reduce tiempos de espera y elimina los puntos de frustración del proceso tradicional.
+
+![3.1-To-Be-Scenario-Mapping-Conductor.jpg](assets/capitulo-3/3.1-To-Be-Scenario-Mapping-Conductor.jpg)
+
+**To-Be Scenario Mapping - Administradores de Parking:**
+
+El To-Be Scenario Mapping para administradores de parking muestra cómo, al usar el sistema web, pueden automatizar el registro de ingresos, monitorear en tiempo real la ocupación, verificar pagos de forma eficiente y gestionar incidencias operativas como pagos no registrados. La digitalización del proceso reduce errores y mejora el control en la gestión diaria del estacionamiento.
+
+![3.1-To-Be-Scenario-Mapping-Administrador-Parking.jpg](assets/capitulo-3/3.1-To-Be-Scenario-Mapping-Administrador-Parking.jpg)
+
 ## 3.2. User Stories
 
 ***Epics***
