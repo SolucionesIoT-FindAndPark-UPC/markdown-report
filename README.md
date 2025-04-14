@@ -946,6 +946,10 @@ El To-Be Scenario Mapping para administradores de parking muestra cómo, al usar
 
 ## 3.3. Impact Mapping
 
+El impact mapping es una técnica visual de planificación estratégica que ayuda a alinear los objetivos de un proyecto con los actores clave, sus comportamientos esperados (impactos) y las funcionalidades necesarias (entregables) para lograr dichos objetivos de forma efectiva.
+
+![3.3-Impact-Mapping.jpg](assets/capitulo-3/3.3-Impact-Mapping.jpg)
+
 ## 3.4. Product Backlog
 
 Utilizaremos la escala de Fibonacci (1/2/3/5/8/13/21) para realizar este valorización de User Stories por Story Points.
