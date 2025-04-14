@@ -331,7 +331,16 @@ Sabremos que hemos tenido éxito cuando al menos el 70% de usuarios completen el
 
 #### 1.2.2.4. Lean UX Canvas
 
-<br><img src=""></img><br>
+| **Sección**    | **Contenido**  |
+|-----------------------------|----------------------------|
+| **1. Problema del negocio** | El proceso de estacionamiento en ciudades como Lima es manual, lento y poco eficiente. Los usuarios pierden tiempo en colas, tickets físicos y pagos manuales. Los operadores tienen operaciones costosas y desactualizadas. |
+| **2. Resultados del negocio** | - Reducir tiempo de ingreso y salida.<br>- Aumentar adopción del sistema.<br>- Generar ingresos por comisiones y planes B2B.<br>- Optimizar operaciones de operadores.<br>- Ser líderes en estacionamiento inteligente en Perú. |
+| **3. Usuarios**             | Segmento 1: Conductores urbanos (20-45 años) que usan apps, buscan rapidez y prefieren experiencias sin contacto.<br>Segmento 2: Operadores de estacionamiento que buscan digitalizar sus servicios y reducir costos. |
+| **4. Beneficios para el usuario** | - No necesita sacar su celular después del escaneo inicial.<br>- Flujo de estacionamiento sin contacto.<br>- Elimina tickets y pagos físicos.<br>- Ahorro de tiempo.<br>- Mayor seguridad y control. |
+| **5. Ideas de solución**    | - App con escaneo QR y vinculación a placa.<br>- Lectura automática de placas.<br>- Confirmación de estacionamiento automatizada.<br>- Pagos digitales o automáticos.<br>- Dashboard para operadores. |
+| **6. Hipótesis**            | - Los usuarios valorarán la experiencia sin contacto.<br>- Los operadores buscarán modernizar su operación.<br>- Éxito si +60% de usuarios son conductores frecuentes y +30% de operadores se suscriben. |
+| **7. Supuestos**            | - Usuarios están dispuestos a cambiar hábitos por comodidad.<br>- Operadores quieren digitalizar sus servicios.<br>- La tecnología de lectura de placas funcionará en distintos entornos.<br>- La app debe ser extremadamente intuitiva. |
+| **8. Métricas**             | - Tasa de adopción mensual.<br>- % de flujos completados sin asistencia.<br>- Número de estacionamientos afiliados.<br>- Tiempo promedio de ingreso/salida.<br>- Satisfacción del usuario (NPS).<br>- Retención mensual.<br>- Ingresos por comisiones y planes. |
 
 ## 1.3. Segmentos objetivo
 
