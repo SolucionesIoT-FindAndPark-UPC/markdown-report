@@ -219,29 +219,29 @@ Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, si
 
 ### 1.2.1. Antecedentes y problemática  
 
-## 1. Who (¿Quién?)
+##### 1. Who (¿Quién?)
 Conductores urbanos en Perú, especialmente en Lima Metropolitana, que necesitan estacionar de manera rápida, eficiente y sin complicaciones. También incluye operadores de playas de estacionamiento interesados en digitalizar y automatizar sus procesos.
 
-## 2. What (¿Qué?)
+##### 2. What (¿Qué?)
 Una aplicación móvil que automatiza la experiencia de estacionamiento mediante lectura de placas, vinculación digital entre vehículo y usuario, y pago sin contacto. Desde el ingreso hasta la salida, el proceso es rápido, seguro y sin necesidad de intervención manual.
 
-## 3. When (¿Cuándo?)
+##### 3. When (¿Cuándo?)
 En el momento en que el conductor necesita ingresar, estacionar o salir de un establecimiento. ParkUp opera en tiempo real, desde que el usuario escanea un QR para iniciar la experiencia, hasta que se le autoriza la salida sin tener que usar su celular nuevamente.
 
-## 4. Where (¿Dónde?)
+##### 4. Where (¿Dónde?)
 En playas de estacionamiento privadas o públicas ubicadas en zonas urbanas de Lima y, próximamente, en otras ciudades del Perú. También se accede desde cualquier dispositivo móvil (iOS o Android).
 
-## 5. Why (¿Por qué?)
+##### 5. Why (¿Por qué?)
 Porque el proceso actual de estacionamiento es lento, anticuado y genera fricciones innecesarias. ParkUp ofrece una alternativa moderna y automatizada que mejora la experiencia del usuario y optimiza la operación para los dueños de los estacionamientos.
 
-## 6. How (¿Cómo?)
+##### 6. How (¿Cómo?)
 - El usuario escanea un QR al llegar.
 - El sistema vincula automáticamente su placa, usuario y sesión.
 - Al estacionarse, se valida su presencia con lectura de placa.
 - El usuario puede pagar automáticamente o convalidar/pagar manualmente.
 - Sale del estacionamiento sin necesidad de tickets ni intervención adicional.
 
-## 7. How much (¿Cuánto?)
+##### 7. How much (¿Cuánto?)
 El uso de ParkUp puede ser gratuito para el usuario final (dependiendo del modelo de negocio), mientras que el operador del estacionamiento paga una comisión por transacción o un plan mensual por digitalizar su sistema. El costo para el usuario es el mismo que pagaría tradicionalmente, pero con mejor experiencia.  
 
 ### 1.2.2. Lean UX Process
@@ -337,18 +337,18 @@ Sabremos que hemos tenido éxito cuando al menos el 70% de usuarios completen el
 
 Se plantearon 2 segmentos claramente diferenciados.
  
-## 1. Conductores Urbanos
+#### 1. Conductores Urbanos
 
-### Descripción del segmento:
+##### Descripción del segmento:
 - Personas entre 20 y 45 años.
 - Se movilizan frecuentemente en ciudades como Lima Metropolitana.
 - Poseen vehículo propio.
 - Estacionan regularmente en centros comerciales, oficinas, clínicas, universidades u otras zonas de alta demanda.
 - Son usuarios activos de smartphones y pagos digitales (Yape, Plin, tarjeta).
 
-## 2. Operadores de Estacionamientos
+#### 2. Operadores de Estacionamientos
 
-### Descripción del segmento:
+##### Descripción del segmento:
 - Administradores o propietarios de playas de estacionamiento, edificios corporativos, centros comerciales o negocios con espacios de estacionamiento.
 - Actualmente utilizan sistemas manuales o semiautomáticos.
 - Buscan digitalizar y optimizar su operación.
