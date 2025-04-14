@@ -82,7 +82,7 @@
 
 ### [Capítulo II: Needfinding](#capítulo-ii-needfinding)
 - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)  
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
 - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
@@ -195,33 +195,251 @@
 
 ### 1.1.1. Descripción de la Startup
 
-### 1.1.2. Perfiles de integrantes del equipo
+En el contexto actual de crecimiento urbano y aumento del parque automotor, encontrar estacionamiento se ha convertido en una experiencia tediosa, lenta e ineficiente para miles de conductores en ciudades como Lima. La mayoría de soluciones tradicionales aún dependen de tickets físicos, interacciones manuales y procesos poco claros que afectan directamente la comodidad del usuario.
+
+**ParkUp** nace como una respuesta a este problema. Es una aplicación móvil peruana que transforma por completo la experiencia de estacionamiento, integrando tecnología de lectura de placas, vinculación inteligente entre QR, vehículo y usuario, y un sistema de pago completamente automatizado. Todo esto se realiza sin necesidad de sacar el celular, después del escaneo inicial. ParkUp reduce los tiempos de entrada, elimina errores y simplifica el proceso de estacionarse con una interfaz moderna y centrada en el usuario.
+
+La propuesta de valor de ParkUp se diferencia claramente de otras aplicaciones disponibles en el mercado peruano, ofreciendo una experiencia sin contacto, eficiente y totalmente digital, adaptada a la vida urbana moderna.  
+  
+Misión:  
+Facilitar y modernizar la experiencia de estacionamiento en entornos urbanos mediante soluciones tecnológicas automatizadas, seguras y sin contacto, que integren al usuario con el sistema de manera intuitiva, eficiente y confiable.  
+
+Visión:  
+Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, siendo referentes en innovación, automatización y experiencia de usuario, para transformar la manera en que las personas se movilizan y estacionan.  
+
+### 1.1.2. Perfiles de integrantes del equipo  
+
+| |Vargas Revollé, Ariana |
+| |Obispo Rios, Lucero Abigail |
+| |Cuevas Rios, Eric Fernando |
+| |Elsner De La Torre Ugarte, Julio Esteban |
+| |Herrera González, Luis Eduardo |  
 
 ## 1.2. Solution Profile
 
-### 1.2.1. Antecedentes y problemática
+### 1.2.1. Antecedentes y problemática  
+
+##### 1. Who (¿Quién?)
+Conductores urbanos en Perú, especialmente en Lima Metropolitana, que necesitan estacionar de manera rápida, eficiente y sin complicaciones. También incluye operadores de playas de estacionamiento interesados en digitalizar y automatizar sus procesos.
+
+##### 2. What (¿Qué?)
+Una aplicación móvil que automatiza la experiencia de estacionamiento mediante lectura de placas, vinculación digital entre vehículo y usuario, y pago sin contacto. Desde el ingreso hasta la salida, el proceso es rápido, seguro y sin necesidad de intervención manual.
+
+##### 3. When (¿Cuándo?)
+En el momento en que el conductor necesita ingresar, estacionar o salir de un establecimiento. ParkUp opera en tiempo real, desde que el usuario escanea un QR para iniciar la experiencia, hasta que se le autoriza la salida sin tener que usar su celular nuevamente.
+
+##### 4. Where (¿Dónde?)
+En playas de estacionamiento privadas o públicas ubicadas en zonas urbanas de Lima y, próximamente, en otras ciudades del Perú. También se accede desde cualquier dispositivo móvil (iOS o Android).
+
+##### 5. Why (¿Por qué?)
+Porque el proceso actual de estacionamiento es lento, anticuado y genera fricciones innecesarias. ParkUp ofrece una alternativa moderna y automatizada que mejora la experiencia del usuario y optimiza la operación para los dueños de los estacionamientos.
+
+##### 6. How (¿Cómo?)
+- El usuario escanea un QR al llegar.
+- El sistema vincula automáticamente su placa, usuario y sesión.
+- Al estacionarse, se valida su presencia con lectura de placa.
+- El usuario puede pagar automáticamente o convalidar/pagar manualmente.
+- Sale del estacionamiento sin necesidad de tickets ni intervención adicional.
+
+##### 7. How much (¿Cuánto?)
+El uso de ParkUp puede ser gratuito para el usuario final (dependiendo del modelo de negocio), mientras que el operador del estacionamiento paga una comisión por transacción o un plan mensual por digitalizar su sistema. El costo para el usuario es el mismo que pagaría tradicionalmente, pero con mejor experiencia.  
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-#### 1.2.2.2. Lean UX Assumptions
+El problema se presenta cuando los conductores en zonas urbanas del Perú deben enfrentarse a procesos de estacionamiento poco eficientes, con sistemas manuales, colas, tickets físicos, métodos de pago limitados y una experiencia general poco amigable.
+
+Actualmente, el mercado peruano carece de soluciones de estacionamiento verdaderamente automatizadas que permitan una experiencia fluida, sin contacto, rápida y vinculada a la tecnología móvil y sistemas IoT.
+
+ParkUp busca aprovechar esta oportunidad, ofreciendo una solución moderna que transforma radicalmente la experiencia de estacionarse, al digitalizar por completo el proceso: desde la lectura de placas y vinculación del usuario, hasta el pago y salida.
+
+Hemos observado que los usuarios valoran cada vez más la comodidad y rapidez en sus desplazamientos. La experiencia actual de estacionamiento representa una fricción innecesaria en su día a día, mientras que los operadores de playas buscan alternativas para optimizar sus operaciones y digitalizar su infraestructura.
+
+**Pregunta clave:**
+¿Cómo podemos automatizar, simplificar y mejorar la experiencia de estacionamiento urbano para los conductores peruanos a través de tecnología sin contacto, moderna e intuitiva?
+
+#### 1.2.2.2. Lean UX Assumptions  
+
+## Business Assumptions
+
+1. **Creemos que nuestros clientes necesitan:**  
+Una manera eficiente, rápida y sin contacto para estacionar su vehículo sin depender de tickets ni procesos manuales.
+
+2. **Estas necesidades se pueden resolver con:**  
+Una app que automatiza el ingreso, pago y salida del estacionamiento mediante lectura de placas, escaneo de QR y confirmación automática de estacionamiento.
+
+3. **Nuestros clientes iniciales son:**  
+Conductores entre 20 y 45 años en zonas urbanas (principalmente Lima), con uso activo de smartphones y afinidad por soluciones digitales. También operadores de playas de estacionamiento que buscan digitalizar sus operaciones.
+
+4. **El valor #1 que un cliente quiere obtener de nuestro servicio es:**  
+Rapidez, comodidad y una experiencia completamente sin contacto al estacionar.
+
+5. **El cliente también puede tener estos beneficios adicionales:**  
+- Acceso a promociones o beneficios por uso frecuente.  
+- Seguimiento de historial de estacionamientos y gastos.  
+- Posibilidad de recibir recomendaciones de zonas con alta disponibilidad.
+
+6. **Vamos a adquirir la mayoría de nuestros clientes a través de:**  
+Marketing digital (Instagram, TikTok, YouTube), alianzas con playas de estacionamiento y activaciones presenciales.
+
+7. **Haremos dinero a través de:**  
+Comisiones por transacción de pago, planes de suscripción mensual para operadores, y potencial venta de soluciones integradas (software + hardware IoT).
+
+8. **Nuestra principal competencia en el mercado será:**  
+Otras apps de estacionamiento como Apparka y Parkealo. Los superaremos gracias a nuestra propuesta de automatización total y experiencia sin contacto desde el ingreso hasta la salida.
+
+9. **El mayor riesgo del producto es:**  
+Resistencia al cambio por parte de operadores tradicionales y poca educación digital en algunos usuarios.
+
+10. **Resolveremos esto a través de:**  
+Una interfaz extremadamente intuitiva, onboarding simple, pilotos en zonas de alta rotación vehicular y soporte técnico continuo a operadores.
+
+## User Assumptions
+
+- **¿Quién es el usuario?**  
+Conductores entre 20 y 45 años con acceso a smartphones, que se mueven frecuentemente en zonas urbanas de alta congestión vehicular.
+
+- **¿Dónde encaja nuestro producto en su vida?**  
+Se integra en su rutina diaria de transporte y estacionamiento, eliminando una de las partes más tediosas del día: buscar dónde y cómo estacionar.
+
+- **¿Qué problemas resuelve nuestro producto?**  
+Falta de automatización, pérdida de tiempo al ingresar/salir, pagos manuales, tickets físicos, falta de información en tiempo real y métodos de pago limitados.
+
+- **¿Cuándo y cómo se utiliza nuestro producto?**  
+Desde el momento en que se acerca al estacionamiento: escanea el QR, se le lee la placa, se confirma el ingreso, se valida el estacionamiento y se paga al salir (o automáticamente si está configurado).
+
+- **¿Qué características son importantes?**  
+Automatización, seguridad, precisión en lectura de placas, rapidez, facilidad de uso y compatibilidad con múltiples formas de pago.
+
+- **¿Cómo debe verse y comportarse nuestro producto?**  
+Moderno, confiable, limpio visualmente y tan intuitivo que requiera mínima intervención. Compatible con múltiples dispositivos y adaptable a diversos perfiles de usuario.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+**Hypothesis Statement 01:**  
+Creemos que los usuarios iniciales serán conductores entre 20 y 45 años con alto uso de tecnología, que estacionan regularmente en zonas de alta congestión urbana.  
+Sabremos que hemos tenido éxito cuando este grupo represente al menos el 60% de los usuarios activos en nuestra app durante los primeros 6 meses.
+
+**Hypothesis Statement 02:**  
+Creemos que nuestros ingresos vendrán por una combinación de comisiones por transacción, suscripciones mensuales a operadores y venta de hardware IoT.  
+Sabremos que hemos tenido éxito cuando el 30% de los estacionamientos afiliados estén usando un plan de suscripción y tengamos una conversión de al menos 50% de usuarios que pagan mediante la app.
+
+**Hypothesis Statement 03:**  
+Creemos que los usuarios valorarán altamente la experiencia de estacionamiento sin contacto, especialmente si no necesitan sacar su celular después del ingreso.  
+Sabremos que hemos tenido éxito cuando al menos el 70% de usuarios completen el flujo completo sin necesidad de asistencia manual, y reporten una experiencia positiva en encuestas de satisfacción.
+
 #### 1.2.2.4. Lean UX Canvas
+
+| **Sección**    | **Contenido**  |
+|-----------------------------|----------------------------|
+| **1. Problema del negocio** | El proceso de estacionamiento en ciudades como Lima es manual, lento y poco eficiente. Los usuarios pierden tiempo en colas, tickets físicos y pagos manuales. Los operadores tienen operaciones costosas y desactualizadas. |
+| **2. Resultados del negocio** | - Reducir tiempo de ingreso y salida.<br>- Aumentar adopción del sistema.<br>- Generar ingresos por comisiones y planes B2B.<br>- Optimizar operaciones de operadores.<br>- Ser líderes en estacionamiento inteligente en Perú. |
+| **3. Usuarios**             | Segmento 1: Conductores urbanos (20-45 años) que usan apps, buscan rapidez y prefieren experiencias sin contacto.<br>Segmento 2: Operadores de estacionamiento que buscan digitalizar sus servicios y reducir costos. |
+| **4. Beneficios para el usuario** | - No necesita sacar su celular después del escaneo inicial.<br>- Flujo de estacionamiento sin contacto.<br>- Elimina tickets y pagos físicos.<br>- Ahorro de tiempo.<br>- Mayor seguridad y control. |
+| **5. Ideas de solución**    | - App con escaneo QR y vinculación a placa.<br>- Lectura automática de placas.<br>- Confirmación de estacionamiento automatizada.<br>- Pagos digitales o automáticos.<br>- Dashboard para operadores. |
+| **6. Hipótesis**            | - Los usuarios valorarán la experiencia sin contacto.<br>- Los operadores buscarán modernizar su operación.<br>- Éxito si +60% de usuarios son conductores frecuentes y +30% de operadores se suscriben. |
+| **7. Supuestos**            | - Usuarios están dispuestos a cambiar hábitos por comodidad.<br>- Operadores quieren digitalizar sus servicios.<br>- La tecnología de lectura de placas funcionará en distintos entornos.<br>- La app debe ser extremadamente intuitiva. |
+| **8. Métricas**             | - Tasa de adopción mensual.<br>- % de flujos completados sin asistencia.<br>- Número de estacionamientos afiliados.<br>- Tiempo promedio de ingreso/salida.<br>- Satisfacción del usuario (NPS).<br>- Retención mensual.<br>- Ingresos por comisiones y planes. |
 
 ## 1.3. Segmentos objetivo
 
+Se plantearon 2 segmentos claramente diferenciados.
+ 
+#### 1. Conductores Urbanos
+
+##### Descripción del segmento:
+- Personas entre 20 y 45 años.
+- Se movilizan frecuentemente en ciudades como Lima Metropolitana.
+- Poseen vehículo propio.
+- Estacionan regularmente en centros comerciales, oficinas, clínicas, universidades u otras zonas de alta demanda.
+- Son usuarios activos de smartphones y pagos digitales (Yape, Plin, tarjeta).
+
+#### 2. Operadores de Estacionamientos
+
+##### Descripción del segmento:
+- Administradores o propietarios de playas de estacionamiento, edificios corporativos, centros comerciales o negocios con espacios de estacionamiento.
+- Actualmente utilizan sistemas manuales o semiautomáticos.
+- Buscan digitalizar y optimizar su operación.
 
 # Capítulo II: Needfinding
 
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
+  
+| Perfil  | Parkner PE  | Apparka | Parkealo  | ParkUp  |
+|:----------------------:|:-------------------------:|:----------------------:|:---------------------:|:------------------------------------------:|
+| **Overview**          | Plataforma web que permite a los usuarios registrar y alquilar espacios de estacionamiento privados en Lima, operando principalmente en los distritos de San Isidro y Miraflores.| Aplicación móvil que facilita la búsqueda, reserva y pago de estacionamientos en Lima, ofreciendo opciones de pago como tarjeta de crédito, débito y su monedero digital "Apparka Wallet".| Plataforma que permite a los usuarios encontrar y reservar estacionamientos urbanos, ofreciendo una variedad de opciones para conductores y propietarios de estacionamientos. | Aplicación móvil que automatiza la experiencia de estacionamiento, incluyendo lectura de placas, vinculación con usuarios y pagos automáticos, mejorando la eficiencia y comodidad del proceso. |
+| **Mercado Objetivo**  | Conductores en Lima que buscan alquilar espacios de estacionamiento privados, especialmente en áreas con alta demanda como San Isidro y Miraflores. | Usuarios en Lima que requieren estacionamiento en zonas urbanas, incluyendo tanto conductores frecuentes como ocasionales. | Propietarios de estacionamientos y conductores en Lima que buscan soluciones eficientes para encontrar y reservar espacios de estacionamiento. | Conductores en Lima que buscan una experiencia de estacionamiento sin contacto, con procesos automatizados y pagos simplificados. |
+| **Estrategias**      | - Permitir a los propietarios de espacios libres registrarlos y establecer precios y tiempos de alquiler. <br> - Ofrecer una plataforma que facilite la búsqueda y reserva de estacionamientos. <br> - Expandirse a otros distritos y países.| - Integración con estacionamientos existentes en Lima. <br> - Ofrecer múltiples métodos de pago, incluyendo su propio monedero digital. <br> - Proporcionar información en tiempo real sobre disponibilidad y tarifas. | - Crear un marketplace que conecte a propietarios de estacionamientos con conductores. <br> - Ofrecer una plataforma fácil de usar para la reserva y gestión de espacios. | - Automatizar el proceso de estacionamiento desde la llegada hasta la salida. <br> - Integrar tecnología de lectura de placas y pagos automáticos. <br> - Mejorar la experiencia del usuario con interfaces intuitivas. |
+| **Ventaja Competitiva** | - Permite a los usuarios generar ingresos alquilando sus espacios privados. <br> - Ofrece una amplia variedad de opciones en zonas clave de Lima. | - Proporciona una solución integral para encontrar, reservar y pagar estacionamientos. <br> - Facilita el proceso con múltiples opciones de pago y gestión de tiempo. | - Amplia base de datos de estacionamientos disponibles en Lima. <br> - Plataforma intuitiva que simplifica la reserva y gestión de espacios. | - Proceso completamente automatizado que reduce tiempos y errores. <br> - Integración de tecnología avanzada para una experiencia sin fricciones. |
+| **Canal de distribución** | - Plataforma web accesible desde cualquier navegador. <br> - Aplicación móvil disponible para Android e iOS. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de estacionamientos locales. | - Aplicación móvil disponible para Android e iOS. <br> - Plataforma web para gestión de estacionamientos. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de gestión de estacionamientos y dispositivos IoT. |  
+  
+### 2.1.2. Estrategias y tácticas frente a competidores  
 
-### 2.1.2. Estrategias y tácticas frente a competidores
+## Afrontando las fortalezas de nuestros competidores
 
+### Fortalezas identificadas en los competidores:
+- Amplia base de usuarios y presencia consolidada (ej. Apparka con Los Portales).
+- Interfaces simples con información clara de tarifas y horarios.
+- Variedad de métodos de pago y facilidad de uso.
+- Disponibilidad en zonas céntricas y de alta demanda.
+
+### Fortalezas propias de ParkUp:
+- Flujo 100% automatizado: desde lectura de placa hasta pago sin intervención del usuario.
+- Experiencia sin contacto y sin tickets.
+- Vinculación inteligente entre QR, usuario y vehículo.
+- Interfaz moderna orientada a usuarios tech-savvy.
+- Posibilidad de integración con sistemas de parking y dispositivos IoT.
+
+### Estrategia:
+Desarrollar una ventaja basada en tecnología de automatización y UX fluida, que reduzca la fricción del usuario al mínimo, superando a las apps tradicionales que aún requieren intervención manual.
+
+### Tácticas:
+- Potenciar campañas que comuniquen la experiencia “sin sacar el celular” como propuesta de valor diferenciadora.
+- Implementar mejoras constantes en lectura de placas y eficiencia del flujo de entrada/salida.
+- Incluir comparativas visuales en redes sociales entre la experiencia ParkUp vs. tickets o apps tradicionales.
+
+## Afrontando las oportunidades de nuestros competidores
+
+### Oportunidades detectadas en el mercado:
+- Expansión geográfica a más distritos y ciudades con alto tráfico.
+- Alianzas con centros comerciales, supermercados, clínicas y universidades.
+- Posibilidad de convertirse en plataforma de referencia para movilidad urbana.
+
+### Oportunidades propias de ParkUp:
+- Crecimiento de la demanda de soluciones sin contacto post-pandemia.
+- Interés creciente en eficiencia tecnológica en ciudades como Lima.
+- Nicho aún poco explotado de “parking inteligente” con automatización completa.
+
+### Estrategia:
+Expandir ParkUp como solución plug & play para estacionamientos medianos y pequeños que aún no están digitalizados, empezando por zonas donde otras apps no tienen cobertura.
+
+### Tácticas:
+- Identificar distritos con alta densidad vehicular pero baja presencia de apps de parking (ej. Lince, Surquillo, Breña).
+- Ofrecer planes B2B a propietarios con sistemas antiguos para integrar ParkUp con hardware mínimo.
+- Asistir a ferias de tecnología urbana y movilidad para visibilizar el modelo.
+  
+## Afrontando las amenazas de nuestros competidores
+
+### Amenazas comunes del mercado:
+- Dominio de marcas ya establecidas con alianzas estratégicas.
+- Preferencia de usuarios por apps conocidas o vinculadas a marcas inmobiliarias.
+- Sensibilidad al precio o al modelo tradicional de ticket físico.
+
+### Amenazas particulares de ParkUp:
+- Ser percibidos como “demasiado nuevo” o complejo en comparación a soluciones tradicionales.
+- Requiere más educación del usuario sobre su modelo automatizado.
+
+### Estrategia:
+Adoptar una estrategia de comunicación educativa y experiencial, donde el usuario descubra el valor de ParkUp al vivirlo (más que solo leerlo).
+
+### Tácticas:
+- Crear contenido en redes mostrando el paso a paso de un usuario real usando ParkUp (incluyendo el "no sacar el celular").
+- Incentivar recomendaciones con recompensas por referidos.
+- Generar alianzas con pequeños operadores para mostrar casos de éxito reales.  
+  
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
