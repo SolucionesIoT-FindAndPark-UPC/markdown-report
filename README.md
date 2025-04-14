@@ -613,7 +613,7 @@ Es fundamental considerar las decisiones y elementos visuales que respaldan los 
 **Branding:**
 
 <p align="center">
-  <img src="Resources/Cap5/ParkUp.jpg" alt="Imagen extraída de Figma" width="900"/>
+  <img src="assets/Cap5/ParkUp.jpg" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
 **ParkUp** representa innovación, confianza y eficiencia en la gestión y vigilancia inteligente de parqueos. Nuestra esencia radica en ofrecer soluciones tecnológicas modernas que permiten monitorear, optimizar y mejorar la seguridad en los espacios de estacionamiento. La marca es sinónimo de precisión, confiabilidad y una experiencia de usuario simplificada, orientada a un entorno urbano inteligente.
@@ -624,7 +624,7 @@ El logotipo de **ParkUp** refleja la identidad de una marca moderna, segura y te
 **Colores:**
 
 <p align="center">
-  <img src="Resources/Cap5/paleta.png" alt="Imagen extraída de Figma" width="900"/>
+  <img src="assets/Cap5/paleta.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
 Se ha utilizado los colores blanco, negro y azul oscuro como colores principales para nuestro diseño.
@@ -641,7 +641,7 @@ Los tonos grises se utilizan para los textos secundarios, bordes de campos de en
 **Tipografía:**
 
 <p align="center">
-  <img src="Resources/Cap5/tipografia.png" alt="Imagen extraída de Figma" width="900"/>
+  <img src="assets/Cap5/tipografia.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
 La tipografía utilizada para **ParkUp** es **Inter** , la cual es, moderna y legible, con líneas limpias y claras. Se ha elegido una fuente que refleje la tecnología y la seguridad de la marca, mientras mantiene un aspecto novedoso y actual. Usaremos las variantes Regular, Medium, Semi-Bold y Bold.
