@@ -1095,20 +1095,21 @@ Es fundamental considerar las decisiones y elementos visuales que respaldan los 
 **Branding:**
 
 <p align="center">
-  <img src="assets/Cap5/ParkUp.jpg" alt="Imagen extraída de Figma" width="900"/>
+  <img src="assets/capitulo-5/ParkUp.jpg" alt="Imagen extraída de Figma" width="700  "/>
 </p>
+
 
 **ParkUp** representa innovación, confianza y eficiencia en la gestión y vigilancia inteligente de parqueos. Nuestra esencia radica en ofrecer soluciones tecnológicas modernas que permiten monitorear, optimizar y mejorar la seguridad en los espacios de estacionamiento. La marca es sinónimo de precisión, confiabilidad y una experiencia de usuario simplificada, orientada a un entorno urbano inteligente.
 
 **Logotipo:**
 El logotipo de **ParkUp** refleja la identidad de una marca moderna, segura y tecnológica. Mediante una combinación de colores vivos y un diseño minimalista pero sofisticado, el logo simboliza la eficiencia, la confianza y el uso de tecnología de vanguardia en la vigilancia de parqueo. Este logotipo debe transmitir una imagen clara de control, innovación y accesibilidad para usuarios y operadores.
-
+<br>
 **Colores:**
 
 <p align="center">
-  <img src="assets/Cap5/paleta.png" alt="Imagen extraída de Figma" width="900"/>
+  <img src="assets/capitulo-5/paleta.png" alt="Imagen extraída de Figma" width="700"/>
 </p>
-
+<br>
 Se ha utilizado los colores blanco, negro y azul oscuro como colores principales para nuestro diseño.
 
 🔵 Azul oscuro (#2E3447):
@@ -1123,7 +1124,7 @@ Los tonos grises se utilizan para los textos secundarios, bordes de campos de en
 **Tipografía:**
 
 <p align="center">
-  <img src="assets/Cap5/tipografia.png" alt="Imagen extraída de Figma" width="900"/>
+  <img src="assets/capitulo-5/tipografia.png" alt="Imagen extraída de Figma" width="700"/>
 </p>
 
 La tipografía utilizada para **ParkUp** es **Inter** , la cual es, moderna y legible, con líneas limpias y claras. Se ha elegido una fuente que refleje la tecnología y la seguridad de la marca, mientras mantiene un aspecto novedoso y actual. Usaremos las variantes Regular, Medium, Semi-Bold y Bold.
@@ -1252,13 +1253,230 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 ## 5.3. Landing Page UI Design
 
+**Hero Section**
+
+<p align="center">
+  <img src="assets/capitulo-5/Hero.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**About Us**
+
+<p align="center">
+  <img src="assets/capitulo-5/Aboutus.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Our Product**
+
+<p align="center">
+  <img src="assets/capitulo-5/OurProduct.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Description of the Product**
+
+<p align="center">
+  <img src="assets/capitulo-5/Details.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**F&A**
+
+<p align="center">
+  <img src="assets/capitulo-5/F&A.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Contact US**
+
+<p align="center">
+  <img src="assets/capitulo-5/ContactUs.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+
 ### 5.3.1. Landing Page Wireframe
+
+
+**Hero Section**
+
+<p align="center">
+  <img src="assets/capitulo-5/1wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**About Us**
+
+<p align="center">
+  <img src="assets/capitulo-5/2wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Our Product**
+
+<p align="center">
+  <img src="assets/capitulo-5/3wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Description of the Product**
+
+<p align="center">
+  <img src="assets/capitulo-5/4wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**F&A**
+
+<p align="center">
+  <img src="assets/capitulo-5/5wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Contact US**
+
+<p align="center">
+  <img src="assets/capitulo-5/6wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
 
 ### 5.3.2. Landing Page Mock-up
 
 ## 5.4. Applications UX/UI Design
 
+*WEB APPLICATION*
+
+**LOG IN**
+
+<p align="center">
+  <img src="assets/capitulo-5/Login.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**REGISTER**
+
+<p align="center">
+  <img src="assets/capitulo-5/Register.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**REGISTER MALL**
+
+<p align="center">
+  <img src="assets/capitulo-5/mall.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**DASHBOARD**
+
+<p align="center">
+  <img src="assets/capitulo-5/dashboard.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**MONITORING**
+
+<p align="center">
+  <img src="assets/capitulo-5/monitoring.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**PARKING LOT**
+
+<p align="center">
+  <img src="assets/capitulo-5/allotment.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**PARKING FEE ADMINISTRATION**
+
+<p align="center">
+  <img src="assets/capitulo-5/parkingfee.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**STATISTICS**
+
+<p align="center">
+  <img src="assets/capitulo-5/statistics.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+
+**MOBILE APPLICATION**
+
+*REGISTER MALL*
+
+<br>
+
+**SPLASH SCREEN**
+
+<p align="center">
+  <img src="assets/capitulo-5/splashscreen.png" alt="Imagen extraída de Figma" width="400"/>
+</p>
+
+<br>
+
+**SIGN IN**
+
+<p align="center">
+  <img src="assets/capitulo-5/Loginin.png" alt="Imagen extraída de Figma" width="400"/>
+</p>
+
+<br>
+
+**SING UP**
+
+<p align="center">
+  <img src="assets/capitulo-5/signup.png" alt="Imagen extraída de Figma" width="400"/>
+</p>
+
+<br>
+
+**QR CODE SCANNER**
+
+<p align="center">
+  <img src="assets/capitulo-5/QrCode.png" alt="Imagen extraída de Figma" width="400"/>
+</p>
+
+<br>
+
+**SPOT FINDER**
+
+<p align="center">
+  <img src="assets/capitulo-5/Spot.png" alt="Imagen extraída de Figma" width="400"/>
+</p>
+
+<br>
+
+
+
 ### 5.4.1. Applications Wireframes
+
+
+
+
 
 ### 5.4.2. Applications Wireflow Diagrams
 
