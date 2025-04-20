@@ -1070,6 +1070,12 @@ Cada evento se asoció con un comando específico que lo desencadena y un actor 
 
 ![4.1.1-EventStorming-Step-5.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-5.jpg)
 
+**Step 6: Policies**
+
+Durante esta etapa, se identifican los escenarios en el que un evento desencadena la ejecución de un comando 
+
+![4.1.1-EventStorming-Step-6.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-6.jpg)
+
 
 
 #### 4.1.1.1. Candidate Context Discovery
