@@ -1154,6 +1154,57 @@ Lo que queda de la siguiente manera:
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
 
+## 4.2.6. Bounded Context: Monitoring
+
+### 4.2.6.1. Domain Layer
+
+|Entity| 
+|:-------:|:-----:|:----------------------------| 
+|Nombre| Categoria  | Proposito                 |
+|CriticalCase | Entity | Registro de un caso que lleve a la cancelación del pago|
+|:-------:|:-----:|:----------------------------| 
+|Atributos|
+|:-------:|:-----:|:---------------:|:----------|
+|Nombre | Tipo de dato | Visibilidad | Descripción | 
+|id | Long | Private | Identificador Unico | 
+|typeOfViolation | string | Private | tipo de caso critico registrado|
+|vehiclePlate | string | Private | placa del vehiculo involucrado en el caso
+|timestamp | Time | Private | hora de la ocurrencia |
+|handledBy | Long | Private | Id del adminitrador que trato el caso|
+|status | string | Private | estado actual del caso |
+|totalDuration| string | Private | duración total del caso |
+
+### 4.2.6.2. Interface Layer
+
+### 4.2.6.3. Application Layer
+
+### 4.2.6.4. Infrastructure Layer
+
+### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
+
+#### 4.2.6.6.2. Bounded Context Database Design Diagram
+
+## 4.2.7. Bounded Context: Ticket validation
+
+### 4.2.7.1. Domain Layer
+
+### 4.2.7.2. Interface Layer
+
+### 4.2.7.3. Application Layer
+
+### 4.2.7.4. Infrastructure Layer
+
+### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
+
+#### 4.2.7.6.2. Bounded Context Database Design Diagram
 
 # Capítulo V: Solution UI/UX Design
 
