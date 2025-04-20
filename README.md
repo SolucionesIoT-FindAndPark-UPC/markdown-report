@@ -1096,6 +1096,30 @@ Durante esta etapa, se definen y diseñan los agregados para cada contexto del s
 
 #### 4.1.1.1. Candidate Context Discovery
 
+En esta sección, a partir del dominio modelado como EventStorming, se explica y evidencia el proceso realizado para la sesión de Candidate Context Discovery, en la que se busca identificar los bounded contexts. En este proyecto se aplicó la técnica Start-with-Simple. Se descompuso el modelo en procesos secuenciales y se enfoca en la simplicidad a medida que se identifiquen más necesidades. 
+
+Al final, obtuvimos ocho bounded context, que son: 
+
+![4.1.1.1-IAM.jpg](assets/capitulo-4/4.1.1.1-IAM.jpg)
+
+![4.1.1.1-Camera-Feed-On-WebRTC.jpg](assets/capitulo-4/4.1.1.1-Camera-Feed-On-WebRTC.jpg)
+
+![4.1.1.1-Parking-Spots.jpg](assets/capitulo-4/4.1.1.1-Parking-Spots.jpg)
+
+![4.1.1.1-Payments.jpg](assets/capitulo-4/4.1.1.1-Payments.jpg)
+
+![4.1.1.1-Parking-Circulation.jpg](assets/capitulo-4/4.1.1.1-Parking-Circulation.jpg)
+
+![4.1.1.1-Monitoring.jpg](assets/capitulo-4/4.1.1.1-Monitoring.jpg)
+
+![4.1.1.1-Ticket-Validation.jpg](assets/capitulo-4/4.1.1.1-Ticket-Validation.jpg)
+
+![4.1.1.1-Notifications.jpg](assets/capitulo-4/4.1.1.1-Notifications.jpg)
+
+Lo que queda de la siguiente manera: 
+
+![4.1.1.1-Candidate-Context-Discovery.jpg](assets/capitulo-4/4.1.1.1-Candidate-Context-Discovery.jpg)
+
 #### 4.1.1.2. Domain Message Flows Modeling
 
 #### 4.1.1.3. Bounded Context Canvases
