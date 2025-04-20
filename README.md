@@ -1058,6 +1058,13 @@ Durante el proceso, se identificaron los pain points o puntos problemáticos. Es
 ![4.1.1-EventStorming-Step-3.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-3.jpg)
 
 
+**Step 4: Pivotal Points**
+
+Se señalaron los pivotal points o puntos clave, que son eventos críticos que marcan hitos importantes en el flujo de trabajo del sistema. Estos eventos suelen tener un impacto significativo en el comportamiento del sistema o en la experiencia del usuario.
+
+![4.1.1-EventStorming-Step-4.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-4.jpg)
+
+
 #### 4.1.1.1. Candidate Context Discovery
 
 #### 4.1.1.2. Domain Message Flows Modeling
