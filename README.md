@@ -1154,6 +1154,39 @@ Lo que queda de la siguiente manera:
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
 
+## 4.2.8. Bounded Context: Notifications
+
+### 4.2.8.1. Domain Layer
+
+### **Entity: Notification**
+| Nombre      | Categoría | Propósito                                      |
+|-------------|-----------|------------------------------------------------|
+| Notification| Entity    | Representa una notificación que será enviada al usuario. |
+
+#### **Atributos:**
+| Nombre        | Tipo de dato | Visibilidad | Descripción                                                |
+|---------------|--------------|-------------|------------------------------------------------------------|
+| id            | Long         | Private     | Identificador único de la notificación.                    |
+| message       | String       | Private     | Contenido del mensaje de la notificación.                 |
+| status        | String       | Private     | Estado de la notificación (enviado, pendiente, fallido).   |
+| recipient     | String       | Private     | Usuario al que se le envía la notificación.               |
+| timestamp     | LocalDate    | Private     | Fecha y hora en que se generó la notificación.            |
+
+
+### 4.2.8.2. Interface Layer
+
+### 4.2.8.3. Application Layer
+
+### 4.2.8.4. Infrastructure Layer
+
+### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
+
+#### 4.2.8.6.2. Bounded Context Database Design Diagram
+
 
 # Capítulo V: Solution UI/UX Design
 
