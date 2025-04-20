@@ -1285,10 +1285,26 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 <br>
 
+**Endorsed By**
+
+<p align="center">
+  <img src="assets/capitulo-5/EndorsedBy.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
 **F&A**
 
 <p align="center">
   <img src="assets/capitulo-5/F&A.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Testimonials**
+
+<p align="center">
+  <img src="assets/capitulo-5/Testimonials.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
 <br>
@@ -1301,6 +1317,14 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 <br>
 
+
+**Footer**
+
+<p align="center">
+  <img src="assets/capitulo-5/Footer.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
 
 ### 5.3.1. Landing Page Wireframe
 
@@ -1337,6 +1361,12 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 <br>
 
+**Endorsed By**
+
+<p align="center">
+  <img src="assets/capitulo-5/endorsedbywireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
 **F&A**
 
 <p align="center">
@@ -1345,10 +1375,26 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 <br>
 
+**Testimonials**
+
+<p align="center">
+  <img src="assets/capitulo-5/testimonialwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
 **Contact US**
 
 <p align="center">
   <img src="assets/capitulo-5/6wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Footer**
+
+<p align="center">
+  <img src="assets/capitulo-5/footerwireframe&apos;.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
 <br>
