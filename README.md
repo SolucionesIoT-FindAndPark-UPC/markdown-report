@@ -1200,9 +1200,6 @@ Lo que queda de la siguiente manera:
 | **Nombre**     | **Categoría** | **Propósito**                                               |
 |----------------|---------------|--------------------------------------------------------------|
 | Ticket   | Entity        | Registro de un ticket que indica la entrada y salida de un vehiculo del estacionamiento, asi como el pago.  |
-
-#### Atributos
-
 | **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
 |-------------------|------------------|------------------|-------------------------------------------|
 | id                | Long             | Private          | Identificador único para el ticket                       |
@@ -1218,13 +1215,15 @@ Lo que queda de la siguiente manera:
 
 
 | **Nombre**           | **Categoría** | **Propósito**                                              |
-|----------------------|---------------|------------------------------------------------------------|
+|:----------------------|:---------------|:------------------------------------------------------------|
 | TicketsController    | Controller    | Endpoints para la gestión de tickets                       |
+|:----------------------|:---------------|:------------------------------------------------------------|
 | **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                        |
-|------------------|------------------|-----------------|----------------------------------------|
+|:------------------:|:------------------:|:-----------------:|:----------------------------------------|
 | ticketService    | ITicketService   | Private         | Servicio de gestión de tickets         |
+|:------------------:|:------------------:|:-----------------:|:----------------------------------------|
 | **Nombre**       | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                              |
-|------------------|----------------------------------------------|-----------------|--------------------------------------------------------------|
+|:------------------:|:----------------------------------------------:|:-----------------:|:--------------------------------------------------------------|
 | Constructor      | Void                                         | Public          | Constructor del controlador                                   |
 | getTicket        | ResponseEntity<TicketResponseDto>      | Public          | Obtener un ticket por su ID                                   |
 | createTicket     | ResponseEntity<TicketResponseDto>      | Public          | Crear un nuevo ticket                                         |
