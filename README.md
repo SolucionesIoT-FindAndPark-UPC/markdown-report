@@ -1233,13 +1233,13 @@ Lo que queda de la siguiente manera:
 
 ### 4.2.8.3. Application Layer
 
-### **Service Interface: INotificationService**
+**Service Interface: INotificationService**
 
 | Nombre                | Categoría | Propósito                                                      |
 |-----------------------|-----------|----------------------------------------------------------------|
 | INotificationService   | Service   | Operaciones para la gestión de las notificaciones.             |
 
-#### **Métodos:**
+**Métodos:**
 
 | Nombre                  | Tipo de retorno                      | Visibilidad | Descripción                                                     |
 |-------------------------|--------------------------------------|-------------|-----------------------------------------------------------------|
@@ -1250,13 +1250,13 @@ Lo que queda de la siguiente manera:
 
 ---
 
-### **Service Implementation: NotificationServiceImpl**
+**Service Implementation: NotificationServiceImpl**
 
 | Nombre                | Categoría | Propósito                                                      |
 |-----------------------|-----------|----------------------------------------------------------------|
 | NotificationServiceImpl | Service   | Implementación de la lógica de negocio para las notificaciones. |
 
-#### **Atributos:**
+**Atributos:**
 
 | Nombre                 | Tipo de dato      | Visibilidad | Descripción                                                   |
 |------------------------|-------------------|-------------|---------------------------------------------------------------|
@@ -1264,7 +1264,7 @@ Lo que queda de la siguiente manera:
 | modelMapper            | ModelMapper       | Private     | Mapper para transformar entidades y DTOs.                     |
 | restTemplate           | RestTemplate      | Private     | Cliente para hacer llamadas HTTP a servicios externos.        |
 
-#### **Métodos:**
+**Métodos:**
 
 | Nombre                    | Tipo de retorno                      | Visibilidad | Descripción                                                     |
 |---------------------------|--------------------------------------|-------------|-----------------------------------------------------------------|
@@ -1277,6 +1277,24 @@ Lo que queda de la siguiente manera:
 ---
 
 ### 4.2.8.4. Infrastructure Layer
+
+**Repository Interface: INotificationRepository**
+
+| Nombre                 | Categoría   | Propósito                                                      |
+|------------------------|-------------|----------------------------------------------------------------|
+| INotificationRepository | Repository  | Repositorio para manejar las notificaciones almacenadas.       |
+
+**Métodos:**
+
+| Nombre                    | Tipo de retorno           | Visibilidad | Descripción                                                   |
+|---------------------------|---------------------------|-------------|---------------------------------------------------------------|
+| saveNotification           | Notification              | Public      | Guarda una nueva notificación en la base de datos.            |
+| findById                   | Optional<Notification>    | Public      | Encuentra una notificación específica por su ID.              |
+| findByRecipient            | List<Notification>        | Public      | Encuentra todas las notificaciones de un usuario específico.   |
+| findByStatus               | List<Notification>        | Public      | Encuentra las notificaciones por su estado (enviado, pendiente).|
+| deleteNotification         | Void                      | Public      | Elimina una notificación de la base de datos.                 |
+
+---
 
 ### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
 
