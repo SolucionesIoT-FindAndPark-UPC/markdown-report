@@ -1158,23 +1158,28 @@ Lo que queda de la siguiente manera:
 
 ### 4.2.6.1. Domain Layer
 
-|Entity| 
-|:-------:|:-----:|:----------------------------| 
-|Nombre| Categoria  | Proposito                 |
-|CriticalCase | Entity | Registro de un caso que lleve a la cancelación del pago|
-|:-------:|:-----:|:----------------------------| 
-|Atributos|
-|:-------:|:-----:|:---------------:|:----------|
-|Nombre | Tipo de dato | Visibilidad | Descripción | 
-|id | Long | Private | Identificador Unico | 
-|typeOfViolation | string | Private | tipo de caso critico registrado|
-|vehiclePlate | string | Private | placa del vehiculo involucrado en el caso
-|timestamp | Time | Private | hora de la ocurrencia |
-|handledBy | Long | Private | Id del adminitrador que trato el caso|
-|status | string | Private | estado actual del caso |
-|totalDuration| string | Private | duración total del caso |
+
+| **Nombre**     | **Categoría** | **Propósito**                                               |
+|----------------|---------------|--------------------------------------------------------------|
+| CriticalCase   | Entity        | Registro de un caso que lleve a la cancelación del pago     |
+
+#### Atributos
+
+| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
+|-------------------|------------------|------------------|-------------------------------------------|
+| id                | Long             | Private          | Identificador único para el caso          |
+| typeOfViolation   | string           | Private          | Tipo de caso crítico registrado           |
+| vehiclePlate      | string           | Private          | Placa del vehículo involucrado en el caso |
+| timestamp         | Time             | Private          | Hora de la ocurrencia                     |
+| handledBy         | Long             | Private          | ID del administrador que trató el caso    |
+| status            | string           | Private          | Estado actual del caso                    |
+| totalDuration     | string           | Private          | Duración total del caso                   |
 
 ### 4.2.6.2. Interface Layer
+
+| **Nombre**     | **Categoría** | **Propósito**                                               |
+|----------------|---------------|--------------------------------------------------------------|
+| Ticket   | Entity        | Registro de un ticket que indica la entrada y salida de un vehiculo del estacionamiento, asi como el pago.  |
 
 ### 4.2.6.3. Application Layer
 
@@ -1192,10 +1197,89 @@ Lo que queda de la siguiente manera:
 
 ### 4.2.7.1. Domain Layer
 
+| **Nombre**     | **Categoría** | **Propósito**                                               |
+|----------------|---------------|--------------------------------------------------------------|
+| Ticket   | Entity        | Registro de un ticket que indica la entrada y salida de un vehiculo del estacionamiento, asi como el pago.  |
+
+#### Atributos
+
+| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
+|-------------------|------------------|------------------|-------------------------------------------|
+| id                | Long             | Private          | Identificador único para el ticket                       |
+| userId   | string           | Private          | Id de usuario que utilizo la app para entrar al estacionamiento |
+| vehiclePlate      | string           | Private          | Placa del vehículo que ingreso al estacionamiento |
+| entryTime         | Time             | Private          | Hora de entrada del vehiculo     |
+| status        | Long             | Private          | Estado del ticket   |
+| amountCharged            | string           | Private          | Cantidad que pago el usuario por su estancia en el estacionamiento     |
+| paymentStatus     | string           | Private          | Estado actual del pago                   |
+| totalDuration | string | Private | Duración total de la estancia del vehiculo en el estacionamiento |
+
 ### 4.2.7.2. Interface Layer
 
-### 4.2.7.3. Application Layer
 
+| **Nombre**           | **Categoría** | **Propósito**                                              |
+|----------------------|---------------|------------------------------------------------------------|
+| TicketsController    | Controller    | Endpoints para la gestión de tickets                       |
+| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                        |
+|------------------|------------------|-----------------|----------------------------------------|
+| ticketService    | ITicketService   | Private         | Servicio de gestión de tickets         |
+| **Nombre**       | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                              |
+|------------------|----------------------------------------------|-----------------|--------------------------------------------------------------|
+| Constructor      | Void                                         | Public          | Constructor del controlador                                   |
+| getTicket        | ResponseEntity<TicketResponseDto>      | Public          | Obtener un ticket por su ID                                   |
+| createTicket     | ResponseEntity<TicketResponseDto>      | Public          | Crear un nuevo ticket                                         |
+| getTicketHistory | ResponseEntity<Array<TicketResponseDto>>     | Public          | Obtener el historial de tickets de un usuario por su Id   |
+    
+  
+| **Nombre**       | **Categoría** | **Propósito**                                               |
+|------------------|---------------|-------------------------------------------------------------|
+| TicketRequestDto | DTO           | Datos necesarios para crear un nuevo ticket en el sistema   |
+| **Nombre**   | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
+|--------------|------------------|-----------------|-------------------------------------------------------------|
+| vehiclePlate | string           | Private         | Placa del vehículo que ingresará al estacionamiento         |
+| userId       | string           | Private         | ID del usuario que utilizará la app para ingresar           |
+   
+
+| **Nombre**     | **Categoría** | **Propósito**                                               |
+|----------------|---------------|-------------------------------------------------------------|
+| TicketResponseDto | DTO       | Representación de un ticket con los detalles de entrada, salida y pago |
+| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                                                 |
+|-------------------|------------------|-----------------|---------------------------------------------------------------------------------|
+| id                | Long             | Private         | Identificador único del ticket                                                  |
+| userId            | string           | Private         | ID del usuario que utilizó la app para ingresar al estacionamiento              |
+| vehiclePlate      | string           | Private         | Placa del vehículo que ingresó al estacionamiento                               |
+| entryTime         | Time             | Private         | Hora de entrada del vehículo al estacionamiento                                 |
+| status            | Long             | Private         | Estado actual del ticket                                                        |
+| amountCharged     | string           | Private         | Monto que pagó el usuario por su estancia en el estacionamiento                  |
+| paymentStatus     | string           | Private         | Estado actual del pago (ej. "Pagado", "Pendiente")                              |
+| totalDuration     | string           | Private         | Duración total de la estancia del vehículo en el estacionamiento                 |
+
+### 4.2.7.3. Application Layer
+  
+| **Nombre**     | **Categoría** | **Propósito**                                               |
+|----------------|---------------|-------------------------------------------------------------|
+| ITicketService | Interface     | Define las operaciones para la gestión de tickets           |
+| **Nombre**        | **Tipo de retorno**                          | **Descripción**                                              |
+|-------------------|----------------------------------------------|--------------------------------------------------------------|
+| createTicket      | TicketResponseDto                            | Crea un nuevo ticket con la placa del vehículo y el ID del usuario |
+| getTicket         | TicketResponseDto                            | Obtiene un ticket por su ID                                   |
+| getTicketHistory  | List<TicketResponseDto>                         | Obtiene el historial de eventos de un ticket                  |
+  
+  
+| **Nombre**        | **Categoría** | **Propósito**                                               |
+|-------------------|---------------|-------------------------------------------------------------|
+| TicketServiceImpl | Service       | Implementa las operaciones para la gestión de tickets       |
+| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
+|-------------------|------------------|-----------------|-------------------------------------------------------------|
+| ticketRepository  | ITicketRepository | Private         | Repositorio para acceder a los datos de los tickets         |
+| modelMapper       | ModelMapper      | Private         | Mapper para convertir entre entidades y DTOs                |
+| **Nombre**        | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                              |
+|-------------------|----------------------------------------------|-----------------|--------------------------------------------------------------|
+| Constructor       | void                                         | Public          | Constructor de la clase                                      |
+| createTicket      | TicketResponseDto                            | Public          | Crea un nuevo ticket con la placa del vehículo y el ID del usuario |
+| getTicket         | TicketResponseDto                            | Public          | Obtiene un ticket por su ID                                   |
+| getTicketHistory  | List<TicketResponseDto>                         | Public          | Obtiene el historial de eventos de un ticket                  |
+  
 ### 4.2.7.4. Infrastructure Layer
 
 ### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
