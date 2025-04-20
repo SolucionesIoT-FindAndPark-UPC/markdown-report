@@ -1158,32 +1158,237 @@ Lo que queda de la siguiente manera:
 
 ### 4.2.6.1. Domain Layer
 
+### Entidad: CriticalCase
 
 | **Nombre**     | **Categoría** | **Propósito**                                               |
-|----------------|---------------|--------------------------------------------------------------|
+|----------------|---------------|-------------------------------------------------------------|
 | CriticalCase   | Entity        | Registro de un caso que lleve a la cancelación del pago     |
 
 #### Atributos
 
-| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
-|-------------------|------------------|------------------|-------------------------------------------|
-| id                | Long             | Private          | Identificador único para el caso          |
-| typeOfViolation   | string           | Private          | Tipo de caso crítico registrado           |
-| vehiclePlate      | string           | Private          | Placa del vehículo involucrado en el caso |
-| timestamp         | Time             | Private          | Hora de la ocurrencia                     |
-| handledBy         | Long             | Private          | ID del administrador que trató el caso    |
-| status            | string           | Private          | Estado actual del caso                    |
-| totalDuration     | string           | Private          | Duración total del caso                   |
+| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
+|-------------------|------------------|-----------------|-------------------------------------------------------------|
+| id                | Long             | Private         | Identificador único para el caso                            |
+| typeOfViolation   | string           | Private         | Tipo de caso crítico registrado                             |
+| vehiclePlate      | string           | Private         | Placa del vehículo involucrado en el caso                   |
+| timestamp         | Time             | Private         | Hora de la ocurrencia                                       |
+| handledBy         | Long             | Private         | ID del administrador que trató el caso                      |
+| status            | string           | Private         | Estado actual del caso                                      |
+| totalDuration     | string           | Private         | Duración total del caso                                     |
 
 ### 4.2.6.2. Interface Layer
 
-| **Nombre**     | **Categoría** | **Propósito**                                               |
-|----------------|---------------|--------------------------------------------------------------|
-| Ticket   | Entity        | Registro de un ticket que indica la entrada y salida de un vehiculo del estacionamiento, asi como el pago.  |
+### CriticalCaseController  
+| **Nombre**             | **Categoría** | **Propósito**                                               |
+|------------------------|---------------|-------------------------------------------------------------|
+| CriticalCaseController | Controller    | Endpoints para la gestión de casos críticos                 |
+
+| **Nombre**       | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                             |
+|------------------|----------------------------------------------|-----------------|-------------------------------------------------------------|
+| Constructor      | void                                         | Public          | Constructor del controlador                                  |
+| createCriticalCase | ResponseEntity&lt;CriticalCaseResponseDto&gt; | Public          | Crear un nuevo caso crítico                                  |
+| getCriticalCase  | ResponseEntity&lt;CriticalCaseResponseDto&gt; | Public          | Obtener un caso crítico por su ID                            |
+| getAllCriticalCases | ResponseEntity&lt;List&lt;CriticalCaseResponseDto&gt;&gt; | Public          | Obtener todos los casos críticos                             |
+
+#### CriticalCaseRequestDto  
+| **Nombre**       | **Categoría** | **Propósito**                                               |
+|------------------|---------------|-------------------------------------------------------------|
+| CriticalCaseRequestDto | DTO           | Datos necesarios para crear un nuevo caso crítico           |
+
+| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
+|------------------|------------------|-----------------|-------------------------------------------------------------|
+| typeOfViolation  | string           | Private         | Tipo de violación que originó el caso crítico               |
+| vehiclePlate     | string           | Private         | Placa del vehículo involucrado en el caso                   |
+| timestamp        | Time             | Private         | Fecha y hora de la ocurrencia del caso                      |
+| handledBy        | Long             | Private         | ID del administrador que atendió el caso                    |
+
+#### CriticalCaseResponseDto   
+| **Nombre**       | **Categoría** | **Propósito**                                               |
+|------------------|---------------|-------------------------------------------------------------|
+| CriticalCaseResponseDto | DTO           | Representación de un caso crítico con detalles completos    |
+
+| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
+|------------------|------------------|-----------------|-------------------------------------------------------------|
+| id               | Long             | Private         | Identificador único del caso crítico                        |
+| typeOfViolation  | string           | Private         | Tipo de violación que originó el caso crítico               |
+| vehiclePlate     | string           | Private         | Placa del vehículo involucrado en el caso                   |
+| timestamp        | Time             | Private         | Fecha y hora de la ocurrencia del caso                      |
+| handledBy        | Long             | Private         | ID del administrador que atendió el caso                    |
+| status           | string           | Private         | Estado actual del caso (ej. "En proceso", "Resuelto")       |
+| totalDuration    | string           | Private         | Duración total del caso en formato HH:mm:ss                 |
+
+### VehicleMonitoringController
+| **Nombre**                  | **Categoría** | **Propósito**                                               |
+|-----------------------------|---------------|-------------------------------------------------------------|
+| VehicleMonitoringController | Controller    | Gestiona las operaciones relacionadas con los vehículos en el estacionamiento |
+
+#### Atributos
+
+| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
+|----------------|------------------|-----------------|-------------------------------------------------|
+| vehicleService | IVehicleService  | Private         | Servicio para operaciones con vehículos         |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**                  | **Visibilidad** | **Descripción**                                      |
+|----------------------|--------------------------------------|-----------------|------------------------------------------------------|
+| getVehicleStatus     | ResponseEntity<VehicleDto>           | Public          | Obtiene el estado actual de un vehículo por su placa |
+| getAllVehiclesStatus | ResponseEntity<List<VehicleDto>>     | Public          | Obtiene el estado de todos los vehículos             |
+
+### DeviceMonitoringController  
+| **Nombre**                  | **Categoría** | **Propósito**                                               |
+|-----------------------------|---------------|-------------------------------------------------------------|
+| DeviceMonitoringController  | Controller    | Gestiona las operaciones relacionadas con los dispositivos de monitoreo en el estacionamiento |
+
+#### Atributos
+
+| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
+|----------------|------------------|-----------------|-------------------------------------------------|
+| deviceService  | IDeviceService   | Private         | Servicio para operaciones con dispositivos de monitoreo |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**                  | **Visibilidad** | **Descripción**                                      |
+|----------------------|--------------------------------------|-----------------|------------------------------------------------------|
+| getDeviceStatus      | ResponseEntity<DeviceDto>            | Public          | Obtiene el estado actual de un dispositivo por su ID |
+| getAllDevicesStatus  | ResponseEntity<List<DeviceDto>>      | Public          | Obtiene el estado de todos los dispositivos          |
+
 
 ### 4.2.6.3. Application Layer
 
+### ICriticalCaseService  
+| **Nombre**             | **Categoría** | **Propósito**                                               |
+|------------------------|---------------|-------------------------------------------------------------|
+| ICriticalCaseService   | Service       | Define las operaciones para gestionar casos críticos        |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**                          | **Descripción**                                             |
+|----------------------|----------------------------------------------|-------------------------------------------------------------|
+| createCriticalCase   | CriticalCaseResponseDto                      | Crea un nuevo caso crítico                                  |
+| getCriticalCase      | CriticalCaseResponseDto                      | Obtiene un caso crítico por su ID                            |
+| getAllCriticalCases  | List&lt;CriticalCaseResponseDto&gt;           | Obtiene todos los casos críticos                             |
+
+### CriticalCaseServiceImpl  
+| **Nombre**             | **Categoría** | **Propósito**                                               |
+|------------------------|---------------|-------------------------------------------------------------|
+| CriticalCaseServiceImpl | Service       | Implementa las operaciones definidas en ICriticalCaseService |
+
+#### Atributos
+
+| **Nombre**             | **Tipo de dato**         | **Visibilidad** | **Descripción**                                 |
+|------------------------|--------------------------|-----------------|-------------------------------------------------|
+| criticalCaseRepository | ICriticalCaseRepository  | Private         | Repositorio para acceder a los datos de casos críticos |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                             |
+|----------------------|----------------------------------------------|-----------------|-------------------------------------------------------------|
+| createCriticalCase   | CriticalCaseResponseDto                      | Public          | Crea un nuevo caso crítico                                  |
+| getCriticalCase      | CriticalCaseResponseDto                      | Public          | Obtiene un caso crítico por su ID                            |
+| getAllCriticalCases  | List&lt;CriticalCaseResponseDto&gt;           | Public          | Obtiene todos los casos críticos                             |
+  
+### IVehicleService
+| **Nombre**     | **Categoría** | **Propósito**                                               |
+|----------------|---------------|-------------------------------------------------------------|
+| IVehicleService | Service       | Define las operaciones para gestionar los vehículos en el estacionamiento |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
+|----------------------|----------------------------|------------------------------------------------------|
+| getVehicleStatus     | VehicleDto                 | Obtiene el estado actual de un vehículo por su placa |
+| getAllVehiclesStatus | List<VehicleDto>           | Obtiene el estado de todos los vehículos             |
+
+### VehicleServiceImpl 
+| **Nombre**             | **Categoría** | **Propósito**                                               |
+|------------------------|---------------|-------------------------------------------------------------|
+| VehicleServiceImpl     | Service       | Implementa las operaciones definidas en IVehicleService     |
+
+#### Atributos
+
+| **Nombre**         | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
+|--------------------|------------------|-----------------|-------------------------------------------------|
+| vehicleRepository  | IVehicleRepository | Private         | Repositorio para acceder a los datos de los vehículos |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**        | **Visibilidad** | **Descripción**                                      |
+|----------------------|----------------------------|-----------------|------------------------------------------------------|
+| getVehicleStatus     | VehicleDto                 | Public          | Obtiene el estado actual de un vehículo por su placa |
+| getAllVehiclesStatus | List<VehicleDto>           | Public          | Obtiene el estado de todos los vehículos             |
+
+
+### IDeviceService
+| **Nombre**     | **Categoría** | **Propósito**                                               |
+|----------------|---------------|-------------------------------------------------------------|
+| IDeviceService | Service       | Define las operaciones para gestionar los dispositivos de monitoreo en el estacionamiento |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
+|----------------------|----------------------------|------------------------------------------------------|
+| getDeviceStatus      | DeviceDto                  | Obtiene el estado actual de un dispositivo por su ID |
+| getAllDevicesStatus  | List<DeviceDto>            | Obtiene el estado de todos los dispositivos          |
+
+### DeviceServiceImpl    
+| **Nombre**             | **Categoría** | **Propósito**                                               |
+|------------------------|---------------|-------------------------------------------------------------|
+| DeviceServiceImpl      | Service       | Implementa las operaciones definidas en IDeviceService      |
+
+#### Atributos
+
+| **Nombre**         | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
+|--------------------|------------------|-----------------|-------------------------------------------------|
+| deviceRepository   | IDeviceRepository | Private         | Repositorio para acceder a los datos de los dispositivos |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**        | **Visibilidad** | **Descripción**                                      |
+|----------------------|----------------------------|-----------------|------------------------------------------------------|
+| getDeviceStatus      | DeviceDto                  | Public          | Obtiene el estado actual de un dispositivo por su ID |
+| getAllDevicesStatus  | List<DeviceDto>            | Public          | Obtiene el estado de todos los dispositivos          |
+
+
 ### 4.2.6.4. Infrastructure Layer
+
+### ICriticalCaseRepository  
+| **Nombre**             | **Categoría** | **Propósito**                                               |
+|------------------------|---------------|-------------------------------------------------------------|
+| ICriticalCaseRepository | Repository    | Define las operaciones de acceso a datos para casos críticos |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**                          | **Descripción**                                             |
+|----------------------|----------------------------------------------|-------------------------------------------------------------|
+| findById             | Optional&lt;CriticalCase&gt;                  | Encuentra un caso crítico por su ID                          |
+| findAll              | List&lt;CriticalCase&gt;                      | Encuentra todos los casos críticos                           |
+| save                 | CriticalCase                                 | Guarda un nuevo caso crítico                                 |
+| deleteById           | void                                         | Elimina un caso crítico por su ID                            |
+
+### IVehicleRepository  
+| **Nombre**           | **Categoría** | **Propósito**                                               |
+|----------------------|---------------|-------------------------------------------------------------|
+| IVehicleRepository   | Repository    | Define las operaciones de acceso a datos para los vehículos |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
+|----------------------|----------------------------|------------------------------------------------------|
+| findByLicensePlate   | VehicleDto                 | Encuentra un vehículo por su placa                   |
+| findAll              | List<VehicleDto>           | Encuentra todos los vehículos                        |
+
+### IDeviceRepository  
+| **Nombre**             | **Categoría** | **Propósito**                                               |
+|------------------------|---------------|-------------------------------------------------------------|
+| IDeviceRepository      | Repository    | Define las operaciones de acceso a datos para los dispositivos de monitoreo |
+
+### Métodos
+
+| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
+|----------------------|----------------------------|------------------------------------------------------|
+| findByDeviceId       | DeviceDto                  | Encuentra un dispositivo por su ID                   |
+| findAll              | List<DeviceDto>            | Encuentra todos los dispositivos                     |
 
 ### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -1197,9 +1402,14 @@ Lo que queda de la siguiente manera:
 
 ### 4.2.7.1. Domain Layer
 
+#### Entidad: Ticket
+
 | **Nombre**     | **Categoría** | **Propósito**                                               |
 |----------------|---------------|--------------------------------------------------------------|
 | Ticket   | Entity        | Registro de un ticket que indica la entrada y salida de un vehiculo del estacionamiento, asi como el pago.  |
+
+#### Atributos
+
 | **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
 |-------------------|------------------|------------------|-------------------------------------------|
 | id                | Long             | Private          | Identificador único para el ticket                       |
@@ -1213,35 +1423,48 @@ Lo que queda de la siguiente manera:
 
 ### 4.2.7.2. Interface Layer
 
+### Entidad: TicketsController
 
 | **Nombre**           | **Categoría** | **Propósito**                                              |
-|:----------------------|:---------------|:------------------------------------------------------------|
+|----------------------|---------------|------------------------------------------------------------|
 | TicketsController    | Controller    | Endpoints para la gestión de tickets                       |
-|:----------------------|:---------------|:------------------------------------------------------------|
+
+### Atributos
+
 | **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                        |
-|:------------------:|:------------------:|:-----------------:|:----------------------------------------|
+|------------------|------------------|-----------------|----------------------------------------|
 | ticketService    | ITicketService   | Private         | Servicio de gestión de tickets         |
-|:------------------:|:------------------:|:-----------------:|:----------------------------------------|
+
+### Métodos
+
 | **Nombre**       | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                              |
-|:------------------:|:----------------------------------------------:|:-----------------:|:--------------------------------------------------------------|
+|------------------|----------------------------------------------|-----------------|--------------------------------------------------------------|
 | Constructor      | Void                                         | Public          | Constructor del controlador                                   |
 | getTicket        | ResponseEntity<TicketResponseDto>      | Public          | Obtener un ticket por su ID                                   |
-| createTicket     | ResponseEntity<TicketResponseDto>      | Public          | Crear un nuevo ticket                                         |
-| getTicketHistory | ResponseEntity<Array<TicketResponseDto>>     | Public          | Obtener el historial de tickets de un usuario por su Id   |
-    
+| createTicket     | ResponseEntity<TicketResponseDto>        | Public          | Crear un nuevo ticket                                         |
+| getTicketHistory | ResponseEntity<Array<TicketResponseDto>> | Public          | Obtener el historial de tickets de un usuario por su Id       |
   
+### Entidad: TicketRequestDto
+
 | **Nombre**       | **Categoría** | **Propósito**                                               |
 |------------------|---------------|-------------------------------------------------------------|
 | TicketRequestDto | DTO           | Datos necesarios para crear un nuevo ticket en el sistema   |
-| **Nombre**   | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
-|--------------|------------------|-----------------|-------------------------------------------------------------|
-| vehiclePlate | string           | Private         | Placa del vehículo que ingresará al estacionamiento         |
-| userId       | string           | Private         | ID del usuario que utilizará la app para ingresar           |
-   
 
-| **Nombre**     | **Categoría** | **Propósito**                                               |
-|----------------|---------------|-------------------------------------------------------------|
-| TicketResponseDto | DTO       | Representación de un ticket con los detalles de entrada, salida y pago |
+### Atributos
+
+| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
+|------------------|------------------|-----------------|-------------------------------------------------------------|
+| vehiclePlate     | string           | Private         | Placa del vehículo que ingresará al estacionamiento         |
+| userId           | string           | Private         | ID del usuario que utilizará la app para ingresar           |
+   
+### Entidad: TicketResponseDto
+
+| **Nombre**         | **Categoría** | **Propósito**                                               |
+|--------------------|---------------|-------------------------------------------------------------|
+| TicketResponseDto  | DTO           | Representación de un ticket con los detalles de entrada, salida y pago |
+
+### Atributos
+
 | **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                                                 |
 |-------------------|------------------|-----------------|---------------------------------------------------------------------------------|
 | id                | Long             | Private         | Identificador único del ticket                                                  |
@@ -1252,12 +1475,17 @@ Lo que queda de la siguiente manera:
 | amountCharged     | string           | Private         | Monto que pagó el usuario por su estancia en el estacionamiento                  |
 | paymentStatus     | string           | Private         | Estado actual del pago (ej. "Pagado", "Pendiente")                              |
 | totalDuration     | string           | Private         | Duración total de la estancia del vehículo en el estacionamiento                 |
-
+  
 ### 4.2.7.3. Application Layer
   
+### Entidad: ITicketService
+
 | **Nombre**     | **Categoría** | **Propósito**                                               |
 |----------------|---------------|-------------------------------------------------------------|
 | ITicketService | Interface     | Define las operaciones para la gestión de tickets           |
+
+### Métodos
+
 | **Nombre**        | **Tipo de retorno**                          | **Descripción**                                              |
 |-------------------|----------------------------------------------|--------------------------------------------------------------|
 | createTicket      | TicketResponseDto                            | Crea un nuevo ticket con la placa del vehículo y el ID del usuario |
@@ -1265,13 +1493,21 @@ Lo que queda de la siguiente manera:
 | getTicketHistory  | List<TicketResponseDto>                         | Obtiene el historial de eventos de un ticket                  |
   
   
+### Entidad: TicketServiceImpl
+
 | **Nombre**        | **Categoría** | **Propósito**                                               |
 |-------------------|---------------|-------------------------------------------------------------|
 | TicketServiceImpl | Service       | Implementa las operaciones para la gestión de tickets       |
+
+### Atributos
+
 | **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
 |-------------------|------------------|-----------------|-------------------------------------------------------------|
-| ticketRepository  | ITicketRepository | Private         | Repositorio para acceder a los datos de los tickets         |
+| ticketRepository  | ITicketRepository| Private         | Repositorio para acceder a los datos de los tickets         |
 | modelMapper       | ModelMapper      | Private         | Mapper para convertir entre entidades y DTOs                |
+
+### Métodos
+
 | **Nombre**        | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                              |
 |-------------------|----------------------------------------------|-----------------|--------------------------------------------------------------|
 | Constructor       | void                                         | Public          | Constructor de la clase                                      |
@@ -1280,6 +1516,21 @@ Lo que queda de la siguiente manera:
 | getTicketHistory  | List<TicketResponseDto>                         | Public          | Obtiene el historial de eventos de un ticket                  |
   
 ### 4.2.7.4. Infrastructure Layer
+
+### Repository Interface
+
+| **Nombre**              | **Categoría** | **Propósito**                                               |
+|-------------------------|---------------|-------------------------------------------------------------|
+| ITicketRepository       | Repository    | Repositorio JPA para la entidad Ticket                      |
+
+### Atributos
+
+| **Nombre**             | **Tipo de retorno** | **Visibilidad** | **Descripción**                                             |
+|------------------------|---------------------|-----------------|-------------------------------------------------------------|
+| findByVehiclePlate     | List<Ticket>  | Public          | Encontrar tickets por la placa del vehículo                 |
+| findByUserId           | List<Ticket>  | Public          | Encontrar tickets por el ID del usuario                     |
+| findByStatus           | List<Ticket>  | Public          | Encontrar tickets por su estado (por ejemplo, "Activo")     |
+| findByEntryTimeBetween | List<Ticket>  | Public          | Encontrar tickets por rango de tiempo de entrada            |
 
 ### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
