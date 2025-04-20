@@ -1088,7 +1088,11 @@ Durante esta etapa, se identifican los sistemas externos relevantes 
 
 ![4.1.1-EventStorming-Step-8.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-8.jpg)
 
+**Step 9: Aggregates**
 
+Durante esta etapa, se definen y diseñan los agregados para cada contexto del sistema, asegurando que representen correctamente las transacciones y operaciones coherentes dentro del sistema. 
+
+![4.1.1-EventStorming-Step-9.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-9.jpg)
 
 #### 4.1.1.1. Candidate Context Discovery
 
