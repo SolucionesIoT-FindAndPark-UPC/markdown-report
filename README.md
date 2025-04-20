@@ -1064,6 +1064,13 @@ Se señalaron los pivotal points o puntos clave, que son eventos críticos que m
 
 ![4.1.1-EventStorming-Step-4.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-4.jpg)
 
+**Step 5: Commands**
+
+Cada evento se asoció con un comando específico que lo desencadena y un actor que lo realiza. Esto ayudó a clarificar quién es responsable de iniciar cada acción y cómo interactúan los diferentes usuarios con el sistema.
+
+![4.1.1-EventStorming-Step-5.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-5.jpg)
+
+
 
 #### 4.1.1.1. Candidate Context Discovery
 
