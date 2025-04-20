@@ -1076,6 +1076,11 @@ Durante esta etapa, se identifican los escenarios en el que un evento desencaden
 
 ![4.1.1-EventStorming-Step-6.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-6.jpg)
 
+**Step 7: Read Models**
+
+Durante esta fase, se diseñan y desarrollan los modelos de lectura para cada contexto del sistema, asegurando que proporcionen la información necesaria de manera eficiente y coherente 
+
+![4.1.1-EventStorming-Step-7.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-7.jpg)
 
 
 #### 4.1.1.1. Candidate Context Discovery
