@@ -1039,6 +1039,14 @@ Seleccionamos esta User Story como base de referencia para la valorización de l
 
 ### 4.1.1. EventStorming
 
+**Step 1: Unstructured Exploration**
+
+En esta etapa, se identificaron los eventos clave que representan las acciones significativas dentro del sistema. 
+
+![4.1.1-EventStorming-Step-1.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-1.jpg)
+
+
+
 #### 4.1.1.1. Candidate Context Discovery
 
 #### 4.1.1.2. Domain Message Flows Modeling
