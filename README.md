@@ -1158,12 +1158,12 @@ Lo que queda de la siguiente manera:
 
 ### 4.2.8.1. Domain Layer
 
-### **Entity: Notification**
+**Entity: Notification**
 | Nombre      | Categoría | Propósito                                      |
 |-------------|-----------|------------------------------------------------|
 | Notification| Entity    | Representa una notificación que será enviada al usuario. |
 
-#### **Atributos:**
+**Atributos:**
 | Nombre        | Tipo de dato | Visibilidad | Descripción                                                |
 |---------------|--------------|-------------|------------------------------------------------------------|
 | id            | Long         | Private     | Identificador único de la notificación.                    |
@@ -1172,8 +1172,80 @@ Lo que queda de la siguiente manera:
 | recipient     | String       | Private     | Usuario al que se le envía la notificación.               |
 | timestamp     | LocalDate    | Private     | Fecha y hora en que se generó la notificación.            |
 
-
 ### 4.2.8.2. Interface Layer
+
+**Controller: NotificationController**
+
+| Nombre                   | Categoría   | Propósito                                                        |
+|--------------------------|-------------|------------------------------------------------------------------|
+| NotificationController    | Controller  | Endpoints para gestionar las notificaciones.                     |
+
+**Atributos:**
+
+| Nombre                  | Tipo de dato          | Visibilidad | Descripción                                                   |
+|-------------------------|-----------------------|-------------|---------------------------------------------------------------|
+| notificationService      | INotificationService  | Private     | Servicio para gestionar operaciones de notificación.          |
+
+**Métodos:**
+
+| Nombre                         | Tipo de retorno                          | Visibilidad | Descripción                                                       |
+|---------------------------------|------------------------------------------|-------------|-------------------------------------------------------------------|
+| Constructor                    | Void                                     | Public      | Constructor del controlador.                                       |              |
+| getNotificationByUserId            | ResponseEntity<NotificationResponseDto>  | Public      | Obtener una notificación específica por el user ID.                   |
+| createNotification             | ResponseEntity<NotificationResponseDto>  | Public      | Crear una nueva notificación.                                     |
+| deleteNotification             | ResponseEntity<Void>                    | Public      | Eliminar una notificación específica.                            |
+
+---
+
+**Service: NotificationService**
+
+| Nombre                   | Categoría   | Propósito                                                       |
+|--------------------------|-------------|---------------------------------------------------------------|
+| NotificationService       | Service     | Servicio para gestionar la lógica de las notificaciones.       |
+
+**Métodos:**
+
+| Nombre                         | Tipo de retorno               | Visibilidad | Descripción                                                                |
+|---------------------------------|-------------------------------|-------------|---------------------------------------------------------------------------|
+| sendNotification               | Void                          | Public      | Envía una notificación a un usuario.                                      |
+| getNotificationStatus          | String                        | Public      | Obtiene el estado de entrega de la notificación.                           |
+| getNotificationsHistory        | List<Notification>            | Public      | Obtiene el historial de notificaciones enviadas.                           |
+| updateNotificationStatus       | Void                          | Public      | Actualiza el estado de una notificación (ej., fallida, exitosa).           |
+
+---
+
+**DTO: NotificationRequestDto**
+
+| Nombre                   | Categoría   | Propósito                                                       |
+|--------------------------|-------------|---------------------------------------------------------------|
+| NotificationRequestDto    | DTO         | Clase para crear una notificación.                             |
+
+**Atributos:**
+
+| Nombre              | Tipo de dato | Visibilidad | Descripción                                                |
+|---------------------|--------------|-------------|------------------------------------------------------------|
+| message             | String       | Private     | Mensaje de la notificación.                                |
+| recipient           | String       | Private     | Usuario destinatario de la notificación.                   |
+| deliveryMethod      | String       | Private     | Método de entrega (ej., SMS, Email, Push Notification).    |
+
+---
+
+**DTO: NotificationResponseDto**
+
+| Nombre                   | Categoría   | Propósito                                                        |
+|--------------------------|-------------|------------------------------------------------------------------|
+| NotificationResponseDto   | DTO         | Clase para devolver la respuesta de la notificación.             |
+
+**Atributos:**
+
+| Nombre              | Tipo de dato      | Visibilidad | Descripción                                                |
+|---------------------|-------------------|-------------|------------------------------------------------------------|
+| id                  | Long              | Private     | Identificador único de la notificación.                    |
+| message             | String            | Private     | Mensaje de la notificación.                                |
+| recipient           | String            | Private     | Usuario destinatario de la notificación.                   |
+| status              | String            | Private     | Estado de la notificación (enviado, pendiente, fallido).   |
+| timestamp           | LocalDateTime     | Private     | Fecha y hora de creación de la notificación.               |
+
 
 ### 4.2.8.3. Application Layer
 
