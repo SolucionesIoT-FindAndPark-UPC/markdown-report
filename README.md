@@ -1039,6 +1039,61 @@ Seleccionamos esta User Story como base de referencia para la valorización de l
 
 ### 4.1.1. EventStorming
 
+**Step 1: Unstructured Exploration**
+
+En esta etapa, se identificaron los eventos clave que representan las acciones significativas dentro del sistema. 
+
+![4.1.1-EventStorming-Step-1.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-1.jpg)
+
+**Step 2: Timelines**
+
+Durante esta fase, los eventos identificados fueron agrupados en subgrupos liderados por un evento general que encapsula la función principal del grupo. Cada subgrupo incluyó tanto los happy paths, que representan los caminos ideales o exitosos de ejecución de los eventos, como los unhappy paths, que muestran los posibles problemas o situaciones no deseadas que pudieran surgir. Esto ayudó a estructurar los eventos de manera coherente y a comprender mejor las diferentes secuencias de acciones dentro del sistema. 
+
+![4.1.1-EventStorming-Step-2.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-2.jpg)
+
+**Step 3: Paint Points**
+
+Durante el proceso, se identificaron los pain points o puntos problemáticos. Estos puntos son cruciales para mejorar la experiencia del usuario y optimizar el diseño del sistema. 
+
+![4.1.1-EventStorming-Step-3.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-3.jpg)
+
+
+**Step 4: Pivotal Points**
+
+Se señalaron los pivotal points o puntos clave, que son eventos críticos que marcan hitos importantes en el flujo de trabajo del sistema. Estos eventos suelen tener un impacto significativo en el comportamiento del sistema o en la experiencia del usuario.
+
+![4.1.1-EventStorming-Step-4.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-4.jpg)
+
+**Step 5: Commands**
+
+Cada evento se asoció con un comando específico que lo desencadena y un actor que lo realiza. Esto ayudó a clarificar quién es responsable de iniciar cada acción y cómo interactúan los diferentes usuarios con el sistema.
+
+![4.1.1-EventStorming-Step-5.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-5.jpg)
+
+**Step 6: Policies**
+
+Durante esta etapa, se identifican los escenarios en el que un evento desencadena la ejecución de un comando 
+
+![4.1.1-EventStorming-Step-6.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-6.jpg)
+
+**Step 7: Read Models**
+
+Durante esta fase, se diseñan y desarrollan los modelos de lectura para cada contexto del sistema, asegurando que proporcionen la información necesaria de manera eficiente y coherente 
+
+![4.1.1-EventStorming-Step-7.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-7.jpg)
+
+**Step 8: External Systems**
+
+Durante esta etapa, se identifican los sistemas externos relevantes  
+
+![4.1.1-EventStorming-Step-8.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-8.jpg)
+
+**Step 9: Aggregates**
+
+Durante esta etapa, se definen y diseñan los agregados para cada contexto del sistema, asegurando que representen correctamente las transacciones y operaciones coherentes dentro del sistema. 
+
+![4.1.1-EventStorming-Step-9.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-9.jpg)
+
 #### 4.1.1.1. Candidate Context Discovery
 
 #### 4.1.1.2. Domain Message Flows Modeling
