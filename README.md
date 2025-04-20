@@ -1045,6 +1045,12 @@ En esta etapa, se identificaron los eventos clave que representan las acciones s
 
 ![4.1.1-EventStorming-Step-1.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-1.jpg)
 
+**Step 2: Timelines**
+
+Durante esta fase, los eventos identificados fueron agrupados en subgrupos liderados por un evento general que encapsula la función principal del grupo. Cada subgrupo incluyó tanto los happy paths, que representan los caminos ideales o exitosos de ejecución de los eventos, como los unhappy paths, que muestran los posibles problemas o situaciones no deseadas que pudieran surgir. Esto ayudó a estructurar los eventos de manera coherente y a comprender mejor las diferentes secuencias de acciones dentro del sistema. 
+
+![4.1.1-EventStorming-Step-2.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-2.jpg)
+
 
 
 #### 4.1.1.1. Candidate Context Discovery
