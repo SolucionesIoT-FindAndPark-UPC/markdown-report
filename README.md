@@ -1159,6 +1159,7 @@ Lo que queda de la siguiente manera:
 ### 4.2.8.1. Domain Layer
 
 **Entity: Notification**
+
 | Nombre      | Categoría | Propósito                                      |
 |-------------|-----------|------------------------------------------------|
 | Notification| Entity    | Representa una notificación que será enviada al usuario. |
@@ -1197,23 +1198,6 @@ Lo que queda de la siguiente manera:
 
 ---
 
-**Service: NotificationService**
-
-| Nombre                   | Categoría   | Propósito                                                       |
-|--------------------------|-------------|---------------------------------------------------------------|
-| NotificationService       | Service     | Servicio para gestionar la lógica de las notificaciones.       |
-
-**Métodos:**
-
-| Nombre                         | Tipo de retorno               | Visibilidad | Descripción                                                                |
-|---------------------------------|-------------------------------|-------------|---------------------------------------------------------------------------|
-| sendNotification               | Void                          | Public      | Envía una notificación a un usuario.                                      |
-| getNotificationStatus          | String                        | Public      | Obtiene el estado de entrega de la notificación.                           |
-| getNotificationsHistory        | List<Notification>            | Public      | Obtiene el historial de notificaciones enviadas.                           |
-| updateNotificationStatus       | Void                          | Public      | Actualiza el estado de una notificación (ej., fallida, exitosa).           |
-
----
-
 **DTO: NotificationRequestDto**
 
 | Nombre                   | Categoría   | Propósito                                                       |
@@ -1248,6 +1232,49 @@ Lo que queda de la siguiente manera:
 
 
 ### 4.2.8.3. Application Layer
+
+### **Service Interface: INotificationService**
+
+| Nombre                | Categoría | Propósito                                                      |
+|-----------------------|-----------|----------------------------------------------------------------|
+| INotificationService   | Service   | Operaciones para la gestión de las notificaciones.             |
+
+#### **Métodos:**
+
+| Nombre                  | Tipo de retorno                      | Visibilidad | Descripción                                                     |
+|-------------------------|--------------------------------------|-------------|-----------------------------------------------------------------|
+| sendNotification        | Void                                 | Public      | Envía una notificación a un usuario.                            |
+| getNotificationStatus   | String                               | Public      | Obtiene el estado de entrega de la notificación.                |
+| getNotificationsHistory | List<Notification>                   | Public      | Obtiene el historial de notificaciones enviadas.                |
+| updateNotificationStatus| Void                                 | Public      | Actualiza el estado de una notificación (ej., fallida, exitosa).|
+
+---
+
+### **Service Implementation: NotificationServiceImpl**
+
+| Nombre                | Categoría | Propósito                                                      |
+|-----------------------|-----------|----------------------------------------------------------------|
+| NotificationServiceImpl | Service   | Implementación de la lógica de negocio para las notificaciones. |
+
+#### **Atributos:**
+
+| Nombre                 | Tipo de dato      | Visibilidad | Descripción                                                   |
+|------------------------|-------------------|-------------|---------------------------------------------------------------|
+| notificationRepository | INotificationRepository | Private     | Repositorio para acceder a los datos de notificaciones.      |
+| modelMapper            | ModelMapper       | Private     | Mapper para transformar entidades y DTOs.                     |
+| restTemplate           | RestTemplate      | Private     | Cliente para hacer llamadas HTTP a servicios externos.        |
+
+#### **Métodos:**
+
+| Nombre                    | Tipo de retorno                      | Visibilidad | Descripción                                                     |
+|---------------------------|--------------------------------------|-------------|-----------------------------------------------------------------|
+| Constructor                | Void                                 | Public      | Constructor que inyecta dependencias.                           |
+| sendNotification           | Void                                 | Public      | Envía una notificación a través de los servicios externos.      |
+| getNotificationStatus      | String                               | Public      | Obtiene el estado actual de la notificación.                    |
+| getNotificationsHistory    | List<Notification>                   | Public      | Obtiene todas las notificaciones previas.                       |
+| updateNotificationStatus   | Void                                 | Public      | Actualiza el estado de la notificación en la base de datos.    |
+
+---
 
 ### 4.2.8.4. Infrastructure Layer
 
