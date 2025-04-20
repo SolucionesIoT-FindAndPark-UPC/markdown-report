@@ -1051,6 +1051,11 @@ Durante esta fase, los eventos identificados fueron agrupados en subgrupos lider
 
 ![4.1.1-EventStorming-Step-2.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-2.jpg)
 
+**Step 3: Paint Points**
+
+Durante el proceso, se identificaron los pain points o puntos problemáticos. Estos puntos son cruciales para mejorar la experiencia del usuario y optimizar el diseño del sistema. 
+
+![4.1.1-EventStorming-Step-3.jpg](assets/capitulo-4/4.1.1-EventStorming-Step-3.jpg)
 
 
 #### 4.1.1.1. Candidate Context Discovery
