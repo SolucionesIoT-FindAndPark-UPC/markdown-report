@@ -1154,6 +1154,156 @@ Lo que queda de la siguiente manera:
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
 
+## 4.2.8. Bounded Context: Notifications
+
+### 4.2.8.1. Domain Layer
+
+**Entity: Notification**
+
+| Nombre      | Categoría | Propósito                                      |
+|-------------|-----------|------------------------------------------------|
+| Notification| Entity    | Representa una notificación que será enviada al usuario. |
+
+**Atributos:**
+| Nombre        | Tipo de dato | Visibilidad | Descripción                                                |
+|---------------|--------------|-------------|------------------------------------------------------------|
+| id            | Long         | Private     | Identificador único de la notificación.                    |
+| message       | String       | Private     | Contenido del mensaje de la notificación.                 |
+| status        | String       | Private     | Estado de la notificación (enviado, pendiente, fallido).   |
+| recipient     | String       | Private     | Usuario al que se le envía la notificación.               |
+| timestamp     | LocalDate    | Private     | Fecha y hora en que se generó la notificación.            |
+
+### 4.2.8.2. Interface Layer
+
+**Controller: NotificationController**
+
+| Nombre                   | Categoría   | Propósito                                                        |
+|--------------------------|-------------|------------------------------------------------------------------|
+| NotificationController    | Controller  | Endpoints para gestionar las notificaciones.                     |
+
+**Atributos:**
+
+| Nombre                  | Tipo de dato          | Visibilidad | Descripción                                                   |
+|-------------------------|-----------------------|-------------|---------------------------------------------------------------|
+| notificationService      | INotificationService  | Private     | Servicio para gestionar operaciones de notificación.          |
+
+**Métodos:**
+
+| Nombre                         | Tipo de retorno                          | Visibilidad | Descripción                                                       |
+|---------------------------------|------------------------------------------|-------------|-------------------------------------------------------------------|
+| Constructor                    | Void                                     | Public      | Constructor del controlador.                                       |              |
+| getNotificationByUserId            | ResponseEntity<NotificationResponseDto>  | Public      | Obtener una notificación específica por el user ID.                   |
+| createNotification             | ResponseEntity<NotificationResponseDto>  | Public      | Crear una nueva notificación.                                     |
+| deleteNotification             | ResponseEntity<Void>                    | Public      | Eliminar una notificación específica.                            |
+
+---
+
+**DTO: NotificationRequestDto**
+
+| Nombre                   | Categoría   | Propósito                                                       |
+|--------------------------|-------------|---------------------------------------------------------------|
+| NotificationRequestDto    | DTO         | Clase para crear una notificación.                             |
+
+**Atributos:**
+
+| Nombre              | Tipo de dato | Visibilidad | Descripción                                                |
+|---------------------|--------------|-------------|------------------------------------------------------------|
+| message             | String       | Private     | Mensaje de la notificación.                                |
+| recipient           | String       | Private     | Usuario destinatario de la notificación.                   |
+| deliveryMethod      | String       | Private     | Método de entrega (ej., SMS, Email, Push Notification).    |
+
+---
+
+**DTO: NotificationResponseDto**
+
+| Nombre                   | Categoría   | Propósito                                                        |
+|--------------------------|-------------|------------------------------------------------------------------|
+| NotificationResponseDto   | DTO         | Clase para devolver la respuesta de la notificación.             |
+
+**Atributos:**
+
+| Nombre              | Tipo de dato      | Visibilidad | Descripción                                                |
+|---------------------|-------------------|-------------|------------------------------------------------------------|
+| id                  | Long              | Private     | Identificador único de la notificación.                    |
+| message             | String            | Private     | Mensaje de la notificación.                                |
+| recipient           | String            | Private     | Usuario destinatario de la notificación.                   |
+| status              | String            | Private     | Estado de la notificación (enviado, pendiente, fallido).   |
+| timestamp           | LocalDateTime     | Private     | Fecha y hora de creación de la notificación.               |
+
+
+### 4.2.8.3. Application Layer
+
+**Service Interface: INotificationService**
+
+| Nombre                | Categoría | Propósito                                                      |
+|-----------------------|-----------|----------------------------------------------------------------|
+| INotificationService   | Service   | Operaciones para la gestión de las notificaciones.             |
+
+**Métodos:**
+
+| Nombre                  | Tipo de retorno                      | Visibilidad | Descripción                                                     |
+|-------------------------|--------------------------------------|-------------|-----------------------------------------------------------------|
+| sendNotification        | Void                                 | Public      | Envía una notificación a un usuario.                            |
+| getNotificationStatus   | String                               | Public      | Obtiene el estado de entrega de la notificación.                |
+| getNotificationsHistory | List<Notification>                   | Public      | Obtiene el historial de notificaciones enviadas.                |
+| updateNotificationStatus| Void                                 | Public      | Actualiza el estado de una notificación (ej., fallida, exitosa).|
+
+---
+
+**Service Implementation: NotificationServiceImpl**
+
+| Nombre                | Categoría | Propósito                                                      |
+|-----------------------|-----------|----------------------------------------------------------------|
+| NotificationServiceImpl | Service   | Implementación de la lógica de negocio para las notificaciones. |
+
+**Atributos:**
+
+| Nombre                 | Tipo de dato      | Visibilidad | Descripción                                                   |
+|------------------------|-------------------|-------------|---------------------------------------------------------------|
+| notificationRepository | INotificationRepository | Private     | Repositorio para acceder a los datos de notificaciones.      |
+| modelMapper            | ModelMapper       | Private     | Mapper para transformar entidades y DTOs.                     |
+| restTemplate           | RestTemplate      | Private     | Cliente para hacer llamadas HTTP a servicios externos.        |
+
+**Métodos:**
+
+| Nombre                    | Tipo de retorno                      | Visibilidad | Descripción                                                     |
+|---------------------------|--------------------------------------|-------------|-----------------------------------------------------------------|
+| Constructor                | Void                                 | Public      | Constructor que inyecta dependencias.                           |
+| sendNotification           | Void                                 | Public      | Envía una notificación a través de los servicios externos.      |
+| getNotificationStatus      | String                               | Public      | Obtiene el estado actual de la notificación.                    |
+| getNotificationsHistory    | List<Notification>                   | Public      | Obtiene todas las notificaciones previas.                       |
+| updateNotificationStatus   | Void                                 | Public      | Actualiza el estado de la notificación en la base de datos.    |
+
+---
+
+### 4.2.8.4. Infrastructure Layer
+
+**Repository Interface: INotificationRepository**
+
+| Nombre                 | Categoría   | Propósito                                                      |
+|------------------------|-------------|----------------------------------------------------------------|
+| INotificationRepository | Repository  | Repositorio para manejar las notificaciones almacenadas.       |
+
+**Métodos:**
+
+| Nombre                    | Tipo de retorno           | Visibilidad | Descripción                                                   |
+|---------------------------|---------------------------|-------------|---------------------------------------------------------------|
+| saveNotification           | Notification              | Public      | Guarda una nueva notificación en la base de datos.            |
+| findById                   | Optional<Notification>    | Public      | Encuentra una notificación específica por su ID.              |
+| findByRecipient            | List<Notification>        | Public      | Encuentra todas las notificaciones de un usuario específico.   |
+| findByStatus               | List<Notification>        | Public      | Encuentra las notificaciones por su estado (enviado, pendiente).|
+| deleteNotification         | Void                      | Public      | Elimina una notificación de la base de datos.                 |
+
+---
+
+### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
+
+### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
+
+#### 4.2.8.6.2. Bounded Context Database Design Diagram
+
 
 # Capítulo V: Solution UI/UX Design
 
