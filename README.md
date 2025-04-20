@@ -1364,10 +1364,26 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 <br>
 
+**Endorsed By**
+
+<p align="center">
+  <img src="assets/capitulo-5/EndorsedBy.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
 **F&A**
 
 <p align="center">
   <img src="assets/capitulo-5/F&A.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Testimonials**
+
+<p align="center">
+  <img src="assets/capitulo-5/Testimonials.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
 <br>
@@ -1380,6 +1396,14 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 <br>
 
+
+**Footer**
+
+<p align="center">
+  <img src="assets/capitulo-5/Footer.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
 
 ### 5.3.1. Landing Page Wireframe
 
@@ -1416,6 +1440,12 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 <br>
 
+**Endorsed By**
+
+<p align="center">
+  <img src="assets/capitulo-5/endorsedbywireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
 **F&A**
 
 <p align="center">
@@ -1424,10 +1454,26 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 <br>
 
+**Testimonials**
+
+<p align="center">
+  <img src="assets/capitulo-5/testimonialwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
 **Contact US**
 
 <p align="center">
   <img src="assets/capitulo-5/6wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Footer**
+
+<p align="center">
+  <img src="assets/capitulo-5/footerwireframe&apos;.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
 <br>
@@ -1551,11 +1597,98 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 
 
+**SCAN VOUCHER**
+
+<p align="center">
+  <img src="assets/capitulo-5/scanvoucher.png" alt="Imagen extraída de Figma" width="400"/>
+</p>
+
+<br>
+
+**PAYMENT DETAILS**
+
+<p align="center">
+  <img src="assets/capitulo-5/details1.png" alt="Imagen extraída de Figma" width="400"/>
+</p>
+
+<br>
+
+**FINAL SCREEN**
+
+<p align="center">
+  <img src="assets/capitulo-5/thanks.png" alt="Imagen extraída de Figma" width="400"/>
+</p>
+
+<br>
+
+
 ### 5.4.1. Applications Wireframes
 
+*WEB APPLICATION*
 
+**LOG IN**
 
+<p align="center">
+  <img src="assets/capitulo-5/loginwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
 
+<br>
+
+**REGISTER**
+
+<p align="center">
+  <img src="assets/capitulo-5/registerwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**REGISTER MALL**
+
+<p align="center">
+  <img src="assets/capitulo-5/mallwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**DASHBOARD**
+
+<p align="center">
+  <img src="assets/capitulo-5/dashboardwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**MONITORING**
+
+<p align="center">
+  <img src="assets/capitulo-5/monitoringwireframe].png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**PARKING LOT**
+
+<p align="center">
+  <img src="assets/capitulo-5/allotmentwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**PARKING FEE ADMINISTRATION**
+
+<p align="center">
+  <img src="assets/capitulo-5/parkingfee.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**STATISTICS**
+
+<p align="center">
+  <img src="assets/capitulo-5/statswireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
 
 ### 5.4.2. Applications Wireflow Diagrams
 
