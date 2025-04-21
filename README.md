@@ -1981,7 +1981,9 @@ Además, se implementa GitFlow como Workflow de control de versiones:
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
-Flutter:
+Flutter: (file).dart
+Descripción: Framework de desarrollo de aplicaciones móviles creado por Google. Utiliza el lenguaje de programación Dart y permite crear interfaces de usuario nativas.
+Convenciones: En Flutter, se recomienda utilizar el idioma inglés para nombrar clases, funciones y archivos, ya que es el estándar en la programación. Los nombres de clases, enumeraciones y extensiones deben seguir el formato UpperCamelCase, mientras que los nombres de variables, funciones, parámetros y constantes deben utilizar lowerCamelCase. Los archivos y directorios deben nombrarse en snake_case (minúsculas separadas por guiones bajos). Se debe evitar el uso de prefijos innecesarios como Widget en los nombres de clases y componentes.  
 
 HTML: (file).html
 Descripción: Hypertext Makeup Language es el lenguaje estándar que se utiliza para crear y estructurar el contenido de páginas web. Consiste en una serie de etiquetas y elementos que definen diferentes partes del contenido para que se vean o comporten de una determinada manera. 
