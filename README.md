@@ -2240,23 +2240,64 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 #### Project Management
 
+Trello: www.trello.com   
+Esta herramienta es para la gestión del proyecto, donde en tableros se organizan las tasks de cada sprint y observar el avanza y estado de cada una de ellas.
+
 #### Product UX/UI Design
+
+Miro: www.miro.com 
+Se utilizó para simular una pizarra para los brainstoriming y así, elaborar los As-Is y To-Be Scenarios Mapping.
+  
+Figma: www.figma.com 
+En esta herramienta se elaboraron los Wireframes, Mock-ups y Prototypes.
 
 #### Software Development
 
+Angular: angular.dev
+Es un framework frontend que permite el desarrollo de aplicaciones web de una sola página utilizando HTML, CSS y TypeScript.
+
+Spring Boot: spring.io
+Es un framework backend para el desarrollo de aplicaciones en Java.
+
+GitHub: github.com 
+Fue utilizado para guardar los repositorios de nuestros sitios web y tener un control de versiones.
+  
 #### Software Testing
+
+Appium: appium.io
+Herramienta de automatización de código abierto que permite probar aplicaciones nativas, híbridas y web en dispositivos Android e iOS.
+
+Selenium: www.selenium.dev 
+Es un IDE que facilita las pruebas para aplicaciones web. Por ejemplo, permite grabar, editar y depurar casos de prueba.
 
 #### Software Deployment
 
+To be seen
+
 #### Software Documentation
 
+Structurizr: structurizr.com
+Es un diseñador del modelo C4 para visualizar la arquitectura del software.
+
+LucidChart: www.lucidchart.com 
+Es una herramienta para crear y compartir diagramas y lo utilizamos para los diagramas de código UML.
+
+Draw.io: app.diagrams.net
+Software gratuito en línea para crear diagramas de flujo, diagramas de procesos, organigramas, diagramas UML, diagramas ER y diagramas de red. 
+
+Vertabelo: vertabelo.com
+Es un modelador de base de datos, el cual lo utilizamos para elaborar le diagrama de base de datos.
+
+Swagger: swagger.io
+Es una herramienta para diseñar, construir, documentar y consumir servicios web RESTful. En nuestro backend, generó la documentación interactiva de la API.
+  
 ### 6.1.2. Source Code Management
 
 Para el control de versiones de nuestro proyecto de software se utiliza la plataforma GitHub, en la cual se creó la organización con los respectivos repositorios:
-- Organización:
-- Landing Page:
-- Reporte Markdown:
-
+- Organización: https://github.com/SolucionesIoT-FindAndPark-UPC  
+- Landing Page: https://github.com/SolucionesIoT-FindAndPark-UPC/landing-page.git   
+- Reporte Markdown: https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report.git  
+  
 Además, se implementa GitFlow como Workflow de control de versiones:
 - La rama principal es ‘main’ la cual representa la versión estable del software.
 - Cada feature desarrollado, ya sea en el informe o de una funcionalidad se desarrolla en una rama diferente. Estas ramas son especificadas con el formato "feature" y se hace merge de sus avances a la rama main una vez validados
