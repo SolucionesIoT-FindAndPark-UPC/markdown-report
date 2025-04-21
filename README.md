@@ -1955,11 +1955,72 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 ### 6.1.1. Software Development Environment Configuration
 
+#### Project Management
+
+#### Product UX/UI Design
+
+#### Software Development
+
+#### Software Testing
+
+#### Software Deployment
+
+#### Software Documentation
+
 ### 6.1.2. Source Code Management
+
+Para el control de versiones de nuestro proyecto de software se utiliza la plataforma GitHub, en la cual se creó la organización con los respectivos repositorios:
+- Organización:
+- Landing Page:
+- Reporte Markdown:
+
+Además, se implementa GitFlow como Workflow de control de versiones:
+- La rama principal es ‘main’ la cual representa la versión estable del software.
+- Cada feature desarrollado, ya sea en el informe o de una funcionalidad se desarrolla en una rama diferente. Estas ramas son especificadas con el formato "feature" y se hace merge de sus avances a la rama main una vez validados
+- Las ramas de feature deben seguir un formato claro y descriptivo que identifique la funcionalidad en desarrollo. Es recomendable utilizar prefijos que distingan la característica específica, y emplear separadores como guiones (‘-’) o barras (‘/’) para mejorar la organización y legibilidad de los nombres de las ramas. Este enfoque facilita una estructura consistente que optimiza la comprensión de cada rama dentro del proyecto.
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
+Flutter:
+
+HTML: (file).html
+Descripción: Hypertext Makeup Language es el lenguaje estándar que se utiliza para crear y estructurar el contenido de páginas web. Consiste en una serie de etiquetas y elementos que definen diferentes partes del contenido para que se vean o comporten de una determinada manera. 
+Convenciones:  De acuerdo con MDN Web Docs (s.f.), para facilitar la lectura y la coherencia en el código, es necesario usar espacios o tabulaciones de manera consistente, escribir los nombres de las etiquetas y de los archivos en minúsculas, usar comillas dobles para definir atributos en las etiquetas, usar el elemento "link" y "script" para relacion el archivo html con los archivos css y javascript respectivamente. Asimismo, es importante que cada elemento esté cerrado y que se agreguen solo comentarios significativos (“<!-” para iniciar un comentario y “->” para cerrarlo).
+
+CSS: (file).css
+Descripción: Cascading Style Sheets en un lenguaje de hojas de estilo que es utilizado para dar formato y diseño a las páginas web.
+Convenciones: De acuerdo con MDN Web Docs (s.f.), para mejorar la legibilidad, se debe mantener los espacios adecuados, se usarán nombres de clases y selectores en minúscula y claros que reflejen su función, se debe procurar agrupar propiedades relacionadas juntas en el mismo bloque, y se usarán los id’s para poder modificar algún atributo en específico.
+
+JavaScript: (file).js
+Descripción: Lenguaje de programación que se usa para poder darle funcionalidades a las páginas web y que permita manipular su contenido y responder a acciones del usuario.
+Convenciones: De acuerdo con MDN Web Docs (s.f.), para mejorar la comprensión del código, se utilizarán nombre de variables y funciones en minúscula, no abreviados y que describan su propósito. Asimismo, se dividirán funciones largas en funciones más pequeñas para facilitar la lectura.
+
+Angular:
+Descripción: Framework de desarrollo de apliciones web escalables y dinámicas, se basa en TypeScript.
+Convenciones: De acuerdo con Angular (s.f.), la nomenclatura se hace con nombres descriptivos y para separar palabras se utilizan guiones. Se debe utilizar una estructura de carpeta para separar los componentes, módulos y servicios.
+
+Java:
+Convenciones de nomenclatura:
+-	Nombres de clases: Deben comenzar con mayúscula y utilizar PascalCase. Por ejemplo, MiClase.
+-	Nombres de interfaces: Deben comenzar con mayúscula y utilizar PascalCase. Por ejemplo, MiInterfaz.
+-	Nombres de métodos: Deben comenzar con minúscula y utilizar camelCase. Por ejemplo, miMetodo().
+-	Nombres de variables: Deben comenzar con minúscula y utilizar camelCase. Por ejemplo, miVariable.
+-	Constantes: Deben estar en mayúsculas con palabras separadas por guiones bajos. Por ejemplo, MI_CONSTANTE.
+-	Paquetes: Deben estar en minúsculas y utilizar nombres de dominio invertidos. Por ejemplo, com.miempresa.miproyecto.
+Convenciones de formato:
+-	Indentación: Usar cuatro espacios para cada nivel de indentación.
+-	Líneas en blanco: Usar líneas en blanco para separar lógicamente secciones de código.
+-	Longitud de línea: No exceder los 80-120 caracteres por línea para mantener la legibilidad.
+-	Llaves: Colocar las llaves en la misma línea que la declaración o en la siguiente línea, con la misma indentación.
+-	Comentarios: Usar comentarios descriptivos para explicar el propósito del código, evitando los comentarios obvios o redundantes.
+
 ### 6.1.4. Software Deployment Configuration
+
+#### Despliegue Backend
+
+#### Despliegue Frontend Web
+
+#### Despliegue Mobile App 
 
 ## 6.2. Landing Page, Services & Applications Implementation
 
@@ -1998,11 +2059,23 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 ## Conclusiones y Recomendaciones
 
+- El needfinding y desarrollo de entrevistas mejoro nuestro entendimiento de las necesidades reales y requisitos de los usuarios, y valido que la solución propuesta brinde el valor necesario a los stakeholders.  
+- El planteamiento de épics, historias de usuario detalladas para cada segmento objetivo e historias técnicas no solo aseguran que la solución de software esté alineada con las expectativas y necesidades de los usuarios finales, sino que también facilitan la gestión de los aspectos técnicos a lo largo del desarrollo y mantenimiento del software.  
+- Investigar la competencia nos revelo las cualidades que nuestra solución debe tener para competir en el mercado y nos da idea de las estrategias y tácticas que tenemos que seguir para garantizar nuestro éxito.  
+- Se concluye que el uso de los dispositivos Iot en la planteación de la solución permitio expandir las capacidades que somos capaces de ofrecer a los stakeholders.  
+
 ## Video About-the-Team
 
 
 # Bibliografía
 
+- Mozilla Developer Network. (s.f.). HTML. Recuperado el 20 de abril de 2025, de https://developer.mozilla.org/en-US/docs/Web/HTML
+
+- Mozilla Developer Network. (s.f.). CSS. Recuperado el 20 de abril de 2025, de https://developer.mozilla.org/en-US/docs/Web/CSS
+
+- Mozilla Developer Network. (s.f.). JavaScript. Recuperado el 20 de abril de 2025, de https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+- Angular. (s.f.). Overview. Recuperado el 20 de abril de 2025, de https://angular.dev/overview
 
 # Anexos
 
