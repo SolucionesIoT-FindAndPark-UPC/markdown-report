@@ -481,11 +481,18 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
 
 ##### Segmento 2: Administradores de parking
 - Primera Entrevista:
+  <p align="left"><img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-1.PNG" alt="Entrevista 1" width="150" height="250"/></p>
+  
   - Entrevistado: Jose Alberto
+  
   - Residencia: Lima
+  
   - Ocupación: Seguridad de Parking
+  
   - Entrevistadora: Lucero Obispo
+  
   - Enlace: [https://youtu.be/ebwojw4HlCo]
+  
   - Resumen de la entrevista:
     0:30 - ¿Con qué frecuencia revisan cámaras de seguridad para el monitoreo de vehículos?
     Las cámaras estan vigilando en cada momento, yo también bajo para ver y verificar que los autos no se esten llevando algo de lo ajeno.
@@ -509,7 +516,7 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
   - Entrevistado: Jorge Rosales
   - Residencia: Lima
   - Ocupación: Operador de Parking
-  - Entrevistador: Eric Cuevas:
+  - Entrevistador: Eric Cuevas
   - Enlace: [https://youtu.be/BB-ZCcDnO-Q]
   - Resumen de la entrevista:
     1:05 - ¿Qué tipo de información te resulta más útil visualizar a diario para monitorear el funcionamiento del estacionamiento?
