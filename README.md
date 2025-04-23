@@ -55,7 +55,7 @@
 
 | Versión | Fecha | Autor | Descripción de modificación | 
 |:-------:|:-----:|:-----:|:----------------------------| 
-|TB1| ----  |  --   | ==                          |
+|TB1| 25/05/25  |  <br>Vargas Revollé, Ariana<br> <br>Obispo Rios, Lucero Abigail<br> <br>Cuevas Rios, Eric Fernando<br> <br>Elsner De La Torre Ugarte, Julio Esteban<br> <br>Herrera González, Luis Eduardo<br>   | Investigación de mercado y del problema, obtención y análisis de requisitos, especificación de requisitos, y diseño de la solución de software.                           |
 </div>
 
 ---
@@ -180,10 +180,10 @@
 
 <div align="justify">
 
-| Criterio Específico | Acciones Realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-| -                   | -                   | -            |
-| -                   | -                   | -            |
+| **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
+|-------------------------|-------------------------|------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <br>- *Obispo Rios, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en reuniones de equipo para definir el alcance del proyecto y la arquitectura. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>-<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>-<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br> |  |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | <br>- *Obispo Ríos, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en el proceso de asignación de tareas y cumplir con las actividades asignadas en relación a las entrevistas, To-Be y As-Is Scneario Mapping, Journey Mapping, Historias de Usuario, Eventstorming, entre otros. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>-<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>-<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br>  | *(Sin conclusiones registradas)* |
 
 </div>
 
@@ -207,13 +207,15 @@ Facilitar y modernizar la experiencia de estacionamiento en entornos urbanos med
 Visión:  
 Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, siendo referentes en innovación, automatización y experiencia de usuario, para transformar la manera en que las personas se movilizan y estacionan.  
 
-### 1.1.2. Perfiles de integrantes del equipo  
+### 1.1.2. Perfiles de integrantes del equipo 
 
-| |Vargas Revollé, Ariana |
-| |Obispo Rios, Lucero Abigail |
-| |Cuevas Rios, Eric Fernando |
-| |Elsner De La Torre Ugarte, Julio Esteban |
-| |Herrera González, Luis Eduardo |  
+| Foto | Perfil de Integrante |
+|------|-------------|
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p> | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias.  Por otro lado, me considero una persona responsable y comprometida con el proyecto. |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *Código - Carrera*  <br> <br> - <br> |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 3" width="100" height="100"/></p> | **Cuevas Rios, Eric Fernando**  <br> *Código - Carrera*  <br> <br> - <br>  |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 4" width="100" height="100"/></p> | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *Código - Carrera*  <br> <br> - <br> |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 5" width="100" height="100"/></p> | **Herrera González, Luis Eduardo**  <br> *Código - Carrera*  <br> <br> - <br> |
 
 ## 1.2. Solution Profile
 
@@ -479,11 +481,18 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
 
 ##### Segmento 2: Administradores de parking
 - Primera Entrevista:
+  <p align="left"><img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-1.PNG" alt="Entrevista 1" width="150" height="250"/></p>
+  
   - Entrevistado: Jose Alberto
+  
   - Residencia: Lima
+  
   - Ocupación: Seguridad de Parking
+  
   - Entrevistadora: Lucero Obispo
+  
   - Enlace: [https://youtu.be/ebwojw4HlCo]
+  
   - Resumen de la entrevista:
     0:30 - ¿Con qué frecuencia revisan cámaras de seguridad para el monitoreo de vehículos?
     Las cámaras estan vigilando en cada momento, yo también bajo para ver y verificar que los autos no se esten llevando algo de lo ajeno.
@@ -507,7 +516,7 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
   - Entrevistado: Jorge Rosales
   - Residencia: Lima
   - Ocupación: Operador de Parking
-  - Entrevistador: Eric Cuevas:
+  - Entrevistador: Eric Cuevas
   - Enlace: [https://youtu.be/BB-ZCcDnO-Q]
   - Resumen de la entrevista:
     1:05 - ¿Qué tipo de información te resulta más útil visualizar a diario para monitorear el funcionamiento del estacionamiento?
