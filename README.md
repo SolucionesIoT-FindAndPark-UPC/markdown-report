@@ -207,13 +207,15 @@ Facilitar y modernizar la experiencia de estacionamiento en entornos urbanos med
 Visión:  
 Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, siendo referentes en innovación, automatización y experiencia de usuario, para transformar la manera en que las personas se movilizan y estacionan.  
 
-### 1.1.2. Perfiles de integrantes del equipo  
+### 1.1.2. Perfiles de integrantes del equipo 
 
-| |Vargas Revollé, Ariana |
-| |Obispo Rios, Lucero Abigail |
-| |Cuevas Rios, Eric Fernando |
-| |Elsner De La Torre Ugarte, Julio Esteban |
-| |Herrera González, Luis Eduardo |  
+| Foto | Perfil de Integrante |
+|------|-------------|
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p> | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias.  Por otro lado, me considero una persona responsable y comprometida con el proyecto. |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *Código - Carrera*  <br> <br> - <br> |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 3" width="100" height="100"/></p> | **Cuevas Rios, Eric Fernando**  <br> *Código - Carrera*  <br> <br> - <br>  |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 4" width="100" height="100"/></p> | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *Código - Carrera*  <br> <br> - <br> |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 5" width="100" height="100"/></p> | **Herrera González, Luis Eduardo**  <br> *Código - Carrera*  <br> <br> - <br> |
 
 ## 1.2. Solution Profile
 
