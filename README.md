@@ -180,10 +180,10 @@
 
 <div align="justify">
 
-| Criterio Específico | Acciones Realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-| -                   | -                   | -            |
-| -                   | -                   | -            |
+| **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
+|-------------------------|-------------------------|------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <br>- *Obispo Rios, Lucero Abigail*<br> <br>**TB1**<br>  <br>-<br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>-<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>-<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br> |  |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | <br>- *Obispo Ríos, Lucero Abigail*<br> <br>**TB1**<br>  <br>-<br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>-<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>-<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br>  | *(Sin conclusiones registradas)* |
 
 </div>
 
