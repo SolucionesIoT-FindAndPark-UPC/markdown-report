@@ -1131,6 +1131,14 @@ Lo que queda de la siguiente manera:
 
 #### 4.1.1.2. Domain Message Flows Modeling
 
+El Domain Message Flow Modeling es una técnica utilizada en Domain-Driven Design (DDD) para visualizar y documentar cómo los mensajes, eventos y comandos fluyen entre los bounded contexts y los actores dentro de un sistema. Ayuda a identificar las interacciones clave entre los componentes del sistema y cómo los eventos desencadenan acciones en diferentes partes del dominio.
+
+![4.1.1.2-Domain-Message-Floww.Modeling-Register.jpg](assets/capitulo-4/4.1.1.2-Domain-Message-Floww.Modeling-Register.jpg)
+
+![4.1.1.2-Domain-Message-Floww.Modeling-Entry.jpg](assets/capitulo-4/4.1.1.2-Domain-Message-Floww.Modeling-Entry.jpg)
+
+![4.1.1.2-Domain-Message-Floww.Modeling-Exit.jpg](assets/capitulo-4/4.1.1.2-Domain-Message-Floww.Modeling-Exit.jpg)
+
 #### 4.1.1.3. Bounded Context Canvases
 
 ### 4.1.2. Context Mapping
