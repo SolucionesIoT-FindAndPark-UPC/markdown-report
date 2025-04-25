@@ -213,7 +213,7 @@ Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, si
 |------|-------------|
 | <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p> | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias.  Por otro lado, me considero una persona responsable y comprometida con el proyecto. |
 | <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *Código - Carrera*  <br> <br> - <br> |
-|<p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 1" width="80" height="120"/></p>| **Cuevas Rios, Eric Fernando**  <br> *Código - Carrera*  <br> <br> - <br>  |
+|<p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 1" width="100" height="130"/></p>| **Cuevas Rios, Eric Fernando**  <br> *Código - Carrera*  <br> <br> - <br>  |
 | <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 4" width="100" height="100"/></p> | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *Código - Carrera*  <br> <br> - <br> |
 | <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 5" width="100" height="100"/></p> | **Herrera González, Luis Eduardo**  <br> *Código - Carrera*  <br> <br> - <br> |
 
