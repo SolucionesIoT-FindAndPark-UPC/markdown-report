@@ -1135,6 +1135,10 @@ Lo que queda de la siguiente manera:
 
 ### 4.1.2. Context Mapping
 
+Context Mapping es una técnica de Domain-Driven Design (DDD) que define las relaciones entre los bounded contexts en un sistema, estableciendo cómo interactúan e intercambian información. Permite gestionar dependencias y asegura que los modelos de dominio se mantengan consistentes y aislados.
+
+![4.1.2-Context-Mapping.jpg](assets/capitulo-4/4.1.2-Context-Mapping.jpg)
+
 ### 4.1.3. Software Architecture
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
