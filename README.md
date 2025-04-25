@@ -213,7 +213,7 @@ Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, si
 |------|-------------|
 | <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p> | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias.  Por otro lado, me considero una persona responsable y comprometida con el proyecto. |
 | <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *Código - Carrera*  <br> <br> - <br> |
-| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 3" width="100" height="100"/></p> | **Cuevas Rios, Eric Fernando**  <br> *Código - Carrera*  <br> <br> - <br>  |
+|<p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 1" width="80" height="120"/></p>| **Cuevas Rios, Eric Fernando**  <br> *Código - Carrera*  <br> <br> - <br>  |
 | <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 4" width="100" height="100"/></p> | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *Código - Carrera*  <br> <br> - <br> |
 | <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 5" width="100" height="100"/></p> | **Herrera González, Luis Eduardo**  <br> *Código - Carrera*  <br> <br> - <br> |
 
@@ -1167,11 +1167,11 @@ Lo que queda de la siguiente manera:
 
 ### 4.2.6.1. Domain Layer
 
-### Entidad: CriticalCase
+### Entidad: CriticalEventLog
 
-| **Nombre**     | **Categoría** | **Propósito**                                               |
-|----------------|---------------|-------------------------------------------------------------|
-| CriticalCase   | Entity        | Registro de un caso que lleve a la cancelación del pago     |
+| **Nombre**           | **Categoría** | **Propósito**                                               |
+|----------------------|---------------|-------------------------------------------------------------|
+| CriticalEventLog     | Entity        | Registro de un caso que lleve a la cancelación del pago     |
 
 #### Atributos
 
@@ -1184,25 +1184,26 @@ Lo que queda de la siguiente manera:
 | handledBy         | Long             | Private         | ID del administrador que trató el caso                      |
 | status            | string           | Private         | Estado actual del caso                                      |
 | totalDuration     | string           | Private         | Duración total del caso                                     |
-
+  
 ### 4.2.6.2. Interface Layer
 
-### CriticalCaseController  
-| **Nombre**             | **Categoría** | **Propósito**                                               |
-|------------------------|---------------|-------------------------------------------------------------|
-| CriticalCaseController | Controller    | Endpoints para la gestión de casos críticos                 |
+### CriticalEventLogController  
+| **Nombre**                 | **Categoría** | **Propósito**                                               |
+|----------------------------|---------------|-------------------------------------------------------------|
+| CriticalEventLogController | Controller    | Endpoints para la gestión de casos críticos                 |
 
-| **Nombre**       | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                             |
-|------------------|----------------------------------------------|-----------------|-------------------------------------------------------------|
-| Constructor      | void                                         | Public          | Constructor del controlador                                  |
-| createCriticalCase | ResponseEntity&lt;CriticalCaseResponseDto&gt; | Public          | Crear un nuevo caso crítico                                  |
-| getCriticalCase  | ResponseEntity&lt;CriticalCaseResponseDto&gt; | Public          | Obtener un caso crítico por su ID                            |
-| getAllCriticalCases | ResponseEntity&lt;List&lt;CriticalCaseResponseDto&gt;&gt; | Public          | Obtener todos los casos críticos                             |
+| **Nombre**              | **Tipo de retorno**                                      | **Visibilidad** | **Descripción**                                             |
+|-------------------------|----------------------------------------------------------|-----------------|-------------------------------------------------------------|
+| Constructor             | void                                                     | Public          | Constructor del controlador                                  |
+| createCriticalEventLog  | ResponseEntity&lt;CriticalEventLogResponseDto&gt;        | Public          | Crear un nuevo caso crítico                                  |
+| getCriticalEventLog     | ResponseEntity&lt;CriticalEventLogResponseDto&gt;        | Public          | Obtener un caso crítico por su ID                            |
+| getAllCriticalEventLogs | ResponseEntity&lt;List&lt;CriticalEventLogResponseDto&gt;&gt; | Public      | Obtener todos los casos críticos                             |
 
-#### CriticalCaseRequestDto  
-| **Nombre**       | **Categoría** | **Propósito**                                               |
-|------------------|---------------|-------------------------------------------------------------|
-| CriticalCaseRequestDto | DTO           | Datos necesarios para crear un nuevo caso crítico           |
+
+#### CriticalEventLogRequestDto  
+| **Nombre**                   | **Categoría** | **Propósito**                                               |
+|------------------------------|---------------|-------------------------------------------------------------|
+| CriticalEventLogRequestDto   | DTO           | Datos necesarios para crear un nuevo caso crítico           |
 
 | **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
 |------------------|------------------|-----------------|-------------------------------------------------------------|
@@ -1210,11 +1211,11 @@ Lo que queda de la siguiente manera:
 | vehiclePlate     | string           | Private         | Placa del vehículo involucrado en el caso                   |
 | timestamp        | Time             | Private         | Fecha y hora de la ocurrencia del caso                      |
 | handledBy        | Long             | Private         | ID del administrador que atendió el caso                    |
-
-#### CriticalCaseResponseDto   
-| **Nombre**       | **Categoría** | **Propósito**                                               |
-|------------------|---------------|-------------------------------------------------------------|
-| CriticalCaseResponseDto | DTO           | Representación de un caso crítico con detalles completos    |
+  
+#### CriticalEventLogResponseDto   
+| **Nombre**                   | **Categoría** | **Propósito**                                               |
+|------------------------------|---------------|-------------------------------------------------------------|
+| CriticalEventLogResponseDto  | DTO           | Representación de un caso crítico con detalles completos    |
 
 | **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
 |------------------|------------------|-----------------|-------------------------------------------------------------|
@@ -1264,38 +1265,38 @@ Lo que queda de la siguiente manera:
 
 
 ### 4.2.6.3. Application Layer
-
-### ICriticalCaseService  
-| **Nombre**             | **Categoría** | **Propósito**                                               |
-|------------------------|---------------|-------------------------------------------------------------|
-| ICriticalCaseService   | Service       | Define las operaciones para gestionar casos críticos        |
+  
+### ICriticalEventLogService  
+| **Nombre**                 | **Categoría** | **Propósito**                                               |
+|----------------------------|---------------|-------------------------------------------------------------|
+| ICriticalEventLogService   | Service       | Define las operaciones para gestionar casos críticos        |
 
 #### Métodos
 
-| **Nombre**           | **Tipo de retorno**                          | **Descripción**                                             |
-|----------------------|----------------------------------------------|-------------------------------------------------------------|
-| createCriticalCase   | CriticalCaseResponseDto                      | Crea un nuevo caso crítico                                  |
-| getCriticalCase      | CriticalCaseResponseDto                      | Obtiene un caso crítico por su ID                            |
-| getAllCriticalCases  | List<CriticalCaseResponseDto>           | Obtiene todos los casos críticos                             |
+| **Nombre**              | **Tipo de retorno**                               | **Descripción**                                             |
+|-------------------------|---------------------------------------------------|-------------------------------------------------------------|
+| createCriticalEventLog  | CriticalEventLogResponseDto                       | Crea un nuevo caso crítico                                  |
+| getCriticalEventLog     | CriticalEventLogResponseDto                       | Obtiene un caso crítico por su ID                           |
+| getAllCriticalEventLogs | List&lt;CriticalEventLogResponseDto&gt;           | Obtiene todos los casos críticos                            |
 
-### CriticalCaseServiceImpl  
-| **Nombre**             | **Categoría** | **Propósito**                                               |
-|------------------------|---------------|-------------------------------------------------------------|
-| CriticalCaseServiceImpl | Service       | Implementa las operaciones definidas en ICriticalCaseService |
+### CriticalEventLogServiceImpl  
+| **Nombre**                    | **Categoría** | **Propósito**                                                         |
+|-------------------------------|---------------|------------------------------------------------------------------------|
+| CriticalEventLogServiceImpl   | Service       | Implementa las operaciones definidas en ICriticalEventLogService      |
 
 #### Atributos
 
-| **Nombre**             | **Tipo de dato**         | **Visibilidad** | **Descripción**                                 |
-|------------------------|--------------------------|-----------------|-------------------------------------------------|
-| criticalCaseRepository | ICriticalCaseRepository  | Private         | Repositorio para acceder a los datos de casos críticos |
+| **Nombre**                  | **Tipo de dato**              | **Visibilidad** | **Descripción**                                       |
+|-----------------------------|-------------------------------|-----------------|-------------------------------------------------------|
+| criticalEventLogRepository  | ICriticalEventLogRepository   | Private         | Repositorio para acceder a los datos de casos críticos |
 
 #### Métodos
 
-| **Nombre**           | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                             |
-|----------------------|----------------------------------------------|-----------------|-------------------------------------------------------------|
-| createCriticalCase   | CriticalCaseResponseDto                      | Public          | Crea un nuevo caso crítico                                  |
-| getCriticalCase      | CriticalCaseResponseDto                      | Public          | Obtiene un caso crítico por su ID                            |
-| getAllCriticalCases  | List<CriticalCaseResponseDto>           | Public          | Obtiene todos los casos críticos                             |
+| **Nombre**              | **Tipo de retorno**                               | **Visibilidad** | **Descripción**                                             |
+|-------------------------|---------------------------------------------------|-----------------|-------------------------------------------------------------|
+| createCriticalEventLog  | CriticalEventLogResponseDto                       | Public          | Crea un nuevo caso crítico                                  |
+| getCriticalEventLog     | CriticalEventLogResponseDto                       | Public          | Obtiene un caso crítico por su ID                           |
+| getAllCriticalEventLogs | List&lt;CriticalEventLogResponseDto&gt;           | Public          | Obtiene todos los casos críticos                            |
   
 ### IVehicleService
 | **Nombre**     | **Categoría** | **Propósito**                                               |
@@ -1361,19 +1362,19 @@ Lo que queda de la siguiente manera:
 
 ### 4.2.6.4. Infrastructure Layer
 
-### ICriticalCaseRepository  
-| **Nombre**             | **Categoría** | **Propósito**                                               |
-|------------------------|---------------|-------------------------------------------------------------|
-| ICriticalCaseRepository | Repository    | Define las operaciones de acceso a datos para casos críticos |
+### ICriticalEventLogRepository  
+| **Nombre**                  | **Categoría** | **Propósito**                                               |
+|-----------------------------|---------------|-------------------------------------------------------------|
+| ICriticalEventLogRepository | Repository    | Define las operaciones de acceso a datos para casos críticos |
 
 #### Métodos
 
-| **Nombre**           | **Tipo de retorno**                          | **Descripción**                                             |
-|----------------------|----------------------------------------------|-------------------------------------------------------------|
-| findById             | Optional<CriticalCase>                 | Encuentra un caso crítico por su ID                          |
-| findAll              | List<CriticalCase>                      | Encuentra todos los casos críticos                           |
-| save                 | CriticalCase                                 | Guarda un nuevo caso crítico                                 |
-| deleteById           | void                                         | Elimina un caso crítico por su ID                            |
+| **Nombre**   | **Tipo de retorno**                         | **Descripción**                                  |
+|--------------|---------------------------------------------|--------------------------------------------------|
+| findById     | Optional&lt;CriticalEventLog&gt;            | Encuentra un caso crítico por su ID              |
+| findAll      | List&lt;CriticalEventLog&gt;                | Encuentra todos los casos críticos               |
+| save         | CriticalEventLog                            | Guarda un nuevo caso crítico                     |
+| deleteById   | void                                        | Elimina un caso crítico por su ID                |
 
 ### IVehicleRepository  
 | **Nombre**           | **Categoría** | **Propósito**                                               |
@@ -1401,11 +1402,17 @@ Lo que queda de la siguiente manera:
 
 ### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
+<p align="center"><img src="assets/capitulo-4/4.2.6.5-Monitoring-ComponentDiagram.png" alt="Component Diagram Monitoring"/></p>
+
 ### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
 
+<p align="center"><img src="assets/capitulo-4/4.2.6.6.1-Monitoring-ClassDiagram.jpg" alt="Monitoring Class Diagram"/></p>
+
 #### 4.2.6.6.2. Bounded Context Database Design Diagram
+
+<p align="center"><img src="assets/capitulo-4/4.2.6.6.2-MonitoringDatabase.jpg" alt="Monitoring DB Diagram"/></p>
 
 ## 4.2.7. Bounded Context: Ticket validation
 
@@ -1543,12 +1550,18 @@ Lo que queda de la siguiente manera:
 
 ### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
+<p align="center"><img src="assets/capitulo-4/4.2.7.5-TicketValidation-ComponentDiagram.png" alt="Ticket Validation Component Diagram"/></p>
+
 ### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 
+<p align="center"><img src="assets/capitulo-4/4.2.7.6.1-TicketValidation-ClassDiagram.jpg" alt="Ticket Validation Class Diagram"/></p>
+
 #### 4.2.7.6.2. Bounded Context Database Design Diagram
   
+<p align="center"><img src="assets/capitulo-4/4.2.7.6.2-TicketValidationDatabase.jpg" alt="Ticket Validation DB Diagram"/></p>
+
 ## 4.2.8. Bounded Context: Notifications
 
 ### 4.2.8.1. Domain Layer
@@ -2281,7 +2294,11 @@ Es un IDE que facilita las pruebas para aplicaciones web. Por ejemplo, permite g
 
 #### Software Deployment
 
-To be seen
+Flutter SDK: flutter.dev
+Permite la preparación para el despleigue de aplicación moviles hechas con Flutter.
+
+Firebase: firebase.com
+Permite el despliegue gratuito de paginas web.
 
 #### Software Documentation
 
