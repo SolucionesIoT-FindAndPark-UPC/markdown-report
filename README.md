@@ -211,11 +211,11 @@ Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, si
 
 | Foto | Perfil de Integrante |
 |------|-------------|
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p> | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias.  Por otro lado, me considero una persona responsable y comprometida con el proyecto. |
-| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *Código - Carrera*  <br> <br> - <br> |
-|<p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 1" width="100" height="130"/></p>| **Cuevas Rios, Eric Fernando**  <br> *Código - Carrera*  <br> <br> - <br>  |
-| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 4" width="100" height="100"/></p> | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *Código - Carrera*  <br> <br> - <br> |
-| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 5" width="100" height="100"/></p> | **Herrera González, Luis Eduardo**  <br> *Código - Carrera*  <br> <br> - <br> |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p> | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto. |
+| <p align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQF0q82dzd577g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719029164195?e=1750896000&v=beta&t=XNTeNX_6dSYIsI75WWHmmJjOHW5Wr0RaHyLkeVk32oc" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *U20221A928 - Ingeniería de Software*  <br> <br>  Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas. |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 3" width="100" height="100"/></p> | **Cuevas Rios, Eric Fernando**  <br> *Código - Carrera*  <br> <br> - |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 4" width="100" height="100"/></p> | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *Código - Carrera*  <br> <br> - |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 5" width="100" height="100"/></p> | **Herrera González, Luis Eduardo**  <br> *Código - Carrera*  <br> <br> - |
 
 ## 1.2. Solution Profile
 
