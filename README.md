@@ -2483,6 +2483,8 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 ## 5.5. Applications Prototyping
 
+![](https://i.postimg.cc/7YrT8ZV7/web-prototype.png)
+![](https://i.postimg.cc/150V91Cd/mov-prototype.png)
 
 # Capítulo VI: Product Implementation & Validation
 
