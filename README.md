@@ -1940,13 +1940,21 @@ Impl.: `CameraFeedServiceImpl`
 
 ----
 
-### 4.2.  .5. Bounded Context Software Architecture Component Level Diagrams
+### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+![Camera Feed Component Level](assets/capitulo-4/ContenedorCamara.PNG)
 
-#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
-#### 4.2.X.6.2. Bounded Context Database Design Diagram
+![Camera Feed Architecture Code Level Diagrams](assets/capitulo-4/CameraFeedDiagram.jpg)
+
+#### 4.2.3.4.1. Bounded Context Domain Layer Class Diagrams
+
+![Camera Feed Bounded Context Domain Layer](assets/capitulo-4/classCameraFeed.png)
+
+#### 4.2.3.4.2. Bounded Context Database Design Diagram
+
+
 
 ## 4.2.4. Bounded Context: Parking Circulation
 
@@ -2027,7 +2035,7 @@ Impl.: `CirculationServiceImpl` (publica dominio events a *Payments* & *Notifica
 ![Parking Circulation Classes](assets/capitulo-4/4.2.4.6.1-Diagram.png)
 
 #### 4.2.4.6.2. Database Design
-![Parking Circulation DB](assets/capitulo-4/4.2.4.6.2-Diagram.png)
+![Parking Circulation DB]()
 
 ---
 
@@ -2353,7 +2361,7 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 ### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-![Payment Container](assets/capitulo-4/ContenedorPago.png)
+![Payment Container](assets/capitulo-4/ContenedorPago.PNG)
 
 
 ### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
