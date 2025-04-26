@@ -180,10 +180,10 @@
 
 <div align="justify">
 
-| **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
-|-------------------------|-------------------------|------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <br>- *Obispo Rios, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en reuniones de equipo para definir el alcance del proyecto y la arquitectura. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>Participar en la reparticipon de tareas asi como en el diseño y formulación del proyecto.<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>Brindar ideas en reuniones cada semana del equipo con la finalidad de realizar retroalimentación y mejora de aspectos del infomre.<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br> |  |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | <br>- *Obispo Ríos, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en el proceso de asignación de tareas y cumplir con las actividades asignadas en relación a las entrevistas, To-Be y As-Is Scneario Mapping, Journey Mapping, Historias de Usuario, Eventstorming, entre otros. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>Realice los puntos asignados, siendo estos los bounded context de Monitoring y ticket validation, asi como el software configuration management.<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteba*<br> <br>**TB1**<br> <br>Elaborar con mis compañeros el proceso de event storming, AS-IS, C4, entre otros procesos clave para la culmniación de la TB1. <br> <br><br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br>  | - |
+| Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | Obispo Rios, Lucero Abigail:<br><br>TB1:<br><br>Participar en reuniones de equipo para definir el alcance del proyecto y la arquitectura.<br><br>Cuevas Rios, Eric Fernando:<br><br>Participar en la repartición de tareas así como en el diseño y formulación del proyecto.<br><br>Vargas Revollé, Ariana:<br><br>desarrollo del análisis competitivo y colaboré en decisiones estratégicas, facilitando acuerdos y direccionando al equipo hacia objetivos comunes durante el diseño de la solución.<br><br>Elsner De La Torre Ugarte, Julio Esteban:<br><br>Brindar ideas en reuniones cada semana del equipo con la finalidad de realizar retroalimentación y mejora de aspectos del informe.<br><br>Herrera González, Luis Eduardo:<br><br>Coordiné reuniones y tareas para agilizar el avance del proyecto, promoví la participación y acuerdos del equipo para mejorar el informe y cumplir los objetivos.                                                                                                                                                                                     | TB1: Todos los integrantes participaron activamente en reuniones de equipo, aportando ideas, colaborando en la toma de decisiones estratégicas y facilitando acuerdos. Esto fortaleció el liderazgo conjunto y permitió dirigir al grupo hacia objetivos claros y comunes, asegurando así una coordinación efectiva en el diseño y desarrollo del proyecto.<br>                                                               |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Obispo Rios, Lucero Abigail<br><br>TB1<br><br>Participar en el proceso de asignación de tareas y cumplir con las actividades asignadas en relación a las entrevistas, To-Be y As-Is Scenario Mapping, Journey Mapping, Historias de Usuario, EventStorming, entre otros.<br><br>Cuevas Rios, Eric Fernando:<br><br>Realice los puntos asignados, siendo estos los bounded context de Monitoring y ticket validation, así como el software configuration management.<br><br>Vargas Revollé, Ariana:<br><br>Contribuí a la planificación de tareas clave como el Impact Mapping, entrevistas y definición de contextos, asegurando un ambiente de trabajo inclusivo y la entrega puntual de resultados.<br><br>Elsner De La Torre Ugarte, Julio Esteban<br><br>Elaborar con mis compañeros el proceso de event storming, AS-IS, C4, entre otros procesos clave para la culminación de la TB1.<br><br>Herrera González, Luis Eduardo:<br><br>Organicé y planifiqué tareas clave, establecí metas claras y aseguré un entorno de trabajo inclusivo para cumplir con los objetivos del proyecto. | TB1: Cada miembro del equipo contribuyó en la planificación, asignación y cumplimiento de tareas específicas, promoviendo un ambiente inclusivo y de trabajo colaborativo. La participación activa en actividades como entrevistas, EventStorming, mapeos de escenarios y definición de contextos permitió alcanzar los objetivos propuestos de manera puntual y organizada, fortaleciendo la eficiencia y cohesión del equipo. |
 
 </div>
 
@@ -209,13 +209,13 @@ Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, si
 
 ### 1.1.2. Perfiles de integrantes del equipo 
 
-| Foto | Perfil de Integrante |
-|------|-------------|
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p> | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto. |
-| <p align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQF0q82dzd577g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719029164195?e=1750896000&v=beta&t=XNTeNX_6dSYIsI75WWHmmJjOHW5Wr0RaHyLkeVk32oc" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *U20221A928 - Ingeniería de Software*  <br> <br>  Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas. |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 3" width="100" height="130"/></p>| **Cuevas Rios, Eric Fernando**  <br> *U202112766 - Ingeniería de Software*  <br> <br> Soy capaz de brindar mi experiencia en redacción, diseño de soluciones y programación movil para ayudar a obtener las metas del grupo. Además, soy bueno brindando puntualidad y organización a los proyectos de los que tomo parte, lo que espero sirva al resto de mis compañeros de equipo. <br>  |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-4.jpg" alt="Foto de integrante 4" width="100" height="110"/></p> | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *U202111654 - Ingeniería de Software*  <br> Para este proyecto, puedo aportar con habilidades de indagación y pensamiento crítico, diseño de prototipo en Figma y programación back-End. Añadido a esto, estoy me es grato poder aprender de mis demás compañeros y de sus habilidades individuales. Me considero una persona responsable y que cumple con los plazos establecidos en una entrega. <br>   |
-| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 5" width="100" height="100"/></p> | **Herrera González, Luis Eduardo**  <br> *Código - Carrera*  <br> <br> - <br> |
+| Foto                                                                                                                                                                                                                                                                                                      | Perfil de Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p>                                                                                                                                                                 | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.                                                                                                      |
+| <p align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQF0q82dzd577g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719029164195?e=1750896000&v=beta&t=XNTeNX_6dSYIsI75WWHmmJjOHW5Wr0RaHyLkeVk32oc" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *U20221A928 - Ingeniería de Software*  <br> <br>  Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas.                                                                                                                                                                                           |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 3" width="100" height="130"/></p>                                                                                                                                                                 | **Cuevas Rios, Eric Fernando**  <br> *U202112766 - Ingeniería de Software*  <br> <br> Soy capaz de brindar mi experiencia en redacción, diseño de soluciones y programación movil para ayudar a obtener las metas del grupo. Además, soy bueno brindando puntualidad y organización a los proyectos de los que tomo parte, lo que espero sirva al resto de mis compañeros de equipo. <br>                                                                       |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-4.jpg" alt="Foto de integrante 4" width="100" height="110"/></p>                                                                                                                                                                 | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *U202111654 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar con habilidades de indagación y pensamiento crítico, diseño de prototipo en Figma y programación back-End. Añadido a esto, estoy me es grato poder aprender de mis demás compañeros y de sus habilidades individuales. Me considero una persona responsable y que cumple con los plazos establecidos en una entrega. <br> |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-5.png" alt="Foto de integrante 5" width="100" height="100"/></p>                                                                                                                                                                 | **Herrera González, Luis Eduardo**  <br> *U202218227 - Ingeniería de Software*  <br> <br> Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software. Me apasiona el desarrollo de aplicaciones web y de escritorio eficientes, utilizando tecnologías modernas como Bun, Tauri y Lit. También cuento con experiencia en frameworks ampliamente adoptados como Next.js, Angular y Spring Boot. Además, tengo un gran interés en el área de Machine Learning, trabajando con CUDA, C++ y MLX para crear soluciones de alto rendimiento. Me considero una persona curiosa, enfocada en la innovación tecnológica y comprometida a aportar mis habilidades técnicas para el éxito del equipo.                                                                                                                                                                                                                                                                                                                                                                      |
 
 
 ## 1.2. Solution Profile
@@ -583,6 +583,7 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
     3:28 - ¿Qué información consideras más importante tener a la mano mientras gestionas el estacionamiento?
     Sería el ticket, la placa y el rostro del chofer.
 
+
 - Segunda Entrevista: 
 
    <img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-2.png" alt="Entrevista 2" height="180"/> 
@@ -605,12 +606,36 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
     4:48 - ¿Te sentirías cómodo con un sistema que detecta automáticamente las placas y realiza los cobros sin que tú intervengas?
     Claro, nos permitiria agilizar el trabajo.
 
+
+- Tercera Entrevista:
+
+    <img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-3.png" alt="Entrevista 3" height="180"/>
+
+    - Entrevistado: Sebastián Ramírez Hoffmann
+    - Residencia: Lima
+    - Ocupación: Seguridad de Parking
+    - Entrevistador: Luis Herrera
+    - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218227_upc_edu_pe/EUfQx0ozblVNoU8SJ2yKbvEB_WRjYS2x0stY1GG0cZfkyQ?e=99ONRH]
+    - Resumen de la entrevista:
+      2:55 – ¿Qué tipo de información te resulta más útil visualizar a diario para monitorear el funcionamiento del estacionamiento? 
+      Lo más valioso es ver, en tiempo real, qué vehículos ingresan: su placa, color y características distintivas. Ese registro permite rastrear al dueño si ocurre un robo o incidente y facilita a Seguridad actuar de inmediato.
+
+      3:40 – ¿Qué funcionalidades consideras esenciales en una plataforma web para administrar y monitorear espacios de parqueo?
+      Una plataforma debería mostrar un registro automático de entrada / salida con hora exacta, vincular la placa a un perfil del propietario (DNI), y superponer la información con cámaras para ubicar cada auto en tiempo real. También pide campos visuales simples (color del vehículo, polarizado, etc.) y un tablero sin pasos extra.
+      
+      5:25 – ¿Qué herramientas usas hoy para controlar los vehículos que entran y salen?
+      Actualmente usan un sistema de tickets / QR: al ingresar se entrega un código impreso que se escanea a la salida para identificar al conductor y calcular la tarifa. En trabajos anteriores emplearon soluciones similares, combinando pago manual y registro en papel.
+
+      8:24 – ¿Te sentirías cómodo con un sistema que detecta automáticamente las placas y realiza los cobros sin que tú intervengas?
+      Le parece una gran idea por la eficiencia y la reducción de personal a futuro; solo le preocupa la seguridad inmediata (cómo reaccionar si ocurre un delito). Mientras existan medidas para respuestas rápidas y se integre con el sistema actual, lo adoptaría con gusto.
+
 ### 2.2.3. Análisis de entrevistas
 ##### Segmento 1: Conductores
 
 ##### Segmento 2: Administradores de parking
 - Primera Entrevista: El entrevistado señaló que el monitoreo se realiza principalmente mediante cámaras activas todo el tiempo y rondas presenciales para verificar el estado del parqueo. Ante emergencias, se comunica directamente con el gerente de tienda por radio, sin un protocolo formal establecido. La información más útil para su labor diaria incluye las grabaciones de las cámaras, el ticket del vehículo, la placa y el rostro del conductor. Actualmente no utilizan una plataforma web, ya que el parqueo es gratuito y no considera necesaria una visualización digital; sin embargo, si hubiera cobro, sí vería valor en implementarla. El control de ingreso y salida se realiza de forma manual con tickets y anotaciones en papel.
 - Segunda Entrevista: El entrevistado Señalo que se tienen contratado un sistema que les permite realizar las facturaciones, pero que el resto de los controles del estacionamiento los realizan manualmente y recae en los empleados aplicar los protocolos en caso de incidentes. A partir de esto señalo en las siguientes respuestas que esta interesado en adquirir un sistema que le permita automatizar más partes de la gestión del estacionamiento.
+- Tercera Entrevista: El entrevistado explicó que el monitoreo combina cámaras en funcionamiento continuo con personal en “postas” para actuar de inmediato si ocurre un incidente. Para emergencias, se apoya en las grabaciones y en la identificación visual del vehículo (placa, color y rasgos distintivos) a fin de rastrear rápidamente al propietario; considera indispensable vincular estos datos con los perfiles de los usuarios. La información diaria más valiosa es un registro en tiempo real de qué autos entran y salen y dónde se encuentran dentro del estacionamiento. Aunque hoy trabajan con un sistema de tickets/QR que sólo cubre el cobro, todas las verificaciones de seguridad se llevan a cabo de forma manual. El entrevistado ve gran utilidad en una plataforma web que muestre las entradas y salidas, integre las cámaras y automatice la asociación entre placa y perfil; sin embargo, advierte que debe garantizarse una respuesta rápida ante robos o siniestros. Afirma sentirse cómodo con la detección automática de placas y el cobro sin intervención humana, siempre que la solución mantenga o mejore los niveles de seguridad actuales.
 
 ## 2.3. Needfinding
 
@@ -1641,6 +1666,185 @@ Esta representación contribuye a visualizar la implementación técnica del con
 
 ![](https://i.postimg.cc/jqQSCccC/iam-db-diagram.png)
 
+## 4.2.2. Bounded Context: Parking Site
+
+> **Propósito general**  
+> Este contexto modela la **infraestructura física** de un estacionamiento (sedes, pisos, plazas).
+
+### 4.2.2.1. Domain Layer
+
+| Agregado | Rol | Descripción breve |
+|----------|-----|-------------------|
+| **Site** `<<Aggregate Root>>` | Macro-unidad | Un establecimiento (o nivel) con dirección, capacidad y reglas. Contiene muchas `ParkingSpot`. |
+| **ParkingSpot** `<<Aggregate Root>>` | Micro-unidad | Una plaza individual identificada (código), de un **tipo** (COMPACT, EV, HANDICAP…) y con un **state** (FREE, OCCUPIED, OUT_OF_SERVICE). |
+
+#### Site
+
+| Atributo | Tipo | Vis. | Notas |
+|----------|------|------|-------|
+| id | Long | private | PK |
+| name | String | private | Nombre visible (“San Isidro – Sotano 1”) |
+| address | String | private | Dirección completa |
+| totalCapacity | Integer | private | Plazas totales |
+| availableSpots | Integer | private | Plazas libres (cálculo interno) |
+
+| Método | Firma |
+|--------|-------|
+| addSpot(spot: ParkingSpot) |
+| removeSpot(spotId: Long) |
+| updateAvailability(): Site |
+
+#### ParkingSpot
+
+| Atributo | Tipo | Vis. | Notas |
+|----------|------|------|-------|
+| id | Long | private | PK |
+| code | String | private | Ej. “B-12” |
+| type | SpotType `enum` | private | COMPACT, LARGE, EV, HANDICAP |
+| state | SpotState `enum` | private | FREE, OCCUPIED, RESERVED, OUT_OF_SERVICE |
+| siteId | Long | private | FK a `Site` |
+
+| Método | Firma |
+|--------|-------|
+| occupy(): ParkingSpot |
+| release(): ParkingSpot |
+| markOutOfService(): ParkingSpot |
+
+#### Value Objects
+
+| Nombre | Valores |
+|--------|---------|
+| **SpotType** | COMPACT · LARGE · EV · HANDICAP |
+| **SpotState** | FREE · OCCUPIED · RESERVED · OUT_OF_SERVICE |
+
+#### Domain Services
+
+| Servicio | Responsabilidad principal |
+|----------|---------------------------|
+| **SpotAssignmentService** | Encontrar la siguiente plaza libre según *tipo preferido* y *reglas de negocio* (por ejemplo, prioridad EV). |
+
+---
+
+### 4.2.2.2. Interface Layer
+
+| Controller | Endpoints clave |
+|------------|----------------|
+| **SitesController** | `GET /sites`, `GET /sites/{id}`, `POST /sites` |
+| **SpotsController** | `GET /spots/{id}`, `PATCH /spots/{id}/occupy`, `PATCH /spots/{id}/release` |
+
+---
+
+### 4.2.2.3. Application Layer
+
+| Service Interface | Operaciones |
+|-------------------|-------------|
+| **ISiteService** | createSite · getSite · listSites |
+| **ISpotService** | occupySpot · releaseSpot · findNextFreeSpot |
+
+Implementaciones: `SiteServiceImpl`, `SpotServiceImpl` (usan `ModelMapper` + reglas de dominio).
+
+---
+
+### 4.2.2.4. Infrastructure Layer
+
+| Repository | Extiende | Métodos custom |
+|------------|----------|----------------|
+| **SiteRepository** | `JpaRepository<Site,Long>` | findByName |
+| **SpotRepository** | `JpaRepository<ParkingSpot,Long>` | countByStateAndSiteId |
+
+---
+
+### 4.2.2.5. Component Diagram
+![Parking Site Components](assets/capitulo-4/4.2.2.5-Diagram.png)
+
+### 4.2.2.6. Code-Level Diagrams
+#### 4.2.2.6.1. Domain Class Diagram
+![Parking Site Classes](assets/capitulo-4/4.2.2.6.1-Diagram.png)
+
+#### 4.2.2.6.2. Database Design
+![Parking Site DB](assets/capitulo-4/4.2.2.6.2-Diagram.png)
+
+## 4.2.4. Bounded Context: Parking Circulation
+
+> **Propósito**  
+> Modela **eventos de flujo**: ingreso, salida y emisión de tickets en tiempo real,  
+> orquestando la relación con *Camera Feed* y *Payments*.
+
+### 4.2.4.1. Domain Layer
+
+| Entidad / Agregado | Descripción |
+|--------------------|-------------|
+| **ParkingEntrance** | Evento de llegada (timestamp, plate, detectedBy). |
+| **ParkingExit** | Evento de salida. |
+| **Ticket** `<<Entity>>` | Correlaciona entrada + salida, lleva `userId` (VO), `status`, `amountToPay`, `totalDuration`. |
+| **UserId** `<<Value Object>>` | Cadena inmutable (“sub-dominio IAM”). |
+
+#### Ticket (núcleo)
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| userId | UserId |
+| entranceId | Long |
+| exitId | Long (nullable hasta salida) |
+| status | TicketState `enum` |
+| amountToPay | BigDecimal |
+| totalDuration | Duration |
+
+| Método | Firma |
+|--------|-------|
+| close(exit: ParkingExit): Ticket |
+| calculateAmount(rate: MoneyRate): BigDecimal |
+
+#### Enums
+`TicketState` → OPEN · CLOSED · CANCELLED
+
+#### Domain Service
+`CirculationDomainService`  
+– vincula entrada, genera `Ticket`; al recibir salida, cierra + publica **ParkingCompletedEvent**.
+
+---
+
+### 4.2.4.2. Interface Layer
+
+| Controller | Endpoints |
+|------------|-----------|
+| **EntranceController** | `POST /circulation/entrance` |
+| **ExitController** | `POST /circulation/exit` |
+| **TicketsController** | `GET /tickets/{id}` · `GET /tickets?userId=` |
+
+---
+
+### 4.2.4.3. Application Layer
+
+| Service | Operaciones |
+|---------|-------------|
+| **ICirculationService** | registerEntrance · registerExit · getTicket · getActiveTickets |
+
+Impl.: `CirculationServiceImpl` (publica dominio events a *Payments* & *Notifications*).
+
+---
+
+### 4.2.4.4. Infrastructure Layer
+
+| Repository | Métodos custom |
+|------------|----------------|
+| **EntranceRepository** | findByVehiclePlateAndDate |
+| **ExitRepository** | — |
+| **TicketRepository** | findByUserId · findOpenByPlate |
+
+---
+
+### 4.2.4.5. Component Diagram
+![Parking Circulation Components](assets/capitulo-4/4.2.4.5-Diagram.png)
+
+### 4.2.4.6. Code-Level Diagrams
+#### 4.2.4.6.1. Domain Class Diagram
+![Parking Circulation Classes](assets/capitulo-4/4.2.4.6.1-Diagram.png)
+
+#### 4.2.4.6.2. Database Design
+![Parking Circulation DB](assets/capitulo-4/4.2.4.6.2-Diagram.png)
+
 ## 4.2.6. Bounded Context: Monitoring
 
 ### 4.2.6.1. Domain Layer
@@ -2195,6 +2399,81 @@ Esta representación contribuye a visualizar la implementación técnica del con
 
 #### 4.2.8.6.2. Bounded Context Database Design Diagram
 <p align="center"><img src="assets/capitulo-4/4.2.8.6.2-Notifications-Database-Model.PNG" alt="Notifications DB Diagram"/></p>
+
+## 4.2.9. Bounded Context: Profiles
+
+> **Propósito**  
+> Agrupa los **datos extendidos** de los distintos tipos de usuario (no credenciales):  
+> preferencias, información de contacto, métricas de uso, etc.
+
+### 4.2.9.1. Domain Layer
+
+| Agregado | Rol |
+|----------|-----|
+| **DriverProfile** `<<Aggregate Root>>` | Información de un conductor (licencia, preferencia de pago, vehículo favorito). |
+| **AdminProfile** `<<Aggregate Root>>` | Datos de un administrador (scope de parking, contacto directo). |
+
+#### DriverProfile
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| userId | UserId |
+| fullName | String |
+| licenseNumber | String |
+| favouritePaymentCard | String |
+| preferredLanguage | Language `enum` |
+
+#### AdminProfile
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| userId | UserId |
+| fullName | String |
+| phoneNumber | String |
+| managedSiteIds | List<Long> |
+
+#### Value Objects
+`Language` → ES · EN · PT
+
+---
+
+### 4.2.9.2. Interface Layer
+
+| Controller | Endpoints |
+|------------|-----------|
+| **ProfilesController** | `GET /profiles/{userId}` · `POST /profiles/driver` · `POST /profiles/admin` |
+
+---
+
+### 4.2.9.3. Application Layer
+
+| Service | Operaciones |
+|---------|-------------|
+| **IProfileService** | createDriverProfile · createAdminProfile · getProfileByUserId |
+
+Impl.: `ProfileServiceImpl` (usa `ModelMapper` + `ProfileRepository`).
+
+---
+
+### 4.2.9.4. Infrastructure Layer
+
+| Repository | Extiende |
+|------------|----------|
+| **ProfileRepository** | `JpaRepository<BaseProfile,Long>` con estrategia *single-table* + `dtype` |
+
+---
+
+### 4.2.9.5. Component Diagram
+![Profiles Components](assets/capitulo-4/4.2.9.5-Diagram.png)
+
+### 4.2.9.6. Code-Level Diagrams
+#### 4.2.9.6.1. Domain Class Diagram
+![Profiles Classes](assets/capitulo-4/4.2.9.6.1-Diagram.png)
+
+#### 4.2.9.6.2. Database Design
+![Profiles DB](assets/capitulo-4/4.2.9.6.2-Diagram.png)
 
 # Capítulo V: Solution UI/UX Design
 
