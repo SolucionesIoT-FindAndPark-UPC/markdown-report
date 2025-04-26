@@ -1425,41 +1425,7 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 | **Profiles Service**       | Información personal del usuario que no sea para autenticarse.         |
 
 
-## 4.2.X. Bounded Context: <Payments & Notifications>
 
-El dominio de Parking Management describe las funciones y procesos involucrados en la gestión del parqueo dentro de un centro comercial. Este sistema se encarga de administrar el ingreso y salida de vehículos, asignar espacios disponibles en las distintas zonas de parqueo, generar y validar tickets, y controlar la duración del uso de los espacios. Además, permite gestionar usuarios recurrentes y visitantes, facilitando una experiencia eficiente y organizada para todos los conductores. El sistema también contempla la tarificación automática según el tiempo de uso y el procesamiento de pagos correspondientes.
-
-Este dominio opera dentro del bounded context de Notification & Payments, integrando funcionalidades clave como el envío de notificaciones al usuario (por ejemplo, alertas de vencimiento de ticket o confirmaciones de pago), así como la gestión completa del ciclo de pagos. Esto asegura que las transacciones se realicen de forma segura y que los usuarios estén informados en tiempo real, mejorando significativamente la eficiencia del sistema y la satisfacción del usuario.
-
-### Payment
-
-<p align="center">
-  <img src="assets/capitulo-4/PaymentsBC.png" alt="Imagen extraída de Figma" width="700"/>
-</p>
-<br>
-
-### Notification
-
-<p align="center">
-  <img src="assets/capitulo-4/NotificationsBC.png" alt="Imagen extraída de Figma" width="700"/>
-</p>
-<br>
-
-### 4.2.X.1. Domain Layer
-
-### 4.2.X.2. Interface Layer
-
-### 4.2.X.3. Application Layer
-
-### 4.2.X.4. Infrastructure Layer
-
-### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
-
-### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
-
-#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
-
-#### 4.2.X.6.2. Bounded Context Database Design Diagram
 
 ## 4.2.1. Bounded Context: IAM
 
@@ -1767,6 +1733,229 @@ Implementaciones: `SiteServiceImpl`, `SpotServiceImpl` (usan `ModelMapper` + reg
 #### 4.2.2.6.2. Database Design
 ![Parking Site DB](assets/capitulo-4/4.2.2.6.2-Diagram.png)
 
+----
+### 4.2.3. Bounded Context: Camera Feed
+
+Este contexto está orientado a la gestión de dispositivos de cámaras, sus transmisiones (feeds) en vivo, capturas de pantalla (screenshots) y la relación de estas capturas con matrículas de automóviles (carplates).
+
+---
+
+## Clase CameraDevice (Aggregate Root)
+
+| **Nombre**           | **CameraDevice**             |
+|:---------------------|:------------------------------|
+| **Relaciones**       | Tiene muchos `Feed` y muchos `Screenshot`. |
+| **Descripción**      | Representa un dispositivo de cámara que envía transmisiones y toma capturas de pantalla. Es el agregado raíz de este contexto. |
+
+### Atributos
+
+| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
+|:---------------------|:-------------------|:----------------|
+| `id`                 | `Long`             | `private`       |
+| `deviceName`         | `String`           | `private`       |
+| `location`           | `String`           | `private`       |
+| `feeds`              | `List<Feed>`       | `private`       |
+| `screenshots`        | `List<Screenshot>` | `private`       |
+
+### Métodos
+
+| **Método**           | **Descripción**                             |
+|:---------------------|:-------------------------------------------|
+| `addFeed(feed: Feed)` | Agrega un nuevo feed al dispositivo.       |
+| `addScreenshot(screenshot: Screenshot)` | Agrega una nueva captura de pantalla. |
+
+---
+
+## Clase Feed (Entity)
+
+| **Nombre**           | **Feed**                    |
+|:---------------------|:----------------------------|
+| **Relaciones**       | Pertenece a `CameraDevice`. |
+| **Descripción**      | Representa una transmisión de video proveniente de un dispositivo de cámara. |
+
+### Atributos
+
+| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
+|:---------------------|:-------------------|:----------------|
+| `id`                 | `Long`             | `private`       |
+| `streamUrl`          | `String`           | `private`       |
+| `startedAt`          | `LocalDateTime`    | `private`       |
+
+### Métodos
+
+| **Método**           | **Descripción**                             |
+|:---------------------|:-------------------------------------------|
+| `getStreamUrl()`     | Devuelve la URL del stream.                |
+| `getStartedAt()`     | Devuelve la fecha y hora de inicio del feed.|
+
+---
+
+## Clase Screenshot (Entity)
+
+| **Nombre**           | **Screenshot**              |
+|:---------------------|:----------------------------|
+| **Relaciones**       | Pertenece a `CameraDevice` y puede estar asociada a un `CarPlate`. |
+| **Descripción**      | Representa una captura de imagen tomada de un feed en vivo. |
+
+### Atributos
+
+| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
+|:---------------------|:-------------------|:----------------|
+| `id`                 | `Long`             | `private`       |
+| `imageUrl`           | `String`           | `private`       |
+| `takenAt`            | `LocalDateTime`    | `private`       |
+| `carPlate`           | `CarPlate`         | `private`       |
+
+### Métodos
+
+| **Método**           | **Descripción**                             |
+|:---------------------|:-------------------------------------------|
+| `assignCarPlate(carPlate: CarPlate)` | Asigna una matrícula detectada a la captura. |
+
+---
+
+## Clase CarPlate (Entity)
+
+| **Nombre**           | **CarPlate**                |
+|:---------------------|:----------------------------|
+| **Relaciones**       | Puede ser asociada a varios `Screenshot`. |
+| **Descripción**      | Representa la matrícula de un vehículo detectado en una captura. |
+
+### Atributos
+
+| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
+|:---------------------|:-------------------|:----------------|
+| `id`                 | `Long`             | `private`       |
+| `plateNumber`        | `String`           | `private`       |
+| `detectedAt`         | `LocalDateTime`    | `private`       |
+
+### Métodos
+
+| **Método**           | **Descripción**                             |
+|:---------------------|:-------------------------------------------|
+| `getPlateNumber()`   | Devuelve el número de la matrícula detectada.|
+| `getDetectedAt()`    | Devuelve la fecha y hora de detección.      |
+
+---
+
+### 4.2.3.1. Domain Layer
+Esta capa representa el núcleo del modelo de negocio dentro del bounded context **Camera Feed**. Aquí se definen los principales conceptos del dominio, sus entidades, agregados y relaciones. 
+
+El aggregate root `CameraDevice` organiza la estructura general: cada dispositivo de cámara puede emitir múltiples transmisiones en vivo (`Feed`) y generar múltiples capturas de pantalla (`Screenshot`). Además, las capturas de pantalla pueden contener información relevante de matrículas de vehículos (`CarPlate`). 
+
+Todas las reglas de negocio críticas y las asociaciones entre estos objetos del dominio se gestionan en esta capa, asegurando coherencia y consistencia en el modelo de datos.
+
+#### Aggregate: CameraDevice
+
+| Entidad / Agregado | Descripción |
+|--------------------|-------------|
+| **CameraDevice** `<<Aggregate Root>>` | Representa un dispositivo de cámara. Contiene múltiples feeds y screenshots. |
+| **Feed** `<<Entity>>` | Representa una transmisión en vivo generada por una cámara. |
+| **Screenshot** `<<Entity>>` | Imagen capturada desde un feed en un momento específico. Puede estar relacionada a una matrícula de vehículo. |
+| **CarPlate** `<<Entity>>` | Información de una placa de vehículo detectada en un screenshot. |
+
+#### CameraDevice (núcleo)
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| name | String |
+| location | String |
+| feeds | List<Feed> |
+| screenshots | List<Screenshot> |
+
+| Método | Firma |
+|--------|-------|
+| addFeed(feed: Feed): void |
+| captureScreenshot(screenshot: Screenshot): void |
+
+#### Feed
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| cameraDeviceId | Long |
+| urlStream | String |
+| startedAt | Instant |
+| endedAt | Instant (nullable) |
+
+#### Screenshot
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| cameraDeviceId | Long |
+| feedId | Long (opcional) |
+| capturedAt | Instant |
+| imageUrl | String |
+| carPlate | CarPlate (opcional) |
+
+#### CarPlate
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| plateNumber | String |
+| detectedAt | Instant |
+
+---
+
+### 4.2.3.2. Interface Layer
+
+La capa de interfaz expone los servicios de `CameraDevice`, permitiendo registrar dispositivos, crear feeds y capturar screenshots, todo a través de APIs RESTful.
+
+| Controller | Endpoints |
+|------------|-----------|
+| **CameraDeviceController** | `POST /camera-devices` · `GET /camera-devices/{id}` |
+| **FeedController** | `POST /feeds` · `GET /feeds/{id}` |
+| **ScreenshotController** | `POST /screenshots` · `GET /screenshots/{id}` |
+
+---
+
+### 4.2.3.3. Application Layer
+
+El `CameraDeviceCommandService` maneja las operaciones de negocio como agregar feeds, registrar nuevos dispositivos y asociar screenshots a car plates.
+
+| Service | Operaciones |
+|---------|-------------|
+| **ICameraFeedService** | registerCameraDevice · startFeed · captureScreenshot · associateCarPlate |
+
+Impl.: `CameraFeedServiceImpl`
+
+
+---
+
+### 4.2.3.4. Infrastructure Layer
+
+`CameraDeviceRepository` es una interfaz que extiende `JpaRepository`, permitiendo el acceso y persistencia de dispositivos de cámara, junto con sus feeds y screenshots asociados.
+
+
+| Repository | Métodos custom |
+|------------|----------------|
+| **CameraDeviceRepository** | findByLocation |
+| **FeedRepository** | findActiveFeedsByCameraDeviceId |
+| **ScreenshotRepository** | findByCapturedAtBetween |
+| **CarPlateRepository** | findByPlateNumber |
+
+
+----
+
+### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Camera Feed Component Level](assets/capitulo-4/ContenedorCamara.PNG)
+
+### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+![Camera Feed Architecture Code Level Diagrams](assets/capitulo-4/CameraFeedDiagram.jpg)
+
+#### 4.2.3.4.1. Bounded Context Domain Layer Class Diagrams
+
+![Camera Feed Bounded Context Domain Layer](assets/capitulo-4/classCameraFeed.png)
+
+#### 4.2.3.4.2. Bounded Context Database Design Diagram
+
+
+
 ## 4.2.4. Bounded Context: Parking Circulation
 
 > **Propósito**  
@@ -1846,8 +2035,349 @@ Impl.: `CirculationServiceImpl` (publica dominio events a *Payments* & *Notifica
 ![Parking Circulation Classes](assets/capitulo-4/4.2.4.6.1-Diagram.png)
 
 #### 4.2.4.6.2. Database Design
-![Parking Circulation DB](assets/capitulo-4/4.2.4.6.2-Diagram.png)
+![Parking Circulation DB]()
 
+---
+
+## 4.2.5. Bounded Context: Payments 
+Esta capa modela los conceptos principales del contexto de pagos.
+El agregado raíz Payment representa un pago realizado en el sistema.
+El objeto de valor PaymentStatus, modelado como un enum, define los posibles estados de un pago.
+
+
+
+## Clase PaymentCard
+
+| **Nombre** | **PaymentCard** |
+|:-----------|:----------------|
+| **Relaciones** | Muchos a uno con UserId. Puede tener varios Payment asociados. |
+| **Descripción** | Representa una tarjeta de pago asociada a un usuario para realizar transacciones. |
+
+### Atributos
+
+| **Nombre** | **Tipo de Dato** | **Visibilidad** |
+|:-----------|:-----------------|:----------------|
+| id | Long | private |
+| userId | UserId | private |
+| cardNumber | String | private |
+| cardHolderName | String | private |
+| expirationDate | String | private |
+| cardType | CardType (enum) | private |
+
+### Métodos
+
+| **Método** | **Descripción** |
+|:-----------|:----------------|
+| maskCardNumber(): String | Devuelve el número de tarjeta enmascarado. |
+| isExpired(): boolean | Verifica si la tarjeta está vencida. |
+
+---
+
+## Clase Receipt
+
+| **Nombre** | **Receipt** |
+|:-----------|:------------|
+| **Relaciones** | Uno a uno con Payment. |
+| **Descripción** | Representa el comprobante generado para un pago exitoso. |
+
+### Atributos
+
+| **Nombre** | **Tipo de Dato** | **Visibilidad** |
+|:-----------|:-----------------|:----------------|
+| id | Long | private |
+| paymentId | Long | private |
+| issuedDate | LocalDateTime | private |
+| receiptUrl | String | private |
+
+### Métodos
+
+| **Método** | **Descripción** |
+|:-----------|:----------------|
+| generateReceiptUrl(): String | Genera una URL para acceder al comprobante. |
+
+---
+
+## Clase UserId (Value Object)
+
+| **Nombre** | **UserId** |
+|:-----------|:-----------|
+| **Relaciones** | Es utilizado por Payment y PaymentCard para identificar al usuario. |
+| **Descripción** | Value Object que encapsula el identificador único del usuario. |
+
+### Atributos
+
+| **Nombre** | **Tipo de Dato** | **Visibilidad** |
+|:-----------|:-----------------|:----------------|
+| id | Long | private |
+
+### Métodos
+
+| **Método** | **Descripción** |
+|:-----------|:----------------|
+| getId(): Long | Retorna el valor del ID del usuario. |
+
+---
+
+## Enum PaymentStatus
+
+| **Nombre** | **PaymentStatus** |
+|:-----------|:------------------|
+| **Relaciones** | No tiene relaciones, es un enum. |
+| **Descripción** | Enumera los estados posibles de un pago. |
+
+### Valores
+
+| **Valor** |
+|:----------|
+| PENDING |
+| COMPLETED |
+| FAILED |
+
+---
+
+## Enum CardType
+
+| **Nombre** | **CardType** |
+|:-----------|:-------------|
+| **Relaciones** | No tiene relaciones, es un enum. |
+| **Descripción** | Enumera los tipos de tarjetas disponibles. |
+
+### Valores
+
+| **Valor** |
+|:----------|
+| VISA |
+| MASTERCARD |
+| AMEX |
+| OTHER |
+
+## Clase PaymentStatus
+
+| **Nombre** | **PaymentStatus** |
+|:-----------|:------------------|
+| **Relaciones** | No tiene relaciones, es un enum. |
+| **Descripción** | Enumera los posibles estados de un pago. |
+
+### Valores
+
+| **Valor** |
+|:----------|
+| PENDING |
+| COMPLETED |
+| FAILED |
+
+### Métodos
+
+| **Método** | **Descripción** |
+|:-----------|:----------------|
+| name(): String | Devuelve el nombre del estado. |
+| values(): PaymentStatus[] | Devuelve todos los valores posibles del enum. |
+| valueOf(name: String): PaymentStatus | Devuelve el estado correspondiente al nombre dado. |
+
+-----
+
+### 4.2.5.1. Domain Layer
+
+## Bounded Context: Payments
+
+### Aggregate
+
+#### Aggregate: Payment
+
+| **Attribute**       | **Data Type**     | **Description**                                    |
+|:--------------------|:------------------|:--------------------------------------------------|
+| `id`                | `Long`            | Unique identifier for the payment.                |
+| `amount`            | `BigDecimal`      | Amount of the payment.                            |
+| `paymentStatus`     | `PaymentStatus`   | Status of the payment (e.g., PENDING, COMPLETED). |
+
+#### Methods
+
+| **Method**          | **Description**                                    |
+|:--------------------|:---------------------------------------------------|
+| `getAmount()`       | Returns the amount of the payment.                 |
+| `getPaymentStatus()`| Returns the payment status.                        |
+| `setPaymentStatus(status: PaymentStatus)` | Sets the payment status. |
+
+---
+
+### Entities
+
+#### Entity: PaymentCard
+
+| **Attribute**       | **Data Type**     | **Description**                                    |
+|:--------------------|:------------------|:--------------------------------------------------|
+| `id`                | `Long`            | Unique identifier for the payment card.           |
+| `userId`            | `UserId`          | Identifier for the associated user.               |
+| `cardNumber`        | `String`          | Payment card number.                              |
+| `cardHolderName`    | `String`          | Name of the cardholder.                           |
+| `expirationDate`    | `String`          | Expiration date of the payment card.              |
+| `cardType`          | `CardType`        | Type of the card (enum).                          |
+
+#### Methods
+
+| **Method**          | **Description**                                    |
+|:--------------------|:---------------------------------------------------|
+| `maskCardNumber()`   | Returns the masked payment card number.            |
+| `isExpired()`        | Checks if the payment card is expired.             |
+
+---
+
+#### Entity: Receipt
+
+| **Attribute**       | **Data Type**     | **Description**                                    |
+|:--------------------|:------------------|:--------------------------------------------------|
+| `id`                | `Long`            | Unique identifier for the receipt.                |
+| `paymentId`         | `Long`            | Payment associated with the receipt.              |
+| `issuedDate`        | `LocalDateTime`   | Date and time when the receipt was issued.        |
+| `receiptUrl`        | `String`          | URL to access the receipt.                        |
+
+#### Methods
+
+| **Method**          | **Description**                                    |
+|:--------------------|:---------------------------------------------------|
+| `generateReceiptUrl()`| Generates a URL to access the receipt.           |
+
+---
+
+### Value Objects
+
+#### Value Object: UserId
+
+| **Attribute**       | **Data Type**     | **Description**                                    |
+|:--------------------|:------------------|:--------------------------------------------------|
+| `id`                | `Long`            | Unique identifier for the user.                   |
+
+#### Methods
+
+| **Method**          | **Description**                                    |
+|:--------------------|:---------------------------------------------------|
+| `getId()`           | Returns the user ID value.                         |
+
+---
+
+#### Enum: PaymentStatus
+
+| **Value**           |
+|:--------------------|
+| `PENDING`           |
+| `COMPLETED`         |
+| `FAILED`            |
+
+#### Methods
+
+| **Method**          | **Description**                                    |
+|:--------------------|:---------------------------------------------------|
+| `name()`            | Returns the name of the payment status.            |
+| `values()`          | Returns all possible values of the enum.           |
+| `valueOf(String)`   | Returns the status corresponding to the given name. |
+
+---
+
+#### Enum: CardType
+
+| **Value**           |
+|:--------------------|
+| `VISA`              |
+| `MASTERCARD`        |
+| `AMEX`              |
+| `OTHER`             |
+
+#### Methods
+
+| **Method**          | **Description**                                    |
+|:--------------------|:---------------------------------------------------|
+| `name()`            | Returns the name of the card type.                 |
+| `values()`          | Returns all possible values of the enum.           |
+| `valueOf(String)`   | Returns the card type corresponding to the given name. |
+
+---
+
+### Domain Services
+
+#### Service: RoleCommandService
+
+| **Method**                     | **Description**                                    |
+|:-------------------------------|:---------------------------------------------------|
+| `handle(command: SeedRolesCommand)` | Handles the command to seed roles in the system.  |
+
+#### Service: UserCommandService
+
+| **Method**                     | **Description**                                    |
+|:-------------------------------|:---------------------------------------------------|
+| `handle(command: SignUpCommand)` | Handles the command to sign up a new user.        |
+| `handle(command: SignInCommand)` | Handles the command to sign in a user.            |
+
+### 4.2.5.2. Interface Layer
+
+La capa de interfaz expone la funcionalidad del contexto Payments a través de controladores RESTful basados en el framework Spring Boot. PaymentController gestiona los procesos relacionados con los pagos, permitiendo tanto la creación de pagos como la consulta de su estado. ReceiptController facilita la generación y consulta de recibos asociados a los pagos. Cada controlador delega la lógica de negocio en los servicios de dominio apropiados, actuando únicamente como capa de orquestación, en conformidad con el principio de Controller Thin.
+
+| Controller PaymentController                       |
+|----------------------------------------------------------|
+| - PaymentCommandService paymentCommandService            |
+|----------------------------------------------------------|
+| + processPayment(paymentResource: PaymentResource): ResponseEntity<PaymentResource> |
+| + getPaymentStatus(paymentId: Long): ResponseEntity<PaymentStatusResource>            |
+
+| Controller ReceiptController                       |
+|--------------------------------------------------------|
+| - ReceiptQueryService receiptQueryService              |
+|--------------------------------------------------------|
+| + getReceiptByPaymentId(paymentId: Long): ResponseEntity<ReceiptResource> |
+| + generateReceipt(paymentId: Long): ResponseEntity<ReceiptResource> |
+
+
+### 4.2.5.3. Application Layer
+
+El PaymentProcessingEventHandler es responsable de procesar los pagos cuando se recibe un evento de pago. Este componente escucha el evento PaymentProcessedEvent y desencadena la ejecución de los servicios correspondientes para completar el pago.
+Esta organización permite separar las responsabilidades del dominio, favoreciendo una arquitectura desacoplada y limpia.
+
+| Event Handler PaymentProcessingEventHandler          |
+|----------------------------------------------------------|
+| - Logger LOGGER                                          |
+| - PaymentCommandService paymentCommandService            |
+|----------------------------------------------------------|
+| + on(event: PaymentProcessedEvent): void                 |
+| - getCurrentTimestamp(): Timestamp                      |
+
+### 4.2.5.4. Infrastructure Layer
+
+PaymentRepository y ReceiptRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades Payment y Receipt, respectivamente.
+Estos repositorios proporcionan métodos específicos como findByPaymentId, findByReceiptId y validaciones de existencia (existsByPaymentId, existsByReceiptId), que son esenciales para preservar la unicidad de los registros.
+Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dominio, favoreciendo una arquitectura limpia y sostenible.
+
+| Infrastructure Repository PaymentRepository            |
+|-------------------------------------------------------------|
+| Extiende: JpaRepository<Payment, Long>                      |
+|-------------------------------------------------------------|
+| + findByPaymentId(paymentId: Long): Optional<Payment>       |
+| + existsByPaymentId(paymentId: Long): boolean               |
+
+| Infrastructure Repository ReceiptRepository             |
+|-------------------------------------------------------------|
+| Extiende: JpaRepository<Receipt, Long>                      |
+|-------------------------------------------------------------|
+| + findByReceiptId(receiptId: Long): Optional<Receipt>       |
+| + existsByReceiptId(receiptId: Long): boolean               |
+
+### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Payment Container](assets/capitulo-4/ContenedorPago.PNG)
+
+
+### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+![Payment Diagram Flow](assets/capitulo-4/PaymentDiagram.jpg)
+
+#### 4.2.1.5.1. Bounded Context Domain Layer Class Diagrams
+
+![Payment Domain Layer Class Diagrams](assets/capitulo-4/DomainLayerPayments.PNG)
+
+
+#### 4.2.1.5.2. Bounded Context Database Design Diagram
+
+![Payment  Bounded Context Database Design Diagram](assets/capitulo-4/DBPAYMENTS.PNG)
+
+---
 ## 4.2.6. Bounded Context: Monitoring
 
 ### 4.2.6.1. Domain Layer
