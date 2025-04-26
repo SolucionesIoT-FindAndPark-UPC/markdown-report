@@ -1125,6 +1125,8 @@ Al final, obtuvimos ocho bounded context, que son:
 
 ![4.1.1.1-Notifications.jpg](assets/capitulo-4/4.1.1.1-Notifications.jpg)
 
+![4.1.1.1-Profiles.jpg](assets/capitulo-4/4.1.1.1-Profiles.jpg)
+
 Lo que queda de la siguiente manera: 
 
 ![4.1.1.1-Candidate-Context-Discovery.jpg](assets/capitulo-4/4.1.1.1-Candidate-Context-Discovery.jpg)
