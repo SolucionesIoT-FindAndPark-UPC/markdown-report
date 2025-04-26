@@ -1471,6 +1471,7 @@ Métodos
 | getRole(): Role              |
 
 **Clase Role**
+
 | **Nombre**      | Role                                                              |
 |-----------------|-------------------------------------------------------------------|
 | **Relaciones**  | Uno a muchos con User                                             |
