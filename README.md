@@ -182,8 +182,8 @@
 
 | **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
 |-------------------------|-------------------------|------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <br>- *Obispo Rios, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en reuniones de equipo para definir el alcance del proyecto y la arquitectura. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>Participar en la reparticipon de tareas asi como en el diseño y formulación del proyecto.<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>-<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br> |  |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | <br>- *Obispo Ríos, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en el proceso de asignación de tareas y cumplir con las actividades asignadas en relación a las entrevistas, To-Be y As-Is Scneario Mapping, Journey Mapping, Historias de Usuario, Eventstorming, entre otros. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>Realice los puntos asignados, siendo estos los bounded context de Monitoring y ticket validation, asi como el software configuration management.<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>-<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br>  | *(Sin conclusiones registradas)* |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <br>- *Obispo Rios, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en reuniones de equipo para definir el alcance del proyecto y la arquitectura. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>Participar en la reparticipon de tareas asi como en el diseño y formulación del proyecto.<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>Brindar ideas en reuniones cada semana del equipo con la finalidad de realizar retroalimentación y mejora de aspectos del infomre.<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br> |  |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | <br>- *Obispo Ríos, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en el proceso de asignación de tareas y cumplir con las actividades asignadas en relación a las entrevistas, To-Be y As-Is Scneario Mapping, Journey Mapping, Historias de Usuario, Eventstorming, entre otros. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>Realice los puntos asignados, siendo estos los bounded context de Monitoring y ticket validation, asi como el software configuration management.<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteba*<br> <br>**TB1**<br> <br>Elaborar con mis compañeros el proceso de event storming, AS-IS, C4, entre otros procesos clave para la culmniación de la TB1. <br> <br><br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br>  | - |
 
 </div>
 
@@ -211,11 +211,12 @@ Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, si
 
 | Foto | Perfil de Integrante |
 |------|-------------|
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p> | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias.  Por otro lado, me considero una persona responsable y comprometida con el proyecto. |
-| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *Código - Carrera*  <br> <br> - <br> |
-|<p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 1" width="100" height="130"/></p>| **Cuevas Rios, Eric Fernando**  <br> *Código - Carrera*  <br> <br> - <br>  |
-| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 4" width="100" height="100"/></p> | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *Código - Carrera*  <br> <br> - <br> |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p> | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto. |
+| <p align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQF0q82dzd577g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719029164195?e=1750896000&v=beta&t=XNTeNX_6dSYIsI75WWHmmJjOHW5Wr0RaHyLkeVk32oc" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *U20221A928 - Ingeniería de Software*  <br> <br>  Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas. |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 1" width="100" height="130"/></p>| **Cuevas Rios, Eric Fernando**  <br> *Código - Carrera*  <br> <br> - <br>  |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-4.jpg" alt="Foto de integrante 4" width="100" height="110"/></p> | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *U202111654 - Ingeniería de Software*  <br> Para este proyecto, puedo aportar con habilidades de indagación y pensamiento crítico, diseño de prototipo en Figma y programación back-End. Añadido a esto, estoy me es grato poder aprender de mis demás compañeros y de sus habilidades individuales. Me considero una persona responsable y que cumple con los plazos establecidos en una entrega. <br>   |
 | <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 5" width="100" height="100"/></p> | **Herrera González, Luis Eduardo**  <br> *Código - Carrera*  <br> <br> - <br> |
+
 
 ## 1.2. Solution Profile
 
@@ -478,6 +479,76 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
 
 ### 2.2.2. Registro de entrevistas
 ##### Segmento 1: Conductores
+![](https://i.postimg.cc/rFVrFVWQ/interview-driver.png)
+
+Eva utiliza estacionamientos privados cinco veces por semana y valora una experiencia fluida, con espacios amplios y fáciles de encontrar. Considera la seguridad un aspecto esencial, destacando la importancia de contar con vigilancia. Siempre porta su celular, por lo que acepta el uso de aplicaciones móviles, y prefiere pagar con tarjeta. Aunque ve con buenos ojos la automatización mediante lectura de placas, le preocupa no poder validar cobros automáticos, por lo que el sistema debería ofrecer confirmación previa antes de realizar cargos. Además, considera fundamental que la aplicación muestre en tiempo real los espacios libres, priorizando los más cercanos a entradas y salidas para optimizar su tiempo.
+
+  - Entrevistado: Eva Revollé
+  
+  - Residencia: Lima
+  
+  - Ocupación: Empresaria
+  
+  - Entrevistadora: Ariana Vargas
+
+ - Enlace: [Entrevista driver Eva](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/EfYrrssrhMtJgwaB70Bbw08BUB1vmFhogew_rTpUJlsqYg?e=uiQebR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+ 
+  Segunda Entrevista:
+  - Entrevistado: Ian Sanchez
+  - Residencia: Lima
+  - Ocupación: Estudiante Universitario
+  - Entrevistador: Julio Elsner
+  - Enlace: [https://drive.google.com/file/d/1GZ1zA9s69y3c5qnWJaKKor_zflNRgF96/view?usp=sharing]
+  <p align="left"><img src="assets/capitulo-2/Ian.png" alt="Entrevista 1" width="500" height="250"/></p>
+**Resumen de la entrevista:**
+
+    0:47 - ¿Cual seria tu experiencia ideal a la hora de encontrar un sitio?
+    Mi experiencia ideal al entrar a un parkeo seria muy fluida que me muestre los lugares vacios y una ruta.
+
+    0:57 - ¿Cuál fue una de tus experiencias negativas al usar un ticket?
+    Saliendo del mall mientras compraba se me cayó el ticket y fue un lió porque no tenia como salir del estacionamiento.
+
+    2:11 - ¿Qué metodo de pago prefieres cuando pagas el estacionamiento?
+    Yape o Plin son rapidos y no necesito estar llevando efectivo, casi nunca uso efectivo.
+
+    2:28 - ¿Qué preocupaciones tendrías al usar un sistema que lee tu placa y automatiza el pago del estacionamiento?
+    Me preocuparia que el sistema no identifique la placa de mi vehiculo y me cobre de más o se quede abierto el cobro, también pensaria en la seguridad de mis datos pero si esta bien implementado seria bastante comodo.
+
+    2:54 - ¿Te seria útil visualizar en la aplicación sobre que espacios hay libres antes de entrar al parking?
+    Si, eso sería ideal para no tener que estar buscando sitio y perder mi tiempo. Si la app te muestra que niveles son los que tiene mas espacio seria un Golazo.
+
+    3:28 - ¿Qué esperas ver o saber en la app al momento de estacionarte? ¿Qué información sería útil para ti?
+    Me gustaria ver si hay espacios libre, el costo por hora, tener que pagar sin tener que hacer cola. También tener que ver si hay zonas techadas o comodas.
+
+  Tercera Entrevista:
+  - Entrevistado: Oscar Garayar
+  - Residencia: Lima
+  - Ocupación: Contador Privado
+  - Entrevistadora: Julio Elsner
+  - Enlace: [https://drive.google.com/file/d/1BD9ja1CMf6CAnO4BzFJKKQvH9ArLhj36/view?usp=sharing]
+  <p align="left"><img src="assets/capitulo-2/Oscar.png" alt="Entrevista 1" width="500" height="250"/></p>
+
+**Resumen de la entrevista:**
+
+    0:47 - ¿Cual seria tu experiencia ideal a la hora de encontrar un sitio?
+    Que sea lo mas cerca posible de las tiendas mas conocidas para no tener que estar caminando hasta un lugar alejado.
+
+    0:57 - ¿Puedes contarme sobre una experiencia positiva o negativa que hayas tenido al pagar por un servicio de estacionamiento?
+    Una vez el sistema de un centro comercial se cayó y tuve que hacer una fila gigante para poder pagar el estacionamiento de manera fisica y sin metodos de pago online.
+
+    2:11 - ¿Qué metodo de pago prefieres cuando pagas el estacionamiento?
+    Metodos de pago como tarjeta que suelo usar mucho para evitar tener que ir cargando efectivo.
+
+    2:28 - ¿Qué preocupaciones tendrías al usar un sistema que lee tu placa y automatiza el pago del estacionamiento?
+    La verdad es que ya un montón de estacionamientos lo usan asi que no tendría problema de su uso.
+
+    2:54 - ¿Te seria útil visualizar en la aplicación sobre que espacios hay libres antes de entrar al parking?
+    Si definitivamente porque me ahorra bastante tiempo a la hora de buscar un sitio libre y estar haciendo colas o rondando por el lugar.
+
+    3:28 - ¿Qué esperas ver o saber en la app al momento de estacionarte? ¿Qué información sería útil para ti?
+    Lo mas util para mi sería visualizar los espacios libre, zonas de estacionamientos cercanos, tarifas aplicables al pago del ticket, etc.
+
+
 
 ##### Segmento 2: Administradores de parking
 - Primera Entrevista:
@@ -1128,6 +1199,8 @@ Al final, obtuvimos ocho bounded context, que son:
 
 ![4.1.1.1-Notifications.jpg](assets/capitulo-4/4.1.1.1-Notifications.jpg)
 
+![4.1.1.1-Profiles.jpg](assets/capitulo-4/4.1.1.1-Profiles.jpg)
+
 Lo que queda de la siguiente manera: 
 
 ![4.1.1.1-Candidate-Context-Discovery.jpg](assets/capitulo-4/4.1.1.1-Candidate-Context-Discovery.jpg)
@@ -1144,6 +1217,48 @@ El Domain Message Flow Modeling es una técnica utilizada en Domain-Driven Desig
 
 #### 4.1.1.3. Bounded Context Canvases
 
+
+<p align="center">
+  <img src="assets/capitulo-4/UserManagement.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/CamerFeed.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/Monitorin.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/ParkingSite.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/Notifications.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/TicketValidation.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/ParkingCirculation.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/Payments.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+
 ### 4.1.2. Context Mapping
 
 Context Mapping es una técnica de Domain-Driven Design (DDD) que define las relaciones entre los bounded contexts en un sistema, estableciendo cómo interactúan e intercambian información. Permite gestionar dependencias y asegura que los modelos de dominio se mantengan consistentes y aislados.
@@ -1152,15 +1267,155 @@ Context Mapping es una técnica de Domain-Driven Design (DDD) que define las rel
 
 ### 4.1.3. Software Architecture
 
+ParkUp es una solución integral de estacionamiento inteligente basada en IoT, diseñada para ofrecer una experiencia fluida y automatizada en la entrada, salida y pago en parkings conectados. Esta plataforma busca eliminar fricciones comunes en el proceso de aparcamiento, integrando tecnología de sensores, validación digital y pagos electrónicos en una única infraestructura coherente y escalable.
+
+La arquitectura de software de ParkUp está compuesta por múltiples capas y módulos que interactúan para brindar funcionalidad en tiempo real a diferentes actores: conductores, administradores de parking, autoridades de tráfico y sistemas externos. Su diseño sigue principios de modularidad, interoperabilidad y resiliencia, permitiendo:
+
+- **Detección automática de vehículos** mediante sensores IoT.
+- **Control de acceso** en puntos de entrada y salida.
+- **Validación digital de tickets o vouchers** provenientes de comercios asociados.
+- **Procesamiento de pagos electrónicos** con pasarelas como PayPal, Visa y MasterCard.
+- **Monitoreo en tiempo real** del estado del estacionamiento y cámaras de vigilancia.
+- **Integración con sistemas externos** como plataformas de fidelización, movilidad urbana y análisis policial.
+
+A nivel técnico, el sistema está conformado por:
+- Aplicaciones móviles y web para usuarios y administradores.
+- Un back-end centralizado que orquesta la lógica del negocio.
+- Un conjunto distribuido de nodos edge que operan localmente en cada sede.
+- Diversos componentes especializados que se encargan de seguridad, circulación, pagos, monitoreo y notificaciones.
+
+La arquitectura de ParkUp busca garantizar eficiencia operativa, escalabilidad urbana y una experiencia optimizada para todos los usuarios involucrados.
+
 #### 4.1.3.1. Software Architecture System Landscape Diagram
+
+![4.1.3-Landscape.png](assets/capitulo-4/4.1.3-Landscape.png)
+
+Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System**:
+
+- **ParkUp IoT System**  
+  — Núcleo inteligente de gestión de estacionamientos.
+- **Usuarios directos**
+    - *Conductor*: Ingresa y sale de un estacionamiento conectado a ParkUp.
+    - *Administrador de Parking*: Supervisa la operación y los sensores en una sede.
+- **Sistemas externos azules**
+    - *Pasarela de Pagos* (Master, Visa, PayPal): Procesa cobros electrónicos.
+    - *Apps de Tiendas con validación de Ticket*: Confirman vouchers físicos o digitales.
+    - *Aplicaciones de Correos* (Gmail, Outlook): Envío de confirmaciones de dos pasos y notificaciones.
+- **Sistemas consumidores grises**
+    - *Plataforma de Fidelización de Clientes*: Recompensa a usuarios frecuentes usando el historial de ParkUp.
+    - *Panel de Movilidad Urbana*: Agrega datos de disponibilidad de parking para gestión de tráfico.
+    - *Sistema de Análisis Policial de Parking*: Consulta infracciones y sobre­s­euos desde ParkUp.
+- **Actores secundarios**
+    - *Gerentes de Tiendas*, *Autoridad de Tráfico* y *Analista Policial*: Acceden a reportes y datos agregados.
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
+![4.1.3-Context.png](assets/capitulo-4/4.1.3-Context.png)
+
+| Actor / Sistema               | Interacción principal                                                                                 |
+|-------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Conductor**                 | Usa **ParkUp Mobile App** para reservar, pagar y abrir la barrera.                                    |
+| **Administrador de Parking**  | Usa **ParkUp Web App SPA** para vigilar sensores, cámaras y alertas.                                  |
+| **Pasarela de Pagos**         | Recibe solicitudes de cobro desde **ParkUp API** y confirma transacciones.                           |
+| **Sensores y Dispositivos IoT** | Reportan ocupación y vídeo al **IoT Gateway** y reciben comandos.                                     |
+| **Sistemas de Analítica Externa** | Consumirán datos agregados publicados por **ParkUp API**.                                            |
+
+
 #### 4.1.3.3. Software Architecture Container Level Diagrams
+
+![4.1.3-Container.png](assets/capitulo-4/4.1.3-Container.png)
+
+| Contenedor             | Tecnología                | Responsabilidad                                                                               |
+|------------------------|---------------------------|------------------------------------------------------------------------------------------------|
+| **ParkUp Mobile App**  | Flutter (Android/iOS)     | Interfaz del conductor: reserva, pago, estado de plazas.                                       |
+| **ParkUp Web App SPA** | Angular                   | Panel para administradores y staff; alertas en tiempo real.                                    |
+| **ParkUp API**         | Spring Boot (REST + WS)   | Lógica central: tickets, pagos, sincronización IoT.                                            |
+| **Base de Datos Central** | PostgreSQL             | Usuarios, reservas, pagos, eventos históricos.                                                 |
+| **IoT Edge App**       | Docker (Go/Node)          | Procesamiento local y caché offline por sede.                                                  |
+| **Edge Database**      | TimescaleDB               | Buffer de eventos y métricas locales.                                                          |
+| **IoT Gateway**        | Go en Raspberry Pi        | Puente entre dispositivos y red ParkUp.                                                        |
+| **Sensores Vehiculares** | Ultrasonic / IR         | Detectan presencia de vehículos.                                                               |
+| **Lectores Entrada Salida** | PLC / Modbus        | Operan barreras y tickets.                                                                     |
+| **Cámaras Videovigilancia** | IP Cams, RTSP        | Streams de vídeo para seguridad.                                                               |
+| **Pasarela de Pagos**  | REST API externa          | Procesamiento de tarjetas y billeteras digitales.                                              |
+
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
-## 4.2.X. Bounded Context: 
+**Software Deployment Diagram:**
+
+![Software Deployment Diagram](assets/capitulo-4/Screenshot%202025-04-26%20at%201.17.11%E2%80%AFAM.png)
+
+![Software Deployment Diagram](assets/capitulo-4/Screenshot%202025-04-26%20at%201.17.22%E2%80%AFAM.png)
+
+| Zona física / Lógica                  | Nodo de despliegue                       | Tecnología / Specs                             | Contenedores o servicios clave                              | Principales protocolos |
+|---------------------------------------|------------------------------------------|------------------------------------------------|-------------------------------------------------------------|------------------------|
+| **Dispositivo del Conductor**         | Smartphone del conductor                 | iOS / Android                                 | **ParkUp Mobile App**                                       | REST, WebSocket        |
+| **PC del Administrador**              | Equipo de escritorio / laptop            | Windows / macOS                               | Navegador web → **ParkUp Web App SPA** (cargada como estático) | HTTPS                  |
+| **Nube ParkUp**                       | Servidor Front-End                       | Nginx en Docker                               | **Static Assets** (bundle SPA)                              | HTTPS                  |
+|                                       | Servidor Back-End                        | Java 17 + Spring Boot                         | **ParkUp API** (REST + WS)                                  | HTTPS, WebSocket       |
+|                                       | Base de datos central                    | PostgreSQL 15                                 | **Base de Datos Central**                                   | JDBC                   |
+| **Sede de Parking**                   | Gateway IoT                              | Raspberry Pi / Linux                          | **IoT Gateway** (Go)                                        | MQTT, HTTP, Modbus     |
+|                                       | Edge Node                                | Industrial PC / Linux                         | **IoT Edge App** (Docker), **Edge Database** (TimescaleDB)   | HTTP Sync, JDBC        |
+|                                       | Clúster de dispositivos                  | Sensores, lectores, cámaras IP                | **Sensores Vehiculares**, **Lectores Entrada/Salida**, **Cámaras** | GPIO/I²C, RS-485, RTSP |
+| **Servicios Externos**                | Pasarela de Pagos                        | API cloud de terceros                         | **Payment Gateway**                                         | HTTPS/JSON             |
+
+### Flujos principales
+
+1. **Conductor ↔ IoT Gateway**  
+   La app móvil envía peticiones REST/WebSocket al *IoT Gateway* para conocer disponibilidad y abrir barreras.
+
+2. **SPA ↔ ParkUp API**  
+   El panel de administración realiza llamadas REST/WebSocket al *ParkUp API* para telemetría y gestión de alertas.
+
+3. **ParkUp API ↔ Base de Datos Central**  
+   Persistencia de usuarios, reservas, pagos y eventos IoT mediante JDBC.
+
+4. **ParkUp API ↔ Pasarela de Pagos**  
+   Solicitudes HTTPS/JSON para autorización, captura y reversas de transacciones.
+
+5. **IoT Gateway ↔ Edge App**  
+   Publica telemetría vía MQTT/HTTP; el *Edge App* almacena en *Edge Database* y sincroniza con la nube.
+
+6. **IoT Gateway ↔ Dispositivos**
+    - Lectura de **sensores** (GPIO/I²C).
+    - Control de **lectores/barreras** (Modbus/HTTP).
+    - Recepción de vídeo de **cámaras** (RTSP/WebRTC).
+
+**Software Components Diagram:**
+
+![4.1.3-Components.png](assets/capitulo-4/4.1.3-Components.png)
+
+| Componente                  | Propósito clave                                                                 |
+|-----------------------------|---------------------------------------------------------------------------------|
+| **Auth Service**            | Gestión de usuarios, OIDC, JWT, MFA.                                            |
+| **Reservation Service**     | Disponibilidad de plazas y cálculo de tarifas.                                  |
+| **Ticket Validation**       | Verifica QR y códigos de barras.                                                |
+| **Payment Service**         | Integra Stripe, PayPal, Yape; maneja reversas y conciliación.                   |
+| **Device Command Service**  | Envía órdenes a **IoT Gateway** (abrir barrera, reset sensor).                  |
+| **Sync Service**            | Replica eventos entre **Edge Database** y **Base de Datos Central**.            |
+| **Monitoring Service**      | Métricas Prometheus, health-checks, reglas de alerta.                           |
+| **Notification Service**    | Push FCM, emails SendGrid, SMS Twilio a conductores y administradores.          |
+
+## 4.2.X. Bounded Context: <Payments & Notifications>
+
+El dominio de Parking Management describe las funciones y procesos involucrados en la gestión del parqueo dentro de un centro comercial. Este sistema se encarga de administrar el ingreso y salida de vehículos, asignar espacios disponibles en las distintas zonas de parqueo, generar y validar tickets, y controlar la duración del uso de los espacios. Además, permite gestionar usuarios recurrentes y visitantes, facilitando una experiencia eficiente y organizada para todos los conductores. El sistema también contempla la tarificación automática según el tiempo de uso y el procesamiento de pagos correspondientes.
+
+Este dominio opera dentro del bounded context de Notification & Payments, integrando funcionalidades clave como el envío de notificaciones al usuario (por ejemplo, alertas de vencimiento de ticket o confirmaciones de pago), así como la gestión completa del ciclo de pagos. Esto asegura que las transacciones se realicen de forma segura y que los usuarios estén informados en tiempo real, mejorando significativamente la eficiencia del sistema y la satisfacción del usuario.
+
+### Payment
+
+<p align="center">
+  <img src="assets/capitulo-4/PaymentsBC.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+### Notification
+
+<p align="center">
+  <img src="assets/capitulo-4/NotificationsBC.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
 
 ### 4.2.X.1. Domain Layer
 
@@ -1177,6 +1432,214 @@ Context Mapping es una técnica de Domain-Driven Design (DDD) que define las rel
 #### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
+
+## 4.2.1. Bounded Context: IAM
+
+En esta sección se documentan las principales clases que conforman el núcleo del contexto IAM, detallando sus atributos, métodos y relaciones.
+El agregado raíz User representa a cada usuario registrado en la plataforma, con credenciales de acceso (username, password) y la asignación de un único Role, lo cual refleja las reglas de negocio que restringen a un solo rol por usuario.
+
+La entidad Role modela los diferentes tipos de rol que puede asumir un usuario dentro del sistema, tales como administrador, usuario regular o instructor. Esta entidad incluye utilidades para la validación y conversión de roles a partir de representaciones textuales.
+Por su parte, el objeto de valor Roles encapsula los valores constantes de los posibles roles, implementado como un enumerado (enum), asegurando la integridad de los roles permitidos y evitando inconsistencias.
+
+Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
+
+
+**Clase User**
+
+| **Nombre**      | User                                                           |
+|-----------------|----------------------------------------------------------------|
+| **Relaciones**  | Muchos a uno con Role                                          |
+| **Descripción** | Representa un usuario del sistema con credenciales y un rol.  |
+
+Atributos
+
+| Nombre   | Tipo de Dato | Visibilidad |
+|----------|--------------|-------------|
+| id       | Long         | private     |
+| username | String       | private     |
+| password | String       | private     |
+| role     | Role         | private     |
+
+Métodos
+
+| Método                       |
+|------------------------------|
+| setRole(role: Role)          |
+| getRole(): Role              |
+
+**Clase Role**
+| **Nombre**      | Role                                                              |
+|-----------------|-------------------------------------------------------------------|
+| **Relaciones**  | Uno a muchos con User                                             |
+| **Descripción** | Representa un rol del sistema, como ADMIN o DRIVER.               |
+
+Atributos
+
+| Nombre | Tipo de Dato | Visibilidad |
+|--------|--------------|-------------|
+| id     | Long         | private     |
+| name   | Roles (enum) | private     |
+
+ Métodos
+
+| Método                             |
+|------------------------------------|
+| getStringName(): String            |
+| getDefaultRole(): Role             |
+| toRoleFromName(name: String): Role |
+
+### 4.2.1.1. Domain Layer
+
+En la capa de dominio se modelan los conceptos centrales del contexto IAM siguiendo los principios de Domain-Driven Design.
+ El agregado raíz User representa a un usuario dentro del sistema, asociado a un único Role. Esta relación permite garantizar que cada usuario tenga exactamente un rol, como ROLE_ADMIN, ROLE_USER o ROLE_INSTRUCTOR.
+El objeto de valor Roles, modelado como un enum, establece un conjunto cerrado de posibles valores para la asignación de roles, garantizando la integridad del dominio.
+Adicionalmente, los servicios de dominio UserCommandService y RoleCommandService encapsulan operaciones de negocio que no pertenecen naturalmente a ninguna entidad, cumpliendo con el principio de separación de responsabilidades.
+Esta estructura permite mantener un dominio rico, expresivo y alineado con las reglas de negocio fundamentales del sistema.
+
+**Agregates**
+| Aggregate <<User>>                       |
+|-------------------------------------------|
+| - Long id (heredado de AuditableAbstractAggregateRoot) |
+| - String username                         |
+| - String password                         |
+| - Role role                         |
+|-------------------------------------------|
+| + getUsername(): String                   |
+| + getPassword(): String                   |
+| + getRole(): Role                         |
+| + setRole(role: Role): User               |
+
+**Entities**
+| Entity <<Role>>                         |
+|------------------------------------------|
+| - Long id                                |
+| - Roles name                             |
+|------------------------------------------|
+| + getId(): Long                          |
+| + getName(): Roles                       |
+| + getStringName(): String                |
+| + getDefaultRole(): Role                 |
+| + toRoleFromName(name: String): Role     |
+| + validateRoleSet(roles: List<Role>): List<Role> |
+
+**Value Objects**
+| Value Object <<Roles>>                 |
+|-----------------------------------------|
+| + ROLE_ADMIN                            |
+| + ROLE_USER                             |
+| + ROLE_INSTRUCTOR                      |
+|-----------------------------------------|
+| (Métodos estándar de enum Java)         |
+| + name(): String                        |
+| + values(): Roles[]                     |
+| + valueOf(String): Roles                |
+
+**Domain Services**
+| RoleCommandService       |
+|-----------------------------------------------|
+| + handle(command: SeedRolesCommand): void     |
+
+| UserCommandService                          |
+|-----------------------------------------------------------------|
+| + handle(command: SignUpCommand): Optional<User>                |
+| + handle(command: SignInCommand): Optional<ImmutablePair<User, String>> |
+
+
+### 4.2.1.2. Interface Layer
+
+La capa de interfaz expone la funcionalidad del contexto IAM a través de controladores RESTful basados en el framework Spring Boot.
+AuthenticationController gestiona los procesos de autenticación de usuarios, permitiendo tanto el inicio de sesión como el registro de nuevos usuarios.
+RolesController proporciona endpoints para consultar los diferentes roles disponibles en el sistema, mientras que UsersController facilita la recuperación de información sobre los usuarios registrados.
+Cada controlador delega la lógica de negocio en los servicios de dominio apropiados, actuando únicamente como capa de orquestación, en conformidad con el principio de Controller Thin.
+
+
+| Controller <<AuthenticationController>>                         |
+|-------------------------------------------------------------------|
+| - UserCommandService userCommandService                          |
+|-------------------------------------------------------------------|
+| + signIn(signInResource: SignInResource): ResponseEntity<AuthenticatedUserResource> |
+| + signUp(signUpResource: SignUpResource): ResponseEntity<UserResource>               |
+
+| Controller <<RolesController>>                    |
+|----------------------------------------------------|
+| - RoleQueryService roleQueryService                |
+|----------------------------------------------------|
+| + getAllRoles(): ResponseEntity<List<RoleResource>> |
+
+| Controller <<UsersController>>                                 |
+|----------------------------------------------------------------|
+| - UserQueryService userQueryService                            |
+|----------------------------------------------------------------|
+| + getAllUsers(): ResponseEntity<List<UserResource>>            |
+| + getUserById(userId: Long): ResponseEntity<UserResource>      |
+
+
+### 4.2.1.3. Application Layer
+
+La capa de aplicación coordina la ejecución de las operaciones de negocio a través de componentes como event handlers y servicios de aplicación.
+El ApplicationReadyEventHandler es responsable de inicializar los roles del sistema cuando la aplicación arranca. Este componente escucha el evento ApplicationReadyEvent de Spring y dispara la ejecución del comando SeedRolesCommand, garantizando que los roles fundamentales estén disponibles sin intervención manual.
+Esta organización contribuye a desacoplar las operaciones de infraestructura del dominio y favorece la automatización de procesos iniciales del sistema.
+
+
+| Event Handler <<ApplicationReadyEventHandler>>          |
+|----------------------------------------------------------|
+| - Logger LOGGER                                          |
+| - RoleCommandService roleCommandService                  |
+|----------------------------------------------------------|
+| + on(event: ApplicationReadyEvent): void                 |
+| - getCurrentTimestamp(): Timestamp                      |
+
+
+### 4.2.1.4. Infrastructure Layer
+
+La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
+UserRepository y RoleRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades User y Role, respectivamente.
+Estos repositorios proporcionan métodos específicos como findByUsername, findByName y validaciones de existencia (existsByUsername, existsByName), que son esenciales para preservar la unicidad de los registros.
+Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dominio, favoreciendo una arquitectura limpia y sostenible.
+
+
+| Infrastructure Repository <<RoleRepository>>              |
+|-------------------------------------------------------------|
+| Extiende: JpaRepository<Role, Long>                         |
+|-------------------------------------------------------------|
+| + findByName(name: Roles): Optional<Role>                   |
+| + existsByName(name: Roles): boolean                        |
+
+| Infrastructure Repository <<UserRepository>>               |
+|-------------------------------------------------------------|
+| Extiende: JpaRepository<User, Long>                         |
+|-------------------------------------------------------------|
+| + findByUsername(username: String): Optional<User>          |
+| + existsByUsername(username: String): boolean               |
+
+
+### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+En esta sección se presentan los diagramas de arquitectura a nivel de componentes para el contexto IAM.
+Estos diagramas ilustran la interacción entre los principales artefactos del sistema, como controladores, servicios de dominio, agregados y repositorios.
+La representación gráfica facilita la comprensión del flujo de información y responsabilidades entre capas, promoviendo la trazabilidad y la consistencia arquitectónica del contexto.
+
+![](https://i.postimg.cc/DZ37w4bq/container-diagram.png)
+
+
+### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+Los diagramas a nivel de código detallan los flujos de ejecución de los principales casos de uso del contexto IAM, incluyendo el proceso de registro (sign-up) y autenticación (sign-in).
+Asimismo, se incluyen diagramas de clases que representan la estructura interna de las entidades y servicios, así como diagramas de base de datos que modelan la persistencia de los objetos del dominio.
+Esta representación contribuye a visualizar la implementación técnica del contexto y a validar su alineación con el diseño conceptual.
+
+![](https://i.postimg.cc/zXzXhh27/iam-sign-up-code-diagram.png)
+
+![](https://i.postimg.cc/C5NhtM5b/iam-sign-in-code-diagram.png)
+
+
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+![](https://i.postimg.cc/9FLXYfvh/iam-class-diagram.png)
+
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+![](https://i.postimg.cc/jqQSCccC/iam-db-diagram.png)
 
 ## 4.2.6. Bounded Context: Monitoring
 
@@ -1721,11 +2184,17 @@ Context Mapping es una técnica de Domain-Driven Design (DDD) que define las rel
 
 ### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
 
+<p align="center"><img src="assets/capitulo-4/4.2.8.5-Notifications-Component-Diagram.PNG" alt="Notifications Class Diagram"/></p>
+
 ### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 
+<p align="center"><img src="assets/capitulo-4/4.2.8.6.1-Notifications-Class-Diagram.PNG" alt="Notifications Class Diagram"/></p>
+
+
 #### 4.2.8.6.2. Bounded Context Database Design Diagram
+<p align="center"><img src="assets/capitulo-4/4.2.8.6.2-Notifications-Database-Model.PNG" alt="Notifications DB Diagram"/></p>
 
 # Capítulo V: Solution UI/UX Design
 
