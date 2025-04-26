@@ -182,8 +182,8 @@
 
 | **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
 |-------------------------|-------------------------|------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <br>- *Obispo Rios, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en reuniones de equipo para definir el alcance del proyecto y la arquitectura. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>-<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>-<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br> |  |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | <br>- *Obispo Ríos, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en el proceso de asignación de tareas y cumplir con las actividades asignadas en relación a las entrevistas, To-Be y As-Is Scneario Mapping, Journey Mapping, Historias de Usuario, Eventstorming, entre otros. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>-<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>-<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br>  | *(Sin conclusiones registradas)* |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <br>- *Obispo Rios, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en reuniones de equipo para definir el alcance del proyecto y la arquitectura. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>Participar en la reparticipon de tareas asi como en el diseño y formulación del proyecto.<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>-<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br> |  |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | <br>- *Obispo Ríos, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en el proceso de asignación de tareas y cumplir con las actividades asignadas en relación a las entrevistas, To-Be y As-Is Scneario Mapping, Journey Mapping, Historias de Usuario, Eventstorming, entre otros. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>Realice los puntos asignados, siendo estos los bounded context de Monitoring y ticket validation, asi como el software configuration management.<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>-<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br>  | *(Sin conclusiones registradas)* |
 
 </div>
 
@@ -513,6 +513,9 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
     Sería el ticket, la placa y el rostro del chofer.
 
 - Segunda Entrevista: 
+
+   <img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-2.png" alt="Entrevista 2" height="180"/> 
+
   - Entrevistado: Jorge Rosales
   - Residencia: Lima
   - Ocupación: Operador de Parking
@@ -529,7 +532,7 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
     Un programa contratado de facturación, el control de lo demás se hace manual
 
     4:48 - ¿Te sentirías cómodo con un sistema que detecta automáticamente las placas y realiza los cobros sin que tú intervengas?
-    Cloaro, nos permitiria agilizar el trabajo.
+    Claro, nos permitiria agilizar el trabajo.
 
 ### 2.2.3. Análisis de entrevistas
 ##### Segmento 1: Conductores
@@ -1690,7 +1693,7 @@ Esta representación contribuye a visualizar la implementación técnica del con
 
 #### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
 
-<p align="center"><img src="assets/capitulo-4/4.2.6.6.1-Monitoring-ClassDiagram.jpg" alt="Monitoring Class Diagram"/></p>
+<p align="center"><img src="assets/capitulo-4/4.2.6.6.1-Monitoring-ClassDiagram.png" alt="Monitoring Class Diagram"/></p>
 
 #### 4.2.6.6.2. Bounded Context Database Design Diagram
 
@@ -1838,7 +1841,7 @@ Esta representación contribuye a visualizar la implementación técnica del con
 
 #### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 
-<p align="center"><img src="assets/capitulo-4/4.2.7.6.1-TicketValidation-ClassDiagram.jpg" alt="Ticket Validation Class Diagram"/></p>
+<p align="center"><img src="assets/capitulo-4/4.2.7.6.1-TicketValidation-ClassDiagram.png" alt="Ticket Validation Class Diagram"/></p>
 
 #### 4.2.7.6.2. Bounded Context Database Design Diagram
   
