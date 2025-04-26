@@ -491,7 +491,64 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
   - Entrevistadora: Ariana Vargas
 
  - Enlace: [Entrevista driver Eva](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/EfYrrssrhMtJgwaB70Bbw08BUB1vmFhogew_rTpUJlsqYg?e=uiQebR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
- - 
+ 
+  Segunda Entrevista:
+  - Entrevistado: Ian Sanchez
+  - Residencia: Lima
+  - Ocupación: Estudiante Universitario
+  - Entrevistador: Julio Elsner
+  - Enlace: [https://drive.google.com/file/d/1GZ1zA9s69y3c5qnWJaKKor_zflNRgF96/view?usp=sharing]
+  <p align="left"><img src="assets/capitulo-2/Ian.png" alt="Entrevista 1" width="500" height="250"/></p>
+**Resumen de la entrevista:**
+
+    0:47 - ¿Cual seria tu experiencia ideal a la hora de encontrar un sitio?
+    Mi experiencia ideal al entrar a un parkeo seria muy fluida que me muestre los lugares vacios y una ruta.
+
+    0:57 - ¿Cuál fue una de tus experiencias negativas al usar un ticket?
+    Saliendo del mall mientras compraba se me cayó el ticket y fue un lió porque no tenia como salir del estacionamiento.
+
+    2:11 - ¿Qué metodo de pago prefieres cuando pagas el estacionamiento?
+    Yape o Plin son rapidos y no necesito estar llevando efectivo, casi nunca uso efectivo.
+
+    2:28 - ¿Qué preocupaciones tendrías al usar un sistema que lee tu placa y automatiza el pago del estacionamiento?
+    Me preocuparia que el sistema no identifique la placa de mi vehiculo y me cobre de más o se quede abierto el cobro, también pensaria en la seguridad de mis datos pero si esta bien implementado seria bastante comodo.
+
+    2:54 - ¿Te seria útil visualizar en la aplicación sobre que espacios hay libres antes de entrar al parking?
+    Si, eso sería ideal para no tener que estar buscando sitio y perder mi tiempo. Si la app te muestra que niveles son los que tiene mas espacio seria un Golazo.
+
+    3:28 - ¿Qué esperas ver o saber en la app al momento de estacionarte? ¿Qué información sería útil para ti?
+    Me gustaria ver si hay espacios libre, el costo por hora, tener que pagar sin tener que hacer cola. También tener que ver si hay zonas techadas o comodas.
+
+  Tercera Entrevista:
+  - Entrevistado: Oscar Garayar
+  - Residencia: Lima
+  - Ocupación: Contador Privado
+  - Entrevistadora: Julio Elsner
+  - Enlace: [https://drive.google.com/file/d/1BD9ja1CMf6CAnO4BzFJKKQvH9ArLhj36/view?usp=sharing]
+  <p align="left"><img src="assets/capitulo-2/Oscar.png" alt="Entrevista 1" width="500" height="250"/></p>
+
+**Resumen de la entrevista:**
+
+    0:47 - ¿Cual seria tu experiencia ideal a la hora de encontrar un sitio?
+    Que sea lo mas cerca posible de las tiendas mas conocidas para no tener que estar caminando hasta un lugar alejado.
+
+    0:57 - ¿Puedes contarme sobre una experiencia positiva o negativa que hayas tenido al pagar por un servicio de estacionamiento?
+    Una vez el sistema de un centro comercial se cayó y tuve que hacer una fila gigante para poder pagar el estacionamiento de manera fisica y sin metodos de pago online.
+
+    2:11 - ¿Qué metodo de pago prefieres cuando pagas el estacionamiento?
+    Metodos de pago como tarjeta que suelo usar mucho para evitar tener que ir cargando efectivo.
+
+    2:28 - ¿Qué preocupaciones tendrías al usar un sistema que lee tu placa y automatiza el pago del estacionamiento?
+    La verdad es que ya un montón de estacionamientos lo usan asi que no tendría problema de su uso.
+
+    2:54 - ¿Te seria útil visualizar en la aplicación sobre que espacios hay libres antes de entrar al parking?
+    Si definitivamente porque me ahorra bastante tiempo a la hora de buscar un sitio libre y estar haciendo colas o rondando por el lugar.
+
+    3:28 - ¿Qué esperas ver o saber en la app al momento de estacionarte? ¿Qué información sería útil para ti?
+    Lo mas util para mi sería visualizar los espacios libre, zonas de estacionamientos cercanos, tarifas aplicables al pago del ticket, etc.
+
+
+
 ##### Segmento 2: Administradores de parking
 - Primera Entrevista:
   <p align="left"><img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-1.PNG" alt="Entrevista 1" width="150" height="250"/></p>
