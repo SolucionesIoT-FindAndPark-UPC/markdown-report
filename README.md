@@ -2471,6 +2471,16 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 ### 5.4.3. Applications User Flow Diagrams
 
+![](https://i.postimg.cc/NfjBFcLP/userflow-register.png)
+![](https://i.postimg.cc/GtqRKMgQ/userflow-dashboard.png)
+![](https://i.postimg.cc/rmGM0yS7/userflow-fee.png)
+![](https://i.postimg.cc/RVp9nDHC/userflow-monitoring.png)
+![](https://i.postimg.cc/mkbRQxjk/userflow-slots.png)
+![](https://i.postimg.cc/1RHyytRq/userflow-statistics.png)
+![](https://i.postimg.cc/yNZVKyW1/userflow-parking-mov.png)
+![](https://i.postimg.cc/qvgJbTTC/userflow-payment-mov.png)
+![](https://i.postimg.cc/dVXqgxsN/userflow-register-mov.png)
+
 ## 5.5. Applications Prototyping
 
 
