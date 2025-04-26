@@ -583,6 +583,7 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
     3:28 - ¿Qué información consideras más importante tener a la mano mientras gestionas el estacionamiento?
     Sería el ticket, la placa y el rostro del chofer.
 
+
 - Segunda Entrevista: 
 
    <img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-2.png" alt="Entrevista 2" height="180"/> 
@@ -605,12 +606,36 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
     4:48 - ¿Te sentirías cómodo con un sistema que detecta automáticamente las placas y realiza los cobros sin que tú intervengas?
     Claro, nos permitiria agilizar el trabajo.
 
+
+- Tercera Entrevista:
+
+    <img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-3.png" alt="Entrevista 3" height="180"/>
+
+    - Entrevistado: Sebastián Ramírez Hoffmann
+    - Residencia: Lima
+    - Ocupación: Seguridad de Parking
+    - Entrevistador: Luis Herrera
+    - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218227_upc_edu_pe/EUfQx0ozblVNoU8SJ2yKbvEB_WRjYS2x0stY1GG0cZfkyQ?e=99ONRH]
+    - Resumen de la entrevista:
+      2:55 – ¿Qué tipo de información te resulta más útil visualizar a diario para monitorear el funcionamiento del estacionamiento? 
+      Lo más valioso es ver, en tiempo real, qué vehículos ingresan: su placa, color y características distintivas. Ese registro permite rastrear al dueño si ocurre un robo o incidente y facilita a Seguridad actuar de inmediato.
+
+      3:40 – ¿Qué funcionalidades consideras esenciales en una plataforma web para administrar y monitorear espacios de parqueo?
+      Una plataforma debería mostrar un registro automático de entrada / salida con hora exacta, vincular la placa a un perfil del propietario (DNI), y superponer la información con cámaras para ubicar cada auto en tiempo real. También pide campos visuales simples (color del vehículo, polarizado, etc.) y un tablero sin pasos extra.
+      
+      5:25 – ¿Qué herramientas usas hoy para controlar los vehículos que entran y salen?
+      Actualmente usan un sistema de tickets / QR: al ingresar se entrega un código impreso que se escanea a la salida para identificar al conductor y calcular la tarifa. En trabajos anteriores emplearon soluciones similares, combinando pago manual y registro en papel.
+
+      8:24 – ¿Te sentirías cómodo con un sistema que detecta automáticamente las placas y realiza los cobros sin que tú intervengas?
+      Le parece una gran idea por la eficiencia y la reducción de personal a futuro; solo le preocupa la seguridad inmediata (cómo reaccionar si ocurre un delito). Mientras existan medidas para respuestas rápidas y se integre con el sistema actual, lo adoptaría con gusto.
+
 ### 2.2.3. Análisis de entrevistas
 ##### Segmento 1: Conductores
 
 ##### Segmento 2: Administradores de parking
 - Primera Entrevista: El entrevistado señaló que el monitoreo se realiza principalmente mediante cámaras activas todo el tiempo y rondas presenciales para verificar el estado del parqueo. Ante emergencias, se comunica directamente con el gerente de tienda por radio, sin un protocolo formal establecido. La información más útil para su labor diaria incluye las grabaciones de las cámaras, el ticket del vehículo, la placa y el rostro del conductor. Actualmente no utilizan una plataforma web, ya que el parqueo es gratuito y no considera necesaria una visualización digital; sin embargo, si hubiera cobro, sí vería valor en implementarla. El control de ingreso y salida se realiza de forma manual con tickets y anotaciones en papel.
 - Segunda Entrevista: El entrevistado Señalo que se tienen contratado un sistema que les permite realizar las facturaciones, pero que el resto de los controles del estacionamiento los realizan manualmente y recae en los empleados aplicar los protocolos en caso de incidentes. A partir de esto señalo en las siguientes respuestas que esta interesado en adquirir un sistema que le permita automatizar más partes de la gestión del estacionamiento.
+- Tercera Entrevista: El entrevistado explicó que el monitoreo combina cámaras en funcionamiento continuo con personal en “postas” para actuar de inmediato si ocurre un incidente. Para emergencias, se apoya en las grabaciones y en la identificación visual del vehículo (placa, color y rasgos distintivos) a fin de rastrear rápidamente al propietario; considera indispensable vincular estos datos con los perfiles de los usuarios. La información diaria más valiosa es un registro en tiempo real de qué autos entran y salen y dónde se encuentran dentro del estacionamiento. Aunque hoy trabajan con un sistema de tickets/QR que sólo cubre el cobro, todas las verificaciones de seguridad se llevan a cabo de forma manual. El entrevistado ve gran utilidad en una plataforma web que muestre las entradas y salidas, integre las cámaras y automatice la asociación entre placa y perfil; sin embargo, advierte que debe garantizarse una respuesta rápida ante robos o siniestros. Afirma sentirse cómodo con la detección automática de placas y el cobro sin intervención humana, siempre que la solución mantenga o mejore los niveles de seguridad actuales.
 
 ## 2.3. Needfinding
 
