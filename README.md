@@ -1954,7 +1954,7 @@ Impl.: `CameraFeedServiceImpl`
 
 #### 4.2.3.4.2. Bounded Context Database Design Diagram
 
-
+![Camera Feed Database Design Diagram](assets/capitulo-4/DBCameraFeed.png)
 
 ## 4.2.4. Bounded Context: Parking Circulation
 
