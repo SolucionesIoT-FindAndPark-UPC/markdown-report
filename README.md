@@ -213,9 +213,10 @@ Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, si
 |------|-------------|
 | <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p> | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto. |
 | <p align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQF0q82dzd577g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719029164195?e=1750896000&v=beta&t=XNTeNX_6dSYIsI75WWHmmJjOHW5Wr0RaHyLkeVk32oc" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *U20221A928 - Ingeniería de Software*  <br> <br>  Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas. |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 3" width="100" height="100"/></p> | **Cuevas Rios, Eric Fernando**  <br> *Código - Carrera*  <br> <br> - |
-| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 4" width="100" height="100"/></p> | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *Código - Carrera*  <br> <br> - |
-| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 5" width="100" height="100"/></p> | **Herrera González, Luis Eduardo**  <br> *Código - Carrera*  <br> <br> - |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 1" width="100" height="130"/></p>| **Cuevas Rios, Eric Fernando**  <br> *Código - Carrera*  <br> <br> - <br>  |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-4.jpg" alt="Foto de integrante 4" width="100" height="110"/></p> | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *U202111654 - Ingeniería de Software*  <br> Para este proyecto, puedo aportar con habilidades de indagación y pensamiento crítico, diseño de prototipo en Figma y programación back-End. Añadido a esto, estoy me es grato poder aprender de mis demás compañeros y de sus habilidades individuales. Me considero una persona responsable y que cumple con los plazos establecidos en una entrega. <br>   |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 5" width="100" height="100"/></p> | **Herrera González, Luis Eduardo**  <br> *Código - Carrera*  <br> <br> - <br> |
+
 
 ## 1.2. Solution Profile
 
@@ -478,6 +479,76 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
 
 ### 2.2.2. Registro de entrevistas
 ##### Segmento 1: Conductores
+![](https://i.postimg.cc/rFVrFVWQ/interview-driver.png)
+
+Eva utiliza estacionamientos privados cinco veces por semana y valora una experiencia fluida, con espacios amplios y fáciles de encontrar. Considera la seguridad un aspecto esencial, destacando la importancia de contar con vigilancia. Siempre porta su celular, por lo que acepta el uso de aplicaciones móviles, y prefiere pagar con tarjeta. Aunque ve con buenos ojos la automatización mediante lectura de placas, le preocupa no poder validar cobros automáticos, por lo que el sistema debería ofrecer confirmación previa antes de realizar cargos. Además, considera fundamental que la aplicación muestre en tiempo real los espacios libres, priorizando los más cercanos a entradas y salidas para optimizar su tiempo.
+
+  - Entrevistado: Eva Revollé
+  
+  - Residencia: Lima
+  
+  - Ocupación: Empresaria
+  
+  - Entrevistadora: Ariana Vargas
+
+ - Enlace: [Entrevista driver Eva](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/EfYrrssrhMtJgwaB70Bbw08BUB1vmFhogew_rTpUJlsqYg?e=uiQebR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+ 
+  Segunda Entrevista:
+  - Entrevistado: Ian Sanchez
+  - Residencia: Lima
+  - Ocupación: Estudiante Universitario
+  - Entrevistador: Julio Elsner
+  - Enlace: [https://drive.google.com/file/d/1GZ1zA9s69y3c5qnWJaKKor_zflNRgF96/view?usp=sharing]
+  <p align="left"><img src="assets/capitulo-2/Ian.png" alt="Entrevista 1" width="500" height="250"/></p>
+**Resumen de la entrevista:**
+
+    0:47 - ¿Cual seria tu experiencia ideal a la hora de encontrar un sitio?
+    Mi experiencia ideal al entrar a un parkeo seria muy fluida que me muestre los lugares vacios y una ruta.
+
+    0:57 - ¿Cuál fue una de tus experiencias negativas al usar un ticket?
+    Saliendo del mall mientras compraba se me cayó el ticket y fue un lió porque no tenia como salir del estacionamiento.
+
+    2:11 - ¿Qué metodo de pago prefieres cuando pagas el estacionamiento?
+    Yape o Plin son rapidos y no necesito estar llevando efectivo, casi nunca uso efectivo.
+
+    2:28 - ¿Qué preocupaciones tendrías al usar un sistema que lee tu placa y automatiza el pago del estacionamiento?
+    Me preocuparia que el sistema no identifique la placa de mi vehiculo y me cobre de más o se quede abierto el cobro, también pensaria en la seguridad de mis datos pero si esta bien implementado seria bastante comodo.
+
+    2:54 - ¿Te seria útil visualizar en la aplicación sobre que espacios hay libres antes de entrar al parking?
+    Si, eso sería ideal para no tener que estar buscando sitio y perder mi tiempo. Si la app te muestra que niveles son los que tiene mas espacio seria un Golazo.
+
+    3:28 - ¿Qué esperas ver o saber en la app al momento de estacionarte? ¿Qué información sería útil para ti?
+    Me gustaria ver si hay espacios libre, el costo por hora, tener que pagar sin tener que hacer cola. También tener que ver si hay zonas techadas o comodas.
+
+  Tercera Entrevista:
+  - Entrevistado: Oscar Garayar
+  - Residencia: Lima
+  - Ocupación: Contador Privado
+  - Entrevistadora: Julio Elsner
+  - Enlace: [https://drive.google.com/file/d/1BD9ja1CMf6CAnO4BzFJKKQvH9ArLhj36/view?usp=sharing]
+  <p align="left"><img src="assets/capitulo-2/Oscar.png" alt="Entrevista 1" width="500" height="250"/></p>
+
+**Resumen de la entrevista:**
+
+    0:47 - ¿Cual seria tu experiencia ideal a la hora de encontrar un sitio?
+    Que sea lo mas cerca posible de las tiendas mas conocidas para no tener que estar caminando hasta un lugar alejado.
+
+    0:57 - ¿Puedes contarme sobre una experiencia positiva o negativa que hayas tenido al pagar por un servicio de estacionamiento?
+    Una vez el sistema de un centro comercial se cayó y tuve que hacer una fila gigante para poder pagar el estacionamiento de manera fisica y sin metodos de pago online.
+
+    2:11 - ¿Qué metodo de pago prefieres cuando pagas el estacionamiento?
+    Metodos de pago como tarjeta que suelo usar mucho para evitar tener que ir cargando efectivo.
+
+    2:28 - ¿Qué preocupaciones tendrías al usar un sistema que lee tu placa y automatiza el pago del estacionamiento?
+    La verdad es que ya un montón de estacionamientos lo usan asi que no tendría problema de su uso.
+
+    2:54 - ¿Te seria útil visualizar en la aplicación sobre que espacios hay libres antes de entrar al parking?
+    Si definitivamente porque me ahorra bastante tiempo a la hora de buscar un sitio libre y estar haciendo colas o rondando por el lugar.
+
+    3:28 - ¿Qué esperas ver o saber en la app al momento de estacionarte? ¿Qué información sería útil para ti?
+    Lo mas util para mi sería visualizar los espacios libre, zonas de estacionamientos cercanos, tarifas aplicables al pago del ticket, etc.
+
+
 
 ##### Segmento 2: Administradores de parking
 - Primera Entrevista:
