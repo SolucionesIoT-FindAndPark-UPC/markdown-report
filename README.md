@@ -478,7 +478,20 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
 
 ### 2.2.2. Registro de entrevistas
 ##### Segmento 1: Conductores
+![](https://i.postimg.cc/rFVrFVWQ/interview-driver.png)
 
+Eva utiliza estacionamientos privados cinco veces por semana y valora una experiencia fluida, con espacios amplios y fáciles de encontrar. Considera la seguridad un aspecto esencial, destacando la importancia de contar con vigilancia. Siempre porta su celular, por lo que acepta el uso de aplicaciones móviles, y prefiere pagar con tarjeta. Aunque ve con buenos ojos la automatización mediante lectura de placas, le preocupa no poder validar cobros automáticos, por lo que el sistema debería ofrecer confirmación previa antes de realizar cargos. Además, considera fundamental que la aplicación muestre en tiempo real los espacios libres, priorizando los más cercanos a entradas y salidas para optimizar su tiempo.
+
+  - Entrevistado: Eva Revollé
+  
+  - Residencia: Lima
+  
+  - Ocupación: Empresaria
+  
+  - Entrevistadora: Ariana Vargas
+
+ - Enlace: [Entrevista driver Eva](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/EfYrrssrhMtJgwaB70Bbw08BUB1vmFhogew_rTpUJlsqYg?e=uiQebR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+ - 
 ##### Segmento 2: Administradores de parking
 - Primera Entrevista:
   <p align="left"><img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-1.PNG" alt="Entrevista 1" width="150" height="250"/></p>
