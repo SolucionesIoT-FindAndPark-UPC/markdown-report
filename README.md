@@ -1045,6 +1045,48 @@ Seleccionamos esta User Story como base de referencia para la valorización de l
 
 #### 4.1.1.3. Bounded Context Canvases
 
+
+<p align="center">
+  <img src="assets/capitulo-4/UserManagement.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/CamerFeed.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/Monitorin.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/ParkingSite.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/Notifications.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/TicketValidation.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/ParkingCirculation.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+<p align="center">
+  <img src="assets/capitulo-4/Payments.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+
 ### 4.1.2. Context Mapping
 
 ### 4.1.3. Software Architecture
