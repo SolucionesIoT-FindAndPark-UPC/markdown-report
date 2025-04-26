@@ -514,7 +514,7 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
 
 - Segunda Entrevista: 
 
-   <img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-2.png" alt="Entrevista 2" height="300"/> 
+   <img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-2.png" alt="Entrevista 2" height="180"/> 
 
   - Entrevistado: Jorge Rosales
   - Residencia: Lima
