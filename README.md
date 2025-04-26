@@ -632,6 +632,15 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
 ### 2.2.3. Análisis de entrevistas
 ##### Segmento 1: Conductores
 
+- Primera Entrevista (Eva Revollé):
+Eva utiliza estacionamientos privados cinco veces por semana y valora una experiencia fluida, con espacios amplios, fáciles de encontrar y con alta seguridad. Resalta la necesidad de vigilancia activa. Está dispuesta a utilizar aplicaciones móviles, prefiere pagos con tarjeta y ve con buenos ojos la automatización por lectura de placas, siempre que el sistema permita confirmar cobros antes de procesarlos. Considera crucial que la app muestre en tiempo real los espacios libres, priorizando los cercanos a entradas y salidas para optimizar su tiempo.
+
+- Segunda Entrevista (Ian Sánchez):
+Ian busca una experiencia de parqueo ágil donde la app le muestre los espacios vacíos y la ruta más rápida hacia ellos. Prefiere métodos de pago digitales como Yape o Plin, ya que casi no usa efectivo. Le preocupa que la lectura de placas pueda fallar y genere cobros incorrectos, aunque valora la comodidad si se implementa bien. Considera esencial visualizar los niveles o zonas con más disponibilidad antes de entrar y dentro de la app le gustaría ver información como costo por hora y si los espacios están techados.
+
+- Tercera Entrevista (Oscar Garayar):
+Oscar prioriza estacionar cerca de tiendas conocidas para evitar caminar largas distancias. Prefiere pagar con tarjeta y ha tenido experiencias negativas cuando sistemas de pago se caen, provocando largas filas. Se siente cómodo con el uso de lectura de placas y automatización de cobros, dado que ya está acostumbrado a ellos. Encuentra muy útil que la app muestre espacios disponibles en tiempo real, así como las tarifas vigentes y zonas cercanas, para ahorrar tiempo y evitar rondar buscando sitio.
+
 ##### Segmento 2: Administradores de parking
 - Primera Entrevista: El entrevistado señaló que el monitoreo se realiza principalmente mediante cámaras activas todo el tiempo y rondas presenciales para verificar el estado del parqueo. Ante emergencias, se comunica directamente con el gerente de tienda por radio, sin un protocolo formal establecido. La información más útil para su labor diaria incluye las grabaciones de las cámaras, el ticket del vehículo, la placa y el rostro del conductor. Actualmente no utilizan una plataforma web, ya que el parqueo es gratuito y no considera necesaria una visualización digital; sin embargo, si hubiera cobro, sí vería valor en implementarla. El control de ingreso y salida se realiza de forma manual con tickets y anotaciones en papel.
 - Segunda Entrevista: El entrevistado Señalo que se tienen contratado un sistema que les permite realizar las facturaciones, pero que el resto de los controles del estacionamiento los realizan manualmente y recae en los empleados aplicar los protocolos en caso de incidentes. A partir de esto señalo en las siguientes respuestas que esta interesado en adquirir un sistema que le permita automatizar más partes de la gestión del estacionamiento.
