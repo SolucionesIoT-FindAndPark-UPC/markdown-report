@@ -1926,11 +1926,17 @@ Esta representación contribuye a visualizar la implementación técnica del con
 
 ### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
 
+<p align="center"><img src="assets/capitulo-4/4.2.8.5-Notifications-Component-Diagram.PNG" alt="Notifications Class Diagram"/></p>
+
 ### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 
+<p align="center"><img src="assets/capitulo-4/4.2.8.6.1-Notifications-Class-Diagram.PNG" alt="Notifications Class Diagram"/></p>
+
+
 #### 4.2.8.6.2. Bounded Context Database Design Diagram
+<p align="center"><img src="assets/capitulo-4/4.2.8.6.2-Notifications-Database-Model.PNG" alt="Notifications DB Diagram"/></p>
 
 # Capítulo V: Solution UI/UX Design
 
