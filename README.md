@@ -55,7 +55,7 @@
 
 | Versión | Fecha | Autor | Descripción de modificación | 
 |:-------:|:-----:|:-----:|:----------------------------| 
-|TB1| ----  |  --   | ==                          |
+|TB1| 25/05/25  |  <br>Vargas Revollé, Ariana<br> <br>Obispo Rios, Lucero Abigail<br> <br>Cuevas Rios, Eric Fernando<br> <br>Elsner De La Torre Ugarte, Julio Esteban<br> <br>Herrera González, Luis Eduardo<br>   | Investigación de mercado y del problema, obtención y análisis de requisitos, especificación de requisitos, y diseño de la solución de software.                           |
 </div>
 
 ---
@@ -180,10 +180,10 @@
 
 <div align="justify">
 
-| Criterio Específico | Acciones Realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-| -                   | -                   | -            |
-| -                   | -                   | -            |
+| **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
+|-------------------------|-------------------------|------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | <br>- *Obispo Rios, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en reuniones de equipo para definir el alcance del proyecto y la arquitectura. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>-<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>-<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br> |  |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | <br>- *Obispo Ríos, Lucero Abigail*<br> <br>**TB1**<br>  <br>Participar en el proceso de asignación de tareas y cumplir con las actividades asignadas en relación a las entrevistas, To-Be y As-Is Scneario Mapping, Journey Mapping, Historias de Usuario, Eventstorming, entre otros. <br> <br>- *Cuevas Rios, Eric Fernando*<br> <br>**TB1** <br> <br>-<br> <br>- *Vargas Revollé, Ariana*<br> <br>**TB1**<br>  <br>-<br> <br>- *Elsner De La Torre Ugarte, Julio Esteban*<br> <br>**TB1**<br>  <br>-<br> <br>- *Herrera González, Luis Eduardo*<br> <br>**TB1**<br>  <br>-<br>  | *(Sin conclusiones registradas)* |
 
 </div>
 
@@ -207,13 +207,15 @@ Facilitar y modernizar la experiencia de estacionamiento en entornos urbanos med
 Visión:  
 Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, siendo referentes en innovación, automatización y experiencia de usuario, para transformar la manera en que las personas se movilizan y estacionan.  
 
-### 1.1.2. Perfiles de integrantes del equipo  
+### 1.1.2. Perfiles de integrantes del equipo 
 
-| |Vargas Revollé, Ariana |
-| |Obispo Rios, Lucero Abigail |
-| |Cuevas Rios, Eric Fernando |
-| |Elsner De La Torre Ugarte, Julio Esteban |
-| |Herrera González, Luis Eduardo |  
+| Foto | Perfil de Integrante |
+|------|-------------|
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p> | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias.  Por otro lado, me considero una persona responsable y comprometida con el proyecto. |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *Código - Carrera*  <br> <br> - <br> |
+|<p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 1" width="100" height="130"/></p>| **Cuevas Rios, Eric Fernando**  <br> *Código - Carrera*  <br> <br> - <br>  |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 4" width="100" height="100"/></p> | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *Código - Carrera*  <br> <br> - <br> |
+| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 5" width="100" height="100"/></p> | **Herrera González, Luis Eduardo**  <br> *Código - Carrera*  <br> <br> - <br> |
 
 ## 1.2. Solution Profile
 
@@ -479,11 +481,18 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
 
 ##### Segmento 2: Administradores de parking
 - Primera Entrevista:
+  <p align="left"><img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-1.PNG" alt="Entrevista 1" width="150" height="250"/></p>
+  
   - Entrevistado: Jose Alberto
+  
   - Residencia: Lima
+  
   - Ocupación: Seguridad de Parking
+  
   - Entrevistadora: Lucero Obispo
+  
   - Enlace: [https://youtu.be/ebwojw4HlCo]
+  
   - Resumen de la entrevista:
     0:30 - ¿Con qué frecuencia revisan cámaras de seguridad para el monitoreo de vehículos?
     Las cámaras estan vigilando en cada momento, yo también bajo para ver y verificar que los autos no se esten llevando algo de lo ajeno.
@@ -507,7 +516,7 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
   - Entrevistado: Jorge Rosales
   - Residencia: Lima
   - Ocupación: Operador de Parking
-  - Entrevistador: Eric Cuevas:
+  - Entrevistador: Eric Cuevas
   - Enlace: [https://youtu.be/BB-ZCcDnO-Q]
   - Resumen de la entrevista:
     1:05 - ¿Qué tipo de información te resulta más útil visualizar a diario para monitorear el funcionamiento del estacionamiento?
@@ -1122,9 +1131,21 @@ Lo que queda de la siguiente manera:
 
 #### 4.1.1.2. Domain Message Flows Modeling
 
+El Domain Message Flow Modeling es una técnica utilizada en Domain-Driven Design (DDD) para visualizar y documentar cómo los mensajes, eventos y comandos fluyen entre los bounded contexts y los actores dentro de un sistema. Ayuda a identificar las interacciones clave entre los componentes del sistema y cómo los eventos desencadenan acciones en diferentes partes del dominio.
+
+![4.1.1.2-Domain-Message-Floww.Modeling-Register.jpg](assets/capitulo-4/4.1.1.2-Domain-Message-Floww.Modeling-Register.jpg)
+
+![4.1.1.2-Domain-Message-Floww.Modeling-Entry.jpg](assets/capitulo-4/4.1.1.2-Domain-Message-Floww.Modeling-Entry.jpg)
+
+![4.1.1.2-Domain-Message-Floww.Modeling-Exit.jpg](assets/capitulo-4/4.1.1.2-Domain-Message-Floww.Modeling-Exit.jpg)
+
 #### 4.1.1.3. Bounded Context Canvases
 
 ### 4.1.2. Context Mapping
+
+Context Mapping es una técnica de Domain-Driven Design (DDD) que define las relaciones entre los bounded contexts en un sistema, estableciendo cómo interactúan e intercambian información. Permite gestionar dependencias y asegura que los modelos de dominio se mantengan consistentes y aislados.
+
+![4.1.2-Context-Mapping.jpg](assets/capitulo-4/4.1.2-Context-Mapping.jpg)
 
 ### 4.1.3. Software Architecture
 
@@ -1153,6 +1174,613 @@ Lo que queda de la siguiente manera:
 #### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
+
+## 4.2.1. Bounded Context: IAM
+
+En esta sección se documentan las principales clases que conforman el núcleo del contexto IAM, detallando sus atributos, métodos y relaciones.
+El agregado raíz User representa a cada usuario registrado en la plataforma, con credenciales de acceso (username, password) y la asignación de un único Role, lo cual refleja las reglas de negocio que restringen a un solo rol por usuario.
+
+La entidad Role modela los diferentes tipos de rol que puede asumir un usuario dentro del sistema, tales como administrador, usuario regular o instructor. Esta entidad incluye utilidades para la validación y conversión de roles a partir de representaciones textuales.
+Por su parte, el objeto de valor Roles encapsula los valores constantes de los posibles roles, implementado como un enumerado (enum), asegurando la integridad de los roles permitidos y evitando inconsistencias.
+
+Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
+
+
+**Clase User**
+
+| **Nombre**      | User                                                           |
+|-----------------|----------------------------------------------------------------|
+| **Relaciones**  | Muchos a uno con Role                                          |
+| **Descripción** | Representa un usuario del sistema con credenciales y un rol.  |
+
+Atributos
+
+| Nombre   | Tipo de Dato | Visibilidad |
+|----------|--------------|-------------|
+| id       | Long         | private     |
+| username | String       | private     |
+| password | String       | private     |
+| role     | Role         | private     |
+
+Métodos
+
+| Método                       |
+|------------------------------|
+| setRole(role: Role)          |
+| getRole(): Role              |
+
+**Clase Role**
+| **Nombre**      | Role                                                              |
+|-----------------|-------------------------------------------------------------------|
+| **Relaciones**  | Uno a muchos con User                                             |
+| **Descripción** | Representa un rol del sistema, como ADMIN o DRIVER.               |
+
+Atributos
+
+| Nombre | Tipo de Dato | Visibilidad |
+|--------|--------------|-------------|
+| id     | Long         | private     |
+| name   | Roles (enum) | private     |
+
+ Métodos
+
+| Método                             |
+|------------------------------------|
+| getStringName(): String            |
+| getDefaultRole(): Role             |
+| toRoleFromName(name: String): Role |
+
+### 4.2.1.1. Domain Layer
+
+En la capa de dominio se modelan los conceptos centrales del contexto IAM siguiendo los principios de Domain-Driven Design.
+ El agregado raíz User representa a un usuario dentro del sistema, asociado a un único Role. Esta relación permite garantizar que cada usuario tenga exactamente un rol, como ROLE_ADMIN, ROLE_USER o ROLE_INSTRUCTOR.
+El objeto de valor Roles, modelado como un enum, establece un conjunto cerrado de posibles valores para la asignación de roles, garantizando la integridad del dominio.
+Adicionalmente, los servicios de dominio UserCommandService y RoleCommandService encapsulan operaciones de negocio que no pertenecen naturalmente a ninguna entidad, cumpliendo con el principio de separación de responsabilidades.
+Esta estructura permite mantener un dominio rico, expresivo y alineado con las reglas de negocio fundamentales del sistema.
+
+**Agregates**
+| Aggregate <<User>>                       |
+|-------------------------------------------|
+| - Long id (heredado de AuditableAbstractAggregateRoot) |
+| - String username                         |
+| - String password                         |
+| - Role role                         |
+|-------------------------------------------|
+| + getUsername(): String                   |
+| + getPassword(): String                   |
+| + getRole(): Role                         |
+| + setRole(role: Role): User               |
+
+**Entities**
+| Entity <<Role>>                         |
+|------------------------------------------|
+| - Long id                                |
+| - Roles name                             |
+|------------------------------------------|
+| + getId(): Long                          |
+| + getName(): Roles                       |
+| + getStringName(): String                |
+| + getDefaultRole(): Role                 |
+| + toRoleFromName(name: String): Role     |
+| + validateRoleSet(roles: List<Role>): List<Role> |
+
+**Value Objects**
+| Value Object <<Roles>>                 |
+|-----------------------------------------|
+| + ROLE_ADMIN                            |
+| + ROLE_USER                             |
+| + ROLE_INSTRUCTOR                      |
+|-----------------------------------------|
+| (Métodos estándar de enum Java)         |
+| + name(): String                        |
+| + values(): Roles[]                     |
+| + valueOf(String): Roles                |
+
+**Domain Services**
+| RoleCommandService       |
+|-----------------------------------------------|
+| + handle(command: SeedRolesCommand): void     |
+
+| UserCommandService                          |
+|-----------------------------------------------------------------|
+| + handle(command: SignUpCommand): Optional<User>                |
+| + handle(command: SignInCommand): Optional<ImmutablePair<User, String>> |
+
+
+### 4.2.1.2. Interface Layer
+
+La capa de interfaz expone la funcionalidad del contexto IAM a través de controladores RESTful basados en el framework Spring Boot.
+AuthenticationController gestiona los procesos de autenticación de usuarios, permitiendo tanto el inicio de sesión como el registro de nuevos usuarios.
+RolesController proporciona endpoints para consultar los diferentes roles disponibles en el sistema, mientras que UsersController facilita la recuperación de información sobre los usuarios registrados.
+Cada controlador delega la lógica de negocio en los servicios de dominio apropiados, actuando únicamente como capa de orquestación, en conformidad con el principio de Controller Thin.
+
+
+| Controller <<AuthenticationController>>                         |
+|-------------------------------------------------------------------|
+| - UserCommandService userCommandService                          |
+|-------------------------------------------------------------------|
+| + signIn(signInResource: SignInResource): ResponseEntity<AuthenticatedUserResource> |
+| + signUp(signUpResource: SignUpResource): ResponseEntity<UserResource>               |
+
+| Controller <<RolesController>>                    |
+|----------------------------------------------------|
+| - RoleQueryService roleQueryService                |
+|----------------------------------------------------|
+| + getAllRoles(): ResponseEntity<List<RoleResource>> |
+
+| Controller <<UsersController>>                                 |
+|----------------------------------------------------------------|
+| - UserQueryService userQueryService                            |
+|----------------------------------------------------------------|
+| + getAllUsers(): ResponseEntity<List<UserResource>>            |
+| + getUserById(userId: Long): ResponseEntity<UserResource>      |
+
+
+### 4.2.1.3. Application Layer
+
+La capa de aplicación coordina la ejecución de las operaciones de negocio a través de componentes como event handlers y servicios de aplicación.
+El ApplicationReadyEventHandler es responsable de inicializar los roles del sistema cuando la aplicación arranca. Este componente escucha el evento ApplicationReadyEvent de Spring y dispara la ejecución del comando SeedRolesCommand, garantizando que los roles fundamentales estén disponibles sin intervención manual.
+Esta organización contribuye a desacoplar las operaciones de infraestructura del dominio y favorece la automatización de procesos iniciales del sistema.
+
+
+| Event Handler <<ApplicationReadyEventHandler>>          |
+|----------------------------------------------------------|
+| - Logger LOGGER                                          |
+| - RoleCommandService roleCommandService                  |
+|----------------------------------------------------------|
+| + on(event: ApplicationReadyEvent): void                 |
+| - getCurrentTimestamp(): Timestamp                      |
+
+
+### 4.2.1.4. Infrastructure Layer
+
+La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
+UserRepository y RoleRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades User y Role, respectivamente.
+Estos repositorios proporcionan métodos específicos como findByUsername, findByName y validaciones de existencia (existsByUsername, existsByName), que son esenciales para preservar la unicidad de los registros.
+Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dominio, favoreciendo una arquitectura limpia y sostenible.
+
+
+| Infrastructure Repository <<RoleRepository>>              |
+|-------------------------------------------------------------|
+| Extiende: JpaRepository<Role, Long>                         |
+|-------------------------------------------------------------|
+| + findByName(name: Roles): Optional<Role>                   |
+| + existsByName(name: Roles): boolean                        |
+
+| Infrastructure Repository <<UserRepository>>               |
+|-------------------------------------------------------------|
+| Extiende: JpaRepository<User, Long>                         |
+|-------------------------------------------------------------|
+| + findByUsername(username: String): Optional<User>          |
+| + existsByUsername(username: String): boolean               |
+
+
+### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+En esta sección se presentan los diagramas de arquitectura a nivel de componentes para el contexto IAM.
+Estos diagramas ilustran la interacción entre los principales artefactos del sistema, como controladores, servicios de dominio, agregados y repositorios.
+La representación gráfica facilita la comprensión del flujo de información y responsabilidades entre capas, promoviendo la trazabilidad y la consistencia arquitectónica del contexto.
+
+![](https://i.postimg.cc/DZ37w4bq/container-diagram.png)
+
+
+### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+Los diagramas a nivel de código detallan los flujos de ejecución de los principales casos de uso del contexto IAM, incluyendo el proceso de registro (sign-up) y autenticación (sign-in).
+Asimismo, se incluyen diagramas de clases que representan la estructura interna de las entidades y servicios, así como diagramas de base de datos que modelan la persistencia de los objetos del dominio.
+Esta representación contribuye a visualizar la implementación técnica del contexto y a validar su alineación con el diseño conceptual.
+
+![](https://i.postimg.cc/zXzXhh27/iam-sign-up-code-diagram.png)
+
+![](https://i.postimg.cc/C5NhtM5b/iam-sign-in-code-diagram.png)
+
+
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+![](https://i.postimg.cc/9FLXYfvh/iam-class-diagram.png)
+
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+![](https://i.postimg.cc/jqQSCccC/iam-db-diagram.png)
+
+## 4.2.6. Bounded Context: Monitoring
+
+### 4.2.6.1. Domain Layer
+
+### Entidad: CriticalEventLog
+
+| **Nombre**           | **Categoría** | **Propósito**                                               |
+|----------------------|---------------|-------------------------------------------------------------|
+| CriticalEventLog     | Entity        | Registro de un caso que lleve a la cancelación del pago     |
+
+#### Atributos
+
+| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
+|-------------------|------------------|-----------------|-------------------------------------------------------------|
+| id                | Long             | Private         | Identificador único para el caso                            |
+| typeOfViolation   | string           | Private         | Tipo de caso crítico registrado                             |
+| vehiclePlate      | string           | Private         | Placa del vehículo involucrado en el caso                   |
+| timestamp         | Time             | Private         | Hora de la ocurrencia                                       |
+| handledBy         | Long             | Private         | ID del administrador que trató el caso                      |
+| status            | string           | Private         | Estado actual del caso                                      |
+| totalDuration     | string           | Private         | Duración total del caso                                     |
+  
+### 4.2.6.2. Interface Layer
+
+### CriticalEventLogController  
+| **Nombre**                 | **Categoría** | **Propósito**                                               |
+|----------------------------|---------------|-------------------------------------------------------------|
+| CriticalEventLogController | Controller    | Endpoints para la gestión de casos críticos                 |
+
+| **Nombre**              | **Tipo de retorno**                                      | **Visibilidad** | **Descripción**                                             |
+|-------------------------|----------------------------------------------------------|-----------------|-------------------------------------------------------------|
+| Constructor             | void                                                     | Public          | Constructor del controlador                                  |
+| createCriticalEventLog  | ResponseEntity&lt;CriticalEventLogResponseDto&gt;        | Public          | Crear un nuevo caso crítico                                  |
+| getCriticalEventLog     | ResponseEntity&lt;CriticalEventLogResponseDto&gt;        | Public          | Obtener un caso crítico por su ID                            |
+| getAllCriticalEventLogs | ResponseEntity&lt;List&lt;CriticalEventLogResponseDto&gt;&gt; | Public      | Obtener todos los casos críticos                             |
+
+
+#### CriticalEventLogRequestDto  
+| **Nombre**                   | **Categoría** | **Propósito**                                               |
+|------------------------------|---------------|-------------------------------------------------------------|
+| CriticalEventLogRequestDto   | DTO           | Datos necesarios para crear un nuevo caso crítico           |
+
+| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
+|------------------|------------------|-----------------|-------------------------------------------------------------|
+| typeOfViolation  | string           | Private         | Tipo de violación que originó el caso crítico               |
+| vehiclePlate     | string           | Private         | Placa del vehículo involucrado en el caso                   |
+| timestamp        | Time             | Private         | Fecha y hora de la ocurrencia del caso                      |
+| handledBy        | Long             | Private         | ID del administrador que atendió el caso                    |
+  
+#### CriticalEventLogResponseDto   
+| **Nombre**                   | **Categoría** | **Propósito**                                               |
+|------------------------------|---------------|-------------------------------------------------------------|
+| CriticalEventLogResponseDto  | DTO           | Representación de un caso crítico con detalles completos    |
+
+| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
+|------------------|------------------|-----------------|-------------------------------------------------------------|
+| id               | Long             | Private         | Identificador único del caso crítico                        |
+| typeOfViolation  | string           | Private         | Tipo de violación que originó el caso crítico               |
+| vehiclePlate     | string           | Private         | Placa del vehículo involucrado en el caso                   |
+| timestamp        | Time             | Private         | Fecha y hora de la ocurrencia del caso                      |
+| handledBy        | Long             | Private         | ID del administrador que atendió el caso                    |
+| status           | string           | Private         | Estado actual del caso (ej. "En proceso", "Resuelto")       |
+| totalDuration    | string           | Private         | Duración total del caso en formato HH:mm:ss                 |
+
+### VehicleMonitoringController
+| **Nombre**                  | **Categoría** | **Propósito**                                               |
+|-----------------------------|---------------|-------------------------------------------------------------|
+| VehicleMonitoringController | Controller    | Gestiona las operaciones relacionadas con los vehículos en el estacionamiento |
+
+#### Atributos
+
+| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
+|----------------|------------------|-----------------|-------------------------------------------------|
+| vehicleService | IVehicleService  | Private         | Servicio para operaciones con vehículos         |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**                  | **Visibilidad** | **Descripción**                                      |
+|----------------------|--------------------------------------|-----------------|------------------------------------------------------|
+| getVehicleStatus     | ResponseEntity<VehicleDto>           | Public          | Obtiene el estado actual de un vehículo por su placa |
+| getAllVehiclesStatus | ResponseEntity<List<VehicleDto>>     | Public          | Obtiene el estado de todos los vehículos             |
+
+### DeviceMonitoringController  
+| **Nombre**                  | **Categoría** | **Propósito**                                               |
+|-----------------------------|---------------|-------------------------------------------------------------|
+| DeviceMonitoringController  | Controller    | Gestiona las operaciones relacionadas con los dispositivos de monitoreo en el estacionamiento |
+
+#### Atributos
+
+| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
+|----------------|------------------|-----------------|-------------------------------------------------|
+| deviceService  | IDeviceService   | Private         | Servicio para operaciones con dispositivos de monitoreo |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**                  | **Visibilidad** | **Descripción**                                      |
+|----------------------|--------------------------------------|-----------------|------------------------------------------------------|
+| getDeviceStatus      | ResponseEntity<DeviceDto>            | Public          | Obtiene el estado actual de un dispositivo por su ID |
+| getAllDevicesStatus  | ResponseEntity<List<DeviceDto>>      | Public          | Obtiene el estado de todos los dispositivos          |
+
+
+### 4.2.6.3. Application Layer
+  
+### ICriticalEventLogService  
+| **Nombre**                 | **Categoría** | **Propósito**                                               |
+|----------------------------|---------------|-------------------------------------------------------------|
+| ICriticalEventLogService   | Service       | Define las operaciones para gestionar casos críticos        |
+
+#### Métodos
+
+| **Nombre**              | **Tipo de retorno**                               | **Descripción**                                             |
+|-------------------------|---------------------------------------------------|-------------------------------------------------------------|
+| createCriticalEventLog  | CriticalEventLogResponseDto                       | Crea un nuevo caso crítico                                  |
+| getCriticalEventLog     | CriticalEventLogResponseDto                       | Obtiene un caso crítico por su ID                           |
+| getAllCriticalEventLogs | List&lt;CriticalEventLogResponseDto&gt;           | Obtiene todos los casos críticos                            |
+
+### CriticalEventLogServiceImpl  
+| **Nombre**                    | **Categoría** | **Propósito**                                                         |
+|-------------------------------|---------------|------------------------------------------------------------------------|
+| CriticalEventLogServiceImpl   | Service       | Implementa las operaciones definidas en ICriticalEventLogService      |
+
+#### Atributos
+
+| **Nombre**                  | **Tipo de dato**              | **Visibilidad** | **Descripción**                                       |
+|-----------------------------|-------------------------------|-----------------|-------------------------------------------------------|
+| criticalEventLogRepository  | ICriticalEventLogRepository   | Private         | Repositorio para acceder a los datos de casos críticos |
+
+#### Métodos
+
+| **Nombre**              | **Tipo de retorno**                               | **Visibilidad** | **Descripción**                                             |
+|-------------------------|---------------------------------------------------|-----------------|-------------------------------------------------------------|
+| createCriticalEventLog  | CriticalEventLogResponseDto                       | Public          | Crea un nuevo caso crítico                                  |
+| getCriticalEventLog     | CriticalEventLogResponseDto                       | Public          | Obtiene un caso crítico por su ID                           |
+| getAllCriticalEventLogs | List&lt;CriticalEventLogResponseDto&gt;           | Public          | Obtiene todos los casos críticos                            |
+  
+### IVehicleService
+| **Nombre**     | **Categoría** | **Propósito**                                               |
+|----------------|---------------|-------------------------------------------------------------|
+| IVehicleService | Service       | Define las operaciones para gestionar los vehículos en el estacionamiento |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
+|----------------------|----------------------------|------------------------------------------------------|
+| getVehicleStatus     | VehicleDto                 | Obtiene el estado actual de un vehículo por su placa |
+| getAllVehiclesStatus | List<VehicleDto>           | Obtiene el estado de todos los vehículos             |
+
+### VehicleServiceImpl 
+| **Nombre**             | **Categoría** | **Propósito**                                               |
+|------------------------|---------------|-------------------------------------------------------------|
+| VehicleServiceImpl     | Service       | Implementa las operaciones definidas en IVehicleService     |
+
+#### Atributos
+
+| **Nombre**         | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
+|--------------------|------------------|-----------------|-------------------------------------------------|
+| vehicleRepository  | IVehicleRepository | Private         | Repositorio para acceder a los datos de los vehículos |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**        | **Visibilidad** | **Descripción**                                      |
+|----------------------|----------------------------|-----------------|------------------------------------------------------|
+| getVehicleStatus     | VehicleDto                 | Public          | Obtiene el estado actual de un vehículo por su placa |
+| getAllVehiclesStatus | List<VehicleDto>           | Public          | Obtiene el estado de todos los vehículos             |
+
+
+### IDeviceService
+| **Nombre**     | **Categoría** | **Propósito**                                               |
+|----------------|---------------|-------------------------------------------------------------|
+| IDeviceService | Service       | Define las operaciones para gestionar los dispositivos de monitoreo en el estacionamiento |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
+|----------------------|----------------------------|------------------------------------------------------|
+| getDeviceStatus      | DeviceDto                  | Obtiene el estado actual de un dispositivo por su ID |
+| getAllDevicesStatus  | List<DeviceDto>            | Obtiene el estado de todos los dispositivos          |
+
+### DeviceServiceImpl    
+| **Nombre**             | **Categoría** | **Propósito**                                               |
+|------------------------|---------------|-------------------------------------------------------------|
+| DeviceServiceImpl      | Service       | Implementa las operaciones definidas en IDeviceService      |
+
+#### Atributos
+
+| **Nombre**         | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
+|--------------------|------------------|-----------------|-------------------------------------------------|
+| deviceRepository   | IDeviceRepository | Private         | Repositorio para acceder a los datos de los dispositivos |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**        | **Visibilidad** | **Descripción**                                      |
+|----------------------|----------------------------|-----------------|------------------------------------------------------|
+| getDeviceStatus      | DeviceDto                  | Public          | Obtiene el estado actual de un dispositivo por su ID |
+| getAllDevicesStatus  | List<DeviceDto>            | Public          | Obtiene el estado de todos los dispositivos          |
+
+
+### 4.2.6.4. Infrastructure Layer
+
+### ICriticalEventLogRepository  
+| **Nombre**                  | **Categoría** | **Propósito**                                               |
+|-----------------------------|---------------|-------------------------------------------------------------|
+| ICriticalEventLogRepository | Repository    | Define las operaciones de acceso a datos para casos críticos |
+
+#### Métodos
+
+| **Nombre**   | **Tipo de retorno**                         | **Descripción**                                  |
+|--------------|---------------------------------------------|--------------------------------------------------|
+| findById     | Optional&lt;CriticalEventLog&gt;            | Encuentra un caso crítico por su ID              |
+| findAll      | List&lt;CriticalEventLog&gt;                | Encuentra todos los casos críticos               |
+| save         | CriticalEventLog                            | Guarda un nuevo caso crítico                     |
+| deleteById   | void                                        | Elimina un caso crítico por su ID                |
+
+### IVehicleRepository  
+| **Nombre**           | **Categoría** | **Propósito**                                               |
+|----------------------|---------------|-------------------------------------------------------------|
+| IVehicleRepository   | Repository    | Define las operaciones de acceso a datos para los vehículos |
+
+#### Métodos
+
+| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
+|----------------------|----------------------------|------------------------------------------------------|
+| findByLicensePlate   | VehicleDto                 | Encuentra un vehículo por su placa                   |
+| findAll              | List<VehicleDto>           | Encuentra todos los vehículos                        |
+
+### IDeviceRepository  
+| **Nombre**             | **Categoría** | **Propósito**                                               |
+|------------------------|---------------|-------------------------------------------------------------|
+| IDeviceRepository      | Repository    | Define las operaciones de acceso a datos para los dispositivos de monitoreo |
+
+### Métodos
+
+| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
+|----------------------|----------------------------|------------------------------------------------------|
+| findByDeviceId       | DeviceDto                  | Encuentra un dispositivo por su ID                   |
+| findAll              | List<DeviceDto>            | Encuentra todos los dispositivos                     |
+
+### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+<p align="center"><img src="assets/capitulo-4/4.2.6.5-Monitoring-ComponentDiagram.png" alt="Component Diagram Monitoring"/></p>
+
+### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
+
+<p align="center"><img src="assets/capitulo-4/4.2.6.6.1-Monitoring-ClassDiagram.jpg" alt="Monitoring Class Diagram"/></p>
+
+#### 4.2.6.6.2. Bounded Context Database Design Diagram
+
+<p align="center"><img src="assets/capitulo-4/4.2.6.6.2-MonitoringDatabase.jpg" alt="Monitoring DB Diagram"/></p>
+
+## 4.2.7. Bounded Context: Ticket validation
+
+### 4.2.7.1. Domain Layer
+
+#### Entidad: Ticket
+
+| **Nombre**     | **Categoría** | **Propósito**                                               |
+|----------------|---------------|--------------------------------------------------------------|
+| Ticket   | Entity        | Registro de un ticket que indica la entrada y salida de un vehiculo del estacionamiento, asi como el pago.  |
+
+#### Atributos
+
+| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
+|-------------------|------------------|------------------|-------------------------------------------|
+| id                | Long             | Private          | Identificador único para el ticket                       |
+| userId   | string           | Private          | Id de usuario que utilizo la app para entrar al estacionamiento |
+| vehiclePlate      | string           | Private          | Placa del vehículo que ingreso al estacionamiento |
+| entryTime         | Time             | Private          | Hora de entrada del vehiculo     |
+| status        | Long             | Private          | Estado del ticket   |
+| amountCharged            | string           | Private          | Cantidad que pago el usuario por su estancia en el estacionamiento     |
+| paymentStatus     | string           | Private          | Estado actual del pago                   |
+| totalDuration | string | Private | Duración total de la estancia del vehiculo en el estacionamiento |
+
+### 4.2.7.2. Interface Layer
+
+### Entidad: TicketsController
+
+| **Nombre**           | **Categoría** | **Propósito**                                              |
+|----------------------|---------------|------------------------------------------------------------|
+| TicketsController    | Controller    | Endpoints para la gestión de tickets                       |
+
+### Atributos
+
+| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                        |
+|------------------|------------------|-----------------|----------------------------------------|
+| ticketService    | ITicketService   | Private         | Servicio de gestión de tickets         |
+
+### Métodos
+
+| **Nombre**       | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                              |
+|------------------|----------------------------------------------|-----------------|--------------------------------------------------------------|
+| Constructor      | Void                                         | Public          | Constructor del controlador                                   |
+| getTicket        | ResponseEntity<TicketResponseDto>      | Public          | Obtener un ticket por su ID                                   |
+| createTicket     | ResponseEntity<TicketResponseDto>        | Public          | Crear un nuevo ticket                                         |
+| getTicketHistory | ResponseEntity<Array<TicketResponseDto>> | Public          | Obtener el historial de tickets de un usuario por su Id       |
+  
+### Entidad: TicketRequestDto
+
+| **Nombre**       | **Categoría** | **Propósito**                                               |
+|------------------|---------------|-------------------------------------------------------------|
+| TicketRequestDto | DTO           | Datos necesarios para crear un nuevo ticket en el sistema   |
+
+### Atributos
+
+| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
+|------------------|------------------|-----------------|-------------------------------------------------------------|
+| vehiclePlate     | string           | Private         | Placa del vehículo que ingresará al estacionamiento         |
+| userId           | string           | Private         | ID del usuario que utilizará la app para ingresar           |
+   
+### Entidad: TicketResponseDto
+
+| **Nombre**         | **Categoría** | **Propósito**                                               |
+|--------------------|---------------|-------------------------------------------------------------|
+| TicketResponseDto  | DTO           | Representación de un ticket con los detalles de entrada, salida y pago |
+
+### Atributos
+
+| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                                                 |
+|-------------------|------------------|-----------------|---------------------------------------------------------------------------------|
+| id                | Long             | Private         | Identificador único del ticket                                                  |
+| userId            | string           | Private         | ID del usuario que utilizó la app para ingresar al estacionamiento              |
+| vehiclePlate      | string           | Private         | Placa del vehículo que ingresó al estacionamiento                               |
+| entryTime         | Time             | Private         | Hora de entrada del vehículo al estacionamiento                                 |
+| status            | Long             | Private         | Estado actual del ticket                                                        |
+| amountCharged     | string           | Private         | Monto que pagó el usuario por su estancia en el estacionamiento                  |
+| paymentStatus     | string           | Private         | Estado actual del pago (ej. "Pagado", "Pendiente")                              |
+| totalDuration     | string           | Private         | Duración total de la estancia del vehículo en el estacionamiento                 |
+  
+### 4.2.7.3. Application Layer
+  
+### Entidad: ITicketService
+
+| **Nombre**     | **Categoría** | **Propósito**                                               |
+|----------------|---------------|-------------------------------------------------------------|
+| ITicketService | Interface     | Define las operaciones para la gestión de tickets           |
+
+### Métodos
+
+| **Nombre**        | **Tipo de retorno**                          | **Descripción**                                              |
+|-------------------|----------------------------------------------|--------------------------------------------------------------|
+| createTicket      | TicketResponseDto                            | Crea un nuevo ticket con la placa del vehículo y el ID del usuario |
+| getTicket         | TicketResponseDto                            | Obtiene un ticket por su ID                                   |
+| getTicketHistory  | List<TicketResponseDto>                         | Obtiene el historial de eventos de un ticket                  |
+  
+  
+### Entidad: TicketServiceImpl
+
+| **Nombre**        | **Categoría** | **Propósito**                                               |
+|-------------------|---------------|-------------------------------------------------------------|
+| TicketServiceImpl | Service       | Implementa las operaciones para la gestión de tickets       |
+
+### Atributos
+
+| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
+|-------------------|------------------|-----------------|-------------------------------------------------------------|
+| ticketRepository  | ITicketRepository| Private         | Repositorio para acceder a los datos de los tickets         |
+| modelMapper       | ModelMapper      | Private         | Mapper para convertir entre entidades y DTOs                |
+
+### Métodos
+
+| **Nombre**        | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                              |
+|-------------------|----------------------------------------------|-----------------|--------------------------------------------------------------|
+| Constructor       | void                                         | Public          | Constructor de la clase                                      |
+| createTicket      | TicketResponseDto                            | Public          | Crea un nuevo ticket con la placa del vehículo y el ID del usuario |
+| getTicket         | TicketResponseDto                            | Public          | Obtiene un ticket por su ID                                   |
+| getTicketHistory  | List<TicketResponseDto>                         | Public          | Obtiene el historial de eventos de un ticket                  |
+  
+### 4.2.7.4. Infrastructure Layer
+
+### Repository Interface
+
+| **Nombre**              | **Categoría** | **Propósito**                                               |
+|-------------------------|---------------|-------------------------------------------------------------|
+| ITicketRepository       | Repository    | Repositorio JPA para la entidad Ticket                      |
+
+### Atributos
+
+| **Nombre**             | **Tipo de retorno** | **Visibilidad** | **Descripción**                                             |
+|------------------------|---------------------|-----------------|-------------------------------------------------------------|
+| findByVehiclePlate     | List<Ticket>  | Public          | Encontrar tickets por la placa del vehículo                 |
+| findByUserId           | List<Ticket>  | Public          | Encontrar tickets por el ID del usuario                     |
+| findByStatus           | List<Ticket>  | Public          | Encontrar tickets por su estado (por ejemplo, "Activo")     |
+| findByEntryTimeBetween | List<Ticket>  | Public          | Encontrar tickets por rango de tiempo de entrada            |
+
+### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
+
+<p align="center"><img src="assets/capitulo-4/4.2.7.5-TicketValidation-ComponentDiagram.png" alt="Ticket Validation Component Diagram"/></p>
+
+### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
+
+<p align="center"><img src="assets/capitulo-4/4.2.7.6.1-TicketValidation-ClassDiagram.jpg" alt="Ticket Validation Class Diagram"/></p>
+
+#### 4.2.7.6.2. Bounded Context Database Design Diagram
+  
+<p align="center"><img src="assets/capitulo-4/4.2.7.6.2-TicketValidationDatabase.jpg" alt="Ticket Validation DB Diagram"/></p>
 
 ## 4.2.8. Bounded Context: Notifications
 
@@ -1303,7 +1931,6 @@ Lo que queda de la siguiente manera:
 #### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 
 #### 4.2.8.6.2. Bounded Context Database Design Diagram
-
 
 # Capítulo V: Solution UI/UX Design
 
@@ -1514,10 +2141,26 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 <br>
 
+**Endorsed By**
+
+<p align="center">
+  <img src="assets/capitulo-5/EndorsedBy.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
 **F&A**
 
 <p align="center">
   <img src="assets/capitulo-5/F&A.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Testimonials**
+
+<p align="center">
+  <img src="assets/capitulo-5/Testimonials.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
 <br>
@@ -1530,6 +2173,14 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 <br>
 
+
+**Footer**
+
+<p align="center">
+  <img src="assets/capitulo-5/Footer.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
 
 ### 5.3.1. Landing Page Wireframe
 
@@ -1566,6 +2217,12 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 <br>
 
+**Endorsed By**
+
+<p align="center">
+  <img src="assets/capitulo-5/endorsedbywireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
 **F&A**
 
 <p align="center">
@@ -1574,10 +2231,26 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 <br>
 
+**Testimonials**
+
+<p align="center">
+  <img src="assets/capitulo-5/testimonialwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
 **Contact US**
 
 <p align="center">
   <img src="assets/capitulo-5/6wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Footer**
+
+<p align="center">
+  <img src="assets/capitulo-5/footerwireframe&apos;.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
 <br>
@@ -1701,11 +2374,98 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 
 
+**SCAN VOUCHER**
+
+<p align="center">
+  <img src="assets/capitulo-5/scanvoucher.png" alt="Imagen extraída de Figma" width="400"/>
+</p>
+
+<br>
+
+**PAYMENT DETAILS**
+
+<p align="center">
+  <img src="assets/capitulo-5/details1.png" alt="Imagen extraída de Figma" width="400"/>
+</p>
+
+<br>
+
+**FINAL SCREEN**
+
+<p align="center">
+  <img src="assets/capitulo-5/thanks.png" alt="Imagen extraída de Figma" width="400"/>
+</p>
+
+<br>
+
+
 ### 5.4.1. Applications Wireframes
 
+*WEB APPLICATION*
 
+**LOG IN**
 
+<p align="center">
+  <img src="assets/capitulo-5/loginwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
 
+<br>
+
+**REGISTER**
+
+<p align="center">
+  <img src="assets/capitulo-5/registerwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**REGISTER MALL**
+
+<p align="center">
+  <img src="assets/capitulo-5/mallwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**DASHBOARD**
+
+<p align="center">
+  <img src="assets/capitulo-5/dashboardwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**MONITORING**
+
+<p align="center">
+  <img src="assets/capitulo-5/monitoringwireframe].png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**PARKING LOT**
+
+<p align="center">
+  <img src="assets/capitulo-5/allotmentwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**PARKING FEE ADMINISTRATION**
+
+<p align="center">
+  <img src="assets/capitulo-5/parkingfee.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**STATISTICS**
+
+<p align="center">
+  <img src="assets/capitulo-5/statswireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
 
 ### 5.4.2. Applications Wireflow Diagrams
 
@@ -1720,11 +2480,119 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 ### 6.1.1. Software Development Environment Configuration
 
+#### Project Management
+
+Trello: www.trello.com   
+Esta herramienta es para la gestión del proyecto, donde en tableros se organizan las tasks de cada sprint y observar el avanza y estado de cada una de ellas.
+
+#### Product UX/UI Design
+
+Miro: www.miro.com 
+Se utilizó para simular una pizarra para los brainstoriming y así, elaborar los As-Is y To-Be Scenarios Mapping.
+  
+Figma: www.figma.com 
+En esta herramienta se elaboraron los Wireframes, Mock-ups y Prototypes.
+
+#### Software Development
+
+Angular: angular.dev
+Es un framework frontend que permite el desarrollo de aplicaciones web de una sola página utilizando HTML, CSS y TypeScript.
+
+Spring Boot: spring.io
+Es un framework backend para el desarrollo de aplicaciones en Java.
+
+GitHub: github.com 
+Fue utilizado para guardar los repositorios de nuestros sitios web y tener un control de versiones.
+  
+#### Software Testing
+
+Appium: appium.io
+Herramienta de automatización de código abierto que permite probar aplicaciones nativas, híbridas y web en dispositivos Android e iOS.
+
+Selenium: www.selenium.dev 
+Es un IDE que facilita las pruebas para aplicaciones web. Por ejemplo, permite grabar, editar y depurar casos de prueba.
+
+#### Software Deployment
+
+Flutter SDK: flutter.dev
+Permite la preparación para el despleigue de aplicación moviles hechas con Flutter.
+
+Firebase: firebase.com
+Permite el despliegue gratuito de paginas web.
+
+#### Software Documentation
+
+Structurizr: structurizr.com
+Es un diseñador del modelo C4 para visualizar la arquitectura del software.
+
+LucidChart: www.lucidchart.com 
+Es una herramienta para crear y compartir diagramas y lo utilizamos para los diagramas de código UML.
+
+Draw.io: app.diagrams.net
+Software gratuito en línea para crear diagramas de flujo, diagramas de procesos, organigramas, diagramas UML, diagramas ER y diagramas de red. 
+
+Vertabelo: vertabelo.com
+Es un modelador de base de datos, el cual lo utilizamos para elaborar le diagrama de base de datos.
+
+Swagger: swagger.io
+Es una herramienta para diseñar, construir, documentar y consumir servicios web RESTful. En nuestro backend, generó la documentación interactiva de la API.
+  
 ### 6.1.2. Source Code Management
+
+Para el control de versiones de nuestro proyecto de software se utiliza la plataforma GitHub, en la cual se creó la organización con los respectivos repositorios:
+- Organización: https://github.com/SolucionesIoT-FindAndPark-UPC  
+- Landing Page: https://github.com/SolucionesIoT-FindAndPark-UPC/landing-page.git   
+- Reporte Markdown: https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report.git  
+  
+Además, se implementa GitFlow como Workflow de control de versiones:
+- La rama principal es ‘main’ la cual representa la versión estable del software.
+- Cada feature desarrollado, ya sea en el informe o de una funcionalidad se desarrolla en una rama diferente. Estas ramas son especificadas con el formato "feature" y se hace merge de sus avances a la rama main una vez validados
+- Las ramas de feature deben seguir un formato claro y descriptivo que identifique la funcionalidad en desarrollo. Es recomendable utilizar prefijos que distingan la característica específica, y emplear separadores como guiones (‘-’) o barras (‘/’) para mejorar la organización y legibilidad de los nombres de las ramas. Este enfoque facilita una estructura consistente que optimiza la comprensión de cada rama dentro del proyecto.
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
+Flutter: (file).dart
+Descripción: Framework de desarrollo de aplicaciones móviles creado por Google. Utiliza el lenguaje de programación Dart y permite crear interfaces de usuario nativas.
+Convenciones: En Flutter, se recomienda utilizar el idioma inglés para nombrar clases, funciones y archivos, ya que es el estándar en la programación. Los nombres de clases, enumeraciones y extensiones deben seguir el formato UpperCamelCase, mientras que los nombres de variables, funciones, parámetros y constantes deben utilizar lowerCamelCase. Los archivos y directorios deben nombrarse en snake_case (minúsculas separadas por guiones bajos). Se debe evitar el uso de prefijos innecesarios como Widget en los nombres de clases y componentes.  
+
+HTML: (file).html
+Descripción: Hypertext Makeup Language es el lenguaje estándar que se utiliza para crear y estructurar el contenido de páginas web. Consiste en una serie de etiquetas y elementos que definen diferentes partes del contenido para que se vean o comporten de una determinada manera. 
+Convenciones:  De acuerdo con MDN Web Docs (s.f.), para facilitar la lectura y la coherencia en el código, es necesario usar espacios o tabulaciones de manera consistente, escribir los nombres de las etiquetas y de los archivos en minúsculas, usar comillas dobles para definir atributos en las etiquetas, usar el elemento "link" y "script" para relacion el archivo html con los archivos css y javascript respectivamente. Asimismo, es importante que cada elemento esté cerrado y que se agreguen solo comentarios significativos (“<!-” para iniciar un comentario y “->” para cerrarlo).
+
+CSS: (file).css
+Descripción: Cascading Style Sheets en un lenguaje de hojas de estilo que es utilizado para dar formato y diseño a las páginas web.
+Convenciones: De acuerdo con MDN Web Docs (s.f.), para mejorar la legibilidad, se debe mantener los espacios adecuados, se usarán nombres de clases y selectores en minúscula y claros que reflejen su función, se debe procurar agrupar propiedades relacionadas juntas en el mismo bloque, y se usarán los id’s para poder modificar algún atributo en específico.
+
+JavaScript: (file).js
+Descripción: Lenguaje de programación que se usa para poder darle funcionalidades a las páginas web y que permita manipular su contenido y responder a acciones del usuario.
+Convenciones: De acuerdo con MDN Web Docs (s.f.), para mejorar la comprensión del código, se utilizarán nombre de variables y funciones en minúscula, no abreviados y que describan su propósito. Asimismo, se dividirán funciones largas en funciones más pequeñas para facilitar la lectura.
+
+Angular:
+Descripción: Framework de desarrollo de apliciones web escalables y dinámicas, se basa en TypeScript.
+Convenciones: De acuerdo con Angular (s.f.), la nomenclatura se hace con nombres descriptivos y para separar palabras se utilizan guiones. Se debe utilizar una estructura de carpeta para separar los componentes, módulos y servicios.
+
+Java:
+Convenciones de nomenclatura:
+-	Nombres de clases: Deben comenzar con mayúscula y utilizar PascalCase. Por ejemplo, MiClase.
+-	Nombres de interfaces: Deben comenzar con mayúscula y utilizar PascalCase. Por ejemplo, MiInterfaz.
+-	Nombres de métodos: Deben comenzar con minúscula y utilizar camelCase. Por ejemplo, miMetodo().
+-	Nombres de variables: Deben comenzar con minúscula y utilizar camelCase. Por ejemplo, miVariable.
+-	Constantes: Deben estar en mayúsculas con palabras separadas por guiones bajos. Por ejemplo, MI_CONSTANTE.
+-	Paquetes: Deben estar en minúsculas y utilizar nombres de dominio invertidos. Por ejemplo, com.miempresa.miproyecto.
+Convenciones de formato:
+-	Indentación: Usar cuatro espacios para cada nivel de indentación.
+-	Líneas en blanco: Usar líneas en blanco para separar lógicamente secciones de código.
+-	Longitud de línea: No exceder los 80-120 caracteres por línea para mantener la legibilidad.
+-	Llaves: Colocar las llaves en la misma línea que la declaración o en la siguiente línea, con la misma indentación.
+-	Comentarios: Usar comentarios descriptivos para explicar el propósito del código, evitando los comentarios obvios o redundantes.
+
 ### 6.1.4. Software Deployment Configuration
+
+#### Despliegue Backend
+
+#### Despliegue Frontend Web
+
+#### Despliegue Mobile App 
 
 ## 6.2. Landing Page, Services & Applications Implementation
 
@@ -1763,11 +2631,23 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 ## Conclusiones y Recomendaciones
 
+- El needfinding y desarrollo de entrevistas mejoro nuestro entendimiento de las necesidades reales y requisitos de los usuarios, y valido que la solución propuesta brinde el valor necesario a los stakeholders.  
+- El planteamiento de épics, historias de usuario detalladas para cada segmento objetivo e historias técnicas no solo aseguran que la solución de software esté alineada con las expectativas y necesidades de los usuarios finales, sino que también facilitan la gestión de los aspectos técnicos a lo largo del desarrollo y mantenimiento del software.  
+- Investigar la competencia nos revelo las cualidades que nuestra solución debe tener para competir en el mercado y nos da idea de las estrategias y tácticas que tenemos que seguir para garantizar nuestro éxito.  
+- Se concluye que el uso de los dispositivos Iot en la planteación de la solución permitio expandir las capacidades que somos capaces de ofrecer a los stakeholders.  
+
 ## Video About-the-Team
 
 
 # Bibliografía
 
+- Mozilla Developer Network. (s.f.). HTML. Recuperado el 20 de abril de 2025, de https://developer.mozilla.org/en-US/docs/Web/HTML
+
+- Mozilla Developer Network. (s.f.). CSS. Recuperado el 20 de abril de 2025, de https://developer.mozilla.org/en-US/docs/Web/CSS
+
+- Mozilla Developer Network. (s.f.). JavaScript. Recuperado el 20 de abril de 2025, de https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+- Angular. (s.f.). Overview. Recuperado el 20 de abril de 2025, de https://angular.dev/overview
 
 # Anexos
 
