@@ -1350,19 +1350,20 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 
 ![4.1.3-Container.png](assets/capitulo-4/4.1.3-Container.png)
 
-| Contenedor             | Tecnología                | Responsabilidad                                                                               |
-|------------------------|---------------------------|------------------------------------------------------------------------------------------------|
-| **ParkUp Mobile App**  | Flutter (Android/iOS)     | Interfaz del conductor: reserva, pago, estado de plazas.                                       |
-| **ParkUp Web App SPA** | Angular                   | Panel para administradores y staff; alertas en tiempo real.                                    |
-| **ParkUp API**         | Spring Boot (REST + WS)   | Lógica central: tickets, pagos, sincronización IoT.                                            |
-| **Base de Datos Central** | PostgreSQL             | Usuarios, reservas, pagos, eventos históricos.                                                 |
-| **IoT Edge App**       | Docker (Go/Node)          | Procesamiento local y caché offline por sede.                                                  |
-| **Edge Database**      | TimescaleDB               | Buffer de eventos y métricas locales.                                                          |
-| **IoT Gateway**        | Go en Raspberry Pi        | Puente entre dispositivos y red ParkUp.                                                        |
-| **Sensores Vehiculares** | Ultrasonic / IR         | Detectan presencia de vehículos.                                                               |
-| **Lectores Entrada Salida** | PLC / Modbus        | Operan barreras y tickets.                                                                     |
-| **Cámaras Videovigilancia** | IP Cams, RTSP        | Streams de vídeo para seguridad.                                                               |
-| **Pasarela de Pagos**  | REST API externa          | Procesamiento de tarjetas y billeteras digitales.                                              |
+| Contenedor                  | Tecnología              | Responsabilidad                                             |
+|-----------------------------|-------------------------|-------------------------------------------------------------|
+| **ParkUp Mobile App**       | Flutter (Android/iOS)   | Interfaz del conductor: reserva, pago, estado de plazas.    |
+| **ParkUp Web App SPA**      | Angular                 | Panel para administradores y staff; alertas en tiempo real. |
+| **ParkUp API**              | Spring Boot (REST + WS) | Lógica central: tickets, pagos, sincronización IoT.         |
+| **Base de Datos Central**   | PostgreSQL              | Usuarios, reservas, pagos, eventos históricos.              |
+| **IoT Edge App**            | Docker (Go/Node)        | Procesamiento local y caché offline por sede.               |
+| **Edge Database**           | TimescaleDB             | Buffer de eventos y métricas locales.                       |
+| **IoT Gateway**             | Raspberry Pi            | Puente entre dispositivos y red ParkUp.                     |
+| **Sensores Vehiculares**    | Ultrasonic / IR         | Detectan presencia de vehículos.                            |
+| **Lectores Entrada Salida** | PLC / Modbus            | Operan barreras y tickets.                                  |
+| **Cámaras Videovigilancia** | IP Cams, RTSP           | Streams de vídeo para seguridad.                            |
+| **Pasarela de Pagos**       | REST API externa        | Procesamiento de tarjetas y billeteras digitales.           |
+| **API Gateway**             | AWS                     | Puente entre dispositivos de usuarios y red ParkUp.         |
 
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
@@ -1411,16 +1412,18 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 
 ![4.1.3-Components.png](assets/capitulo-4/4.1.3-Components.png)
 
-| Componente                  | Propósito clave                                                                 |
-|-----------------------------|---------------------------------------------------------------------------------|
-| **Auth Service**            | Gestión de usuarios, OIDC, JWT, MFA.                                            |
-| **Reservation Service**     | Disponibilidad de plazas y cálculo de tarifas.                                  |
-| **Ticket Validation**       | Verifica QR y códigos de barras.                                                |
-| **Payment Service**         | Integra Stripe, PayPal, Yape; maneja reversas y conciliación.                   |
-| **Device Command Service**  | Envía órdenes a **IoT Gateway** (abrir barrera, reset sensor).                  |
-| **Sync Service**            | Replica eventos entre **Edge Database** y **Base de Datos Central**.            |
-| **Monitoring Service**      | Métricas Prometheus, health-checks, reglas de alerta.                           |
-| **Notification Service**    | Push FCM, emails SendGrid, SMS Twilio a conductores y administradores.          |
+| Componente                 | Propósito clave                                                        |
+|----------------------------|------------------------------------------------------------------------|
+| **Auth Service**           | Gestión de usuarios, OIDC, JWT, MFA.                                   |
+| **Reservation Service**    | Disponibilidad de plazas y cálculo de tarifas.                         |
+| **Ticket Validation**      | Verifica QR y códigos de barras.                                       |
+| **Payment Service**        | Integra Stripe, PayPal, Yape; maneja reversas y conciliación.          |
+| **Device Command Service** | Envía órdenes a **IoT Gateway** (abrir barrera, reset sensor).         |
+| **Sync Service**           | Replica eventos entre **Edge Database** y **Base de Datos Central**.   |
+| **Monitoring Service**     | Métricas Prometheus, health-checks, reglas de alerta.                  |
+| **Notification Service**   | Push FCM, emails SendGrid, SMS Twilio a conductores y administradores. |
+| **Profiles Service**       | Información personal del usuario que no sea para autenticarse.         |
+
 
 ## 4.2.X. Bounded Context: <Payments & Notifications>
 
