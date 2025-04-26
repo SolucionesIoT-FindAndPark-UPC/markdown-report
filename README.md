@@ -1196,13 +1196,48 @@ Context Mapping es una técnica de Domain-Driven Design (DDD) que define las rel
 
 ### 4.1.3. Software Architecture
 
+ParkUp es una solución integral de estacionamiento inteligente basada en IoT, diseñada para ofrecer una experiencia fluida y automatizada en la entrada, salida y pago en parkings conectados. Esta plataforma busca eliminar fricciones comunes en el proceso de aparcamiento, integrando tecnología de sensores, validación digital y pagos electrónicos en una única infraestructura coherente y escalable.
+
+La arquitectura de software de ParkUp está compuesta por múltiples capas y módulos que interactúan para brindar funcionalidad en tiempo real a diferentes actores: conductores, administradores de parking, autoridades de tráfico y sistemas externos. Su diseño sigue principios de modularidad, interoperabilidad y resiliencia, permitiendo:
+
+- **Detección automática de vehículos** mediante sensores IoT.
+- **Control de acceso** en puntos de entrada y salida.
+- **Validación digital de tickets o vouchers** provenientes de comercios asociados.
+- **Procesamiento de pagos electrónicos** con pasarelas como PayPal, Visa y MasterCard.
+- **Monitoreo en tiempo real** del estado del estacionamiento y cámaras de vigilancia.
+- **Integración con sistemas externos** como plataformas de fidelización, movilidad urbana y análisis policial.
+
+A nivel técnico, el sistema está conformado por:
+- Aplicaciones móviles y web para usuarios y administradores.
+- Un back-end centralizado que orquesta la lógica del negocio.
+- Un conjunto distribuido de nodos edge que operan localmente en cada sede.
+- Diversos componentes especializados que se encargan de seguridad, circulación, pagos, monitoreo y notificaciones.
+
+La arquitectura de ParkUp busca garantizar eficiencia operativa, escalabilidad urbana y una experiencia optimizada para todos los usuarios involucrados.
+
 #### 4.1.3.1. Software Architecture System Landscape Diagram
+
+![4.1.3-Landscape.png](assets/capitulo-4/4.1.3-Landscape.png)
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
+![4.1.3-Context.png](assets/capitulo-4/4.1.3-Context.png)
+
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
+![4.1.3-Container.png](assets/capitulo-4/4.1.3-Container.png)
+
 #### 4.1.3.4. Software Architecture Deployment Diagrams
+
+**Software Deployment Diagram:**
+
+![Software Deployment Diagram](assets/capitulo-4/Screenshot%202025-04-26%20at%201.17.11%E2%80%AFAM.png)
+
+![Software Deployment Diagram](assets/capitulo-4/Screenshot%202025-04-26%20at%201.17.22%E2%80%AFAM.png)
+
+**Software Components Diagram:**
+
+![4.1.3-Components.png](assets/capitulo-4/4.1.3-Components.png)
 
 ## 4.2.X. Bounded Context: <Payments & Notifications>
 
