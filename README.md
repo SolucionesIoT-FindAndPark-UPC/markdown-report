@@ -1219,13 +1219,55 @@ La arquitectura de ParkUp busca garantizar eficiencia operativa, escalabilidad u
 
 ![4.1.3-Landscape.png](assets/capitulo-4/4.1.3-Landscape.png)
 
+Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System**:
+
+- **ParkUp IoT System**  
+  — Núcleo inteligente de gestión de estacionamientos.
+- **Usuarios directos**
+    - *Conductor*: Ingresa y sale de un estacionamiento conectado a ParkUp.
+    - *Administrador de Parking*: Supervisa la operación y los sensores en una sede.
+- **Sistemas externos azules**
+    - *Pasarela de Pagos* (Master, Visa, PayPal): Procesa cobros electrónicos.
+    - *Apps de Tiendas con validación de Ticket*: Confirman vouchers físicos o digitales.
+    - *Aplicaciones de Correos* (Gmail, Outlook): Envío de confirmaciones de dos pasos y notificaciones.
+- **Sistemas consumidores grises**
+    - *Plataforma de Fidelización de Clientes*: Recompensa a usuarios frecuentes usando el historial de ParkUp.
+    - *Panel de Movilidad Urbana*: Agrega datos de disponibilidad de parking para gestión de tráfico.
+    - *Sistema de Análisis Policial de Parking*: Consulta infracciones y sobre­s­euos desde ParkUp.
+- **Actores secundarios**
+    - *Gerentes de Tiendas*, *Autoridad de Tráfico* y *Analista Policial*: Acceden a reportes y datos agregados.
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
 ![4.1.3-Context.png](assets/capitulo-4/4.1.3-Context.png)
 
+| Actor / Sistema               | Interacción principal                                                                                 |
+|-------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Conductor**                 | Usa **ParkUp Mobile App** para reservar, pagar y abrir la barrera.                                    |
+| **Administrador de Parking**  | Usa **ParkUp Web App SPA** para vigilar sensores, cámaras y alertas.                                  |
+| **Pasarela de Pagos**         | Recibe solicitudes de cobro desde **ParkUp API** y confirma transacciones.                           |
+| **Sensores y Dispositivos IoT** | Reportan ocupación y vídeo al **IoT Gateway** y reciben comandos.                                     |
+| **Sistemas de Analítica Externa** | Consumirán datos agregados publicados por **ParkUp API**.                                            |
+
+
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
 ![4.1.3-Container.png](assets/capitulo-4/4.1.3-Container.png)
+
+| Contenedor             | Tecnología                | Responsabilidad                                                                               |
+|------------------------|---------------------------|------------------------------------------------------------------------------------------------|
+| **ParkUp Mobile App**  | Flutter (Android/iOS)     | Interfaz del conductor: reserva, pago, estado de plazas.                                       |
+| **ParkUp Web App SPA** | Angular                   | Panel para administradores y staff; alertas en tiempo real.                                    |
+| **ParkUp API**         | Spring Boot (REST + WS)   | Lógica central: tickets, pagos, sincronización IoT.                                            |
+| **Base de Datos Central** | PostgreSQL             | Usuarios, reservas, pagos, eventos históricos.                                                 |
+| **IoT Edge App**       | Docker (Go/Node)          | Procesamiento local y caché offline por sede.                                                  |
+| **Edge Database**      | TimescaleDB               | Buffer de eventos y métricas locales.                                                          |
+| **IoT Gateway**        | Go en Raspberry Pi        | Puente entre dispositivos y red ParkUp.                                                        |
+| **Sensores Vehiculares** | Ultrasonic / IR         | Detectan presencia de vehículos.                                                               |
+| **Lectores Entrada Salida** | PLC / Modbus        | Operan barreras y tickets.                                                                     |
+| **Cámaras Videovigilancia** | IP Cams, RTSP        | Streams de vídeo para seguridad.                                                               |
+| **Pasarela de Pagos**  | REST API externa          | Procesamiento de tarjetas y billeteras digitales.                                              |
+
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
@@ -1235,9 +1277,54 @@ La arquitectura de ParkUp busca garantizar eficiencia operativa, escalabilidad u
 
 ![Software Deployment Diagram](assets/capitulo-4/Screenshot%202025-04-26%20at%201.17.22%E2%80%AFAM.png)
 
+| Zona física / Lógica                  | Nodo de despliegue                       | Tecnología / Specs                             | Contenedores o servicios clave                              | Principales protocolos |
+|---------------------------------------|------------------------------------------|------------------------------------------------|-------------------------------------------------------------|------------------------|
+| **Dispositivo del Conductor**         | Smartphone del conductor                 | iOS / Android                                 | **ParkUp Mobile App**                                       | REST, WebSocket        |
+| **PC del Administrador**              | Equipo de escritorio / laptop            | Windows / macOS                               | Navegador web → **ParkUp Web App SPA** (cargada como estático) | HTTPS                  |
+| **Nube ParkUp**                       | Servidor Front-End                       | Nginx en Docker                               | **Static Assets** (bundle SPA)                              | HTTPS                  |
+|                                       | Servidor Back-End                        | Java 17 + Spring Boot                         | **ParkUp API** (REST + WS)                                  | HTTPS, WebSocket       |
+|                                       | Base de datos central                    | PostgreSQL 15                                 | **Base de Datos Central**                                   | JDBC                   |
+| **Sede de Parking**                   | Gateway IoT                              | Raspberry Pi / Linux                          | **IoT Gateway** (Go)                                        | MQTT, HTTP, Modbus     |
+|                                       | Edge Node                                | Industrial PC / Linux                         | **IoT Edge App** (Docker), **Edge Database** (TimescaleDB)   | HTTP Sync, JDBC        |
+|                                       | Clúster de dispositivos                  | Sensores, lectores, cámaras IP                | **Sensores Vehiculares**, **Lectores Entrada/Salida**, **Cámaras** | GPIO/I²C, RS-485, RTSP |
+| **Servicios Externos**                | Pasarela de Pagos                        | API cloud de terceros                         | **Payment Gateway**                                         | HTTPS/JSON             |
+
+### Flujos principales
+
+1. **Conductor ↔ IoT Gateway**  
+   La app móvil envía peticiones REST/WebSocket al *IoT Gateway* para conocer disponibilidad y abrir barreras.
+
+2. **SPA ↔ ParkUp API**  
+   El panel de administración realiza llamadas REST/WebSocket al *ParkUp API* para telemetría y gestión de alertas.
+
+3. **ParkUp API ↔ Base de Datos Central**  
+   Persistencia de usuarios, reservas, pagos y eventos IoT mediante JDBC.
+
+4. **ParkUp API ↔ Pasarela de Pagos**  
+   Solicitudes HTTPS/JSON para autorización, captura y reversas de transacciones.
+
+5. **IoT Gateway ↔ Edge App**  
+   Publica telemetría vía MQTT/HTTP; el *Edge App* almacena en *Edge Database* y sincroniza con la nube.
+
+6. **IoT Gateway ↔ Dispositivos**
+    - Lectura de **sensores** (GPIO/I²C).
+    - Control de **lectores/barreras** (Modbus/HTTP).
+    - Recepción de vídeo de **cámaras** (RTSP/WebRTC).
+
 **Software Components Diagram:**
 
 ![4.1.3-Components.png](assets/capitulo-4/4.1.3-Components.png)
+
+| Componente                  | Propósito clave                                                                 |
+|-----------------------------|---------------------------------------------------------------------------------|
+| **Auth Service**            | Gestión de usuarios, OIDC, JWT, MFA.                                            |
+| **Reservation Service**     | Disponibilidad de plazas y cálculo de tarifas.                                  |
+| **Ticket Validation**       | Verifica QR y códigos de barras.                                                |
+| **Payment Service**         | Integra Stripe, PayPal, Yape; maneja reversas y conciliación.                   |
+| **Device Command Service**  | Envía órdenes a **IoT Gateway** (abrir barrera, reset sensor).                  |
+| **Sync Service**            | Replica eventos entre **Edge Database** y **Base de Datos Central**.            |
+| **Monitoring Service**      | Métricas Prometheus, health-checks, reglas de alerta.                           |
+| **Notification Service**    | Push FCM, emails SendGrid, SMS Twilio a conductores y administradores.          |
 
 ## 4.2.X. Bounded Context: <Payments & Notifications>
 
