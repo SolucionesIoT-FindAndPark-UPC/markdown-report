@@ -1175,6 +1175,214 @@ Context Mapping es una técnica de Domain-Driven Design (DDD) que define las rel
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
 
+## 4.2.1. Bounded Context: IAM
+
+En esta sección se documentan las principales clases que conforman el núcleo del contexto IAM, detallando sus atributos, métodos y relaciones.
+El agregado raíz User representa a cada usuario registrado en la plataforma, con credenciales de acceso (username, password) y la asignación de un único Role, lo cual refleja las reglas de negocio que restringen a un solo rol por usuario.
+
+La entidad Role modela los diferentes tipos de rol que puede asumir un usuario dentro del sistema, tales como administrador, usuario regular o instructor. Esta entidad incluye utilidades para la validación y conversión de roles a partir de representaciones textuales.
+Por su parte, el objeto de valor Roles encapsula los valores constantes de los posibles roles, implementado como un enumerado (enum), asegurando la integridad de los roles permitidos y evitando inconsistencias.
+
+Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
+
+
+**Clase User**
+
+| **Nombre**      | User                                                           |
+|-----------------|----------------------------------------------------------------|
+| **Relaciones**  | Muchos a uno con Role                                          |
+| **Descripción** | Representa un usuario del sistema con credenciales y un rol.  |
+
+Atributos
+
+| Nombre   | Tipo de Dato | Visibilidad |
+|----------|--------------|-------------|
+| id       | Long         | private     |
+| username | String       | private     |
+| password | String       | private     |
+| role     | Role         | private     |
+
+Métodos
+
+| Método                       |
+|------------------------------|
+| setRole(role: Role)          |
+| getRole(): Role              |
+
+**Clase Role**
+| **Nombre**      | Role                                                              |
+|-----------------|-------------------------------------------------------------------|
+| **Relaciones**  | Uno a muchos con User                                             |
+| **Descripción** | Representa un rol del sistema, como ADMIN o DRIVER.               |
+
+Atributos
+
+| Nombre | Tipo de Dato | Visibilidad |
+|--------|--------------|-------------|
+| id     | Long         | private     |
+| name   | Roles (enum) | private     |
+
+ Métodos
+
+| Método                             |
+|------------------------------------|
+| getStringName(): String            |
+| getDefaultRole(): Role             |
+| toRoleFromName(name: String): Role |
+
+### 4.2.1.1. Domain Layer
+
+En la capa de dominio se modelan los conceptos centrales del contexto IAM siguiendo los principios de Domain-Driven Design.
+ El agregado raíz User representa a un usuario dentro del sistema, asociado a un único Role. Esta relación permite garantizar que cada usuario tenga exactamente un rol, como ROLE_ADMIN, ROLE_USER o ROLE_INSTRUCTOR.
+El objeto de valor Roles, modelado como un enum, establece un conjunto cerrado de posibles valores para la asignación de roles, garantizando la integridad del dominio.
+Adicionalmente, los servicios de dominio UserCommandService y RoleCommandService encapsulan operaciones de negocio que no pertenecen naturalmente a ninguna entidad, cumpliendo con el principio de separación de responsabilidades.
+Esta estructura permite mantener un dominio rico, expresivo y alineado con las reglas de negocio fundamentales del sistema.
+
+**Agregates**
+| Aggregate <<User>>                       |
+|-------------------------------------------|
+| - Long id (heredado de AuditableAbstractAggregateRoot) |
+| - String username                         |
+| - String password                         |
+| - Role role                         |
+|-------------------------------------------|
+| + getUsername(): String                   |
+| + getPassword(): String                   |
+| + getRole(): Role                         |
+| + setRole(role: Role): User               |
+
+**Entities**
+| Entity <<Role>>                         |
+|------------------------------------------|
+| - Long id                                |
+| - Roles name                             |
+|------------------------------------------|
+| + getId(): Long                          |
+| + getName(): Roles                       |
+| + getStringName(): String                |
+| + getDefaultRole(): Role                 |
+| + toRoleFromName(name: String): Role     |
+| + validateRoleSet(roles: List<Role>): List<Role> |
+
+**Value Objects**
+| Value Object <<Roles>>                 |
+|-----------------------------------------|
+| + ROLE_ADMIN                            |
+| + ROLE_USER                             |
+| + ROLE_INSTRUCTOR                      |
+|-----------------------------------------|
+| (Métodos estándar de enum Java)         |
+| + name(): String                        |
+| + values(): Roles[]                     |
+| + valueOf(String): Roles                |
+
+**Domain Services**
+| RoleCommandService       |
+|-----------------------------------------------|
+| + handle(command: SeedRolesCommand): void     |
+
+| UserCommandService                          |
+|-----------------------------------------------------------------|
+| + handle(command: SignUpCommand): Optional<User>                |
+| + handle(command: SignInCommand): Optional<ImmutablePair<User, String>> |
+
+
+### 4.2.1.2. Interface Layer
+
+La capa de interfaz expone la funcionalidad del contexto IAM a través de controladores RESTful basados en el framework Spring Boot.
+AuthenticationController gestiona los procesos de autenticación de usuarios, permitiendo tanto el inicio de sesión como el registro de nuevos usuarios.
+RolesController proporciona endpoints para consultar los diferentes roles disponibles en el sistema, mientras que UsersController facilita la recuperación de información sobre los usuarios registrados.
+Cada controlador delega la lógica de negocio en los servicios de dominio apropiados, actuando únicamente como capa de orquestación, en conformidad con el principio de Controller Thin.
+
+
+| Controller <<AuthenticationController>>                         |
+|-------------------------------------------------------------------|
+| - UserCommandService userCommandService                          |
+|-------------------------------------------------------------------|
+| + signIn(signInResource: SignInResource): ResponseEntity<AuthenticatedUserResource> |
+| + signUp(signUpResource: SignUpResource): ResponseEntity<UserResource>               |
+
+| Controller <<RolesController>>                    |
+|----------------------------------------------------|
+| - RoleQueryService roleQueryService                |
+|----------------------------------------------------|
+| + getAllRoles(): ResponseEntity<List<RoleResource>> |
+
+| Controller <<UsersController>>                                 |
+|----------------------------------------------------------------|
+| - UserQueryService userQueryService                            |
+|----------------------------------------------------------------|
+| + getAllUsers(): ResponseEntity<List<UserResource>>            |
+| + getUserById(userId: Long): ResponseEntity<UserResource>      |
+
+
+### 4.2.1.3. Application Layer
+
+La capa de aplicación coordina la ejecución de las operaciones de negocio a través de componentes como event handlers y servicios de aplicación.
+El ApplicationReadyEventHandler es responsable de inicializar los roles del sistema cuando la aplicación arranca. Este componente escucha el evento ApplicationReadyEvent de Spring y dispara la ejecución del comando SeedRolesCommand, garantizando que los roles fundamentales estén disponibles sin intervención manual.
+Esta organización contribuye a desacoplar las operaciones de infraestructura del dominio y favorece la automatización de procesos iniciales del sistema.
+
+
+| Event Handler <<ApplicationReadyEventHandler>>          |
+|----------------------------------------------------------|
+| - Logger LOGGER                                          |
+| - RoleCommandService roleCommandService                  |
+|----------------------------------------------------------|
+| + on(event: ApplicationReadyEvent): void                 |
+| - getCurrentTimestamp(): Timestamp                      |
+
+
+### 4.2.1.4. Infrastructure Layer
+
+La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
+UserRepository y RoleRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades User y Role, respectivamente.
+Estos repositorios proporcionan métodos específicos como findByUsername, findByName y validaciones de existencia (existsByUsername, existsByName), que son esenciales para preservar la unicidad de los registros.
+Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dominio, favoreciendo una arquitectura limpia y sostenible.
+
+
+| Infrastructure Repository <<RoleRepository>>              |
+|-------------------------------------------------------------|
+| Extiende: JpaRepository<Role, Long>                         |
+|-------------------------------------------------------------|
+| + findByName(name: Roles): Optional<Role>                   |
+| + existsByName(name: Roles): boolean                        |
+
+| Infrastructure Repository <<UserRepository>>               |
+|-------------------------------------------------------------|
+| Extiende: JpaRepository<User, Long>                         |
+|-------------------------------------------------------------|
+| + findByUsername(username: String): Optional<User>          |
+| + existsByUsername(username: String): boolean               |
+
+
+### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+En esta sección se presentan los diagramas de arquitectura a nivel de componentes para el contexto IAM.
+Estos diagramas ilustran la interacción entre los principales artefactos del sistema, como controladores, servicios de dominio, agregados y repositorios.
+La representación gráfica facilita la comprensión del flujo de información y responsabilidades entre capas, promoviendo la trazabilidad y la consistencia arquitectónica del contexto.
+
+![](https://i.postimg.cc/DZ37w4bq/container-diagram.png)
+
+
+### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+Los diagramas a nivel de código detallan los flujos de ejecución de los principales casos de uso del contexto IAM, incluyendo el proceso de registro (sign-up) y autenticación (sign-in).
+Asimismo, se incluyen diagramas de clases que representan la estructura interna de las entidades y servicios, así como diagramas de base de datos que modelan la persistencia de los objetos del dominio.
+Esta representación contribuye a visualizar la implementación técnica del contexto y a validar su alineación con el diseño conceptual.
+
+![](https://i.postimg.cc/zXzXhh27/iam-sign-up-code-diagram.png)
+
+![](https://i.postimg.cc/C5NhtM5b/iam-sign-in-code-diagram.png)
+
+
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+![](https://i.postimg.cc/9FLXYfvh/iam-class-diagram.png)
+
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+![](https://i.postimg.cc/jqQSCccC/iam-db-diagram.png)
+
 ## 4.2.6. Bounded Context: Monitoring
 
 ### 4.2.6.1. Domain Layer
