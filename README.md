@@ -1666,6 +1666,185 @@ Esta representación contribuye a visualizar la implementación técnica del con
 
 ![](https://i.postimg.cc/jqQSCccC/iam-db-diagram.png)
 
+## 4.2.2. Bounded Context: Parking Site
+
+> **Propósito general**  
+> Este contexto modela la **infraestructura física** de un estacionamiento (sedes, pisos, plazas).
+
+### 4.2.2.1. Domain Layer
+
+| Agregado | Rol | Descripción breve |
+|----------|-----|-------------------|
+| **Site** `<<Aggregate Root>>` | Macro-unidad | Un establecimiento (o nivel) con dirección, capacidad y reglas. Contiene muchas `ParkingSpot`. |
+| **ParkingSpot** `<<Aggregate Root>>` | Micro-unidad | Una plaza individual identificada (código), de un **tipo** (COMPACT, EV, HANDICAP…) y con un **state** (FREE, OCCUPIED, OUT_OF_SERVICE). |
+
+#### Site
+
+| Atributo | Tipo | Vis. | Notas |
+|----------|------|------|-------|
+| id | Long | private | PK |
+| name | String | private | Nombre visible (“San Isidro – Sotano 1”) |
+| address | String | private | Dirección completa |
+| totalCapacity | Integer | private | Plazas totales |
+| availableSpots | Integer | private | Plazas libres (cálculo interno) |
+
+| Método | Firma |
+|--------|-------|
+| addSpot(spot: ParkingSpot) |
+| removeSpot(spotId: Long) |
+| updateAvailability(): Site |
+
+#### ParkingSpot
+
+| Atributo | Tipo | Vis. | Notas |
+|----------|------|------|-------|
+| id | Long | private | PK |
+| code | String | private | Ej. “B-12” |
+| type | SpotType `enum` | private | COMPACT, LARGE, EV, HANDICAP |
+| state | SpotState `enum` | private | FREE, OCCUPIED, RESERVED, OUT_OF_SERVICE |
+| siteId | Long | private | FK a `Site` |
+
+| Método | Firma |
+|--------|-------|
+| occupy(): ParkingSpot |
+| release(): ParkingSpot |
+| markOutOfService(): ParkingSpot |
+
+#### Value Objects
+
+| Nombre | Valores |
+|--------|---------|
+| **SpotType** | COMPACT · LARGE · EV · HANDICAP |
+| **SpotState** | FREE · OCCUPIED · RESERVED · OUT_OF_SERVICE |
+
+#### Domain Services
+
+| Servicio | Responsabilidad principal |
+|----------|---------------------------|
+| **SpotAssignmentService** | Encontrar la siguiente plaza libre según *tipo preferido* y *reglas de negocio* (por ejemplo, prioridad EV). |
+
+---
+
+### 4.2.2.2. Interface Layer
+
+| Controller | Endpoints clave |
+|------------|----------------|
+| **SitesController** | `GET /sites`, `GET /sites/{id}`, `POST /sites` |
+| **SpotsController** | `GET /spots/{id}`, `PATCH /spots/{id}/occupy`, `PATCH /spots/{id}/release` |
+
+---
+
+### 4.2.2.3. Application Layer
+
+| Service Interface | Operaciones |
+|-------------------|-------------|
+| **ISiteService** | createSite · getSite · listSites |
+| **ISpotService** | occupySpot · releaseSpot · findNextFreeSpot |
+
+Implementaciones: `SiteServiceImpl`, `SpotServiceImpl` (usan `ModelMapper` + reglas de dominio).
+
+---
+
+### 4.2.2.4. Infrastructure Layer
+
+| Repository | Extiende | Métodos custom |
+|------------|----------|----------------|
+| **SiteRepository** | `JpaRepository<Site,Long>` | findByName |
+| **SpotRepository** | `JpaRepository<ParkingSpot,Long>` | countByStateAndSiteId |
+
+---
+
+### 4.2.2.5. Component Diagram
+![Parking Site Components](assets/capitulo-4/4.2.2.5-Diagram.png)
+
+### 4.2.2.6. Code-Level Diagrams
+#### 4.2.2.6.1. Domain Class Diagram
+![Parking Site Classes](assets/capitulo-4/4.2.2.6.1-Diagram.png)
+
+#### 4.2.2.6.2. Database Design
+![Parking Site DB](assets/capitulo-4/4.2.2.6.2-Diagram.png)
+
+## 4.2.4. Bounded Context: Parking Circulation
+
+> **Propósito**  
+> Modela **eventos de flujo**: ingreso, salida y emisión de tickets en tiempo real,  
+> orquestando la relación con *Camera Feed* y *Payments*.
+
+### 4.2.4.1. Domain Layer
+
+| Entidad / Agregado | Descripción |
+|--------------------|-------------|
+| **ParkingEntrance** | Evento de llegada (timestamp, plate, detectedBy). |
+| **ParkingExit** | Evento de salida. |
+| **Ticket** `<<Entity>>` | Correlaciona entrada + salida, lleva `userId` (VO), `status`, `amountToPay`, `totalDuration`. |
+| **UserId** `<<Value Object>>` | Cadena inmutable (“sub-dominio IAM”). |
+
+#### Ticket (núcleo)
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| userId | UserId |
+| entranceId | Long |
+| exitId | Long (nullable hasta salida) |
+| status | TicketState `enum` |
+| amountToPay | BigDecimal |
+| totalDuration | Duration |
+
+| Método | Firma |
+|--------|-------|
+| close(exit: ParkingExit): Ticket |
+| calculateAmount(rate: MoneyRate): BigDecimal |
+
+#### Enums
+`TicketState` → OPEN · CLOSED · CANCELLED
+
+#### Domain Service
+`CirculationDomainService`  
+– vincula entrada, genera `Ticket`; al recibir salida, cierra + publica **ParkingCompletedEvent**.
+
+---
+
+### 4.2.4.2. Interface Layer
+
+| Controller | Endpoints |
+|------------|-----------|
+| **EntranceController** | `POST /circulation/entrance` |
+| **ExitController** | `POST /circulation/exit` |
+| **TicketsController** | `GET /tickets/{id}` · `GET /tickets?userId=` |
+
+---
+
+### 4.2.4.3. Application Layer
+
+| Service | Operaciones |
+|---------|-------------|
+| **ICirculationService** | registerEntrance · registerExit · getTicket · getActiveTickets |
+
+Impl.: `CirculationServiceImpl` (publica dominio events a *Payments* & *Notifications*).
+
+---
+
+### 4.2.4.4. Infrastructure Layer
+
+| Repository | Métodos custom |
+|------------|----------------|
+| **EntranceRepository** | findByVehiclePlateAndDate |
+| **ExitRepository** | — |
+| **TicketRepository** | findByUserId · findOpenByPlate |
+
+---
+
+### 4.2.4.5. Component Diagram
+![Parking Circulation Components](assets/capitulo-4/4.2.4.5-Diagram.png)
+
+### 4.2.4.6. Code-Level Diagrams
+#### 4.2.4.6.1. Domain Class Diagram
+![Parking Circulation Classes](assets/capitulo-4/4.2.4.6.1-Diagram.png)
+
+#### 4.2.4.6.2. Database Design
+![Parking Circulation DB](assets/capitulo-4/4.2.4.6.2-Diagram.png)
+
 ## 4.2.6. Bounded Context: Monitoring
 
 ### 4.2.6.1. Domain Layer
@@ -2220,6 +2399,81 @@ Esta representación contribuye a visualizar la implementación técnica del con
 
 #### 4.2.8.6.2. Bounded Context Database Design Diagram
 <p align="center"><img src="assets/capitulo-4/4.2.8.6.2-Notifications-Database-Model.PNG" alt="Notifications DB Diagram"/></p>
+
+## 4.2.9. Bounded Context: Profiles
+
+> **Propósito**  
+> Agrupa los **datos extendidos** de los distintos tipos de usuario (no credenciales):  
+> preferencias, información de contacto, métricas de uso, etc.
+
+### 4.2.9.1. Domain Layer
+
+| Agregado | Rol |
+|----------|-----|
+| **DriverProfile** `<<Aggregate Root>>` | Información de un conductor (licencia, preferencia de pago, vehículo favorito). |
+| **AdminProfile** `<<Aggregate Root>>` | Datos de un administrador (scope de parking, contacto directo). |
+
+#### DriverProfile
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| userId | UserId |
+| fullName | String |
+| licenseNumber | String |
+| favouritePaymentCard | String |
+| preferredLanguage | Language `enum` |
+
+#### AdminProfile
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| userId | UserId |
+| fullName | String |
+| phoneNumber | String |
+| managedSiteIds | List<Long> |
+
+#### Value Objects
+`Language` → ES · EN · PT
+
+---
+
+### 4.2.9.2. Interface Layer
+
+| Controller | Endpoints |
+|------------|-----------|
+| **ProfilesController** | `GET /profiles/{userId}` · `POST /profiles/driver` · `POST /profiles/admin` |
+
+---
+
+### 4.2.9.3. Application Layer
+
+| Service | Operaciones |
+|---------|-------------|
+| **IProfileService** | createDriverProfile · createAdminProfile · getProfileByUserId |
+
+Impl.: `ProfileServiceImpl` (usa `ModelMapper` + `ProfileRepository`).
+
+---
+
+### 4.2.9.4. Infrastructure Layer
+
+| Repository | Extiende |
+|------------|----------|
+| **ProfileRepository** | `JpaRepository<BaseProfile,Long>` con estrategia *single-table* + `dtype` |
+
+---
+
+### 4.2.9.5. Component Diagram
+![Profiles Components](assets/capitulo-4/4.2.9.5-Diagram.png)
+
+### 4.2.9.6. Code-Level Diagrams
+#### 4.2.9.6.1. Domain Class Diagram
+![Profiles Classes](assets/capitulo-4/4.2.9.6.1-Diagram.png)
+
+#### 4.2.9.6.2. Database Design
+![Profiles DB](assets/capitulo-4/4.2.9.6.2-Diagram.png)
 
 # Capítulo V: Solution UI/UX Design
 
