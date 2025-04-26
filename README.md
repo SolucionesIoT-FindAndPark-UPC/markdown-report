@@ -1157,7 +1157,25 @@ Context Mapping es una técnica de Domain-Driven Design (DDD) que define las rel
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
-## 4.2.X. Bounded Context: 
+## 4.2.X. Bounded Context: <Payments & Notifications>
+
+El dominio de Parking Management describe las funciones y procesos involucrados en la gestión del parqueo dentro de un centro comercial. Este sistema se encarga de administrar el ingreso y salida de vehículos, asignar espacios disponibles en las distintas zonas de parqueo, generar y validar tickets, y controlar la duración del uso de los espacios. Además, permite gestionar usuarios recurrentes y visitantes, facilitando una experiencia eficiente y organizada para todos los conductores. El sistema también contempla la tarificación automática según el tiempo de uso y el procesamiento de pagos correspondientes.
+
+Este dominio opera dentro del bounded context de Notification & Payments, integrando funcionalidades clave como el envío de notificaciones al usuario (por ejemplo, alertas de vencimiento de ticket o confirmaciones de pago), así como la gestión completa del ciclo de pagos. Esto asegura que las transacciones se realicen de forma segura y que los usuarios estén informados en tiempo real, mejorando significativamente la eficiencia del sistema y la satisfacción del usuario.
+
+### Payment
+
+<p align="center">
+  <img src="assets/capitulo-4/PaymentsBC.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
+
+### Notification
+
+<p align="center">
+  <img src="assets/capitulo-4/NotificationsBC.png" alt="Imagen extraída de Figma" width="700"/>
+</p>
+<br>
 
 ### 4.2.X.1. Domain Layer
 
