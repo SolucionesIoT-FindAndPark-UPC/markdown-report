@@ -1962,11 +1962,11 @@ Impl.: `CameraFeedServiceImpl`
 
 ![Camera Feed Architecture Code Level Diagrams](assets/capitulo-4/CameraFeedDiagram.jpg)
 
-#### 4.2.3.4.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 
 ![Camera Feed Bounded Context Domain Layer](assets/capitulo-4/classCameraFeed.png)
 
-#### 4.2.3.4.2. Bounded Context Database Design Diagram
+#### 4.2.3.6.2. Bounded Context Database Design Diagram
 
 ![Camera Feed Database Design Diagram](assets/capitulo-4/DBCameraFeed.png)
 
@@ -2049,7 +2049,7 @@ Impl.: `CirculationServiceImpl` (publica dominio events a *Payments* & *Notifica
 ![Parking Circulation Classes](assets/capitulo-4/4.2.4.6.1-Diagram.png)
 
 #### 4.2.4.6.2. Database Design
-![Parking Circulation DB]()
+![Parking Circulation DB](assets/capitulo-4/4.2.4.6.2-Diagram.png)
 
 ---
 
