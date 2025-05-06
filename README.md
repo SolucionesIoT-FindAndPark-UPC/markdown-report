@@ -53,9 +53,13 @@
 
 <div align="center">
 
-| Versión |  Fecha   | Autor | Descripción de modificación | 
-|:-------:|:--------:|:-----:|:----------------------------| 
-|TB1| 25/04/25 |  <br>Vargas Revollé, Ariana<br> <br>Obispo Rios, Lucero Abigail<br> <br>Cuevas Rios, Eric Fernando<br> <br>Elsner De La Torre Ugarte, Julio Esteban<br> <br>Herrera González, Luis Eduardo<br>   | Investigación de mercado y del problema, obtención y análisis de requisitos, especificación de requisitos, y diseño de la solución de software.                           |
+| Versión |  Fecha   |                                                             Autor                                                             | Descripción de modificación | 
+|:-------:|:--------:|:-----------------------------------------------------------------------------------------------------------------------------:|:----------------------------| 
+|TB1| 25/04/25 |                                                <br>Vargas Revollé, Ariana<br>                                                 | Investigación de mercado y del problema, obtención y análisis de requisitos, especificación de requisitos, y diseño de la solución de software.                           |
+|TB1| 25/04/25 |                                              <br>Obispo Rios, Lucero Abigail<br>                                              | Investigación de mercado y del problema, obtención y análisis de requisitos, especificación de requisitos, y diseño de la solución de software.                           |
+|TB1| 25/04/25 |  <br>Cuevas Rios, Eric Fernando<br>   | Investigación de mercado y del problema, obtención y análisis de requisitos, especificación de requisitos, y diseño de la solución de software.                           |
+|TB1| 25/04/25 |  <br>Elsner De La Torre Ugarte, Julio Esteban<br>   | Investigación de mercado y del problema, obtención y análisis de requisitos, especificación de requisitos, y diseño de la solución de software.                           |
+|TB1| 25/04/25 |  <br>Herrera González, Luis Eduardo<br>   | Investigación de mercado y del problema, obtención y análisis de requisitos, especificación de requisitos, y diseño de la solución de software.                           |
 </div>
 
 ---
@@ -177,6 +181,18 @@
 <div style="page-break-after: always;"></div>
 
 # Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 5**
+
+Criterio: _La capacidad de funcionar efectivamente en un equipo cuyos miembros
+juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
+establecen objetivos, planifican tareas y cumplen objetivos_.
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 5.
 
 <div align="justify">
 
