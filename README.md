@@ -53,9 +53,9 @@
 
 <div align="center">
 
-| Versión | Fecha | Autor | Descripción de modificación | 
-|:-------:|:-----:|:-----:|:----------------------------| 
-|TB1| 25/05/25  |  <br>Vargas Revollé, Ariana<br> <br>Obispo Rios, Lucero Abigail<br> <br>Cuevas Rios, Eric Fernando<br> <br>Elsner De La Torre Ugarte, Julio Esteban<br> <br>Herrera González, Luis Eduardo<br>   | Investigación de mercado y del problema, obtención y análisis de requisitos, especificación de requisitos, y diseño de la solución de software.                           |
+| Versión |  Fecha   | Autor | Descripción de modificación | 
+|:-------:|:--------:|:-----:|:----------------------------| 
+|TB1| 25/04/25 |  <br>Vargas Revollé, Ariana<br> <br>Obispo Rios, Lucero Abigail<br> <br>Cuevas Rios, Eric Fernando<br> <br>Elsner De La Torre Ugarte, Julio Esteban<br> <br>Herrera González, Luis Eduardo<br>   | Investigación de mercado y del problema, obtención y análisis de requisitos, especificación de requisitos, y diseño de la solución de software.                           |
 </div>
 
 ---
@@ -211,11 +211,11 @@ Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, si
 
 | Foto                                                                                                                                                                                                                                                                                                      | Perfil de Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p>                                                                                                                                                                 | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.                                                                                                      |
+| <p align="center"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG?raw=true" alt="Foto de integrante 1" width="100" height="100"/></p>                                                                             | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.                                                                                                      |
 | <p align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQF0q82dzd577g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719029164195?e=1750896000&v=beta&t=XNTeNX_6dSYIsI75WWHmmJjOHW5Wr0RaHyLkeVk32oc" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *U20221A928 - Ingeniería de Software*  <br> <br>  Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas.                                                                                                                                                                                           |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 3" width="100" height="130"/></p>                                                                                                                                                                 | **Cuevas Rios, Eric Fernando**  <br> *U202112766 - Ingeniería de Software*  <br> <br> Soy capaz de brindar mi experiencia en redacción, diseño de soluciones y programación movil para ayudar a obtener las metas del grupo. Además, soy bueno brindando puntualidad y organización a los proyectos de los que tomo parte, lo que espero sirva al resto de mis compañeros de equipo. <br>                                                                       |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-4.jpg" alt="Foto de integrante 4" width="100" height="110"/></p>                                                                                                                                                                 | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *U202111654 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar con habilidades de indagación y pensamiento crítico, diseño de prototipo en Figma y programación back-End. Añadido a esto, estoy me es grato poder aprender de mis demás compañeros y de sus habilidades individuales. Me considero una persona responsable y que cumple con los plazos establecidos en una entrega. <br> |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-5.png" alt="Foto de integrante 5" width="100" height="100"/></p>                                                                                                                                                                 | **Herrera González, Luis Eduardo**  <br> *U202218227 - Ingeniería de Software*  <br> <br> Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software. Me apasiona el desarrollo de aplicaciones web y de escritorio eficientes, utilizando tecnologías modernas como Bun, Tauri y Lit. También cuento con experiencia en frameworks ampliamente adoptados como Next.js, Angular y Spring Boot. Además, tengo un gran interés en el área de Machine Learning, trabajando con CUDA, C++ y MLX para crear soluciones de alto rendimiento. Me considero una persona curiosa, enfocada en la innovación tecnológica y comprometida a aportar mis habilidades técnicas para el éxito del equipo.                                                                                                                                                                                                                                                                                                                                                                      |
+| <p align="center"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg?raw=true" alt="Foto de integrante 3" width="100" height="130"/></p>                                                                                                                                                                 | **Cuevas Rios, Eric Fernando**  <br> *U202112766 - Ingeniería de Software*  <br> <br> Soy capaz de brindar mi experiencia en redacción, diseño de soluciones y programación movil para ayudar a obtener las metas del grupo. Además, soy bueno brindando puntualidad y organización a los proyectos de los que tomo parte, lo que espero sirva al resto de mis compañeros de equipo. <br>                                                                       |
+| <p align="center"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-1/1.1.2-Perfiles-Integrantes-4.jpg?raw=true" alt="Foto de integrante 4" width="100" height="110"/></p>                                                                                                                                                                 | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *U202111654 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar con habilidades de indagación y pensamiento crítico, diseño de prototipo en Figma y programación back-End. Añadido a esto, estoy me es grato poder aprender de mis demás compañeros y de sus habilidades individuales. Me considero una persona responsable y que cumple con los plazos establecidos en una entrega. <br> |
+| <p align="center"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-1/1.1.2-Perfiles-Integrantes-5.png?raw=true" alt="Foto de integrante 5" width="100" height="100"/></p>                                                                                                                                                                 | **Herrera González, Luis Eduardo**  <br> *U202218227 - Ingeniería de Software*  <br> <br> Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software. Me apasiona el desarrollo de aplicaciones web y de escritorio eficientes, utilizando tecnologías modernas como Bun, Tauri y Lit. También cuento con experiencia en frameworks ampliamente adoptados como Next.js, Angular y Spring Boot. Además, tengo un gran interés en el área de Machine Learning, trabajando con CUDA, C++ y MLX para crear soluciones de alto rendimiento. Me considero una persona curiosa, enfocada en la innovación tecnológica y comprometida a aportar mis habilidades técnicas para el éxito del equipo.                                                                                                                                                                                                                                                                                                                                                                      |
 
 
 ## 1.2. Solution Profile
@@ -499,7 +499,7 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
   - Ocupación: Estudiante Universitario
   - Entrevistador: Julio Elsner
   - Enlace: [https://drive.google.com/file/d/1GZ1zA9s69y3c5qnWJaKKor_zflNRgF96/view?usp=sharing]
-  <p align="left"><img src="assets/capitulo-2/Ian.png" alt="Entrevista 1" width="500" height="250"/></p>
+  <p align="left"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-2/Ian.png?raw=true" alt="Entrevista 1" width="500" height="250"/></p>
 **Resumen de la entrevista:**
 
     0:47 - ¿Cual seria tu experiencia ideal a la hora de encontrar un sitio?
@@ -526,7 +526,7 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
   - Ocupación: Contador Privado
   - Entrevistadora: Julio Elsner
   - Enlace: [https://drive.google.com/file/d/1BD9ja1CMf6CAnO4BzFJKKQvH9ArLhj36/view?usp=sharing]
-  <p align="left"><img src="assets/capitulo-2/Oscar.png" alt="Entrevista 1" width="500" height="250"/></p>
+  <p align="left"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-2/Oscar.png?raw=true" alt="Entrevista 1" width="500" height="250"/></p>
 
 **Resumen de la entrevista:**
 
@@ -552,7 +552,7 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
 
 ##### Segmento 2: Administradores de parking
 - Primera Entrevista:
-  <p align="left"><img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-1.PNG" alt="Entrevista 1" width="150" height="250"/></p>
+  <p align="left"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-2/2.2.2-Entrevista-Administrador-1.PNG?raw=true" alt="Entrevista 1" width="150" height="250"/></p>
   
   - Entrevistado: Jose Alberto
   
@@ -586,7 +586,7 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
 
 - Segunda Entrevista: 
 
-   <img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-2.png" alt="Entrevista 2" height="180"/> 
+   <img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-2/2.2.2-Entrevista-Administrador-2.png?raw=true" alt="Entrevista 2" height="180"/> 
 
   - Entrevistado: Jorge Rosales
   - Residencia: Lima
@@ -609,7 +609,7 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
 
 - Tercera Entrevista:
 
-    <img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-3.png" alt="Entrevista 3" height="180"/>
+    <img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-2/2.2.2-Entrevista-Administrador-3.png?raw=true" alt="Entrevista 3" height="180"/>
 
     - Entrevistado: Sebastián Ramírez Hoffmann
     - Residencia: Lima
