@@ -453,6 +453,22 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
 
 ### 2.2.1. Diseño de entrevistas
 
+#### Propósito de las entrevistas
+
+El propósito de las entrevistas es comprender en profundidad las necesidades, hábitos, frustraciones y expectativas de los usuarios clave involucrados en el uso y gestión de estacionamientos: conductores y administradores de parqueo. Esta etapa forma parte de un proceso de needfinding o identificación de necesidades, clave para diseñar una solución tecnológica que realmente aporte valor.
+
+Las entrevistas están diseñadas para:
+
+- Identificar los puntos de dolor actuales en el uso de estacionamientos, tanto desde el lado del usuario como del administrador.
+
+- Detectar oportunidades de mejora mediante tecnología, como la automatización del pago, reconocimiento de placas o monitoreo en tiempo real.
+
+- Evaluar la aceptación y confianza en soluciones tecnológicas propuestas, como el pago automático o el registro digital de ingresos/salidas.
+
+- Recoger insumos para el diseño de una app o plataforma web centrada en el usuario, orientada a una experiencia eficiente, segura y confiable.
+
+
+
 ##### Preguntas de introducción (Para todos los segmentos):
 1. ¿Cuál es su nombre?
 2. ¿Cuántos años tiene?
