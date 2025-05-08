@@ -1956,7 +1956,7 @@ Impl.: `CameraFeedServiceImpl`
 
 ### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-![Camera Feed Component Level](assets/capitulo-4/ContenedorCamara.PNG)
+![Camera Feed Component Level](assets/capitulo-4/CameraFeedDiagram.png)
 
 ### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2375,7 +2375,7 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 ### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-![Payment Container](assets/capitulo-4/ContenedorPago.PNG)
+![Payment Container](assets/capitulo-4/PaymentDiagram1.png)
 
 
 ### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
