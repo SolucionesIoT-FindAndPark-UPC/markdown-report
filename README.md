@@ -457,7 +457,11 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
   
 ## 2.2. Entrevistas
 
+Hacer entrevistas es fundamental porque permite ir más allá de suposiciones y conocer la realidad de los usuarios desde su propia voz. A través del diálogo directo, se descubren necesidades latentes, frustraciones no evidentes y oportunidades de mejora que no se pueden detectar solo con observación o datos cuantitativos. Las entrevistas aportan contexto, profundidad y empatía al proceso de diseño, asegurando que la solución tecnológica responda a problemas reales y sea aceptada por quienes la utilizarán.
+
 ### 2.2.1. Diseño de entrevistas
+
+Diseñar las entrevistas de manera estructurada es importante porque permite obtener información clara, comparable y útil según el perfil de cada tipo de usuario. Un buen diseño garantiza que las preguntas estén alineadas con los objetivos del proyecto, evite sesgos y facilite la identificación de patrones en las respuestas. Además, permite adaptar el enfoque según el segmento (conductores o administradores), asegurando que se profundice en los aspectos clave de su experiencia con el sistema de parqueo.
 
 #### Propósito de las entrevistas
 
@@ -2685,7 +2689,7 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 ### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-<p align="center"><img src="assets/capitulo-4/4.2.6.5-Monitoring-ComponentDiagram.png" alt="Component Diagram Monitoring"/></p>
+<p align="center"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-4/4.2.6.5-Monitoring-ComponentDiagram.png?raw=true" alt="Component Diagram Monitoring"/></p>
 
 ### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2833,7 +2837,7 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 ### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
-<p align="center"><img src="assets/capitulo-4/4.2.7.5-TicketValidation-ComponentDiagram.png" alt="Ticket Validation Component Diagram"/></p>
+<p align="center"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-4/4.2.7.5-TicketValidation-ComponentDiagram.png?raw=true" alt="Ticket Validation Component Diagram"/></p>
 
 ### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 
