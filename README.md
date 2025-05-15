@@ -375,21 +375,21 @@ Se plantearon 2 segmentos claramente diferenciados.
 
 |                                       | **Su startup** | **Competidor 1** | **Competidor 2** | **Competidor 3** |
 |---------------------------------------|----------------|------------------|------------------|------------------|
-| **Perfil**                            |                |                  |                  |                  |
-| Overview                              |                |                  |                  |                  |
-| **Perfil de Marketing**               |                |                  |                  |                  |
-| Ventaja competitiva (¿Qué valor ofrece a los clientes?) |                |                  |                  |                  |
-| Mercado objetivo                      |                |                  |                  |                  |
-| Estrategias de marketing              |                |                  |                  |                  |
-| **Perfil de Producto**                |                |                  |                  |                  |
-| Productos & Servicios                 |                |                  |                  |                  |
-| Precios & Costos                      |                |                  |                  |                  |
-| Canales de distribución (Web y/o Móvil) |                |                  |                  |                  |
-| **Análisis SWOT**                     |                |                  |                  |                  |
-| Fortalezas                            |                |                  |                  |                  |
-| Debilidades                           |                |                  |                  |                  |
-| Oportunidades                         |                |                  |                  |                  |
-| Amenazas                              |                |                  |                  |                  |
+| **Perfil**                            |                                                                                                                                                         |                                      |                                      |                                     |
+| Overview                              | Aplicación móvil que automatiza el estacionamiento con lectura de placas, pagos automáticos y vinculación de usuarios. Ideal para conductores que buscan eficiencia. | App móvil con reservas y monedero digital.          | Marketplace para reservar estacionamientos.       | Plataforma de alquiler de espacios privados. |
+| **Perfil de Marketing**               |                                                                                                                                                         |                                      |                                      |                                     |
+| Ventaja competitiva                   | **Tecnología avanzada**: Proceso 100% automatizado (sin contacto). **Rapidez**: Reduce tiempos vs competidores. **Experiencia premium**: Interfaces intuitivas.      | Múltiples métodos de pago integrados.               | Conexión amplia con estacionamientos.            | Flexibilidad para alquilar espacios privados. |
+| Mercado objetivo                      | Conductores en Lima que valoran tecnología, eficiencia y pagos sin fricciones.                                                                          | Conductores ocasionales y frecuentes.               | Propietarios y conductores.                      | Dueños de espacios y conductores en zonas premium. |
+| Estrategias de marketing              | - Campañas en redes sociales destacando la automatización.<br>- Alianzas con centros comerciales y empresas.<br>- Programa de referidos con beneficios. | Publicidad en apps de movilidad.                    | Promoción en estacionamientos asociados.         | Enfoque en propietarios de espacios. |
+| **Perfil de Producto**                |                                                                                                                                                         |                                      |                                      |                                     |
+| Productos & Servicios                 | - App móvil con lectura de placas.<br>- Pagos automáticos.<br>- Integración con IoT.                                                                    | Reservas + "Apparka Wallet".                        | Reservas + gestión para propietarios.            | Alquiler de espacios privados.      |
+| Precios & Costos                      | Tarifas dinámicas basadas en demanda. Costos operativos reducidos por automatización.                                                                   | Comisión por reserva.                               | Comisión por transacción.                        | Comisión por alquiler.              |
+| Canales de distribución               | - App Android/iOS.<br>- Integración con sistemas de estacionamientos.                                                                                   | App Android/iOS.                                    | App + web para gestión.                          | Plataforma web + app.               |
+| **Análisis SWOT**                     |                                                                                                                                                         |                                      |                                      |                                     |
+| Fortalezas                            | - Tecnología patentada.<br>- Experiencia de usuario superior.<br>- Red de socios estratégicos.                                                          | Monedero propio.                                    | Amplia base de estacionamientos.                 | Enfoque en espacios privados.       |
+| Debilidades                           | - Dependencia de infraestructura IoT.<br>- Menor reconocimiento de marca vs competidores.                                                               | Limitada a Lima.                                    | Interfaz menos intuitiva.                        | Cobertura geográfica reducida.      |
+| Oportunidades                         | - Expansión a otras ciudades.<br>- Integración con municipios para estacionamientos públicos.                                                           | Alianzas con bancos.                                | Crecimiento en segmento corporativo.             | Internacionalización.               |
+| Amenazas                              | - Competidores con mayor financiamiento.<br>- Resistencia al cambio por parte de usuarios tradicionales.                                                | Nuevos entrants con soluciones similares.           | Regulaciones municipales.                        | Saturación de mercado.              |
   
 ### 2.1.2. Estrategias y tácticas frente a competidores  
 
