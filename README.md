@@ -2635,7 +2635,7 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 ### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-<p align="center"><img src="assets/capitulo-4/4.2.6.5-Monitoring-ComponentDiagram.png" alt="Component Diagram Monitoring"/></p>
+<p align="center"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-4/4.2.6.5-Monitoring-ComponentDiagram.png?raw=true" alt="Component Diagram Monitoring"/></p>
 
 ### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2783,7 +2783,7 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 ### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
-<p align="center"><img src="assets/capitulo-4/4.2.7.5-TicketValidation-ComponentDiagram.png" alt="Ticket Validation Component Diagram"/></p>
+<p align="center"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-4/4.2.7.5-TicketValidation-ComponentDiagram.png?raw=true" alt="Ticket Validation Component Diagram"/></p>
 
 ### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 
