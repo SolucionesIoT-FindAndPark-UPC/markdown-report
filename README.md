@@ -3690,21 +3690,141 @@ Convenciones de formato:
 
 #### 6.2.1.1. Sprint Planning 1
 
+Esta sección presenta la planificación inicial del Sprint 1, en la cual se establecieron las metas de desarrollo y la estrategia de trabajo para la implementación de la Landing Page y la interfaz web de administración. Se detallan los participantes de la reunión de planificación, el contexto del sprint previo (Sprint 0), así como los objetivos, la velocidad estimada y los Story Points asignados al equipo.
+
+| **Sprint #**                       | Sprint 1                                                                 |
+|-----------------------------------|--------------------------------------------------------------------------|
+| **Sprint Planning Background**                                                                              |
+| **Date**                          | 2025-05-06                                                               |
+| **Time**                          | 10:00 PM                                                                 |
+| **Location**                      | Google Teams / Whatsapp                                                  |
+| **Prepared By**                   | Herrera González, Luis Eduardo                                          |
+| **Attendees (to planning meeting)** | Herrera González, Luis Eduardo<br>Obispo Rios, Lucero Abigail<br>Cuevas Rios, Eric Fernando<br>Elsner De La Torre Ugarte, Julio Esteban<br>Vargas Revollé, Ariana |
+| **Sprint 0 – 1 Review Summary**   | En el sprint 0 establecimos el alcance del proyecto y un avance significativo de la documentación de la solución así como un avance del Landing page |
+| **Sprint 0 – 1 Retrospective Summary** | Se identificaron mejoras en la documentación que deben ser corregidas así como implementación de componentes en las aplicaciones para poder cumplir con los requisitos funcionales de la aplicación |
+| **Sprint Goal & User Stories**                                                                            |
+| **Sprint n Goal**                 | Our focus is on completar el Frontend funcional de la Landing Page y vista de administración.<br>We believe it delivers una experiencia accesible y funcional a los usuarios nuevos y administradores.<br>This will be confirmed when todos los componentes de la Landing Page estén desplegados y operativos en producción. |
+| **Sprint n Velocity**             | 18                                                                       |
+| **Sum of Story Points**           | 16                                                                       |
+
+<a href="https://ibb.co/LDsTLZHL"><img src="https://i.ibb.co/bjG4SKDS/sprint-1-evidence.png" alt="sprint-1-evidence" border="0"></a>
+
 #### 6.2.1.2. Aspect Leaders and Collaborators
+
+En este apartado se identifican los roles específicos asumidos por cada integrante del equipo durante el Sprint. Se diferencian responsabilidades entre líderes y colaboradores en áreas clave como documentación, diseño y desarrollo tanto para la Landing Page como para la aplicación web y móvil, así como despliegue.
+
+| Team Member (Last Name, First Name)             | GitHub Username      | Documentacion | Diseño de Landing Page | Desarrollo de Landing Page | Diseño de Mobile App | Diseño de Web App | Desarrollo de Web App | Deployment de Landing Page | Deployment de Web App |
+|--------------------------------------------------|----------------------|----------------|--------------------------|-----------------------------|------------------------|---------------------|---------------------------|-----------------------------|------------------------|
+| Herrera González, Luis Eduardo                  | LuisHerreraG         | C              | C                        | C                           | C                      | C                   | L                         | C                           | C                      |
+| Obispo Rios, Lucero Abigail                     | LuceroObispoRios     | C              | C                        | C                           | C                      | C                   | C                         | L                           | L                      |
+| Cuevas Rios, Eric Fernando                      | Ericcuevas03         | L              | C                        | C                           | C                      | C                   | C                         | C                           | C                      |
+| Elsner De La Torre Ugarte, Julio Esteban        | JulioElsnerDLTU      | C              | L                        | C                           | C                      | L                   | C                         | C                           | C                      |
+| Vargas Revollé, Ariana                          | vargas3470           | C              | C                        | C                           | L                      | C                   | C                         | C                           | C                      |
 
 #### 6.2.1.3. Sprint Backlog 1
 
+Se detalla el backlog correspondiente al Sprint 1, incluyendo las historias de usuario priorizadas, sus respectivas tareas (work items), descripciones funcionales, estimaciones de esfuerzo, responsables asignados y el estado de finalización de cada ítem. Esta planificación fue fundamental para garantizar una ejecución organizada y alineada a los objetivos del Sprint.
+
+| User Story | Work Item ID | Work Item Title                         | Description                                                                 | Estimation (Hours) | Assigned To                                | Status     |
+|------------|---------------|------------------------------------------|------------------------------------------------------------------------------|---------------------|---------------------------------------------|------------|
+| US01       | TS-01         | Nav bar implementation (Landing)         | Implementacion de la barra de navegacion en Landing Page de la solucion     | 2                   | Herrera González, Luis Eduardo              | done       |
+| US02       | TS-02         | Hero implementation (Landing)           | Implementación del encabezado principal de bienvenida con texto llamativo e imagen destacada. | 3         | Herrera González, Luis Eduardo              | done       |
+| US03       | TS-03         | About-us implementation (Landing)       | Desarrollo de la sección 'Sobre Nosotros' con descripción de la empresa y su misión. | 3             | Elsner De La Torre Ugarte, Julio Esteban    | done       |
+| US04       | TS-04         | Display demo implementation (Landing)   | Integración de una sección interactiva que muestre una demostración visual de la aplicación. | 3         | Vargas Revollé, Ariana                      | done       |
+| US05       | TS-05         | Features implementation (Landing)       | Implementación de una sección con las principales funcionalidades.           | 3                   | Vargas Revollé, Ariana                      | done       |
+| US06       | TS-06         | Reviews implementation (Landing)        | Desarrollo de la sección de reseñas de usuarios con calificaciones y testimonios. | 2              | Obispo Rios, Lucero Abigail                 | done       |
+| US07       | TS-07         | FAQ implementation (Landing)            | Implementación de la sección de Preguntas Frecuentes con respuestas desplegables. | 2            | Obispo Rios, Lucero Abigail                 | done       |
+| US08       | TS-08         | Endorsements implementation (Landing)   | Sección de empresas o clientes destacados que respaldan la aplicación.       | 2                   | Cuevas Rios, Eric Fernando                  | done       |
+| US09       | TS-09         | Contact-us implementation (Landing)     | Formulario de contacto con campos para nombre, correo y mensaje.             | 2                   | Elsner De La Torre Ugarte, Julio Esteban    | done       |
+| US10       | TS-10         | Footer Implementation (Landing)         | Desarrollo del pie de página con enlaces útiles, derechos de autor y redes sociales. | 2         | Cuevas Rios, Eric Fernando                  | done       |
+| US35       | TS-11         | Regiter Component Implementation (WebApp) | Formulario de registro para crear cuentas administrativas de estacionamientos. | 6         | Cuevas Rios, Eric Fernando                  | done       |
+| US36       | TS-12         | Login Component Implementation (WebApp) | Componente de inicio de sesión para administradores del sistema web.         | 5                   | Cuevas Rios, Eric Fernando                  | done       |
+| US39       | TS-13         | SerringsComponent Implementation (WebApp) | Interfaz de configuración para edición de perfil de la cuenta administrativa. | 5         | Herrera González, Luis Eduardo              | Penediente  |
+| US40       | TS-14         | StatisticsComponent Implementation (WebApp) | Visualización de estadísticas del uso del estacionamiento como panel principal. | 6      | Herrera González, Luis Eduardo              | done       |
+| US41       | TS-15         | Regiter Component Implementation (WebApp) | Integración del componente de cámaras para visualizar transmisiones en vivo de seguridad. | 7 | Vargas Revollé, Ariana                      | done       |
+
+
 #### 6.2.1.4. Development Evidence for Sprint Review
 
-#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+A continuación se presenta la evidencia de desarrollo generada durante el Sprint. Se incluyen los commits realizados por el equipo en los distintos branches de desarrollo, especificando los mensajes de commit, ramas funcionales, repositorios utilizados y fechas. Esta evidencia respalda la trazabilidad del avance en los distintos componentes de la solución.
 
+| Repository                    | Branch       | Feature Branch                     | Commit ID                                | Commit Message                                                                 | Committed On   |
+|:------------------------------|:-------------|:-----------------------------------|:-----------------------------------------|:-------------------------------------------------------------------------------|:---------------|
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/reviews                    | cfb118b675357cf57d8a3371bb926397961e3f60 | feat: Add testimonials section                                                 | Apr 20, 2025   |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/reviews                    | 7b54f9b08872d88d12e33b8714a50d17dfecbaa6 | feat: Add components                                                           | Apr 20, 2025   |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/frequestly-asked-questions | 7b54f9b08872d88d12e33b8714a50d17dfecbaa6 | feat: Add components                                                           | Apr 20, 2025   |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/frequestly-asked-questions | cfb118b675357cf57d8a3371bb926397961e3f60 | feat: Add testimonials section                                                 | Apr 20, 2025   |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/frequestly-asked-questions | 940cf3c8c3c82c81026af50759d3d1a8c1f3f6b6 | feat: Creat faq component                                                      | Apr 20, 2025   |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/frequestly-asked-questions | e41a8847894590a5a68c2d5772ddf9824a821daa | feat: Add questions and answers                                                | Apr 20, 2025   |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/frequestly-asked-questions | 98ad6f53b7d0bf740271cc4e8fa46f9be9c3b5dd | fix: Delete comments                                                           | Apr 20, 2025   |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/product                    | bb19fb71d8c06b9ab57d7c7f51c7c7d77b3d088e | feat: added about the product section and product feature section              | Apr 24, 2025   |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/footer                     | cf371de6110daec034e833008521d5f1ebf0e412 | fix: duplicate footer deletion                                                 | Apr 25, 2025   |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/footer                     | 0de9be3c734b67a927765b11727ec73757f2be30 | fix: footer                                                                    | Apr 25, 2025   |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/footer                     | c56ce253b22070b2ed5d7512f1a829d173b4d0e5 | Feat: Endorsed By                                                              | Apr 25, 2025   |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/aboutus                    | 7e8579dfac549086943298f504f8bd72d54f3a57 | added about us section                                                         | May 2, 2025    |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/aboutus                    | e3dbe7ff13eb055de540eb018c5289d4d5443bb0 | added about us section                                                         | May 2, 2025    |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/contactus                  | 15bb838bd7142c513af59ac10bea30df992b34b4 | added contact us                                                               | May 2, 2025    |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/hero                       | c0ac16d4254a0a2e866dcffe8769ffb93b85558d | feat: included roboto as font-family and removed margin not included in figma. | May 3, 2025    |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/hero                       | da2b6bbbaf1745e78525ea002ecc27adf10551e8 | feat: hero-image                                                               | May 3, 2025    |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/hero                       | 72c04d166f2b2cbb933ee9b3b7bfcb129a93fe9f | fix: dimensions of hero-image                                                  | May 3, 2025    |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/hero                       | 4203f76e21d9c4b56a8995a2ca7d6f51163d89d0 | feat: toolbar                                                                  | May 3, 2025    |
+| SolucionesIoT-FindAndPark-UPC | landing-page | feature/hero                       | ca7341399068652381c31d127ae370c79413e4a1 | fix: roboto inclusion fixed                                                    | May 3, 2025    |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/dashboard       | c7b8df78200d395beeb8f650c085606df58f2339 | feat: Connect to service and db.json | May 12, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/dashboard       | 1172a8b5a7b66ad580f24e4dbf5f5e3005092891 | fix: Update camera feed design       | May 12, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/dashboard       | 697954416044d048ebc7c96c43861a1c55a6366a | fix: Update notifications bar design | May 12, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/dashboard       | aa4bdcb4885f1783463484750a27c4f20041a436 | fix: Update feed design              | May 12, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/dashboard       | 10e0780da33fc419583bc11fb5d8155fdeedab8a | fix: Update camera status design     | May 12, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/login           | ec41577a0c14c2af5d1d721bf95e7707637e77be | feat: login screen                   | May 13, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/login           | e228ea7c049658caab07b4209dd19e6865c514f2 | fix: map image                       | May 13, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/login           | 26c83b317939799f46c191215e607090698a141b | feat: validation screen              | May 13, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feature/parking-fees | 4a2418d1d2763737e5b8802a438882a35c14e8ef | feat: parking-lot.                   | May 13, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/Allotment       | 8e861954a1bce45b06799d78e5f4a99cc9e4236a | feat: Allotment Front                | May 13, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feature/header       | e4842e8787c9998b48ecd008c33336b79a2afb4f | feat: header with ng-content.        | May 14, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feature/parking-fees | b66cc64ad33fd9e763bc31f9817090d097a710e0 | feat: parking lots.                  | May 14, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feature/parking-fees | 63701f51376957f53d1770ab8dda357cee089a30 | feat: parking lots.                  | May 14, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/login           | 0af2b8e47813eaac177d5f3a2f90efd064b859df | feat: validation screen              | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/login           | 58b8d1f560a5906a6cc7c5b376e43b5e540e1aad | fix: responsive                      | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/login           | 6efa815788bbb2ac81ab9ecf2cca6dd868b2fd50 | fix: register page                   | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/login           | 4931da988b26f8899b8d02d4542c296c833ea82e | fix: validation screen               | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feature/monitoring   | 03af6cd177cda50a69a6902efcc0c84f3a1d277d | feat(monitoring): add component      | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/Allotment       | d7f8017f7368f74f6ac782fca93682e9daa8643c | added footer                         | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/Allotment       | 0f70fd7e41a7c6d64d5d7a12a76ada86023c654f | fix: added content into app-header   | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/login           | f6e9e4330470d8dbcf40e106fb7f37c67f66aa95 | fix: for merge                       | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/login           | 7fd55e1a48aa2d2205b63df987cf4414b2a3d75f | fix: redirecting                     | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC | web-application-frontend | feat/dashboard       | e305ed6f86ebc0a701b02860a15f194d3f74aab7 | feat: add header                     | May 15, 2025   |
+
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+Durante este Sprint no se realizó la implementación de funcionalidades de backend ni servicios, por lo que no se desarrolló una suite de pruebas automatizadas. Las tareas completadas correspondieron únicamente al desarrollo del frontend, especialmente de la Landing Page y la interfaz de la aplicación.
 #### 6.2.1.6. Execution Evidence for Sprint Review
+Para el logro de este proyecto, se realizó el despliegue tanto de la Landing Page como de la primera versión funcional de la aplicación web. Ambos entornos se encuentran disponibles de forma pública a través de los siguientes enlaces:
+
+La aplicación web, desarrollada en Angular, ha sido desplegada utilizando Netlify, una plataforma que facilita el alojamiento de aplicaciones modernas al permitir integración continua, despliegue automatizado y entrega optimizada de contenido estático y dinámico. Gracias a esta herramienta, se garantiza un acceso rápido, seguro y confiable a la solución. Puedes acceder a la aplicación mediante el siguiente enlace:
+🔗 https://parkup-webapp.netlify.app 
+
+Por otro lado, la Landing Page del proyecto ha sido alojada mediante GitHub Pages, un servicio gratuito que permite la publicación de sitios estáticos directamente desde un repositorio. Esta elección se hizo por su sencillez, integración nativa con GitHub y eficiencia para mostrar contenido informativo de forma ligera:
+
+
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
-
+Durante este Sprint, el equipo se enfocó exclusivamente en el desarrollo de componentes del Frontend y el despliegue de la Landing Page. Por tal motivo, no se ha desarrollado ni documentado ningún Web Service, ya que estos no forman parte del alcance actual de la iteración.
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
+Durante el Sprint 1, se realizaron actividades de despliegue relacionadas con el Frontend, enfocadas en la Landing Page de la aplicación.
+- Front-End: https://parkup-webapp.netlify.app 
+<a href="https://ibb.co/XrcqTbPy"><img src="https://i.ibb.co/hJ3SvyNX/webevidence-allotment.png" alt="webevidence-allotment" border="0"></a>
+<a href="https://ibb.co/V0WSzKF7"><img src="https://i.ibb.co/WNWyMTrb/webevidence-register.png" alt="webevidence-register" border="0"></a>
+<a href="https://ibb.co/Lzd49dFR"><img src="https://i.ibb.co/Z6zyczjX/webevidence-login.png" alt="webevidence-login" border="0"></a>
+<a href="https://ibb.co/4wjk76FX"><img src="https://i.ibb.co/hxK0yPg4/webevidence-dashboard.png" alt="webevidence-dashboard" border="0"></a>
+
+- Landing Page: 
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
+
+Esta sección refleja la colaboración efectiva del equipo durante el Sprint. Se adjuntan evidencias visuales del trabajo conjunto y los avances coordinados en ambas soluciones: la Landing Page y la aplicación web. La sinergia entre los miembros permitió cumplir los objetivos propuestos en tiempo y forma.
+
+<a href="https://ibb.co/twkCHwp2"><img src="https://i.ibb.co/bjqd6j5v/team-collaboration-insigth-landing.png" alt="team-collaboration-insigth-landing" border="0"></a>
+
+<a href="https://ibb.co/LmJcbvz"><img src="https://i.ibb.co/2xsCm57/team-collaboration-insigth-web.png" alt="team-collaboration-insigth-web" border="0"></a>
 
 ## 6.3. Validation Interviews
 
