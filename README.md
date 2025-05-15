@@ -369,6 +369,25 @@ Se plantearon 2 segmentos claramente diferenciados.
 | **Estrategias**      | - Permitir a los propietarios de espacios libres registrarlos y establecer precios y tiempos de alquiler. <br> - Ofrecer una plataforma que facilite la búsqueda y reserva de estacionamientos. <br> - Expandirse a otros distritos y países.| - Integración con estacionamientos existentes en Lima. <br> - Ofrecer múltiples métodos de pago, incluyendo su propio monedero digital. <br> - Proporcionar información en tiempo real sobre disponibilidad y tarifas. | - Crear un marketplace que conecte a propietarios de estacionamientos con conductores. <br> - Ofrecer una plataforma fácil de usar para la reserva y gestión de espacios. | - Automatizar el proceso de estacionamiento desde la llegada hasta la salida. <br> - Integrar tecnología de lectura de placas y pagos automáticos. <br> - Mejorar la experiencia del usuario con interfaces intuitivas. |
 | **Ventaja Competitiva** | - Permite a los usuarios generar ingresos alquilando sus espacios privados. <br> - Ofrece una amplia variedad de opciones en zonas clave de Lima. | - Proporciona una solución integral para encontrar, reservar y pagar estacionamientos. <br> - Facilita el proceso con múltiples opciones de pago y gestión de tiempo. | - Amplia base de datos de estacionamientos disponibles en Lima. <br> - Plataforma intuitiva que simplifica la reserva y gestión de espacios. | - Proceso completamente automatizado que reduce tiempos y errores. <br> - Integración de tecnología avanzada para una experiencia sin fricciones. |
 | **Canal de distribución** | - Plataforma web accesible desde cualquier navegador. <br> - Aplicación móvil disponible para Android e iOS. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de estacionamientos locales. | - Aplicación móvil disponible para Android e iOS. <br> - Plataforma web para gestión de estacionamientos. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de gestión de estacionamientos y dispositivos IoT. |  
+
+| ¿Por qué llevar a cabo este análisis? | Escriba aquí la pregunta que busca responder o el objetivo de este análisis. |
+|---------------------------------------|---------------------------------------------------------------------------|
+|                                       | **Su startup** | **Competidor 1** | **Competidor 2** | **Competidor 3** |
+| **Perfil**                            |                |                  |                  |                  |
+| Overview                              |                |                  |                  |                  |
+| **Perfil de Marketing**               |                |                  |                  |                  |
+| Ventaja competitiva (¿Qué valor ofrece a los clientes?) |                |                  |                  |                  |
+| Mercado objetivo                      |                |                  |                  |                  |
+| Estrategias de marketing              |                |                  |                  |                  |
+| **Perfil de Producto**                |                |                  |                  |                  |
+| Productos & Servicios                 |                |                  |                  |                  |
+| Precios & Costos                      |                |                  |                  |                  |
+| Canales de distribución (Web y/o Móvil) |                |                  |                  |                  |
+| **Análisis SWOT**                     |                |                  |                  |                  |
+| Fortalezas                            |                |                  |                  |                  |
+| Debilidades                           |                |                  |                  |                  |
+| Oportunidades                         |                |                  |                  |                  |
+| Amenazas                              |                |                  |                  |                  |
   
 ### 2.1.2. Estrategias y tácticas frente a competidores  
 
