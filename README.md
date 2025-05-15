@@ -1452,7 +1452,13 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 
 **Software Components Diagram:**
 
+**Back-End:**
+
 ![4.1.3-Components.png](assets/capitulo-4/4.1.3-Components.png)
+
+**Edge Node:**
+
+![structurizr-83716-Component-002.png](assets/capitulo-4/structurizr-83716-Component-002.png)
 
 | Componente                 | Propósito clave                                                        |
 |----------------------------|------------------------------------------------------------------------|
