@@ -3602,9 +3602,67 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 ### 5.4.2. Applications Wireflow Diagrams
 
+Los siguientes diagramas de wireflow representan visualmente las pantallas y transiciones más relevantes de la aplicación, tanto para la versión web como móvil. A diferencia del user flow, los wireflows incorporan no solo la lógica de navegación, sino también la disposición de los elementos visuales, facilitando la validación temprana de la experiencia de usuario (UX) antes del diseño final.
+
+Los siguientes diagramas de wireflow representan visualmente las pantallas y transiciones más relevantes de la aplicación, tanto para la versión web como móvil. A diferencia del user flow, los wireflows incorporan no solo la lógica de navegación, sino también la disposición preliminar de los elementos visuales, facilitando la validación temprana de la experiencia de usuario (UX) antes del diseño final.
+<a href="https://ibb.co/G39H9Dtg"><img src="https://i.ibb.co/JFq3qTyX/login-wireflow-web.png" alt="login-wireflow-web" border="0"></a>
+
+Representa la navegación entre las vistas del panel de administración. Se incluyen componentes como la visualización de cámaras, gestión de tarifas y acceso a estadísticas. El flujo permite al usuario recorrer las principales funciones administrativas desde una interfaz centralizada e intuitiva.
+<a href="https://ibb.co/bxsZH4C"><img src="https://i.ibb.co/fbk583y/service-wireflow-web.png" alt="service-wireflow-web" border="0"></a>
+
+Este flujo refleja el proceso de autenticación desde la aplicación móvil. Contempla la introducción de usuario y contraseña, validación y acceso a la pantalla de bienvenida o directamente a la disponibilidad de parqueo. Se prioriza la simplicidad para mejorar la experiencia de ingreso desde dispositivos pequeños.
+<a href="https://ibb.co/JjhGPmsP"><img src="https://i.ibb.co/s9BNrbVr/login-wireflow-mov.png" alt="login-wireflow-mov" border="0"></a>
+
+En este wireflow se simula el recorrido del usuario al momento de buscar y reservar un espacio de estacionamiento. Incluye pantallas de disponibilidad, selección de plaza y confirmación. Este flujo permite una interacción eficiente en contextos urbanos donde el tiempo es clave.
+<a href="https://ibb.co/N66d4qDS"><img src="https://i.ibb.co/5WWg73pF/parking-wireflow-mov.png" alt="parking-wireflow-mov" border="0"></a>
+
+Describe el proceso de pago dentro de la app móvil. Se muestran las pantallas para seleccionar método de pago, visualizar monto, aplicar promociones y confirmar la transacción. La intención es brindar una experiencia de pago fluida, rápida y sin contacto.
+<a href="https://ibb.co/pBVW4nkY"><img src="https://i.ibb.co/ksb3qMPN/payment-wireflow-mov.png" alt="payment-wireflow-mov" border="0"></a>
+
 ### 5.4.3. Applications User Flow Diagrams
+En esta sección se describen los flujos de usuario diseñados para la aplicación web y móvil del proyecto FindAndPark. Cada diagrama representa el recorrido que realiza un tipo de usuario (administrador) al interactuar con las distintas funcionalidades clave del sistema, asegurando que cada acción esté alineada con los objetivos de la solución: control, monitoreo y gestión de estacionamientos inteligentes.
+
+Este flujo representa el proceso de registro para nuevos administradores. El usuario accede al formulario de creación de cuenta, completa los campos obligatorios y envía la solicitud. Una vez validada, la cuenta es creada y el usuario es redirigido al login. Este flujo asegura un control centralizado de accesos administrativos.
+![](https://i.postimg.cc/NfjBFcLP/userflow-register.png)
+
+El dashboard muestra el acceso principal al sistema luego del inicio de sesión. Aquí el usuario visualiza de forma resumida estadísticas relevantes, alertas y accesos rápidos a las demás funcionalidades. Sirve como punto de control central para la operación diaria del estacionamiento.
+![](https://i.postimg.cc/GtqRKMgQ/userflow-dashboard.png)
+
+Aca se permite al administrador configurar y visualizar las tarifas asociadas al estacionamiento. Se incluye la opción de editar o actualizar montos, aplicar promociones o tarifas por horario, garantizando flexibilidad y control económico sobre el espacio.
+![](https://i.postimg.cc/rmGM0yS7/userflow-fee.png)
+
+En eesta parte del programa, el usuario puede acceder al monitoreo en tiempo real de las cámaras del estacionamiento. Se incluye la visualización del estado actual, transmisión en vivo y posiblemente la interacción con las cámaras (zoom, cambio de ángulo, etc.). Este módulo contribuye a la seguridad operativa.
+![](https://i.postimg.cc/RVp9nDHC/userflow-monitoring.png)
+
+Representa la gestión de los espacios de parqueo. El usuario puede ver los slots disponibles, ocupados y en mantenimiento, así como añadir o editar plazas. Este flujo asegura una gestión eficiente del espacio físico del estacionamiento.
+![](https://i.postimg.cc/mkbRQxjk/userflow-slots.png)
+
+En este userflow se accede a los indicadores de uso, ingresos, frecuencia de visitas y otros datos analíticos. El administrador puede visualizar métricas en tiempo real o históricas, lo cual respalda la toma de decisiones estratégicas.
+![](https://i.postimg.cc/1RHyytRq/userflow-statistics.png)
+
+En la aplicación móvil, este flujo permite a los usuarios verificar la disponibilidad de estacionamientos, iniciar su proceso de ingreso y registrar su vehículo. El objetivo es facilitar el acceso rápido y sin fricciones al servicio.
+![](https://i.postimg.cc/yNZVKyW1/userflow-parking-mov.png)
+
+Aquí se describe el proceso de pago desde la aplicación móvil. El usuario elige su método de pago, visualiza el monto correspondiente a su estancia, y finaliza la transacción de forma segura. Se promueve una experiencia contactless y eficiente.
+![](https://i.postimg.cc/qvgJbTTC/userflow-payment-mov.png)
+
+Este flujo está diseñado para que nuevos usuarios móviles puedan registrarse en la aplicación. Incluye la validación de datos básicos y la creación de credenciales de acceso para facilitar el ingreso posterior.
+![](https://i.postimg.cc/dVXqgxsN/userflow-register-mov.png)
+
 
 ## 5.5. Applications Prototyping
+
+En esta sección se presentan los prototipos desarrollados en Figma para la aplicación web y móvil. Estas interfaces fueron diseñadas considerando principios de usabilidad, accesibilidad y consistencia visual. El objetivo principal fue anticipar la experiencia final del usuario y validar el diseño antes de iniciar el desarrollo.
+
+- Prototipo Web: Se enfoca en las funcionalidades administrativas (dashboard, monitoreo, tarifas, estadísticas) y refleja la lógica de operación de un administrador de estacionamiento inteligente.
+
+- Prototipo Móvil: Diseñado para los usuarios que acceden al servicio desde sus dispositivos móviles. Incluye flujos clave como registro, reserva de parqueo y pago, optimizando la experiencia desde cualquier lugar.
+
+![](https://i.postimg.cc/7YrT8ZV7/web-prototype.png)
+![](https://i.postimg.cc/150V91Cd/mov-prototype.png)
+
+https://www.figma.com/proto/kSN0rxeKp9wzzeF3SMnC8U/IOT-PROJECT?node-id=1-2&t=JFxyk3KOYuGbNKD1-1 
+
 
 
 # Capítulo VI: Product Implementation & Validation
