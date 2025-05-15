@@ -209,13 +209,13 @@ Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, si
 
 ### 1.1.2. Perfiles de integrantes del equipo 
 
-| Foto | Perfil de Integrante |
-|------|-------------|
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p> | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto. |
-| <p align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQF0q82dzd577g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719029164195?e=1750896000&v=beta&t=XNTeNX_6dSYIsI75WWHmmJjOHW5Wr0RaHyLkeVk32oc" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *U20221A928 - Ingeniería de Software*  <br> <br>  Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas. |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 3" width="100" height="130"/></p>| **Cuevas Rios, Eric Fernando**  <br> *U202112766 - Ingeniería de Software*  <br> <br> Soy capaz de brindar mi experiencia en redacción, diseño de soluciones y programación movil para ayudar a obtener las metas del grupo. Además, soy bueno brindando puntualidad y organización a los proyectos de los que tomo parte, lo que espero sirva al resto de mis compañeros de equipo. <br>  |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-4.jpg" alt="Foto de integrante 4" width="100" height="110"/></p> | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *U202111654 - Ingeniería de Software*  <br> Para este proyecto, puedo aportar con habilidades de indagación y pensamiento crítico, diseño de prototipo en Figma y programación back-End. Añadido a esto, estoy me es grato poder aprender de mis demás compañeros y de sus habilidades individuales. Me considero una persona responsable y que cumple con los plazos establecidos en una entrega. <br>   |
-| <p align="center"><img src="assets/capitulo-1/imagen-vacia.PNG" alt="Foto de integrante 5" width="100" height="100"/></p> | **Herrera González, Luis Eduardo**  <br> *Código - Carrera*  <br> <br> - <br> |
+| Foto                                                                                                                                                                                                                                                                                                      | Perfil de Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p>                                                                                                                                                                 | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.                                                                                                      |
+| <p align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQF0q82dzd577g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719029164195?e=1750896000&v=beta&t=XNTeNX_6dSYIsI75WWHmmJjOHW5Wr0RaHyLkeVk32oc" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *U20221A928 - Ingeniería de Software*  <br> <br>  Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas.                                                                                                                                                                                           |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 3" width="100" height="130"/></p>                                                                                                                                                                 | **Cuevas Rios, Eric Fernando**  <br> *U202112766 - Ingeniería de Software*  <br> <br> Soy capaz de brindar mi experiencia en redacción, diseño de soluciones y programación movil para ayudar a obtener las metas del grupo. Además, soy bueno brindando puntualidad y organización a los proyectos de los que tomo parte, lo que espero sirva al resto de mis compañeros de equipo. <br>                                                                       |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-4.jpg" alt="Foto de integrante 4" width="100" height="110"/></p>                                                                                                                                                                 | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *U202111654 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar con habilidades de indagación y pensamiento crítico, diseño de prototipo en Figma y programación back-End. Añadido a esto, estoy me es grato poder aprender de mis demás compañeros y de sus habilidades individuales. Me considero una persona responsable y que cumple con los plazos establecidos en una entrega. <br> |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-5.png" alt="Foto de integrante 5" width="100" height="100"/></p>                                                                                                                                                                 | **Herrera González, Luis Eduardo**  <br> *U202218227 - Ingeniería de Software*  <br> <br> Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software. Me apasiona el desarrollo de aplicaciones web y de escritorio eficientes, utilizando tecnologías modernas como Bun, Tauri y Lit. También cuento con experiencia en frameworks ampliamente adoptados como Next.js, Angular y Spring Boot. Además, tengo un gran interés en el área de Machine Learning, trabajando con CUDA, C++ y MLX para crear soluciones de alto rendimiento. Me considero una persona curiosa, enfocada en la innovación tecnológica y comprometida a aportar mis habilidades técnicas para el éxito del equipo.                                                                                                                                                                                                                                                                                                                                                                      |
 
 
 ## 1.2. Solution Profile
@@ -583,6 +583,7 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
     3:28 - ¿Qué información consideras más importante tener a la mano mientras gestionas el estacionamiento?
     Sería el ticket, la placa y el rostro del chofer.
 
+
 - Segunda Entrevista: 
 
    <img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-2.png" alt="Entrevista 2" height="180"/> 
@@ -605,12 +606,45 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
     4:48 - ¿Te sentirías cómodo con un sistema que detecta automáticamente las placas y realiza los cobros sin que tú intervengas?
     Claro, nos permitiria agilizar el trabajo.
 
+
+- Tercera Entrevista:
+
+    <img src="assets/capitulo-2/2.2.2-Entrevista-Administrador-3.png" alt="Entrevista 3" height="180"/>
+
+    - Entrevistado: Sebastián Ramírez Hoffmann
+    - Residencia: Lima
+    - Ocupación: Seguridad de Parking
+    - Entrevistador: Luis Herrera
+    - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218227_upc_edu_pe/EUfQx0ozblVNoU8SJ2yKbvEB_WRjYS2x0stY1GG0cZfkyQ?e=99ONRH]
+    - Resumen de la entrevista:
+      2:55 – ¿Qué tipo de información te resulta más útil visualizar a diario para monitorear el funcionamiento del estacionamiento? 
+      Lo más valioso es ver, en tiempo real, qué vehículos ingresan: su placa, color y características distintivas. Ese registro permite rastrear al dueño si ocurre un robo o incidente y facilita a Seguridad actuar de inmediato.
+
+      3:40 – ¿Qué funcionalidades consideras esenciales en una plataforma web para administrar y monitorear espacios de parqueo?
+      Una plataforma debería mostrar un registro automático de entrada / salida con hora exacta, vincular la placa a un perfil del propietario (DNI), y superponer la información con cámaras para ubicar cada auto en tiempo real. También pide campos visuales simples (color del vehículo, polarizado, etc.) y un tablero sin pasos extra.
+      
+      5:25 – ¿Qué herramientas usas hoy para controlar los vehículos que entran y salen?
+      Actualmente usan un sistema de tickets / QR: al ingresar se entrega un código impreso que se escanea a la salida para identificar al conductor y calcular la tarifa. En trabajos anteriores emplearon soluciones similares, combinando pago manual y registro en papel.
+
+      8:24 – ¿Te sentirías cómodo con un sistema que detecta automáticamente las placas y realiza los cobros sin que tú intervengas?
+      Le parece una gran idea por la eficiencia y la reducción de personal a futuro; solo le preocupa la seguridad inmediata (cómo reaccionar si ocurre un delito). Mientras existan medidas para respuestas rápidas y se integre con el sistema actual, lo adoptaría con gusto.
+
 ### 2.2.3. Análisis de entrevistas
 ##### Segmento 1: Conductores
+
+- Primera Entrevista (Eva Revollé):
+Eva utiliza estacionamientos privados cinco veces por semana y valora una experiencia fluida, con espacios amplios, fáciles de encontrar y con alta seguridad. Resalta la necesidad de vigilancia activa. Está dispuesta a utilizar aplicaciones móviles, prefiere pagos con tarjeta y ve con buenos ojos la automatización por lectura de placas, siempre que el sistema permita confirmar cobros antes de procesarlos. Considera crucial que la app muestre en tiempo real los espacios libres, priorizando los cercanos a entradas y salidas para optimizar su tiempo.
+
+- Segunda Entrevista (Ian Sánchez):
+Ian busca una experiencia de parqueo ágil donde la app le muestre los espacios vacíos y la ruta más rápida hacia ellos. Prefiere métodos de pago digitales como Yape o Plin, ya que casi no usa efectivo. Le preocupa que la lectura de placas pueda fallar y genere cobros incorrectos, aunque valora la comodidad si se implementa bien. Considera esencial visualizar los niveles o zonas con más disponibilidad antes de entrar y dentro de la app le gustaría ver información como costo por hora y si los espacios están techados.
+
+- Tercera Entrevista (Oscar Garayar):
+Oscar prioriza estacionar cerca de tiendas conocidas para evitar caminar largas distancias. Prefiere pagar con tarjeta y ha tenido experiencias negativas cuando sistemas de pago se caen, provocando largas filas. Se siente cómodo con el uso de lectura de placas y automatización de cobros, dado que ya está acostumbrado a ellos. Encuentra muy útil que la app muestre espacios disponibles en tiempo real, así como las tarifas vigentes y zonas cercanas, para ahorrar tiempo y evitar rondar buscando sitio.
 
 ##### Segmento 2: Administradores de parking
 - Primera Entrevista: El entrevistado señaló que el monitoreo se realiza principalmente mediante cámaras activas todo el tiempo y rondas presenciales para verificar el estado del parqueo. Ante emergencias, se comunica directamente con el gerente de tienda por radio, sin un protocolo formal establecido. La información más útil para su labor diaria incluye las grabaciones de las cámaras, el ticket del vehículo, la placa y el rostro del conductor. Actualmente no utilizan una plataforma web, ya que el parqueo es gratuito y no considera necesaria una visualización digital; sin embargo, si hubiera cobro, sí vería valor en implementarla. El control de ingreso y salida se realiza de forma manual con tickets y anotaciones en papel.
 - Segunda Entrevista: El entrevistado Señalo que se tienen contratado un sistema que les permite realizar las facturaciones, pero que el resto de los controles del estacionamiento los realizan manualmente y recae en los empleados aplicar los protocolos en caso de incidentes. A partir de esto señalo en las siguientes respuestas que esta interesado en adquirir un sistema que le permita automatizar más partes de la gestión del estacionamiento.
+- Tercera Entrevista: El entrevistado explicó que el monitoreo combina cámaras en funcionamiento continuo con personal en “postas” para actuar de inmediato si ocurre un incidente. Para emergencias, se apoya en las grabaciones y en la identificación visual del vehículo (placa, color y rasgos distintivos) a fin de rastrear rápidamente al propietario; considera indispensable vincular estos datos con los perfiles de los usuarios. La información diaria más valiosa es un registro en tiempo real de qué autos entran y salen y dónde se encuentran dentro del estacionamiento. Aunque hoy trabajan con un sistema de tickets/QR que sólo cubre el cobro, todas las verificaciones de seguridad se llevan a cabo de forma manual. El entrevistado ve gran utilidad en una plataforma web que muestre las entradas y salidas, integre las cámaras y automatice la asociación entre placa y perfil; sin embargo, advierte que debe garantizarse una respuesta rápida ante robos o siniestros. Afirma sentirse cómodo con la detección automática de placas y el cobro sin intervención humana, siempre que la solución mantenga o mejore los niveles de seguridad actuales.
 
 ## 2.3. Needfinding
 
@@ -942,7 +976,7 @@ El To-Be Scenario Mapping para administradores de parking muestra cómo, al usar
 | US48                                              | Visualización de monitoreo de la funcionalidad de los dispositivos IoT del estacionamiento                                                                                  |
 
 | EP10 (Optimización de la API) | Como desarrollador, quiero implementar los protocolos de comunicación correctos de cada endpoint API para mejorar la eficiencia en la entrega de recursos y optimizar el rendimiento del sistema. |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TS10                          | Implementación de un servicio IAM con REST API                                                                                                                                                    |
 | TS11                          | Implementación de un servicio Camera Feed con WebRTC                                                                                                                                              |
 | TS13                          | Implementación de un servicio Payments con REST API                                                                                                                                               |
@@ -950,6 +984,7 @@ El To-Be Scenario Mapping para administradores de parking muestra cómo, al usar
 | TS15                          | Implementación de un servicio Monitoring con REST API                                                                                                                                             |
 | TS16                          | Implementación de un servicio Ticket Validation con REST API                                                                                                                                      |
 | TS17                          | Implementación de un servicio Notifications con REST API                                                                                                                                          |
+| TS18                          | Implementación de un servicio Profiles con REST API                                                                                                                                                      |
 
 | EP11 (Sistema de Parking Spots) | Como conductor, quiero ver los estacionamientos disponibles en mi ubicación por luz LED, para poder saber donde estacionarme. |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -958,74 +993,76 @@ El To-Be Scenario Mapping para administradores de parking muestra cómo, al usar
 
 ***User Stories***
 
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-| --------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------- |
-| US01 | Barra de navegación de Landing Page | Como visitante, quiero una barra de navegación accesible para moverme fácilmente entre las secciones principales de la landing page. | Feature: Barra de navegación de Landing Page<br><br>Scenario: Visualización y funcionamiento de la barra de navegación<br>Given que el visitante accede a la landing page<br>When visualiza la parte superior del sitio<br>Then debería ver una barra de navegación con enlaces a las secciones principales<br>And al hacer clic en un enlace, debería desplazarse a esa sección<br><br>Scenario: Error en la carga de la barra de navegación<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la barra de navegación<br>Then debería mostrarse un mensaje de error | EP01 |
-| US02 | Encabezado de Bienvenida de Landing Page | Como visitante, quiero visualizar de forma inmediata un encabezado con el propósito de la aplicación ParkUp, junto con un llamado a la acción claro que me motive a explorar la plataforma. | Feature: Encabezado de Bienvenida de Landing Page<br><br>Scenario: Visualización del encabezado de bienvenida<br>Given que el visitante accede a la landing page<br>When observa la parte superior del sitio<br>Then debería ver un encabezado claro con el propósito de la aplicación ParkUp<br>And debería ver un llamado a la acción claro para explorar la plataforma<br><br>Scenario: Falta de visualización del encabezado<br>Given que el visitante accede a la landing page<br>When el encabezado no carga correctamente<br>Then debería mostrarse un mensaje de error indicando que el encabezado no está disponible | EP01 |
-| US03 | Sección Sobre Nosotros de Landing Page | Como visitante, quiero conocer la misión, visión y el equipo de desarrollo de ParkUp, con el fin de generar confianza en el proyecto y comprender su impacto. | Feature: Sección Sobre Nosotros de Landing Page<br><br>Scenario: Visualización de la sección "Sobre Nosotros"<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de "Sobre Nosotros" en la barra de navegación<br>Then debería visualizar la misión, visión y el equipo de desarrollo de ParkUp<br>And la información debe estar organizada y ser clara<br><br>Scenario: Error en la carga de la sección "Sobre Nosotros"<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la sección "Sobre Nosotros"<br>Then debería mostrarse un mensaje de error | EP01 |
-| US04 | Demostración del funcionamiento de la aplicación en la Landing Page | Como visitante, quiero observar una demostración visual del funcionamiento de la aplicación, para entender de manera práctica su utilidad y facilidad de uso. | Feature: Demostración del funcionamiento de la aplicación en el Landing Page<br><br>Scenario: Visualización de la demostración del funcionamiento de la aplicación<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de la demostración<br>Then debería ver un video o animación visual que explique cómo funciona la aplicación ParkUp<br>And el contenido debe ser claro y fácil de entender<br><br>Scenario: Error en la carga de la demostración<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la demostración<br>Then debería mostrarse un mensaje de error | EP01 |
-| US05 | Descripción de las funcionalidades de la aplicación en el Landing Page | Como visitante, quiero explorar las funcionalidades principales de ParkUp, a fin de evaluar si satisfacen mis necesidades respecto a la gestión de estacionamientos. | Feature: Descripción de las funcionalidades de la aplicación en el Landing Page<br><br>Scenario: Visualización de las funcionalidades de la aplicación<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de "Funcionalidades" en la barra de navegación<br>Then debería visualizar una lista clara y detallada de las funcionalidades principales de ParkUp<br>And cada funcionalidad debe estar acompañada de una breve descripción<br><br>Scenario: Error en la carga de las funcionalidades<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la sección de funcionalidades<br>Then debería mostrarse un mensaje de error | EP01 |
-| US06 | Reseñas en el Landing Page | Como visitante, quiero leer opiniones de otros usuarios sobre la aplicación, con el objetivo de obtener una referencia confiable sobre la efectividad del producto. | Feature: Reseñas en el Landing Page<br><br>Scenario: Visualización de las reseñas de otros usuarios<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de "Reseñas" en la barra de navegación<br>Then debería visualizar una lista de opiniones de otros usuarios sobre la aplicación<br>And las reseñas deben ser verídicas y fácilmente legibles<br><br>Scenario: Error en la carga de las reseñas<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de las reseñas<br>Then debería mostrarse un mensaje de error | EP01 |
-| US07 | Preguntas y Respuestas en Landing Page | Como visitante, quiero acceder a una sección de preguntas frecuentes que resuelva dudas comunes de manera rápida y concisa. | Feature: Preguntas y Respuestas en Landing Page<br><br>Scenario: Visualización de la sección de Preguntas y Respuestas<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de "Preguntas y Respuestas" en la barra de navegación<br>Then debería visualizar una lista de preguntas frecuentes con respuestas claras y concisas<br><br>Scenario: Error en la carga de las preguntas y respuestas<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la sección de Preguntas y Respuestas<br>Then debería mostrarse un mensaje de error | EP01 |
-| US08 | Clientes Satisfechos en Landing Page | Como visitante, quiero visualizar una sección de clientes satisfechos que muestre anteriores casos de exito para asegurarme la funcionalidad de la aplicación. | Feature: Clientes Satisfechos en Landing Page<br><br>Scenario: Visualización de la sección de Clientes Satisfechos<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de "Clientes Satisfechos" en la barra de navegación<br>Then debería visualizar una lista de establecimientos y clientes usuarios del sistema.<br><br>Scenario: Error en la carga de los Clientes Satisfechos<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la sección de Clientes Satisfechos<br>Then debería mostrarse un mensaje de error | EP01 |
-| US09 | Sección de Contáctanos en Landing Page | Como visitante, quiero disponer de una sección de contacto para comunicarme con el equipo de ParkUp en caso de requerir más información o asistencia. | Feature: Sección de Contáctanos en Landing Page<br><br>Scenario: Visualización de la sección de contacto<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de "Contáctanos" en la barra de navegación<br>Then debería visualizar un formulario de contacto <br><br>Scenario: Error en la carga de la sección de contacto<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la sección de "Contáctanos"<br>Then debería mostrarse un mensaje de error | EP01 |
-| US10 | Footer en Landing Page | Como visitante, quiero encontrar en el pie de página enlaces útiles y de acceso rápido que complementen mi navegación por el sitio. | Feature: Footer en Landing Page<br><br>Scenario: Visualización del pie de página<br>Given que el visitante accede a la landing page<br>When llega al final de la página<br>Then debería visualizar enlaces útiles en el pie de página <br>And los enlaces deben ser accesibles y funcionales<br><br>Scenario: Error en la carga del pie de página<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga del pie de página<br>Then debería mostrarse un mensaje de error | EP01 |
-| US11 | Registro de conductor como usuario | Como developer, quiero que el conductor pueda registrarse como usuario en el sistema, para poder acceder a las funcionalidades del sistema de parqueo conectado por IoT. | Feature: Registro de conductor como usuario<br><br>Scenario: Registro exitoso de conductor<br>Given que el conductor accede al registro<br>When ingresa sus datos personales y presiona "Registrarse"<br>Then debería ver un mensaje de éxito indicando que el registro fue exitoso<br>And el conductor debería recibir un correo de confirmación<br><br>Scenario: Error en el registro por datos incompletos<br>Given que el conductor accede a la página de registro<br>When ingresa datos incompletos y presiona "Registrarse"<br>Then debería ver un mensaje de error indicando qué campos faltan<br>And no debería ser registrado en el sistema | EP01 |
-| US12 | Inicio de sesión de conductor | Como developer, quiero que el conductor pueda iniciar sesión en el sistema utilizando sus credenciales, para que pueda acceder a la plataforma y gestionar su estacionamiento. | Feature: Inicio de sesión de conductor<br><br>Scenario: Inicio de sesión exitoso<br>Given que el conductor tiene una cuenta registrada<br>When ingresa sus credenciales correctas y presiona "Iniciar sesión"<br>Then debería ser redirigido a la página principal del sistema<br>And debería ver un mensaje de bienvenida<br><br>Scenario: Error en el inicio de sesión por credenciales incorrectas<br>Given que el conductor tiene una cuenta registrada<br>When ingresa credenciales incorrectas y presiona "Iniciar sesión"<br>Then debería ver un mensaje de error indicando que las credenciales son incorrectas<br>And no debería acceder a la plataforma | EP03 |
-| US13 | Edición de perfil de conductor | Como developer, quiero que el conductor pueda editar su perfil, para que pueda actualizar sus datos personales y guardar su método de pago de preferencia en el sistema. | Feature: Edición de perfil de conductor<br><br>Scenario: Edición exitosa del perfil<br>Given que el conductor está autenticado en el sistema<br>When ingresa a la sección de "Editar perfil" y actualiza su información<br>Then debería ver un mensaje de éxito indicando que los cambios fueron guardados<br>And los cambios deberían reflejarse en su perfil<br><br>Scenario: Error al editar perfil por datos inválidos<br>Given que el conductor está autenticado en el sistema<br>When ingresa datos inválidos en el formulario de perfil y presiona "Guardar cambios"<br>Then debería ver un mensaje de error indicando qué datos son inválidos<br>And no deberían guardarse los cambios | EP03 |
-| US14 | Recuperación de contraseña | Como developer, quiero permitir que el conductor recupere su contraseña de forma segura, para que pueda recuperar el acceso a su cuenta en caso de olvidar sus credenciales. | Feature: Recuperación de contraseña<br><br>Scenario: Recuperación exitosa de contraseña<br>Given que el conductor ha olvidado su contraseña<br>When ingresa su correo en la sección de "Recuperar contraseña" y presiona "Enviar enlace"<br>Then debería recibir un correo con el enlace para restablecer su contraseña<br>And debería poder ingresar una nueva contraseña<br><br>Scenario: Error en la recuperación de contraseña por correo no registrado<br>Given que el conductor ha olvidado su contraseña<br>When ingresa un correo no registrado en la sección de "Recuperar contraseña"<br>Then debería ver un mensaje de error indicando que el correo no está registrado<br>And no debería recibir un correo de recuperación | EP03 |
-| US15 | Eliminación de cuenta de conductor | Como developer, quiero que el conductor pueda eliminar su cuenta de usuario, para permitirle desvincularse completamente del sistema cuando así lo desee. | Feature: Eliminación de cuenta de conductor<br><br>Scenario: Eliminación exitosa de cuenta<br>Given que el conductor está autenticado en el sistema<br>When solicita la eliminación de su cuenta y confirma la acción<br>Then su cuenta debería ser eliminada permanentemente del sistema<br>And debería ver un mensaje de confirmación indicando que la cuenta ha sido eliminada<br><br>Scenario: Error al intentar eliminar cuenta sin confirmación<br>Given que el conductor está autenticado en el sistema<br>When solicita la eliminación de su cuenta pero no confirma la acción<br>Then no debería eliminarse su cuenta<br>And debería ver un mensaje de advertencia indicando que la acción no se completó | EP03 |
-| US16 | Escaneo QR mediante celular por el conductor | Como conductor, quiero poder escanear un código QR con mi celular al llegar al estacionamiento, para poder acceder al sistema de estacionamientos del lugar. | Feature: Escaneo QR mediante celular por el conductor<br><br>Scenario: Escaneo exitoso de código QR<br>Given que el conductor llega al estacionamiento y tiene la app instalada<br>When escanea el código QR del estacionamiento usando su celular<br>Then debería ser redirigido automáticamente al sistema de parqueo<br>And debería ver la disponibilidad de espacios<br><br>Scenario: Error al escanear código QR<br>Given que el conductor llega al estacionamiento y tiene la app instalada<br>When intenta escanear un código QR no válido o ilegible<br>Then debería ver un mensaje de error indicando que el código QR no es válido<br>And no debería ser redirigido al sistema de parqueo | EP04 |
-| US17 | Visualización de estacionamientos disponibles en tiempo real más cercanos al conductor | Como conductor, quiero ver en tiempo real los estacionamientos disponibles más cercanos, para poder tomar decisiones rápidas sobre dónde estacionar. | Feature: Visualización de estacionamientos disponibles, en tiempo real, más cercanos al conductor<br><br>Scenario: Visualización exitosa de estacionamientos cercanos<br>Given que el conductor está autenticado en el sistema <br>When solicita ver los estacionamientos disponibles cercanos a su ubicación<br>Then debería ver una lista de los estacionamientos disponibles más cercanos<br><br>Scenario: Error al visualizar estacionamientos disponibles<br>Given que el conductor está autenticado en el sistema<br>When el sistema no puede obtener la información de estacionamientos disponibles por problemas de red <br>Then debería ver un mensaje de error indicando que no se pueden mostrar los estacionamientos<br>And no debería ver una lista de estacionamientos | EP04 |
-| US18 | Confirmación automática o manual de estacionamiento realizado por el conductor | Como conductor, quiero que el sistema confirme automáticamente o me permita confirmar manualmente que he estacionado en el lugar exacto, para garantizar que mi acción sea registrada correctamente. | Feature: Confirmación automática o manual de estacionamiento realizado por el conductor<br><br>Scenario: Confirmación exitosa de estacionamiento<br>Given que el conductor ha estacionado su vehículo<br>When el sistema detecta automáticamente que el vehículo ha sido estacionado o el conductor lo confirma manualmente<br>Then debería ver un mensaje indicando que el estacionamiento ha sido registrado correctamente<br>And el sistema debería actualizar el estado del espacio de estacionamiento como ocupado<br><br>Scenario: Error en la confirmación de estacionamiento<br>Given que el conductor ha estacionado su vehículo<br>When el sistema no puede detectar el estacionamiento debido a un error de IoT o el conductor no confirma manualmente<br>Then debería ver un mensaje de error indicando que el estacionamiento no ha sido registrado correctamente<br>And no debería actualizarse el estado del espacio | EP04 |
-| US19 | Visualización de menú de estacionamiento para el conductor | Como conductor, quiero tener acceso a un menú de opciones dentro del sistema de estacionamiento, para gestionar acciones como pago, convalidación y solicitudes adicionales. | Feature: Visualización de menú de estacionamiento para el conductor<br><br>Scenario: Visualización exitosa del menú de estacionamiento<br>Given que el conductor está autenticado en el sistema<br>When accede al sistema de estacionamiento<br>Then debería ver un menú de opciones con acciones como pago, convalidación y solicitudes adicionales<br><br>Scenario: Error al cargar el menú de estacionamiento<br>Given que el conductor está autenticado en el sistema<br>When ocurre un fallo al cargar el menú de estacionamiento<br>Then debería ver un mensaje de error indicando que no se pudo cargar el menú<br>And el conductor no debería tener acceso a las opciones | EP04 |
-| US20 | Notificación de entrada a estacionamiento para el conductor | Como conductor, quiero recibir una notificación confirmando mi entrada al estacionamiento, para estar seguro de que mi registro ha sido exitoso y la placa de mi vehículo se haya obtenido correctamente. | Feature: Notificación de entrada a estacionamiento para el conductor<br><br>Scenario: Notificación exitosa de entrada al estacionamiento<br>Given que el conductor ha ingresado al estacionamiento y su placa ha sido registrada correctamente<br>When el sistema procesa la entrada del vehículo<br>Then el conductor debería recibir una notificación confirmando su entrada al estacionamiento<br><br>Scenario: Error en la notificación de entrada al estacionamiento<br>Given que el conductor ha ingresado al estacionamiento<br>When hay un problema al registrar la entrada del vehículo<br>Then el conductor debería ver un mensaje de error indicando que la entrada no ha sido procesada correctamente<br>And no debería recibir la notificación de entrada | EP04 |
-| US21 | Notificación de pago de estacionamiento para el conductor | Como conductor, quiero recibir una notificación que confirme el pago de mi estacionamiento, para saber que mi transacción ha sido procesada correctamente. | Feature: Notificación de pago de estacionamiento para el conductor<br><br>Scenario: Notificación exitosa de pago realizado<br>Given que el conductor ha realizado el pago del estacionamiento<br>When el sistema procesa el pago correctamente<br>Then el conductor debería recibir una notificación confirmando que el pago ha sido procesado<br><br>Scenario: Error en la notificación de pago<br>Given que el conductor ha intentado realizar el pago del estacionamiento<br>When hay un problema con el pago<br>Then el conductor debería ver un mensaje de error indicando que el pago no ha sido procesado<br>And no debería recibir la notificación de pago exitoso | EP05 |
-| US22 | Notificación de poco tiempo antes del fin de la tolerancia de pago | Como conductor, quiero recibir una notificación cuando el tiempo de tolerancia esté por terminar, y si supero ese tiempo, el sistema automáticamente me solicitará realizar un nuevo pago, para asegurar que el estacionamiento continúe registrado y evitar problemas al salir. | Feature: Notificación de poco tiempo antes del fin de la tolerancia de pago de un estacionamiento para el conductor<br><br>Scenario: Notificación exitosa antes de que termine el tiempo de tolerancia<br>Given que el conductor ha pagado el estacionamiento<br>When el tiempo de tolerancia está por finalizar<br>Then el conductor debería recibir una notificación indicando que el tiempo de tolerancia está por terminar<br><br>Scenario: Error en la notificación de tiempo de tolerancia<br>Given que el conductor ha pagado el estacionamiento<br>When el sistema no puede calcular correctamente el tiempo de tolerancia restante<br>Then el conductor debería recibir un mensaje de error o no recibir la notificación a tiempo | EP05 |
-| US23 | Notificación de fin de tolerancia de pago de un estacionamiento | Como conductor, quiero recibir una notificación cuando el tiempo de tolerancia de pago haya terminado, para saber qué debo pagar de nuevo. | Feature: Notificación de fin de tolerancia de pago de un estacionamiento para el conductor<br><br>Scenario: Notificación exitosa de fin de tolerancia<br>Given que el conductor ha pagado el estacionamiento<br>When el tiempo de tolerancia ha terminado<br>Then el conductor debería recibir una notificación indicando que debe realizar un nuevo pago<br><br>Scenario: Error en la notificación de fin de tolerancia<br>Given que el conductor ha pagado el estacionamiento<br>When el sistema no puede procesar correctamente el tiempo de tolerancia<br>Then el conductor debería ver un mensaje de error indicando que no se pudo enviar la notificación | EP05 |
-| US24 | Registro de tarjeta de crédito/débito del conductor | Como conductor, quiero registrar mi tarjeta de crédito/débito en el sistema, para poder realizar pagos automáticos cuando desee retirar el vehículo del estacionamiento. | Feature: Registro de tarjeta de crédito/débito del conductor<br><br>Scenario: Registro exitoso de tarjeta de crédito/débito<br>Given que el conductor está autenticado en el sistema<br>When ingresa los detalles de su tarjeta de crédito/débito y confirma<br>Then la tarjeta debería ser registrada en el sistema<br>And el conductor debería ver un mensaje de éxito<br><br>Scenario: Error al registrar tarjeta de crédito/débito<br>Given que el conductor está autenticado en el sistema<br>When ingresa datos incorrectos o incompletos para registrar su tarjeta<br>Then debería ver un mensaje de error indicando que los datos no son válidos<br>And no se debería registrar la tarjeta en el sistema | EP06 |
-| US25 | Eliminación de tarjeta de crédito/débito del conductor | Como conductor, quiero poder eliminar mi tarjeta de crédito/débito del sistema, para asegurarme de que no se mantengan mis datos de pago almacenados si ya no los necesito. | Feature: Eliminación de tarjeta de crédito/débito del conductor<br><br>Scenario: Eliminación exitosa de tarjeta de crédito/débito<br>Given que el conductor tiene una tarjeta de crédito/débito registrada<br>When solicita eliminar la tarjeta y confirma la acción<br>Then la tarjeta debería ser eliminada del sistema<br>And el conductor debería recibir un mensaje de confirmación<br><br>Scenario: Error al intentar eliminar tarjeta de crédito/débito<br>Given que el conductor tiene una tarjeta de crédito/débito registrada<br>When solicita eliminar la tarjeta pero no confirma la acción<br>Then la tarjeta no debería ser eliminada<br>And el conductor debería ver un mensaje indicando que la eliminación no se realizó | EP06 |
-| US26 | Visualización de listado de tarjetas de crédito/débito del conductor | Como conductor, quiero visualizar un listado de las tarjetas de crédito/débito registradas en mi perfil, para poder elegir cuál utilizar al momento de realizar el pago en línea. | Feature: Visualización de listado de tarjetas de crédito/débito del conductor<br><br>Scenario: Visualización exitosa del listado de tarjetas<br>Given que el conductor tiene varias tarjetas registradas<br>When accede a la sección de "Tarjetas de crédito/débito" en su perfil<br>Then debería ver un listado de las tarjetas registradas con su tipo y último dígito<br><br>Scenario: Error al intentar visualizar las tarjetas registradas<br>Given que el conductor tiene tarjetas registradas<br>When hay un fallo en la carga del listado de tarjetas<br>Then debería ver un mensaje de error indicando que no se pueden cargar las tarjetas<br>And no debería ver el listado | EP06 |
-| US27 | Activación y Desactivación de pago automático del conductor | Como conductor, quiero poder activar o desactivar el pago automático para mis futuras transacciones de estacionamiento, para decidir cómo realizar el pago al momento de retirarme. | Feature: Activación y Desactivación de pago automático del conductor<br><br>Scenario: Activación exitosa de pago automático<br>Given que el conductor está autenticado en el sistema<br>When activa la opción de "Pago automático" en su perfil<br>Then el pago automático debería quedar habilitado para sus futuras transacciones<br>And el conductor debería recibir un mensaje de confirmación<br><br>Scenario: Error al intentar activar el pago automático<br>Given que el conductor está autenticado en el sistema<br>When hay un fallo en la activación del pago automático<br>Then debería ver un mensaje de error indicando que no se pudo activar la opción<br>And el pago automático no debería ser activado | EP06 |
-| US28 | Realización de convalidación de pago del estacionamiento del conductor | Como conductor, quiero realizar la convalidación de mi pago de estacionamiento, para confirmar que mi transacción ha sido procesada correctamente antes de salir. | Feature: Realización de convalidación de pago del estacionamiento del conductor<br><br>Scenario: Convalidación exitosa del pago<br>Given que el conductor ha realizado el pago del estacionamiento<br>When solicita realizar la convalidación del pago<br>Then el sistema debería confirmar que la transacción ha sido procesada correctamente<br>And el conductor debería ver una notificación de confirmación<br><br>Scenario: Error al realizar la convalidación de pago<br>Given que el conductor ha intentado realizar la convalidación del pago<br>When hay un problema con el proceso de convalidación<br>Then el conductor debería ver un mensaje de error indicando que la convalidación no fue exitosa<br>And no debería quedar registrado el pago | EP07 |
-| US29 | Realización del pago a cancelar del estacionamiento del conductor | Como conductor, quiero realizar el pago correspondiente al estacionamiento mediante una opción manual o automática, para completar mi transacción y poder retirarme sin problemas. | Feature: Realización del pago a cancelar del estacionamiento del conductor<br><br>Scenario: Pago exitoso realizado por el conductor<br>Given que el conductor desea pagar por su estacionamiento<br>When realiza el pago mediante el sistema<br>Then el sistema debería procesar el pago correctamente y actualizar el estado del estacionamiento<br><br>Scenario: Error al realizar el pago<br>Given que el conductor desea pagar por su estacionamiento<br>When hay un problema al procesar el pago<br>Then el conductor debería ver un mensaje de error indicando que el pago no fue exitoso<br>And el estado del estacionamiento no debe actualizarse | EP07 |
-| US30 | Retiro ininterrumpido del estacionamiento por pago automático | Como conductor, quiero poder retirar mi vehículo sin interrupciones después de haber realizado el pago automático, para no tener que hacer ninguna acción adicional. | Feature: Retiro ininterrumpido del estacionamiento por pago automático<br><br>Scenario: Retiro exitoso después de pago automático<br>Given que el conductor ha activado el pago automático y el pago ha sido procesado correctamente<br>When el conductor llega a la salida del estacionamiento<br>Then debería poder retirar su vehículo sin interrupciones ni acciones adicionales<br><br>Scenario: Error al retirar el vehículo después de pago automático<br>Given que el conductor ha activado el pago automático y el pago ha sido procesado correctamente<br>When el sistema no permite el retiro del vehículo por un fallo en la validación de pago<br>Then el conductor debería ver un mensaje de error indicando que no puede retirar el vehículo<br>And el vehículo no debería salir del estacionamiento | EP07 |
-| US31 | Retiro posterior al pago manual del estacionamiento | Como conductor, quiero poder retirar mi vehículo después de realizar el pago manual, asegurándome de que la transacción esté confirmada antes de salir del estacionamiento. | Feature: Retiro posterior al pago manual del estacionamiento<br><br>Scenario: Retiro exitoso después de pago manual<br>Given que el conductor ha realizado un pago manual y la transacción ha sido confirmada<br>When el conductor llega a la salida del estacionamiento<br>Then debería poder retirar su vehículo sin problemas, tras confirmar el pago<br><br>Scenario: Error al retirar el vehículo después de pago manual<br>Given que el conductor ha realizado un pago manual y la transacción ha sido confirmada<br>When el sistema no valida correctamente el pago del conductor<br>Then el conductor debería ver un mensaje de error indicando que la transacción no ha sido confirmada<br>And no debería poder retirar su vehículo hasta que el problema sea solucionado | EP07 |
-| US32 | Visualización de tiempo de tolerancia desde cancelación del pago | Como conductor, quiero visualizar el tiempo de tolerancia después de cancelar el pago del estacionamiento, para saber cuánto tiempo tengo antes de que se genere una penalización o multa. | Feature: Visualización del tiempo de tolerancia después del pago<br><br>Scenario: Conductor visualiza el tiempo de tolerancia restante<br>Given que el conductor ha realizado un pago exitoso<br>When accede a la pantalla de tiempo de tolerancia<br>Then el sistema muestra una cuenta regresiva con el tiempo restante<br><br>Scenario: Conductor intenta ver tolerancia sin haber pagado<br>Given que el conductor no ha realizado un pago<br>When intenta acceder al tiempo de tolerancia<br>Then el sistema muestra un mensaje indicando que no hay tolerancia activa | EP07 |
-| US33 | Visualización de boleta virtual e interactiva del estacionamiento realizado | Como conductor, quiero ver una boleta virtual e interactiva del estacionamiento realizado, para consultar los detalles de mi uso del estacionamiento de forma clara y digital. | Feature: Visualización de boleta virtual interactiva del estacionamiento<br><br>Scenario: Conductor accede a su boleta reciente<br>Given que el conductor tiene una boleta generada<br>When accede al módulo de boleta<br>Then el sistema muestra los detalles del estacionamiento (hora, pago, ubicación)<br><br>Scenario: No hay boleta disponible para mostrar<br>Given que el conductor aún no ha completado un estacionamiento<br>When intenta ver una boleta<br>Then el sistema muestra un mensaje de "sin boleta disponible" | EP07 |
-| US34 | Visualización de listado de boletas virtuales e interactivas de estacionamientos realizados | Como conductor, quiero visualizar un listado de todas mis boletas virtuales e interactivas de estacionamientos realizados, para tener un historial de mis pagos y usos anteriores. | Feature: Historial de boletas virtuales de estacionamiento<br><br>Scenario: Conductor revisa su historial de boletas<br>Given que el conductor tiene estacionamientos previos<br>When accede al historial de boletas<br>Then el sistema muestra una lista con detalles resumidos de cada una<br><br>Scenario: Conductor sin historial previo<br>Given que el conductor nunca ha estacionado<br>When accede al historial de boletas<br>Then el sistema indica que no hay registros disponibles | EP07 |
-| US35 | Obtención de cuenta administrativa de un estacionamiento | Como administrador, quiero obtener una cuenta administrativa para un estacionamiento, para poder gestionar y supervisar sus operaciones. | Feature: Registro de cuenta administrativa para un estacionamiento<br><br>Scenario: Administrador solicita y recibe acceso<br>Given que el administrador completa el formulario con los datos del estacionamiento<br>When envía la solicitud<br>Then el sistema genera la cuenta y envía las credenciales por correo<br><br>Scenario: Solicitud con datos incompletos o inválidos<br>Given que el formulario tiene errores de validación<br>When se intenta enviar<br>Then el sistema rechaza la solicitud y muestra los errores | EP08 |
-| US36 | Inicio de sesión de administrador | Como administrador, quiero iniciar sesión en el sistema, para acceder a las funcionalidades de gestión del estacionamiento. | Feature: Inicio de sesión del administrador<br><br>Scenario: Acceso exitoso con credenciales válidas<br>Given que el administrador tiene un usuario y contraseña válidos<br>When ingresa sus credenciales en el login<br>Then accede correctamente al sistema<br><br>Scenario: Intento de login con credenciales incorrectas<br>Given que el administrador ingresa una contraseña errónea<br>When intenta iniciar sesión<br>Then el sistema muestra un mensaje de error<br>And no permite el acceso | EP08 |
-| US37 | Recuperación de una cuenta administrativa por correo vinculado | Como administrador, quiero recuperar mi cuenta administrativa usando mi correo vinculado, para restablecer el acceso en caso de olvido de credenciales. | Feature: Recuperación de cuenta administrativa por correo<br><br>Scenario: Recuperación exitosa con correo válido<br>Given que el administrador ingresa un correo vinculado a su cuenta<br>When solicita recuperación<br>Then el sistema envía un enlace de restablecimiento al correo<br><br>Scenario: Correo no vinculado a ninguna cuenta<br>Given que el correo ingresado no está registrado<br>When se solicita recuperación<br>Then el sistema muestra un mensaje de "correo no registrado" | EP08 |
-| US38 | Servicio al cliente para edición o recuperación de una cuenta administrativa | Como administrador, quiero contactar al servicio al cliente para editar o recuperar mi cuenta, para resolver problemas de acceso o errores en los datos de la cuenta. | Feature: Soporte para edición o recuperación de cuenta<br><br>Scenario: El administrador contacta al soporte y recibe respuesta<br>Given que el administrador completa el formulario de contacto<br>When envía la solicitud al servicio al cliente<br>Then recibe una confirmación y respuesta en menos de 24h<br><br>Scenario: El formulario de contacto es enviado incompleto<br>Given que el administrador no llena todos los campos requeridos<br>When intenta enviar el formulario<br>Then el sistema muestra los campos obligatorios con errores | EP08 |
-| US39 | Edición del perfil de una cuenta administrativa | Como administrador, quiero editar el perfil de mi cuenta administrativa, para mantener mi información actualizada y correcta. | Feature: Edición del perfil del administrador<br><br>Scenario: El administrador actualiza su información correctamente<br>Given que el administrador está autenticado<br>When accede a su perfil y modifica su información<br>And guarda los cambios<br>Then el sistema actualiza el perfil correctamente<br>And muestra un mensaje de éxito<br><br>Scenario: El administrador deja campos requeridos vacíos<br>Given que el administrador accede a la edición del perfil<br>When deja el campo "correo electrónico" vacío<br>And guarda los cambios<br>Then el sistema muestra un mensaje de error de validación | EP08 |
-| US40 | Visualización de Resumen Estadístico del uso del Estacionamiento como menú principal | Como administrador, quiero visualizar un resumen estadístico del uso del estacionamiento como menú principal, para obtener una visión general rápida del desempeño y uso del espacio. | Feature: Resumen estadístico como menú principal<br><br>Scenario: Acceso exitoso al panel estadístico<br>Given que el administrador inicia sesión en el sistema<br>When accede al menú principal<br>Then se muestran estadísticas de uso actual, histórico y ocupación promedio<br><br>Scenario: Fallo al cargar estadísticas por error de servicio<br>Given que hay un error en el servicio de estadísticas<br>When el administrador accede al menú principal<br>Then se muestra un mensaje de error<br>And se registra el incidente | EP08 |
-| US41 | Visualización de las cámaras de seguridad del estacionamiento | Como administrador, quiero ver las cámaras de seguridad del estacionamiento, para monitorear en tiempo real lo que sucede en las instalaciones. | Feature: Visualización general de cámaras de seguridad<br><br>Scenario: El administrador visualiza correctamente todas las cámaras disponibles<br>Given que las cámaras están funcionando<br>When el administrador accede al módulo de cámaras<br>Then se muestran todas las transmisiones en tiempo real<br><br>Scenario: Una o más cámaras están desconectadas<br>Given que algunas cámaras están fuera de servicio<br>When el administrador accede al módulo de cámaras<br>Then el sistema muestra una indicación de cámara desconectada | EP09 |
-| US42 | Visualización detallada de una cámara de seguridad del estacionamiento | Como administrador, quiero visualizar de forma detallada una cámara de seguridad específica, para enfocar mi atención en un área particular del estacionamiento. | Feature: Vista detallada de una cámara específica<br><br>Scenario: El administrador selecciona una cámara y visualiza su transmisión<br>Given que la cámara está conectada<br>When el administrador hace clic en una cámara del listado<br>Then se muestra su transmisión en vista ampliada<br><br>Scenario: La cámara seleccionada no tiene señal<br>Given que la cámara tiene problemas de conexión<br>When el administrador intenta abrir su vista detallada<br>Then el sistema informa que no hay señal disponible | EP09 |
-| US43 | Visualización del listado de conductores estacionados actualmente y anteriormente | Como administrador, quiero ver el listado de conductores actualmente estacionados y de los que han estado anteriormente, para tener control y trazabilidad del uso del estacionamiento. | Feature: Visualización de conductores estacionados<br><br>Scenario: Visualización de conductores actualmente estacionados<br>Given que hay vehículos estacionados<br>When el administrador accede al módulo de conductores<br>Then se muestra el listado de usuarios presentes<br><br>Scenario: Error al recuperar historial de estacionados anteriores<br>Given que el sistema presenta un error de conexión con la base de datos<br>When el administrador solicita el historial<br>Then se muestra un mensaje de error temporal | EP09 |
-| US44 | Visualización del listado de conductores estacionados durante un día en específico | Como administrador, quiero ver el listado de conductores que estuvieron estacionados durante un día específico, para realizar análisis o auditorías por fecha. | Feature: Visualización por fecha de conductores estacionados<br><br>Scenario: El administrador consulta el listado por una fecha válida<br>Given que hay registros del 15 de marzo<br>When selecciona esa fecha en el calendario<br>Then se muestra el listado de conductores de ese día<br><br>Scenario: El administrador selecciona una fecha sin registros<br>Given que no hay datos del 1 de enero<br>When selecciona esa fecha<br>Then el sistema muestra un mensaje indicando que no hay resultados | EP09 |
-| US45 | Visualización detallada de un conductor en específico | Como administrador, quiero visualizar el detalle de un conductor en específico, para revisar su historial, pagos o incidentes relacionados. | Feature: Visualización del perfil de un conductor<br><br>Scenario: El administrador accede al perfil detallado de un conductor<br>Given que el conductor está registrado<br>When el administrador lo selecciona en la lista<br>Then se muestra su historial, pagos y eventos<br><br>Scenario: El conductor no existe en la base de datos<br>Given que el ID del conductor no es válido<br>When se intenta acceder a su detalle<br>Then el sistema muestra un mensaje de "conductor no encontrado" | EP09 |
-| US46 | Visualización de sistema de resolución de casos extremos en el estacionamiento | Como administrador, quiero acceder al sistema de resolución de casos extremos en el estacionamiento, para poder actuar rápidamente ante situaciones fuera de lo común. | Feature: Gestión de casos extremos<br><br>Scenario: El administrador accede al sistema de casos extremos<br>Given que está autenticado como administrador<br>When accede a la sección de resolución de casos<br>Then puede visualizar y gestionar los casos activos<br><br>Scenario: El administrador sin permisos especiales intenta acceder<br>Given que el usuario tiene rol limitado<br>When accede al módulo de casos extremos<br>Then se deniega el acceso<br>And se muestra un mensaje de autorización insuficiente | EP09 |
-| US47 | Cancelación manual del pago de algún conductor por caso extremo | Como administrador, quiero cancelar manualmente el pago de un conductor en un caso extremo, para ofrecer una solución rápida y excepcional ante imprevistos. | Feature: Cancelación excepcional de pago<br><br>Scenario: El administrador cancela el pago de un conductor<br>Given que hay un caso extremo aprobado<br>When el administrador selecciona el conductor y confirma la cancelación<br>Then el sistema anula el pago<br>And registra la excepción en el historial<br><br>Scenario: El administrador intenta cancelar un pago sin justificación<br>Given que no hay un caso extremo registrado<br>When intenta cancelar el pago<br>Then el sistema muestra una advertencia y bloquea la acción | EP09 |
-| US48 | Visualización de monitoreo de la funcionalidad de los dispositivos IoT del estacionamiento | Como administrador, quiero visualizar el monitoreo de la funcionalidad de los dispositivos IoT del estacionamiento, para asegurarme de que todos los componentes estén operativos y detectar fallos a tiempo. | Feature: Visualización del estado de los dispositivos IoT<br><br>Scenario: Todos los dispositivos están operativos<br>Given que los sensores y cámaras están funcionando correctamente<br>When el administrador accede al panel de monitoreo<br>Then se muestran todos los dispositivos con estado "OK"<br><br>Scenario: Un sensor reporta fallo de funcionamiento<br>Given que un sensor no responde<br>When se consulta el estado en el panel<br>Then el dispositivo aparece en rojo o con estado "FALLANDO"<br>And se sugiere revisión técnica | EP09 |
-| US49 | Cambio de luz LED cuando un carro se estaciona | Como conductor, quiero que la luz LED del espacio de estacionamiento cambie de color automáticamente cuando un vehículo se estacione, para saber visualmente si un espacio está ocupado o disponible. | Feature: Cambio de luz LED cuando un carro se estaciona<br><br>Scenario: Encendido de luz LED cuando un carro se estaciona correctamente<br>Given que el sensor IoT detecta la presencia de un vehículo en el espacio de estacionamiento<br>When el vehículo se posiciona correctamente dentro del espacio<br>Then la luz LED debería cambiar a color rojo para indicar que el espacio está ocupado<br><br>Scenario: Luz LED no cambia al detectar el vehículo<br>Given que el sensor IoT detecta un vehículo en el espacio de estacionamiento<br>When el sistema de control de luces presenta un fallo de comunicación<br>Then la luz LED debería mantenerse en su estado anterior<br>And se debería registrar un error en el sistema para su revisión técnica | EP09 |
-| TS01 | Puerta de Entrada del Parking IoT con Cámara | Como desarrollador, quiero integrar una puerta de entrada IoT con cámara al sistema, para capturar imágenes o video de los vehículos al ingresar y permitir su control automatizado. | Feature: Registro de entrada de vehículos mediante cámara IoT<br><br>Scenario: Vehículo autorizado entra y es capturado correctamente<br>Given que el sistema está conectado a la cámara de la puerta de entrada<br>When un vehículo autorizado se aproxima<br>And la cámara captura la imagen del vehículo<br>Then la imagen se guarda en el sistema<br>And se abre la puerta automáticamente<br><br>Scenario: La cámara falla al capturar la imagen<br>Given que el sistema está operativo pero la cámara está desconectada<br>When un vehículo se aproxima<br>Then el sistema muestra una alerta de error de cámara<br>And no se permite el acceso al vehículo | EP11 |
-| TS02 | Puerta de Salida del Parking IoT con Cámara | Como desarrollador, quiero implementar una puerta de salida IoT con cámara, para registrar la salida de vehículos y validar su autorización de forma visual o automática. | Feature: Registro de salida de vehículos mediante cámara IoT<br><br>Scenario: Vehículo con ticket válido sale y se registra su salida<br>Given que el sistema reconoce al vehículo mediante la cámara de salida<br>When el vehículo presenta un ticket válido<br>Then la cámara registra la salida<br>And la barrera se abre automáticamente<br><br>Scenario: Vehículo intenta salir sin autorización<br>Given que la cámara captura un vehículo en la salida<br>When el sistema no encuentra una entrada registrada o el ticket está vencido<br>Then el sistema muestra un mensaje de error<br>And no se abre la barrera | EP02 |
-| TS03 | Sensores Magnéticos IoT en cada Estacionamiento | Como desarrollador, quiero instalar e integrar sensores magnéticos IoT en cada plaza de estacionamiento, para detectar la ocupación en tiempo real y alimentar el sistema de disponibilidad. | Feature: Detección de ocupación en tiempo real<br><br>Scenario: Un vehículo ocupa una plaza vacía<br>Given que el sensor magnético está activo en una plaza de estacionamiento<br>When un vehículo se estaciona<br>Then el sistema marca esa plaza como ocupada en el sistema<br><br>Scenario: El sensor reporta falsos positivos<br>Given que el sensor está mal calibrado<br>When no hay vehículo presente<br>Then el sistema marca incorrectamente la plaza como ocupada<br>And se notifica al administrador de la anomalía | EP02 |
-| TS04 | IoT Gateway | Como desarrollador, quiero configurar un IoT Gateway que centralice la comunicación entre los dispositivos IoT y la nube, para asegurar la conectividad y sincronización de datos del sistema. | Feature: Comunicación centralizada entre dispositivos IoT y la nube<br><br>Scenario: Gateway conectado transmite datos correctamente<br>Given que todos los sensores y nodos Edge están conectados al Gateway<br>When se genera un evento de sensor<br>Then el Gateway transmite los datos a la nube exitosamente<br><br>Scenario: El Gateway pierde conexión con la nube<br>Given que el Gateway está en funcionamiento pero sin acceso a internet<br>When se genera un evento<br>Then el sistema guarda el evento en caché<br>And reintenta la sincronización cada 60 segundos | EP02 |
-| TS05 | Edge Node IoT en cada Estacionamiento | Como desarrollador, quiero desplegar nodos Edge IoT en cada estación de parqueo, para procesar datos localmente y reducir la latencia en la toma de decisiones. | Feature: Procesamiento local de datos con nodos Edge<br><br>Scenario: El nodo Edge procesa la entrada de un vehículo<br>Given que el nodo Edge está operativo<br>When detecta un evento de entrada por el sensor<br>Then procesa el dato localmente<br>And envía resumen al Gateway<br><br>Scenario: Nodo Edge se desconecta del sistema<br>Given que el nodo Edge pierde energía o se desconecta<br>When ocurre un evento de sensor<br>Then no se realiza el procesamiento local<br>And se reporta la falla al sistema central | EP02 |
-| TS06 | Autenticación basada en token JWT | Como desarrollador, quiero implementar un sistema de autenticación basado en tokens JWT, para permitir una autenticación segura y sin estado en todos los servicios del sistema. | Feature: Seguridad basada en autenticación JWT<br><br>Scenario: Usuario válido inicia sesión<br>Given que el usuario tiene credenciales válidas<br>When realiza login en la plataforma<br>Then se genera un token JWT firmado<br>And el usuario puede acceder a los servicios protegidos<br><br>Scenario: Usuario con credenciales inválidas<br>Given que el usuario proporciona una contraseña incorrecta<br>When intenta iniciar sesión<br>Then el sistema rechaza la solicitud<br>And no se genera ningún token JWT | EP03 |
-| TS07 | Permiso de bancas para utilizar sus datos en la pasarela de pago | Como desarrollador, quiero gestionar los permisos y acuerdos necesarios con las instituciones bancarias o proveedores de pagos, para poder acceder y utilizar sus sistemas en la implementación de una pasarela de pago propia. | Feature: Integración con pasarelas de pago bancarias<br><br>Scenario: Acuerdo firmado con el banco<br>Given que se ha firmado un acuerdo de uso de API con el banco<br>When se realiza una transacción de pago<br>Then el sistema puede comunicarse con la API del banco<br>And la transacción se completa exitosamente<br><br>Scenario: No hay acuerdo firmado con el banco<br>Given que no se ha firmado ningún convenio con el banco<br>When se intenta acceder a sus sistemas de pago<br>Then el sistema bloquea el intento<br>And muestra un mensaje de error de integración no autorizada | EP03 |
-| TS08 | Cámaras de Vigilancia IoT | Como desarrollador, quiero integrar cámaras de vigilancia IoT al sistema, para monitorear el entorno del estacionamiento en tiempo real y mejorar la seguridad. | Feature: Monitoreo de seguridad con cámaras de vigilancia IoT<br><br>Scenario: Cámaras operativas transmiten video correctamente<br>Given que las cámaras están encendidas y conectadas al sistema<br>When se inicia el monitoreo en tiempo real<br>Then se muestra la transmisión en vivo sin interrupciones<br><br>Scenario: Cámara fuera de línea<br>Given que una cámara ha perdido conexión con el sistema<br>When el sistema intenta acceder a su transmisión<br>Then se muestra una alerta de desconexión<br>And se notifica al personal técnico | EP06 |
-| TS09 | Dispositivos de Monitoreo de Funcionalidad de otros Dispositivos IoT | Como desarrollador, quiero implementar dispositivos que supervisen el estado de funcionamiento de otros dispositivos IoT, para detectar fallos y garantizar la operatividad del sistema. | Feature: Supervisión del estado de dispositivos IoT<br><br>Scenario: Dispositivo IoT operativo es monitoreado correctamente<br>Given que un sensor está funcionando correctamente<br>When el sistema de monitoreo realiza una verificación<br>Then se registra el estado como "Operativo"<br><br>Scenario: Dispositivo presenta fallas<br>Given que un dispositivo no responde a la verificación<br>When el sistema intenta conectarse<br>Then se marca como "Inactivo"<br>And se genera una alerta automática | EP02 |
-| TS10 | Implementación de un servicio IAM con REST API | Como desarrollador, quiero implementar un servicio de gestión de identidades y accesos (IAM) usando una REST API, para controlar la autenticación y autorización de usuarios dentro del sistema. | Feature: Gestión de identidades y accesos<br><br>Scenario: Usuario accede con token válido<br>Given que el usuario tiene un token válido<br>When accede a un recurso protegido vía API<br>Then el acceso es concedido<br><br>Scenario: Usuario intenta acceder sin token<br>Given que el usuario no proporciona un token<br>When intenta consumir un endpoint protegido<br>Then el sistema responde con código 401 | EP09 |
-| TS11 | Implementación de un servicio Camera Feed con WebRTC | Como desarrollador, quiero implementar un servicio de transmisión de video en tiempo real desde cámaras usando WebRTC, para permitir la visualización en vivo del entorno del estacionamiento. | Feature: Transmisión en vivo por WebRTC<br><br>Scenario: WebRTC inicia transmisión exitosamente<br>Given que la cámara y el servidor están configurados correctamente<br>When un usuario accede al feed en tiempo real<br>Then se establece la conexión WebRTC<br>And se visualiza el video en vivo<br><br>Scenario: WebRTC falla por configuración incorrecta<br>Given que la señal WebRTC no puede establecerse<br>When el usuario intenta conectarse<br>Then se muestra un mensaje de error<br>And no se transmite el video | EP10 |
-| TS12 | Implementación de un servicio Parking Spots con REST API | Como desarrollador, quiero crear un servicio REST API para gestionar la disponibilidad y estado de los espacios de estacionamiento, para facilitar la consulta y reserva en tiempo real. | Feature: Gestión de plazas de estacionamiento<br><br>Scenario: Consulta de disponibilidad exitosa<br>Given que hay plazas disponibles<br>When un cliente consulta el estado vía API<br>Then recibe una lista de espacios libres<br><br>Scenario: Reserva de una plaza ya ocupada<br>Given que una plaza ya está ocupada<br>When otro usuario intenta reservarla<br>Then el sistema responde con error de conflicto (409) | EP10 |
-| TS13 | Implementación de un servicio Payments con REST API | Como desarrollador, quiero implementar un servicio REST API que gestione los pagos de estacionamiento, para permitir transacciones electrónicas de forma segura y eficiente. | Feature: Procesamiento de pagos de estacionamiento<br><br>Scenario: Realizar un pago exitoso<br>Given que un usuario tiene un ticket pendiente de pago<br>When accede al endpoint de pagos con los datos correctos<br>Then el sistema debe procesar el pago<br>And confirmar la transacción como exitosa<br><br>Scenario: Intentar pagar con datos incompletos<br>Given que un usuario intenta realizar un pago<br>When falta información requerida en la solicitud<br>Then el sistema debe rechazar el pago<br>And retornar un mensaje de error indicando qué falta<br><br>Scenario: Intentar pagar pero el banco rechaza la transacción<br>Given que un usuario envía los datos correctos<br>When el sistema contacta al banco y recibe un rechazo<br>Then el sistema debe marcar el pago como fallido<br>And notificar al usuario del rechazo | EP11 |
-| TS14 | Implementación de un servicio Parking Circulation con REST API | Como desarrollador, quiero desarrollar un servicio REST API para registrar y monitorear la circulación de vehículos dentro del estacionamiento, para tener trazabilidad y control del flujo vehicular. | Feature: Registro de circulación vehicular<br><br>Scenario: Vehículo entra y se registra en el sistema<br>Given que el sistema está activo<br>When un vehículo entra al parqueadero<br>Then el evento de entrada es registrado vía API<br><br>Scenario: Vehículo no se registra por falla de red<br>Given que hay una interrupción en la conectividad<br>When el vehículo entra<br>Then no se registra el evento<br>And se almacena en buffer para reintento posterior | EP10 |
-| TS15 | Implementación de un servicio Monitoring con REST API | Como desarrollador, quiero implementar un servicio REST API que centralice información de estado y métricas del sistema, para facilitar el monitoreo y la detección temprana de incidentes. | Feature: Monitoreo centralizado de estado del sistema<br><br>Scenario: Todos los servicios reportan estado "OK"<br>Given que todos los servicios están funcionando<br>When se consulta el endpoint de monitoreo<br>Then el sistema devuelve un estado 200 con detalles saludables<br><br>Scenario: Uno o más servicios están caídos<br>Given que el servicio de pagos está fuera de línea<br>When se consulta el estado del sistema<br>Then el sistema indica el estado "Degradado"<br>And muestra detalles del servicio caído | EP10 |
-| TS16 | Implementación de un servicio Ticket Validation con REST API | Como desarrollador, quiero crear un servicio REST API para validar tickets de estacionamiento, para controlar el acceso y la salida de vehículos de manera automatizada y segura. | Feature: Validación de tickets de estacionamiento<br><br>Scenario: Ticket válido es aceptado<br>Given que el ticket tiene una entrada registrada y está vigente<br>When se valida vía API<br>Then el sistema responde con "válido"<br>And permite la salida del vehículo<br><br>Scenario: Ticket inválido o ya usado<br>Given que el ticket ha sido usado previamente<br>When se intenta validar nuevamente<br>Then el sistema responde con "inválido"<br>And deniega la salida | EP10 |
-| TS17 | Implementación de un servicio Notifications con REST API | Como developer, quiero implementar un servicio de notificaciones mediante una REST API, para poder enviar mensajes automáticos a los conductores sobre eventos importantes del sistema, como pagos, entradas o salidas del estacionamiento. | Feature: Implementación de un servicio Notifications con REST API<br><br>Scenario: Envío exitoso de notificación al conductor mediante el servicio REST<br>Given que el sistema necesita enviar una notificación al conductor<br>And el servicio Notifications está disponible<br>When se realiza una solicitud POST válida a la API de notificaciones con el contenido correspondiente<br>Then la API debería responder con un código 200 OK<br>And el conductor debería recibir la notificación en su dispositivo<br><br>Scenario: Fallo al enviar la notificación por error en la solicitud<br>Given que se intenta enviar una notificación mediante el servicio Notifications<br>When la solicitud POST contiene datos incompletos o inválidos<br>Then la API debería responder con un código de error 400 Bad Request<br>And no se debería enviar ninguna notificación | EP10 |
+| Epic / Story ID | Título                                                                                     | Descripción                                                                                                                                                                                                                                                                     | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Relacionado con (Epic ID) |
+|----------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ------------------------- |
+| US01           | Barra de navegación de Landing Page                                                        | Como visitante, quiero una barra de navegación accesible para moverme fácilmente entre las secciones principales de la landing page.                                                                                                                                            | Feature: Barra de navegación de Landing Page<br><br>Scenario: Visualización y funcionamiento de la barra de navegación<br>Given que el visitante accede a la landing page<br>When visualiza la parte superior del sitio<br>Then debería ver una barra de navegación con enlaces a las secciones principales<br>And al hacer clic en un enlace, debería desplazarse a esa sección<br><br>Scenario: Error en la carga de la barra de navegación<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la barra de navegación<br>Then debería mostrarse un mensaje de error                                                                                                                                                                                                                                                                                                                       | EP01 |
+| US02           | Encabezado de Bienvenida de Landing Page                                                   | Como visitante, quiero visualizar de forma inmediata un encabezado con el propósito de la aplicación ParkUp, junto con un llamado a la acción claro que me motive a explorar la plataforma.                                                                                     | Feature: Encabezado de Bienvenida de Landing Page<br><br>Scenario: Visualización del encabezado de bienvenida<br>Given que el visitante accede a la landing page<br>When observa la parte superior del sitio<br>Then debería ver un encabezado claro con el propósito de la aplicación ParkUp<br>And debería ver un llamado a la acción claro para explorar la plataforma<br><br>Scenario: Falta de visualización del encabezado<br>Given que el visitante accede a la landing page<br>When el encabezado no carga correctamente<br>Then debería mostrarse un mensaje de error indicando que el encabezado no está disponible                                                                                                                                                                                                                                                                                                      | EP01 |
+| US03           | Sección Sobre Nosotros de Landing Page                                                     | Como visitante, quiero conocer la misión, visión y el equipo de desarrollo de ParkUp, con el fin de generar confianza en el proyecto y comprender su impacto.                                                                                                                   | Feature: Sección Sobre Nosotros de Landing Page<br><br>Scenario: Visualización de la sección "Sobre Nosotros"<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de "Sobre Nosotros" en la barra de navegación<br>Then debería visualizar la misión, visión y el equipo de desarrollo de ParkUp<br>And la información debe estar organizada y ser clara<br><br>Scenario: Error en la carga de la sección "Sobre Nosotros"<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la sección "Sobre Nosotros"<br>Then debería mostrarse un mensaje de error                                                                                                                                                                                                                                                                                                       | EP01 |
+| US04           | Demostración del funcionamiento de la aplicación en la Landing Page                        | Como visitante, quiero observar una demostración visual del funcionamiento de la aplicación, para entender de manera práctica su utilidad y facilidad de uso.                                                                                                                   | Feature: Demostración del funcionamiento de la aplicación en el Landing Page<br><br>Scenario: Visualización de la demostración del funcionamiento de la aplicación<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de la demostración<br>Then debería ver un video o animación visual que explique cómo funciona la aplicación ParkUp<br>And el contenido debe ser claro y fácil de entender<br><br>Scenario: Error en la carga de la demostración<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la demostración<br>Then debería mostrarse un mensaje de error                                                                                                                                                                                                                                                                                       | EP01 |
+| US05           | Descripción de las funcionalidades de la aplicación en el Landing Page                     | Como visitante, quiero explorar las funcionalidades principales de ParkUp, a fin de evaluar si satisfacen mis necesidades respecto a la gestión de estacionamientos.                                                                                                            | Feature: Descripción de las funcionalidades de la aplicación en el Landing Page<br><br>Scenario: Visualización de las funcionalidades de la aplicación<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de "Funcionalidades" en la barra de navegación<br>Then debería visualizar una lista clara y detallada de las funcionalidades principales de ParkUp<br>And cada funcionalidad debe estar acompañada de una breve descripción<br><br>Scenario: Error en la carga de las funcionalidades<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la sección de funcionalidades<br>Then debería mostrarse un mensaje de error                                                                                                                                                                                                                               | EP01 |
+| US06           | Reseñas en el Landing Page                                                                 | Como visitante, quiero leer opiniones de otros usuarios sobre la aplicación, con el objetivo de obtener una referencia confiable sobre la efectividad del producto.                                                                                                             | Feature: Reseñas en el Landing Page<br><br>Scenario: Visualización de las reseñas de otros usuarios<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de "Reseñas" en la barra de navegación<br>Then debería visualizar una lista de opiniones de otros usuarios sobre la aplicación<br>And las reseñas deben ser verídicas y fácilmente legibles<br><br>Scenario: Error en la carga de las reseñas<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de las reseñas<br>Then debería mostrarse un mensaje de error                                                                                                                                                                                                                                                                                                                                            | EP01 |
+| US07           | Preguntas y Respuestas en Landing Page                                                     | Como visitante, quiero acceder a una sección de preguntas frecuentes que resuelva dudas comunes de manera rápida y concisa.                                                                                                                                                     | Feature: Preguntas y Respuestas en Landing Page<br><br>Scenario: Visualización de la sección de Preguntas y Respuestas<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de "Preguntas y Respuestas" en la barra de navegación<br>Then debería visualizar una lista de preguntas frecuentes con respuestas claras y concisas<br><br>Scenario: Error en la carga de las preguntas y respuestas<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la sección de Preguntas y Respuestas<br>Then debería mostrarse un mensaje de error                                                                                                                                                                                                                                                                                                                         | EP01 |
+| US08           | Clientes Satisfechos en Landing Page                                                       | Como visitante, quiero visualizar una sección de clientes satisfechos que muestre anteriores casos de exito para asegurarme la funcionalidad de la aplicación.                                                                                                                  | Feature: Clientes Satisfechos en Landing Page<br><br>Scenario: Visualización de la sección de Clientes Satisfechos<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de "Clientes Satisfechos" en la barra de navegación<br>Then debería visualizar una lista de establecimientos y clientes usuarios del sistema.<br><br>Scenario: Error en la carga de los Clientes Satisfechos<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la sección de Clientes Satisfechos<br>Then debería mostrarse un mensaje de error                                                                                                                                                                                                                                                                                                                                       | EP01 |
+| US09           | Sección de Contáctanos en Landing Page                                                     | Como visitante, quiero disponer de una sección de contacto para comunicarme con el equipo de ParkUp en caso de requerir más información o asistencia.                                                                                                                           | Feature: Sección de Contáctanos en Landing Page<br><br>Scenario: Visualización de la sección de contacto<br>Given que el visitante accede a la landing page<br>When hace clic en el enlace de "Contáctanos" en la barra de navegación<br>Then debería visualizar un formulario de contacto <br><br>Scenario: Error en la carga de la sección de contacto<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga de la sección de "Contáctanos"<br>Then debería mostrarse un mensaje de error                                                                                                                                                                                                                                                                                                                                                                                                       | EP01 |
+| US10           | Footer en Landing Page                                                                     | Como visitante, quiero encontrar en el pie de página enlaces útiles y de acceso rápido que complementen mi navegación por el sitio.                                                                                                                                             | Feature: Footer en Landing Page<br><br>Scenario: Visualización del pie de página<br>Given que el visitante accede a la landing page<br>When llega al final de la página<br>Then debería visualizar enlaces útiles en el pie de página <br>And los enlaces deben ser accesibles y funcionales<br><br>Scenario: Error en la carga del pie de página<br>Given que el visitante accede a la landing page<br>When ocurre un fallo en la carga del pie de página<br>Then debería mostrarse un mensaje de error                                                                                                                                                                                                                                                                                                                                                                                                                           | EP01 |
+| US11           | Registro de conductor como usuario                                                         | Como developer, quiero que el conductor pueda registrarse como usuario en el sistema, para poder acceder a las funcionalidades del sistema de parqueo conectado por IoT.                                                                                                        | Feature: Registro de conductor como usuario<br><br>Scenario: Registro exitoso de conductor<br>Given que el conductor accede al registro<br>When ingresa sus datos personales y presiona "Registrarse"<br>Then debería ver un mensaje de éxito indicando que el registro fue exitoso<br>And el conductor debería recibir un correo de confirmación<br><br>Scenario: Error en el registro por datos incompletos<br>Given que el conductor accede a la página de registro<br>When ingresa datos incompletos y presiona "Registrarse"<br>Then debería ver un mensaje de error indicando qué campos faltan<br>And no debería ser registrado en el sistema                                                                                                                                                                                                                                                                               | EP01 |
+| US12           | Inicio de sesión de conductor                                                              | Como developer, quiero que el conductor pueda iniciar sesión en el sistema utilizando sus credenciales, para que pueda acceder a la plataforma y gestionar su estacionamiento.                                                                                                  | Feature: Inicio de sesión de conductor<br><br>Scenario: Inicio de sesión exitoso<br>Given que el conductor tiene una cuenta registrada<br>When ingresa sus credenciales correctas y presiona "Iniciar sesión"<br>Then debería ser redirigido a la página principal del sistema<br>And debería ver un mensaje de bienvenida<br><br>Scenario: Error en el inicio de sesión por credenciales incorrectas<br>Given que el conductor tiene una cuenta registrada<br>When ingresa credenciales incorrectas y presiona "Iniciar sesión"<br>Then debería ver un mensaje de error indicando que las credenciales son incorrectas<br>And no debería acceder a la plataforma                                                                                                                                                                                                                                                                  | EP03 |
+| US13           | Edición de perfil de conductor                                                             | Como developer, quiero que el conductor pueda editar su perfil, para que pueda actualizar sus datos personales y guardar su método de pago de preferencia en el sistema.                                                                                                        | Feature: Edición de perfil de conductor<br><br>Scenario: Edición exitosa del perfil<br>Given que el conductor está autenticado en el sistema<br>When ingresa a la sección de "Editar perfil" y actualiza su información<br>Then debería ver un mensaje de éxito indicando que los cambios fueron guardados<br>And los cambios deberían reflejarse en su perfil<br><br>Scenario: Error al editar perfil por datos inválidos<br>Given que el conductor está autenticado en el sistema<br>When ingresa datos inválidos en el formulario de perfil y presiona "Guardar cambios"<br>Then debería ver un mensaje de error indicando qué datos son inválidos<br>And no deberían guardarse los cambios                                                                                                                                                                                                                                     | EP03 |
+| US14           | Recuperación de contraseña                                                                 | Como developer, quiero permitir que el conductor recupere su contraseña de forma segura, para que pueda recuperar el acceso a su cuenta en caso de olvidar sus credenciales.                                                                                                    | Feature: Recuperación de contraseña<br><br>Scenario: Recuperación exitosa de contraseña<br>Given que el conductor ha olvidado su contraseña<br>When ingresa su correo en la sección de "Recuperar contraseña" y presiona "Enviar enlace"<br>Then debería recibir un correo con el enlace para restablecer su contraseña<br>And debería poder ingresar una nueva contraseña<br><br>Scenario: Error en la recuperación de contraseña por correo no registrado<br>Given que el conductor ha olvidado su contraseña<br>When ingresa un correo no registrado en la sección de "Recuperar contraseña"<br>Then debería ver un mensaje de error indicando que el correo no está registrado<br>And no debería recibir un correo de recuperación                                                                                                                                                                                             | EP03 |
+| US15           | Eliminación de cuenta de conductor                                                         | Como developer, quiero que el conductor pueda eliminar su cuenta de usuario, para permitirle desvincularse completamente del sistema cuando así lo desee.                                                                                                                       | Feature: Eliminación de cuenta de conductor<br><br>Scenario: Eliminación exitosa de cuenta<br>Given que el conductor está autenticado en el sistema<br>When solicita la eliminación de su cuenta y confirma la acción<br>Then su cuenta debería ser eliminada permanentemente del sistema<br>And debería ver un mensaje de confirmación indicando que la cuenta ha sido eliminada<br><br>Scenario: Error al intentar eliminar cuenta sin confirmación<br>Given que el conductor está autenticado en el sistema<br>When solicita la eliminación de su cuenta pero no confirma la acción<br>Then no debería eliminarse su cuenta<br>And debería ver un mensaje de advertencia indicando que la acción no se completó                                                                                                                                                                                                                 | EP03 |
+| US16           | Escaneo QR mediante celular por el conductor                                               | Como conductor, quiero poder escanear un código QR con mi celular al llegar al estacionamiento, para poder acceder al sistema de estacionamientos del lugar.                                                                                                                    | Feature: Escaneo QR mediante celular por el conductor<br><br>Scenario: Escaneo exitoso de código QR<br>Given que el conductor llega al estacionamiento y tiene la app instalada<br>When escanea el código QR del estacionamiento usando su celular<br>Then debería ser redirigido automáticamente al sistema de parqueo<br>And debería ver la disponibilidad de espacios<br><br>Scenario: Error al escanear código QR<br>Given que el conductor llega al estacionamiento y tiene la app instalada<br>When intenta escanear un código QR no válido o ilegible<br>Then debería ver un mensaje de error indicando que el código QR no es válido<br>And no debería ser redirigido al sistema de parqueo                                                                                                                                                                                                                                | EP04 |
+| US17           | Visualización de estacionamientos disponibles en tiempo real más cercanos al conductor     | Como conductor, quiero ver en tiempo real los estacionamientos disponibles más cercanos, para poder tomar decisiones rápidas sobre dónde estacionar.                                                                                                                            | Feature: Visualización de estacionamientos disponibles, en tiempo real, más cercanos al conductor<br><br>Scenario: Visualización exitosa de estacionamientos cercanos<br>Given que el conductor está autenticado en el sistema <br>When solicita ver los estacionamientos disponibles cercanos a su ubicación<br>Then debería ver una lista de los estacionamientos disponibles más cercanos<br><br>Scenario: Error al visualizar estacionamientos disponibles<br>Given que el conductor está autenticado en el sistema<br>When el sistema no puede obtener la información de estacionamientos disponibles por problemas de red <br>Then debería ver un mensaje de error indicando que no se pueden mostrar los estacionamientos<br>And no debería ver una lista de estacionamientos                                                                                                                                               | EP04 |
+| US18           | Confirmación automática o manual de estacionamiento realizado por el conductor             | Como conductor, quiero que el sistema confirme automáticamente o me permita confirmar manualmente que he estacionado en el lugar exacto, para garantizar que mi acción sea registrada correctamente.                                                                            | Feature: Confirmación automática o manual de estacionamiento realizado por el conductor<br><br>Scenario: Confirmación exitosa de estacionamiento<br>Given que el conductor ha estacionado su vehículo<br>When el sistema detecta automáticamente que el vehículo ha sido estacionado o el conductor lo confirma manualmente<br>Then debería ver un mensaje indicando que el estacionamiento ha sido registrado correctamente<br>And el sistema debería actualizar el estado del espacio de estacionamiento como ocupado<br><br>Scenario: Error en la confirmación de estacionamiento<br>Given que el conductor ha estacionado su vehículo<br>When el sistema no puede detectar el estacionamiento debido a un error de IoT o el conductor no confirma manualmente<br>Then debería ver un mensaje de error indicando que el estacionamiento no ha sido registrado correctamente<br>And no debería actualizarse el estado del espacio | EP04 |
+| US19           | Visualización de menú de estacionamiento para el conductor                                 | Como conductor, quiero tener acceso a un menú de opciones dentro del sistema de estacionamiento, para gestionar acciones como pago, convalidación y solicitudes adicionales.                                                                                                    | Feature: Visualización de menú de estacionamiento para el conductor<br><br>Scenario: Visualización exitosa del menú de estacionamiento<br>Given que el conductor está autenticado en el sistema<br>When accede al sistema de estacionamiento<br>Then debería ver un menú de opciones con acciones como pago, convalidación y solicitudes adicionales<br><br>Scenario: Error al cargar el menú de estacionamiento<br>Given que el conductor está autenticado en el sistema<br>When ocurre un fallo al cargar el menú de estacionamiento<br>Then debería ver un mensaje de error indicando que no se pudo cargar el menú<br>And el conductor no debería tener acceso a las opciones                                                                                                                                                                                                                                                  | EP04 |
+| US20           | Notificación de entrada a estacionamiento para el conductor                                | Como conductor, quiero recibir una notificación confirmando mi entrada al estacionamiento, para estar seguro de que mi registro ha sido exitoso y la placa de mi vehículo se haya obtenido correctamente.                                                                       | Feature: Notificación de entrada a estacionamiento para el conductor<br><br>Scenario: Notificación exitosa de entrada al estacionamiento<br>Given que el conductor ha ingresado al estacionamiento y su placa ha sido registrada correctamente<br>When el sistema procesa la entrada del vehículo<br>Then el conductor debería recibir una notificación confirmando su entrada al estacionamiento<br><br>Scenario: Error en la notificación de entrada al estacionamiento<br>Given que el conductor ha ingresado al estacionamiento<br>When hay un problema al registrar la entrada del vehículo<br>Then el conductor debería ver un mensaje de error indicando que la entrada no ha sido procesada correctamente<br>And no debería recibir la notificación de entrada                                                                                                                                                             | EP04 |
+| US21           | Notificación de pago de estacionamiento para el conductor                                  | Como conductor, quiero recibir una notificación que confirme el pago de mi estacionamiento, para saber que mi transacción ha sido procesada correctamente.                                                                                                                      | Feature: Notificación de pago de estacionamiento para el conductor<br><br>Scenario: Notificación exitosa de pago realizado<br>Given que el conductor ha realizado el pago del estacionamiento<br>When el sistema procesa el pago correctamente<br>Then el conductor debería recibir una notificación confirmando que el pago ha sido procesado<br><br>Scenario: Error en la notificación de pago<br>Given que el conductor ha intentado realizar el pago del estacionamiento<br>When hay un problema con el pago<br>Then el conductor debería ver un mensaje de error indicando que el pago no ha sido procesado<br>And no debería recibir la notificación de pago exitoso                                                                                                                                                                                                                                                         | EP05 |
+| US22           | Notificación de poco tiempo antes del fin de la tolerancia de pago                         | Como conductor, quiero recibir una notificación cuando el tiempo de tolerancia esté por terminar, y si supero ese tiempo, el sistema automáticamente me solicitará realizar un nuevo pago, para asegurar que el estacionamiento continúe registrado y evitar problemas al salir. | Feature: Notificación de poco tiempo antes del fin de la tolerancia de pago de un estacionamiento para el conductor<br><br>Scenario: Notificación exitosa antes de que termine el tiempo de tolerancia<br>Given que el conductor ha pagado el estacionamiento<br>When el tiempo de tolerancia está por finalizar<br>Then el conductor debería recibir una notificación indicando que el tiempo de tolerancia está por terminar<br><br>Scenario: Error en la notificación de tiempo de tolerancia<br>Given que el conductor ha pagado el estacionamiento<br>When el sistema no puede calcular correctamente el tiempo de tolerancia restante<br>Then el conductor debería recibir un mensaje de error o no recibir la notificación a tiempo                                                                                                                                                                                         | EP05 |
+| US23           | Notificación de fin de tolerancia de pago de un estacionamiento                            | Como conductor, quiero recibir una notificación cuando el tiempo de tolerancia de pago haya terminado, para saber qué debo pagar de nuevo.                                                                                                                                      | Feature: Notificación de fin de tolerancia de pago de un estacionamiento para el conductor<br><br>Scenario: Notificación exitosa de fin de tolerancia<br>Given que el conductor ha pagado el estacionamiento<br>When el tiempo de tolerancia ha terminado<br>Then el conductor debería recibir una notificación indicando que debe realizar un nuevo pago<br><br>Scenario: Error en la notificación de fin de tolerancia<br>Given que el conductor ha pagado el estacionamiento<br>When el sistema no puede procesar correctamente el tiempo de tolerancia<br>Then el conductor debería ver un mensaje de error indicando que no se pudo enviar la notificación                                                                                                                                                                                                                                                                    | EP05 |
+| US24           | Registro de tarjeta de crédito/débito del conductor                                        | Como conductor, quiero registrar mi tarjeta de crédito/débito en el sistema, para poder realizar pagos automáticos cuando desee retirar el vehículo del estacionamiento.                                                                                                        | Feature: Registro de tarjeta de crédito/débito del conductor<br><br>Scenario: Registro exitoso de tarjeta de crédito/débito<br>Given que el conductor está autenticado en el sistema<br>When ingresa los detalles de su tarjeta de crédito/débito y confirma<br>Then la tarjeta debería ser registrada en el sistema<br>And el conductor debería ver un mensaje de éxito<br><br>Scenario: Error al registrar tarjeta de crédito/débito<br>Given que el conductor está autenticado en el sistema<br>When ingresa datos incorrectos o incompletos para registrar su tarjeta<br>Then debería ver un mensaje de error indicando que los datos no son válidos<br>And no se debería registrar la tarjeta en el sistema                                                                                                                                                                                                                   | EP06 |
+| US25           | Eliminación de tarjeta de crédito/débito del conductor                                     | Como conductor, quiero poder eliminar mi tarjeta de crédito/débito del sistema, para asegurarme de que no se mantengan mis datos de pago almacenados si ya no los necesito.                                                                                                     | Feature: Eliminación de tarjeta de crédito/débito del conductor<br><br>Scenario: Eliminación exitosa de tarjeta de crédito/débito<br>Given que el conductor tiene una tarjeta de crédito/débito registrada<br>When solicita eliminar la tarjeta y confirma la acción<br>Then la tarjeta debería ser eliminada del sistema<br>And el conductor debería recibir un mensaje de confirmación<br><br>Scenario: Error al intentar eliminar tarjeta de crédito/débito<br>Given que el conductor tiene una tarjeta de crédito/débito registrada<br>When solicita eliminar la tarjeta pero no confirma la acción<br>Then la tarjeta no debería ser eliminada<br>And el conductor debería ver un mensaje indicando que la eliminación no se realizó                                                                                                                                                                                          | EP06 |
+| US26           | Visualización de listado de tarjetas de crédito/débito del conductor                       | Como conductor, quiero visualizar un listado de las tarjetas de crédito/débito registradas en mi perfil, para poder elegir cuál utilizar al momento de realizar el pago en línea.                                                                                               | Feature: Visualización de listado de tarjetas de crédito/débito del conductor<br><br>Scenario: Visualización exitosa del listado de tarjetas<br>Given que el conductor tiene varias tarjetas registradas<br>When accede a la sección de "Tarjetas de crédito/débito" en su perfil<br>Then debería ver un listado de las tarjetas registradas con su tipo y último dígito<br><br>Scenario: Error al intentar visualizar las tarjetas registradas<br>Given que el conductor tiene tarjetas registradas<br>When hay un fallo en la carga del listado de tarjetas<br>Then debería ver un mensaje de error indicando que no se pueden cargar las tarjetas<br>And no debería ver el listado                                                                                                                                                                                                                                              | EP06 |
+| US27           | Activación y Desactivación de pago automático del conductor                                | Como conductor, quiero poder activar o desactivar el pago automático para mis futuras transacciones de estacionamiento, para decidir cómo realizar el pago al momento de retirarme.                                                                                             | Feature: Activación y Desactivación de pago automático del conductor<br><br>Scenario: Activación exitosa de pago automático<br>Given que el conductor está autenticado en el sistema<br>When activa la opción de "Pago automático" en su perfil<br>Then el pago automático debería quedar habilitado para sus futuras transacciones<br>And el conductor debería recibir un mensaje de confirmación<br><br>Scenario: Error al intentar activar el pago automático<br>Given que el conductor está autenticado en el sistema<br>When hay un fallo en la activación del pago automático<br>Then debería ver un mensaje de error indicando que no se pudo activar la opción<br>And el pago automático no debería ser activado                                                                                                                                                                                                           | EP06 |
+| US28           | Realización de convalidación de pago del estacionamiento del conductor                     | Como conductor, quiero realizar la convalidación de mi pago de estacionamiento, para confirmar que mi transacción ha sido procesada correctamente antes de salir.                                                                                                               | Feature: Realización de convalidación de pago del estacionamiento del conductor<br><br>Scenario: Convalidación exitosa del pago<br>Given que el conductor ha realizado el pago del estacionamiento<br>When solicita realizar la convalidación del pago<br>Then el sistema debería confirmar que la transacción ha sido procesada correctamente<br>And el conductor debería ver una notificación de confirmación<br><br>Scenario: Error al realizar la convalidación de pago<br>Given que el conductor ha intentado realizar la convalidación del pago<br>When hay un problema con el proceso de convalidación<br>Then el conductor debería ver un mensaje de error indicando que la convalidación no fue exitosa<br>And no debería quedar registrado el pago                                                                                                                                                                       | EP07 |
+| US29           | Realización del pago a cancelar del estacionamiento del conductor                          | Como conductor, quiero realizar el pago correspondiente al estacionamiento mediante una opción manual o automática, para completar mi transacción y poder retirarme sin problemas.                                                                                              | Feature: Realización del pago a cancelar del estacionamiento del conductor<br><br>Scenario: Pago exitoso realizado por el conductor<br>Given que el conductor desea pagar por su estacionamiento<br>When realiza el pago mediante el sistema<br>Then el sistema debería procesar el pago correctamente y actualizar el estado del estacionamiento<br><br>Scenario: Error al realizar el pago<br>Given que el conductor desea pagar por su estacionamiento<br>When hay un problema al procesar el pago<br>Then el conductor debería ver un mensaje de error indicando que el pago no fue exitoso<br>And el estado del estacionamiento no debe actualizarse                                                                                                                                                                                                                                                                          | EP07 |
+| US30           | Retiro ininterrumpido del estacionamiento por pago automático                              | Como conductor, quiero poder retirar mi vehículo sin interrupciones después de haber realizado el pago automático, para no tener que hacer ninguna acción adicional.                                                                                                            | Feature: Retiro ininterrumpido del estacionamiento por pago automático<br><br>Scenario: Retiro exitoso después de pago automático<br>Given que el conductor ha activado el pago automático y el pago ha sido procesado correctamente<br>When el conductor llega a la salida del estacionamiento<br>Then debería poder retirar su vehículo sin interrupciones ni acciones adicionales<br><br>Scenario: Error al retirar el vehículo después de pago automático<br>Given que el conductor ha activado el pago automático y el pago ha sido procesado correctamente<br>When el sistema no permite el retiro del vehículo por un fallo en la validación de pago<br>Then el conductor debería ver un mensaje de error indicando que no puede retirar el vehículo<br>And el vehículo no debería salir del estacionamiento                                                                                                                | EP07 |
+| US31           | Retiro posterior al pago manual del estacionamiento                                        | Como conductor, quiero poder retirar mi vehículo después de realizar el pago manual, asegurándome de que la transacción esté confirmada antes de salir del estacionamiento.                                                                                                     | Feature: Retiro posterior al pago manual del estacionamiento<br><br>Scenario: Retiro exitoso después de pago manual<br>Given que el conductor ha realizado un pago manual y la transacción ha sido confirmada<br>When el conductor llega a la salida del estacionamiento<br>Then debería poder retirar su vehículo sin problemas, tras confirmar el pago<br><br>Scenario: Error al retirar el vehículo después de pago manual<br>Given que el conductor ha realizado un pago manual y la transacción ha sido confirmada<br>When el sistema no valida correctamente el pago del conductor<br>Then el conductor debería ver un mensaje de error indicando que la transacción no ha sido confirmada<br>And no debería poder retirar su vehículo hasta que el problema sea solucionado                                                                                                                                                 | EP07 |
+| US32           | Visualización de tiempo de tolerancia desde cancelación del pago                           | Como conductor, quiero visualizar el tiempo de tolerancia después de cancelar el pago del estacionamiento, para saber cuánto tiempo tengo antes de que se genere una penalización o multa.                                                                                      | Feature: Visualización del tiempo de tolerancia después del pago<br><br>Scenario: Conductor visualiza el tiempo de tolerancia restante<br>Given que el conductor ha realizado un pago exitoso<br>When accede a la pantalla de tiempo de tolerancia<br>Then el sistema muestra una cuenta regresiva con el tiempo restante<br><br>Scenario: Conductor intenta ver tolerancia sin haber pagado<br>Given que el conductor no ha realizado un pago<br>When intenta acceder al tiempo de tolerancia<br>Then el sistema muestra un mensaje indicando que no hay tolerancia activa                                                                                                                                                                                                                                                                                                                                                        | EP07 |
+| US33           | Visualización de boleta virtual e interactiva del estacionamiento realizado                | Como conductor, quiero ver una boleta virtual e interactiva del estacionamiento realizado, para consultar los detalles de mi uso del estacionamiento de forma clara y digital.                                                                                                  | Feature: Visualización de boleta virtual interactiva del estacionamiento<br><br>Scenario: Conductor accede a su boleta reciente<br>Given que el conductor tiene una boleta generada<br>When accede al módulo de boleta<br>Then el sistema muestra los detalles del estacionamiento (hora, pago, ubicación)<br><br>Scenario: No hay boleta disponible para mostrar<br>Given que el conductor aún no ha completado un estacionamiento<br>When intenta ver una boleta<br>Then el sistema muestra un mensaje de "sin boleta disponible"                                                                                                                                                                                                                                                                                                                                                                                                | EP07 |
+| US34           | Visualización de listado de boletas virtuales e interactivas de estacionamientos realizados | Como conductor, quiero visualizar un listado de todas mis boletas virtuales e interactivas de estacionamientos realizados, para tener un historial de mis pagos y usos anteriores.                                                                                              | Feature: Historial de boletas virtuales de estacionamiento<br><br>Scenario: Conductor revisa su historial de boletas<br>Given que el conductor tiene estacionamientos previos<br>When accede al historial de boletas<br>Then el sistema muestra una lista con detalles resumidos de cada una<br><br>Scenario: Conductor sin historial previo<br>Given que el conductor nunca ha estacionado<br>When accede al historial de boletas<br>Then el sistema indica que no hay registros disponibles                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP07 |
+| US35           | Obtención de cuenta administrativa de un estacionamiento                                   | Como administrador, quiero obtener una cuenta administrativa para un estacionamiento, para poder gestionar y supervisar sus operaciones.                                                                                                                                        | Feature: Registro de cuenta administrativa para un estacionamiento<br><br>Scenario: Administrador solicita y recibe acceso<br>Given que el administrador completa el formulario con los datos del estacionamiento<br>When envía la solicitud<br>Then el sistema genera la cuenta y envía las credenciales por correo<br><br>Scenario: Solicitud con datos incompletos o inválidos<br>Given que el formulario tiene errores de validación<br>When se intenta enviar<br>Then el sistema rechaza la solicitud y muestra los errores                                                                                                                                                                                                                                                                                                                                                                                                   | EP08 |
+| US36           | Inicio de sesión de administrador                                                          | Como administrador, quiero iniciar sesión en el sistema, para acceder a las funcionalidades de gestión del estacionamiento.                                                                                                                                                     | Feature: Inicio de sesión del administrador<br><br>Scenario: Acceso exitoso con credenciales válidas<br>Given que el administrador tiene un usuario y contraseña válidos<br>When ingresa sus credenciales en el login<br>Then accede correctamente al sistema<br><br>Scenario: Intento de login con credenciales incorrectas<br>Given que el administrador ingresa una contraseña errónea<br>When intenta iniciar sesión<br>Then el sistema muestra un mensaje de error<br>And no permite el acceso                                                                                                                                                                                                                                                                                                                                                                                                                                | EP08 |
+| US37           | Recuperación de una cuenta administrativa por correo vinculado                             | Como administrador, quiero recuperar mi cuenta administrativa usando mi correo vinculado, para restablecer el acceso en caso de olvido de credenciales.                                                                                                                         | Feature: Recuperación de cuenta administrativa por correo<br><br>Scenario: Recuperación exitosa con correo válido<br>Given que el administrador ingresa un correo vinculado a su cuenta<br>When solicita recuperación<br>Then el sistema envía un enlace de restablecimiento al correo<br><br>Scenario: Correo no vinculado a ninguna cuenta<br>Given que el correo ingresado no está registrado<br>When se solicita recuperación<br>Then el sistema muestra un mensaje de "correo no registrado"                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP08 |
+| US38           | Servicio al cliente para edición o recuperación de una cuenta administrativa               | Como administrador, quiero contactar al servicio al cliente para editar o recuperar mi cuenta, para resolver problemas de acceso o errores en los datos de la cuenta.                                                                                                           | Feature: Soporte para edición o recuperación de cuenta<br><br>Scenario: El administrador contacta al soporte y recibe respuesta<br>Given que el administrador completa el formulario de contacto<br>When envía la solicitud al servicio al cliente<br>Then recibe una confirmación y respuesta en menos de 24h<br><br>Scenario: El formulario de contacto es enviado incompleto<br>Given que el administrador no llena todos los campos requeridos<br>When intenta enviar el formulario<br>Then el sistema muestra los campos obligatorios con errores                                                                                                                                                                                                                                                                                                                                                                             | EP08 |
+| US39           | Edición del perfil de una cuenta administrativa                                            | Como administrador, quiero editar el perfil de mi cuenta administrativa, para mantener mi información actualizada y correcta.                                                                                                                                                   | Feature: Edición del perfil del administrador<br><br>Scenario: El administrador actualiza su información correctamente<br>Given que el administrador está autenticado<br>When accede a su perfil y modifica su información<br>And guarda los cambios<br>Then el sistema actualiza el perfil correctamente<br>And muestra un mensaje de éxito<br><br>Scenario: El administrador deja campos requeridos vacíos<br>Given que el administrador accede a la edición del perfil<br>When deja el campo "correo electrónico" vacío<br>And guarda los cambios<br>Then el sistema muestra un mensaje de error de validación                                                                                                                                                                                                                                                                                                                  | EP08 |
+| US40           | Visualización de Resumen Estadístico del uso del Estacionamiento como menú principal       | Como administrador, quiero visualizar un resumen estadístico del uso del estacionamiento como menú principal, para obtener una visión general rápida del desempeño y uso del espacio.                                                                                           | Feature: Resumen estadístico como menú principal<br><br>Scenario: Acceso exitoso al panel estadístico<br>Given que el administrador inicia sesión en el sistema<br>When accede al menú principal<br>Then se muestran estadísticas de uso actual, histórico y ocupación promedio<br><br>Scenario: Fallo al cargar estadísticas por error de servicio<br>Given que hay un error en el servicio de estadísticas<br>When el administrador accede al menú principal<br>Then se muestra un mensaje de error<br>And se registra el incidente                                                                                                                                                                                                                                                                                                                                                                                              | EP08 |
+| US41           | Visualización de las cámaras de seguridad del estacionamiento                              | Como administrador, quiero ver las cámaras de seguridad del estacionamiento, para monitorear en tiempo real lo que sucede en las instalaciones.                                                                                                                                 | Feature: Visualización general de cámaras de seguridad<br><br>Scenario: El administrador visualiza correctamente todas las cámaras disponibles<br>Given que las cámaras están funcionando<br>When el administrador accede al módulo de cámaras<br>Then se muestran todas las transmisiones en tiempo real<br><br>Scenario: Una o más cámaras están desconectadas<br>Given que algunas cámaras están fuera de servicio<br>When el administrador accede al módulo de cámaras<br>Then el sistema muestra una indicación de cámara desconectada                                                                                                                                                                                                                                                                                                                                                                                        | EP09 |
+| US42           | Visualización detallada de una cámara de seguridad del estacionamiento                     | Como administrador, quiero visualizar de forma detallada una cámara de seguridad específica, para enfocar mi atención en un área particular del estacionamiento.                                                                                                                | Feature: Vista detallada de una cámara específica<br><br>Scenario: El administrador selecciona una cámara y visualiza su transmisión<br>Given que la cámara está conectada<br>When el administrador hace clic en una cámara del listado<br>Then se muestra su transmisión en vista ampliada<br><br>Scenario: La cámara seleccionada no tiene señal<br>Given que la cámara tiene problemas de conexión<br>When el administrador intenta abrir su vista detallada<br>Then el sistema informa que no hay señal disponible                                                                                                                                                                                                                                                                                                                                                                                                             | EP09 |
+| US43           | Visualización del listado de conductores estacionados actualmente y anteriormente          | Como administrador, quiero ver el listado de conductores actualmente estacionados y de los que han estado anteriormente, para tener control y trazabilidad del uso del estacionamiento.                                                                                         | Feature: Visualización de conductores estacionados<br><br>Scenario: Visualización de conductores actualmente estacionados<br>Given que hay vehículos estacionados<br>When el administrador accede al módulo de conductores<br>Then se muestra el listado de usuarios presentes<br><br>Scenario: Error al recuperar historial de estacionados anteriores<br>Given que el sistema presenta un error de conexión con la base de datos<br>When el administrador solicita el historial<br>Then se muestra un mensaje de error temporal                                                                                                                                                                                                                                                                                                                                                                                                  | EP09 |
+| US44           | Visualización del listado de conductores estacionados durante un día en específico         | Como administrador, quiero ver el listado de conductores que estuvieron estacionados durante un día específico, para realizar análisis o auditorías por fecha.                                                                                                                  | Feature: Visualización por fecha de conductores estacionados<br><br>Scenario: El administrador consulta el listado por una fecha válida<br>Given que hay registros del 15 de marzo<br>When selecciona esa fecha en el calendario<br>Then se muestra el listado de conductores de ese día<br><br>Scenario: El administrador selecciona una fecha sin registros<br>Given que no hay datos del 1 de enero<br>When selecciona esa fecha<br>Then el sistema muestra un mensaje indicando que no hay resultados                                                                                                                                                                                                                                                                                                                                                                                                                          | EP09 |
+| US45           | Visualización detallada de un conductor en específico                                      | Como administrador, quiero visualizar el detalle de un conductor en específico, para revisar su historial, pagos o incidentes relacionados.                                                                                                                                     | Feature: Visualización del perfil de un conductor<br><br>Scenario: El administrador accede al perfil detallado de un conductor<br>Given que el conductor está registrado<br>When el administrador lo selecciona en la lista<br>Then se muestra su historial, pagos y eventos<br><br>Scenario: El conductor no existe en la base de datos<br>Given que el ID del conductor no es válido<br>When se intenta acceder a su detalle<br>Then el sistema muestra un mensaje de "conductor no encontrado"                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP09 |
+| US46           | Visualización de sistema de resolución de casos extremos en el estacionamiento             | Como administrador, quiero acceder al sistema de resolución de casos extremos en el estacionamiento, para poder actuar rápidamente ante situaciones fuera de lo común.                                                                                                          | Feature: Gestión de casos extremos<br><br>Scenario: El administrador accede al sistema de casos extremos<br>Given que está autenticado como administrador<br>When accede a la sección de resolución de casos<br>Then puede visualizar y gestionar los casos activos<br><br>Scenario: El administrador sin permisos especiales intenta acceder<br>Given que el usuario tiene rol limitado<br>When accede al módulo de casos extremos<br>Then se deniega el acceso<br>And se muestra un mensaje de autorización insuficiente                                                                                                                                                                                                                                                                                                                                                                                                         | EP09 |
+| US47           | Cancelación manual del pago de algún conductor por caso extremo                            | Como administrador, quiero cancelar manualmente el pago de un conductor en un caso extremo, para ofrecer una solución rápida y excepcional ante imprevistos.                                                                                                                    | Feature: Cancelación excepcional de pago<br><br>Scenario: El administrador cancela el pago de un conductor<br>Given que hay un caso extremo aprobado<br>When el administrador selecciona el conductor y confirma la cancelación<br>Then el sistema anula el pago<br>And registra la excepción en el historial<br><br>Scenario: El administrador intenta cancelar un pago sin justificación<br>Given que no hay un caso extremo registrado<br>When intenta cancelar el pago<br>Then el sistema muestra una advertencia y bloquea la acción                                                                                                                                                                                                                                                                                                                                                                                          | EP09 |
+| US48           | Visualización de monitoreo de la funcionalidad de los dispositivos IoT del estacionamiento | Como administrador, quiero visualizar el monitoreo de la funcionalidad de los dispositivos IoT del estacionamiento, para asegurarme de que todos los componentes estén operativos y detectar fallos a tiempo.                                                                   | Feature: Visualización del estado de los dispositivos IoT<br><br>Scenario: Todos los dispositivos están operativos<br>Given que los sensores y cámaras están funcionando correctamente<br>When el administrador accede al panel de monitoreo<br>Then se muestran todos los dispositivos con estado "OK"<br><br>Scenario: Un sensor reporta fallo de funcionamiento<br>Given que un sensor no responde<br>When se consulta el estado en el panel<br>Then el dispositivo aparece en rojo o con estado "FALLANDO"<br>And se sugiere revisión técnica                                                                                                                                                                                                                                                                                                                                                                                  | EP09 |
+| US49           | Cambio de luz LED cuando un carro se estaciona                                             | Como conductor, quiero que la luz LED del espacio de estacionamiento cambie de color automáticamente cuando un vehículo se estacione, para saber visualmente si un espacio está ocupado o disponible.                                                                           | Feature: Cambio de luz LED cuando un carro se estaciona<br><br>Scenario: Encendido de luz LED cuando un carro se estaciona correctamente<br>Given que el sensor IoT detecta la presencia de un vehículo en el espacio de estacionamiento<br>When el vehículo se posiciona correctamente dentro del espacio<br>Then la luz LED debería cambiar a color rojo para indicar que el espacio está ocupado<br><br>Scenario: Luz LED no cambia al detectar el vehículo<br>Given que el sensor IoT detecta un vehículo en el espacio de estacionamiento<br>When el sistema de control de luces presenta un fallo de comunicación<br>Then la luz LED debería mantenerse en su estado anterior<br>And se debería registrar un error en el sistema para su revisión técnica                                                                                                                                                                    | EP09 |
+| TS01           | Puerta de Entrada del Parking IoT con Cámara                                               | Como desarrollador, quiero integrar una puerta de entrada IoT con cámara al sistema, para capturar imágenes o video de los vehículos al ingresar y permitir su control automatizado.                                                                                            | Feature: Registro de entrada de vehículos mediante cámara IoT<br><br>Scenario: Vehículo autorizado entra y es capturado correctamente<br>Given que el sistema está conectado a la cámara de la puerta de entrada<br>When un vehículo autorizado se aproxima<br>And la cámara captura la imagen del vehículo<br>Then la imagen se guarda en el sistema<br>And se abre la puerta automáticamente<br><br>Scenario: La cámara falla al capturar la imagen<br>Given que el sistema está operativo pero la cámara está desconectada<br>When un vehículo se aproxima<br>Then el sistema muestra una alerta de error de cámara<br>And no se permite el acceso al vehículo                                                                                                                                                                                                                                                                  | EP11 |
+| TS02           | Puerta de Salida del Parking IoT con Cámara                                                | Como desarrollador, quiero implementar una puerta de salida IoT con cámara, para registrar la salida de vehículos y validar su autorización de forma visual o automática.                                                                                                       | Feature: Registro de salida de vehículos mediante cámara IoT<br><br>Scenario: Vehículo con ticket válido sale y se registra su salida<br>Given que el sistema reconoce al vehículo mediante la cámara de salida<br>When el vehículo presenta un ticket válido<br>Then la cámara registra la salida<br>And la barrera se abre automáticamente<br><br>Scenario: Vehículo intenta salir sin autorización<br>Given que la cámara captura un vehículo en la salida<br>When el sistema no encuentra una entrada registrada o el ticket está vencido<br>Then el sistema muestra un mensaje de error<br>And no se abre la barrera                                                                                                                                                                                                                                                                                                          | EP02 |
+| TS03           | Sensores Magnéticos IoT en cada Estacionamiento                                            | Como desarrollador, quiero instalar e integrar sensores magnéticos IoT en cada plaza de estacionamiento, para detectar la ocupación en tiempo real y alimentar el sistema de disponibilidad.                                                                                    | Feature: Detección de ocupación en tiempo real<br><br>Scenario: Un vehículo ocupa una plaza vacía<br>Given que el sensor magnético está activo en una plaza de estacionamiento<br>When un vehículo se estaciona<br>Then el sistema marca esa plaza como ocupada en el sistema<br><br>Scenario: El sensor reporta falsos positivos<br>Given que el sensor está mal calibrado<br>When no hay vehículo presente<br>Then el sistema marca incorrectamente la plaza como ocupada<br>And se notifica al administrador de la anomalía                                                                                                                                                                                                                                                                                                                                                                                                     | EP02 |
+| TS04           | IoT Gateway                                                                                | Como desarrollador, quiero configurar un IoT Gateway que centralice la comunicación entre los dispositivos IoT y la nube, para asegurar la conectividad y sincronización de datos del sistema.                                                                                  | Feature: Comunicación centralizada entre dispositivos IoT y la nube<br><br>Scenario: Gateway conectado transmite datos correctamente<br>Given que todos los sensores y nodos Edge están conectados al Gateway<br>When se genera un evento de sensor<br>Then el Gateway transmite los datos a la nube exitosamente<br><br>Scenario: El Gateway pierde conexión con la nube<br>Given que el Gateway está en funcionamiento pero sin acceso a internet<br>When se genera un evento<br>Then el sistema guarda el evento en caché<br>And reintenta la sincronización cada 60 segundos                                                                                                                                                                                                                                                                                                                                                   | EP02 |
+| TS05           | Edge Node IoT en cada Estacionamiento                                                      | Como desarrollador, quiero desplegar nodos Edge IoT en cada estación de parqueo, para procesar datos localmente y reducir la latencia en la toma de decisiones.                                                                                                                 | Feature: Procesamiento local de datos con nodos Edge<br><br>Scenario: El nodo Edge procesa la entrada de un vehículo<br>Given que el nodo Edge está operativo<br>When detecta un evento de entrada por el sensor<br>Then procesa el dato localmente<br>And envía resumen al Gateway<br><br>Scenario: Nodo Edge se desconecta del sistema<br>Given que el nodo Edge pierde energía o se desconecta<br>When ocurre un evento de sensor<br>Then no se realiza el procesamiento local<br>And se reporta la falla al sistema central                                                                                                                                                                                                                                                                                                                                                                                                    | EP02 |
+| TS06           | Autenticación basada en token JWT                                                          | Como desarrollador, quiero implementar un sistema de autenticación basado en tokens JWT, para permitir una autenticación segura y sin estado en todos los servicios del sistema.                                                                                                | Feature: Seguridad basada en autenticación JWT<br><br>Scenario: Usuario válido inicia sesión<br>Given que el usuario tiene credenciales válidas<br>When realiza login en la plataforma<br>Then se genera un token JWT firmado<br>And el usuario puede acceder a los servicios protegidos<br><br>Scenario: Usuario con credenciales inválidas<br>Given que el usuario proporciona una contraseña incorrecta<br>When intenta iniciar sesión<br>Then el sistema rechaza la solicitud<br>And no se genera ningún token JWT                                                                                                                                                                                                                                                                                                                                                                                                             | EP03 |
+| TS07           | Permiso de bancas para utilizar sus datos en la pasarela de pago                           | Como desarrollador, quiero gestionar los permisos y acuerdos necesarios con las instituciones bancarias o proveedores de pagos, para poder acceder y utilizar sus sistemas en la implementación de una pasarela de pago propia.                                                 | Feature: Integración con pasarelas de pago bancarias<br><br>Scenario: Acuerdo firmado con el banco<br>Given que se ha firmado un acuerdo de uso de API con el banco<br>When se realiza una transacción de pago<br>Then el sistema puede comunicarse con la API del banco<br>And la transacción se completa exitosamente<br><br>Scenario: No hay acuerdo firmado con el banco<br>Given que no se ha firmado ningún convenio con el banco<br>When se intenta acceder a sus sistemas de pago<br>Then el sistema bloquea el intento<br>And muestra un mensaje de error de integración no autorizada                                                                                                                                                                                                                                                                                                                                    | EP03 |
+| TS08           | Cámaras de Vigilancia IoT                                                                  | Como desarrollador, quiero integrar cámaras de vigilancia IoT al sistema, para monitorear el entorno del estacionamiento en tiempo real y mejorar la seguridad.                                                                                                                 | Feature: Monitoreo de seguridad con cámaras de vigilancia IoT<br><br>Scenario: Cámaras operativas transmiten video correctamente<br>Given que las cámaras están encendidas y conectadas al sistema<br>When se inicia el monitoreo en tiempo real<br>Then se muestra la transmisión en vivo sin interrupciones<br><br>Scenario: Cámara fuera de línea<br>Given que una cámara ha perdido conexión con el sistema<br>When el sistema intenta acceder a su transmisión<br>Then se muestra una alerta de desconexión<br>And se notifica al personal técnico                                                                                                                                                                                                                                                                                                                                                                            | EP06 |
+| TS09           | Dispositivos de Monitoreo de Funcionalidad de otros Dispositivos IoT                       | Como desarrollador, quiero implementar dispositivos que supervisen el estado de funcionamiento de otros dispositivos IoT, para detectar fallos y garantizar la operatividad del sistema.                                                                                        | Feature: Supervisión del estado de dispositivos IoT<br><br>Scenario: Dispositivo IoT operativo es monitoreado correctamente<br>Given que un sensor está funcionando correctamente<br>When el sistema de monitoreo realiza una verificación<br>Then se registra el estado como "Operativo"<br><br>Scenario: Dispositivo presenta fallas<br>Given que un dispositivo no responde a la verificación<br>When el sistema intenta conectarse<br>Then se marca como "Inactivo"<br>And se genera una alerta automática                                                                                                                                                                                                                                                                                                                                                                                                                     | EP02 |
+| TS10           | Implementación de un servicio IAM con REST API                                             | Como desarrollador, quiero implementar un servicio de gestión de identidades y accesos (IAM) usando una REST API, para controlar la autenticación y autorización de usuarios dentro del sistema.                                                                                | Feature: Gestión de identidades y accesos<br><br>Scenario: Usuario accede con token válido<br>Given que el usuario tiene un token válido<br>When accede a un recurso protegido vía API<br>Then el acceso es concedido<br><br>Scenario: Usuario intenta acceder sin token<br>Given que el usuario no proporciona un token<br>When intenta consumir un endpoint protegido<br>Then el sistema responde con código 401                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | EP09 |
+| TS11           | Implementación de un servicio Camera Feed con WebRTC                                       | Como desarrollador, quiero implementar un servicio de transmisión de video en tiempo real desde cámaras usando WebRTC, para permitir la visualización en vivo del entorno del estacionamiento.                                                                                  | Feature: Transmisión en vivo por WebRTC<br><br>Scenario: WebRTC inicia transmisión exitosamente<br>Given que la cámara y el servidor están configurados correctamente<br>When un usuario accede al feed en tiempo real<br>Then se establece la conexión WebRTC<br>And se visualiza el video en vivo<br><br>Scenario: WebRTC falla por configuración incorrecta<br>Given que la señal WebRTC no puede establecerse<br>When el usuario intenta conectarse<br>Then se muestra un mensaje de error<br>And no se transmite el video                                                                                                                                                                                                                                                                                                                                                                                                     | EP10 |
+| TS12           | Implementación de un servicio Parking Spots con REST API                                   | Como desarrollador, quiero crear un servicio REST API para gestionar la disponibilidad y estado de los espacios de estacionamiento, para facilitar la consulta y reserva en tiempo real.                                                                                        | Feature: Gestión de plazas de estacionamiento<br><br>Scenario: Consulta de disponibilidad exitosa<br>Given que hay plazas disponibles<br>When un cliente consulta el estado vía API<br>Then recibe una lista de espacios libres<br><br>Scenario: Reserva de una plaza ya ocupada<br>Given que una plaza ya está ocupada<br>When otro usuario intenta reservarla<br>Then el sistema responde con error de conflicto (409)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | EP10 |
+| TS13           | Implementación de un servicio Payments con REST API                                        | Como desarrollador, quiero implementar un servicio REST API que gestione los pagos de estacionamiento, para permitir transacciones electrónicas de forma segura y eficiente.                                                                                                    | Feature: Procesamiento de pagos de estacionamiento<br><br>Scenario: Realizar un pago exitoso<br>Given que un usuario tiene un ticket pendiente de pago<br>When accede al endpoint de pagos con los datos correctos<br>Then el sistema debe procesar el pago<br>And confirmar la transacción como exitosa<br><br>Scenario: Intentar pagar con datos incompletos<br>Given que un usuario intenta realizar un pago<br>When falta información requerida en la solicitud<br>Then el sistema debe rechazar el pago<br>And retornar un mensaje de error indicando qué falta<br><br>Scenario: Intentar pagar pero el banco rechaza la transacción<br>Given que un usuario envía los datos correctos<br>When el sistema contacta al banco y recibe un rechazo<br>Then el sistema debe marcar el pago como fallido<br>And notificar al usuario del rechazo                                                                                   | EP11 |
+| TS14           | Implementación de un servicio Parking Circulation con REST API                             | Como desarrollador, quiero desarrollar un servicio REST API para registrar y monitorear la circulación de vehículos dentro del estacionamiento, para tener trazabilidad y control del flujo vehicular.                                                                          | Feature: Registro de circulación vehicular<br><br>Scenario: Vehículo entra y se registra en el sistema<br>Given que el sistema está activo<br>When un vehículo entra al parqueadero<br>Then el evento de entrada es registrado vía API<br><br>Scenario: Vehículo no se registra por falla de red<br>Given que hay una interrupción en la conectividad<br>When el vehículo entra<br>Then no se registra el evento<br>And se almacena en buffer para reintento posterior                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP10 |
+| TS15           | Implementación de un servicio Monitoring con REST API                                      | Como desarrollador, quiero implementar un servicio REST API que centralice información de estado y métricas del sistema, para facilitar el monitoreo y la detección temprana de incidentes.                                                                                     | Feature: Monitoreo centralizado de estado del sistema<br><br>Scenario: Todos los servicios reportan estado "OK"<br>Given que todos los servicios están funcionando<br>When se consulta el endpoint de monitoreo<br>Then el sistema devuelve un estado 200 con detalles saludables<br><br>Scenario: Uno o más servicios están caídos<br>Given que el servicio de pagos está fuera de línea<br>When se consulta el estado del sistema<br>Then el sistema indica el estado "Degradado"<br>And muestra detalles del servicio caído                                                                                                                                                                                                                                                                                                                                                                                                     | EP10 |
+| TS16           | Implementación de un servicio Ticket Validation con REST API                               | Como desarrollador, quiero crear un servicio REST API para validar tickets de estacionamiento, para controlar el acceso y la salida de vehículos de manera automatizada y segura.                                                                                               | Feature: Validación de tickets de estacionamiento<br><br>Scenario: Ticket válido es aceptado<br>Given que el ticket tiene una entrada registrada y está vigente<br>When se valida vía API<br>Then el sistema responde con "válido"<br>And permite la salida del vehículo<br><br>Scenario: Ticket inválido o ya usado<br>Given que el ticket ha sido usado previamente<br>When se intenta validar nuevamente<br>Then el sistema responde con "inválido"<br>And deniega la salida                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP10 |
+| TS17           | Implementación de un servicio Notifications con REST API                                   | Como developer, quiero implementar un servicio de notificaciones mediante una REST API, para poder enviar mensajes automáticos a los conductores sobre eventos importantes del sistema, como pagos, entradas o salidas del estacionamiento.                                     | Feature: Implementación de un servicio Notifications con REST API<br><br>Scenario: Envío exitoso de notificación al conductor mediante el servicio REST<br>Given que el sistema necesita enviar una notificación al conductor<br>And el servicio Notifications está disponible<br>When se realiza una solicitud POST válida a la API de notificaciones con el contenido correspondiente<br>Then la API debería responder con un código 200 OK<br>And el conductor debería recibir la notificación en su dispositivo<br><br>Scenario: Fallo al enviar la notificación por error en la solicitud<br>Given que se intenta enviar una notificación mediante el servicio Notifications<br>When la solicitud POST contiene datos incompletos o inválidos<br>Then la API debería responder con un código de error 400 Bad Request<br>And no se debería enviar ninguna notificación                                                        | EP10 |
+| TS18           | Implementación de un servicio Profiles con REST API                                        | Como developer, quiero implementar un servicio de perfiles mediante una REST API, para poder guardar y utilizar información de identidad del usuario para tener una cuenta más personalizada.                                                                                   | Feature: Implementación de un servicio Profiles con REST API<br><br>Scenario: Creación exitosa de un perfil de usuario mediante el servicio REST<br>Given que el sistema necesita guardar la información de un nuevo perfil de usuario<br>And el servicio Profiles está disponible<br>When se realiza una solicitud POST válida a la API de Profiles con los datos del usuario<br>Then la API debería responder con un código 201 Created<br>And el nuevo perfil debería almacenarse correctamente en el sistema<br><br>Scenario: Fallo al crear un perfil de usuario por datos inválidos<br>Given que se intenta crear un perfil mediante el servicio Profiles<br>When la solicitud POST contiene datos incompletos o inválidos<br>Then la API debería responder con un código de error 400 Bad Request<br>And no se debería crear ningún perfil en el sistema                                                                    | EP10 |
+
 
 ## 3.3. Impact Mapping
 
@@ -1048,7 +1085,7 @@ Seleccionamos esta User Story como base de referencia para la valorización de l
 **Product Backlog:**
 
 | \# Orden | User Story ID | Título                                                                                                     | Descripción                                                                                                                                                                                                                                                                      | Story Points (1 / 2 / 3 / 5 / 8 / 13 /…) |
-| -------- | ------------- | ---------------------------------------------------------------------------------------------------------- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ---------------------------------------- |
+|----------|---------------|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
 | 1        | US01          | Barra de navegación de Landing Page                                                                        | Como visitante, quiero una barra de navegación accesible para moverme fácilmente entre las secciones principales de la landing page.                                                                                                                                             | 1                                        |
 | 2        | US02          | Encabezado de Bienvenida de Landing Page                                                                   | Como visitante, quiero visualizar de forma inmediata un encabezado con el propósito de la aplicación ParkUp, junto con un llamado a la acción claro que me motive a explorar la plataforma                                                                                       | 1                                        |
 | 3        | US03          | Sección Sobre Nosotros de Landing page                                                                     | Como visitante, quiero conocer la misión, visión y el equipo de desarrollo de ParkUp, con el fin de generar confianza en el proyecto y comprender su impacto.                                                                                                                    | 1                                        |
@@ -1115,6 +1152,7 @@ Seleccionamos esta User Story como base de referencia para la valorización de l
 | 64       | US21          | Notificación de pago de estacionamiento para el conductor                                                  | Como conductor, quiero recibir una notificación que confirme el pago de mi estacionamiento, para saber que mi transacción ha sido procesada correctamente.                                                                                                                       | 1                                        |
 | 65       | US22          | Notificación de poco tiempo antes del fin de la tolerancia de pago de un estacionamiento para el conductor | Como conductor, quiero recibir una notificación cuando el tiempo de tolerancia esté por terminar, y si supero ese tiempo, el sistema automáticamente me solicitará realizar un nuevo pago, para asegurar que el estacionamiento continúe registrado y evitar problemas al salir. | 1                                        |
 | 66       | US23          | Notificación de fin de tolerancia de pago de un estacionamiento para el conductor                          | Como conductor, quiero recibir una notificación cuando el tiempo de tolerancia de pago haya terminado, para saber qué debo pagar de nuevo.                                                                                                                                       | 1                                        |
+| 67       | TS18          | Implementación de un servicio Profiles con REST API                                                        | Como developer, quiero implementar un servicio de perfiles mediante una REST API, para poder guardar y utilizar información de identidad del usuario para tener una cuenta más personalizada.                                                                                    | 2                                        |
 
 # Capítulo IV: Solution Software Design
 
@@ -1325,19 +1363,20 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 
 ![4.1.3-Container.png](assets/capitulo-4/4.1.3-Container.png)
 
-| Contenedor             | Tecnología                | Responsabilidad                                                                               |
-|------------------------|---------------------------|------------------------------------------------------------------------------------------------|
-| **ParkUp Mobile App**  | Flutter (Android/iOS)     | Interfaz del conductor: reserva, pago, estado de plazas.                                       |
-| **ParkUp Web App SPA** | Angular                   | Panel para administradores y staff; alertas en tiempo real.                                    |
-| **ParkUp API**         | Spring Boot (REST + WS)   | Lógica central: tickets, pagos, sincronización IoT.                                            |
-| **Base de Datos Central** | PostgreSQL             | Usuarios, reservas, pagos, eventos históricos.                                                 |
-| **IoT Edge App**       | Docker (Go/Node)          | Procesamiento local y caché offline por sede.                                                  |
-| **Edge Database**      | TimescaleDB               | Buffer de eventos y métricas locales.                                                          |
-| **IoT Gateway**        | Go en Raspberry Pi        | Puente entre dispositivos y red ParkUp.                                                        |
-| **Sensores Vehiculares** | Ultrasonic / IR         | Detectan presencia de vehículos.                                                               |
-| **Lectores Entrada Salida** | PLC / Modbus        | Operan barreras y tickets.                                                                     |
-| **Cámaras Videovigilancia** | IP Cams, RTSP        | Streams de vídeo para seguridad.                                                               |
-| **Pasarela de Pagos**  | REST API externa          | Procesamiento de tarjetas y billeteras digitales.                                              |
+| Contenedor                  | Tecnología              | Responsabilidad                                             |
+|-----------------------------|-------------------------|-------------------------------------------------------------|
+| **ParkUp Mobile App**       | Flutter (Android/iOS)   | Interfaz del conductor: reserva, pago, estado de plazas.    |
+| **ParkUp Web App SPA**      | Angular                 | Panel para administradores y staff; alertas en tiempo real. |
+| **ParkUp API**              | Spring Boot (REST + WS) | Lógica central: tickets, pagos, sincronización IoT.         |
+| **Base de Datos Central**   | PostgreSQL              | Usuarios, reservas, pagos, eventos históricos.              |
+| **IoT Edge App**            | Docker (Go/Node)        | Procesamiento local y caché offline por sede.               |
+| **Edge Database**           | TimescaleDB             | Buffer de eventos y métricas locales.                       |
+| **IoT Gateway**             | Raspberry Pi            | Puente entre dispositivos y red ParkUp.                     |
+| **Sensores Vehiculares**    | Ultrasonic / IR         | Detectan presencia de vehículos.                            |
+| **Lectores Entrada Salida** | PLC / Modbus            | Operan barreras y tickets.                                  |
+| **Cámaras Videovigilancia** | IP Cams, RTSP           | Streams de vídeo para seguridad.                            |
+| **Pasarela de Pagos**       | REST API externa        | Procesamiento de tarjetas y billeteras digitales.           |
+| **API Gateway**             | AWS                     | Puente entre dispositivos de usuarios y red ParkUp.         |
 
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
@@ -1386,52 +1425,20 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 
 ![4.1.3-Components.png](assets/capitulo-4/4.1.3-Components.png)
 
-| Componente                  | Propósito clave                                                                 |
-|-----------------------------|---------------------------------------------------------------------------------|
-| **Auth Service**            | Gestión de usuarios, OIDC, JWT, MFA.                                            |
-| **Reservation Service**     | Disponibilidad de plazas y cálculo de tarifas.                                  |
-| **Ticket Validation**       | Verifica QR y códigos de barras.                                                |
-| **Payment Service**         | Integra Stripe, PayPal, Yape; maneja reversas y conciliación.                   |
-| **Device Command Service**  | Envía órdenes a **IoT Gateway** (abrir barrera, reset sensor).                  |
-| **Sync Service**            | Replica eventos entre **Edge Database** y **Base de Datos Central**.            |
-| **Monitoring Service**      | Métricas Prometheus, health-checks, reglas de alerta.                           |
-| **Notification Service**    | Push FCM, emails SendGrid, SMS Twilio a conductores y administradores.          |
+| Componente                 | Propósito clave                                                        |
+|----------------------------|------------------------------------------------------------------------|
+| **Auth Service**           | Gestión de usuarios, OIDC, JWT, MFA.                                   |
+| **Reservation Service**    | Disponibilidad de plazas y cálculo de tarifas.                         |
+| **Ticket Validation**      | Verifica QR y códigos de barras.                                       |
+| **Payment Service**        | Integra Stripe, PayPal, Yape; maneja reversas y conciliación.          |
+| **Device Command Service** | Envía órdenes a **IoT Gateway** (abrir barrera, reset sensor).         |
+| **Sync Service**           | Replica eventos entre **Edge Database** y **Base de Datos Central**.   |
+| **Monitoring Service**     | Métricas Prometheus, health-checks, reglas de alerta.                  |
+| **Notification Service**   | Push FCM, emails SendGrid, SMS Twilio a conductores y administradores. |
+| **Profiles Service**       | Información personal del usuario que no sea para autenticarse.         |
 
-## 4.2.X. Bounded Context: <Payments & Notifications>
 
-El dominio de Parking Management describe las funciones y procesos involucrados en la gestión del parqueo dentro de un centro comercial. Este sistema se encarga de administrar el ingreso y salida de vehículos, asignar espacios disponibles en las distintas zonas de parqueo, generar y validar tickets, y controlar la duración del uso de los espacios. Además, permite gestionar usuarios recurrentes y visitantes, facilitando una experiencia eficiente y organizada para todos los conductores. El sistema también contempla la tarificación automática según el tiempo de uso y el procesamiento de pagos correspondientes.
 
-Este dominio opera dentro del bounded context de Notification & Payments, integrando funcionalidades clave como el envío de notificaciones al usuario (por ejemplo, alertas de vencimiento de ticket o confirmaciones de pago), así como la gestión completa del ciclo de pagos. Esto asegura que las transacciones se realicen de forma segura y que los usuarios estén informados en tiempo real, mejorando significativamente la eficiencia del sistema y la satisfacción del usuario.
-
-### Payment
-
-<p align="center">
-  <img src="assets/capitulo-4/PaymentsBC.png" alt="Imagen extraída de Figma" width="700"/>
-</p>
-<br>
-
-### Notification
-
-<p align="center">
-  <img src="assets/capitulo-4/NotificationsBC.png" alt="Imagen extraída de Figma" width="700"/>
-</p>
-<br>
-
-### 4.2.X.1. Domain Layer
-
-### 4.2.X.2. Interface Layer
-
-### 4.2.X.3. Application Layer
-
-### 4.2.X.4. Infrastructure Layer
-
-### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
-
-### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
-
-#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
-
-#### 4.2.X.6.2. Bounded Context Database Design Diagram
 
 ## 4.2.1. Bounded Context: IAM
 
@@ -1468,6 +1475,7 @@ Métodos
 | getRole(): Role              |
 
 **Clase Role**
+
 | **Nombre**      | Role                                                              |
 |-----------------|-------------------------------------------------------------------|
 | **Relaciones**  | Uno a muchos con User                                             |
@@ -1641,6 +1649,749 @@ Esta representación contribuye a visualizar la implementación técnica del con
 
 ![](https://i.postimg.cc/jqQSCccC/iam-db-diagram.png)
 
+## 4.2.2. Bounded Context: Parking Site
+
+> **Propósito general**  
+> Este contexto modela la **infraestructura física** de un estacionamiento (sedes, pisos, plazas).
+
+### 4.2.2.1. Domain Layer
+
+| Agregado | Rol | Descripción breve |
+|----------|-----|-------------------|
+| **Site** `<<Aggregate Root>>` | Macro-unidad | Un establecimiento (o nivel) con dirección, capacidad y reglas. Contiene muchas `ParkingSpot`. |
+| **ParkingSpot** `<<Aggregate Root>>` | Micro-unidad | Una plaza individual identificada (código), de un **tipo** (COMPACT, EV, HANDICAP…) y con un **state** (FREE, OCCUPIED, OUT_OF_SERVICE). |
+
+#### Site
+
+| Atributo | Tipo | Vis. | Notas |
+|----------|------|------|-------|
+| id | Long | private | PK |
+| name | String | private | Nombre visible (“San Isidro – Sotano 1”) |
+| address | String | private | Dirección completa |
+| totalCapacity | Integer | private | Plazas totales |
+| availableSpots | Integer | private | Plazas libres (cálculo interno) |
+
+| Método | Firma |
+|--------|-------|
+| addSpot(spot: ParkingSpot) |
+| removeSpot(spotId: Long) |
+| updateAvailability(): Site |
+
+#### ParkingSpot
+
+| Atributo | Tipo | Vis. | Notas |
+|----------|------|------|-------|
+| id | Long | private | PK |
+| code | String | private | Ej. “B-12” |
+| type | SpotType `enum` | private | COMPACT, LARGE, EV, HANDICAP |
+| state | SpotState `enum` | private | FREE, OCCUPIED, RESERVED, OUT_OF_SERVICE |
+| siteId | Long | private | FK a `Site` |
+
+| Método | Firma |
+|--------|-------|
+| occupy(): ParkingSpot |
+| release(): ParkingSpot |
+| markOutOfService(): ParkingSpot |
+
+#### Value Objects
+
+| Nombre | Valores |
+|--------|---------|
+| **SpotType** | COMPACT · LARGE · EV · HANDICAP |
+| **SpotState** | FREE · OCCUPIED · RESERVED · OUT_OF_SERVICE |
+
+#### Domain Services
+
+| Servicio | Responsabilidad principal |
+|----------|---------------------------|
+| **SpotAssignmentService** | Encontrar la siguiente plaza libre según *tipo preferido* y *reglas de negocio* (por ejemplo, prioridad EV). |
+
+---
+
+### 4.2.2.2. Interface Layer
+
+| Controller | Endpoints clave |
+|------------|----------------|
+| **SitesController** | `GET /sites`, `GET /sites/{id}`, `POST /sites` |
+| **SpotsController** | `GET /spots/{id}`, `PATCH /spots/{id}/occupy`, `PATCH /spots/{id}/release` |
+
+---
+
+### 4.2.2.3. Application Layer
+
+| Service Interface | Operaciones |
+|-------------------|-------------|
+| **ISiteService** | createSite · getSite · listSites |
+| **ISpotService** | occupySpot · releaseSpot · findNextFreeSpot |
+
+Implementaciones: `SiteServiceImpl`, `SpotServiceImpl` (usan `ModelMapper` + reglas de dominio).
+
+---
+
+### 4.2.2.4. Infrastructure Layer
+
+| Repository | Extiende | Métodos custom |
+|------------|----------|----------------|
+| **SiteRepository** | `JpaRepository<Site,Long>` | findByName |
+| **SpotRepository** | `JpaRepository<ParkingSpot,Long>` | countByStateAndSiteId |
+
+---
+
+### 4.2.2.5. Component Diagram
+![Parking Site Components](assets/capitulo-4/4.2.2.5-Diagram.png)
+
+### 4.2.2.6. Code-Level Diagrams
+#### 4.2.2.6.1. Domain Class Diagram
+![Parking Site Classes](assets/capitulo-4/4.2.2.6.1-Diagram.png)
+
+#### 4.2.2.6.2. Database Design
+![Parking Site DB](assets/capitulo-4/4.2.2.6.2-Diagram.png)
+
+----
+### 4.2.3. Bounded Context: Camera Feed
+
+Este contexto está orientado a la gestión de dispositivos de cámaras, sus transmisiones (feeds) en vivo, capturas de pantalla (screenshots) y la relación de estas capturas con matrículas de automóviles (carplates).
+
+---
+
+## Clase CameraDevice (Aggregate Root)
+
+| **Nombre**           | **CameraDevice**             |
+|:---------------------|:------------------------------|
+| **Relaciones**       | Tiene muchos `Feed` y muchos `Screenshot`. |
+| **Descripción**      | Representa un dispositivo de cámara que envía transmisiones y toma capturas de pantalla. Es el agregado raíz de este contexto. |
+
+### Atributos
+
+| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
+|:---------------------|:-------------------|:----------------|
+| `id`                 | `Long`             | `private`       |
+| `deviceName`         | `String`           | `private`       |
+| `location`           | `String`           | `private`       |
+| `feeds`              | `List<Feed>`       | `private`       |
+| `screenshots`        | `List<Screenshot>` | `private`       |
+
+### Métodos
+
+| **Método**           | **Descripción**                             |
+|:---------------------|:-------------------------------------------|
+| `addFeed(feed: Feed)` | Agrega un nuevo feed al dispositivo.       |
+| `addScreenshot(screenshot: Screenshot)` | Agrega una nueva captura de pantalla. |
+
+---
+
+## Clase Feed (Entity)
+
+| **Nombre**           | **Feed**                    |
+|:---------------------|:----------------------------|
+| **Relaciones**       | Pertenece a `CameraDevice`. |
+| **Descripción**      | Representa una transmisión de video proveniente de un dispositivo de cámara. |
+
+### Atributos
+
+| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
+|:---------------------|:-------------------|:----------------|
+| `id`                 | `Long`             | `private`       |
+| `streamUrl`          | `String`           | `private`       |
+| `startedAt`          | `LocalDateTime`    | `private`       |
+
+### Métodos
+
+| **Método**           | **Descripción**                             |
+|:---------------------|:-------------------------------------------|
+| `getStreamUrl()`     | Devuelve la URL del stream.                |
+| `getStartedAt()`     | Devuelve la fecha y hora de inicio del feed.|
+
+---
+
+## Clase Screenshot (Entity)
+
+| **Nombre**           | **Screenshot**              |
+|:---------------------|:----------------------------|
+| **Relaciones**       | Pertenece a `CameraDevice` y puede estar asociada a un `CarPlate`. |
+| **Descripción**      | Representa una captura de imagen tomada de un feed en vivo. |
+
+### Atributos
+
+| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
+|:---------------------|:-------------------|:----------------|
+| `id`                 | `Long`             | `private`       |
+| `imageUrl`           | `String`           | `private`       |
+| `takenAt`            | `LocalDateTime`    | `private`       |
+| `carPlate`           | `CarPlate`         | `private`       |
+
+### Métodos
+
+| **Método**           | **Descripción**                             |
+|:---------------------|:-------------------------------------------|
+| `assignCarPlate(carPlate: CarPlate)` | Asigna una matrícula detectada a la captura. |
+
+---
+
+## Clase CarPlate (Entity)
+
+| **Nombre**           | **CarPlate**                |
+|:---------------------|:----------------------------|
+| **Relaciones**       | Puede ser asociada a varios `Screenshot`. |
+| **Descripción**      | Representa la matrícula de un vehículo detectado en una captura. |
+
+### Atributos
+
+| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
+|:---------------------|:-------------------|:----------------|
+| `id`                 | `Long`             | `private`       |
+| `plateNumber`        | `String`           | `private`       |
+| `detectedAt`         | `LocalDateTime`    | `private`       |
+
+### Métodos
+
+| **Método**           | **Descripción**                             |
+|:---------------------|:-------------------------------------------|
+| `getPlateNumber()`   | Devuelve el número de la matrícula detectada.|
+| `getDetectedAt()`    | Devuelve la fecha y hora de detección.      |
+
+---
+
+### 4.2.3.1. Domain Layer
+Esta capa representa el núcleo del modelo de negocio dentro del bounded context **Camera Feed**. Aquí se definen los principales conceptos del dominio, sus entidades, agregados y relaciones. 
+
+El aggregate root `CameraDevice` organiza la estructura general: cada dispositivo de cámara puede emitir múltiples transmisiones en vivo (`Feed`) y generar múltiples capturas de pantalla (`Screenshot`). Además, las capturas de pantalla pueden contener información relevante de matrículas de vehículos (`CarPlate`). 
+
+Todas las reglas de negocio críticas y las asociaciones entre estos objetos del dominio se gestionan en esta capa, asegurando coherencia y consistencia en el modelo de datos.
+
+#### Aggregate: CameraDevice
+
+| Entidad / Agregado | Descripción |
+|--------------------|-------------|
+| **CameraDevice** `<<Aggregate Root>>` | Representa un dispositivo de cámara. Contiene múltiples feeds y screenshots. |
+| **Feed** `<<Entity>>` | Representa una transmisión en vivo generada por una cámara. |
+| **Screenshot** `<<Entity>>` | Imagen capturada desde un feed en un momento específico. Puede estar relacionada a una matrícula de vehículo. |
+| **CarPlate** `<<Entity>>` | Información de una placa de vehículo detectada en un screenshot. |
+
+#### CameraDevice (núcleo)
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| name | String |
+| location | String |
+| feeds | List<Feed> |
+| screenshots | List<Screenshot> |
+
+| Método | Firma |
+|--------|-------|
+| addFeed(feed: Feed): void |
+| captureScreenshot(screenshot: Screenshot): void |
+
+#### Feed
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| cameraDeviceId | Long |
+| urlStream | String |
+| startedAt | Instant |
+| endedAt | Instant (nullable) |
+
+#### Screenshot
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| cameraDeviceId | Long |
+| feedId | Long (opcional) |
+| capturedAt | Instant |
+| imageUrl | String |
+| carPlate | CarPlate (opcional) |
+
+#### CarPlate
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| plateNumber | String |
+| detectedAt | Instant |
+
+---
+
+### 4.2.3.2. Interface Layer
+
+La capa de interfaz expone los servicios de `CameraDevice`, permitiendo registrar dispositivos, crear feeds y capturar screenshots, todo a través de APIs RESTful.
+
+| Controller | Endpoints |
+|------------|-----------|
+| **CameraDeviceController** | `POST /camera-devices` · `GET /camera-devices/{id}` |
+| **FeedController** | `POST /feeds` · `GET /feeds/{id}` |
+| **ScreenshotController** | `POST /screenshots` · `GET /screenshots/{id}` |
+
+---
+
+### 4.2.3.3. Application Layer
+
+El `CameraDeviceCommandService` maneja las operaciones de negocio como agregar feeds, registrar nuevos dispositivos y asociar screenshots a car plates.
+
+| Service | Operaciones |
+|---------|-------------|
+| **ICameraFeedService** | registerCameraDevice · startFeed · captureScreenshot · associateCarPlate |
+
+Impl.: `CameraFeedServiceImpl`
+
+
+---
+
+### 4.2.3.4. Infrastructure Layer
+
+`CameraDeviceRepository` es una interfaz que extiende `JpaRepository`, permitiendo el acceso y persistencia de dispositivos de cámara, junto con sus feeds y screenshots asociados.
+
+
+| Repository | Métodos custom |
+|------------|----------------|
+| **CameraDeviceRepository** | findByLocation |
+| **FeedRepository** | findActiveFeedsByCameraDeviceId |
+| **ScreenshotRepository** | findByCapturedAtBetween |
+| **CarPlateRepository** | findByPlateNumber |
+
+
+----
+
+### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Camera Feed Component Level](assets/capitulo-4/CameraFeedDiagram.png)
+
+### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+![Camera Feed Architecture Code Level Diagrams](assets/capitulo-4/CameraFeedDiagram.jpg)
+
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+![Camera Feed Bounded Context Domain Layer](assets/capitulo-4/classCameraFeed.png)
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+![Camera Feed Database Design Diagram](assets/capitulo-4/DBCameraFeed.png)
+
+## 4.2.4. Bounded Context: Parking Circulation
+
+> **Propósito**  
+> Modela **eventos de flujo**: ingreso, salida y emisión de tickets en tiempo real,  
+> orquestando la relación con *Camera Feed* y *Payments*.
+
+### 4.2.4.1. Domain Layer
+
+| Entidad / Agregado | Descripción |
+|--------------------|-------------|
+| **ParkingEntrance** | Evento de llegada (timestamp, plate, detectedBy). |
+| **ParkingExit** | Evento de salida. |
+| **Ticket** `<<Entity>>` | Correlaciona entrada + salida, lleva `userId` (VO), `status`, `amountToPay`, `totalDuration`. |
+| **UserId** `<<Value Object>>` | Cadena inmutable (“sub-dominio IAM”). |
+
+#### Ticket (núcleo)
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| userId | UserId |
+| entranceId | Long |
+| exitId | Long (nullable hasta salida) |
+| status | TicketState `enum` |
+| amountToPay | BigDecimal |
+| totalDuration | Duration |
+
+| Método | Firma |
+|--------|-------|
+| close(exit: ParkingExit): Ticket |
+| calculateAmount(rate: MoneyRate): BigDecimal |
+
+#### Enums
+`TicketState` → OPEN · CLOSED · CANCELLED
+
+#### Domain Service
+`CirculationDomainService`  
+– vincula entrada, genera `Ticket`; al recibir salida, cierra + publica **ParkingCompletedEvent**.
+
+---
+
+### 4.2.4.2. Interface Layer
+
+| Controller | Endpoints |
+|------------|-----------|
+| **EntranceController** | `POST /circulation/entrance` |
+| **ExitController** | `POST /circulation/exit` |
+| **TicketsController** | `GET /tickets/{id}` · `GET /tickets?userId=` |
+
+---
+
+### 4.2.4.3. Application Layer
+
+| Service | Operaciones |
+|---------|-------------|
+| **ICirculationService** | registerEntrance · registerExit · getTicket · getActiveTickets |
+
+Impl.: `CirculationServiceImpl` (publica dominio events a *Payments* & *Notifications*).
+
+---
+
+### 4.2.4.4. Infrastructure Layer
+
+| Repository | Métodos custom |
+|------------|----------------|
+| **EntranceRepository** | findByVehiclePlateAndDate |
+| **ExitRepository** | — |
+| **TicketRepository** | findByUserId · findOpenByPlate |
+
+---
+
+### 4.2.4.5. Component Diagram
+![Parking Circulation Components](assets/capitulo-4/4.2.4.5-Diagram.png)
+
+### 4.2.4.6. Code-Level Diagrams
+#### 4.2.4.6.1. Domain Class Diagram
+![Parking Circulation Classes](assets/capitulo-4/4.2.4.6.1-Diagram.png)
+
+#### 4.2.4.6.2. Database Design
+![Parking Circulation DB](assets/capitulo-4/4.2.4.6.2-Diagram.png)
+
+---
+
+## 4.2.5. Bounded Context: Payments 
+Esta capa modela los conceptos principales del contexto de pagos.
+El agregado raíz Payment representa un pago realizado en el sistema.
+El objeto de valor PaymentStatus, modelado como un enum, define los posibles estados de un pago.
+
+
+
+## Clase PaymentCard
+
+| **Nombre** | **PaymentCard** |
+|:-----------|:----------------|
+| **Relaciones** | Muchos a uno con UserId. Puede tener varios Payment asociados. |
+| **Descripción** | Representa una tarjeta de pago asociada a un usuario para realizar transacciones. |
+
+### Atributos
+
+| **Nombre** | **Tipo de Dato** | **Visibilidad** |
+|:-----------|:-----------------|:----------------|
+| id | Long | private |
+| userId | UserId | private |
+| cardNumber | String | private |
+| cardHolderName | String | private |
+| expirationDate | String | private |
+| cardType | CardType (enum) | private |
+
+### Métodos
+
+| **Método** | **Descripción** |
+|:-----------|:----------------|
+| maskCardNumber(): String | Devuelve el número de tarjeta enmascarado. |
+| isExpired(): boolean | Verifica si la tarjeta está vencida. |
+
+---
+
+## Clase Receipt
+
+| **Nombre** | **Receipt** |
+|:-----------|:------------|
+| **Relaciones** | Uno a uno con Payment. |
+| **Descripción** | Representa el comprobante generado para un pago exitoso. |
+
+### Atributos
+
+| **Nombre** | **Tipo de Dato** | **Visibilidad** |
+|:-----------|:-----------------|:----------------|
+| id | Long | private |
+| paymentId | Long | private |
+| issuedDate | LocalDateTime | private |
+| receiptUrl | String | private |
+
+### Métodos
+
+| **Método** | **Descripción** |
+|:-----------|:----------------|
+| generateReceiptUrl(): String | Genera una URL para acceder al comprobante. |
+
+---
+
+## Clase UserId (Value Object)
+
+| **Nombre** | **UserId** |
+|:-----------|:-----------|
+| **Relaciones** | Es utilizado por Payment y PaymentCard para identificar al usuario. |
+| **Descripción** | Value Object que encapsula el identificador único del usuario. |
+
+### Atributos
+
+| **Nombre** | **Tipo de Dato** | **Visibilidad** |
+|:-----------|:-----------------|:----------------|
+| id | Long | private |
+
+### Métodos
+
+| **Método** | **Descripción** |
+|:-----------|:----------------|
+| getId(): Long | Retorna el valor del ID del usuario. |
+
+---
+
+## Enum PaymentStatus
+
+| **Nombre** | **PaymentStatus** |
+|:-----------|:------------------|
+| **Relaciones** | No tiene relaciones, es un enum. |
+| **Descripción** | Enumera los estados posibles de un pago. |
+
+### Valores
+
+| **Valor** |
+|:----------|
+| PENDING |
+| COMPLETED |
+| FAILED |
+
+---
+
+## Enum CardType
+
+| **Nombre** | **CardType** |
+|:-----------|:-------------|
+| **Relaciones** | No tiene relaciones, es un enum. |
+| **Descripción** | Enumera los tipos de tarjetas disponibles. |
+
+### Valores
+
+| **Valor** |
+|:----------|
+| VISA |
+| MASTERCARD |
+| AMEX |
+| OTHER |
+
+## Clase PaymentStatus
+
+| **Nombre** | **PaymentStatus** |
+|:-----------|:------------------|
+| **Relaciones** | No tiene relaciones, es un enum. |
+| **Descripción** | Enumera los posibles estados de un pago. |
+
+### Valores
+
+| **Valor** |
+|:----------|
+| PENDING |
+| COMPLETED |
+| FAILED |
+
+### Métodos
+
+| **Método** | **Descripción** |
+|:-----------|:----------------|
+| name(): String | Devuelve el nombre del estado. |
+| values(): PaymentStatus[] | Devuelve todos los valores posibles del enum. |
+| valueOf(name: String): PaymentStatus | Devuelve el estado correspondiente al nombre dado. |
+
+-----
+
+### 4.2.5.1. Domain Layer
+
+## Bounded Context: Payments
+
+### Aggregate
+
+#### Aggregate: Payment
+
+| **Attribute**       | **Data Type**     | **Description**                                    |
+|:--------------------|:------------------|:--------------------------------------------------|
+| `id`                | `Long`            | Unique identifier for the payment.                |
+| `amount`            | `BigDecimal`      | Amount of the payment.                            |
+| `paymentStatus`     | `PaymentStatus`   | Status of the payment (e.g., PENDING, COMPLETED). |
+
+#### Methods
+
+| **Method**          | **Description**                                    |
+|:--------------------|:---------------------------------------------------|
+| `getAmount()`       | Returns the amount of the payment.                 |
+| `getPaymentStatus()`| Returns the payment status.                        |
+| `setPaymentStatus(status: PaymentStatus)` | Sets the payment status. |
+
+---
+
+### Entities
+
+#### Entity: PaymentCard
+
+| **Attribute**       | **Data Type**     | **Description**                                    |
+|:--------------------|:------------------|:--------------------------------------------------|
+| `id`                | `Long`            | Unique identifier for the payment card.           |
+| `userId`            | `UserId`          | Identifier for the associated user.               |
+| `cardNumber`        | `String`          | Payment card number.                              |
+| `cardHolderName`    | `String`          | Name of the cardholder.                           |
+| `expirationDate`    | `String`          | Expiration date of the payment card.              |
+| `cardType`          | `CardType`        | Type of the card (enum).                          |
+
+#### Methods
+
+| **Method**          | **Description**                                    |
+|:--------------------|:---------------------------------------------------|
+| `maskCardNumber()`   | Returns the masked payment card number.            |
+| `isExpired()`        | Checks if the payment card is expired.             |
+
+---
+
+#### Entity: Receipt
+
+| **Attribute**       | **Data Type**     | **Description**                                    |
+|:--------------------|:------------------|:--------------------------------------------------|
+| `id`                | `Long`            | Unique identifier for the receipt.                |
+| `paymentId`         | `Long`            | Payment associated with the receipt.              |
+| `issuedDate`        | `LocalDateTime`   | Date and time when the receipt was issued.        |
+| `receiptUrl`        | `String`          | URL to access the receipt.                        |
+
+#### Methods
+
+| **Method**          | **Description**                                    |
+|:--------------------|:---------------------------------------------------|
+| `generateReceiptUrl()`| Generates a URL to access the receipt.           |
+
+---
+
+### Value Objects
+
+#### Value Object: UserId
+
+| **Attribute**       | **Data Type**     | **Description**                                    |
+|:--------------------|:------------------|:--------------------------------------------------|
+| `id`                | `Long`            | Unique identifier for the user.                   |
+
+#### Methods
+
+| **Method**          | **Description**                                    |
+|:--------------------|:---------------------------------------------------|
+| `getId()`           | Returns the user ID value.                         |
+
+---
+
+#### Enum: PaymentStatus
+
+| **Value**           |
+|:--------------------|
+| `PENDING`           |
+| `COMPLETED`         |
+| `FAILED`            |
+
+#### Methods
+
+| **Method**          | **Description**                                    |
+|:--------------------|:---------------------------------------------------|
+| `name()`            | Returns the name of the payment status.            |
+| `values()`          | Returns all possible values of the enum.           |
+| `valueOf(String)`   | Returns the status corresponding to the given name. |
+
+---
+
+#### Enum: CardType
+
+| **Value**           |
+|:--------------------|
+| `VISA`              |
+| `MASTERCARD`        |
+| `AMEX`              |
+| `OTHER`             |
+
+#### Methods
+
+| **Method**          | **Description**                                    |
+|:--------------------|:---------------------------------------------------|
+| `name()`            | Returns the name of the card type.                 |
+| `values()`          | Returns all possible values of the enum.           |
+| `valueOf(String)`   | Returns the card type corresponding to the given name. |
+
+---
+
+### Domain Services
+
+#### Service: RoleCommandService
+
+| **Method**                     | **Description**                                    |
+|:-------------------------------|:---------------------------------------------------|
+| `handle(command: SeedRolesCommand)` | Handles the command to seed roles in the system.  |
+
+#### Service: UserCommandService
+
+| **Method**                     | **Description**                                    |
+|:-------------------------------|:---------------------------------------------------|
+| `handle(command: SignUpCommand)` | Handles the command to sign up a new user.        |
+| `handle(command: SignInCommand)` | Handles the command to sign in a user.            |
+
+### 4.2.5.2. Interface Layer
+
+La capa de interfaz expone la funcionalidad del contexto Payments a través de controladores RESTful basados en el framework Spring Boot. PaymentController gestiona los procesos relacionados con los pagos, permitiendo tanto la creación de pagos como la consulta de su estado. ReceiptController facilita la generación y consulta de recibos asociados a los pagos. Cada controlador delega la lógica de negocio en los servicios de dominio apropiados, actuando únicamente como capa de orquestación, en conformidad con el principio de Controller Thin.
+
+| Controller PaymentController                       |
+|----------------------------------------------------------|
+| - PaymentCommandService paymentCommandService            |
+|----------------------------------------------------------|
+| + processPayment(paymentResource: PaymentResource): ResponseEntity<PaymentResource> |
+| + getPaymentStatus(paymentId: Long): ResponseEntity<PaymentStatusResource>            |
+
+| Controller ReceiptController                       |
+|--------------------------------------------------------|
+| - ReceiptQueryService receiptQueryService              |
+|--------------------------------------------------------|
+| + getReceiptByPaymentId(paymentId: Long): ResponseEntity<ReceiptResource> |
+| + generateReceipt(paymentId: Long): ResponseEntity<ReceiptResource> |
+
+
+### 4.2.5.3. Application Layer
+
+El PaymentProcessingEventHandler es responsable de procesar los pagos cuando se recibe un evento de pago. Este componente escucha el evento PaymentProcessedEvent y desencadena la ejecución de los servicios correspondientes para completar el pago.
+Esta organización permite separar las responsabilidades del dominio, favoreciendo una arquitectura desacoplada y limpia.
+
+| Event Handler PaymentProcessingEventHandler          |
+|----------------------------------------------------------|
+| - Logger LOGGER                                          |
+| - PaymentCommandService paymentCommandService            |
+|----------------------------------------------------------|
+| + on(event: PaymentProcessedEvent): void                 |
+| - getCurrentTimestamp(): Timestamp                      |
+
+### 4.2.5.4. Infrastructure Layer
+
+PaymentRepository y ReceiptRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades Payment y Receipt, respectivamente.
+Estos repositorios proporcionan métodos específicos como findByPaymentId, findByReceiptId y validaciones de existencia (existsByPaymentId, existsByReceiptId), que son esenciales para preservar la unicidad de los registros.
+Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dominio, favoreciendo una arquitectura limpia y sostenible.
+
+| Infrastructure Repository PaymentRepository            |
+|-------------------------------------------------------------|
+| Extiende: JpaRepository<Payment, Long>                      |
+|-------------------------------------------------------------|
+| + findByPaymentId(paymentId: Long): Optional<Payment>       |
+| + existsByPaymentId(paymentId: Long): boolean               |
+
+| Infrastructure Repository ReceiptRepository             |
+|-------------------------------------------------------------|
+| Extiende: JpaRepository<Receipt, Long>                      |
+|-------------------------------------------------------------|
+| + findByReceiptId(receiptId: Long): Optional<Receipt>       |
+| + existsByReceiptId(receiptId: Long): boolean               |
+
+### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Payment Container](assets/capitulo-4/PaymentDiagram1.png)
+
+
+### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+![Payment Diagram Flow](assets/capitulo-4/PaymentDiagram.jpg)
+
+#### 4.2.1.5.1. Bounded Context Domain Layer Class Diagrams
+
+![Payment Domain Layer Class Diagrams](assets/capitulo-4/DomainLayerPayments.PNG)
+
+
+#### 4.2.1.5.2. Bounded Context Database Design Diagram
+
+![Payment  Bounded Context Database Design Diagram](assets/capitulo-4/DBPAYMENTS.PNG)
+
+---
 ## 4.2.6. Bounded Context: Monitoring
 
 ### 4.2.6.1. Domain Layer
@@ -2195,6 +2946,81 @@ Esta representación contribuye a visualizar la implementación técnica del con
 
 #### 4.2.8.6.2. Bounded Context Database Design Diagram
 <p align="center"><img src="assets/capitulo-4/4.2.8.6.2-Notifications-Database-Model.PNG" alt="Notifications DB Diagram"/></p>
+
+## 4.2.9. Bounded Context: Profiles
+
+> **Propósito**  
+> Agrupa los **datos extendidos** de los distintos tipos de usuario (no credenciales):  
+> preferencias, información de contacto, métricas de uso, etc.
+
+### 4.2.9.1. Domain Layer
+
+| Agregado | Rol |
+|----------|-----|
+| **DriverProfile** `<<Aggregate Root>>` | Información de un conductor (licencia, preferencia de pago, vehículo favorito). |
+| **AdminProfile** `<<Aggregate Root>>` | Datos de un administrador (scope de parking, contacto directo). |
+
+#### DriverProfile
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| userId | UserId |
+| fullName | String |
+| licenseNumber | String |
+| favouritePaymentCard | String |
+| preferredLanguage | Language `enum` |
+
+#### AdminProfile
+
+| Atributo | Tipo |
+|----------|------|
+| id | Long |
+| userId | UserId |
+| fullName | String |
+| phoneNumber | String |
+| managedSiteIds | List<Long> |
+
+#### Value Objects
+`Language` → ES · EN · PT
+
+---
+
+### 4.2.9.2. Interface Layer
+
+| Controller | Endpoints |
+|------------|-----------|
+| **ProfilesController** | `GET /profiles/{userId}` · `POST /profiles/driver` · `POST /profiles/admin` |
+
+---
+
+### 4.2.9.3. Application Layer
+
+| Service | Operaciones |
+|---------|-------------|
+| **IProfileService** | createDriverProfile · createAdminProfile · getProfileByUserId |
+
+Impl.: `ProfileServiceImpl` (usa `ModelMapper` + `ProfileRepository`).
+
+---
+
+### 4.2.9.4. Infrastructure Layer
+
+| Repository | Extiende |
+|------------|----------|
+| **ProfileRepository** | `JpaRepository<BaseProfile,Long>` con estrategia *single-table* + `dtype` |
+
+---
+
+### 4.2.9.5. Component Diagram
+![Profiles Components](assets/capitulo-4/4.2.9.5-Diagram.png)
+
+### 4.2.9.6. Code-Level Diagrams
+#### 4.2.9.6.1. Domain Class Diagram
+![Profiles Classes](assets/capitulo-4/4.2.9.6.1-Diagram.png)
+
+#### 4.2.9.6.2. Database Design
+![Profiles DB](assets/capitulo-4/4.2.9.6.2-Diagram.png)
 
 # Capítulo V: Solution UI/UX Design
 
