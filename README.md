@@ -179,6 +179,12 @@
 # Student Outcome
 
 <div align="justify">
+    
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 5**
+
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos. En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del *ABET – EAC - Student Outcome 5.*
 
 | Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -211,11 +217,11 @@ Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, si
 
 | Foto                                                                                                                                                                                                                                                                                                      | Perfil de Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p>                                                                                                                                                                 | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.                                                                                                      |
-| <p align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQF0q82dzd577g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719029164195?e=1750896000&v=beta&t=XNTeNX_6dSYIsI75WWHmmJjOHW5Wr0RaHyLkeVk32oc" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *U20221A928 - Ingeniería de Software*  <br> <br>  Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas.                                                                                                                                                                                           |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 3" width="100" height="130"/></p>                                                                                                                                                                 | **Cuevas Rios, Eric Fernando**  <br> *U202112766 - Ingeniería de Software*  <br> <br> Soy capaz de brindar mi experiencia en redacción, diseño de soluciones y programación movil para ayudar a obtener las metas del grupo. Además, soy bueno brindando puntualidad y organización a los proyectos de los que tomo parte, lo que espero sirva al resto de mis compañeros de equipo. <br>                                                                       |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-4.jpg" alt="Foto de integrante 4" width="100" height="110"/></p>                                                                                                                                                                 | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *U202111654 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar con habilidades de indagación y pensamiento crítico, diseño de prototipo en Figma y programación back-End. Añadido a esto, estoy me es grato poder aprender de mis demás compañeros y de sus habilidades individuales. Me considero una persona responsable y que cumple con los plazos establecidos en una entrega. <br> |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-5.png" alt="Foto de integrante 5" width="100" height="100"/></p>                                                                                                                                                                 | **Herrera González, Luis Eduardo**  <br> *U202218227 - Ingeniería de Software*  <br> <br> Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software. Me apasiona el desarrollo de aplicaciones web y de escritorio eficientes, utilizando tecnologías modernas como Bun, Tauri y Lit. También cuento con experiencia en frameworks ampliamente adoptados como Next.js, Angular y Spring Boot. Además, tengo un gran interés en el área de Machine Learning, trabajando con CUDA, C++ y MLX para crear soluciones de alto rendimiento. Me considero una persona curiosa, enfocada en la innovación tecnológica y comprometida a aportar mis habilidades técnicas para el éxito del equipo.                                                                                                                                                                                                                                                                                                                                                                      |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="150" /></p>                                                                                                                                                                 | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.                                                                                                      |
+| <p align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQF0q82dzd577g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719029164195?e=1750896000&v=beta&t=XNTeNX_6dSYIsI75WWHmmJjOHW5Wr0RaHyLkeVk32oc" alt="Foto de integrante 2" width="150" /></p> | **Vargas Revollé, Ariana**  <br> *U20221A928 - Ingeniería de Software*  <br> <br>  Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas.                                                                                                                                                                                           |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 3" width="150" /></p>                                                                                                                                                                 | **Cuevas Rios, Eric Fernando**  <br> *U202112766 - Ingeniería de Software*  <br> <br> Soy capaz de brindar mi experiencia en redacción, diseño de soluciones y programación movil para ayudar a obtener las metas del grupo. Además, soy bueno brindando puntualidad y organización a los proyectos de los que tomo parte, lo que espero sirva al resto de mis compañeros de equipo. <br>                                                                       |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-4.jpg" alt="Foto de integrante 4" width="150" /></p>                                                                                                                                                                 | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *U202111654 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar con habilidades de indagación y pensamiento crítico, diseño de prototipo en Figma y programación back-End. Añadido a esto, estoy me es grato poder aprender de mis demás compañeros y de sus habilidades individuales. Me considero una persona responsable y que cumple con los plazos establecidos en una entrega. <br> |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-5.png" alt="Foto de integrante 5" width="150" /></p>                                                                                                                                                                 | **Herrera González, Luis Eduardo**  <br> *U202218227 - Ingeniería de Software*  <br> <br> Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software. Me apasiona el desarrollo de aplicaciones web y de escritorio eficientes, utilizando tecnologías modernas como Bun, Tauri y Lit. También cuento con experiencia en frameworks ampliamente adoptados como Next.js, Angular y Spring Boot. Además, tengo un gran interés en el área de Machine Learning, trabajando con CUDA, C++ y MLX para crear soluciones de alto rendimiento. Me considero una persona curiosa, enfocada en la innovación tecnológica y comprometida a aportar mis habilidades técnicas para el éxito del equipo.                                                                                                                                                                                                                                                                                                                                                                      |
 
 
 ## 1.2. Solution Profile
@@ -447,11 +453,26 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
 
 ### 2.2.1. Diseño de entrevistas
 
+#### Propósito de las entrevistas
+
+El propósito de las entrevistas es comprender en profundidad las necesidades, hábitos, frustraciones y expectativas de los usuarios clave involucrados en el uso y gestión de estacionamientos: conductores y administradores de parqueo. Esta etapa forma parte de un proceso de needfinding o identificación de necesidades, clave para diseñar una solución tecnológica que realmente aporte valor.
+
+Las entrevistas están diseñadas para:
+
+- Identificar los puntos de dolor actuales en el uso de estacionamientos, tanto desde el lado del usuario como del administrador.
+
+- Detectar oportunidades de mejora mediante tecnología, como la automatización del pago, reconocimiento de placas o monitoreo en tiempo real.
+
+- Evaluar la aceptación y confianza en soluciones tecnológicas propuestas, como el pago automático o el registro digital de ingresos/salidas.
+
+- Recoger insumos para el diseño de una app o plataforma web centrada en el usuario, orientada a una experiencia eficiente, segura y confiable.
+
+
+
 ##### Preguntas de introducción (Para todos los segmentos):
 1. ¿Cuál es su nombre?
 2. ¿Cuántos años tiene?
 3. ¿En qué cuidad del Perú reside?
-4. ¿Cuál considera que es su estatus social limitando la descripción a Clase Baja, Clase Media, Clase Media-Alta y Clase Alta? 
    
 ##### Segmento 1: Conductores
 1. ¿Con qué frecuencia utilizas estacionamientos privados durante tu semana?
@@ -478,7 +499,11 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
 
 
 ### 2.2.2. Registro de entrevistas
+
+Con el objetivo de comprender en profundidad las necesidades, preferencias y problemáticas de los distintos actores involucrados en el uso y gestión de estacionamientos, se realizaron entrevistas estructuradas a usuarios conductores y administradores de parqueo. Estas entrevistas permitieron identificar patrones de comportamiento, expectativas tecnológicas y desafíos operativos tanto desde la perspectiva del usuario final como del personal encargado de la administración. Los hallazgos obtenidos fueron fundamentales para definir requerimientos funcionales y no funcionales, así como oportunidades de mejora e innovación dentro del sistema de gestión de parqueos.
+
 ##### Segmento 1: Conductores
+- Primera Entrevista 
 ![](https://i.postimg.cc/rFVrFVWQ/interview-driver.png)
 
 Eva utiliza estacionamientos privados cinco veces por semana y valora una experiencia fluida, con espacios amplios y fáciles de encontrar. Considera la seguridad un aspecto esencial, destacando la importancia de contar con vigilancia. Siempre porta su celular, por lo que acepta el uso de aplicaciones móviles, y prefiere pagar con tarjeta. Aunque ve con buenos ojos la automatización mediante lectura de placas, le preocupa no poder validar cobros automáticos, por lo que el sistema debería ofrecer confirmación previa antes de realizar cargos. Además, considera fundamental que la aplicación muestre en tiempo real los espacios libres, priorizando los más cercanos a entradas y salidas para optimizar su tiempo.
@@ -642,9 +667,11 @@ Ian busca una experiencia de parqueo ágil donde la app le muestre los espacios 
 Oscar prioriza estacionar cerca de tiendas conocidas para evitar caminar largas distancias. Prefiere pagar con tarjeta y ha tenido experiencias negativas cuando sistemas de pago se caen, provocando largas filas. Se siente cómodo con el uso de lectura de placas y automatización de cobros, dado que ya está acostumbrado a ellos. Encuentra muy útil que la app muestre espacios disponibles en tiempo real, así como las tarifas vigentes y zonas cercanas, para ahorrar tiempo y evitar rondar buscando sitio.
 
 ##### Segmento 2: Administradores de parking
-- Primera Entrevista: El entrevistado señaló que el monitoreo se realiza principalmente mediante cámaras activas todo el tiempo y rondas presenciales para verificar el estado del parqueo. Ante emergencias, se comunica directamente con el gerente de tienda por radio, sin un protocolo formal establecido. La información más útil para su labor diaria incluye las grabaciones de las cámaras, el ticket del vehículo, la placa y el rostro del conductor. Actualmente no utilizan una plataforma web, ya que el parqueo es gratuito y no considera necesaria una visualización digital; sin embargo, si hubiera cobro, sí vería valor en implementarla. El control de ingreso y salida se realiza de forma manual con tickets y anotaciones en papel.
-- Segunda Entrevista: El entrevistado Señalo que se tienen contratado un sistema que les permite realizar las facturaciones, pero que el resto de los controles del estacionamiento los realizan manualmente y recae en los empleados aplicar los protocolos en caso de incidentes. A partir de esto señalo en las siguientes respuestas que esta interesado en adquirir un sistema que le permita automatizar más partes de la gestión del estacionamiento.
-- Tercera Entrevista: El entrevistado explicó que el monitoreo combina cámaras en funcionamiento continuo con personal en “postas” para actuar de inmediato si ocurre un incidente. Para emergencias, se apoya en las grabaciones y en la identificación visual del vehículo (placa, color y rasgos distintivos) a fin de rastrear rápidamente al propietario; considera indispensable vincular estos datos con los perfiles de los usuarios. La información diaria más valiosa es un registro en tiempo real de qué autos entran y salen y dónde se encuentran dentro del estacionamiento. Aunque hoy trabajan con un sistema de tickets/QR que sólo cubre el cobro, todas las verificaciones de seguridad se llevan a cabo de forma manual. El entrevistado ve gran utilidad en una plataforma web que muestre las entradas y salidas, integre las cámaras y automatice la asociación entre placa y perfil; sin embargo, advierte que debe garantizarse una respuesta rápida ante robos o siniestros. Afirma sentirse cómodo con la detección automática de placas y el cobro sin intervención humana, siempre que la solución mantenga o mejore los niveles de seguridad actuales.
+- Primera Entrevista (Jose Alberto): El entrevistado señaló que el monitoreo se realiza principalmente mediante cámaras activas todo el tiempo y rondas presenciales para verificar el estado del parqueo. Ante emergencias, se comunica directamente con el gerente de tienda por radio, sin un protocolo formal establecido. La información más útil para su labor diaria incluye las grabaciones de las cámaras, el ticket del vehículo, la placa y el rostro del conductor. Actualmente no utilizan una plataforma web, ya que el parqueo es gratuito y no considera necesaria una visualización digital; sin embargo, si hubiera cobro, sí vería valor en implementarla. El control de ingreso y salida se realiza de forma manual con tickets y anotaciones en papel.
+
+- Segunda Entrevista (Jorge Rosales): El entrevistado Señalo que se tienen contratado un sistema que les permite realizar las facturaciones, pero que el resto de los controles del estacionamiento los realizan manualmente y recae en los empleados aplicar los protocolos en caso de incidentes. A partir de esto señalo en las siguientes respuestas que esta interesado en adquirir un sistema que le permita automatizar más partes de la gestión del estacionamiento.
+
+- Tercera Entrevista (Sebastian Ramirez): El entrevistado explicó que el monitoreo combina cámaras en funcionamiento continuo con personal en “postas” para actuar de inmediato si ocurre un incidente. Para emergencias, se apoya en las grabaciones y en la identificación visual del vehículo (placa, color y rasgos distintivos) a fin de rastrear rápidamente al propietario; considera indispensable vincular estos datos con los perfiles de los usuarios. La información diaria más valiosa es un registro en tiempo real de qué autos entran y salen y dónde se encuentran dentro del estacionamiento. Aunque hoy trabajan con un sistema de tickets/QR que sólo cubre el cobro, todas las verificaciones de seguridad se llevan a cabo de forma manual. El entrevistado ve gran utilidad en una plataforma web que muestre las entradas y salidas, integre las cámaras y automatice la asociación entre placa y perfil; sin embargo, advierte que debe garantizarse una respuesta rápida ante robos o siniestros. Afirma sentirse cómodo con la detección automática de placas y el cobro sin intervención humana, siempre que la solución mantenga o mejore los niveles de seguridad actuales.
 
 ## 2.3. Needfinding
 
@@ -662,7 +689,8 @@ Se priorizó extraer información sobre los siguientes aspectos clave:
 
 A partir del análisis de esta información y de un benchmarking de soluciones similares en el mercado, se construyeron dos fichas de User Persona que representan a los principales usuarios de la solución propuesta:
 
-- **Diego Luxemburgo**, conductor urbano que busca eficiencia y simplicidad al momento de estacionar. 
+- **Diego Luxemburgo**, conductor urbano que busca eficiencia y simplicidad al momento de estacionar.
+  
 - **Dina Zimbabue**, administradora de estacionamientos que necesita control, automatización y reducción de la carga operativa.
 
 Ambos perfiles fueron elaborados utilizando la herramienta UXPressia, siguiendo las mejores prácticas en diseño UX y representando arquetipos realistas y accionables para el diseño posterior del sistema.
@@ -1504,24 +1532,28 @@ El objeto de valor Roles, modelado como un enum, establece un conjunto cerrado d
 Adicionalmente, los servicios de dominio UserCommandService y RoleCommandService encapsulan operaciones de negocio que no pertenecen naturalmente a ninguna entidad, cumpliendo con el principio de separación de responsabilidades.
 Esta estructura permite mantener un dominio rico, expresivo y alineado con las reglas de negocio fundamentales del sistema.
 
-**Agregates**
-| Aggregate <<User>>                       |
-|-------------------------------------------|
+**User `<<Agregate>>`**
+| Aritributos                     |
+|-|
 | - Long id (heredado de AuditableAbstractAggregateRoot) |
 | - String username                         |
 | - String password                         |
 | - Role role                         |
+
+|Metodos|
 |-------------------------------------------|
 | + getUsername(): String                   |
 | + getPassword(): String                   |
 | + getRole(): Role                         |
 | + setRole(role: Role): User               |
 
-**Entities**
-| Entity <<Role>>                         |
+**Role `<<Entity>>`**
+| Aritributos                         |
 |------------------------------------------|
 | - Long id                                |
-| - Roles name                             |
+| - Roles name    |
+
+|Metodos|
 |------------------------------------------|
 | + getId(): Long                          |
 | + getName(): Roles                       |
@@ -1530,17 +1562,12 @@ Esta estructura permite mantener un dominio rico, expresivo y alineado con las r
 | + toRoleFromName(name: String): Role     |
 | + validateRoleSet(roles: List<Role>): List<Role> |
 
-**Value Objects**
-| Value Object <<Roles>>                 |
+**Roles `<<Value Object>>`**
+|  Roles                 |
 |-----------------------------------------|
 | + ROLE_ADMIN                            |
 | + ROLE_USER                             |
 | + ROLE_INSTRUCTOR                      |
-|-----------------------------------------|
-| (Métodos estándar de enum Java)         |
-| + name(): String                        |
-| + values(): Roles[]                     |
-| + valueOf(String): Roles                |
 
 **Domain Services**
 | RoleCommandService       |
@@ -1560,23 +1587,31 @@ AuthenticationController gestiona los procesos de autenticación de usuarios, pe
 RolesController proporciona endpoints para consultar los diferentes roles disponibles en el sistema, mientras que UsersController facilita la recuperación de información sobre los usuarios registrados.
 Cada controlador delega la lógica de negocio en los servicios de dominio apropiados, actuando únicamente como capa de orquestación, en conformidad con el principio de Controller Thin.
 
-
-| Controller <<AuthenticationController>>                         |
+**AuthenticationController`<<Controller>>`**
+|  Atributos                         |
 |-------------------------------------------------------------------|
 | - UserCommandService userCommandService                          |
+
+|Metodos|
 |-------------------------------------------------------------------|
 | + signIn(signInResource: SignInResource): ResponseEntity<AuthenticatedUserResource> |
 | + signUp(signUpResource: SignUpResource): ResponseEntity<UserResource>               |
 
-| Controller <<RolesController>>                    |
+**RolesController`<<Controller>>`**
+| Atributos                   |
 |----------------------------------------------------|
 | - RoleQueryService roleQueryService                |
+
+|Metodos|
 |----------------------------------------------------|
 | + getAllRoles(): ResponseEntity<List<RoleResource>> |
 
-| Controller <<UsersController>>                                 |
+**UsersController`<<Controller>>`**
+| Atributos                                 |
 |----------------------------------------------------------------|
 | - UserQueryService userQueryService                            |
+
+|Metodos|
 |----------------------------------------------------------------|
 | + getAllUsers(): ResponseEntity<List<UserResource>>            |
 | + getUserById(userId: Long): ResponseEntity<UserResource>      |
@@ -1588,11 +1623,13 @@ La capa de aplicación coordina la ejecución de las operaciones de negocio a tr
 El ApplicationReadyEventHandler es responsable de inicializar los roles del sistema cuando la aplicación arranca. Este componente escucha el evento ApplicationReadyEvent de Spring y dispara la ejecución del comando SeedRolesCommand, garantizando que los roles fundamentales estén disponibles sin intervención manual.
 Esta organización contribuye a desacoplar las operaciones de infraestructura del dominio y favorece la automatización de procesos iniciales del sistema.
 
-
-| Event Handler <<ApplicationReadyEventHandler>>          |
+**ApplicationReadyEventHandler`<<Event Handler>>`**
+|  Atributos            |
 |----------------------------------------------------------|
 | - Logger LOGGER                                          |
 | - RoleCommandService roleCommandService                  |
+
+|Metodos|
 |----------------------------------------------------------|
 | + on(event: ApplicationReadyEvent): void                 |
 | - getCurrentTimestamp(): Timestamp                      |
@@ -1605,17 +1642,22 @@ UserRepository y RoleRepository son interfaces que extienden JpaRepository, perm
 Estos repositorios proporcionan métodos específicos como findByUsername, findByName y validaciones de existencia (existsByUsername, existsByName), que son esenciales para preservar la unicidad de los registros.
 Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dominio, favoreciendo una arquitectura limpia y sostenible.
 
-
-| Infrastructure Repository <<RoleRepository>>              |
+**RoleRepository`<<Repository>>`**
+|Atributos             |
 |-------------------------------------------------------------|
 | Extiende: JpaRepository<Role, Long>                         |
+
+|Metodos|
 |-------------------------------------------------------------|
 | + findByName(name: Roles): Optional<Role>                   |
 | + existsByName(name: Roles): boolean                        |
 
-| Infrastructure Repository <<UserRepository>>               |
+**UserRepository`<<Repository>>`**
+| Atributos              |
 |-------------------------------------------------------------|
 | Extiende: JpaRepository<User, Long>                         |
+
+|Metodos|
 |-------------------------------------------------------------|
 | + findByUsername(username: String): Optional<User>          |
 | + existsByUsername(username: String): boolean               |
