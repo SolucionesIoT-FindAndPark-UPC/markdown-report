@@ -3253,78 +3253,6 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 ## 5.3. Landing Page UI Design
 
-**Hero Section**
-
-<p align="center">
-  <img src="assets/capitulo-5/Hero.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**About Us**
-
-<p align="center">
-  <img src="assets/capitulo-5/Aboutus.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**Our Product**
-
-<p align="center">
-  <img src="assets/capitulo-5/OurProduct.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**Description of the Product**
-
-<p align="center">
-  <img src="assets/capitulo-5/Details.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**Endorsed By**
-
-<p align="center">
-  <img src="assets/capitulo-5/EndorsedBy.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**F&A**
-
-<p align="center">
-  <img src="assets/capitulo-5/F&A.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**Testimonials**
-
-<p align="center">
-  <img src="assets/capitulo-5/Testimonials.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**Contact US**
-
-<p align="center">
-  <img src="assets/capitulo-5/ContactUs.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-
-**Footer**
-
-<p align="center">
-  <img src="assets/capitulo-5/Footer.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
 
 ### 5.3.1. Landing Page Wireframe
 
@@ -3400,6 +3328,79 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 <br>
 
 ### 5.3.2. Landing Page Mock-up
+
+**Hero Section**
+
+<p align="center">
+  <img src="assets/capitulo-5/Hero.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**About Us**
+
+<p align="center">
+  <img src="assets/capitulo-5/Aboutus.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Our Product**
+
+<p align="center">
+  <img src="assets/capitulo-5/OurProduct.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Description of the Product**
+
+<p align="center">
+  <img src="assets/capitulo-5/Details.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Endorsed By**
+
+<p align="center">
+  <img src="assets/capitulo-5/EndorsedBy.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**F&A**
+
+<p align="center">
+  <img src="assets/capitulo-5/F&A.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Testimonials**
+
+<p align="center">
+  <img src="assets/capitulo-5/Testimonials.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Contact US**
+
+<p align="center">
+  <img src="assets/capitulo-5/ContactUs.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+
+**Footer**
+
+<p align="center">
+  <img src="assets/capitulo-5/Footer.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
 
 ## 5.4. Applications UX/UI Design
 
