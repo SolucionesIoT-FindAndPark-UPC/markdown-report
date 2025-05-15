@@ -372,6 +372,8 @@ Se plantearon 2 segmentos claramente diferenciados.
 
 | ¿Por qué llevar a cabo este análisis? | Escriba aquí la pregunta que busca responder o el objetivo de este análisis. |
 |---------------------------------------|---------------------------------------------------------------------------|
+
+|---------------------------------------|----------------|------------------|------------------|------------------|
 |                                       | **Su startup** | **Competidor 1** | **Competidor 2** | **Competidor 3** |
 | **Perfil**                            |                |                  |                  |                  |
 | Overview                              |                |                  |                  |                  |
