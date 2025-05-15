@@ -3781,9 +3781,51 @@ Convenciones de formato:
 
 #### Despliegue Backend
 
+**Despliegue Backend (Central / Nube)**
+
+El backend central, desarrollado con Spring Boot, se empaquetará como un archivo JAR ejecutable. Se planea su despliegue en un proveedor de servicios en la nube con AWS Fargate utilizando contenedores Docker para asegurar la portabilidad y escalabilidad. La gestión de la infraestructura como código (IaC) con herramientas como Terraform y la integración continua/despliegue continuo (CI/CD) mediante GitHub Actions se configurarán para automatizar las actualizaciones y el mantenimiento. Este backend expondrá las APIs principales consumidas por las aplicaciones móviles de los conductores, la aplicación web de administración y potencialmente por sistemas externos autorizados.
+
+![img_3.png](img_3.png)
+
+![img_2.png](img_2.png)
+
+**Despliegue Backend / Lógica Aplicativa (Nodo Edge)**
+
+Adicionalmente, cada Nodo Edge en las ubicaciones físicas de los estacionamientos ejecutará su propia instancia de una aplicación o backend ligero. Si bien los diagramas C4 sugieren tecnologías como Go/Node.js para el "IoT Edge App" (lo cual es común por su bajo consumo de recursos), si se optara por una solución basada en Java para la lógica de borde, esta también se empaquetaría (posiblemente como un JAR más pequeño o una aplicación Quarkus/Micronaut optimizada para el borde) y se desplegaría en el hardware del Nodo Edge (ej. Raspberry Pi, PC Industrial, o dispositivos específicos de IoT).
+
+- **Propósito**: Procesamiento local de datos de sensores, comunicación con actuadores, toma de decisiones en tiempo real, buffering de datos y sincronización con el Backend Central.
+- **Empaquetado y Ejecución**: Generalmente dentro de contenedores Docker para consistencia y facilidad de gestión en el hardware del borde.
+- **Accesibilidad**: Principalmente restringido a la red local del estacionamiento, interactuando con el Gateway IoT, los dispositivos locales y el Backend Central. No estará expuesto directamente a internet público.
+- **Actualizaciones y Gestión**: Las actualizaciones de software en los Nodos Edge se gestionarían de forma remota, utilizando plataformas de gestión de dispositivos IoT/Edge (como AWS IoT Greengrass, Azure IoT Edge) o mediante pipelines de CI/CD específicamente diseñados para despliegues en el borde.
+
+![img_3.png](img_3.png)
+
 #### Despliegue Frontend Web
 
+La aplicación web frontend, desarrollada con Angular, se compila en archivos estáticos (HTML, CSS, JavaScript). Para el Sprint 1, esta aplicación ha sido desplegada utilizando Netlify (como se evidencia en la sección 6.2.1.8). Netlify se integra directamente con repositorios de GitHub, permitiendo despliegues automáticos tras cada push a la rama principal o ramas de feature configuradas. Esto facilita un flujo de CI/CD para el frontend.
+
+![img_5.png](img_5.png)
+
+![img_4.png](img_4.png)
+
+La Landing Page, siendo una aplicación web estática, ha sido desplegada utilizando GitHub Pages (evidenciado en 6.2.1.8), aprovechando la integración directa con el repositorio de código fuente para una publicación sencilla y eficiente.
+
+![img_5.png](img_5.png)
+
+![img_6.png](img_6.png)
+
 #### Despliegue Mobile App 
+
+La aplicación móvil, que se desarrollará con Flutter, generará artefactos específicos para cada plataforma: un archivo APK para Android y un archivo IPA para iOS.
+
+- **Android**: El APK se compilará y firmará, listo para ser subido a Google Play Store. Para pruebas internas, se podría utilizar Firebase App Distribution.
+- **iOS**: El archivo IPA se compilará y firmará utilizando un certificado de desarrollador de Apple. Se distribuirá a través de TestFlight para pruebas y, finalmente, se subirá a la Apple App Store para su publicación.
+
+![img_7.png](img_7.png)
+
+La configuración de CI/CD con GitHub Actions también se explorará para automatizar la compilación y firma de estos artefactos.
+
+![img_8.png](img_8.png)
 
 ## 6.2. Landing Page, Services & Applications Implementation
 
