@@ -370,11 +370,11 @@ Se plantearon 2 segmentos claramente diferenciados.
 | **Ventaja Competitiva** | - Permite a los usuarios generar ingresos alquilando sus espacios privados. <br> - Ofrece una amplia variedad de opciones en zonas clave de Lima. | - Proporciona una solución integral para encontrar, reservar y pagar estacionamientos. <br> - Facilita el proceso con múltiples opciones de pago y gestión de tiempo. | - Amplia base de datos de estacionamientos disponibles en Lima. <br> - Plataforma intuitiva que simplifica la reserva y gestión de espacios. | - Proceso completamente automatizado que reduce tiempos y errores. <br> - Integración de tecnología avanzada para una experiencia sin fricciones. |
 | **Canal de distribución** | - Plataforma web accesible desde cualquier navegador. <br> - Aplicación móvil disponible para Android e iOS. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de estacionamientos locales. | - Aplicación móvil disponible para Android e iOS. <br> - Plataforma web para gestión de estacionamientos. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de gestión de estacionamientos y dispositivos IoT. |  
 
-| ¿Por qué llevar a cabo este análisis? | Escriba aquí la pregunta que busca responder o el objetivo de este análisis. |
+| ¿Por qué llevar a cabo este análisis? | Conocer mejor a los competidores y visualizar las ventajas/desventajas que tenemos sobre ellos. |
 |---------------------------------------|---------------------------------------------------------------------------|
 
-|---------------------------------------|----------------|------------------|------------------|------------------|
 |                                       | **Su startup** | **Competidor 1** | **Competidor 2** | **Competidor 3** |
+|---------------------------------------|----------------|------------------|------------------|------------------|
 | **Perfil**                            |                |                  |                  |                  |
 | Overview                              |                |                  |                  |                  |
 | **Perfil de Marketing**               |                |                  |                  |                  |
