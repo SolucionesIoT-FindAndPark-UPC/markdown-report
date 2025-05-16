@@ -1486,12 +1486,14 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 
 ## 4.2.1. Bounded Context: IAM
 
+<p align="justify">
 En esta sección se documentan las principales clases que conforman el núcleo del contexto IAM, detallando sus atributos, métodos y relaciones.
 El agregado raíz User representa a cada usuario registrado en la plataforma, con credenciales de acceso (username, password) y la asignación de un único Role, lo cual refleja las reglas de negocio que restringen a un solo rol por usuario.
 
-La entidad Role modela los diferentes tipos de rol que puede asumir un usuario dentro del sistema, tales como administrador, usuario regular o instructor. Esta entidad incluye utilidades para la validación y conversión de roles a partir de representaciones textuales.
-Por su parte, el objeto de valor Roles encapsula los valores constantes de los posibles roles, implementado como un enumerado (enum), asegurando la integridad de los roles permitidos y evitando inconsistencias.
+- La entidad Role modela los diferentes tipos de rol que puede asumir un usuario dentro del sistema, tales como administrador, usuario regular o instructor. Esta entidad incluye utilidades para la validación y conversión de roles a partir de representaciones textuales.
+- Por su parte, el objeto de valor Roles encapsula los valores constantes de los posibles roles, implementado como un enumerado (enum), asegurando la integridad de los roles permitidos y evitando inconsistencias.
 
+<p align="justify">
 Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
 
 
@@ -1541,11 +1543,14 @@ Atributos
 | toRoleFromName(name: String): Role |
 
 ### 4.2.1.1. Domain Layer
-
+<p align="justify">
 En la capa de dominio se modelan los conceptos centrales del contexto IAM siguiendo los principios de Domain-Driven Design.
- El agregado raíz User representa a un usuario dentro del sistema, asociado a un único Role. Esta relación permite garantizar que cada usuario tenga exactamente un rol, como ROLE_ADMIN, ROLE_USER o ROLE_INSTRUCTOR.
-El objeto de valor Roles, modelado como un enum, establece un conjunto cerrado de posibles valores para la asignación de roles, garantizando la integridad del dominio.
-Adicionalmente, los servicios de dominio UserCommandService y RoleCommandService encapsulan operaciones de negocio que no pertenecen naturalmente a ninguna entidad, cumpliendo con el principio de separación de responsabilidades.
+
+- El agregado raíz User representa a un usuario dentro del sistema, asociado a un único Role. Esta relación permite garantizar que cada usuario tenga exactamente un rol, como ROLE_ADMIN, ROLE_USER o ROLE_INSTRUCTOR.
+- El objeto de valor Roles, modelado como un enum, establece un conjunto cerrado de posibles valores para la asignación de roles, garantizando la integridad del dominio.
+- Adicionalmente, los servicios de dominio UserCommandService y RoleCommandService encapsulan operaciones de negocio que no pertenecen naturalmente a ninguna entidad, cumpliendo con el principio de separación de responsabilidades.
+
+<p align="justify">
 Esta estructura permite mantener un dominio rico, expresivo y alineado con las reglas de negocio fundamentales del sistema.
 
 **User `<<Agregate>>`**
@@ -1597,7 +1602,7 @@ Esta estructura permite mantener un dominio rico, expresivo y alineado con las r
 
 
 ### 4.2.1.2. Interface Layer
-
+<p align="justify">
 La capa de interfaz expone la funcionalidad del contexto IAM a través de controladores RESTful basados en el framework Spring Boot.
 AuthenticationController gestiona los procesos de autenticación de usuarios, permitiendo tanto el inicio de sesión como el registro de nuevos usuarios.
 RolesController proporciona endpoints para consultar los diferentes roles disponibles en el sistema, mientras que UsersController facilita la recuperación de información sobre los usuarios registrados.
@@ -1634,7 +1639,7 @@ Cada controlador delega la lógica de negocio en los servicios de dominio apropi
 
 
 ### 4.2.1.3. Application Layer
-
+<p align="justify">
 La capa de aplicación coordina la ejecución de las operaciones de negocio a través de componentes como event handlers y servicios de aplicación.
 El ApplicationReadyEventHandler es responsable de inicializar los roles del sistema cuando la aplicación arranca. Este componente escucha el evento ApplicationReadyEvent de Spring y dispara la ejecución del comando SeedRolesCommand, garantizando que los roles fundamentales estén disponibles sin intervención manual.
 Esta organización contribuye a desacoplar las operaciones de infraestructura del dominio y favorece la automatización de procesos iniciales del sistema.
@@ -1652,7 +1657,7 @@ Esta organización contribuye a desacoplar las operaciones de infraestructura de
 
 
 ### 4.2.1.4. Infrastructure Layer
-
+<p align="justify">
 La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
 UserRepository y RoleRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades User y Role, respectivamente.
 Estos repositorios proporcionan métodos específicos como findByUsername, findByName y validaciones de existencia (existsByUsername, existsByName), que son esenciales para preservar la unicidad de los registros.
@@ -1680,7 +1685,7 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 
 ### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-
+<p align="justify">
 En esta sección se presentan los diagramas de arquitectura a nivel de componentes para el contexto IAM.
 Estos diagramas ilustran la interacción entre los principales artefactos del sistema, como controladores, servicios de dominio, agregados y repositorios.
 La representación gráfica facilita la comprensión del flujo de información y responsabilidades entre capas, promoviendo la trazabilidad y la consistencia arquitectónica del contexto.
@@ -1689,7 +1694,7 @@ La representación gráfica facilita la comprensión del flujo de información y
 
 
 ### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
-
+<p align="justify">
 Los diagramas a nivel de código detallan los flujos de ejecución de los principales casos de uso del contexto IAM, incluyendo el proceso de registro (sign-up) y autenticación (sign-in).
 Asimismo, se incluyen diagramas de clases que representan la estructura interna de las entidades y servicios, así como diagramas de base de datos que modelan la persistencia de los objetos del dominio.
 Esta representación contribuye a visualizar la implementación técnica del contexto y a validar su alineación con el diseño conceptual.
@@ -1708,14 +1713,15 @@ Esta representación contribuye a visualizar la implementación técnica del con
 ![](https://i.postimg.cc/jqQSCccC/iam-db-diagram.png)
 
 ## 4.2.2. Bounded Context: Parking Site
-
+<p align="justify">
 En esta sección se documentan las principales clases que conforman el núcleo del contexto Parking Site, detallando sus atributos, métodos y relaciones.
 El agregado raíz Site representa una ubicación física del estacionamiento, como un edificio o un nivel, con información sobre su capacidad y las plazas de estacionamiento que contiene.
 
-La entidad ParkingSpot modela cada plaza individual dentro de un Site, con atributos como su código identificador, tipo (compacto, grande, eléctrico, discapacitado) y estado (libre, ocupada, reservada, fuera de servicio).
+- La entidad ParkingSpot modela cada plaza individual dentro de un Site, con atributos como su código identificador, tipo (compacto, grande, eléctrico, discapacitado) y estado (libre, ocupada, reservada, fuera de servicio).
 
-Los objetos de valor SpotType y SpotState encapsulan los posibles tipos y estados de las plazas de estacionamiento, implementados como enumerados (enum), asegurando la integridad de los valores permitidos y evitando inconsistencias.
+- Los objetos de valor SpotType y SpotState encapsulan los posibles tipos y estados de las plazas de estacionamiento, implementados como enumerados (enum), asegurando la integridad de los valores permitidos y evitando inconsistencias.
 
+<p align="justify">
 Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
 
 **Clase Site**
@@ -1801,11 +1807,14 @@ Valores
 | OUT_OF_SERVICE  |
 
 ### 4.2.2.1. Domain Layer
-
+<p align="justify">
 En la capa de dominio se modelan los conceptos centrales del contexto Parking Site siguiendo los principios de Domain-Driven Design.
-El agregado raíz Site representa una unidad física del estacionamiento y contiene una colección de entidades ParkingSpot. Esta relación asegura la consistencia y las reglas de negocio relacionadas con la gestión de las plazas dentro de un sitio.
-Los objetos de valor SpotType y SpotState definen los posibles tipos y estados de las plazas, garantizando la integridad del dominio.
-Adicionalmente, el servicio de dominio SpotAssignmentService encapsula la lógica de negocio para asignar plazas de estacionamiento basándose en criterios específicos.
+
+- El agregado raíz Site representa una unidad física del estacionamiento y contiene una colección de entidades ParkingSpot. Esta relación asegura la consistencia y las reglas de negocio relacionadas con la gestión de las plazas dentro de un sitio.
+- Los objetos de valor SpotType y SpotState definen los posibles tipos y estados de las plazas, garantizando la integridad del dominio.
+- Adicionalmente, el servicio de dominio SpotAssignmentService encapsula la lógica de negocio para asignar plazas de estacionamiento basándose en criterios específicos.
+
+<p align="justify">
 Esta estructura permite mantener un dominio rico, expresivo y alineado con las reglas de negocio fundamentales del sistema de estacionamiento.
 
 **Site `<<Aggregate>>`**
@@ -1862,7 +1871,7 @@ Esta estructura permite mantener un dominio rico, expresivo y alineado con las r
 | + findNextAvailableSpot(site: Site, preferredType: SpotType, rules: Map<String, Object>): Optional<ParkingSpot> |
 
 ### 4.2.2.2. Interface Layer
-
+<p align="justify">
 La capa de interfaz expone la funcionalidad del contexto Parking Site a través de controladores RESTful basados en el framework Spring Boot.
 SitesController gestiona las operaciones relacionadas con la creación y consulta de sitios de estacionamiento.
 SpotsController proporciona endpoints para consultar y modificar el estado de las plazas de estacionamiento individuales.
@@ -1892,7 +1901,7 @@ Cada controlador delega la lógica de negocio en los servicios de aplicación ap
 | + markSpotOutOfService(spotId: Long): ResponseEntity<ParkingSpotResource> |
 
 ### 4.2.2.3. Application Layer
-
+<p align="justify">
 La capa de aplicación coordina la ejecución de las operaciones de negocio a través de servicios de aplicación.
 SiteService maneja la creación y consulta de objetos Site.
 SpotService gestiona las operaciones relacionadas con el estado y la disponibilidad de los objetos ParkingSpot.
@@ -1940,7 +1949,7 @@ SpotService gestiona las operaciones relacionadas con el estado y la disponibili
 | + findNextFreeSpot(siteId: Long, preferredType: SpotType): Optional<ParkingSpot> |
 
 ### 4.2.2.4. Infrastructure Layer
-
+<p align="justify">
 La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
 SiteRepository y SpotRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades Site y ParkingSpot, respectivamente.
 Estos repositorios proporcionan métodos específicos para la consulta y manipulación de los datos del dominio.
@@ -1980,17 +1989,17 @@ Estos repositorios proporcionan métodos específicos para la consulta y manipul
 ----
 
 ## 4.2.3. Bounded Context: Camera Feed
-
+<p align="justify">
 En esta sección se documentan las principales clases que conforman el núcleo del contexto Camera Feed, detallando sus atributos, métodos y relaciones.
 El agregado raíz CameraDevice representa un dispositivo físico de cámara que genera transmisiones de video (Feeds) y captura imágenes estáticas (Screenshots). Estas capturas pueden estar asociadas a la detección de matrículas de vehículos (CarPlates).
 
-La entidad Feed modela una transmisión de video en vivo proveniente de una CameraDevice, registrando su URL de acceso y el momento en que comenzó.
+- La entidad Feed modela una transmisión de video en vivo proveniente de una CameraDevice, registrando su URL de acceso y el momento en que comenzó.
 
-La entidad Screenshot representa una imagen capturada en un instante específico desde un Feed o directamente desde una CameraDevice. Puede contener información sobre la matrícula de un vehículo detectado.
+- La entidad Screenshot representa una imagen capturada en un instante específico desde un Feed o directamente desde una CameraDevice. Puede contener información sobre la matrícula de un vehículo detectado.
 
-La entidad CarPlate modela la información de una matrícula de vehículo detectada en una Screenshot, incluyendo el número de la placa y la hora de detección.
+- La entidad CarPlate modela la información de una matrícula de vehículo detectada en una Screenshot, incluyendo el número de la placa y la hora de detección.
 
-Cada clase está diseñada con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
+- Cada clase está diseñada con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
 
 **Clase CameraDevice**
 
@@ -2091,12 +2100,13 @@ Métodos
 | getDetectedAt(): LocalDateTime |
 
 ### 4.2.3.1. Domain Layer
-
+<p align="justify">
 En la capa de dominio se modelan los conceptos centrales del contexto Camera Feed siguiendo los principios de Domain-Driven Design.
-El agregado raíz CameraDevice gestiona el ciclo de vida de los dispositivos de cámara, sus transmisiones (Feeds) y las capturas de pantalla (Screenshots) que generan.
-Las entidades Feed y Screenshot son dependientes de CameraDevice. Un Screenshot puede opcionalmente estar asociado a una entidad CarPlate si se detecta una matrícula.
-La entidad CarPlate representa la información de la matrícula detectada.
-Esta estructura asegura la consistencia y las reglas de negocio relacionadas con la gestión de los dispositivos de cámara y la información que generan.
+
+- El agregado raíz CameraDevice gestiona el ciclo de vida de los dispositivos de cámara, sus transmisiones (Feeds) y las capturas de pantalla (Screenshots) que generan.
+Las entidades Feed y Screenshot son dependientes de CameraDevice. - Un Screenshot puede opcionalmente estar asociado a una entidad CarPlate si se detecta una matrícula.
+- La entidad CarPlate representa la información de la matrícula detectada.
+- Esta estructura asegura la consistencia y las reglas de negocio relacionadas con la gestión de los dispositivos de cámara y la información que generan.
 
 **CameraDevice `<<Aggregate>>`**
 | Atributos       |
@@ -2204,7 +2214,7 @@ ScreenshotController facilita la gestión de las capturas de pantalla y la asoci
 | + associatePlateWithScreenshot(screenshotId: Long, plateNumber: String): ResponseEntity<ScreenshotResource> |
 
 ### 4.2.3.3. Application Layer
-
+<p align="justify">
 La capa de aplicación coordina la ejecución de las operaciones de negocio a través de servicios de aplicación.
 CameraDeviceService gestiona las operaciones relacionadas con los dispositivos de cámara.
 FeedService gestiona el ciclo de vida de las transmisiones de video.
@@ -2269,7 +2279,7 @@ ScreenshotService maneja la captura y asociación de matrículas con las captura
 | + associatePlateWithScreenshot(screenshotId: Long, plateNumber: String): Optional<Screenshot> |
 
 ### 4.2.3.4. Infrastructure Layer
-
+<p align="justify">
 La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
 CameraDeviceRepository, FeedRepository, ScreenshotRepository y CarPlateRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades correspondientes.
 Estos repositorios proporcionan métodos específicos para la consulta y manipulación de los datos del dominio.
@@ -2329,23 +2339,23 @@ Estos repositorios proporcionan métodos específicos para la consulta y manipul
 ![Camera Feed Database Design Diagram](assets/capitulo-4/DBCameraFeed.png)
 
 ## 4.2.4. Bounded Context: Parking Circulation
-
+<p align="justify">
 En esta sección se documentan las principales clases que conforman el núcleo del contexto Parking Circulation, detallando sus atributos, métodos y relaciones.
 Este contexto se enfoca en modelar el flujo de vehículos dentro del estacionamiento, registrando los eventos de entrada (ParkingEntrance) y salida (ParkingExit), y emitiendo tickets (Ticket) que vinculan estos eventos con la información del usuario (UserId).
 
-La entidad ParkingEntrance representa el evento de llegada de un vehículo, capturando la matrícula, la hora de ingreso y la cámara que detectó la entrada.
+- La entidad ParkingEntrance representa el evento de llegada de un vehículo, capturando la matrícula, la hora de ingreso y la cámara que detectó la entrada.
 
-La entidad ParkingExit representa el evento de salida de un vehículo, registrando la matrícula, la hora de salida y la cámara que detectó la salida.
+- La entidad ParkingExit representa el evento de salida de un vehículo, registrando la matrícula, la hora de salida y la cámara que detectó la salida.
 
-La entidad Ticket es el agregado principal de este contexto, correlacionando un evento de entrada con uno de salida (cuando ocurre), almacenando información del usuario a través de un objeto de valor UserId, el estado del ticket, el monto a pagar y la duración total de la estancia.
+- La entidad Ticket es el agregado principal de este contexto, correlacionando un evento de entrada con uno de salida (cuando ocurre), almacenando información del usuario a través de un objeto de valor UserId, el estado del ticket, el monto a pagar y la duración total de la estancia.
 
-El objeto de valor UserId encapsula el identificador del usuario proveniente del contexto IAM, asegurando la inmutabilidad de esta información dentro del contexto de circulación.
+- El objeto de valor UserId encapsula el identificador del usuario proveniente del contexto IAM, asegurando la inmutabilidad de esta información dentro del contexto de circulación.
 
-El enumerado TicketState define los posibles estados de un ticket de estacionamiento.
+- El enumerado TicketState define los posibles estados de un ticket de estacionamiento.
 
-El servicio de dominio CirculationDomainService orquesta la creación de tickets al registrar una entrada y su cierre al registrar una salida, además de calcular el monto a pagar.
+- El servicio de dominio CirculationDomainService orquesta la creación de tickets al registrar una entrada y su cierre al registrar una salida, además de calcular el monto a pagar.
 
-Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
+- Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
 
 **Clase ParkingEntrance**
 
@@ -2438,7 +2448,7 @@ Métodos
 | getValue(): String |
 
 ### 4.2.4.1. Domain Layer
-
+<p align="justify">
 En la capa de dominio se modelan los conceptos centrales del contexto Parking Circulation siguiendo los principios de Domain-Driven Design.
 El agregado raíz Ticket coordina la información de los eventos de entrada (ParkingEntrance) y salida (ParkingExit), junto con la identidad del usuario (UserId) y el estado del ticket (TicketState).
 Las entidades ParkingEntrance y ParkingExit representan eventos inmutables en el tiempo.
@@ -2502,7 +2512,7 @@ Esta estructura permite mantener un dominio rico, expresivo y alineado con las r
 | + calculateParkingFee(ticket: Ticket, entryTime: LocalDateTime, exitTime: LocalDateTime, rate: MoneyRate): BigDecimal |
 
 ### 4.2.4.2. Interface Layer
-
+<p align="justify">
 La capa de interfaz expone la funcionalidad del contexto Parking Circulation a través de controladores RESTful basados en el framework Spring Boot.
 EntranceController gestiona el registro de entradas de vehículos.
 ExitController gestiona el registro de salidas de vehículos.
@@ -2537,7 +2547,7 @@ TicketsController permite la consulta de información de los tickets.
 | + getTicketsByUserId(userId: String): ResponseEntity<List<TicketResource>> |
 
 ### 4.2.4.3. Application Layer
-
+<p align="justify">
 La capa de aplicación coordina la ejecución de las operaciones de negocio a través de servicios de aplicación.
 CirculationService maneja el registro de entradas y salidas, la creación y consulta de tickets, y la publicación de eventos de dominio.
 
@@ -2566,7 +2576,7 @@ CirculationService maneja el registro de entradas y salidas, la creación y cons
 | + getActiveTicketsByUserId(userId: String): List<Ticket>                      |
 
 ### 4.2.4.4. Infrastructure Layer
-
+<p align="justify">
 La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
 EntranceRepository, ExitRepository y TicketRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades correspondientes.
 Estos repositorios proporcionan métodos específicos para la consulta y manipulación de los datos del dominio.
@@ -2613,20 +2623,16 @@ Estos repositorios proporcionan métodos específicos para la consulta y manipul
 ---
 
 ## 4.2.5. Bounded Context: Payments
-
+<p align="justify">
 En esta sección se documentan las principales clases que conforman el núcleo del contexto Payments, detallando sus atributos, métodos y relaciones.
 El agregado raíz Payment representa un pago realizado en el sistema, con información sobre el monto, la fecha, el método y el estado.
 
-La entidad PaymentCard modela la información de una tarjeta de pago asociada a un usuario (UserId) para realizar transacciones.
 
-La entidad Receipt representa el comprobante generado para un pago exitoso, vinculado a un Payment específico.
-
-El objeto de valor UserId encapsula el identificador único del usuario, utilizado para relacionar pagos y tarjetas con el usuario correspondiente.
-
-El enumerado PaymentStatus define los posibles estados de un pago.
-
-El enumerado CardType enumera los tipos de tarjetas de pago aceptados.
-
+- La entidad PaymentCard modela la información de una tarjeta de pago asociada a un usuario (UserId) para realizar transacciones.
+- La entidad Receipt representa el comprobante generado para un pago exitoso, vinculado a un Payment específico.
+- El objeto de valor UserId encapsula el identificador único del usuario, utilizado para relacionar pagos y tarjetas con el usuario correspondiente.
+- El enumerado PaymentStatus define los posibles estados de un pago.
+- El enumerado CardType enumera los tipos de tarjetas de pago aceptados.
 Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
 
 **Clase Payment**
@@ -2749,7 +2755,7 @@ Valores
 | OTHER       |
 
 ### 4.2.5.1. Domain Layer
-
+<p align="justify">
 En la capa de dominio se modelan los conceptos centrales del contexto Payments siguiendo los principios de Domain-Driven Design.
 El agregado raíz Payment gestiona el ciclo de vida de un pago, incluyendo su estado y la generación del recibo asociado.
 Las entidades PaymentCard y Receipt son dependientes de Payment y UserId. PaymentCard contiene la información de la tarjeta utilizada para el pago y está asociada a un UserId. Receipt contiene los detalles del comprobante generado para un Payment exitoso.
@@ -3216,6 +3222,10 @@ ICriticalEventLogRepository, IVehicleRepository e IDeviceRepository son interfac
 
 ## 4.2.7. Bounded Context: Ticket Validation
 
+<p align="justify">
+El contexto Ticket Validation se centra en la gestión del ciclo de vida de los tickets de estacionamiento. Desde el registro de la entrada de un vehículo hasta el seguimiento del pago y la salida, este contexto modela la información esencial para la validación y el control de acceso al estacionamiento. La entidad central, Ticket, captura los detalles cruciales de cada estancia, mientras que las capas de interfaz, aplicación e infraestructura colaboran para exponer y persistir esta información de manera coherente.
+
+
 ### 4.2.7.1. Domain Layer
 
 #### Entidad: Ticket
@@ -3365,6 +3375,10 @@ ICriticalEventLogRepository, IVehicleRepository e IDeviceRepository son interfac
 <p align="center"><img src="assets/capitulo-4/4.2.7.6.2-TicketValidationDatabase.jpg" alt="Ticket Validation DB Diagram"/></p>
 
 ## 4.2.8. Bounded Context: Notifications
+
+<p align="justify">
+El contexto Notifications se encarga de la gestión del envío y el estado de las notificaciones dentro del sistema. Define la entidad Notification, que contiene la información del mensaje, el destinatario y el estado de cada notificación. A través de sus capas de interfaz, aplicación e infraestructura, este contexto permite la creación, el envío, la consulta del estado y la persistencia de las notificaciones, facilitando la comunicación con los usuarios del sistema.
+
 
 ### 4.2.8.1. Domain Layer
 
@@ -3559,7 +3573,7 @@ ICriticalEventLogRepository, IVehicleRepository e IDeviceRepository son interfac
 <p align="center"><img src="assets/capitulo-4/4.2.8.6.2-Notifications-Database-Model.PNG" alt="Notifications DB Diagram"/></p>
 
 ## 4.2.9. Bounded Context: Profiles
-
+<p align="justify">
 Este contexto se encarga de gestionar la información extendida de los usuarios del sistema, diferenciando entre perfiles de conductores y administradores. Almacena detalles como preferencias, información de contacto y métricas de uso, separándolos de las credenciales de autenticación.
 
 ### 4.2.9.1. Domain Layer
