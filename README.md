@@ -1799,6 +1799,9 @@ Implementaciones: `SiteServiceImpl`, `SpotServiceImpl` (usan `ModelMapper` + reg
 ![Parking Site Components](assets/capitulo-4/4.2.2.5-Diagram.png)
 
 ### 4.2.2.6. Code-Level Diagrams
+
+![img_14.png](img_14.png)
+
 #### 4.2.2.6.1. Domain Class Diagram
 ![Parking Site Classes](assets/capitulo-4/4.2.2.6.1-Diagram.png)
 
@@ -1812,14 +1815,14 @@ Este contexto está orientado a la gestión de dispositivos de cámaras, sus tra
 
 ---
 
-## Clase CameraDevice (Aggregate Root)
+#### Clase `CameraDevice` (Aggregate Root)
 
 | **Nombre**           | **CameraDevice**             |
 |:---------------------|:------------------------------|
 | **Relaciones**       | Tiene muchos `Feed` y muchos `Screenshot`. |
 | **Descripción**      | Representa un dispositivo de cámara que envía transmisiones y toma capturas de pantalla. Es el agregado raíz de este contexto. |
 
-### Atributos
+##### Atributos
 
 | **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
 |:---------------------|:-------------------|:----------------|
@@ -1829,7 +1832,7 @@ Este contexto está orientado a la gestión de dispositivos de cámaras, sus tra
 | `feeds`              | `List<Feed>`       | `private`       |
 | `screenshots`        | `List<Screenshot>` | `private`       |
 
-### Métodos
+##### Métodos
 
 | **Método**           | **Descripción**                             |
 |:---------------------|:-------------------------------------------|
@@ -1838,14 +1841,14 @@ Este contexto está orientado a la gestión de dispositivos de cámaras, sus tra
 
 ---
 
-## Clase Feed (Entity)
+#### Clase `Feed` (Entity)
 
 | **Nombre**           | **Feed**                    |
 |:---------------------|:----------------------------|
 | **Relaciones**       | Pertenece a `CameraDevice`. |
 | **Descripción**      | Representa una transmisión de video proveniente de un dispositivo de cámara. |
 
-### Atributos
+##### Atributos
 
 | **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
 |:---------------------|:-------------------|:----------------|
@@ -1853,7 +1856,7 @@ Este contexto está orientado a la gestión de dispositivos de cámaras, sus tra
 | `streamUrl`          | `String`           | `private`       |
 | `startedAt`          | `LocalDateTime`    | `private`       |
 
-### Métodos
+##### Métodos
 
 | **Método**           | **Descripción**                             |
 |:---------------------|:-------------------------------------------|
@@ -1862,7 +1865,7 @@ Este contexto está orientado a la gestión de dispositivos de cámaras, sus tra
 
 ---
 
-## Clase Screenshot (Entity)
+## Clase `Screenshot` (Entity)
 
 | **Nombre**           | **Screenshot**              |
 |:---------------------|:----------------------------|
@@ -1886,7 +1889,7 @@ Este contexto está orientado a la gestión de dispositivos de cámaras, sus tra
 
 ---
 
-## Clase CarPlate (Entity)
+## Clase `CarPlate` (Entity)
 
 | **Nombre**           | **CarPlate**                |
 |:---------------------|:----------------------------|
@@ -1911,11 +1914,9 @@ Este contexto está orientado a la gestión de dispositivos de cámaras, sus tra
 ---
 
 ### 4.2.3.1. Domain Layer
-Esta capa representa el núcleo del modelo de negocio dentro del bounded context **Camera Feed**. Aquí se definen los principales conceptos del dominio, sus entidades, agregados y relaciones. 
+Esta capa representa el núcleo del modelo de negocio dentro del bounded context *Camera Feed*. Aquí se definen los principales conceptos del dominio, sus entidades, agregados y relaciones.
 
-El aggregate root `CameraDevice` organiza la estructura general: cada dispositivo de cámara puede emitir múltiples transmisiones en vivo (`Feed`) y generar múltiples capturas de pantalla (`Screenshot`). Además, las capturas de pantalla pueden contener información relevante de matrículas de vehículos (`CarPlate`). 
-
-Todas las reglas de negocio críticas y las asociaciones entre estos objetos del dominio se gestionan en esta capa, asegurando coherencia y consistencia en el modelo de datos.
+El aggregate root CameraDevice organiza la estructura general: cada dispositivo de cámara puede emitir múltiples transmisiones en vivo (Feed) y generar múltiples capturas de pantalla (Screenshot). Además, las capturas pueden contener información relevante de matrículas de vehículos (CarPlate).
 
 #### Aggregate: CameraDevice
 
@@ -2103,6 +2104,9 @@ Impl.: `CirculationServiceImpl` (publica dominio events a *Payments* & *Notifica
 ![Parking Circulation Components](assets/capitulo-4/4.2.4.5-Diagram.png)
 
 ### 4.2.4.6. Code-Level Diagrams
+
+![img_9.png](img_9.png)
+
 #### 4.2.4.6.1. Domain Class Diagram
 ![Parking Circulation Classes](assets/capitulo-4/4.2.4.6.1-Diagram.png)
 
@@ -2693,6 +2697,8 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 ### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 
+![img_10.png](img_10.png)
+
 #### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
 
 <p align="center"><img src="assets/capitulo-4/4.2.6.6.1-Monitoring-ClassDiagram.png" alt="Monitoring Class Diagram"/></p>
@@ -2701,7 +2707,7 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 <p align="center"><img src="assets/capitulo-4/4.2.6.6.2-MonitoringDatabase.jpg" alt="Monitoring DB Diagram"/></p>
 
-## 4.2.7. Bounded Context: Ticket validation
+## 4.2.7. Bounded Context: Ticket Validation
 
 ### 4.2.7.1. Domain Layer
 
@@ -2841,6 +2847,8 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 ### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 
+![img_11.png](img_11.png)
+
 #### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 
 <p align="center"><img src="assets/capitulo-4/4.2.7.6.1-TicketValidation-ClassDiagram.png" alt="Ticket Validation Class Diagram"/></p>
@@ -2860,6 +2868,7 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 | Notification| Entity    | Representa una notificación que será enviada al usuario. |
 
 **Atributos:**
+
 | Nombre        | Tipo de dato | Visibilidad | Descripción                                                |
 |---------------|--------------|-------------|------------------------------------------------------------|
 | id            | Long         | Private     | Identificador único de la notificación.                    |
@@ -2997,6 +3006,8 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 ### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
 
+![img_12.png](img_12.png)
+
 #### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 
 <p align="center"><img src="assets/capitulo-4/4.2.8.6.1-Notifications-Class-Diagram.PNG" alt="Notifications Class Diagram"/></p>
@@ -3074,6 +3085,9 @@ Impl.: `ProfileServiceImpl` (usa `ModelMapper` + `ProfileRepository`).
 ![Profiles Components](assets/capitulo-4/4.2.9.5-Diagram.png)
 
 ### 4.2.9.6. Code-Level Diagrams
+
+![img_13.png](img_13.png)
+
 #### 4.2.9.6.1. Domain Class Diagram
 ![Profiles Classes](assets/capitulo-4/4.2.9.6.1-Diagram.png)
 
