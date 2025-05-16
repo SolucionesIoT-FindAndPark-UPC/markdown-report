@@ -1685,7 +1685,7 @@ En esta sección se presentan los diagramas de arquitectura a nivel de component
 Estos diagramas ilustran la interacción entre los principales artefactos del sistema, como controladores, servicios de dominio, agregados y repositorios.
 La representación gráfica facilita la comprensión del flujo de información y responsabilidades entre capas, promoviendo la trazabilidad y la consistencia arquitectónica del contexto.
 
-![](https://i.postimg.cc/DZ37w4bq/container-diagram.png)
+![](./assets/capitulo-4/IAM12.png)
 
 
 ### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
@@ -1709,91 +1709,260 @@ Esta representación contribuye a visualizar la implementación técnica del con
 
 ## 4.2.2. Bounded Context: Parking Site
 
-> **Propósito general**  
-> Este contexto modela la **infraestructura física** de un estacionamiento (sedes, pisos, plazas).
+En esta sección se documentan las principales clases que conforman el núcleo del contexto Parking Site, detallando sus atributos, métodos y relaciones.
+El agregado raíz Site representa una ubicación física del estacionamiento, como un edificio o un nivel, con información sobre su capacidad y las plazas de estacionamiento que contiene.
+
+La entidad ParkingSpot modela cada plaza individual dentro de un Site, con atributos como su código identificador, tipo (compacto, grande, eléctrico, discapacitado) y estado (libre, ocupada, reservada, fuera de servicio).
+
+Los objetos de valor SpotType y SpotState encapsulan los posibles tipos y estados de las plazas de estacionamiento, implementados como enumerados (enum), asegurando la integridad de los valores permitidos y evitando inconsistencias.
+
+Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
+
+**Clase Site**
+
+| **Nombre** | Site                                                              |
+|-----------------|-------------------------------------------------------------------|
+| **Relaciones** | Uno a muchos con ParkingSpot                                      |
+| **Descripción** | Representa una ubicación física del estacionamiento.              |
+
+Atributos
+
+| Nombre          | Tipo de Dato      | Visibilidad |
+|-----------------|-------------------|-------------|
+| id              | Long              | private     |
+| name            | String            | private     |
+| address         | String            | private     |
+| totalCapacity   | Integer           | private     |
+| availableSpots  | Integer           | private     |
+| spots           | List<ParkingSpot> | private     |
+
+Métodos
+
+| Método                      |
+|-----------------------------|
+| addSpot(spot: ParkingSpot)  |
+| removeSpot(spotId: Long)   |
+| updateAvailability()        |
+| findFreeSpotsByType(type: SpotType): List<ParkingSpot> |
+
+**Clase ParkingSpot**
+
+| **Nombre** | ParkingSpot                                                       |
+|-----------------|-------------------------------------------------------------------|
+| **Relaciones** | Muchos a uno con Site                                             |
+| **Descripción** | Representa una plaza individual de estacionamiento.              |
+
+Atributos
+
+| Nombre   | Tipo de Dato             | Visibilidad |
+|----------|--------------------------|-------------|
+| id       | Long                     | private     |
+| code     | String                   | private     |
+| type     | SpotType (enum)          | private     |
+| state    | SpotState (enum)         | private     |
+| siteId   | Long                     | private     |
+
+Métodos
+
+| Método                   |
+|--------------------------|
+| occupy()                 |
+| release()                |
+| markOutOfService()       |
+
+**Enum SpotType**
+
+| **Nombre** | SpotType                                                        |
+|-----------------|-----------------------------------------------------------------|
+| **Descripción** | Define los tipos posibles de plazas de estacionamiento.          |
+
+Valores
+
+| Valor      |
+|------------|
+| COMPACT    |
+| LARGE      |
+| EV         |
+| HANDICAP   |
+
+**Enum SpotState**
+
+| **Nombre** | SpotState                                                         |
+|-----------------|-------------------------------------------------------------------|
+| **Descripción** | Define los estados posibles de una plaza de estacionamiento.       |
+
+Valores
+
+| Valor           |
+|-----------------|
+| FREE            |
+| OCCUPIED        |
+| RESERVED        |
+| OUT_OF_SERVICE  |
 
 ### 4.2.2.1. Domain Layer
 
-| Agregado | Rol | Descripción breve |
-|----------|-----|-------------------|
-| **Site** `<<Aggregate Root>>` | Macro-unidad | Un establecimiento (o nivel) con dirección, capacidad y reglas. Contiene muchas `ParkingSpot`. |
-| **ParkingSpot** `<<Aggregate Root>>` | Micro-unidad | Una plaza individual identificada (código), de un **tipo** (COMPACT, EV, HANDICAP…) y con un **state** (FREE, OCCUPIED, OUT_OF_SERVICE). |
+En la capa de dominio se modelan los conceptos centrales del contexto Parking Site siguiendo los principios de Domain-Driven Design.
+El agregado raíz Site representa una unidad física del estacionamiento y contiene una colección de entidades ParkingSpot. Esta relación asegura la consistencia y las reglas de negocio relacionadas con la gestión de las plazas dentro de un sitio.
+Los objetos de valor SpotType y SpotState definen los posibles tipos y estados de las plazas, garantizando la integridad del dominio.
+Adicionalmente, el servicio de dominio SpotAssignmentService encapsula la lógica de negocio para asignar plazas de estacionamiento basándose en criterios específicos.
+Esta estructura permite mantener un dominio rico, expresivo y alineado con las reglas de negocio fundamentales del sistema de estacionamiento.
 
-#### Site
+**Site `<<Aggregate>>`**
+| Atributos         |
+|-------------------|
+| - Long id         |
+| - String name       |
+| - String address    |
+| - Integer totalCapacity |
+| - Integer availableSpots |
+| - List<ParkingSpot> spots |
 
-| Atributo | Tipo | Vis. | Notas |
-|----------|------|------|-------|
-| id | Long | private | PK |
-| name | String | private | Nombre visible (“San Isidro – Sotano 1”) |
-| address | String | private | Dirección completa |
-| totalCapacity | Integer | private | Plazas totales |
-| availableSpots | Integer | private | Plazas libres (cálculo interno) |
+| Métodos                                        |
+|------------------------------------------------|
+| + addSpot(spot: ParkingSpot): void             |
+| + removeSpot(spotId: Long): void              |
+| + updateAvailability(): void                  |
+| + findFreeSpotsByType(type: SpotType): List<ParkingSpot> |
 
-| Método | Firma |
-|--------|-------|
-| addSpot(spot: ParkingSpot) |
-| removeSpot(spotId: Long) |
-| updateAvailability(): Site |
+**ParkingSpot `<<Entity>>`**
+| Atributos   |
+|-------------|
+| - Long id   |
+| - String code |
+| - SpotType type |
+| - SpotState state |
+| - Long siteId |
 
-#### ParkingSpot
+| Métodos                |
+|------------------------|
+| + occupy(): void       |
+| + release(): void      |
+| + markOutOfService(): void |
 
-| Atributo | Tipo | Vis. | Notas |
-|----------|------|------|-------|
-| id | Long | private | PK |
-| code | String | private | Ej. “B-12” |
-| type | SpotType `enum` | private | COMPACT, LARGE, EV, HANDICAP |
-| state | SpotState `enum` | private | FREE, OCCUPIED, RESERVED, OUT_OF_SERVICE |
-| siteId | Long | private | FK a `Site` |
+**SpotType `<<Value Object>>`**
+| SpotType |
+|----------|
+| + COMPACT  |
+| + LARGE    |
+| + EV       |
+| + HANDICAP |
 
-| Método | Firma |
-|--------|-------|
-| occupy(): ParkingSpot |
-| release(): ParkingSpot |
-| markOutOfService(): ParkingSpot |
+**SpotState `<<Value Object>>`**
+| SpotState      |
+|----------------|
+| + FREE         |
+| + OCCUPIED     |
+| + RESERVED     |
+| + OUT_OF_SERVICE |
 
-#### Value Objects
-
-| Nombre | Valores |
-|--------|---------|
-| **SpotType** | COMPACT · LARGE · EV · HANDICAP |
-| **SpotState** | FREE · OCCUPIED · RESERVED · OUT_OF_SERVICE |
-
-#### Domain Services
-
-| Servicio | Responsabilidad principal |
-|----------|---------------------------|
-| **SpotAssignmentService** | Encontrar la siguiente plaza libre según *tipo preferido* y *reglas de negocio* (por ejemplo, prioridad EV). |
-
----
+**Domain Services**
+| SpotAssignmentService                                                                                                |
+|----------------------------------------------------------------------------------------------------------------------|
+| + findNextAvailableSpot(site: Site, preferredType: SpotType, rules: Map<String, Object>): Optional<ParkingSpot> |
 
 ### 4.2.2.2. Interface Layer
 
-| Controller | Endpoints clave |
-|------------|----------------|
-| **SitesController** | `GET /sites`, `GET /sites/{id}`, `POST /sites` |
-| **SpotsController** | `GET /spots/{id}`, `PATCH /spots/{id}/occupy`, `PATCH /spots/{id}/release` |
+La capa de interfaz expone la funcionalidad del contexto Parking Site a través de controladores RESTful basados en el framework Spring Boot.
+SitesController gestiona las operaciones relacionadas con la creación y consulta de sitios de estacionamiento.
+SpotsController proporciona endpoints para consultar y modificar el estado de las plazas de estacionamiento individuales.
+Cada controlador delega la lógica de negocio en los servicios de aplicación apropiados, actuando únicamente como capa de orquestación, en conformidad con el principio de Controller Thin.
 
----
+**SitesController`<<Controller>>`**
+| Atributos          |
+|--------------------|
+| - ISiteService siteService |
+
+| Métodos                                      |
+|----------------------------------------------|
+| + getAllSites(): ResponseEntity<List<SiteResource>> |
+| + getSiteById(siteId: Long): ResponseEntity<SiteResource> |
+| + createSite(createSiteResource: CreateSiteResource): ResponseEntity<SiteResource> |
+
+**SpotsController`<<Controller>>`**
+| Atributos          |
+|--------------------|
+| - ISpotService spotService |
+
+| Métodos                                                        |
+|----------------------------------------------------------------|
+| + getSpotById(spotId: Long): ResponseEntity<ParkingSpotResource> |
+| + occupySpot(spotId: Long): ResponseEntity<ParkingSpotResource> |
+| + releaseSpot(spotId: Long): ResponseEntity<ParkingSpotResource> |
+| + markSpotOutOfService(spotId: Long): ResponseEntity<ParkingSpotResource> |
 
 ### 4.2.2.3. Application Layer
 
-| Service Interface | Operaciones |
-|-------------------|-------------|
-| **ISiteService** | createSite · getSite · listSites |
-| **ISpotService** | occupySpot · releaseSpot · findNextFreeSpot |
+La capa de aplicación coordina la ejecución de las operaciones de negocio a través de servicios de aplicación.
+SiteService maneja la creación y consulta de objetos Site.
+SpotService gestiona las operaciones relacionadas con el estado y la disponibilidad de los objetos ParkingSpot.
 
-Implementaciones: `SiteServiceImpl`, `SpotServiceImpl` (usan `ModelMapper` + reglas de dominio).
+**ISiteService`<<Service Interface>>`**
+| Métodos                                      |
+|----------------------------------------------|
+| + getAllSites(): List<Site>                   |
+| + getSiteById(siteId: Long): Optional<Site>    |
+| + createSite(site: Site): Site               |
 
----
+**SiteServiceImpl`<<Service>>`**
+| Atributos            |
+|----------------------|
+| - SiteRepository siteRepository |
+
+| Métodos (implementa ISiteService)              |
+|------------------------------------------------|
+| + getAllSites(): List<Site>                   |
+| + getSiteById(siteId: Long): Optional<Site>    |
+| + createSite(site: Site): Site               |
+
+**ISpotService`<<Service Interface>>`**
+| Métodos                                                 |
+|---------------------------------------------------------|
+| + getSpotById(spotId: Long): Optional<ParkingSpot>      |
+| + occupySpot(spotId: Long): Optional<ParkingSpot>       |
+| + releaseSpot(spotId: Long): Optional<ParkingSpot>      |
+| + markSpotOutOfService(spotId: Long): Optional<ParkingSpot> |
+| + findNextFreeSpot(siteId: Long, preferredType: SpotType): Optional<ParkingSpot> |
+
+**SpotServiceImpl`<<Service>>`**
+| Atributos              |
+|------------------------|
+| - SpotRepository spotRepository |
+| - SiteRepository siteRepository |
+| - SpotAssignmentService spotAssignmentService |
+
+| Métodos (implementa ISpotService)                       |
+|-------------------------------------------------------|
+| + getSpotById(spotId: Long): Optional<ParkingSpot>    |
+| + occupySpot(spotId: Long): Optional<ParkingSpot>     |
+| + releaseSpot(spotId: Long): Optional<ParkingSpot>    |
+| + markSpotOutOfService(spotId: Long): Optional<ParkingSpot> |
+| + findNextFreeSpot(siteId: Long, preferredType: SpotType): Optional<ParkingSpot> |
 
 ### 4.2.2.4. Infrastructure Layer
 
-| Repository | Extiende | Métodos custom |
-|------------|----------|----------------|
-| **SiteRepository** | `JpaRepository<Site,Long>` | findByName |
-| **SpotRepository** | `JpaRepository<ParkingSpot,Long>` | countByStateAndSiteId |
+La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
+SiteRepository y SpotRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades Site y ParkingSpot, respectivamente.
+Estos repositorios proporcionan métodos específicos para la consulta y manipulación de los datos del dominio.
 
----
+**SiteRepository`<<Repository>>`**
+| Atributos                        |
+|----------------------------------|
+| Extiende: JpaRepository<Site, Long> |
+
+| Métodos                                    |
+|--------------------------------------------|
+| + findByName(name: String): Optional<Site> |
+
+**SpotRepository`<<Repository>>`**
+| Atributos                             |
+|---------------------------------------|
+| Extiende: JpaRepository<ParkingSpot, Long> |
+
+| Métodos                                                                 |
+|-------------------------------------------------------------------------|
+| + countByStateAndSiteId(state: SpotState, siteId: Long): long           |
+| + findBySiteIdAndState(siteId: Long, state: SpotState): List<ParkingSpot> |
 
 ### 4.2.2.5. Component Diagram
 ![Parking Site Components](assets/capitulo-4/4.2.2.5-Diagram.png)
@@ -1809,207 +1978,337 @@ Implementaciones: `SiteServiceImpl`, `SpotServiceImpl` (usan `ModelMapper` + reg
 ![Parking Site DB](assets/capitulo-4/4.2.2.6.2-Diagram.png)
 
 ----
-### 4.2.3. Bounded Context: Camera Feed
 
-Este contexto está orientado a la gestión de dispositivos de cámaras, sus transmisiones (feeds) en vivo, capturas de pantalla (screenshots) y la relación de estas capturas con matrículas de automóviles (carplates).
+## 4.2.3. Bounded Context: Camera Feed
 
----
+En esta sección se documentan las principales clases que conforman el núcleo del contexto Camera Feed, detallando sus atributos, métodos y relaciones.
+El agregado raíz CameraDevice representa un dispositivo físico de cámara que genera transmisiones de video (Feeds) y captura imágenes estáticas (Screenshots). Estas capturas pueden estar asociadas a la detección de matrículas de vehículos (CarPlates).
 
-#### Clase `CameraDevice` (Aggregate Root)
+La entidad Feed modela una transmisión de video en vivo proveniente de una CameraDevice, registrando su URL de acceso y el momento en que comenzó.
 
-| **Nombre**           | **CameraDevice**             |
-|:---------------------|:------------------------------|
-| **Relaciones**       | Tiene muchos `Feed` y muchos `Screenshot`. |
-| **Descripción**      | Representa un dispositivo de cámara que envía transmisiones y toma capturas de pantalla. Es el agregado raíz de este contexto. |
+La entidad Screenshot representa una imagen capturada en un instante específico desde un Feed o directamente desde una CameraDevice. Puede contener información sobre la matrícula de un vehículo detectado.
 
-##### Atributos
+La entidad CarPlate modela la información de una matrícula de vehículo detectada en una Screenshot, incluyendo el número de la placa y la hora de detección.
 
-| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
-|:---------------------|:-------------------|:----------------|
-| `id`                 | `Long`             | `private`       |
-| `deviceName`         | `String`           | `private`       |
-| `location`           | `String`           | `private`       |
-| `feeds`              | `List<Feed>`       | `private`       |
-| `screenshots`        | `List<Screenshot>` | `private`       |
+Cada clase está diseñada con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
 
-##### Métodos
+**Clase CameraDevice**
 
-| **Método**           | **Descripción**                             |
-|:---------------------|:-------------------------------------------|
-| `addFeed(feed: Feed)` | Agrega un nuevo feed al dispositivo.       |
-| `addScreenshot(screenshot: Screenshot)` | Agrega una nueva captura de pantalla. |
+| **Nombre** | CameraDevice                                                      |
+|-----------------|-------------------------------------------------------------------|
+| **Relaciones** | Uno a muchos con Feed, uno a muchos con Screenshot                |
+| **Descripción** | Representa un dispositivo de cámara que genera feeds y screenshots. |
 
----
+Atributos
 
-#### Clase `Feed` (Entity)
+| Nombre       | Tipo de Dato      | Visibilidad |
+|--------------|-------------------|-------------|
+| id           | Long              | private     |
+| deviceName   | String            | private     |
+| location     | String            | private     |
+| status       | Boolean           | private     |
+| feeds        | List<Feed>        | private     |
+| screenshots  | List<Screenshot>  | private     |
 
-| **Nombre**           | **Feed**                    |
-|:---------------------|:----------------------------|
-| **Relaciones**       | Pertenece a `CameraDevice`. |
-| **Descripción**      | Representa una transmisión de video proveniente de un dispositivo de cámara. |
+Métodos
 
-##### Atributos
+| Método                       |
+|------------------------------|
+| activateDevice()             |
+| deactivateDevice()           |
+| addFeed(feed: Feed)          |
+| addScreenshot(screenshot: Screenshot) |
+| captureFeed()                |
 
-| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
-|:---------------------|:-------------------|:----------------|
-| `id`                 | `Long`             | `private`       |
-| `streamUrl`          | `String`           | `private`       |
-| `startedAt`          | `LocalDateTime`    | `private`       |
+**Clase Feed**
 
-##### Métodos
+| **Nombre** | Feed                                                            |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Muchos a uno con CameraDevice                                     |
+| **Descripción** | Representa una transmisión de video de una cámara.              |
 
-| **Método**           | **Descripción**                             |
-|:---------------------|:-------------------------------------------|
-| `getStreamUrl()`     | Devuelve la URL del stream.                |
-| `getStartedAt()`     | Devuelve la fecha y hora de inicio del feed.|
+Atributos
 
----
+| Nombre      | Tipo de Dato    | Visibilidad |
+|-------------|-----------------|-------------|
+| id          | Long            | private     |
+| timestamp   | LocalDateTime   | private     |
+| imageData   | String          | private     |
 
-## Clase `Screenshot` (Entity)
+Métodos
 
-| **Nombre**           | **Screenshot**              |
-|:---------------------|:----------------------------|
-| **Relaciones**       | Pertenece a `CameraDevice` y puede estar asociada a un `CarPlate`. |
-| **Descripción**      | Representa una captura de imagen tomada de un feed en vivo. |
+| Método              |
+|---------------------|
+| storeFeed()         |
+| analyzeFeed()       |
 
-### Atributos
+**Clase Screenshot**
 
-| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
-|:---------------------|:-------------------|:----------------|
-| `id`                 | `Long`             | `private`       |
-| `imageUrl`           | `String`           | `private`       |
-| `takenAt`            | `LocalDateTime`    | `private`       |
-| `carPlate`           | `CarPlate`         | `private`       |
+| **Nombre** | Screenshot                                                      |
+|-----------------|-------------------------------------------------------------------|
+| **Relaciones** | Muchos a uno con CameraDevice, opcionalmente uno a uno con CarPlate |
+| **Descripción** | Representa una captura de imagen de una cámara.                 |
 
-### Métodos
+Atributos
 
-| **Método**           | **Descripción**                             |
-|:---------------------|:-------------------------------------------|
-| `assignCarPlate(carPlate: CarPlate)` | Asigna una matrícula detectada a la captura. |
+| Nombre       | Tipo de Dato    | Visibilidad |
+|--------------|-----------------|-------------|
+| id           | Long            | private     |
+| feedId       | Long            | private     |
+| imagePath    | String          | private     |
+| carPlate     | CarPlate        | private     |
 
----
+Métodos
 
-## Clase `CarPlate` (Entity)
+| Método                |
+|-----------------------|
+| saveScreenshot()      |
+| retrieveScreenshot()  |
+| assignCarPlate(carPlate: CarPlate) |
 
-| **Nombre**           | **CarPlate**                |
-|:---------------------|:----------------------------|
-| **Relaciones**       | Puede ser asociada a varios `Screenshot`. |
-| **Descripción**      | Representa la matrícula de un vehículo detectado en una captura. |
+**Clase CarPlate**
 
-### Atributos
+| **Nombre** | CarPlate                                                        |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Uno a muchos con Screenshot                                     |
+| **Descripción** | Representa la matrícula de un vehículo detectada.               |
 
-| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
-|:---------------------|:-------------------|:----------------|
-| `id`                 | `Long`             | `private`       |
-| `plateNumber`        | `String`           | `private`       |
-| `detectedAt`         | `LocalDateTime`    | `private`       |
+Atributos
 
-### Métodos
+| Nombre        | Tipo de Dato    | Visibilidad |
+|---------------|-----------------|-------------|
+| id            | Long            | private     |
+| plateNumber   | String          | private     |
+| detectedAt    | LocalDateTime   | private     |
 
-| **Método**           | **Descripción**                             |
-|:---------------------|:-------------------------------------------|
-| `getPlateNumber()`   | Devuelve el número de la matrícula detectada.|
-| `getDetectedAt()`    | Devuelve la fecha y hora de detección.      |
+Métodos
 
----
+| Método                     |
+|----------------------------|
+| validatePlate()            |
+| associateWithTicket()       |
+| getPlateNumber(): String   |
+| getDetectedAt(): LocalDateTime |
 
 ### 4.2.3.1. Domain Layer
-Esta capa representa el núcleo del modelo de negocio dentro del bounded context *Camera Feed*. Aquí se definen los principales conceptos del dominio, sus entidades, agregados y relaciones.
 
-El aggregate root CameraDevice organiza la estructura general: cada dispositivo de cámara puede emitir múltiples transmisiones en vivo (Feed) y generar múltiples capturas de pantalla (Screenshot). Además, las capturas pueden contener información relevante de matrículas de vehículos (CarPlate).
+En la capa de dominio se modelan los conceptos centrales del contexto Camera Feed siguiendo los principios de Domain-Driven Design.
+El agregado raíz CameraDevice gestiona el ciclo de vida de los dispositivos de cámara, sus transmisiones (Feeds) y las capturas de pantalla (Screenshots) que generan.
+Las entidades Feed y Screenshot son dependientes de CameraDevice. Un Screenshot puede opcionalmente estar asociado a una entidad CarPlate si se detecta una matrícula.
+La entidad CarPlate representa la información de la matrícula detectada.
+Esta estructura asegura la consistencia y las reglas de negocio relacionadas con la gestión de los dispositivos de cámara y la información que generan.
 
-#### Aggregate: CameraDevice
+**CameraDevice `<<Aggregate>>`**
+| Atributos       |
+|-----------------|
+| - Long id       |
+| - String deviceName |
+| - String location   |
+| - Boolean status  |
+| - List<Feed> feeds |
+| - List<Screenshot> screenshots |
 
-| Entidad / Agregado | Descripción |
-|--------------------|-------------|
-| **CameraDevice** `<<Aggregate Root>>` | Representa un dispositivo de cámara. Contiene múltiples feeds y screenshots. |
-| **Feed** `<<Entity>>` | Representa una transmisión en vivo generada por una cámara. |
-| **Screenshot** `<<Entity>>` | Imagen capturada desde un feed en un momento específico. Puede estar relacionada a una matrícula de vehículo. |
-| **CarPlate** `<<Entity>>` | Información de una placa de vehículo detectada en un screenshot. |
+| Métodos                               |
+|---------------------------------------|
+| + activateDevice(): void             |
+| + deactivateDevice(): void           |
+| + addFeed(feed: Feed): void          |
+| + addScreenshot(screenshot: Screenshot): void |
+| + captureFeed(): Feed                |
 
-#### CameraDevice (núcleo)
+**Feed `<<Entity>>`**
+| Atributos         |
+|-------------------|
+| - Long id         |
+| - LocalDateTime timestamp |
+| - String imageData  |
+| - Long cameraDeviceId |
 
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| name | String |
-| location | String |
-| feeds | List<Feed> |
-| screenshots | List<Screenshot> |
+| Métodos           |
+|-------------------|
+| + storeFeed(): void |
+| + analyzeFeed(): void |
 
-| Método | Firma |
-|--------|-------|
-| addFeed(feed: Feed): void |
-| captureScreenshot(screenshot: Screenshot): void |
+**Screenshot `<<Entity>>`**
+| Atributos           |
+|---------------------|
+| - Long id           |
+| - Long feedId       |
+| - String imagePath  |
+| - Long cameraDeviceId |
+| - CarPlate carPlate (optional) |
 
-#### Feed
+| Métodos                                  |
+|------------------------------------------|
+| + saveScreenshot(): void                |
+| + retrieveScreenshot(): String          |
+| + assignCarPlate(carPlate: CarPlate): void |
 
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| cameraDeviceId | Long |
-| urlStream | String |
-| startedAt | Instant |
-| endedAt | Instant (nullable) |
+**CarPlate `<<Entity>>`**
+| Atributos       |
+|-----------------|
+| - Long id       |
+| - String plateNumber |
+| - LocalDateTime detectedAt |
 
-#### Screenshot
+| Métodos                      |
+|------------------------------|
+| + validatePlate(): boolean    |
+| + associateWithTicket(): void |
+| + getPlateNumber(): String   |
+| + getDetectedAt(): LocalDateTime |
 
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| cameraDeviceId | Long |
-| feedId | Long (opcional) |
-| capturedAt | Instant |
-| imageUrl | String |
-| carPlate | CarPlate (opcional) |
-
-#### CarPlate
-
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| plateNumber | String |
-| detectedAt | Instant |
-
----
+**Domain Services**
+| CarPlateDetectionService                                           |
+|--------------------------------------------------------------------|
+| + detectCarPlate(imagePath: String): Optional<CarPlate>           |
 
 ### 4.2.3.2. Interface Layer
 
-La capa de interfaz expone los servicios de `CameraDevice`, permitiendo registrar dispositivos, crear feeds y capturar screenshots, todo a través de APIs RESTful.
+La capa de interfaz expone la funcionalidad del contexto Camera Feed a través de controladores RESTful basados en el framework Spring Boot.
+CameraDeviceController gestiona las operaciones relacionadas con los dispositivos de cámara.
+FeedController proporciona endpoints para la gestión de las transmisiones de video.
+ScreenshotController facilita la gestión de las capturas de pantalla y la asociación con matrículas.
 
-| Controller | Endpoints |
-|------------|-----------|
-| **CameraDeviceController** | `POST /camera-devices` · `GET /camera-devices/{id}` |
-| **FeedController** | `POST /feeds` · `GET /feeds/{id}` |
-| **ScreenshotController** | `POST /screenshots` · `GET /screenshots/{id}` |
+**CameraDeviceController`<<Controller>>`**
+| Atributos                  |
+|----------------------------|
+| - ICameraDeviceService cameraDeviceService |
 
----
+| Métodos                                                        |
+|----------------------------------------------------------------|
+| + registerCameraDevice(registerResource: RegisterCameraDeviceResource): ResponseEntity<CameraDeviceResource> |
+| + getCameraDeviceById(deviceId: Long): ResponseEntity<CameraDeviceResource> |
+| + activateCamera(deviceId: Long): ResponseEntity<CameraDeviceResource> |
+| + deactivateCamera(deviceId: Long): ResponseEntity<CameraDeviceResource> |
+
+**FeedController`<<Controller>>`**
+| Atributos          |
+|--------------------|
+| - IFeedService feedService |
+
+| Métodos                                                  |
+|----------------------------------------------------------|
+| + startFeed(deviceId: Long): ResponseEntity<FeedResource> |
+| + getFeedById(feedId: Long): ResponseEntity<FeedResource> |
+
+**ScreenshotController`<<Controller>>`**
+| Atributos              |
+|------------------------|
+| - IScreenshotService screenshotService |
+
+| Métodos                                                                    |
+|----------------------------------------------------------------------------|
+| + captureNewScreenshot(deviceId: Long): ResponseEntity<ScreenshotResource>  |
+| + getScreenshotById(screenshotId: Long): ResponseEntity<ScreenshotResource> |
+| + associatePlateWithScreenshot(screenshotId: Long, plateNumber: String): ResponseEntity<ScreenshotResource> |
 
 ### 4.2.3.3. Application Layer
 
-El `CameraDeviceCommandService` maneja las operaciones de negocio como agregar feeds, registrar nuevos dispositivos y asociar screenshots a car plates.
+La capa de aplicación coordina la ejecución de las operaciones de negocio a través de servicios de aplicación.
+CameraDeviceService gestiona las operaciones relacionadas con los dispositivos de cámara.
+FeedService gestiona el ciclo de vida de las transmisiones de video.
+ScreenshotService maneja la captura y asociación de matrículas con las capturas de pantalla.
 
-| Service | Operaciones |
-|---------|-------------|
-| **ICameraFeedService** | registerCameraDevice · startFeed · captureScreenshot · associateCarPlate |
+**ICameraDeviceService`<<Service Interface>>`**
+| Métodos                                          |
+|--------------------------------------------------|
+| + registerCameraDevice(cameraDevice: CameraDevice): CameraDevice |
+| + getCameraDeviceById(deviceId: Long): Optional<CameraDevice>  |
+| + activateCamera(deviceId: Long): Optional<CameraDevice>       |
+| + deactivateCamera(deviceId: Long): Optional<CameraDevice>     |
 
-Impl.: `CameraFeedServiceImpl`
+**CameraDeviceServiceImpl`<<Service>>`**
+| Atributos                      |
+|--------------------------------|
+| - CameraDeviceRepository cameraDeviceRepository |
 
+| Métodos (implementa ICameraDeviceService)                 |
+|---------------------------------------------------------|
+| + registerCameraDevice(cameraDevice: CameraDevice): CameraDevice |
+| + getCameraDeviceById(deviceId: Long): Optional<CameraDevice>  |
+| + activateCamera(deviceId: Long): Optional<CameraDevice>       |
+| + deactivateCamera(deviceId: Long): Optional<CameraDevice>     |
 
----
+**IFeedService`<<Service Interface>>`**
+| Métodos                                     |
+|---------------------------------------------|
+| + startFeed(deviceId: Long): Optional<Feed>  |
+| + getFeedById(feedId: Long): Optional<Feed> |
+
+**FeedServiceImpl`<<Service>>`**
+| Atributos                |
+|--------------------------|
+| - FeedRepository feedRepository |
+| - CameraDeviceRepository cameraDeviceRepository |
+
+| Métodos (implementa IFeedService)                |
+|------------------------------------------------|
+| + startFeed(deviceId: Long): Optional<Feed>     |
+| + getFeedById(feedId: Long): Optional<Feed>    |
+
+**IScreenshotService`<<Service Interface>>`**
+| Métodos                                                              |
+|----------------------------------------------------------------------|
+| + captureNewScreenshot(deviceId: Long): Optional<Screenshot>         |
+| + getScreenshotById(screenshotId: Long): Optional<Screenshot>        |
+| + associatePlateWithScreenshot(screenshotId: Long, plateNumber: String): Optional<Screenshot> |
+
+**ScreenshotServiceImpl`<<Service>>`**
+| Atributos                    |
+|------------------------------|
+| - ScreenshotRepository screenshotRepository |
+| - CameraDeviceRepository cameraDeviceRepository |
+| - CarPlateRepository carPlateRepository |
+| - CarPlateDetectionService carPlateDetectionService |
+
+| Métodos (implementa IScreenshotService)                                  |
+|-------------------------------------------------------------------------|
+| + captureNewScreenshot(deviceId: Long): Optional<Screenshot>            |
+| + getScreenshotById(screenshotId: Long): Optional<Screenshot>           |
+| + associatePlateWithScreenshot(screenshotId: Long, plateNumber: String): Optional<Screenshot> |
 
 ### 4.2.3.4. Infrastructure Layer
 
-`CameraDeviceRepository` es una interfaz que extiende `JpaRepository`, permitiendo el acceso y persistencia de dispositivos de cámara, junto con sus feeds y screenshots asociados.
+La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
+CameraDeviceRepository, FeedRepository, ScreenshotRepository y CarPlateRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades correspondientes.
+Estos repositorios proporcionan métodos específicos para la consulta y manipulación de los datos del dominio.
 
+**CameraDeviceRepository`<<Repository>>`**
+| Atributos                                  |
+|--------------------------------------------|
+| Extiende: JpaRepository<CameraDevice, Long> |
 
-| Repository | Métodos custom |
-|------------|----------------|
-| **CameraDeviceRepository** | findByLocation |
-| **FeedRepository** | findActiveFeedsByCameraDeviceId |
-| **ScreenshotRepository** | findByCapturedAtBetween |
-| **CarPlateRepository** | findByPlateNumber |
+| Métodos                                         |
+|-------------------------------------------------|
+| + findByLocation(location: String): List<CameraDevice> |
 
+**FeedRepository`<<Repository>>`**
+| Atributos                      |
+|--------------------------------|
+| Extiende: JpaRepository<Feed, Long> |
+
+| Métodos                                                       |
+|---------------------------------------------------------------|
+| + findByCameraDeviceIdAndEndedAtIsNull(cameraDeviceId: Long): List<Feed> |
+
+**ScreenshotRepository`<<Repository>>`**
+| Atributos                          |
+|------------------------------------|
+| Extiende: JpaRepository<Screenshot, Long> |
+
+| Métodos                                                                 |
+|-------------------------------------------------------------------------|
+| + findByCapturedAtBetween(start: LocalDateTime, end: LocalDateTime): List<Screenshot> |
+
+**CarPlateRepository`<<Repository>>`**
+| Atributos                      |
+|--------------------------------|
+| Extiende: JpaRepository<CarPlate, Long> |
+
+| Métodos                                           |
+|---------------------------------------------------|
+| + findByPlateNumber(plateNumber: String): Optional<CarPlate> |
 
 ----
 
@@ -2031,72 +2330,270 @@ Impl.: `CameraFeedServiceImpl`
 
 ## 4.2.4. Bounded Context: Parking Circulation
 
-> **Propósito**  
-> Modela **eventos de flujo**: ingreso, salida y emisión de tickets en tiempo real,  
-> orquestando la relación con *Camera Feed* y *Payments*.
+En esta sección se documentan las principales clases que conforman el núcleo del contexto Parking Circulation, detallando sus atributos, métodos y relaciones.
+Este contexto se enfoca en modelar el flujo de vehículos dentro del estacionamiento, registrando los eventos de entrada (ParkingEntrance) y salida (ParkingExit), y emitiendo tickets (Ticket) que vinculan estos eventos con la información del usuario (UserId).
 
-### 4.2.4.1. Domain Layer
+La entidad ParkingEntrance representa el evento de llegada de un vehículo, capturando la matrícula, la hora de ingreso y la cámara que detectó la entrada.
 
-| Entidad / Agregado | Descripción |
-|--------------------|-------------|
-| **ParkingEntrance** | Evento de llegada (timestamp, plate, detectedBy). |
-| **ParkingExit** | Evento de salida. |
-| **Ticket** `<<Entity>>` | Correlaciona entrada + salida, lleva `userId` (VO), `status`, `amountToPay`, `totalDuration`. |
-| **UserId** `<<Value Object>>` | Cadena inmutable (“sub-dominio IAM”). |
+La entidad ParkingExit representa el evento de salida de un vehículo, registrando la matrícula, la hora de salida y la cámara que detectó la salida.
 
-#### Ticket (núcleo)
+La entidad Ticket es el agregado principal de este contexto, correlacionando un evento de entrada con uno de salida (cuando ocurre), almacenando información del usuario a través de un objeto de valor UserId, el estado del ticket, el monto a pagar y la duración total de la estancia.
 
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| userId | UserId |
-| entranceId | Long |
-| exitId | Long (nullable hasta salida) |
-| status | TicketState `enum` |
-| amountToPay | BigDecimal |
-| totalDuration | Duration |
+El objeto de valor UserId encapsula el identificador del usuario proveniente del contexto IAM, asegurando la inmutabilidad de esta información dentro del contexto de circulación.
 
-| Método | Firma |
-|--------|-------|
+El enumerado TicketState define los posibles estados de un ticket de estacionamiento.
+
+El servicio de dominio CirculationDomainService orquesta la creación de tickets al registrar una entrada y su cierre al registrar una salida, además de calcular el monto a pagar.
+
+Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
+
+**Clase ParkingEntrance**
+
+| **Nombre** | ParkingEntrance                                                   |
+|-----------------|---------------------------------------------------------------|
+| **Relaciones** | Uno a uno con Ticket (como evento inicial)                    |
+| **Descripción** | Representa el evento de entrada de un vehículo al estacionamiento. |
+
+Atributos
+
+| Nombre          | Tipo de Dato    | Visibilidad |
+|-----------------|-----------------|-------------|
+| id              | Long            | private     |
+| vehiclePlate    | String          | private     |
+| timestamp       | LocalDateTime   | private     |
+| detectedBy      | String          | private     |
+
+**Clase ParkingExit**
+
+| **Nombre** | ParkingExit                                                     |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Uno a uno con Ticket (como evento final)                       |
+| **Descripción** | Representa el evento de salida de un vehículo del estacionamiento. |
+
+Atributos
+
+| Nombre          | Tipo de Dato    | Visibilidad |
+|-----------------|-----------------|-------------|
+| id              | Long            | private     |
+| vehiclePlate    | String          | private     |
+| timestamp       | LocalDateTime   | private     |
+| detectedBy      | String          | private     |
+
+**Clase Ticket**
+
+| **Nombre** | Ticket                                                          |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Uno a uno con ParkingEntrance, opcionalmente uno a uno con ParkingExit |
+| **Descripción** | Representa un ticket de estacionamiento, vinculando entrada y salida. |
+
+Atributos
+
+| Nombre        | Tipo de Dato   | Visibilidad |
+|---------------|----------------|-------------|
+| id            | Long           | private     |
+| userId        | UserId         | private     |
+| entranceId    | Long           | private     |
+| exitId        | Long           | private     |
+| status        | TicketState (enum) | private     |
+| amountToPay   | BigDecimal     | private     |
+| totalDuration | Duration       | private     |
+
+Métodos
+
+| Método                          |
+|---------------------------------|
 | close(exit: ParkingExit): Ticket |
 | calculateAmount(rate: MoneyRate): BigDecimal |
 
-#### Enums
-`TicketState` → OPEN · CLOSED · CANCELLED
+**Enum TicketState**
 
-#### Domain Service
-`CirculationDomainService`  
-– vincula entrada, genera `Ticket`; al recibir salida, cierra + publica **ParkingCompletedEvent**.
+| **Nombre** | TicketState                                                       |
+|-----------------|-----------------------------------------------------------------|
+| **Descripción** | Define los estados posibles de un ticket de estacionamiento.      |
 
----
+Valores
+
+| Valor     |
+|-----------|
+| OPEN      |
+| CLOSED    |
+| CANCELLED |
+
+**Clase UserId (Value Object)**
+
+| **Nombre** | UserId                                                          |
+|-----------------|-----------------------------------------------------------------|
+| **Descripción** | Representa el identificador de un usuario del contexto IAM.     |
+
+Atributos
+
+| Nombre | Tipo de Dato | Visibilidad |
+|--------|--------------|-------------|
+| value  | String       | private     |
+
+Métodos
+
+| Método        |
+|---------------|
+| getValue(): String |
+
+### 4.2.4.1. Domain Layer
+
+En la capa de dominio se modelan los conceptos centrales del contexto Parking Circulation siguiendo los principios de Domain-Driven Design.
+El agregado raíz Ticket coordina la información de los eventos de entrada (ParkingEntrance) y salida (ParkingExit), junto con la identidad del usuario (UserId) y el estado del ticket (TicketState).
+Las entidades ParkingEntrance y ParkingExit representan eventos inmutables en el tiempo.
+El objeto de valor UserId asegura la integridad de la identidad del usuario dentro de este contexto.
+El servicio de dominio CirculationDomainService encapsula la lógica de negocio para la creación, cierre y cálculo de costos de los tickets.
+Esta estructura permite mantener un dominio rico, expresivo y alineado con las reglas de negocio fundamentales de la circulación en el estacionamiento.
+
+**Ticket `<<Aggregate>>`**
+| Atributos         |
+|-------------------|
+| - Long id         |
+| - UserId userId   |
+| - Long entranceId |
+| - Long exitId (nullable) |
+| - TicketState status |
+| - BigDecimal amountToPay |
+| - Duration totalDuration |
+
+| Métodos                                         |
+|-------------------------------------------------|
+| + close(exit: ParkingExit): Ticket            |
+| + calculateAmount(rate: MoneyRate): BigDecimal |
+
+**ParkingEntrance `<<Entity>>`**
+| Atributos       |
+|-----------------|
+| - Long id       |
+| - String vehiclePlate |
+| - LocalDateTime timestamp |
+| - String detectedBy |
+
+**ParkingExit `<<Entity>>`**
+| Atributos       |
+|-----------------|
+| - Long id       |
+| - String vehiclePlate |
+| - LocalDateTime timestamp |
+| - String detectedBy |
+
+**UserId `<<Value Object>>`**
+| Atributos   |
+|-------------|
+| - String value |
+
+| Métodos         |
+|-----------------|
+| + getValue(): String |
+
+**TicketState `<<Value Object>>`**
+| TicketState |
+|-------------|
+| + OPEN      |
+| + CLOSED    |
+| + CANCELLED |
+
+**Domain Services**
+| CirculationDomainService                                                                                                   |
+|---------------------------------------------------------------------------------------------------------------------------|
+| + registerEntrance(vehiclePlate: String, detectedBy: String, userIdValue: String): Ticket                                |
+| + registerExit(ticket: Ticket, vehiclePlate: String, detectedBy: String): Optional<Ticket>                               |
+| + calculateParkingFee(ticket: Ticket, entryTime: LocalDateTime, exitTime: LocalDateTime, rate: MoneyRate): BigDecimal |
 
 ### 4.2.4.2. Interface Layer
 
-| Controller | Endpoints |
-|------------|-----------|
-| **EntranceController** | `POST /circulation/entrance` |
-| **ExitController** | `POST /circulation/exit` |
-| **TicketsController** | `GET /tickets/{id}` · `GET /tickets?userId=` |
+La capa de interfaz expone la funcionalidad del contexto Parking Circulation a través de controladores RESTful basados en el framework Spring Boot.
+EntranceController gestiona el registro de entradas de vehículos.
+ExitController gestiona el registro de salidas de vehículos.
+TicketsController permite la consulta de información de los tickets.
 
----
+**EntranceController`<<Controller>>`**
+| Atributos                     |
+|-------------------------------|
+| - ICirculationService circulationService |
+
+| Métodos                                                                 |
+|-------------------------------------------------------------------------|
+| + registerEntrance(entranceResource: EntranceResource): ResponseEntity<TicketResource> |
+
+**ExitController`<<Controller>>`**
+| Atributos                  |
+|----------------------------|
+| - ICirculationService circulationService |
+
+| Métodos                                                              |
+|----------------------------------------------------------------------|
+| + registerExit(exitResource: ExitResource): ResponseEntity<TicketResource> |
+
+**TicketsController`<<Controller>>`**
+| Atributos                   |
+|-----------------------------|
+| - ICirculationService circulationService |
+
+| Métodos                                                        |
+|----------------------------------------------------------------|
+| + getTicketById(ticketId: Long): ResponseEntity<TicketResource> |
+| + getTicketsByUserId(userId: String): ResponseEntity<List<TicketResource>> |
 
 ### 4.2.4.3. Application Layer
 
-| Service | Operaciones |
-|---------|-------------|
-| **ICirculationService** | registerEntrance · registerExit · getTicket · getActiveTickets |
+La capa de aplicación coordina la ejecución de las operaciones de negocio a través de servicios de aplicación.
+CirculationService maneja el registro de entradas y salidas, la creación y consulta de tickets, y la publicación de eventos de dominio.
 
-Impl.: `CirculationServiceImpl` (publica dominio events a *Payments* & *Notifications*).
+**ICirculationService`<<Service Interface>>`**
+| Métodos                                                                  |
+|--------------------------------------------------------------------------|
+| + registerEntrance(vehiclePlate: String, detectedBy: String, userIdValue: String): Ticket |
+| + registerExit(ticketId: Long, vehiclePlate: String, detectedBy: String): Optional<Ticket> |
+| + getTicketById(ticketId: Long): Optional<Ticket>                       |
+| + getActiveTicketsByUserId(userId: String): List<Ticket>                 |
 
----
+**CirculationServiceImpl`<<Service>>`**
+| Atributos                       |
+|---------------------------------|
+| - EntranceRepository entranceRepository |
+| - ExitRepository exitRepository     |
+| - TicketRepository ticketRepository     |
+| - CirculationDomainService circulationDomainService |
+| - ApplicationEventPublisher eventPublisher |
+
+| Métodos (implementa ICirculationService)                                      |
+|-----------------------------------------------------------------------------|
+| + registerEntrance(vehiclePlate: String, detectedBy: String, userIdValue: String): Ticket |
+| + registerExit(ticketId: Long, vehiclePlate: String, detectedBy: String): Optional<Ticket> |
+| + getTicketById(ticketId: Long): Optional<Ticket>                            |
+| + getActiveTicketsByUserId(userId: String): List<Ticket>                      |
 
 ### 4.2.4.4. Infrastructure Layer
 
-| Repository | Métodos custom |
-|------------|----------------|
-| **EntranceRepository** | findByVehiclePlateAndDate |
-| **ExitRepository** | — |
-| **TicketRepository** | findByUserId · findOpenByPlate |
+La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
+EntranceRepository, ExitRepository y TicketRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades correspondientes.
+Estos repositorios proporcionan métodos específicos para la consulta y manipulación de los datos del dominio.
+
+**EntranceRepository`<<Repository>>`**
+| Atributos                                  |
+|--------------------------------------------|
+| Extiende: JpaRepository<ParkingEntrance, Long> |
+
+| Métodos                                                                 |
+|-------------------------------------------------------------------------|
+| + findByVehiclePlateAndTimestampBetween(plate: String, start: LocalDateTime, end: LocalDateTime): Optional<ParkingEntrance> |
+
+**ExitRepository`<<Repository>>`**
+| Atributos                               |
+|-----------------------------------------|
+| Extiende: JpaRepository<ParkingExit, Long> |
+
+**TicketRepository`<<Repository>>`**
+| Atributos                             |
+|---------------------------------------|
+| Extiende: JpaRepository<Ticket, Long> |
+
+| Métodos                                               |
+|-------------------------------------------------------|
+| + findByUserId_Value(userIdValue: String): List<Ticket> |
+| + findByVehiclePlateAndStatus(plate: String, status: TicketState): Optional<Ticket> |
 
 ---
 
@@ -2115,326 +2612,315 @@ Impl.: `CirculationServiceImpl` (publica dominio events a *Payments* & *Notifica
 
 ---
 
-## 4.2.5. Bounded Context: Payments 
-Esta capa modela los conceptos principales del contexto de pagos.
-El agregado raíz Payment representa un pago realizado en el sistema.
-El objeto de valor PaymentStatus, modelado como un enum, define los posibles estados de un pago.
+## 4.2.5. Bounded Context: Payments
 
+En esta sección se documentan las principales clases que conforman el núcleo del contexto Payments, detallando sus atributos, métodos y relaciones.
+El agregado raíz Payment representa un pago realizado en el sistema, con información sobre el monto, la fecha, el método y el estado.
 
+La entidad PaymentCard modela la información de una tarjeta de pago asociada a un usuario (UserId) para realizar transacciones.
 
-## Clase PaymentCard
+La entidad Receipt representa el comprobante generado para un pago exitoso, vinculado a un Payment específico.
 
-| **Nombre** | **PaymentCard** |
-|:-----------|:----------------|
-| **Relaciones** | Muchos a uno con UserId. Puede tener varios Payment asociados. |
-| **Descripción** | Representa una tarjeta de pago asociada a un usuario para realizar transacciones. |
+El objeto de valor UserId encapsula el identificador único del usuario, utilizado para relacionar pagos y tarjetas con el usuario correspondiente.
 
-### Atributos
+El enumerado PaymentStatus define los posibles estados de un pago.
 
-| **Nombre** | **Tipo de Dato** | **Visibilidad** |
-|:-----------|:-----------------|:----------------|
-| id | Long | private |
-| userId | UserId | private |
-| cardNumber | String | private |
-| cardHolderName | String | private |
-| expirationDate | String | private |
-| cardType | CardType (enum) | private |
+El enumerado CardType enumera los tipos de tarjetas de pago aceptados.
 
-### Métodos
+Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
 
-| **Método** | **Descripción** |
-|:-----------|:----------------|
-| maskCardNumber(): String | Devuelve el número de tarjeta enmascarado. |
-| isExpired(): boolean | Verifica si la tarjeta está vencida. |
+**Clase Payment**
 
----
+| **Nombre** | Payment                                                         |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Uno a uno con Receipt, muchos a uno con UserId                   |
+| **Descripción** | Representa un pago realizado en el sistema.                     |
 
-## Clase Receipt
+Atributos
 
-| **Nombre** | **Receipt** |
-|:-----------|:------------|
-| **Relaciones** | Uno a uno con Payment. |
-| **Descripción** | Representa el comprobante generado para un pago exitoso. |
+| Nombre             | Tipo de Dato      | Visibilidad |
+|--------------------|-------------------|-------------|
+| id                 | Long              | private     |
+| amount             | BigDecimal        | private     |
+| paymentDate        | LocalDateTime     | private     |
+| paymentMethod      | String            | private     |
+| paymentStatus      | PaymentStatus (enum) | private     |
+| profileId          | String            | private     |
+| userId             | UserId            | private     |
 
-### Atributos
+Métodos
 
-| **Nombre** | **Tipo de Dato** | **Visibilidad** |
-|:-----------|:-----------------|:----------------|
-| id | Long | private |
-| paymentId | Long | private |
-| issuedDate | LocalDateTime | private |
-| receiptUrl | String | private |
+| Método                        |
+|-------------------------------|
+| getPaymentDetails(): String   |
+| updatePaymentMethod(): void   |
+| cancelPayment(): void        |
+| handleError(): void          |
+| retryPayment(): void          |
 
-### Métodos
+**Clase PaymentCard**
 
-| **Método** | **Descripción** |
-|:-----------|:----------------|
-| generateReceiptUrl(): String | Genera una URL para acceder al comprobante. |
+| **Nombre** | PaymentCard                                                     |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Muchos a uno con UserId                                         |
+| **Descripción** | Representa una tarjeta de pago asociada a un usuario.          |
 
----
+Atributos
 
-## Clase UserId (Value Object)
+| Nombre           | Tipo de Dato   | Visibilidad |
+|------------------|----------------|-------------|
+| id               | Long           | private     |
+| cardNumber       | String         | private     |
+| expirationDate   | String         | private     |
+| cvv              | String         | private     |
+| cardholderName   | String         | private     |
+| userId           | UserId         | private     |
+| cardType         | CardType (enum) | private     |
 
-| **Nombre** | **UserId** |
-|:-----------|:-----------|
-| **Relaciones** | Es utilizado por Payment y PaymentCard para identificar al usuario. |
-| **Descripción** | Value Object que encapsula el identificador único del usuario. |
+Métodos
 
-### Atributos
+| Método                     |
+|----------------------------|
+| maskCardNumber(): String   |
+| isExpired(): boolean       |
 
-| **Nombre** | **Tipo de Dato** | **Visibilidad** |
-|:-----------|:-----------------|:----------------|
-| id | Long | private |
+**Clase Receipt**
 
-### Métodos
+| **Nombre** | Receipt                                                         |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Uno a uno con Payment                                          |
+| **Descripción** | Representa el comprobante de un pago.                         |
 
-| **Método** | **Descripción** |
-|:-----------|:----------------|
-| getId(): Long | Retorna el valor del ID del usuario. |
+Atributos
 
----
+| Nombre        | Tipo de Dato    | Visibilidad |
+|---------------|-----------------|-------------|
+| id            | Long            | private     |
+| paymentId     | Long            | private     |
+| issueDate     | LocalDateTime   | private     |
+| totalAmount   | BigDecimal      | private     |
+| paymentMethod | String          | private     |
 
-## Enum PaymentStatus
+**Clase UserId (Value Object)**
 
-| **Nombre** | **PaymentStatus** |
-|:-----------|:------------------|
-| **Relaciones** | No tiene relaciones, es un enum. |
-| **Descripción** | Enumera los estados posibles de un pago. |
+| **Nombre** | UserId                                                          |
+|-----------------|-----------------------------------------------------------------|
+| **Descripción** | Representa el identificador único de un usuario.                |
 
-### Valores
+Atributos
 
-| **Valor** |
-|:----------|
-| PENDING |
+| Nombre | Tipo de Dato | Visibilidad |
+|--------|--------------|-------------|
+| value  | Long         | private     |
+
+Métodos
+
+| Método        |
+|---------------|
+| getValue(): Long |
+
+**Enum PaymentStatus**
+
+| **Nombre** | PaymentStatus |
+|-----------------|---------------|
+| **Descripción** | Estados de un pago. |
+
+Valores
+
+| Valor     |
+|-----------|
+| PENDING   |
 | COMPLETED |
-| FAILED |
+| FAILED    |
 
----
+**Enum CardType**
 
-## Enum CardType
+| **Nombre** | CardType      |
+|-----------------|---------------|
+| **Descripción** | Tipos de tarjeta. |
 
-| **Nombre** | **CardType** |
-|:-----------|:-------------|
-| **Relaciones** | No tiene relaciones, es un enum. |
-| **Descripción** | Enumera los tipos de tarjetas disponibles. |
+Valores
 
-### Valores
-
-| **Valor** |
-|:----------|
-| VISA |
-| MASTERCARD |
-| AMEX |
-| OTHER |
-
-## Clase PaymentStatus
-
-| **Nombre** | **PaymentStatus** |
-|:-----------|:------------------|
-| **Relaciones** | No tiene relaciones, es un enum. |
-| **Descripción** | Enumera los posibles estados de un pago. |
-
-### Valores
-
-| **Valor** |
-|:----------|
-| PENDING |
-| COMPLETED |
-| FAILED |
-
-### Métodos
-
-| **Método** | **Descripción** |
-|:-----------|:----------------|
-| name(): String | Devuelve el nombre del estado. |
-| values(): PaymentStatus[] | Devuelve todos los valores posibles del enum. |
-| valueOf(name: String): PaymentStatus | Devuelve el estado correspondiente al nombre dado. |
-
------
+| Valor       |
+|-------------|
+| VISA        |
+| MASTERCARD  |
+| AMEX        |
+| OTHER       |
 
 ### 4.2.5.1. Domain Layer
 
-## Bounded Context: Payments
+En la capa de dominio se modelan los conceptos centrales del contexto Payments siguiendo los principios de Domain-Driven Design.
+El agregado raíz Payment gestiona el ciclo de vida de un pago, incluyendo su estado y la generación del recibo asociado.
+Las entidades PaymentCard y Receipt son dependientes de Payment y UserId. PaymentCard contiene la información de la tarjeta utilizada para el pago y está asociada a un UserId. Receipt contiene los detalles del comprobante generado para un Payment exitoso.
+El objeto de valor UserId asegura la integridad de la identidad del usuario dentro de este contexto.
+Los enumerados PaymentStatus y CardType definen los posibles estados de un pago y los tipos de tarjetas aceptados, respectivamente.
+Esta estructura permite mantener un dominio rico, expresivo y alineado con las reglas de negocio fundamentales del procesamiento de pagos.
 
-### Aggregate
+**Payment `<<Aggregate>>`**
+| Atributos         |
+|-------------------|
+| - Long id         |
+| - BigDecimal amount |
+| - LocalDateTime paymentDate |
+| - String paymentMethod |
+| - PaymentStatus paymentStatus |
+| - String profileId |
+| - UserId userId   |
 
-#### Aggregate: Payment
+| Métodos                      |
+|------------------------------|
+| + getPaymentDetails(): String   |
+| + updatePaymentMethod(): void   |
+| + cancelPayment(): void        |
+| + handleError(): void          |
+| + retryPayment(): void          |
 
-| **Attribute**       | **Data Type**     | **Description**                                    |
-|:--------------------|:------------------|:--------------------------------------------------|
-| `id`                | `Long`            | Unique identifier for the payment.                |
-| `amount`            | `BigDecimal`      | Amount of the payment.                            |
-| `paymentStatus`     | `PaymentStatus`   | Status of the payment (e.g., PENDING, COMPLETED). |
+**PaymentCard `<<Entity>>`**
+| Atributos          |
+|--------------------|
+| - Long id          |
+| - String cardNumber  |
+| - String expirationDate |
+| - String cvv         |
+| - String cardholderName |
+| - UserId userId    |
+| - CardType cardType |
 
-#### Methods
+| Métodos                   |
+|---------------------------|
+| + maskCardNumber(): String |
+| + isExpired(): boolean     |
 
-| **Method**          | **Description**                                    |
-|:--------------------|:---------------------------------------------------|
-| `getAmount()`       | Returns the amount of the payment.                 |
-| `getPaymentStatus()`| Returns the payment status.                        |
-| `setPaymentStatus(status: PaymentStatus)` | Sets the payment status. |
+**Receipt `<<Entity>>`**
+| Atributos         |
+|-------------------|
+| - Long id         |
+| - Long paymentId  |
+| - LocalDateTime issueDate |
+| - BigDecimal totalAmount |
+| - String paymentMethod |
 
----
+**UserId `<<Value Object>>`**
+| Atributos   |
+|-------------|
+| - Long value |
 
-### Entities
+| Métodos         |
+|-----------------|
+| + getValue(): Long |
 
-#### Entity: PaymentCard
+**PaymentStatus `<<Value Object>>`**
+| PaymentStatus |
+|---------------|
+| + PENDING     |
+| + COMPLETED   |
+| + FAILED      |
 
-| **Attribute**       | **Data Type**     | **Description**                                    |
-|:--------------------|:------------------|:--------------------------------------------------|
-| `id`                | `Long`            | Unique identifier for the payment card.           |
-| `userId`            | `UserId`          | Identifier for the associated user.               |
-| `cardNumber`        | `String`          | Payment card number.                              |
-| `cardHolderName`    | `String`          | Name of the cardholder.                           |
-| `expirationDate`    | `String`          | Expiration date of the payment card.              |
-| `cardType`          | `CardType`        | Type of the card (enum).                          |
+**CardType `<<Value Object>>`**
+| CardType    |
+|-------------|
+| + VISA      |
+| + MASTERCARD |
+| + AMEX      |
+| + OTHER     |
 
-#### Methods
-
-| **Method**          | **Description**                                    |
-|:--------------------|:---------------------------------------------------|
-| `maskCardNumber()`   | Returns the masked payment card number.            |
-| `isExpired()`        | Checks if the payment card is expired.             |
-
----
-
-#### Entity: Receipt
-
-| **Attribute**       | **Data Type**     | **Description**                                    |
-|:--------------------|:------------------|:--------------------------------------------------|
-| `id`                | `Long`            | Unique identifier for the receipt.                |
-| `paymentId`         | `Long`            | Payment associated with the receipt.              |
-| `issuedDate`        | `LocalDateTime`   | Date and time when the receipt was issued.        |
-| `receiptUrl`        | `String`          | URL to access the receipt.                        |
-
-#### Methods
-
-| **Method**          | **Description**                                    |
-|:--------------------|:---------------------------------------------------|
-| `generateReceiptUrl()`| Generates a URL to access the receipt.           |
-
----
-
-### Value Objects
-
-#### Value Object: UserId
-
-| **Attribute**       | **Data Type**     | **Description**                                    |
-|:--------------------|:------------------|:--------------------------------------------------|
-| `id`                | `Long`            | Unique identifier for the user.                   |
-
-#### Methods
-
-| **Method**          | **Description**                                    |
-|:--------------------|:---------------------------------------------------|
-| `getId()`           | Returns the user ID value.                         |
-
----
-
-#### Enum: PaymentStatus
-
-| **Value**           |
-|:--------------------|
-| `PENDING`           |
-| `COMPLETED`         |
-| `FAILED`            |
-
-#### Methods
-
-| **Method**          | **Description**                                    |
-|:--------------------|:---------------------------------------------------|
-| `name()`            | Returns the name of the payment status.            |
-| `values()`          | Returns all possible values of the enum.           |
-| `valueOf(String)`   | Returns the status corresponding to the given name. |
-
----
-
-#### Enum: CardType
-
-| **Value**           |
-|:--------------------|
-| `VISA`              |
-| `MASTERCARD`        |
-| `AMEX`              |
-| `OTHER`             |
-
-#### Methods
-
-| **Method**          | **Description**                                    |
-|:--------------------|:---------------------------------------------------|
-| `name()`            | Returns the name of the card type.                 |
-| `values()`          | Returns all possible values of the enum.           |
-| `valueOf(String)`   | Returns the card type corresponding to the given name. |
-
----
-
-### Domain Services
-
-#### Service: RoleCommandService
-
-| **Method**                     | **Description**                                    |
-|:-------------------------------|:---------------------------------------------------|
-| `handle(command: SeedRolesCommand)` | Handles the command to seed roles in the system.  |
-
-#### Service: UserCommandService
-
-| **Method**                     | **Description**                                    |
-|:-------------------------------|:---------------------------------------------------|
-| `handle(command: SignUpCommand)` | Handles the command to sign up a new user.        |
-| `handle(command: SignInCommand)` | Handles the command to sign in a user.            |
+**Domain Services**
+| PaymentProcessingService                                                                 |
+|------------------------------------------------------------------------------------------|
+| + processPayment(payment: Payment, paymentCard: PaymentCard): Result<Payment, PaymentError> |
+| + generateReceiptForPayment(payment: Payment): Receipt                                   |
 
 ### 4.2.5.2. Interface Layer
 
-La capa de interfaz expone la funcionalidad del contexto Payments a través de controladores RESTful basados en el framework Spring Boot. PaymentController gestiona los procesos relacionados con los pagos, permitiendo tanto la creación de pagos como la consulta de su estado. ReceiptController facilita la generación y consulta de recibos asociados a los pagos. Cada controlador delega la lógica de negocio en los servicios de dominio apropiados, actuando únicamente como capa de orquestación, en conformidad con el principio de Controller Thin.
+La capa de interfaz expone la funcionalidad del contexto Payments a través de controladores RESTful basados en el framework Spring Boot.
+PaymentController gestiona la creación y consulta de pagos.
+ReceiptController facilita la consulta de recibos asociados a los pagos.
 
-| Controller PaymentController                       |
-|----------------------------------------------------------|
-| - PaymentCommandService paymentCommandService            |
-|----------------------------------------------------------|
+**PaymentController`<<Controller>>`**
+| Atributos                 |
+|---------------------------|
+| - IPaymentService paymentService |
+
+| Métodos                                                                 |
+|-------------------------------------------------------------------------|
 | + processPayment(paymentResource: PaymentResource): ResponseEntity<PaymentResource> |
-| + getPaymentStatus(paymentId: Long): ResponseEntity<PaymentStatusResource>            |
+| + getPaymentStatus(paymentId: Long): ResponseEntity<PaymentStatusResource> |
 
-| Controller ReceiptController                       |
-|--------------------------------------------------------|
-| - ReceiptQueryService receiptQueryService              |
-|--------------------------------------------------------|
+**ReceiptController`<<Controller>>`**
+| Atributos                |
+|--------------------------|
+| - IReceiptService receiptService |
+
+| Métodos                                                              |
+|----------------------------------------------------------------------|
 | + getReceiptByPaymentId(paymentId: Long): ResponseEntity<ReceiptResource> |
-| + generateReceipt(paymentId: Long): ResponseEntity<ReceiptResource> |
-
 
 ### 4.2.5.3. Application Layer
 
-El PaymentProcessingEventHandler es responsable de procesar los pagos cuando se recibe un evento de pago. Este componente escucha el evento PaymentProcessedEvent y desencadena la ejecución de los servicios correspondientes para completar el pago.
-Esta organización permite separar las responsabilidades del dominio, favoreciendo una arquitectura desacoplada y limpia.
+La capa de aplicación coordina la ejecución de las operaciones de negocio a través de servicios de aplicación y manejadores de eventos.
+PaymentService maneja la lógica de procesamiento de pagos.
+ReceiptService gestiona la generación y consulta de recibos.
+PaymentProcessedEventHandler reacciona a eventos de pago completado para realizar acciones posteriores.
 
-| Event Handler PaymentProcessingEventHandler          |
-|----------------------------------------------------------|
-| - Logger LOGGER                                          |
-| - PaymentCommandService paymentCommandService            |
-|----------------------------------------------------------|
-| + on(event: PaymentProcessedEvent): void                 |
-| - getCurrentTimestamp(): Timestamp                      |
+**IPaymentService`<<Service Interface>>`**
+| Métodos                                                                  |
+|--------------------------------------------------------------------------|
+| + processPayment(payment: Payment, paymentCard: PaymentCard): Payment      |
+| + getPaymentStatus(paymentId: Long): PaymentStatus                       |
+
+**PaymentServiceImpl`<<Service>>`**
+| Atributos                   |
+|-----------------------------|
+| - PaymentRepository paymentRepository |
+| - PaymentProcessingService paymentProcessingService |
+
+| Métodos (implementa IPaymentService)                   |
+|------------------------------------------------------|
+| + processPayment(payment: Payment, paymentCard: PaymentCard): Payment |
+| + getPaymentStatus(paymentId: Long): PaymentStatus    |
+
+**IReceiptService`<<Service Interface>>`**
+| Métodos                                                 |
+|---------------------------------------------------------|
+| + getReceiptByPaymentId(paymentId: Long): Optional<Receipt> |
+
+**ReceiptServiceImpl`<<Service>>`**
+| Atributos                 |
+|---------------------------|
+| - ReceiptRepository receiptRepository |
+
+| Métodos (implementa IReceiptService)                 |
+|------------------------------------------------------|
+| + getReceiptByPaymentId(paymentId: Long): Optional<Receipt> |
+
+**PaymentProcessedEventHandler`<<Event Handler>>`**
+| Atributos                       |
+|---------------------------------|
+| - Logger LOGGER                 |
+| - IReceiptService receiptService |
+
+| Métodos                                     |
+|---------------------------------------------|
+| + on(event: PaymentProcessedEvent): void    |
 
 ### 4.2.5.4. Infrastructure Layer
 
-PaymentRepository y ReceiptRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades Payment y Receipt, respectivamente.
-Estos repositorios proporcionan métodos específicos como findByPaymentId, findByReceiptId y validaciones de existencia (existsByPaymentId, existsByReceiptId), que son esenciales para preservar la unicidad de los registros.
-Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dominio, favoreciendo una arquitectura limpia y sostenible.
+La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
+PaymentRepository y ReceiptRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades correspondientes.
+Estos repositorios proporcionan métodos específicos para la consulta y manipulación de los datos del dominio.
 
-| Infrastructure Repository PaymentRepository            |
-|-------------------------------------------------------------|
-| Extiende: JpaRepository<Payment, Long>                      |
-|-------------------------------------------------------------|
-| + findByPaymentId(paymentId: Long): Optional<Payment>       |
-| + existsByPaymentId(paymentId: Long): boolean               |
+**PaymentRepository`<<Repository>>`**
+| Atributos                        |
+|----------------------------------|
+| Extiende: JpaRepository<Payment, Long> |
 
-| Infrastructure Repository ReceiptRepository             |
-|-------------------------------------------------------------|
-| Extiende: JpaRepository<Receipt, Long>                      |
-|-------------------------------------------------------------|
-| + findByReceiptId(receiptId: Long): Optional<Receipt>       |
-| + existsByReceiptId(receiptId: Long): boolean               |
+**ReceiptRepository`<<Repository>>`**
+| Atributos                        |
+|----------------------------------|
+| Extiende: JpaRepository<Receipt, Long> |
 
+---
 ### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
 ![Payment Container](assets/capitulo-4/PaymentDiagram1.png)
@@ -2446,7 +2932,7 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 #### 4.2.1.5.1. Bounded Context Domain Layer Class Diagrams
 
-![Payment Domain Layer Class Diagrams](assets/capitulo-4/DomainLayerPayments.PNG)
+![Payment Domain Layer Class Diagrams](assets/capitulo-4/mermaid.png)
 
 
 #### 4.2.1.5.2. Bounded Context Database Design Diagram
@@ -2456,241 +2942,262 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 ---
 ## 4.2.6. Bounded Context: Monitoring
 
+En esta sección se documentan las principales clases que conforman el núcleo del contexto Monitoring, detallando sus atributos, métodos y relaciones.
+Este contexto se enfoca en el registro y seguimiento de eventos críticos (CriticalEventLog) que puedan requerir la cancelación de un pago, así como en la supervisión del estado de los vehículos (Vehicle) y dispositivos (Device) dentro del sistema.
+
+La entidad CriticalEventLog representa un registro de un evento significativo, como una violación o una situación que podría llevar a la cancelación de un pago. Contiene información sobre el tipo de violación, el vehículo involucrado, la hora del evento, el administrador que lo atendió, su estado y la duración total del caso.
+
+La entidad Vehicle modela la información de un vehículo dentro del sistema, incluyendo su ID, modelo, número de placa, estado y el ID del conductor asociado.
+
+La entidad Device representa un dispositivo de monitoreo dentro del sistema, con atributos como su ID, modelo y estado.
+
+Cada clase está diseñada con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
+
+**Clase CriticalEventLog**
+
+| **Nombre** | CriticalEventLog                                                |
+|-----------------|---------------------------------------------------------------|
+| **Relaciones** | Uno a uno con Vehicle, uno a uno con Device                  |
+| **Descripción** | Registro de un evento crítico que puede llevar a la cancelación del pago. |
+
+Atributos
+
+| Nombre          | Tipo de Dato | Visibilidad |
+|-----------------|--------------|-------------|
+| id              | Long         | private     |
+| violationType   | String       | private     |
+| vehicle         | Vehicle      | private     |
+| timestamp       | String       | private     |
+| handledBy       | Long         | private     |
+| totalDuration   | String       | private     |
+| device          | Device       | private     |
+
+Métodos
+
+| Método                 |
+|------------------------|
+| CriticalEventLog()     |
+
+**Clase Vehicle**
+
+| **Nombre** | Vehicle                                                         |
+|-----------------|-----------------------------------------------------------------|
+| **Descripción** | Representa un vehículo en el sistema.                         |
+
+Atributos
+
+| Nombre        | Tipo de Dato | Visibilidad |
+|---------------|--------------|-------------|
+| id            | Long         | private     |
+| model         | String       | private     |
+| plateNumber   | String       | private     |
+| status        | String       | private     |
+| driverId      | Long         | private     |
+
+Métodos
+
+| Método            |
+|-------------------|
+| Vehicle()         |
+| getPlateNumber(): String |
+
+**Clase Device**
+
+| **Nombre** | Device                                                          |
+|-----------------|-----------------------------------------------------------------|
+| **Descripción** | Representa un dispositivo de monitoreo en el sistema.         |
+
+Atributos
+
+| Nombre    | Tipo de Dato | Visibilidad |
+|-----------|--------------|-------------|
+| id        | Long         | private     |
+| model     | String       | private     |
+| status    | String       | private     |
+
+Métodos
+
+| Método         |
+|----------------|
+| Device()       |
+| getModel(): String |
+| getStatus(): String |
+
 ### 4.2.6.1. Domain Layer
 
-### Entidad: CriticalEventLog
+En la capa de dominio se modelan los conceptos centrales del contexto Monitoring siguiendo los principios de Domain-Driven Design.
+El agregado raíz CriticalEventLog encapsula la información de un evento crítico, asociándolo con las entidades Vehicle y Device relevantes.
+Las entidades Vehicle y Device representan los elementos que son monitoreados dentro del sistema.
+Esta estructura permite mantener un dominio coherente para el registro y seguimiento de eventos importantes y el estado de los activos del sistema.
 
-| **Nombre**           | **Categoría** | **Propósito**                                               |
-|----------------------|---------------|-------------------------------------------------------------|
-| CriticalEventLog     | Entity        | Registro de un caso que lleve a la cancelación del pago     |
+**CriticalEventLog `<<Aggregate Root>>`**
+| Atributos       |
+|-----------------|
+| - Long id       |
+| - String violationType |
+| - Vehicle vehicle |
+| - String timestamp  |
+| - Long handledBy  |
+| - String totalDuration |
+| - Device device   |
 
-#### Atributos
+| Métodos            |
+|-------------------|
+| + CriticalEventLog() |
 
-| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
-|-------------------|------------------|-----------------|-------------------------------------------------------------|
-| id                | Long             | Private         | Identificador único para el caso                            |
-| typeOfViolation   | string           | Private         | Tipo de caso crítico registrado                             |
-| vehiclePlate      | string           | Private         | Placa del vehículo involucrado en el caso                   |
-| timestamp         | Time             | Private         | Hora de la ocurrencia                                       |
-| handledBy         | Long             | Private         | ID del administrador que trató el caso                      |
-| status            | string           | Private         | Estado actual del caso                                      |
-| totalDuration     | string           | Private         | Duración total del caso                                     |
-  
+**Vehicle `<<Entity>>`**
+| Atributos     |
+|---------------|
+| - Long id     |
+| - String model  |
+| - String plateNumber |
+| - String status |
+| - Long driverId |
+
+| Métodos            |
+|-------------------|
+| + Vehicle()         |
+| + getPlateNumber(): String |
+
+**Device `<<Entity>>`**
+| Atributos     |
+|---------------|
+| - Long id     |
+| - String model  |
+| - String status |
+
+| Métodos         |
+|----------------|
+| + Device()       |
+| + getModel(): String |
+| + getStatus(): String |
+
+**Domain Services**
+| MonitoringService                                                              |
+|------------------------------------------------------------------------------|
+| + logCriticalEvent(violationType: String, vehicle: Vehicle, device: Device): CriticalEventLog |
+| + updateCriticalEventStatus(eventLog: CriticalEventLog, status: String): void  |
+
 ### 4.2.6.2. Interface Layer
 
-### CriticalEventLogController  
-| **Nombre**                 | **Categoría** | **Propósito**                                               |
-|----------------------------|---------------|-------------------------------------------------------------|
-| CriticalEventLogController | Controller    | Endpoints para la gestión de casos críticos                 |
+La capa de interfaz expone la funcionalidad del contexto Monitoring a través de controladores RESTful basados en el framework Spring Boot.
+CriticalEventLogController gestiona la creación y consulta de registros de eventos críticos.
+VehicleMonitoringController proporciona endpoints para obtener el estado de los vehículos.
+DeviceMonitoringController permite obtener el estado de los dispositivos de monitoreo.
 
-| **Nombre**              | **Tipo de retorno**                                      | **Visibilidad** | **Descripción**                                             |
-|-------------------------|----------------------------------------------------------|-----------------|-------------------------------------------------------------|
-| Constructor             | void                                                     | Public          | Constructor del controlador                                  |
-| createCriticalEventLog  | ResponseEntity&lt;CriticalEventLogResponseDto&gt;        | Public          | Crear un nuevo caso crítico                                  |
-| getCriticalEventLog     | ResponseEntity&lt;CriticalEventLogResponseDto&gt;        | Public          | Obtener un caso crítico por su ID                            |
-| getAllCriticalEventLogs | ResponseEntity&lt;List&lt;CriticalEventLogResponseDto&gt;&gt; | Public      | Obtener todos los casos críticos                             |
+**CriticalEventLogController`<<Controller>>`**
+| Atributos                         |
+|-----------------------------------|
+| - ICriticalEventLogService criticalEventLogService |
 
+| Métodos                                                                      |
+|------------------------------------------------------------------------------|
+| + createCriticalEventLog(requestDto: CriticalEventLogRequestDto): ResponseEntity<CriticalEventLogResponseDto> |
+| + getCriticalEventLog(id: Long): ResponseEntity<CriticalEventLogResponseDto>   |
+| + getAllCriticalEventLogs(): ResponseEntity<List<CriticalEventLogResponseDto>> |
 
-#### CriticalEventLogRequestDto  
-| **Nombre**                   | **Categoría** | **Propósito**                                               |
-|------------------------------|---------------|-------------------------------------------------------------|
-| CriticalEventLogRequestDto   | DTO           | Datos necesarios para crear un nuevo caso crítico           |
+**VehicleMonitoringController`<<Controller>>`**
+| Atributos              |
+|------------------------|
+| - IVehicleService vehicleService |
 
-| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
-|------------------|------------------|-----------------|-------------------------------------------------------------|
-| typeOfViolation  | string           | Private         | Tipo de violación que originó el caso crítico               |
-| vehiclePlate     | string           | Private         | Placa del vehículo involucrado en el caso                   |
-| timestamp        | Time             | Private         | Fecha y hora de la ocurrencia del caso                      |
-| handledBy        | Long             | Private         | ID del administrador que atendió el caso                    |
-  
-#### CriticalEventLogResponseDto   
-| **Nombre**                   | **Categoría** | **Propósito**                                               |
-|------------------------------|---------------|-------------------------------------------------------------|
-| CriticalEventLogResponseDto  | DTO           | Representación de un caso crítico con detalles completos    |
+| Métodos                                                     |
+|-------------------------------------------------------------|
+| + getVehicleStatus(plateNumber: String): ResponseEntity<VehicleDto> |
+| + getAllVehiclesStatus(): ResponseEntity<List<VehicleDto>>  |
 
-| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
-|------------------|------------------|-----------------|-------------------------------------------------------------|
-| id               | Long             | Private         | Identificador único del caso crítico                        |
-| typeOfViolation  | string           | Private         | Tipo de violación que originó el caso crítico               |
-| vehiclePlate     | string           | Private         | Placa del vehículo involucrado en el caso                   |
-| timestamp        | Time             | Private         | Fecha y hora de la ocurrencia del caso                      |
-| handledBy        | Long             | Private         | ID del administrador que atendió el caso                    |
-| status           | string           | Private         | Estado actual del caso (ej. "En proceso", "Resuelto")       |
-| totalDuration    | string           | Private         | Duración total del caso en formato HH:mm:ss                 |
+**DeviceMonitoringController`<<Controller>>`**
+| Atributos             |
+|-----------------------|
+| - IDeviceService deviceService |
 
-### VehicleMonitoringController
-| **Nombre**                  | **Categoría** | **Propósito**                                               |
-|-----------------------------|---------------|-------------------------------------------------------------|
-| VehicleMonitoringController | Controller    | Gestiona las operaciones relacionadas con los vehículos en el estacionamiento |
-
-#### Atributos
-
-| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
-|----------------|------------------|-----------------|-------------------------------------------------|
-| vehicleService | IVehicleService  | Private         | Servicio para operaciones con vehículos         |
-
-#### Métodos
-
-| **Nombre**           | **Tipo de retorno**                  | **Visibilidad** | **Descripción**                                      |
-|----------------------|--------------------------------------|-----------------|------------------------------------------------------|
-| getVehicleStatus     | ResponseEntity<VehicleDto>           | Public          | Obtiene el estado actual de un vehículo por su placa |
-| getAllVehiclesStatus | ResponseEntity<List<VehicleDto>>     | Public          | Obtiene el estado de todos los vehículos             |
-
-### DeviceMonitoringController  
-| **Nombre**                  | **Categoría** | **Propósito**                                               |
-|-----------------------------|---------------|-------------------------------------------------------------|
-| DeviceMonitoringController  | Controller    | Gestiona las operaciones relacionadas con los dispositivos de monitoreo en el estacionamiento |
-
-#### Atributos
-
-| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
-|----------------|------------------|-----------------|-------------------------------------------------|
-| deviceService  | IDeviceService   | Private         | Servicio para operaciones con dispositivos de monitoreo |
-
-#### Métodos
-
-| **Nombre**           | **Tipo de retorno**                  | **Visibilidad** | **Descripción**                                      |
-|----------------------|--------------------------------------|-----------------|------------------------------------------------------|
-| getDeviceStatus      | ResponseEntity<DeviceDto>            | Public          | Obtiene el estado actual de un dispositivo por su ID |
-| getAllDevicesStatus  | ResponseEntity<List<DeviceDto>>      | Public          | Obtiene el estado de todos los dispositivos          |
-
+| Métodos                                                   |
+|-----------------------------------------------------------|
+| + getDeviceStatus(deviceId: Long): ResponseEntity<DeviceDto> |
+| + getAllDevicesStatus(): ResponseEntity<List<DeviceDto>>  |
 
 ### 4.2.6.3. Application Layer
-  
-### ICriticalEventLogService  
-| **Nombre**                 | **Categoría** | **Propósito**                                               |
-|----------------------------|---------------|-------------------------------------------------------------|
-| ICriticalEventLogService   | Service       | Define las operaciones para gestionar casos críticos        |
 
-#### Métodos
+La capa de aplicación coordina la ejecución de las operaciones de negocio a través de servicios de aplicación.
+CriticalEventLogService maneja la creación y consulta de registros de eventos críticos.
+VehicleService proporciona la funcionalidad para obtener el estado de los vehículos.
+DeviceService ofrece la funcionalidad para obtener el estado de los dispositivos de monitoreo.
 
-| **Nombre**              | **Tipo de retorno**                               | **Descripción**                                             |
-|-------------------------|---------------------------------------------------|-------------------------------------------------------------|
-| createCriticalEventLog  | CriticalEventLogResponseDto                       | Crea un nuevo caso crítico                                  |
-| getCriticalEventLog     | CriticalEventLogResponseDto                       | Obtiene un caso crítico por su ID                           |
-| getAllCriticalEventLogs | List&lt;CriticalEventLogResponseDto&gt;           | Obtiene todos los casos críticos                            |
+**ICriticalEventLogService`<<Service Interface>>`**
+| Métodos                                                                |
+|------------------------------------------------------------------------|
+| + createCriticalEventLog(requestDto: CriticalEventLogRequestDto): CriticalEventLogResponseDto |
+| + getCriticalEventLog(id: Long): CriticalEventLogResponseDto            |
+| + getAllCriticalEventLogs(): List<CriticalEventLogResponseDto>          |
 
-### CriticalEventLogServiceImpl  
-| **Nombre**                    | **Categoría** | **Propósito**                                                         |
-|-------------------------------|---------------|------------------------------------------------------------------------|
-| CriticalEventLogServiceImpl   | Service       | Implementa las operaciones definidas en ICriticalEventLogService      |
+**CriticalEventLogServiceImpl`<<Service>>`**
+| Atributos                           |
+|-------------------------------------|
+| - ICriticalEventLogRepository criticalEventLogRepository |
 
-#### Atributos
+| Métodos (implementa ICriticalEventLogService)                  |
+|--------------------------------------------------------------|
+| + createCriticalEventLog(requestDto: CriticalEventLogRequestDto): CriticalEventLogResponseDto |
+| + getCriticalEventLog(id: Long): CriticalEventLogResponseDto   |
+| + getAllCriticalEventLogs(): List<CriticalEventLogResponseDto> |
 
-| **Nombre**                  | **Tipo de dato**              | **Visibilidad** | **Descripción**                                       |
-|-----------------------------|-------------------------------|-----------------|-------------------------------------------------------|
-| criticalEventLogRepository  | ICriticalEventLogRepository   | Private         | Repositorio para acceder a los datos de casos críticos |
+**IVehicleService`<<Service Interface>>`**
+| Métodos                                    |
+|--------------------------------------------|
+| + getVehicleStatus(plateNumber: String): VehicleDto |
+| + getAllVehiclesStatus(): List<VehicleDto>  |
 
-#### Métodos
+**VehicleServiceImpl`<<Service>>`**
+| Atributos                  |
+|----------------------------|
+| - IVehicleRepository vehicleRepository |
 
-| **Nombre**              | **Tipo de retorno**                               | **Visibilidad** | **Descripción**                                             |
-|-------------------------|---------------------------------------------------|-----------------|-------------------------------------------------------------|
-| createCriticalEventLog  | CriticalEventLogResponseDto                       | Public          | Crea un nuevo caso crítico                                  |
-| getCriticalEventLog     | CriticalEventLogResponseDto                       | Public          | Obtiene un caso crítico por su ID                           |
-| getAllCriticalEventLogs | List&lt;CriticalEventLogResponseDto&gt;           | Public          | Obtiene todos los casos críticos                            |
-  
-### IVehicleService
-| **Nombre**     | **Categoría** | **Propósito**                                               |
-|----------------|---------------|-------------------------------------------------------------|
-| IVehicleService | Service       | Define las operaciones para gestionar los vehículos en el estacionamiento |
+| Métodos (implementa IVehicleService)      |
+|-------------------------------------------|
+| + getVehicleStatus(plateNumber: String): VehicleDto |
+| + getAllVehiclesStatus(): List<VehicleDto> |
 
-#### Métodos
+**IDeviceService`<<Service Interface>>`**
+| Métodos                                  |
+|------------------------------------------|
+| + getDeviceStatus(deviceId: Long): DeviceDto |
+| + getAllDevicesStatus(): List<DeviceDto>  |
 
-| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
-|----------------------|----------------------------|------------------------------------------------------|
-| getVehicleStatus     | VehicleDto                 | Obtiene el estado actual de un vehículo por su placa |
-| getAllVehiclesStatus | List<VehicleDto>           | Obtiene el estado de todos los vehículos             |
+**DeviceServiceImpl`<<Service>>`**
+| Atributos                |
+|--------------------------|
+| - IDeviceRepository deviceRepository |
 
-### VehicleServiceImpl 
-| **Nombre**             | **Categoría** | **Propósito**                                               |
-|------------------------|---------------|-------------------------------------------------------------|
-| VehicleServiceImpl     | Service       | Implementa las operaciones definidas en IVehicleService     |
-
-#### Atributos
-
-| **Nombre**         | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
-|--------------------|------------------|-----------------|-------------------------------------------------|
-| vehicleRepository  | IVehicleRepository | Private         | Repositorio para acceder a los datos de los vehículos |
-
-#### Métodos
-
-| **Nombre**           | **Tipo de retorno**        | **Visibilidad** | **Descripción**                                      |
-|----------------------|----------------------------|-----------------|------------------------------------------------------|
-| getVehicleStatus     | VehicleDto                 | Public          | Obtiene el estado actual de un vehículo por su placa |
-| getAllVehiclesStatus | List<VehicleDto>           | Public          | Obtiene el estado de todos los vehículos             |
-
-
-### IDeviceService
-| **Nombre**     | **Categoría** | **Propósito**                                               |
-|----------------|---------------|-------------------------------------------------------------|
-| IDeviceService | Service       | Define las operaciones para gestionar los dispositivos de monitoreo en el estacionamiento |
-
-#### Métodos
-
-| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
-|----------------------|----------------------------|------------------------------------------------------|
-| getDeviceStatus      | DeviceDto                  | Obtiene el estado actual de un dispositivo por su ID |
-| getAllDevicesStatus  | List<DeviceDto>            | Obtiene el estado de todos los dispositivos          |
-
-### DeviceServiceImpl    
-| **Nombre**             | **Categoría** | **Propósito**                                               |
-|------------------------|---------------|-------------------------------------------------------------|
-| DeviceServiceImpl      | Service       | Implementa las operaciones definidas en IDeviceService      |
-
-#### Atributos
-
-| **Nombre**         | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
-|--------------------|------------------|-----------------|-------------------------------------------------|
-| deviceRepository   | IDeviceRepository | Private         | Repositorio para acceder a los datos de los dispositivos |
-
-#### Métodos
-
-| **Nombre**           | **Tipo de retorno**        | **Visibilidad** | **Descripción**                                      |
-|----------------------|----------------------------|-----------------|------------------------------------------------------|
-| getDeviceStatus      | DeviceDto                  | Public          | Obtiene el estado actual de un dispositivo por su ID |
-| getAllDevicesStatus  | List<DeviceDto>            | Public          | Obtiene el estado de todos los dispositivos          |
-
+| Métodos (implementa IDeviceService)    |
+|---------------------------------------|
+| + getDeviceStatus(deviceId: Long): DeviceDto |
+| + getAllDevicesStatus(): List<DeviceDto> |
 
 ### 4.2.6.4. Infrastructure Layer
 
-### ICriticalEventLogRepository  
-| **Nombre**                  | **Categoría** | **Propósito**                                               |
-|-----------------------------|---------------|-------------------------------------------------------------|
-| ICriticalEventLogRepository | Repository    | Define las operaciones de acceso a datos para casos críticos |
+La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
+ICriticalEventLogRepository, IVehicleRepository e IDeviceRepository son interfaces que definen las operaciones de acceso a datos para las entidades correspondientes.
 
-#### Métodos
+**ICriticalEventLogRepository`<<Repository>>`**
+| Métodos                                                 |
+|---------------------------------------------------------|
+| + findById(id: Long): Optional<CriticalEventLog>         |
+| + findAll(): List<CriticalEventLog>                      |
+| + save(entity: CriticalEventLog): CriticalEventLog       |
+| + deleteById(id: Long): void                            |
 
-| **Nombre**   | **Tipo de retorno**                         | **Descripción**                                  |
-|--------------|---------------------------------------------|--------------------------------------------------|
-| findById     | Optional&lt;CriticalEventLog&gt;            | Encuentra un caso crítico por su ID              |
-| findAll      | List&lt;CriticalEventLog&gt;                | Encuentra todos los casos críticos               |
-| save         | CriticalEventLog                            | Guarda un nuevo caso crítico                     |
-| deleteById   | void                                        | Elimina un caso crítico por su ID                |
+**IVehicleRepository`<<Repository>>`**
+| Métodos                                           |
+|---------------------------------------------------|
+| + findByPlateNumber(plateNumber: String): Optional<Vehicle> |
+| + findAll(): List<Vehicle>                         |
 
-### IVehicleRepository  
-| **Nombre**           | **Categoría** | **Propósito**                                               |
-|----------------------|---------------|-------------------------------------------------------------|
-| IVehicleRepository   | Repository    | Define las operaciones de acceso a datos para los vehículos |
-
-#### Métodos
-
-| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
-|----------------------|----------------------------|------------------------------------------------------|
-| findByLicensePlate   | VehicleDto                 | Encuentra un vehículo por su placa                   |
-| findAll              | List<VehicleDto>           | Encuentra todos los vehículos                        |
-
-### IDeviceRepository  
-| **Nombre**             | **Categoría** | **Propósito**                                               |
-|------------------------|---------------|-------------------------------------------------------------|
-| IDeviceRepository      | Repository    | Define las operaciones de acceso a datos para los dispositivos de monitoreo |
-
-### Métodos
-
-| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
-|----------------------|----------------------------|------------------------------------------------------|
-| findByDeviceId       | DeviceDto                  | Encuentra un dispositivo por su ID                   |
-| findAll              | List<DeviceDto>            | Encuentra todos los dispositivos                     |
-
+**IDeviceRepository`<<Repository>>`**
+| Métodos                                       |
+|-----------------------------------------------|
+| + findById(id: Long): Optional<Device>         |
+| + findAll(): List<Device>                      |
+---
 ### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
 <p align="center"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-4/4.2.6.5-Monitoring-ComponentDiagram.png?raw=true" alt="Component Diagram Monitoring"/></p>
@@ -2713,133 +3220,133 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 #### Entidad: Ticket
 
-| **Nombre**     | **Categoría** | **Propósito**                                               |
-|----------------|---------------|--------------------------------------------------------------|
-| Ticket   | Entity        | Registro de un ticket que indica la entrada y salida de un vehiculo del estacionamiento, asi como el pago.  |
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| Ticket | Entity | Representa el registro de la entrada y salida de un vehículo del estacionamiento, así como la información del pago asociado. |
 
 #### Atributos
 
-| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
-|-------------------|------------------|------------------|-------------------------------------------|
-| id                | Long             | Private          | Identificador único para el ticket                       |
-| userId   | string           | Private          | Id de usuario que utilizo la app para entrar al estacionamiento |
-| vehiclePlate      | string           | Private          | Placa del vehículo que ingreso al estacionamiento |
-| entryTime         | Time             | Private          | Hora de entrada del vehiculo     |
-| status        | Long             | Private          | Estado del ticket   |
-| amountCharged            | string           | Private          | Cantidad que pago el usuario por su estancia en el estacionamiento     |
-| paymentStatus     | string           | Private          | Estado actual del pago                   |
-| totalDuration | string | Private | Duración total de la estancia del vehiculo en el estacionamiento |
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| id | Long | Private | Identificador único del ticket. |
+| userId | String | Private | Identificador del usuario que utilizó la aplicación para ingresar. |
+| vehiclePlate | String | Private | Placa del vehículo que ingresó al estacionamiento. |
+| entryTime | LocalDateTime | Private | Hora de entrada del vehículo. |
+| status | String | Private | Estado del ticket (ej. Activo, Cerrado, Pagado). |
+| amountCharged | BigDecimal | Private | Cantidad que pagó el usuario por su estancia. |
+| paymentStatus | String | Private | Estado del pago (ej. Pendiente, Completo, Fallido). |
+| totalDuration | Duration | Private | Duración total de la estancia del vehículo. |
 
 ### 4.2.7.2. Interface Layer
 
-### Entidad: TicketsController
+#### Entidad: TicketsController
 
-| **Nombre**           | **Categoría** | **Propósito**                                              |
-|----------------------|---------------|------------------------------------------------------------|
-| TicketsController    | Controller    | Endpoints para la gestión de tickets                       |
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| TicketsController | Controller | Expone los endpoints para la gestión de tickets. |
 
-### Atributos
+#### Atributos
 
-| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                        |
-|------------------|------------------|-----------------|----------------------------------------|
-| ticketService    | ITicketService   | Private         | Servicio de gestión de tickets         |
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| ticketService | ITicketService | Private | Servicio para la lógica de negocio de los tickets. |
 
-### Métodos
+#### Métodos
 
-| **Nombre**       | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                              |
-|------------------|----------------------------------------------|-----------------|--------------------------------------------------------------|
-| Constructor      | Void                                         | Public          | Constructor del controlador                                   |
-| getTicket        | ResponseEntity<TicketResponseDto>      | Public          | Obtener un ticket por su ID                                   |
-| createTicket     | ResponseEntity<TicketResponseDto>        | Public          | Crear un nuevo ticket                                         |
-| getTicketHistory | ResponseEntity<Array<TicketResponseDto>> | Public          | Obtener el historial de tickets de un usuario por su Id       |
-  
-### Entidad: TicketRequestDto
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| Constructor | Void | Public | Constructor del controlador. |
+| getTicket | ResponseEntity\<TicketResponseDto> | Public | Obtiene un ticket por su ID. |
+| createTicket | ResponseEntity\<TicketResponseDto> | Public | Crea un nuevo ticket. |
+| getTicketHistory | ResponseEntity\<List\<TicketResponseDto>> | Public | Obtiene el historial de tickets de un usuario por su ID. |
 
-| **Nombre**       | **Categoría** | **Propósito**                                               |
-|------------------|---------------|-------------------------------------------------------------|
-| TicketRequestDto | DTO           | Datos necesarios para crear un nuevo ticket en el sistema   |
+#### Entidad: TicketRequestDto
 
-### Atributos
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| TicketRequestDto | DTO | Define la estructura de los datos necesarios para crear un nuevo ticket. |
 
-| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
-|------------------|------------------|-----------------|-------------------------------------------------------------|
-| vehiclePlate     | string           | Private         | Placa del vehículo que ingresará al estacionamiento         |
-| userId           | string           | Private         | ID del usuario que utilizará la app para ingresar           |
-   
-### Entidad: TicketResponseDto
+#### Atributos
 
-| **Nombre**         | **Categoría** | **Propósito**                                               |
-|--------------------|---------------|-------------------------------------------------------------|
-| TicketResponseDto  | DTO           | Representación de un ticket con los detalles de entrada, salida y pago |
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| vehiclePlate | String | Private | Placa del vehículo que ingresará. |
+| userId | String | Private | ID del usuario que ingresará. |
 
-### Atributos
+#### Entidad: TicketResponseDto
 
-| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                                                 |
-|-------------------|------------------|-----------------|---------------------------------------------------------------------------------|
-| id                | Long             | Private         | Identificador único del ticket                                                  |
-| userId            | string           | Private         | ID del usuario que utilizó la app para ingresar al estacionamiento              |
-| vehiclePlate      | string           | Private         | Placa del vehículo que ingresó al estacionamiento                               |
-| entryTime         | Time             | Private         | Hora de entrada del vehículo al estacionamiento                                 |
-| status            | Long             | Private         | Estado actual del ticket                                                        |
-| amountCharged     | string           | Private         | Monto que pagó el usuario por su estancia en el estacionamiento                  |
-| paymentStatus     | string           | Private         | Estado actual del pago (ej. "Pagado", "Pendiente")                              |
-| totalDuration     | string           | Private         | Duración total de la estancia del vehículo en el estacionamiento                 |
-  
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| TicketResponseDto | DTO | Representa la información de un ticket para la respuesta. |
+
+#### Atributos
+
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| id | Long | Private | Identificador único del ticket. |
+| userId | String | Private | ID del usuario. |
+| vehiclePlate | String | Private | Placa del vehículo. |
+| entryTime | LocalDateTime | Private | Hora de entrada. |
+| status | String | Private | Estado del ticket. |
+| amountCharged | BigDecimal | Private | Monto cobrado. |
+| paymentStatus | String | Private | Estado del pago. |
+| totalDuration | Duration | Private | Duración total de la estancia. |
+
 ### 4.2.7.3. Application Layer
-  
-### Entidad: ITicketService
 
-| **Nombre**     | **Categoría** | **Propósito**                                               |
-|----------------|---------------|-------------------------------------------------------------|
-| ITicketService | Interface     | Define las operaciones para la gestión de tickets           |
+#### Entidad: ITicketService
 
-### Métodos
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| ITicketService | Interface | Define las operaciones para la gestión de tickets en la capa de aplicación. |
 
-| **Nombre**        | **Tipo de retorno**                          | **Descripción**                                              |
-|-------------------|----------------------------------------------|--------------------------------------------------------------|
-| createTicket      | TicketResponseDto                            | Crea un nuevo ticket con la placa del vehículo y el ID del usuario |
-| getTicket         | TicketResponseDto                            | Obtiene un ticket por su ID                                   |
-| getTicketHistory  | List<TicketResponseDto>                         | Obtiene el historial de eventos de un ticket                  |
-  
-  
-### Entidad: TicketServiceImpl
+#### Métodos
 
-| **Nombre**        | **Categoría** | **Propósito**                                               |
-|-------------------|---------------|-------------------------------------------------------------|
-| TicketServiceImpl | Service       | Implementa las operaciones para la gestión de tickets       |
+| **Nombre** | **Tipo de retorno** | **Descripción** |
+|---|---|---|
+| createTicket | TicketResponseDto | Crea un nuevo ticket. |
+| getTicket | TicketResponseDto | Obtiene un ticket por su ID. |
+| getTicketHistory | List\<TicketResponseDto> | Obtiene el historial de tickets de un usuario. |
 
-### Atributos
+#### Entidad: TicketServiceImpl
 
-| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
-|-------------------|------------------|-----------------|-------------------------------------------------------------|
-| ticketRepository  | ITicketRepository| Private         | Repositorio para acceder a los datos de los tickets         |
-| modelMapper       | ModelMapper      | Private         | Mapper para convertir entre entidades y DTOs                |
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| TicketServiceImpl | Service | Implementa las operaciones definidas en ITicketService. |
 
-### Métodos
+#### Atributos
 
-| **Nombre**        | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                              |
-|-------------------|----------------------------------------------|-----------------|--------------------------------------------------------------|
-| Constructor       | void                                         | Public          | Constructor de la clase                                      |
-| createTicket      | TicketResponseDto                            | Public          | Crea un nuevo ticket con la placa del vehículo y el ID del usuario |
-| getTicket         | TicketResponseDto                            | Public          | Obtiene un ticket por su ID                                   |
-| getTicketHistory  | List<TicketResponseDto>                         | Public          | Obtiene el historial de eventos de un ticket                  |
-  
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| ticketRepository | ITicketRepository | Private | Repositorio para acceder a los datos de los tickets. |
+| modelMapper | ModelMapper | Private | Mapper para la conversión entre entidades y DTOs. |
+
+#### Métodos
+
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| Constructor | void | Public | Constructor de la clase. |
+| createTicket | TicketResponseDto | Public | Crea un nuevo ticket. |
+| getTicket | TicketResponseDto | Public | Obtiene un ticket por su ID. |
+| getTicketHistory | List\<TicketResponseDto> | Public | Obtiene el historial de tickets de un usuario. |
+
 ### 4.2.7.4. Infrastructure Layer
 
-### Repository Interface
+#### Repository Interface
 
-| **Nombre**              | **Categoría** | **Propósito**                                               |
-|-------------------------|---------------|-------------------------------------------------------------|
-| ITicketRepository       | Repository    | Repositorio JPA para la entidad Ticket                      |
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| ITicketRepository | Repository | Define las operaciones de acceso a datos para la entidad Ticket. |
 
-### Atributos
+#### Métodos
 
-| **Nombre**             | **Tipo de retorno** | **Visibilidad** | **Descripción**                                             |
-|------------------------|---------------------|-----------------|-------------------------------------------------------------|
-| findByVehiclePlate     | List<Ticket>  | Public          | Encontrar tickets por la placa del vehículo                 |
-| findByUserId           | List<Ticket>  | Public          | Encontrar tickets por el ID del usuario                     |
-| findByStatus           | List<Ticket>  | Public          | Encontrar tickets por su estado (por ejemplo, "Activo")     |
-| findByEntryTimeBetween | List<Ticket>  | Public          | Encontrar tickets por rango de tiempo de entrada            |
+| **Nombre** | **Tipo de retorno** | **Descripción** |
+|---|---|---|
+| findByVehiclePlate | List\<Ticket> | Encuentra tickets por la placa del vehículo. |
+| findByUserId | List\<Ticket> | Encuentra tickets por el ID del usuario. |
+| findByStatus | List\<Ticket> | Encuentra tickets por su estado. |
+| findByEntryTimeBetween | List\<Ticket> | Encuentra tickets por rango de tiempo de entrada. |
+---
 
 ### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -2863,140 +3370,175 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 **Entity: Notification**
 
-| Nombre      | Categoría | Propósito                                      |
-|-------------|-----------|------------------------------------------------|
-| Notification| Entity    | Representa una notificación que será enviada al usuario. |
+| Nombre       | Categoría | Propósito                                                  |
+|--------------|-----------|------------------------------------------------------------|
+| Notification | Entity    | Representa una notificación que será enviada al usuario.     |
 
 **Atributos:**
 
-| Nombre        | Tipo de dato | Visibilidad | Descripción                                                |
-|---------------|--------------|-------------|------------------------------------------------------------|
-| id            | Long         | Private     | Identificador único de la notificación.                    |
-| message       | String       | Private     | Contenido del mensaje de la notificación.                 |
-| status        | String       | Private     | Estado de la notificación (enviado, pendiente, fallido).   |
-| recipient     | String       | Private     | Usuario al que se le envía la notificación.               |
-| timestamp     | LocalDate    | Private     | Fecha y hora en que se generó la notificación.            |
+| Nombre      | Tipo de dato | Visibilidad | Descripción                                                  |
+|-------------|--------------|-------------|--------------------------------------------------------------|
+| id          | Long         | private     | Identificador único de la notificación.                        |
+| message     | String       | private     | Contenido del mensaje de la notificación.                    |
+| status      | Status (enum) | private     | Estado de la notificación (UNREAD, READ).                    |
+| recipient   | UserId (VO)  | private     | Usuario al que se le envía la notificación.                   |
+| timestamp   | LocalDate    | private     | Fecha en que se generó la notificación.                      |
+
+**Métodos:**
+
+| Nombre                      |
+|-----------------------------|
+| getNotificationByUserId()   |
+| sendNotificationToUserId()  |
+
+**Value Object: UserId**
+
+| Nombre   | Categoría    | Propósito                                    |
+|----------|--------------|----------------------------------------------|
+| UserId   | Value Object | Representa el identificador único de un usuario. |
+
+**Atributos:**
+
+| Nombre   | Tipo de dato | Visibilidad | Descripción                                    |
+|----------|--------------|-------------|------------------------------------------------|
+| userId   | Long         | private     | Identificador único del usuario.                 |
+
+**Métodos:**
+
+| Nombre      |
+|-------------|
+| getUserId() |
+
+**Enum: Status**
+
+| Nombre   | Categoría | Propósito                                  |
+|----------|-----------|--------------------------------------------|
+| Status   | Enum      | Define los posibles estados de una notificación. |
+
+**Valores:**
+
+| Valor    |
+|----------|
+| UNREAD   |
+| READ     |
 
 ### 4.2.8.2. Interface Layer
 
 **Controller: NotificationController**
 
-| Nombre                   | Categoría   | Propósito                                                        |
-|--------------------------|-------------|------------------------------------------------------------------|
-| NotificationController    | Controller  | Endpoints para gestionar las notificaciones.                     |
+| Nombre                 | Categoría  | Propósito                                           |
+|------------------------|------------|-----------------------------------------------------|
+| NotificationController | Controller | Endpoints para gestionar las notificaciones.          |
 
 **Atributos:**
 
-| Nombre                  | Tipo de dato          | Visibilidad | Descripción                                                   |
-|-------------------------|-----------------------|-------------|---------------------------------------------------------------|
-| notificationService      | INotificationService  | Private     | Servicio para gestionar operaciones de notificación.          |
+| Nombre              | Tipo de dato        | Visibilidad | Descripción                                          |
+|---------------------|---------------------|-------------|------------------------------------------------------|
+| notificationService | INotificationService | private     | Servicio para gestionar operaciones de notificación. |
 
 **Métodos:**
 
-| Nombre                         | Tipo de retorno                          | Visibilidad | Descripción                                                       |
-|---------------------------------|------------------------------------------|-------------|-------------------------------------------------------------------|
-| Constructor                    | Void                                     | Public      | Constructor del controlador.                                       |              |
-| getNotificationByUserId            | ResponseEntity<NotificationResponseDto>  | Public      | Obtener una notificación específica por el user ID.                   |
-| createNotification             | ResponseEntity<NotificationResponseDto>  | Public      | Crear una nueva notificación.                                     |
-| deleteNotification             | ResponseEntity<Void>                    | Public      | Eliminar una notificación específica.                            |
-
----
+| Nombre                      | Tipo de retorno                       | Visibilidad | Descripción                                                    |
+|-----------------------------|---------------------------------------|-------------|----------------------------------------------------------------|
+| Constructor                 | Void                                  | public      | Constructor del controlador.                                   |
+| getNotificationByUserId     | ResponseEntity\<NotificationResponseDto> | public      | Obtener una notificación específica por el user ID.             |
+| createNotification          | ResponseEntity\<NotificationResponseDto> | public      | Crear una nueva notificación.                                  |
+| deleteNotification          | ResponseEntity\<Void>                   | public      | Eliminar una notificación específica.                            |
 
 **DTO: NotificationRequestDto**
 
-| Nombre                   | Categoría   | Propósito                                                       |
-|--------------------------|-------------|---------------------------------------------------------------|
-| NotificationRequestDto    | DTO         | Clase para crear una notificación.                             |
+| Nombre                   | Categoría | Propósito                                  |
+|--------------------------|-----------|--------------------------------------------|
+| NotificationRequestDto   | DTO       | Clase para crear una notificación.          |
 
 **Atributos:**
 
-| Nombre              | Tipo de dato | Visibilidad | Descripción                                                |
-|---------------------|--------------|-------------|------------------------------------------------------------|
-| message             | String       | Private     | Mensaje de la notificación.                                |
-| recipient           | String       | Private     | Usuario destinatario de la notificación.                   |
-| deliveryMethod      | String       | Private     | Método de entrega (ej., SMS, Email, Push Notification).    |
-
----
+| Nombre           | Tipo de dato | Visibilidad | Descripción                              |
+|------------------|--------------|-------------|------------------------------------------|
+| message          | String       | private     | Mensaje de la notificación.              |
+| recipientUserId   | Long         | private     | ID del usuario destinatario.             |
+| deliveryMethod   | String       | private     | Método de entrega (ej., SMS, Email).     |
 
 **DTO: NotificationResponseDto**
 
-| Nombre                   | Categoría   | Propósito                                                        |
-|--------------------------|-------------|------------------------------------------------------------------|
-| NotificationResponseDto   | DTO         | Clase para devolver la respuesta de la notificación.             |
+| Nombre                    | Categoría | Propósito                                    |
+|---------------------------|-----------|----------------------------------------------|
+| NotificationResponseDto     | DTO       | Clase para devolver la respuesta de la notificación. |
 
 **Atributos:**
 
-| Nombre              | Tipo de dato      | Visibilidad | Descripción                                                |
-|---------------------|-------------------|-------------|------------------------------------------------------------|
-| id                  | Long              | Private     | Identificador único de la notificación.                    |
-| message             | String            | Private     | Mensaje de la notificación.                                |
-| recipient           | String            | Private     | Usuario destinatario de la notificación.                   |
-| status              | String            | Private     | Estado de la notificación (enviado, pendiente, fallido).   |
-| timestamp           | LocalDateTime     | Private     | Fecha y hora de creación de la notificación.               |
-
+| Nombre    | Tipo de dato | Visibilidad | Descripción                                |
+|-----------|--------------|-------------|--------------------------------------------|
+| id        | Long         | private     | Identificador único de la notificación.      |
+| message   | String       | private     | Mensaje de la notificación.                |
+| recipient | Long         | private     | ID del usuario destinatario.               |
+| status    | String       | private     | Estado de la notificación.                 |
+| timestamp | LocalDate    | private     | Fecha de creación de la notificación.      |
 
 ### 4.2.8.3. Application Layer
 
 **Service Interface: INotificationService**
 
-| Nombre                | Categoría | Propósito                                                      |
-|-----------------------|-----------|----------------------------------------------------------------|
-| INotificationService   | Service   | Operaciones para la gestión de las notificaciones.             |
+| Nombre                 | Categoría | Propósito                                        |
+|------------------------|-----------|--------------------------------------------------|
+| INotificationService   | Service   | Operaciones para la gestión de las notificaciones. |
 
 **Métodos:**
 
-| Nombre                  | Tipo de retorno                      | Visibilidad | Descripción                                                     |
-|-------------------------|--------------------------------------|-------------|-----------------------------------------------------------------|
-| sendNotification        | Void                                 | Public      | Envía una notificación a un usuario.                            |
-| getNotificationStatus   | String                               | Public      | Obtiene el estado de entrega de la notificación.                |
-| getNotificationsHistory | List<Notification>                   | Public      | Obtiene el historial de notificaciones enviadas.                |
-| updateNotificationStatus| Void                                 | Public      | Actualiza el estado de una notificación (ej., fallida, exitosa).|
-
----
+| Nombre                      | Tipo de retorno       | Descripción                                                  |
+|-----------------------------|-----------------------|--------------------------------------------------------------|
+| sendNotification            | Void                  | Envía una notificación a un usuario.                           |
+| getNotificationStatus       | String                | Obtiene el estado de entrega de la notificación.             |
+| getNotificationsHistory     | List\<Notification>  | Obtiene el historial de notificaciones enviadas.             |
+| updateNotificationStatus    | Void                  | Actualiza el estado de una notificación.                     |
+| getNotificationByUserId     | NotificationResponseDto | Obtiene una notificación por el ID del usuario.              |
+| createNotification          | NotificationResponseDto | Crea una nueva notificación.                                 |
+| deleteNotification          | Void                  | Elimina una notificación específica.                           |
 
 **Service Implementation: NotificationServiceImpl**
 
-| Nombre                | Categoría | Propósito                                                      |
-|-----------------------|-----------|----------------------------------------------------------------|
-| NotificationServiceImpl | Service   | Implementación de la lógica de negocio para las notificaciones. |
+| Nombre                    | Categoría | Propósito                                          |
+|---------------------------|-----------|----------------------------------------------------|
+| NotificationServiceImpl     | Service   | Implementación de la lógica de negocio para las notificaciones. |
 
 **Atributos:**
 
-| Nombre                 | Tipo de dato      | Visibilidad | Descripción                                                   |
-|------------------------|-------------------|-------------|---------------------------------------------------------------|
-| notificationRepository | INotificationRepository | Private     | Repositorio para acceder a los datos de notificaciones.      |
-| modelMapper            | ModelMapper       | Private     | Mapper para transformar entidades y DTOs.                     |
-| restTemplate           | RestTemplate      | Private     | Cliente para hacer llamadas HTTP a servicios externos.        |
+| Nombre              | Tipo de dato           | Visibilidad | Descripción                                                |
+|---------------------|------------------------|-------------|------------------------------------------------------------|
+| notificationRepository | INotificationRepository | private     | Repositorio para acceder a los datos de notificaciones.     |
+| modelMapper         | ModelMapper            | private     | Mapper para transformar entidades y DTOs.                 |
+| restTemplate        | RestTemplate           | private     | Cliente para hacer llamadas HTTP a servicios externos.      |
 
 **Métodos:**
 
-| Nombre                    | Tipo de retorno                      | Visibilidad | Descripción                                                     |
-|---------------------------|--------------------------------------|-------------|-----------------------------------------------------------------|
-| Constructor                | Void                                 | Public      | Constructor que inyecta dependencias.                           |
-| sendNotification           | Void                                 | Public      | Envía una notificación a través de los servicios externos.      |
-| getNotificationStatus      | String                               | Public      | Obtiene el estado actual de la notificación.                    |
-| getNotificationsHistory    | List<Notification>                   | Public      | Obtiene todas las notificaciones previas.                       |
-| updateNotificationStatus   | Void                                 | Public      | Actualiza el estado de la notificación en la base de datos.    |
-
----
+| Nombre                      | Tipo de retorno       | Visibilidad | Descripción                                                      |
+|-----------------------------|-----------------------|-------------|------------------------------------------------------------------|
+| Constructor                 | Void                  | public      | Constructor que inyecta dependencias.                            |
+| sendNotification            | Void                  | public      | Envía una notificación a través de los servicios externos.       |
+| getNotificationStatus       | String                | public      | Obtiene el estado actual de la notificación.                     |
+| getNotificationsHistory     | List\<Notification>  | public      | Obtiene todas las notificaciones previas.                        |
+| updateNotificationStatus    | Void                  | public      | Actualiza el estado de la notificación en la base de datos.      |
+| getNotificationByUserId     | NotificationResponseDto | public      | Obtiene una notificación por el ID del usuario.                 |
+| createNotification          | NotificationResponseDto | public      | Crea una nueva notificación.                                     |
+| deleteNotification          | Void                  | public      | Elimina una notificación de la base de datos.                    |
 
 ### 4.2.8.4. Infrastructure Layer
 
 **Repository Interface: INotificationRepository**
 
-| Nombre                 | Categoría   | Propósito                                                      |
-|------------------------|-------------|----------------------------------------------------------------|
-| INotificationRepository | Repository  | Repositorio para manejar las notificaciones almacenadas.       |
+| Nombre                    | Categoría  | Propósito                                          |
+|---------------------------|------------|----------------------------------------------------|
+| INotificationRepository   | Repository | Repositorio para manejar las notificaciones almacenadas. |
 
 **Métodos:**
 
-| Nombre                    | Tipo de retorno           | Visibilidad | Descripción                                                   |
-|---------------------------|---------------------------|-------------|---------------------------------------------------------------|
-| saveNotification           | Notification              | Public      | Guarda una nueva notificación en la base de datos.            |
-| findById                   | Optional<Notification>    | Public      | Encuentra una notificación específica por su ID.              |
-| findByRecipient            | List<Notification>        | Public      | Encuentra todas las notificaciones de un usuario específico.   |
-| findByStatus               | List<Notification>        | Public      | Encuentra las notificaciones por su estado (enviado, pendiente).|
-| deleteNotification         | Void                      | Public      | Elimina una notificación de la base de datos.                 |
+| Nombre             | Tipo de retorno          | Visibilidad | Descripción                                                |
+|--------------------|--------------------------|-------------|------------------------------------------------------------|
+| saveNotification   | Notification             | public      | Guarda una nueva notificación en la base de datos.         |
+| findById           | Optional\<Notification> | public      | Encuentra una notificación específica por su ID.           |
+| findByRecipient    | List\<Notification>     | public      | Encuentra todas las notificaciones de un usuario específico. |
+| findByStatus       | List\<Notification>     | public      | Encuentra las notificaciones por su estado.                |
+| deleteNotification | Void                     | public      | Elimina una notificación de la base de datos.               |
 
 ---
 
@@ -3018,68 +3560,81 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 ## 4.2.9. Bounded Context: Profiles
 
-> **Propósito**  
-> Agrupa los **datos extendidos** de los distintos tipos de usuario (no credenciales):  
-> preferencias, información de contacto, métricas de uso, etc.
+Este contexto se encarga de gestionar la información extendida de los usuarios del sistema, diferenciando entre perfiles de conductores y administradores. Almacena detalles como preferencias, información de contacto y métricas de uso, separándolos de las credenciales de autenticación.
 
 ### 4.2.9.1. Domain Layer
 
-| Agregado | Rol |
-|----------|-----|
-| **DriverProfile** `<<Aggregate Root>>` | Información de un conductor (licencia, preferencia de pago, vehículo favorito). |
-| **AdminProfile** `<<Aggregate Root>>` | Datos de un administrador (scope de parking, contacto directo). |
+En la capa de dominio se definen los agregados raíz DriverProfile y AdminProfile, que encapsulan la información específica de cada tipo de usuario. Se utiliza un objeto de valor Language para representar las preferencias de idioma.
 
-#### DriverProfile
+**DriverProfile `<<Aggregate Root>>`**
 
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| userId | UserId |
-| fullName | String |
-| licenseNumber | String |
-| favouritePaymentCard | String |
-| preferredLanguage | Language `enum` |
+| Atributos             | Tipo     |
+|-----------------------|----------|
+| id                    | Long     |
+| userId                | UserId   |
+| fullName              | String   |
+| licenseNumber         | String   |
+| favouritePaymentCard  | String   |
+| preferredLanguage     | Language |
 
-#### AdminProfile
+**AdminProfile `<<Aggregate Root>>`**
 
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| userId | UserId |
-| fullName | String |
-| phoneNumber | String |
-| managedSiteIds | List<Long> |
+| Atributos        | Tipo          |
+|------------------|---------------|
+| id               | Long          |
+| userId           | UserId        |
+| fullName         | String        |
+| phoneNumber      | String        |
+| managedSiteIds   | List\<Long>  |
 
-#### Value Objects
-`Language` → ES · EN · PT
+**Value Object: Language `<<Value Object>>`**
 
----
+| Valores |
+|---------|
+| ES      |
+| EN      |
+| PT      |
 
 ### 4.2.9.2. Interface Layer
 
-| Controller | Endpoints |
-|------------|-----------|
-| **ProfilesController** | `GET /profiles/{userId}` · `POST /profiles/driver` · `POST /profiles/admin` |
+La capa de interfaz expone la funcionalidad de gestión de perfiles a través del controlador ProfilesController, que ofrece endpoints para la creación y consulta de perfiles basados en el ID de usuario.
 
----
+**Controller: ProfilesController `<<Controller>>`**
+
+| Endpoints                |
+|--------------------------|
+| `GET /profiles/{userId}`  |
+| `POST /profiles/driver`   |
+| `POST /profiles/admin`    |
 
 ### 4.2.9.3. Application Layer
 
-| Service | Operaciones |
-|---------|-------------|
-| **IProfileService** | createDriverProfile · createAdminProfile · getProfileByUserId |
+La capa de aplicación define la interfaz IProfileService con las operaciones necesarias para la creación y recuperación de perfiles. La implementación ProfileServiceImpl utiliza un ModelMapper para la conversión entre entidades y DTOs, y se comunica con el ProfileRepository para la persistencia de los datos.
 
-Impl.: `ProfileServiceImpl` (usa `ModelMapper` + `ProfileRepository`).
+**Service Interface: IProfileService `<<Service Interface>>`**
 
----
+| Operaciones           |
+|-----------------------|
+| createDriverProfile   |
+| createAdminProfile    |
+| getProfileByUserId    |
+
+**Service Implementation: ProfileServiceImpl `<<Service>>`**
+
+| Dependencias        |
+|---------------------|
+| ModelMapper         |
+| ProfileRepository   |
 
 ### 4.2.9.4. Infrastructure Layer
 
-| Repository | Extiende |
-|------------|----------|
-| **ProfileRepository** | `JpaRepository<BaseProfile,Long>` con estrategia *single-table* + `dtype` |
+La capa de infraestructura implementa el mecanismo de persistencia para los perfiles utilizando un único repositorio ProfileRepository que extiende JpaRepository. Se emplea una estrategia de tabla única (`single-table`) con una columna discriminadora (`dtype`) para diferenciar entre los perfiles de conductores y administradores.
 
----
+**Repository: ProfileRepository `<<Repository>>`**
+
+| Extiende                      | Estrategia de Persistencia |
+|-------------------------------|--------------------------|
+| `JpaRepository<BaseProfile,Long>` | `single-table` + `dtype` |
 
 ### 4.2.9.5. Component Diagram
 ![Profiles Components](assets/capitulo-4/4.2.9.5-Diagram.png)
