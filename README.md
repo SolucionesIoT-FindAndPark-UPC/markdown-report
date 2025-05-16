@@ -3975,28 +3975,34 @@ La **Aplicación Web**, desarrollada en Angular, ha sido desplegada utilizando N
 
 Asignación de estacionamiento (Allotment):
 *Muestra el módulo donde se visualizan los estacionamientos asignados a los usuarios. Esta vista permite gestionar y consultar la distribución de espacios disponibles.*
+
 <a href="https://ibb.co/XrcqTbPy"><img src="https://i.ibb.co/hJ3SvyNX/webevidence-allotment.png" alt="webevidence-allotment" border="0"></a>
 
 Registro de usuario:
 *Pantalla donde los nuevos usuarios pueden registrarse en la plataforma, completando datos personales y de acceso.*
+
 <a href="https://ibb.co/V0WSzKF7"><img src="https://i.ibb.co/WNWyMTrb/webevidence-register.png" alt="webevidence-register" border="0"></a>
 
 Inicio de sesión:
 *Formulario de login para usuarios registrados. Permite el ingreso seguro al sistema con validación de credenciales.*
+
 <a href="https://ibb.co/Lzd49dFR"><img src="https://i.ibb.co/Z6zyczjX/webevidence-login.png" alt="webevidence-login" border="0"></a>
 
 Dashboard de usuario:
 *Vista principal que resume la información del usuario, incluyendo accesos rápidos a módulos clave como asignaciones y monitoreo.*
+
 <a href="https://ibb.co/4wjk76FX"><img src="https://i.ibb.co/hxK0yPg4/webevidence-dashboard.png" alt="webevidence-dashboard" border="0"></a>
 
 Panel de monitoreo:
 *Muestra los estacionamientos activos y permite visualizar en tiempo real los espacios disponibles u ocupados.*
+
 <a href="https://ibb.co/nM2vLCvn"><img src="https://i.ibb.co/TMXSgLSb/webevidence-monitoring.png" alt="webevidence-monitoring" border="0"></a>
 
 Por otro lado, la **Landing Page** del proyecto ha sido alojada mediante GitHub Pages, un servicio gratuito que permite la publicación de sitios estáticos directamente desde un repositorio. Esta elección se hizo por su sencillez, integración nativa con GitHub y eficiencia para mostrar contenido informativo de forma ligera:
 🔗 https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page  
 
 *Sitio informativo del proyecto con detalles del propósito, características principales y enlaces directos a la aplicación funcional.*
+
 <a href="https://ibb.co/m5hxdvvM"><img src="https://i.ibb.co/TMPCJKKF/landing-deploy.png" alt="landing-deploy" border="0"></a>
 
 Se incluye un video explicativo donde se muestra la navegación por las vistas implementadas, explicando las funcionalidades alcanzadas durante el Sprint.: 
