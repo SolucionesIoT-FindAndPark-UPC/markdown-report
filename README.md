@@ -3970,28 +3970,85 @@ Durante este Sprint no se realizó la implementación de funcionalidades de back
 #### 6.2.1.6. Execution Evidence for Sprint Review
 Para el logro de este proyecto, se realizó el despliegue tanto de la Landing Page como de la primera versión funcional de la aplicación web. Ambos entornos se encuentran disponibles de forma pública a través de los siguientes enlaces:
 
-La aplicación web, desarrollada en Angular, ha sido desplegada utilizando Netlify, una plataforma que facilita el alojamiento de aplicaciones modernas al permitir integración continua, despliegue automatizado y entrega optimizada de contenido estático y dinámico. Gracias a esta herramienta, se garantiza un acceso rápido, seguro y confiable a la solución. Puedes acceder a la aplicación mediante el siguiente enlace:
+La **Aplicación Web**, desarrollada en Angular, ha sido desplegada utilizando Netlify, una plataforma que facilita el alojamiento de aplicaciones modernas al permitir integración continua, despliegue automatizado y entrega optimizada de contenido estático y dinámico. Gracias a esta herramienta, se garantiza un acceso rápido, seguro y confiable a la solución. Puedes acceder a la aplicación mediante el siguiente enlace:
 🔗 https://parkup-webapp.netlify.app 
 
-Por otro lado, la Landing Page del proyecto ha sido alojada mediante GitHub Pages, un servicio gratuito que permite la publicación de sitios estáticos directamente desde un repositorio. Esta elección se hizo por su sencillez, integración nativa con GitHub y eficiencia para mostrar contenido informativo de forma ligera:
+Asignación de estacionamiento (Allotment):
+*Muestra el módulo donde se visualizan los estacionamientos asignados a los usuarios. Esta vista permite gestionar y consultar la distribución de espacios disponibles.*
+<a href="https://ibb.co/XrcqTbPy"><img src="https://i.ibb.co/hJ3SvyNX/webevidence-allotment.png" alt="webevidence-allotment" border="0"></a>
+
+Registro de usuario:
+*Pantalla donde los nuevos usuarios pueden registrarse en la plataforma, completando datos personales y de acceso.*
+<a href="https://ibb.co/V0WSzKF7"><img src="https://i.ibb.co/WNWyMTrb/webevidence-register.png" alt="webevidence-register" border="0"></a>
+
+Inicio de sesión:
+*Formulario de login para usuarios registrados. Permite el ingreso seguro al sistema con validación de credenciales.*
+<a href="https://ibb.co/Lzd49dFR"><img src="https://i.ibb.co/Z6zyczjX/webevidence-login.png" alt="webevidence-login" border="0"></a>
+
+Dashboard de usuario:
+*Vista principal que resume la información del usuario, incluyendo accesos rápidos a módulos clave como asignaciones y monitoreo.*
+<a href="https://ibb.co/4wjk76FX"><img src="https://i.ibb.co/hxK0yPg4/webevidence-dashboard.png" alt="webevidence-dashboard" border="0"></a>
+
+Panel de monitoreo:
+*Muestra los estacionamientos activos y permite visualizar en tiempo real los espacios disponibles u ocupados.*
+<a href="https://ibb.co/nM2vLCvn"><img src="https://i.ibb.co/TMXSgLSb/webevidence-monitoring.png" alt="webevidence-monitoring" border="0"></a>
+
+Por otro lado, la **Landing Page** del proyecto ha sido alojada mediante GitHub Pages, un servicio gratuito que permite la publicación de sitios estáticos directamente desde un repositorio. Esta elección se hizo por su sencillez, integración nativa con GitHub y eficiencia para mostrar contenido informativo de forma ligera:
 🔗 https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page  
 
+*Sitio informativo del proyecto con detalles del propósito, características principales y enlaces directos a la aplicación funcional.*
+<a href="https://ibb.co/m5hxdvvM"><img src="https://i.ibb.co/TMPCJKKF/landing-deploy.png" alt="landing-deploy" border="0"></a>
 
+Se incluye un video explicativo donde se muestra la navegación por las vistas implementadas, explicando las funcionalidades alcanzadas durante el Sprint.: 
+🔗 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/ETToi6vRrZVKrhDozFv9wDMBPkZsmpQTrd9aM21_HYkBBg?e=Zoe2mc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 Durante este Sprint, el equipo se enfocó exclusivamente en el desarrollo de componentes del Frontend y el despliegue de la Landing Page. Por tal motivo, no se ha desarrollado ni documentado ningún Web Service, ya que estos no forman parte del alcance actual de la iteración.
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
-Durante el Sprint 1, se realizaron actividades de despliegue relacionadas con el Frontend, enfocadas en la Landing Page de la aplicación.
-- Front-End: https://parkup-webapp.netlify.app 
-<a href="https://ibb.co/XrcqTbPy"><img src="https://i.ibb.co/hJ3SvyNX/webevidence-allotment.png" alt="webevidence-allotment" border="0"></a>
-<a href="https://ibb.co/V0WSzKF7"><img src="https://i.ibb.co/WNWyMTrb/webevidence-register.png" alt="webevidence-register" border="0"></a>
-<a href="https://ibb.co/Lzd49dFR"><img src="https://i.ibb.co/Z6zyczjX/webevidence-login.png" alt="webevidence-login" border="0"></a>
-<a href="https://ibb.co/4wjk76FX"><img src="https://i.ibb.co/hxK0yPg4/webevidence-dashboard.png" alt="webevidence-dashboard" border="0"></a>
-<a href="https://ibb.co/nM2vLCvn"><img src="https://i.ibb.co/TMXSgLSb/webevidence-monitoring.png" alt="webevidence-monitoring" border="0"></a>
 
-- Landing Page: 
+Durante este Sprint se realizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**. Estos despliegues permiten que ambos entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders.
+
+
+##### GitHub Pages – Landing Page
+
+Para el despliegue de la Landing Page se realizaron los siguientes pasos:
+
+1. Se creó un repositorio en GitHub bajo la organización del proyecto.  
+2. Se configuró la rama principal con el contenido del sitio estático en Angular.  
+3. Se habilitó GitHub Pages desde la configuración del repositorio, seleccionando la carpeta `/dist` como fuente de despliegue.  
+4. Se verificó el enlace público generado por GitHub y se realizaron pruebas de navegación.
+
+[![Despliegue GitHub Pages 1](https://i.postimg.cc/d0drrTb1/Whats-App-Image-2025-05-16-at-12-30-14-f02b10ef.jpg)](https://postimg.cc/06kzqr2R)  
+*Captura de la sección "Pages" en GitHub, donde se habilita el despliegue desde la rama seleccionada.*
+
+[![Despliegue GitHub Pages 2](https://i.postimg.cc/fRS9Q9TK/Whats-App-Image-2025-05-16-at-12-30-23-a32c0999.jpg)](https://postimg.cc/VJ16j5tr)  
+*Configuración del repositorio con los archivos de la Landing Page ya compilados y listos para producción.*
+
+##### Netlify – Aplicación Web
+
+La aplicación funcional fue desplegada en Netlify mediante los siguientes pasos:
+
+1. Se creó una cuenta de equipo en Netlify y se vinculó con el repositorio de GitHub.  
+2. Se configuró el flujo de integración continua para que Netlify realice el build automático al hacer push.  
+3. Se especificaron los comandos de build (`ng build`) y la carpeta de salida (`/dist`).  
+4. Se monitorearon los logs de despliegue y se verificó el acceso al sitio web generado.
+
+[![Configuración en Netlify 1](https://i.postimg.cc/j5twf36g/Whats-App-Image-2025-05-16-at-12-30-33-9c691cb6.jpg)](https://postimg.cc/yJp84Pbc)  
+*Vista general del proyecto conectado desde GitHub en la plataforma Netlify.*
+
+[![Configuración en Netlify 2](https://i.postimg.cc/65y7CvRX/Whats-App-Image-2025-05-16-at-12-30-50-753523f9.jpg)](https://postimg.cc/qzHMTgjb)  
+*Parámetros configurados para el build automático, incluyendo comandos y carpeta de publicación.*
+
+[![Confirmación de Build](https://i.postimg.cc/s2RvFHLj/Whats-App-Image-2025-05-16-at-12-32-05-cf087a6d.jpg)](https://postimg.cc/ts2XWkyw)  
+*Historial del despliegue mostrando un build exitoso en la consola de Netlify.*
+
+[![Deploy final y dominio](https://i.postimg.cc/R0QqvQrc/Whats-App-Image-2025-05-16-at-12-32-16-001711db.jpg)](https://postimg.cc/06j9fSyQ)  
+*Sitio final activo con URL pública asignada por Netlify.*
+
+
+- Landing Page: [https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page](https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page)  
+- Aplicación Web: [https://parkup-webapp.netlify.app](https://parkup-webapp.netlify.app)
  
- <a href="https://ibb.co/m5hxdvvM"><img src="https://i.ibb.co/TMPCJKKF/landing-deploy.png" alt="landing-deploy" border="0"></a>
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 
