@@ -1399,7 +1399,7 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
-![4.1.3-Container.png](assets/capitulo-4/4.1.3-Container.png)
+![img_15.png](img_15.png)
 
 | Contenedor                  | Tecnología              | Responsabilidad                                             |
 |-----------------------------|-------------------------|-------------------------------------------------------------|
@@ -1467,7 +1467,7 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 
 **Edge Node:**
 
-![structurizr-83716-Component-002.png](assets/capitulo-4/structurizr-83716-Component-002.png)
+![img_16.png](img_16.png)
 
 | Componente                 | Propósito clave                                                        |
 |----------------------------|------------------------------------------------------------------------|
@@ -1974,6 +1974,7 @@ Estos repositorios proporcionan métodos específicos para la consulta y manipul
 | + findBySiteIdAndState(siteId: Long, state: SpotState): List<ParkingSpot> |
 
 ### 4.2.2.5. Component Diagram
+
 ![Parking Site Components](assets/capitulo-4/4.2.2.5-Diagram.png)
 
 ### 4.2.2.6. Code-Level Diagrams
@@ -3206,7 +3207,7 @@ ICriticalEventLogRepository, IVehicleRepository e IDeviceRepository son interfac
 ---
 ### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-<p align="center"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-4/4.2.6.5-Monitoring-ComponentDiagram.png?raw=true" alt="Component Diagram Monitoring"/></p>
+![img.png](img.png)
 
 ### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3360,7 +3361,7 @@ El contexto Ticket Validation se centra en la gestión del ciclo de vida de los 
 
 ### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
-<p align="center"><img src="https://github.com/SolucionesIoT-FindAndPark-UPC/markdown-report/blob/main/assets/capitulo-4/4.2.7.5-TicketValidation-ComponentDiagram.png?raw=true" alt="Ticket Validation Component Diagram"/></p>
+![img_1.png](img_1.png)
 
 ### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 
