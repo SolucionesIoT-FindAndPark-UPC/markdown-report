@@ -4701,6 +4701,27 @@ El Sprint 2 tuvo como objetivo continuar con el desarrollo de funcionalidades pl
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 
+A continuación se presenta la evidencia de desarrollo generada durante el Sprint. Se incluyen los commits realizados por el equipo en los distintos branches de desarrollo, especificando los mensajes de commit, ramas funcionales, repositorios utilizados y fechas. Esta evidencia respalda la trazabilidad del avance en los distintos componentes de la solución.
+
+| Repository                               | Branch                   | Commit ID                                | Commit Message                                                | Committed On | 
+|:-----------------------------------------|:-------------------------|:-----------------------------------------|:--------------------------------------------------------------|:-------------|
+| SolucionesIoT-FindAndPark-UPC mobile-app | main                     | d8cf6fb69138a285bb078ed0b2aeae09ac81546d | feat: Add Project Structure                                   | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/menu                | f54ed5fde1619da48fae4e935a2a9c8278b9637d | feat: Add menu screens                                        | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | da8ffee79da4622ee238d3a8ba92f30720186c16 | feat: Add Scan QR screen                                      | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 53544be1fefe5e197727d6642536de0190c9d546 | feat: Add parking detail screen                               | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 0cc526b517700cfef262ae73c18d947df7c30843 | feat: Add exit confirmation screen                            | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 80c95dfda0e3fd3af5be2e6170a008e6942c7a43 | fix: Change logo app icon                                     | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | 0defbb95e1b8db51b6e78211741a2fb3ecebbcd6 | feat: Add LogoutConfirmationScreen and VoucherScanner         | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | cbf887b04eda01681af489a4d68a0732c4980d6b | feat: Add payment details screen                              | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | 8906ce1e00b8367aea26c078ddcb33101f8d0ac7 | chore: Adjust responsiveness                                  | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | iam-payment              | 00f26c87e8650de6816e9a48254476765f0f9b45 | feat(iam-payment): implement IAM and Payment bounded contexts | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC backend    | iam-payment              | 61833abae401fb207816f4a4c601dadba89fa5b3 | feat(iam-payment): add iam and payment bounded contexts       | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/parking-circulation | 83f18ad71f3a6532429a44d7c68729204d223344 | feat: implement parking circulation bounded context           | Jun 19, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | 68b51381e33cf67de409d259f410a56505f41dd3 | feat: Implement camerafeed bounded context                    | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | add8e953513e5a5d2eedd12a0759b3dd54c3ff6b | fix: misplaced decorator in file VehicleRepository.           | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/parking-circulation | 405038d70fd372583179ea17349b923dff3d6bd9 | chore: remove temporal .gitkeeps.                             | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | 405038d70fd372583179ea17349b923dff3d6bd9 | chore: remove temporal .gitkeeps (camerafeed).                | Jun 20, 2025 |
+
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
 ###### Introducción: 
@@ -4745,7 +4766,32 @@ El objetivo de esta sección es validar el correcto funcionamiento de los Web Se
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
+Para el logro de este proyecto, se realizó el despliegue de la Base de Datos y la compilación de la aplicación móvil, y se mejoró la Landing Page y la aplicación web.
+
+La **Aplicación Web**, desarrollada en Angular, ha sido desplegada utilizando Netlify, una plataforma que facilita el alojamiento de aplicaciones modernas al permitir integración continua, despliegue automatizado y entrega optimizada de contenido estático y dinámico. Gracias a esta herramienta, se garantiza un acceso rápido, seguro y confiable a la solución. Puedes acceder a la aplicación mediante el siguiente enlace:
+🔗 https://parkup-webapp.netlify.app
+
+<a href="https://ibb.co/XrcqTbPy"><img src="https://i.ibb.co/hJ3SvyNX/webevidence-allotment.png" alt="webevidence-allotment" border="0"></a>
+
+<a href="https://ibb.co/V0WSzKF7"><img src="https://i.ibb.co/WNWyMTrb/webevidence-register.png" alt="webevidence-register" border="0"></a>
+
+<a href="https://ibb.co/Lzd49dFR"><img src="https://i.ibb.co/Z6zyczjX/webevidence-login.png" alt="webevidence-login" border="0"></a>
+
+Por otro lado, la **Landing Page** del proyecto ha sido alojada mediante GitHub Pages, un servicio gratuito que permite la publicación de sitios estáticos directamente desde un repositorio. Esta elección se hizo por su sencillez, integración nativa con GitHub y eficiencia para mostrar contenido informativo de forma ligera:
+🔗 https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page
+
+<a href="https://ibb.co/m5hxdvvM"><img src="https://i.ibb.co/TMPCJKKF/landing-deploy.png" alt="landing-deploy" border="0"></a>
+
+Se incluye un video explicativo donde se muestra la navegación por las vistas implementadas, explicando las funcionalidades alcanzadas durante el Sprint.:
+🔗 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/ETToi6vRrZVKrhDozFv9wDMBPkZsmpQTrd9aM21_HYkBBg?e=Zoe2mc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+Durante este segundo sprint conseguimos tener avances sustanciales al momento de realizar la primera versión de nuestra aplicación móvil, debido a que, al tener las pantallas y funcionalidades bien definidas desde el principio, nos facilitó la organización de ideas y la implementación de ellas.
+
+Adicionalmente, logramos implementar el backend y edge node de la solución, lo cual nos permitió tener una base sólida para la aplicación móvil y la aplicación web. Esto fue posible gracias a la implementación de los contextos acotados de *IAM*, *Payment*, *Parking Circulation* y *Camera Feed*, que son fundamentales para el funcionamiento del sistema.
+
+Además, utilizamos las funciones colaborativas de GitHub, las cuales nos beneficiaron en la cooperación entre todos los participantes. Esto tuvo como resultado una implementación eficiente y sin complicaciones, lo cual permitió que todos puedan visualizar cada cambio y el progreso realizado.
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
@@ -4782,22 +4828,72 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 
 ### 6.3.2. Registro de Entrevistas
 
+##### Segmento 1: Conductores
+
+- Primera Entrevista:
+  ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-6/6.3.2-Entrevista-Conductor-2.png)
+
+  - Entrevistado: Elizabeth Mendoza 
+
+  - Residencia: Lima
+
+  - Ocupación: Conductor
+
+  - Entrevistadora: Julio Elsner
+
+  - Enlace: [https://upcedupe-my.sharepoint.com/personal/u202111654_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202111654%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20IOT%2FVideo%20Conductor%201%20Julio%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee43d311f%2D3ac1%2D4444%2D9012%2D13ff51347562]
+
+  - Resumen de la entrevista:
+    2:30 - ¿Qué opinas sobre los datos que se te pidieron al registrarte? ¿Te parecieron necesarios o hubo alguno que sentiste innecesario?
+    El entrevistado considera que los datos solicitados en el registro fueron apropiados y necesarios para el funcionamiento de la aplicación. Menciona que no percibió ningún dato como innecesario y que el proceso fue rápido y claro. Aprecia que no se soliciten datos excesivos, lo cual genera confianza en el uso de la plataforma.
+
+    3:00 - ¿Cómo describirías tu experiencia general usando la app para estacionar, desde que llegaste hasta que saliste del estacionamiento?
+    El entrevistado califica su experiencia como muy positiva. Desde la llegada hasta la salida del estacionamiento, sintió que todo el proceso fue fluido y sin complicaciones. Resalta que la app le permitió identificar con rapidez un espacio disponible y que la integración entre los pasos fue eficiente, lo que le ahorró tiempo y facilitó la experiencia.
+
+    3:30 - Durante el proceso de escaneo con QR, ¿sentiste que sabías claramente lo que tenías que hacer, o hubo algo que te generó duda o confusión?
+    El entrevistado indica que sí comprendió claramente lo que debía hacer. Señala que las instrucciones fueron intuitivas y que el escaneo del código QR funcionó sin problemas. Destaca que no tuvo dudas en ningún momento y que la interfaz guiaba adecuadamente al usuario durante ese proceso.
+
+
+- Segunda Entrevista:
+  ![assets/capitulo-6/6.3.2-Entrevista-Conductor-2.PNG](assets/capitulo-6/6.3.2-Entrevista-Conductor-1.png)
+
+  - Entrevistado: Ian Sanchez
+
+  - Residencia: Lima
+
+  - Ocupación: Conductor
+
+  - Entrevistadora: Julio Elsner
+
+  - Enlace: [https://upcedupe-my.sharepoint.com/personal/u202111654_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202111654%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20IOT%2FVideo%20Conductor%202%20Julio%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E56401d33%2D12f8%2D4776%2D9373%2D086fadf679a8]
+
+  - Resumen de la entrevista:
+    
+    2:00 - ¿Qué opinas sobre los datos que se te pidieron al registrarte? ¿Te parecieron necesarios o hubo alguno que sentiste innecesario?
+    El entrevistado comenta que los datos solicitados le parecieron adecuados y acordes al servicio. Considera que el requerimiento de datos como el correo y número de placa es razonable para asegurar una experiencia personalizada y segura. Sin embargo, sugiere que podría incluirse una opción para registrarse con Google o redes sociales para hacer el proceso aún más ágil.
+
+    2:40 - ¿Cómo describirías tu experiencia general usando la app para estacionar, desde que llegaste hasta que saliste del estacionamiento?
+    La experiencia fue descrita como satisfactoria. El entrevistado menciona que la aplicación le permitió encontrar rápidamente un estacionamiento cercano y que todo el proceso —desde la reserva hasta el pago— fue fluido. Destacó la utilidad del mapa interactivo y el tiempo estimado de caminata hasta el destino como funciones que agregan mucho valor.
+
+    3:30 - Durante el proceso de escaneo con QR, ¿sentiste que sabías claramente lo que tenías que hacer, o hubo algo que te generó duda o confusión?
+    Señala que al inicio tuvo una ligera duda sobre en qué parte exacta del ingreso debía escanear el QR, pero que una vez ubicado el lector, el proceso fue rápido y sin errores. Sugiere que un pequeño tutorial visual o una animación dentro de la app podría ayudar a nuevos usuarios a familiarizarse aún más rápido con este paso.
+
 
 ##### Segmento 2: Administradores de parking
 
 - Primera Entrevista:
   ![assets/capitulo-6/6.3.2-Entrevista-Administrador-1.PNG](assets/capitulo-6/6.3.2-Entrevista-Administrador-1.PNG)
-  
+
   - Entrevistado: Alfredo Lozano
-  
+
   - Residencia: Lima
-  
+
   - Ocupación: Seguridad de Parking
-  
+
   - Entrevistadora: Lucero Obispo
-  
+
   - Enlace: [https://www.youtube.com/watch?v=X8_Dxt-xQq4]
-  
+
   - Resumen de la entrevista:
     0:30 - ¿Consideras que la navegación es intuitiva y fácil de entender?
     El entrevistado afirma estar completamente de acuerdo. Señala que la navegación le resultó muy intuitiva y fácil de entender desde el primer uso. Considera que la experiencia general es fluida, lo cual facilita el acceso a las funciones principales sin dificultades.
@@ -4807,6 +4903,30 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 
     0:57 - ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
     El entrevistado indica que no considera que falte ningún dato esencial en la plataforma. Señala que está conforme con toda la información que se ofrece actualmente, ya que cubre sus necesidades y le permite tomar decisiones informadas sin inconvenientes.
+
+- Segunda Entrevista:
+  ![Validation Interview Sebastian Ramirez](https://private-user-images.githubusercontent.com/165408949/457591108-18ced8a9-f48c-4770-8e7d-5341799901b5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA1MjIxMzUsIm5iZiI6MTc1MDUyMTgzNSwicGF0aCI6Ii8xNjU0MDg5NDkvNDU3NTkxMTA4LTE4Y2VkOGE5LWY0OGMtNDc3MC04ZTdkLTUzNDE3OTk5MDFiNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyMVQxNjAzNTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jOGNjNzllOGMxNWEyNWUzYmRiMDYxZDRmYWM0NjAxYjEyYzExYTRlMWZkODhmNzQyMDZkOWU0NTJiMWM0YjM4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.05AhPDYXeKMJKmkTYb0Pv9hlUx1MGpQ3DqAQ9-f5zRY)
+
+  - Entrevistado: Sebastián Ramirez Hoffmann
+
+  - Residencia: Lima
+
+  - Ocupación: Seguridad de Parking
+
+  - Entrevistador: Luis Herrera
+
+  - Enlace: [https://www.youtube.com/watch?v=X8_Dxt-xQq4]
+
+  - Resumen de la entrevista:
+    2:24 - ¿Consideras que la navegación es intuitiva y fácil de entender?
+    Sebastián expresa, sin dudar, que la plataforma le resultó muy sencilla desde el primer momento. Para él, la experiencia es muy fluida, permitiéndole encontrar rápidamente las opciones que necesita sin perder tiempo. Incluso menciona que no tuvo que pedir ayuda ni revisar instrucciones adicionales; la navegación es, en sus palabras, “bastante amigable”.
+
+    3:50 - ¿Cómo utilizas la información en tiempo real sobre el estado del estacionamiento para tomar decisiones diarias?
+    Al ser consultado sobre la utilidad de los datos en tiempo real, Sebastián resalta que este aspecto ha hecho que su trabajo diario sea mucho más eficiente. Gracias a la actualización constante del estado del estacionamiento, puede anticipar en qué momento es mejor hacer recorridos o supervisar ciertas zonas. Así, evita las áreas de mayor congestión y puede gestionar mejor sus tiempos durante el turno.
+
+    5:11 - ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
+    Sebastián señala que, por el momento, la plataforma cubre todas sus necesidades. Explica que la información disponible le permite tomar decisiones informadas y rápidas, y no siente que falte algún dato esencial para desempeñar su labor. Añade que, si en algún momento llegara a necesitar algo extra, lo comunicaría, pero hasta ahora está satisfecho con lo que ofrece el sistema.
+
 
 ### 6.3.3. Evaluaciones según Heurísticas
 
