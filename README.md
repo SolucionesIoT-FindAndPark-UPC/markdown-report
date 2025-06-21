@@ -57,6 +57,7 @@
 |:-------:|:-----:|:-----:|:----------------------------| 
 |TB1| 25/05/25  |  <br>Vargas Revollé, Ariana<br> <br>Obispo Rios, Lucero Abigail<br> <br>Cuevas Rios, Eric Fernando<br> <br>Elsner De La Torre Ugarte, Julio Esteban<br> <br>Herrera González, Luis Eduardo<br>   | Investigación de mercado y del problema, obtención y análisis de requisitos, especificación de requisitos, y diseño de la solución de software.                           |
 |TP| 15/05/25  |  <br>Vargas Revollé, Ariana<br> <br>Obispo Rios, Lucero Abigail<br> <br>Cuevas Rios, Eric Fernando<br> <br>Elsner De La Torre Ugarte, Julio Esteban<br> <br>Herrera González, Luis Eduardo<br>   | Diseño de la solución UX/UI. Implementación, validación y despliegue del producto para el Sprint 1.                          |
+|TB2| 21/06/2025  |  <br>Vargas Revollé, Ariana<br> <br>Obispo Rios, Lucero Abigail<br> <br>Cuevas Rios, Eric Fernando<br> <br>Elsner De La Torre Ugarte, Julio Esteban<br> <br>Herrera González, Luis Eduardo<br>   | Desarrollo de las aplicaciones de la solucion y despliegue para el sprint 2             |
 </div>
 
 ---
@@ -199,8 +200,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 | Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | Obispo Rios, Lucero Abigail:<br><br>TB1<br><br>Participar en reuniones de equipo para definir el alcance del proyecto y la arquitectura.<br><br>TP<br><br>El desarrollo de las guías de estilo y la arquitectura de información permitió establecer una base sólida para la Landing Page y Página Web, asegurando coherencia visual y una navegación intuitiva. Se logró aplicar buenas prácticas de SEO y diseño responsive, cumpliendo con los estándares definidos.<br><br>Cuevas Rios, Eric Fernando:<br><br>TB1<br><br>Participar en la repartición de tareas así como en el diseño y formulación del proyecto.<br><br>TP<br><br>Se apoyo en el desarrollo del wireframe y mock-up de la Landing Page, y validandolo con feedback del equipo.<br><br>Vargas Revollé, Ariana:<br><br>TB1<br><br>desarrollo del análisis competitivo y colaboré en decisiones estratégicas, facilitando acuerdos y direccionando al equipo hacia objetivos comunes durante el diseño de la solución.<br><br>TP<br><br>Desarrollé los wireframes y mockups de la Página Web, considerando los requerimientos de usabilidad y experiencia de usuario.<br><br>Elsner De La Torre Ugarte, Julio Esteban:<br><br>TB1<br><br>Brindar ideas en reuniones cada semana del equipo con la finalidad de realizar retroalimentación y mejora de aspectos del informe.<br><br>TP<br><br>Se diseñaron los wireflows y userflows, garantizando una experiencia intuitiva. Se compartieron los flujo con el equipo para recibir feedback.<br><br>Herrera González, Luis Eduardo:<br><br>TB1<br><br>Coordiné reuniones y tareas para agilizar el avance del proyecto, promoví la participación y acuerdos del equipo para mejorar el informe y cumplir los objetivos.<br><br>TP<br><br>Se configuró el entorno de desarrollo y se gestionó el control de versiones con Git, evitando conflictos en el código. Los despliegues se realizaron sin errores gracias a la documentación.<br>                                                                                                                                                                                     | TB1: Todos los integrantes participaron activamente en reuniones de equipo, aportando ideas, colaborando en la toma de decisiones estratégicas y facilitando acuerdos. Esto fortaleció el liderazgo conjunto y permitió dirigir al grupo hacia objetivos claros y comunes, asegurando así una coordinación efectiva en el diseño y desarrollo del proyecto.<br><br> TP: En el Sprint #1 se logró implementar con éxito la landing page y página web funcional. El equipo trabajó coordinadamente para integrar las funcionalidades core analiados a los requisitos funcionales de valor para los usuarios finales. La colaboración permitió resolver desafíos técnicos y alinear los diferentes aspectos del proyecto, desde el diseño hasta la implementación final.                                                               |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Obispo Rios, Lucero Abigail<br><br>TB1<br><br>Participar en el proceso de asignación de tareas y cumplir con las actividades asignadas en relación a las entrevistas, To-Be y As-Is Scenario Mapping, Journey Mapping, Historias de Usuario, EventStorming, entre otros.<br><br>TP<br><br>Participé activamente en las sesiones de arquitectura de información, aportando ideas para los sistemas de navegación y etiquetado SEO que mejoraron la usabilidad del proyecto.<br> <br>Cuevas Rios, Eric Fernando:<br><br>TB1<br><br>Realice los puntos asignados, siendo estos los bounded context de Monitoring y ticket validation, así como el software configuration management.<br><br>TP<br><br>Documenté el proceso de despliegue, configuración e implementación, para replicar estos procesos fácilmente y sin errores para el próximo sprint.<br><br>Vargas Revollé, Ariana:<br><br>TB1<br><br>Contribuí a la planificación de tareas clave como el Impact Mapping, entrevistas y definición de contextos, asegurando un ambiente de trabajo inclusivo y la entrega puntual de resultados.<br><br>TP<br><br>.Trabajé en conjunto con el equipo de desarrollo para diseñar los mockups e implementar funcionalidades core en la aplicación web<br><br>Elsner De La Torre Ugarte, Julio Esteban<br><br>TB1<br><br>Elaborar con mis compañeros el proceso de event storming, AS-IS, C4, entre otros procesos clave para la culminación de la TB1.<br><br>TP<br><br>Diseñé los wireflows y diagramas de flujo de usuario que guiaron la implementación de las interfaces de la aplicación.<br><br>Herrera González, Luis Eduardo:<br><br>TB1<br><br>Organicé y planifiqué tareas clave, establecí metas claras y aseguré un entorno de trabajo inclusivo para cumplir con los objetivos del proyecto.<br><br>TP<br><br>Colaboré en la implementación y despliegue de la página web, asegurando que el diseño final coincidiera con los prototipos aprobados.<br> | TB1: Cada miembro del equipo contribuyó en la planificación, asignación y cumplimiento de tareas específicas, promoviendo un ambiente inclusivo y de trabajo colaborativo. La participación activa en actividades como entrevistas, EventStorming, mapeos de escenarios y definición de contextos permitió alcanzar los objetivos propuestos de manera puntual y organizada, fortaleciendo la eficiencia y cohesión del equipo.<br><br> TP: El despliegue exitoso de la landing page y página web se logró mediante una planificación colaborativa donde cada integrante aportó con sus habilidades. Se establecieron metas claras para el diseño, desarrollo e implementación, cumpliendo con los objetivos planteados para este sprint inicial. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | **Obispo Rios, Lucero Abigail**:<br><br>TB1<br>Participar en reuniones de equipo para definir el alcance del proyecto y la arquitectura.<br><br>TP<br>El desarrollo de las guías de estilo y la arquitectura de información permitió establecer una base sólida para la Landing Page y Página Web, asegurando coherencia visual y una navegación intuitiva. Se logró aplicar buenas prácticas de SEO y diseño responsive, cumpliendo con los estándares definidos.<br><br>TB2<br>Desarrollé la aplicación móvil, desde el diseño de pantallas hasta la integración con los servicios backend, implementando funcionalidades principales y validando su funcionamiento en conjunto con el equipo.<br><br>**Cuevas Rios, Eric Fernando**:<br><br>TB1<br>Participar en la repartición de tareas así como en el diseño y formulación del proyecto.<br><br>TP<br>Se apoyó en el desarrollo del wireframe y mock-up de la Landing Page, y validándolo con feedback del equipo.<br><br>TB2<br>Mejoré la web app, implementando nuevas funcionalidades y optimizando la experiencia de usuario, asegurando la integración de los módulos desarrollados durante este sprint.<br><br>**Vargas Revollé, Ariana**:<br><br>TB1<br>Desarrollo del análisis competitivo y colaboré en decisiones estratégicas, facilitando acuerdos y direccionando al equipo hacia objetivos comunes durante el diseño de la solución.<br><br>TP<br>Desarrollé los wireframes y mockups de la Página Web, considerando los requerimientos de usabilidad y experiencia de usuario.<br><br>TB2<br>Desarrollé el backend, definiendo la arquitectura de los servicios, modelos y endpoints necesarios para la integración de la web app, mobile app y edge node. Resolví retos técnicos para garantizar la escalabilidad y seguridad del sistema.<br><br>**Elsner De La Torre Ugarte, Julio Esteban**:<br><br>TB1<br>Brindar ideas en reuniones cada semana del equipo con la finalidad de realizar retroalimentación y mejora de aspectos del informe.<br><br>TP<br>Se diseñaron los wireflows y userflows, garantizando una experiencia intuitiva. Se compartieron los flujos con el equipo para recibir feedback.<br><br>TB2<br>Desarrollé el edge node encargado de la comunicación entre los dispositivos IoT y el backend, asegurando su correcto funcionamiento e integración dentro del sistema.<br><br>**Herrera González, Luis Eduardo**:<br><br>TB1<br>Coordiné reuniones y tareas para agilizar el avance del proyecto, promoví la participación y acuerdos del equipo para mejorar el informe y cumplir los objetivos.<br><br>TP<br>Se configuró el entorno de desarrollo y se gestionó el control de versiones con Git, evitando conflictos en el código. Los despliegues se realizaron sin errores gracias a la documentación.<br><br>TB2<br>Desarrollé el código de los dispositivos IoT, implementando la comunicación con el edge node y el backend, y asegurando el monitoreo y registro de datos en tiempo real.<br><br> | TB1: Todos los integrantes participaron activamente en reuniones de equipo, aportando ideas, colaborando en la toma de decisiones estratégicas y facilitando acuerdos. Esto fortaleció el liderazgo conjunto y permitió dirigir al grupo hacia objetivos claros y comunes, asegurando así una coordinación efectiva en el diseño y desarrollo del proyecto.<br><br>TP: En el Sprint #1 se logró implementar con éxito la landing page y página web funcional. El equipo trabajó coordinadamente para integrar las funcionalidades core alineadas a los requisitos funcionales de valor para los usuarios finales. La colaboración permitió resolver desafíos técnicos y alinear los diferentes aspectos del proyecto, desde el diseño hasta la implementación final.<br><br>TB2: Durante este sprint se logró la integración completa de los diferentes módulos del sistema, incluyendo mejoras en la web app, el desarrollo de la aplicación móvil, la creación del backend, el edge node y la programación de los dispositivos IoT. El trabajo conjunto y la comunicación constante permitieron entregar una solución robusta y funcional, alineada a los objetivos propuestos y lista para pruebas en un entorno real.  |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Obispo Rios, Lucero Abigail**:<br><br>TB1<br>Participar en el proceso de asignación de tareas y cumplir con las actividades asignadas en relación a las entrevistas, To-Be y As-Is Scenario Mapping, Journey Mapping, Historias de Usuario, EventStorming, entre otros.<br><br>TP<br>Participé activamente en las sesiones de arquitectura de información, aportando ideas para los sistemas de navegación y etiquetado SEO que mejoraron la usabilidad del proyecto.<br><br>TB2<br>Planifiqué y organicé el desarrollo de la aplicación móvil, asignando tareas prioritarias y asegurando la colaboración del equipo para cumplir los objetivos establecidos en el sprint.<br><br>**Cuevas Rios, Eric Fernando**:<br><br>TB1<br>Realicé los puntos asignados, siendo estos los bounded context de Monitoring y ticket validation, así como el software configuration management.<br><br>TP<br>Documenté el proceso de despliegue, configuración e implementación, para replicar estos procesos fácilmente y sin errores para el próximo sprint.<br><br>TB2<br>Organicé y documenté las mejoras de la web app, gestionando las prioridades y asegurando el cumplimiento de los entregables definidos.<br><br>**Vargas Revollé, Ariana**:<br><br>TB1<br>Contribuí a la planificación de tareas clave como el Impact Mapping, entrevistas y definición de contextos, asegurando un ambiente de trabajo inclusivo y la entrega puntual de resultados.<br><br>TP<br>Trabajé en conjunto con el equipo de desarrollo para diseñar los mockups e implementar funcionalidades core en la aplicación web.<br><br>TB2<br>Organicé las tareas relacionadas al backend, planificando sprints cortos para garantizar entregas continuas y fomentando la colaboración entre los distintos módulos.<br><br>**Elsner De La Torre Ugarte, Julio Esteban**:<br><br>TB1<br>Elaboré con mis compañeros el proceso de event storming, AS-IS, C4, entre otros procesos clave para la culminación de la TB1.<br><br>TP<br>Diseñé los wireflows y diagramas de flujo de usuario que guiaron la implementación de las interfaces de la aplicación.<br><br>TB2<br>Planifiqué y coordiné el desarrollo del edge node, gestionando las tareas y asegurando la integración efectiva con los dispositivos IoT y el backend.<br><br>**Herrera González, Luis Eduardo**:<br><br>TB1<br>Organicé y planifiqué tareas clave, establecí metas claras y aseguré un entorno de trabajo inclusivo para cumplir con los objetivos del proyecto.<br><br>TP<br>Colaboré en la implementación y despliegue de la página web, asegurando que el diseño final coincidiera con los prototipos aprobados.<br><br>TB2<br>Gestioné el desarrollo del software para los dispositivos IoT, asegurando la planificación y cumplimiento de entregables, y promoviendo la colaboración técnica con los demás módulos del sistema.<br><br> | TB1: Cada miembro del equipo contribuyó en la planificación, asignación y cumplimiento de tareas específicas, promoviendo un ambiente inclusivo y de trabajo colaborativo. La participación activa en actividades como entrevistas, EventStorming, mapeos de escenarios y definición de contextos permitió alcanzar los objetivos propuestos de manera puntual y organizada, fortaleciendo la eficiencia y cohesión del equipo.<br><br>TP: El despliegue exitoso de la landing page y página web se logró mediante una planificación colaborativa donde cada integrante aportó con sus habilidades. Se establecieron metas claras para el diseño, desarrollo e implementación, cumpliendo con los objetivos planteados para este sprint inicial.<br><br>TB2: La colaboración continua y la planificación estructurada permitieron cumplir los objetivos del sprint, integrando de manera efectiva los nuevos módulos al sistema. El ambiente inclusivo, la comunicación y la responsabilidad en el seguimiento de tareas fueron claves para lograr una solución integral y lista para pruebas funcionales. |
 
 </div>
 
@@ -4454,7 +4455,7 @@ Esta sección presenta la planificación inicial del Sprint 1, en la cual se est
 | **Sprint 0 – 1 Review Summary**   | En el sprint 0 establecimos el alcance del proyecto y un avance significativo de la documentación de la solución así como un avance del Landing page |
 | **Sprint 0 – 1 Retrospective Summary** | Se identificaron mejoras en la documentación que deben ser corregidas así como implementación de componentes en las aplicaciones para poder cumplir con los requisitos funcionales de la aplicación |
 | **Sprint Goal & User Stories**                                                                            |
-| **Sprint n Goal**                 | Our focus is on completar el Frontend funcional de la Landing Page y vista de administración.<br>We believe it delivers una experiencia accesible y funcional a los usuarios nuevos y administradores.<br>This will be confirmed when todos los componentes de la Landing Page estén desplegados y operativos en producción. |
+| **Sprint n Goal**                 | Nuestro objetivo es completar el Frontend funcional de la Landing Page y vista de administración.<brCreemos que esto provee una experiencia accesible y funcional a los usuarios nuevos y administradores.<br>Esto se va a ver confirmado cuando todos los componentes de la Landing Page estén desplegados y operativos en producción. |
 | **Sprint n Velocity**             | 18                                                                       |
 | **Sum of Story Points**           | 16                                                                       |
 
@@ -4478,21 +4479,21 @@ Se detalla el backlog correspondiente al Sprint 1, incluyendo las historias de u
 
 | User Story |User Story Title| Work Item ID | Work Item Title  | Description | Estimation (Hours) | Assigned To | Status     |
 |------------|---------------|-|------------------------------------------|------------------------------------------------------------------------------|---------------------|---------------------------------------------|------------|
-| US01     | Barra de navegación en Landing Page | TS-01         | Nav bar implementation (Landing)         | Implementacion de la barra de navegacion en Landing Page de la solucion     | 2                   | Herrera González, Luis Eduardo              | done       |
-| US02      |Encabezado de Bienvenida de Landing Page | TS-02         | Hero implementation (Landing)           | Implementación del encabezado principal de bienvenida con texto llamativo e imagen destacada. | 3         | Herrera González, Luis Eduardo              | done       |
-| US03      |Sección Sobre Nosotros de Landing page | TS-03         | About-us implementation (Landing)       | Desarrollo de la sección 'Sobre Nosotros' con descripción de la empresa y su misión. | 3             | Elsner De La Torre Ugarte, Julio Esteban    | done       |
-| US04       |Demostración del funcionamiento de la aplicación en el Landing Page | TS-04         | Display demo implementation (Landing)   | Integración de una sección interactiva que muestre una demostración visual de la aplicación. | 3         | Vargas Revollé, Ariana                      | done       |
-| US05       |Descripción de las funcionalidades de la aplicación en el Landing Page | TS-05         | Features implementation (Landing)       | Implementación de una sección con las principales funcionalidades.           | 3                   | Vargas Revollé, Ariana                      | done       |
-| US06       | Reseñas en el Landing page| TS-06         | Reviews implementation (Landing)        | Desarrollo de la sección de reseñas de usuarios con calificaciones y testimonios. | 2              | Obispo Rios, Lucero Abigail                 | done       |
-| US07       |Preguntas y Respuestas en Landing Page | TS-07         | FAQ implementation (Landing)            | Implementación de la sección de Preguntas Frecuentes con respuestas desplegables. | 2            | Obispo Rios, Lucero Abigail                 | done       |
-| US08       |Sección de Clientes Satisfechos | TS-08         | Endorsements implementation (Landing)   | Sección de empresas o clientes destacados que respaldan la aplicación.       | 2                   | Cuevas Rios, Eric Fernando                  | done       |
-| US09       | Sección de Contáctanos en Landing Page| TS-09         | Contact-us implementation (Landing)     | Formulario de contacto con campos para nombre, correo y mensaje.             | 2                   | Elsner De La Torre Ugarte, Julio Esteban    | done       |
-| US10       | Footer en Landing Page| TS-10         | Footer Implementation (Landing)         | Desarrollo del pie de página con enlaces útiles, derechos de autor y redes sociales. | 2         | Cuevas Rios, Eric Fernando                  | done       |
-| US35       | Obtención de cuenta administrativa de un estacionamiento| TS-11         | Regiter Component Implementation (WebApp) | Formulario de registro para crear cuentas administrativas de estacionamientos. | 6         | Cuevas Rios, Eric Fernando                  | done       |
-| US36       |Inicio de sesión de administrador | TS-12         | Login Component Implementation (WebApp) | Componente de inicio de sesión para administradores del sistema web.         | 5                   | Cuevas Rios, Eric Fernando                  | done       |
-| US39       | Edición del perfil de una cuenta administrativa| TS-13         | SerringsComponent Implementation (WebApp) | Interfaz de configuración para edición de perfil de la cuenta administrativa. | 5         | Herrera González, Luis Eduardo              | Penediente  |
-| US40       | Visualización de Resumen Estadístico del uso del Estacionamiento como menú principal| TS-14         | StatisticsComponent Implementation (WebApp) | Visualización de estadísticas del uso del estacionamiento como panel principal. | 6      | Herrera González, Luis Eduardo              | done       |
-| US41       |Visualización de las cámaras de seguridad del estacionamiento | TS-15         | Regiter Component Implementation (WebApp) | Integración del componente de cámaras para visualizar transmisiones en vivo de seguridad. | 7 | Vargas Revollé, Ariana                      | done       |
+| US01     | Barra de navegación en Landing Page | TSK-01         | Nav bar implementation (Landing)         | Implementacion de la barra de navegacion en Landing Page de la solucion     | 2                   | Herrera González, Luis Eduardo              | done       |
+| US02      |Encabezado de Bienvenida de Landing Page | TSK-02         | Hero implementation (Landing)           | Implementación del encabezado principal de bienvenida con texto llamativo e imagen destacada. | 3         | Herrera González, Luis Eduardo              | done       |
+| US03      |Sección Sobre Nosotros de Landing page | TSK-03         | About-us implementation (Landing)       | Desarrollo de la sección 'Sobre Nosotros' con descripción de la empresa y su misión. | 3             | Elsner De La Torre Ugarte, Julio Esteban    | done       |
+| US04       |Demostración del funcionamiento de la aplicación en el Landing Page | TSK-04         | Display demo implementation (Landing)   | Integración de una sección interactiva que muestre una demostración visual de la aplicación. | 3         | Vargas Revollé, Ariana                      | done       |
+| US05       |Descripción de las funcionalidades de la aplicación en el Landing Page | TSK-05         | Features implementation (Landing)       | Implementación de una sección con las principales funcionalidades.           | 3                   | Vargas Revollé, Ariana                      | done       |
+| US06       | Reseñas en el Landing page| TSK-06         | Reviews implementation (Landing)        | Desarrollo de la sección de reseñas de usuarios con calificaciones y testimonios. | 2              | Obispo Rios, Lucero Abigail                 | done       |
+| US07       |Preguntas y Respuestas en Landing Page | TSK-07         | FAQ implementation (Landing)            | Implementación de la sección de Preguntas Frecuentes con respuestas desplegables. | 2            | Obispo Rios, Lucero Abigail                 | done       |
+| US08       |Sección de Clientes Satisfechos | TSK-08         | Endorsements implementation (Landing)   | Sección de empresas o clientes destacados que respaldan la aplicación.       | 2                   | Cuevas Rios, Eric Fernando                  | done       |
+| US09       | Sección de Contáctanos en Landing Page| TSK-09         | Contact-us implementation (Landing)     | Formulario de contacto con campos para nombre, correo y mensaje.             | 2                   | Elsner De La Torre Ugarte, Julio Esteban    | done       |
+| US10       | Footer en Landing Page| TSK-10         | Footer Implementation (Landing)         | Desarrollo del pie de página con enlaces útiles, derechos de autor y redes sociales. | 2         | Cuevas Rios, Eric Fernando                  | done       |
+| US35       | Obtención de cuenta administrativa de un estacionamiento| TSK-11         | Regiter Component Implementation (WebApp) | Formulario de registro para crear cuentas administrativas de estacionamientos. | 6         | Cuevas Rios, Eric Fernando                  | done       |
+| US36       |Inicio de sesión de administrador | TSK-12         | Login Component Implementation (WebApp) | Componente de inicio de sesión para administradores del sistema web.         | 5                   | Cuevas Rios, Eric Fernando                  | done       |
+| US39       | Edición del perfil de una cuenta administrativa| TSK-13         | SerringsComponent Implementation (WebApp) | Interfaz de configuración para edición de perfil de la cuenta administrativa. | 5         | Herrera González, Luis Eduardo              | Penediente  |
+| US40       | Visualización de Resumen Estadístico del uso del Estacionamiento como menú principal| TSK-14         | StatisticsComponent Implementation (WebApp) | Visualización de estadísticas del uso del estacionamiento como panel principal. | 6      | Herrera González, Luis Eduardo              | done       |
+| US41       |Visualización de las cámaras de seguridad del estacionamiento | TSK-15         | Regiter Component Implementation (WebApp) | Integración del componente de cámaras para visualizar transmisiones en vivo de seguridad. | 7 | Vargas Revollé, Ariana                      | done       |
 
 
 #### 6.2.1.4. Development Evidence for Sprint Review
@@ -4645,20 +4646,152 @@ Esta sección refleja la colaboración efectiva del equipo durante el Sprint. Se
 <a href="https://ibb.co/LmJcbvz"><img src="https://i.ibb.co/2xsCm57/team-collaboration-insigth-web.png" alt="team-collaboration-insigth-web" border="0"></a>
 
 ### 6.2.2. Sprint 2
+El Sprint 2 tuvo como objetivo continuar con el desarrollo de funcionalidades planificadas en base a la revisión del Sprint 1. Se organizaron tareas por áreas de responsabilidad y se establecieron metas específicas para cada miembro del equipo.
 
 #### 6.2.2.1. Sprint Planning 2
 
+| Sprint \# | Sprint 2 |
+| :---- | :---- |
+| Sprint Planning Background |  |
+| Date | 2025-06-01 |
+| Time | 9:00 PM |
+| Location | Google Teams / Whatsapp |
+| Prepared By | Obispo Rios, Lucero Abigail |
+| Attendees (to planning meeting) | Herrera González, Luis Eduardo Obispo Rios, Lucero Abigail Cuevas Rios, Eric Fernando Elsner De La Torre Ugarte, Julio Esteban Vargas Revollé, Ariana |
+| Sprint 1 Review Summary | En el sprint 3 concluimos el desarrollo de landing page y el primer avance de el front end de la web aplicacion |
+| Sprint 1 Retrospective Summary | Se identifican mejoras en el diseño de la aplicacion web así como funcionalidades faltantes |
+| Sprint Goal & User Stories |  |
+| Sprint 2 Goal | Nuestro objetivo es tener versiones habilitadasde todas las aplicaciones necesarias para la solucion Creemos qué provee un base sólida para la conclusion del proyecto Esto se va a ver confirmado con el deployment de la solucion completa y funcional |
+| Sprint 2 Velocity | 54 |
+| Sum of Story Points | 54 |
+
 #### 6.2.2.2. Aspect Leaders and Collaborators
+
+| Team Member | GitHub Username | Iot Devices  | Edge Node  | Backend  | Web App  | Mobile  |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Herrera González, Luis Eduardo | LuisHerreraG | L | C | C | C | C |
+| Obispo Rios, Lucero Abigail | LuceroObispoRios | C | C | C | C | L |
+| Cuevas Rios, Eric Fernando | Ericcuevas03 | C | C | C | L | C |
+| Elsner De La Torre Ugarte, Julio Esteban | JulioElsnerDLTU | C | L | C | C | C |
+| Vargas Revollé, Ariana | vargas3470 | C | C | L | C | C |
 
 #### 6.2.2.3. Sprint Backlog 2
 
+| User Story |User Story Title| Work Item ID | Work Item Title  | Description | Estimation (Hours) | Assigned To | Status     |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| US11 | Registro de conductor como usuario | TSK-16 | Implementación de endpoint: Registro de conductor | Crear endpoint para registrar un conductor. Validar campos requeridos como nombre, correo y contraseña. Usar cifrado para la contraseña. | 2 | Ariana Vargas | Done |
+| US12 | Inicio de sesión de conductor | TSK-17 | Implementación de endpoint: Inicio de sesión de conductor | Endpoint de login con retorno de token JWT. Validar credenciales y roles. | 2 | Ariana Vargas | Done |
+| US13	 | Edición de perfil de conductor | TSK-18 | Implementación de endpoint: Edición de perfil del conductor | Permitir actualización de datos personales del conductor. Verificar autenticación. | 2 | Lucero Obispo | Done |
+| US16 | Escaneo QR mediante celular por el conductor | TSK-19 | Implementación de función: Escaneo de QR | Permitir al conductor escanear un QR desde el celular y redireccionar a detalles del estacionamiento. | 4 | Lucero Obispo | Done |
+| US17 | Visualización de estacionamientos disponibles en tiempo real más cercanos al conductor | TSK-20 | Visualización de estacionamientos disponibles | Mostrar en el frontend los estacionamientos cercanos disponibles con datos en tiempo real. | 3 | Lucero Obispo | Done |
+| US18 | Confirmación automática o manual de estacionamiento realizado por el conductor | TSK-21 | Confirmación de estacionamiento | Permitir al sistema o usuario confirmar que un auto está estacionado (por sensor o input). | 3 | Lucero Obispo | Done |
+| US24 | Registro de tarjeta de crédito/débito del conductor | TSK-22 | Registro de tarjeta de crédito o débito | Endpoint para que el conductor registre una tarjeta. Validar formato y guardar de forma segura. | 2 | Ariana Vargas | Done |
+| US25 | Eliminación de tarjeta de crédito/débito del conductor | TSK-23 | Eliminación de tarjeta de crédito o débito | Permitir al conductor eliminar una tarjeta previamente registrada. | 2 | Lucero Obispo | Done |
+| US26 | Visualización de listado de tarjetas de crédito/débito del conductor | TSK-24 | Listado de tarjetas registradas | Visualización de todas las tarjetas guardadas por el conductor. | 4 | Lucero Obispo | Done |
+| US28	 | Realización de convalidación de pago del estacionamiento del conductor | TSK-25 | Convalidación del pago | Confirmar que el pago del estacionamiento se realizó, sea vía app o manual. | 4 | Lucero Obispo | Done |
+| US29 | Realización del pago a cancelar del estacionamiento del conductor | TSK-26 | Realización del pago | Ejecutar el proceso de cobro del estacionamiento según método elegido. | 4 | Lucero Obispo | Done |
+| US34 | Visualización de listado de boletas virtuales e interactivas de estacionamientos realizados | TSK-27 | Historial de boletas | Listar todas las boletas virtuales anteriores del conductor con opción a filtro por fechas. | 2 | Ariana Vargas | Done |
+| US49 | Cambio de luz LED cuando un carro se estaciona | TSK-28 | Cambio de luz LED en estacionamiento | Encender LED verde cuando un espacio está libre y rojo cuando un auto se ha estacionado. | 2 | Luis Herrera | Done |
+| TS04	 | IoT Gateway | TSK-29 | Implementación del IoT Gateway | Configurar gateway IoT para comunicación con sensores y dispositivos conectados. | 5 | Julio Elsner | Done |
+| TS06	 | Autenticación basada en token JWT | TSK-30 | Autenticación con JWT | Implementar seguridad basada en JWT para autenticación de todos los servicios REST. | 3 | Ariana Vargas | Done |
+| TS10 | Implementación de un servicio IAM con REST API	 | TSK-31 | Servicio IAM | Bounded Context de gestion de usuarios, roles, sesiones y autenticación. | 2 | Ariana Vargas | Done |
+| TS11	 | Implementación de un servicio Camera Feed con WebRTC | TSK-32 | Servicio de transmisión en vivo | Permitir streaming de cámaras usando WebRTC para monitoreo del estacionamiento. | 3 | Luis Herrera | Done |
+| TS13 | Implementación de un servicio Payments con REST API	 | TSK-33 | Servicio Payments | Bounded Context de gestion métodos de pago, cobros, boletas y convalidación. | 2 | Ariana Vargas | Done |
+| TS18 | Implementación de un servicio Profiles con REST API | TSK-34 | Servicio Profiles | Servicio encargado de la creación, visualización y edición de perfiles de usuario. | 3 | Ariana Vargas | Done |
+
 #### 6.2.2.4. Development Evidence for Sprint Review
+
+A continuación se presenta la evidencia de desarrollo generada durante el Sprint. Se incluyen los commits realizados por el equipo en los distintos branches de desarrollo, especificando los mensajes de commit, ramas funcionales, repositorios utilizados y fechas. Esta evidencia respalda la trazabilidad del avance en los distintos componentes de la solución.
+
+| Repository                               | Branch                   | Commit ID                                | Commit Message                                                | Committed On | 
+|:-----------------------------------------|:-------------------------|:-----------------------------------------|:--------------------------------------------------------------|:-------------|
+| SolucionesIoT-FindAndPark-UPC mobile-app | main                     | d8cf6fb69138a285bb078ed0b2aeae09ac81546d | feat: Add Project Structure                                   | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/menu                | f54ed5fde1619da48fae4e935a2a9c8278b9637d | feat: Add menu screens                                        | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | da8ffee79da4622ee238d3a8ba92f30720186c16 | feat: Add Scan QR screen                                      | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 53544be1fefe5e197727d6642536de0190c9d546 | feat: Add parking detail screen                               | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 0cc526b517700cfef262ae73c18d947df7c30843 | feat: Add exit confirmation screen                            | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 80c95dfda0e3fd3af5be2e6170a008e6942c7a43 | fix: Change logo app icon                                     | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | 0defbb95e1b8db51b6e78211741a2fb3ecebbcd6 | feat: Add LogoutConfirmationScreen and VoucherScanner         | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | cbf887b04eda01681af489a4d68a0732c4980d6b | feat: Add payment details screen                              | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | 8906ce1e00b8367aea26c078ddcb33101f8d0ac7 | chore: Adjust responsiveness                                  | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | iam-payment              | 00f26c87e8650de6816e9a48254476765f0f9b45 | feat(iam-payment): implement IAM and Payment bounded contexts | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC backend    | iam-payment              | 61833abae401fb207816f4a4c601dadba89fa5b3 | feat(iam-payment): add iam and payment bounded contexts       | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/parking-circulation | 83f18ad71f3a6532429a44d7c68729204d223344 | feat: implement parking circulation bounded context           | Jun 19, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | 68b51381e33cf67de409d259f410a56505f41dd3 | feat: Implement camerafeed bounded context                    | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | add8e953513e5a5d2eedd12a0759b3dd54c3ff6b | fix: misplaced decorator in file VehicleRepository.           | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/parking-circulation | 405038d70fd372583179ea17349b923dff3d6bd9 | chore: remove temporal .gitkeeps.                             | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | 405038d70fd372583179ea17349b923dff3d6bd9 | chore: remove temporal .gitkeeps (camerafeed).                | Jun 20, 2025 |
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
+###### Introducción: 
+En esta sección se presenta la evidencia de las pruebas funcionales automatizadas realizadas durante el sprint actual. Se detalla la implementación y ejecución de tests para las funcionalidades de inicio de sesión y visualización de estadísticas como administrador del sistema de estacionamiento.
+
+###### Objetivo:
+El objetivo de esta sección es validar el correcto funcionamiento de los Web Services relacionados con los User Stories del Sprint, garantizando que las funcionalidades desarrolladas cumplen con los requisitos definidos y operan de manera esperada.
+
+###### Evidencia de Pruebas Automatizadas Funcionales:
+1. Prueba de Inicio de Sesión (Login):
+
+- User Story Relacionado: "Como administrador, quiero iniciar sesión en el sistema, para acceder a las funcionalidades de gestión del estacionamiento."
+- Detalle: Se diseñó un test automatizado para validar el acceso exitoso de un administrador al sistema utilizando credenciales válidas.
+- Evidencia: El archivo login.feature describe el escenario de inicio de sesión utilizando Gherkin. Los archivos Steps y steps definitions y pages correspondientes implementan la lógica de la prueba. La ejecución de este test se completó exitosamente, confirmando la funcionalidad de inicio de sesión para el rol de administrador.
+  -  Login Feature: 
+    ![6.2.2.5-Testing-Login-Feature.PNG](assets/capitulo-6/6.2.2.5-Testing-Login-Feature.PNG)
+  -  Login Steps Definitions:
+    ![6.2.2.5-Testing-Login-Steps-Defintions.PNG](assets/capitulo-6/6.2.2.5-Testing-Login-Steps-Defintions.PNG)
+  -  Login Steps:
+    ![6.2.2.5-Testing-Login-Steps.PNG](assets/capitulo-6/6.2.2.5-Testing-Login-Steps.PNG)
+  -  Login Page:
+    ![6.2.2.5-Testing-Login-Page.PNG](assets/capitulo-6/6.2.2.5-Testing-Login-Page.PNG)
+
+1. Prueba de Visualización de Estadísticas (como Administrador):
+
+- User Story Relacionado: "Como administrador, quiero visualizar un resumen estadístico del uso del estacionamiento como menú principal, para obtener una visión general rápida del desempeño y uso del espacio."
+- Detalle: Se desarrolló una prueba automatizada para asegurar que, una vez autenticado, un administrador puede acceder y visualizar las estadísticas en tiempo real del estacionamiento de manera correcta.
+- Evidencia: Se elaboró un archivo .feature con su respectiva implementación de Steps, Steps Definitions y Pages. Esta prueba se ejecutó con éxito, verificando la adecuada presentación de las estadísticas para el administrador.
+  -  Statistics Feature: 
+     ![6.2.2.5-Testing-Statistics-Feature.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Feature.PNG)
+  -  Statistics Steps Definitions:
+     ![6.2.2.5-Testing-Statistics-Steps-Defintions.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Steps-Defintions.PNG)
+  -  Statistics Steps:
+     ![6.2.2.5-Testing-Statistics-Steps.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Steps.PNG)
+  -  Statistics Page:
+     ![6.2.2.5-Testing-Statistics-Page.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Page.PNG)
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| https://github.com/SolucionesIoT-FindAndPark-UPC/testing-park-up| main | a20b56de459dd0dfc30ca2f5167ad8cd45653a15 | feat: Add statistics feature test  | - | 21-06-2025 |
+| https://github.com/SolucionesIoT-FindAndPark-UPC/testing-park-up| main | 2ff79790b68715f55f314996b351c18c3e4fec10 | feat: Add Login Feature Test | - | 21-06-2025 |
+
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
+Para el logro de este proyecto, se realizó el despliegue de la Base de Datos y la compilación de la aplicación móvil, y se mejoró la Landing Page y la aplicación web.
+
+La **Aplicación Web**, desarrollada en Angular, ha sido desplegada utilizando Netlify, una plataforma que facilita el alojamiento de aplicaciones modernas al permitir integración continua, despliegue automatizado y entrega optimizada de contenido estático y dinámico. Gracias a esta herramienta, se garantiza un acceso rápido, seguro y confiable a la solución. Puedes acceder a la aplicación mediante el siguiente enlace:
+🔗 https://parkup-webapp.netlify.app
+
+<a href="https://ibb.co/XrcqTbPy"><img src="https://i.ibb.co/hJ3SvyNX/webevidence-allotment.png" alt="webevidence-allotment" border="0"></a>
+
+<a href="https://ibb.co/V0WSzKF7"><img src="https://i.ibb.co/WNWyMTrb/webevidence-register.png" alt="webevidence-register" border="0"></a>
+
+<a href="https://ibb.co/Lzd49dFR"><img src="https://i.ibb.co/Z6zyczjX/webevidence-login.png" alt="webevidence-login" border="0"></a>
+
+Por otro lado, la **Landing Page** del proyecto ha sido alojada mediante GitHub Pages, un servicio gratuito que permite la publicación de sitios estáticos directamente desde un repositorio. Esta elección se hizo por su sencillez, integración nativa con GitHub y eficiencia para mostrar contenido informativo de forma ligera:
+🔗 https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page
+
+<a href="https://ibb.co/m5hxdvvM"><img src="https://i.ibb.co/TMPCJKKF/landing-deploy.png" alt="landing-deploy" border="0"></a>
+
+Se incluye un video explicativo donde se muestra la navegación por las vistas implementadas, explicando las funcionalidades alcanzadas durante el Sprint.:
+🔗 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/ETToi6vRrZVKrhDozFv9wDMBPkZsmpQTrd9aM21_HYkBBg?e=Zoe2mc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+Durante este segundo sprint conseguimos tener avances sustanciales al momento de realizar la primera versión de nuestra aplicación móvil, debido a que, al tener las pantallas y funcionalidades bien definidas desde el principio, nos facilitó la organización de ideas y la implementación de ellas.
+
+Adicionalmente, logramos implementar el backend y edge node de la solución, lo cual nos permitió tener una base sólida para la aplicación móvil y la aplicación web. Esto fue posible gracias a la implementación de los contextos acotados de *IAM*, *Payment*, *Parking Circulation* y *Camera Feed*, que son fundamentales para el funcionamiento del sistema.
+
+Además, utilizamos las funciones colaborativas de GitHub, las cuales nos beneficiaron en la cooperación entre todos los participantes. Esto tuvo como resultado una implementación eficiente y sin complicaciones, lo cual permitió que todos puedan visualizar cada cambio y el progreso realizado.
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
   
@@ -4720,10 +4853,110 @@ Durante este Sprint se realizaron los despliegues correspondientes a los dos pro
 
 
 ## 6.3. Validation Interviews
+Para validar las funcionalidades del sistema y su ajuste a las necesidades reales de los usuarios, se realizaron entrevistas estructuradas a dos perfiles clave: conductores (usuarios móviles) y administradores de estacionamientos (usuarios de la plataforma web). Estas entrevistas forman parte del enfoque de diseño centrado en el usuario y buscan identificar fricciones, confirmar decisiones de diseño y detectar mejoras antes del despliegue.
+
+El guion se basó en hipótesis previas y en atributos de calidad como usabilidad, eficiencia y precisión. Las preguntas, de tipo cualitativo, permiten obtener percepciones detalladas sobre la experiencia de uso, la claridad de las interfaces y la utilidad de las funciones y datos presentados.
+
+Involucrar ambos perfiles permite evaluar la solución desde la experiencia individual del usuario y la gestión operativa. Además, las entrevistas ayudan a detectar problemas no previstos y a proponer mejoras que reduzcan el riesgo de baja adopción del sistema.
 
 ### 6.3.1. Diseño de Entrevistas
 
+##### Entrevistas a Conductores
+Se formuló una serie de cinco preguntas orientadas a explorar la percepción general del usuario respecto a la aplicación móvil y al proceso de uso del servicio de estacionamiento:
+
+1. ¿Qué opinas sobre los datos que se te pidieron al registrarte? ¿Te parecieron necesarios o hubo alguno que sentiste innecesario?
+2. ¿Cómo describirías tu experiencia general usando la app para estacionar, desde que llegaste hasta que saliste del estacionamiento?
+3. Durante el proceso de escaneo con QR, ¿sentiste que sabías claramente lo que tenías que hacer, o hubo algo que te generó duda o confusión?
+4. ¿Te resultó conveniente el método de pago por celular con tarjeta o preferirías otro tipo de opción?
+5. ¿Hubo algo en el flujo de entrada o salida del estacionamiento que te causó confusión o molestia?
+
+##### Entrevistas a Administradores de Parking
+
+Las preguntas dirigidas a los administradores se enfocaron en validar la utilidad de la plataforma de monitoreo, su facilidad de uso y su impacto en la gestión diaria:
+
+1. ¿Consideras que la navegación es intuitiva y fácil de entender?
+2. ¿Te resultó fácil encontrar y seleccionar una cámara en específico?
+3. ¿Qué tan fácil te resulta identificar qué espacios están ocupados o libres en el mapa o esquema de parking?
+4. ¿Cómo utilizas la información en tiempo real sobre el estado del estacionamiento para tomar decisiones diarias?
+5. ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
+6. ¿Cómo describirías la utilidad de los datos mostrados y su relevancia para tu gestión del estacionamiento?
+
 ### 6.3.2. Registro de Entrevistas
+##### Segmento 1: Conductores
+- Primera Entrevista:
+    <img src="https://i.postimg.cc/wvcwX7kV/Whats-App-Image-2025-06-21-at-12-16-38-bd17589c.jpg" alt="Conductor 1" style="width: 300px;">
+
+  - Entrevistado: Eva Revollé
+
+  - Residencia: Lima
+
+  - Ocupación: Dueña de empresa de Catering
+
+  - Entrevistadora: Ariana Vargas
+
+  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/EYWPigNyp7ZGjkvzR0AJfzwBXsCQ5a40_5WV0YdjHM-14g?e=atxlme]
+  
+  - Resumen de la entrevista:
+  00:31 - ¿Qué opinas sobre los datos que se te pidieron al registrarte? ¿Te parecieron necesarios o hubo alguno que sentiste innecesario?
+  Le parecieron todos necesarios, no sintió que se pidiera información irrelevante.
+  00:43 - ¿Cómo describirías tu experiencia general usando la app para estacionar, desde que llegaste hasta que saliste del estacionamiento?
+  Le resultó útil porque le ayudó a encontrar espacios rápidamente, sobre todo en zonas que no conocía.
+  01:10 - Durante el proceso de escaneo con QR, ¿sentiste que sabías claramente lo que tenías que hacer, o hubo algo que te generó duda o confusión?
+  Sí, entendió todo con claridad y no tuvo confusiones al usar el escáner QR.
+  01:13 - ¿Te resultó conveniente el método de pago por celular con tarjeta o preferirías otro tipo de opción?
+  Le pareció conveniente porque agiliza el proceso y no necesita usar efectivo.
+  01:25 - ¿Hubo algo en el flujo de entrada o salida del estacionamiento que te causó confusión o molestia?
+  Comentó que algunos estacionamientos pueden ser grandes y confusos si no los conoce, pero la app ayuda a ubicarse mejor.
+
+
+##### Segmento 2: Administradores de parking
+
+- Primera Entrevista:
+  ![assets/capitulo-6/6.3.2-Entrevista-Administrador-1.PNG](assets/capitulo-6/6.3.2-Entrevista-Administrador-1.PNG)
+
+  - Entrevistado: Alfredo Lozano
+
+  - Residencia: Lima
+
+  - Ocupación: Seguridad de Parking
+
+  - Entrevistadora: Lucero Obispo
+
+  - Enlace: [https://www.youtube.com/watch?v=X8_Dxt-xQq4]
+
+  - Resumen de la entrevista:
+    0:30 - ¿Consideras que la navegación es intuitiva y fácil de entender?
+    El entrevistado afirma estar completamente de acuerdo. Señala que la navegación le resultó muy intuitiva y fácil de entender desde el primer uso. Considera que la experiencia general es fluida, lo cual facilita el acceso a las funciones principales sin dificultades.
+
+    1:13 - ¿Cómo utilizas la información en tiempo real sobre el estado del estacionamiento para tomar decisiones diarias?
+    El entrevistado menciona que está totalmente de acuerdo con la utilidad de esta información. Explica que la utiliza constantemente para decidir a qué hora salir o qué zona elegir para estacionar, lo cual le permite ahorrar tiempo y evitar zonas congestionadas, optimizando así sus rutas diarias y además evitando errores.
+
+    0:57 - ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
+    El entrevistado indica que no considera que falte ningún dato esencial en la plataforma. Señala que está conforme con toda la información que se ofrece actualmente, ya que cubre sus necesidades y le permite tomar decisiones informadas sin inconvenientes.
+
+- Segunda Entrevista:
+  ![Validation Interview Sebastian Ramirez](https://raw.githubusercontent.com/SolucionesIoT-FindAndPark-UPC/images/refs/heads/main/validation-interview-sebastian.png)
+
+  - Entrevistado: Sebastián Ramirez Hoffmann
+
+  - Residencia: Lima
+
+  - Ocupación: Seguridad de Parking
+
+  - Entrevistador: Luis Herrera
+
+  - Enlace: [https://www.youtube.com/watch?v=X8_Dxt-xQq4]
+
+  - Resumen de la entrevista:
+    2:24 - ¿Consideras que la navegación es intuitiva y fácil de entender?
+    Sebastián expresa, sin dudar, que la plataforma le resultó muy sencilla desde el primer momento. Para él, la experiencia es muy fluida, permitiéndole encontrar rápidamente las opciones que necesita sin perder tiempo. Incluso menciona que no tuvo que pedir ayuda ni revisar instrucciones adicionales; la navegación es, en sus palabras, “bastante amigable”.
+
+    3:50 - ¿Cómo utilizas la información en tiempo real sobre el estado del estacionamiento para tomar decisiones diarias?
+    Al ser consultado sobre la utilidad de los datos en tiempo real, Sebastián resalta que este aspecto ha hecho que su trabajo diario sea mucho más eficiente. Gracias a la actualización constante del estado del estacionamiento, puede anticipar en qué momento es mejor hacer recorridos o supervisar ciertas zonas. Así, evita las áreas de mayor congestión y puede gestionar mejor sus tiempos durante el turno.
+
+    5:11 - ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
+    Sebastián señala que, por el momento, la plataforma cubre todas sus necesidades. Explica que la información disponible le permite tomar decisiones informadas y rápidas, y no siente que falte algún dato esencial para desempeñar su labor. Añade que, si en algún momento llegara a necesitar algo extra, lo comunicaría, pero hasta ahora está satisfecho con lo que ofrece el sistema.
+
 
 ### 6.3.3. Evaluaciones según Heurísticas
 
