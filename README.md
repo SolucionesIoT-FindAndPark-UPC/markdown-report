@@ -4661,8 +4661,62 @@ Esta sección refleja la colaboración efectiva del equipo durante el Sprint. Se
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
+  
+Durante este Sprint se actualizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, la aplicación web, desarrollada en Angular y desplegada en **Netlify**, y la applicación movil la cual fue desarrollada con Flutter. 
+  
+##### GitHub Pages – Landing Page
+
+Para el despliegue de la Landing Page se realizaron los siguientes pasos:
+
+1. Se creó un repositorio en GitHub bajo la organización del proyecto.  
+2. Se configuró la rama principal con el contenido del sitio estático en Angular.  
+3. Se habilitó GitHub Pages desde la configuración del repositorio, seleccionando la carpeta `/dist` como fuente de despliegue.  
+4. Se verificó el enlace público generado por GitHub y se realizaron pruebas de navegación.
+
+[![Despliegue GitHub Pages 1](https://i.postimg.cc/d0drrTb1/Whats-App-Image-2025-05-16-at-12-30-14-f02b10ef.jpg)](https://postimg.cc/06kzqr2R)  
+*Captura de la sección "Pages" en GitHub, donde se habilita el despliegue desde la rama seleccionada.*
+
+[![Despliegue GitHub Pages 2](https://i.postimg.cc/fRS9Q9TK/Whats-App-Image-2025-05-16-at-12-30-23-a32c0999.jpg)](https://postimg.cc/VJ16j5tr)  
+*Configuración del repositorio con los archivos de la Landing Page ya compilados y listos para producción.*
+
+##### Netlify – Aplicación Web
+
+La aplicación fue desplegada en Netlify mediante los siguientes pasos:
+
+1. Se creó una cuenta de equipo en Netlify y se vinculó con el repositorio de GitHub.  
+2. Se configuró el flujo de integración continua para que Netlify realice el build automático al hacer push.  
+3. Se especificaron los comandos de build (`ng build`) y la carpeta de salida (`/dist`).  
+4. Se monitorearon los logs de despliegue y se verificó el acceso al sitio web generado.
+
+[![Configuración en Netlify 1](https://i.postimg.cc/j5twf36g/Whats-App-Image-2025-05-16-at-12-30-33-9c691cb6.jpg)](https://postimg.cc/yJp84Pbc)  
+*Vista general del proyecto conectado desde GitHub en la plataforma Netlify.*
+
+[![Configuración en Netlify 2](https://i.postimg.cc/65y7CvRX/Whats-App-Image-2025-05-16-at-12-30-50-753523f9.jpg)](https://postimg.cc/qzHMTgjb)  
+*Parámetros configurados para el build automático, incluyendo comandos y carpeta de publicación.*
+
+[![Confirmación de Build](https://i.postimg.cc/s2RvFHLj/Whats-App-Image-2025-05-16-at-12-32-05-cf087a6d.jpg)](https://postimg.cc/ts2XWkyw)  
+*Historial del despliegue mostrando un build exitoso en la consola de Netlify.*
+
+[![Deploy final y dominio](https://i.postimg.cc/R0QqvQrc/Whats-App-Image-2025-05-16-at-12-32-16-001711db.jpg)](https://postimg.cc/06j9fSyQ)  
+*Sitio final activo con URL pública asignada por Netlify.*
+
+##### Android - Aplicación Movil
+
+Se genero a paritr de la aplicación movil un apk que permite la instalación de esta aplicación en dispositivos moviles.
+  
+[![Generación de APK](https://i.postimg.cc/gcTr1kTq/apk-generation.jpg)](https://postimg.cc/CdbFqYYz)  
+
+### Enlaces a los despliegues  
+  
+- Landing Page: [https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page](https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page)  
+- Aplicación Web: [https://parkup-webapp.netlify.app](https://parkup-webapp.netlify.app)
+- Aplicación Movil: [https://drive.google.com/file/d/1oWTy5c9eQTl9Ehjmn6LZVAW97v2JmY3C/view?usp=sharing](https://drive.google.com/file/d/1oWTy5c9eQTl9Ehjmn6LZVAW97v2JmY3C/view?usp=sharing)  
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
+
+Durante este Sprint se realizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**. Estos despliegues permiten que ambos entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders.
+
+
 
 ## 6.3. Validation Interviews
 
