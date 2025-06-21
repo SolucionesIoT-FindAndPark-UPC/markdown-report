@@ -4787,12 +4787,51 @@ Se incluye un video explicativo donde se muestra la navegación por las vistas i
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
-Durante este segundo sprint conseguimos tener avances sustanciales al momento de realizar la primera versión de nuestra aplicación móvil, debido a que, al tener las pantallas y funcionalidades bien definidas desde el principio, nos facilitó la organización de ideas y la implementación de ellas.
+Durante este segundo sprint conseguimos tener avances sustanciales al momento de realizar la aplicación móvil, debido a que, al tener las pantallas y funcionalidades bien definidas desde el principio, nos facilitó la organización de ideas y la implementación de ellas.
 
 Adicionalmente, logramos implementar el backend y edge node de la solución, lo cual nos permitió tener una base sólida para la aplicación móvil y la aplicación web. Esto fue posible gracias a la implementación de los contextos acotados de *IAM*, *Payment*, *Parking Circulation* y *Camera Feed*, que son fundamentales para el funcionamiento del sistema.
 
-Además, utilizamos las funciones colaborativas de GitHub, las cuales nos beneficiaron en la cooperación entre todos los participantes. Esto tuvo como resultado una implementación eficiente y sin complicaciones, lo cual permitió que todos puedan visualizar cada cambio y el progreso realizado.
+Se documentan los siguientes endpoints desplegados en nuestro backend:
 
+Camera Feed : Post
+![https://i.postimg.cc/RZXCsjLn/camerafeed-post.png](https://i.postimg.cc/RZXCsjLn/camerafeed-post.png)
+
+Camera Feed : Get
+![https://i.postimg.cc/VsrSSLBZ/camerafeed-get.png](https://i.postimg.cc/VsrSSLBZ/camerafeed-get.png)
+
+Payment: Post
+![https://i.postimg.cc/cJBCSvW6/payment-post.png](https://i.postimg.cc/cJBCSvW6/payment-post.png)
+
+Payment: Get by userId
+![https://i.postimg.cc/K8Ktxrpj/payment-get.png](https://i.postimg.cc/K8Ktxrpj/payment-get.png)
+
+Credit Card: Post
+![https://i.postimg.cc/XqcQKc64/creditcard-post.png](https://i.postimg.cc/XqcQKc64/creditcard-post.png)
+
+Credit Card: Delete
+![https://i.postimg.cc/sgyRRwg9/creditcard-delete.png](https://i.postimg.cc/sgyRRwg9/creditcard-delete.png)
+
+Credit Card: Get by creditCardId
+![https://i.postimg.cc/J06RhXY4/creditcard-get1.png](https://i.postimg.cc/J06RhXY4/creditcard-get1.png)
+
+Credit Card: Get by userId
+![https://i.postimg.cc/yYjZFptk/creditcard-getbyuserid.png](https://i.postimg.cc/yYjZFptk/creditcard-getbyuserid.png)
+
+Users: Get
+![https://i.postimg.cc/pryBwNgc/users-get.png](https://i.postimg.cc/pryBwNgc/users-get.png)  
+
+Parking Circulation - Vehicles: Get
+![https://i.postimg.cc/6p8Ddgq0/parking-get.png](https://i.postimg.cc/6p8Ddgq0/parking-get.png)  
+
+Parking Circulation - Vehicles: Post
+![https://i.postimg.cc/Gp8dm9vb/parking-postvehicle.png](https://i.postimg.cc/Gp8dm9vb/parking-postvehicle.png)  
+
+Parking Circulation - Circulation: Post plate
+![https://i.postimg.cc/pLHrmfqq/parking-processplatepost.png](https://i.postimg.cc/pLHrmfqq/parking-processplatepost.png)  
+
+Parking Circulation - Circulation: Get history
+![https://i.postimg.cc/fyPWWXkj/parkinghistory-get.png](https://i.postimg.cc/fyPWWXkj/parkinghistory-get.png)  
+  
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
   
 Durante este Sprint se actualizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, la aplicación web, desarrollada en Angular y desplegada en **Netlify**, y la applicación movil la cual fue desarrollada con Flutter. 
@@ -4835,20 +4874,28 @@ La aplicación fue desplegada en Netlify mediante los siguientes pasos:
 
 ##### Android - Aplicación Movil
 
-Se genero a paritr de la aplicación movil un apk que permite la instalación de esta aplicación en dispositivos moviles.
+Se genero a partir de la aplicación movil un apk que permite la instalación de esta aplicación en dispositivos moviles.
   
 [![Generación de APK](https://i.postimg.cc/gcTr1kTq/apk-generation.jpg)](https://postimg.cc/CdbFqYYz)  
+
+##### Google Cloud - Backend
+
+Se realizo el despliegue del backend del proyecto por medio de Google Cloud. Por medio de este se realizara la integración de los servicios los las pantallas de la aplicación.
+
+[![Backend Desplegado](https://i.postimg.cc/N0mQD1Wn/2025-06-21-17-37-15-Window.png)](https://postimg.cc/Y42cqm2N)  
 
 ### Enlaces a los despliegues  
   
 - Landing Page: [https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page](https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page)  
 - Aplicación Web: [https://parkup-webapp.netlify.app](https://parkup-webapp.netlify.app)
 - Aplicación Movil: [https://drive.google.com/file/d/1oWTy5c9eQTl9Ehjmn6LZVAW97v2JmY3C/view?usp=sharing](https://drive.google.com/file/d/1oWTy5c9eQTl9Ehjmn6LZVAW97v2JmY3C/view?usp=sharing)  
+- Backend: [https://park-up-backend-417071271046.us-central1.run.app/swagger-ui/index.html](https://park-up-backend-417071271046.us-central1.run.app/swagger-ui/index.html)
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 
-Durante este Sprint se realizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**. Estos despliegues permiten que ambos entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders.
+Durante este Sprint se realizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**, asi como la aplicación movil, desarrollada con Flutter. Estos despliegues permiten que los entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders.
 
+[![Team Collaboration](https://i.postimg.cc/RFmrh8ZZ/2025-06-21-16-26-50-Window.png)](https://postimg.cc/zLx2Pxhs)   
 
 
 ## 6.3. Validation Interviews
@@ -4956,7 +5003,29 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
     5:11 - ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
     Sebastián señala que, por el momento, la plataforma cubre todas sus necesidades. Explica que la información disponible le permite tomar decisiones informadas y rápidas, y no siente que falte algún dato esencial para desempeñar su labor. Añade que, si en algún momento llegara a necesitar algo extra, lo comunicaría, pero hasta ahora está satisfecho con lo que ofrece el sistema.
 
+- Tercera Entrevista:
+  ![Validation Interview Sebastian Ramirez](https://raw.githubusercontent.com/SolucionesIoT-FindAndPark-UPC/images/refs/heads/main/validation-interview-sebastian.png)
 
+  - Entrevistado: Jorge Rosales
+
+  - Residencia: Lima
+
+  - Ocupación: Encargado de parking
+
+  - Entrevistador: Eric Cuevas
+
+  - Enlace: [https://www.youtube.com/watch?v=ZQflxj-hug0]
+
+  - Resumen de la entrevista:
+    3:11 - ¿Cómo utilizas la información en tiempo real sobre el estado del estacionamiento para tomar decisiones diarias?
+    Jorge señala que es importante debido a que dependiendo del estado en el que este el estacionamiento puede tomar decisiones correspondientes a las tarifas y precios entre otras cosas.
+
+    3:40 - ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
+    Jorge indica que en el estacionamiento en que trabaja existen carros con tarifa fija que se estacionan en la noche. Vehiculos abonados que se quedan en el lugar toda la noche y se retiran en el día. Indica que la información de esto no se ve en la aplicación.
+
+    4:23 - ¿Cómo describirías la utilidad de los datos mostrados y su relevancia para tu gestión del estacionamiento?
+    Jorge señala que lo que presenta la app es muy interesante. Va a agilizar la administración en el sentido de tener mayor información sobre como es el movivmiento del negocio, para manejar precios, espacios vacios y mejorar la seguridad ya que las camaras permiten un visualizar el estado del estacionamiento.
+      
 ### 6.3.3. Evaluaciones según Heurísticas
 
 ## 6.4. Video About the Product
