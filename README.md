@@ -4827,6 +4827,31 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 6. ¿Cómo describirías la utilidad de los datos mostrados y su relevancia para tu gestión del estacionamiento?
 
 ### 6.3.2. Registro de Entrevistas
+##### Segmento 1: Conductores
+- Primera Entrevista:
+    <img src="https://i.postimg.cc/wvcwX7kV/Whats-App-Image-2025-06-21-at-12-16-38-bd17589c.jpg" alt="Conductor 1" style="width: 300px;">
+
+  - Entrevistado: Eva Revollé
+
+  - Residencia: Lima
+
+  - Ocupación: Dueña de empresa de Catering
+
+  - Entrevistadora: Ariana Vargas
+
+  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/EYWPigNyp7ZGjkvzR0AJfzwBXsCQ5a40_5WV0YdjHM-14g?e=atxlme]
+  
+  - Resumen de la entrevista:
+  00:31 - ¿Qué opinas sobre los datos que se te pidieron al registrarte? ¿Te parecieron necesarios o hubo alguno que sentiste innecesario?
+  Le parecieron todos necesarios, no sintió que se pidiera información irrelevante.
+  00:43 - ¿Cómo describirías tu experiencia general usando la app para estacionar, desde que llegaste hasta que saliste del estacionamiento?
+  Le resultó útil porque le ayudó a encontrar espacios rápidamente, sobre todo en zonas que no conocía.
+  01:10 - Durante el proceso de escaneo con QR, ¿sentiste que sabías claramente lo que tenías que hacer, o hubo algo que te generó duda o confusión?
+  Sí, entendió todo con claridad y no tuvo confusiones al usar el escáner QR.
+  01:13 - ¿Te resultó conveniente el método de pago por celular con tarjeta o preferirías otro tipo de opción?
+  Le pareció conveniente porque agiliza el proceso y no necesita usar efectivo.
+  01:25 - ¿Hubo algo en el flujo de entrada o salida del estacionamiento que te causó confusión o molestia?
+  Comentó que algunos estacionamientos pueden ser grandes y confusos si no los conoce, pero la app ayuda a ubicarse mejor.
 
 
 ##### Segmento 2: Administradores de parking
