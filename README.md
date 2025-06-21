@@ -4703,6 +4703,46 @@ El Sprint 2 tuvo como objetivo continuar con el desarrollo de funcionalidades pl
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
+###### Introducción: 
+En esta sección se presenta la evidencia de las pruebas funcionales automatizadas realizadas durante el sprint actual. Se detalla la implementación y ejecución de tests para las funcionalidades de inicio de sesión y visualización de estadísticas como administrador del sistema de estacionamiento.
+
+###### Objetivo:
+El objetivo de esta sección es validar el correcto funcionamiento de los Web Services relacionados con los User Stories del Sprint, garantizando que las funcionalidades desarrolladas cumplen con los requisitos definidos y operan de manera esperada.
+
+###### Evidencia de Pruebas Automatizadas Funcionales:
+1. Prueba de Inicio de Sesión (Login):
+
+- User Story Relacionado: "Como administrador, quiero iniciar sesión en el sistema, para acceder a las funcionalidades de gestión del estacionamiento."
+- Detalle: Se diseñó un test automatizado para validar el acceso exitoso de un administrador al sistema utilizando credenciales válidas.
+- Evidencia: El archivo login.feature describe el escenario de inicio de sesión utilizando Gherkin. Los archivos Steps y steps definitions y pages correspondientes implementan la lógica de la prueba. La ejecución de este test se completó exitosamente, confirmando la funcionalidad de inicio de sesión para el rol de administrador.
+  -  Login Feature: 
+    ![6.2.2.5-Testing-Login-Feature.PNG](assets/capitulo-6/6.2.2.5-Testing-Login-Feature.PNG)
+  -  Login Steps Definitions:
+    ![6.2.2.5-Testing-Login-Steps-Defintions.PNG](assets/capitulo-6/6.2.2.5-Testing-Login-Steps-Defintions.PNG)
+  -  Login Steps:
+    ![6.2.2.5-Testing-Login-Steps.PNG](assets/capitulo-6/6.2.2.5-Testing-Login-Steps.PNG)
+  -  Login Page:
+    ![6.2.2.5-Testing-Login-Page.PNG](assets/capitulo-6/6.2.2.5-Testing-Login-Page.PNG)
+
+1. Prueba de Visualización de Estadísticas (como Administrador):
+
+- User Story Relacionado: "Como administrador, quiero visualizar un resumen estadístico del uso del estacionamiento como menú principal, para obtener una visión general rápida del desempeño y uso del espacio."
+- Detalle: Se desarrolló una prueba automatizada para asegurar que, una vez autenticado, un administrador puede acceder y visualizar las estadísticas en tiempo real del estacionamiento de manera correcta.
+- Evidencia: Se elaboró un archivo .feature con su respectiva implementación de Steps, Steps Definitions y Pages. Esta prueba se ejecutó con éxito, verificando la adecuada presentación de las estadísticas para el administrador.
+  -  Statistics Feature: 
+     ![6.2.2.5-Testing-Statistics-Feature.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Feature.PNG)
+  -  Statistics Steps Definitions:
+     ![6.2.2.5-Testing-Statistics-Steps-Defintions.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Steps-Defintions.PNG)
+  -  Statistics Steps:
+     ![6.2.2.5-Testing-Statistics-Steps.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Steps.PNG)
+  -  Statistics Page:
+     ![6.2.2.5-Testing-Statistics-Page.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Page.PNG)
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| https://github.com/SolucionesIoT-FindAndPark-UPC/testing-park-up| main | a20b56de459dd0dfc30ca2f5167ad8cd45653a15 | feat: Add statistics feature test  | - | 21-06-2025 |
+| https://github.com/SolucionesIoT-FindAndPark-UPC/testing-park-up| main | 2ff79790b68715f55f314996b351c18c3e4fec10 | feat: Add Login Feature Test | - | 21-06-2025 |
+
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
