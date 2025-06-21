@@ -4930,6 +4930,18 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 
 ### 6.3.3. Evaluaciones según Heurísticas
 
+| # | Heurística Evaluada                         | Descripción del Problema                                                                 | Evidencia (captura o ubicación)            | Recomendación de Mejora                                                      | Severidad (0-4) |
+|---|---------------------------------------------|-------------------------------------------------------------------------------------------|---------------------------------------------|--------------------------------------------------------------------------------|------------------|
+| 1 | Claridad en la navegación                   | Algunos menús no están claramente etiquetados, lo que dificulta llegar a ciertas vistas.  | Barra lateral de navegación principal        | Usar nombres más descriptivos y agrupar funcionalidades por categorías lógicas.| 3                |
+| 2 | Visibilidad del estado del sistema          | El sistema no muestra alertas en tiempo real cuando una cámara se desconecta.            | Panel de visualización de cámaras            | Incorporar alertas visuales y sonoras cuando una cámara pierde conexión.       | 4                |
+| 3 | Reconocimiento antes que recuerdo           | Los íconos de ocupación del parking no tienen leyenda visible o tooltip.                 | Mapa de ocupación del estacionamiento        | Añadir leyendas visibles o tooltips al pasar el mouse sobre los íconos.        | 2                |
+| 4 | Control y libertad del usuario              | No es posible ajustar manualmente el estado de un espacio si hay un error en el sistema. | Módulo de control de espacios                | Agregar una opción para modificar el estado de forma manual con confirmación.  | 3                |
+| 5 | Flexibilidad y eficiencia de uso            | No se puede filtrar cámaras por ubicación o zona.                                        | Vista de cámaras                            | Incorporar filtros por zona, tipo de cámara o nivel del estacionamiento.       | 2                |
+| 6 | Utilidad de los datos para la gestión       | No se muestra histórico de ocupación para análisis diario o mensual.                     | Dashboard principal del administrador        | Incluir reportes históricos descargables o gráficos de uso por periodo.        | 3                |
+| 7 | Prevención de errores                       | Es posible borrar accidentalmente una cámara sin confirmación previa.                    | Panel de configuración de cámaras            | Añadir cuadro de confirmación antes de eliminar elementos importantes.         | 4                |
+| 8 | Consistencia y estándares                   | Algunos botones cambian de color y forma en distintas secciones.                         | Diferencias entre módulo de cámaras y mapa   | Unificar el estilo visual en toda la interfaz para evitar confusión.           | 1                |
+
+
 ## 6.4. Video About the Product
 
 
