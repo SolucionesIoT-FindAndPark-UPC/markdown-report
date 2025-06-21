@@ -5090,6 +5090,7 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 
 ## 6.4. Video About the Product
 
+Enlace del video de about the product: https://youtu.be/un8uBm6EAeo 
 
 # Conclusiones
 
@@ -5102,6 +5103,7 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 
 ## Video About-the-Team
 
+Enlace del video about the team: https://youtu.be/vcHtZZRLjJY 
 
 # Bibliografía
 
