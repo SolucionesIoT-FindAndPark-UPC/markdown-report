@@ -5052,7 +5052,7 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
     Sebastián señala que, por el momento, la plataforma cubre todas sus necesidades. Explica que la información disponible le permite tomar decisiones informadas y rápidas, y no siente que falte algún dato esencial para desempeñar su labor. Añade que, si en algún momento llegara a necesitar algo extra, lo comunicaría, pero hasta ahora está satisfecho con lo que ofrece el sistema.
 
 - Tercera Entrevista:
-  ![Validation Interview Sebastian Ramirez](https://raw.githubusercontent.com/SolucionesIoT-FindAndPark-UPC/images/refs/heads/main/validation-interview-sebastian.png)
+  ![Validation Interview Eric Cuevas](https://i.postimg.cc/qvNw7CMb/entrevista3.png)
 
   - Entrevistado: Jorge Rosales
 
