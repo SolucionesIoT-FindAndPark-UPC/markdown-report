@@ -4787,15 +4787,116 @@ Se incluye un video explicativo donde se muestra la navegación por las vistas i
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
-Durante este segundo sprint conseguimos tener avances sustanciales al momento de realizar la primera versión de nuestra aplicación móvil, debido a que, al tener las pantallas y funcionalidades bien definidas desde el principio, nos facilitó la organización de ideas y la implementación de ellas.
+Durante este segundo sprint conseguimos tener avances sustanciales al momento de realizar la aplicación móvil, debido a que, al tener las pantallas y funcionalidades bien definidas desde el principio, nos facilitó la organización de ideas y la implementación de ellas.
 
 Adicionalmente, logramos implementar el backend y edge node de la solución, lo cual nos permitió tener una base sólida para la aplicación móvil y la aplicación web. Esto fue posible gracias a la implementación de los contextos acotados de *IAM*, *Payment*, *Parking Circulation* y *Camera Feed*, que son fundamentales para el funcionamiento del sistema.
 
-Además, utilizamos las funciones colaborativas de GitHub, las cuales nos beneficiaron en la cooperación entre todos los participantes. Esto tuvo como resultado una implementación eficiente y sin complicaciones, lo cual permitió que todos puedan visualizar cada cambio y el progreso realizado.
+Se documentan los siguientes endpoints desplegados en nuestro backend:
 
+Camera Feed : Post
+![https://i.postimg.cc/RZXCsjLn/camerafeed-post.png](https://i.postimg.cc/RZXCsjLn/camerafeed-post.png)
+
+Camera Feed : Get
+![https://i.postimg.cc/VsrSSLBZ/camerafeed-get.png](https://i.postimg.cc/VsrSSLBZ/camerafeed-get.png)
+
+Payment: Post
+![https://i.postimg.cc/cJBCSvW6/payment-post.png](https://i.postimg.cc/cJBCSvW6/payment-post.png)
+
+Payment: Get by userId
+![https://i.postimg.cc/K8Ktxrpj/payment-get.png](https://i.postimg.cc/K8Ktxrpj/payment-get.png)
+
+Credit Card: Post
+![https://i.postimg.cc/XqcQKc64/creditcard-post.png](https://i.postimg.cc/XqcQKc64/creditcard-post.png)
+
+Credit Card: Delete
+![https://i.postimg.cc/sgyRRwg9/creditcard-delete.png](https://i.postimg.cc/sgyRRwg9/creditcard-delete.png)
+
+Credit Card: Get by creditCardId
+![https://i.postimg.cc/J06RhXY4/creditcard-get1.png](https://i.postimg.cc/J06RhXY4/creditcard-get1.png)
+
+Credit Card: Get by userId
+![https://i.postimg.cc/yYjZFptk/creditcard-getbyuserid.png](https://i.postimg.cc/yYjZFptk/creditcard-getbyuserid.png)
+
+Users: Get
+![https://i.postimg.cc/pryBwNgc/users-get.png](https://i.postimg.cc/pryBwNgc/users-get.png)  
+
+Parking Circulation - Vehicles: Get
+![https://i.postimg.cc/6p8Ddgq0/parking-get.png](https://i.postimg.cc/6p8Ddgq0/parking-get.png)  
+
+Parking Circulation - Vehicles: Post
+![https://i.postimg.cc/Gp8dm9vb/parking-postvehicle.png](https://i.postimg.cc/Gp8dm9vb/parking-postvehicle.png)  
+
+Parking Circulation - Circulation: Post plate
+![https://i.postimg.cc/pLHrmfqq/parking-processplatepost.png](https://i.postimg.cc/pLHrmfqq/parking-processplatepost.png)  
+
+Parking Circulation - Circulation: Get history
+![https://i.postimg.cc/fyPWWXkj/parkinghistory-get.png](https://i.postimg.cc/fyPWWXkj/parkinghistory-get.png)  
+  
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
+  
+Durante este Sprint se actualizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, la aplicación web, desarrollada en Angular y desplegada en **Netlify**, y la applicación movil la cual fue desarrollada con Flutter. 
+  
+##### GitHub Pages – Landing Page
+
+Para el despliegue de la Landing Page se realizaron los siguientes pasos:
+
+1. Se creó un repositorio en GitHub bajo la organización del proyecto.  
+2. Se configuró la rama principal con el contenido del sitio estático en Angular.  
+3. Se habilitó GitHub Pages desde la configuración del repositorio, seleccionando la carpeta `/dist` como fuente de despliegue.  
+4. Se verificó el enlace público generado por GitHub y se realizaron pruebas de navegación.
+
+[![Despliegue GitHub Pages 1](https://i.postimg.cc/d0drrTb1/Whats-App-Image-2025-05-16-at-12-30-14-f02b10ef.jpg)](https://postimg.cc/06kzqr2R)  
+*Captura de la sección "Pages" en GitHub, donde se habilita el despliegue desde la rama seleccionada.*
+
+[![Despliegue GitHub Pages 2](https://i.postimg.cc/fRS9Q9TK/Whats-App-Image-2025-05-16-at-12-30-23-a32c0999.jpg)](https://postimg.cc/VJ16j5tr)  
+*Configuración del repositorio con los archivos de la Landing Page ya compilados y listos para producción.*
+
+##### Netlify – Aplicación Web
+
+La aplicación fue desplegada en Netlify mediante los siguientes pasos:
+
+1. Se creó una cuenta de equipo en Netlify y se vinculó con el repositorio de GitHub.  
+2. Se configuró el flujo de integración continua para que Netlify realice el build automático al hacer push.  
+3. Se especificaron los comandos de build (`ng build`) y la carpeta de salida (`/dist`).  
+4. Se monitorearon los logs de despliegue y se verificó el acceso al sitio web generado.
+
+[![Configuración en Netlify 1](https://i.postimg.cc/j5twf36g/Whats-App-Image-2025-05-16-at-12-30-33-9c691cb6.jpg)](https://postimg.cc/yJp84Pbc)  
+*Vista general del proyecto conectado desde GitHub en la plataforma Netlify.*
+
+[![Configuración en Netlify 2](https://i.postimg.cc/65y7CvRX/Whats-App-Image-2025-05-16-at-12-30-50-753523f9.jpg)](https://postimg.cc/qzHMTgjb)  
+*Parámetros configurados para el build automático, incluyendo comandos y carpeta de publicación.*
+
+[![Confirmación de Build](https://i.postimg.cc/s2RvFHLj/Whats-App-Image-2025-05-16-at-12-32-05-cf087a6d.jpg)](https://postimg.cc/ts2XWkyw)  
+*Historial del despliegue mostrando un build exitoso en la consola de Netlify.*
+
+[![Deploy final y dominio](https://i.postimg.cc/R0QqvQrc/Whats-App-Image-2025-05-16-at-12-32-16-001711db.jpg)](https://postimg.cc/06j9fSyQ)  
+*Sitio final activo con URL pública asignada por Netlify.*
+
+##### Android - Aplicación Movil
+
+Se genero a partir de la aplicación movil un apk que permite la instalación de esta aplicación en dispositivos moviles.
+  
+[![Generación de APK](https://i.postimg.cc/gcTr1kTq/apk-generation.jpg)](https://postimg.cc/CdbFqYYz)  
+
+##### Google Cloud - Backend
+
+Se realizo el despliegue del backend del proyecto por medio de Google Cloud. Por medio de este se realizara la integración de los servicios los las pantallas de la aplicación.
+
+[![Backend Desplegado](https://i.postimg.cc/N0mQD1Wn/2025-06-21-17-37-15-Window.png)](https://postimg.cc/Y42cqm2N)  
+
+### Enlaces a los despliegues  
+  
+- Landing Page: [https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page](https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page)  
+- Aplicación Web: [https://parkup-webapp.netlify.app](https://parkup-webapp.netlify.app)
+- Aplicación Movil: [https://drive.google.com/file/d/1oWTy5c9eQTl9Ehjmn6LZVAW97v2JmY3C/view?usp=sharing](https://drive.google.com/file/d/1oWTy5c9eQTl9Ehjmn6LZVAW97v2JmY3C/view?usp=sharing)  
+- Backend: [https://park-up-backend-417071271046.us-central1.run.app/swagger-ui/index.html](https://park-up-backend-417071271046.us-central1.run.app/swagger-ui/index.html)
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
+
+Durante este Sprint se realizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**, asi como la aplicación movil, desarrollada con Flutter. Estos despliegues permiten que los entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders.
+
+[![Team Collaboration](https://i.postimg.cc/RFmrh8ZZ/2025-06-21-16-26-50-Window.png)](https://postimg.cc/zLx2Pxhs)   
+
 
 ## 6.3. Validation Interviews
 Para validar las funcionalidades del sistema y su ajuste a las necesidades reales de los usuarios, se realizaron entrevistas estructuradas a dos perfiles clave: conductores (usuarios móviles) y administradores de estacionamientos (usuarios de la plataforma web). Estas entrevistas forman parte del enfoque de diseño centrado en el usuario y buscan identificar fricciones, confirmar decisiones de diseño y detectar mejoras antes del despliegue.
@@ -4928,7 +5029,7 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
     El entrevistado indica que no considera que falte ningún dato esencial en la plataforma. Señala que está conforme con toda la información que se ofrece actualmente, ya que cubre sus necesidades y le permite tomar decisiones informadas sin inconvenientes.
 
 - Segunda Entrevista:
-  ![Validation Interview Sebastian Ramirez](https://private-user-images.githubusercontent.com/165408949/457591108-18ced8a9-f48c-4770-8e7d-5341799901b5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA1MjIxMzUsIm5iZiI6MTc1MDUyMTgzNSwicGF0aCI6Ii8xNjU0MDg5NDkvNDU3NTkxMTA4LTE4Y2VkOGE5LWY0OGMtNDc3MC04ZTdkLTUzNDE3OTk5MDFiNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyMVQxNjAzNTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jOGNjNzllOGMxNWEyNWUzYmRiMDYxZDRmYWM0NjAxYjEyYzExYTRlMWZkODhmNzQyMDZkOWU0NTJiMWM0YjM4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.05AhPDYXeKMJKmkTYb0Pv9hlUx1MGpQ3DqAQ9-f5zRY)
+  ![Validation Interview Sebastian Ramirez](https://raw.githubusercontent.com/SolucionesIoT-FindAndPark-UPC/images/refs/heads/main/validation-interview-sebastian.png)
 
   - Entrevistado: Sebastián Ramirez Hoffmann
 
@@ -4950,7 +5051,29 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
     5:11 - ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
     Sebastián señala que, por el momento, la plataforma cubre todas sus necesidades. Explica que la información disponible le permite tomar decisiones informadas y rápidas, y no siente que falte algún dato esencial para desempeñar su labor. Añade que, si en algún momento llegara a necesitar algo extra, lo comunicaría, pero hasta ahora está satisfecho con lo que ofrece el sistema.
 
+- Tercera Entrevista:
+  ![Validation Interview Sebastian Ramirez](https://raw.githubusercontent.com/SolucionesIoT-FindAndPark-UPC/images/refs/heads/main/validation-interview-sebastian.png)
 
+  - Entrevistado: Jorge Rosales
+
+  - Residencia: Lima
+
+  - Ocupación: Encargado de parking
+
+  - Entrevistador: Eric Cuevas
+
+  - Enlace: [https://www.youtube.com/watch?v=ZQflxj-hug0]
+
+  - Resumen de la entrevista:
+    3:11 - ¿Cómo utilizas la información en tiempo real sobre el estado del estacionamiento para tomar decisiones diarias?
+    Jorge señala que es importante debido a que dependiendo del estado en el que este el estacionamiento puede tomar decisiones correspondientes a las tarifas y precios entre otras cosas.
+
+    3:40 - ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
+    Jorge indica que en el estacionamiento en que trabaja existen carros con tarifa fija que se estacionan en la noche. Vehiculos abonados que se quedan en el lugar toda la noche y se retiran en el día. Indica que la información de esto no se ve en la aplicación.
+
+    4:23 - ¿Cómo describirías la utilidad de los datos mostrados y su relevancia para tu gestión del estacionamiento?
+    Jorge señala que lo que presenta la app es muy interesante. Va a agilizar la administración en el sentido de tener mayor información sobre como es el movivmiento del negocio, para manejar precios, espacios vacios y mejorar la seguridad ya que las camaras permiten un visualizar el estado del estacionamiento.
+      
 ### 6.3.3. Evaluaciones según Heurísticas
 
 | # | Heurística Evaluada                         | Descripción del Problema                                                                 | Evidencia (captura o ubicación)            | Recomendación de Mejora                                                      | Severidad (0-4) |
