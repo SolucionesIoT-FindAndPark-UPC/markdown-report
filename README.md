@@ -4864,7 +4864,7 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 
   - Entrevistadora: Julio Elsner
 
-  - Enlace: [https://upcedupe-my.sharepoint.com/personal/u202111654_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202111654%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20IOT%2FVideo%20Conductor%201%20Julio%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee43d311f%2D3ac1%2D4444%2D9012%2D13ff51347562]
+  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111654_upc_edu_pe/EZDTyJSZ1pxOnZUNhLZwEEUBarRdZwhkGYGuh7FHFbEfbA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xpZTrP]
 
   - Resumen de la entrevista:
     2:30 - ¿Qué opinas sobre los datos que se te pidieron al registrarte? ¿Te parecieron necesarios o hubo alguno que sentiste innecesario?
@@ -4888,7 +4888,7 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 
   - Entrevistadora: Julio Elsner
 
-  - Enlace: [https://upcedupe-my.sharepoint.com/personal/u202111654_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202111654%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20IOT%2FVideo%20Conductor%202%20Julio%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E56401d33%2D12f8%2D4776%2D9373%2D086fadf679a8]
+  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111654_upc_edu_pe/ERv74CMznQNBmps6QESpil8BCM97sbs3pvblLFFrt27R-w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2IOgd6]
 
   - Resumen de la entrevista:
     
