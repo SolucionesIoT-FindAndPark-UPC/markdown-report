@@ -4855,7 +4855,7 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
     El entrevistado indica que no considera que falte ningún dato esencial en la plataforma. Señala que está conforme con toda la información que se ofrece actualmente, ya que cubre sus necesidades y le permite tomar decisiones informadas sin inconvenientes.
 
 - Segunda Entrevista:
-  ![Validation Interview Sebastian Ramirez](https://private-user-images.githubusercontent.com/165408949/457591108-18ced8a9-f48c-4770-8e7d-5341799901b5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA1MjIxMzUsIm5iZiI6MTc1MDUyMTgzNSwicGF0aCI6Ii8xNjU0MDg5NDkvNDU3NTkxMTA4LTE4Y2VkOGE5LWY0OGMtNDc3MC04ZTdkLTUzNDE3OTk5MDFiNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyMVQxNjAzNTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jOGNjNzllOGMxNWEyNWUzYmRiMDYxZDRmYWM0NjAxYjEyYzExYTRlMWZkODhmNzQyMDZkOWU0NTJiMWM0YjM4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.05AhPDYXeKMJKmkTYb0Pv9hlUx1MGpQ3DqAQ9-f5zRY)
+  ![Validation Interview Sebastian Ramirez](https://raw.githubusercontent.com/SolucionesIoT-FindAndPark-UPC/images/refs/heads/main/validation-interview-sebastian.png)
 
   - Entrevistado: Sebastián Ramirez Hoffmann
 
