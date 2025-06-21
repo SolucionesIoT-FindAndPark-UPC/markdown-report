@@ -4714,8 +4714,9 @@ Se genero a paritr de la aplicación movil un apk que permite la instalación de
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 
-Durante este Sprint se realizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**. Estos despliegues permiten que ambos entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders.
+Durante este Sprint se realizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**, asi como la aplicación movil, desarrollada con Flutter. Estos despliegues permiten que los entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders.
 
+[![Team Collaboration](https://i.postimg.cc/RFmrh8ZZ/2025-06-21-16-26-50-Window.png)](https://postimg.cc/zLx2Pxhs)   
 
 
 ## 6.3. Validation Interviews
