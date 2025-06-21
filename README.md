@@ -4957,7 +4957,29 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
     5:11 - ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
     Sebastián señala que, por el momento, la plataforma cubre todas sus necesidades. Explica que la información disponible le permite tomar decisiones informadas y rápidas, y no siente que falte algún dato esencial para desempeñar su labor. Añade que, si en algún momento llegara a necesitar algo extra, lo comunicaría, pero hasta ahora está satisfecho con lo que ofrece el sistema.
 
+- Tercera Entrevista:
+  ![Validation Interview Sebastian Ramirez](https://raw.githubusercontent.com/SolucionesIoT-FindAndPark-UPC/images/refs/heads/main/validation-interview-sebastian.png)
 
+  - Entrevistado: Jorge Rosales
+
+  - Residencia: Lima
+
+  - Ocupación: Encargado de parking
+
+  - Entrevistador: Eric Cuevas
+
+  - Enlace: [https://www.youtube.com/watch?v=ZQflxj-hug0]
+
+  - Resumen de la entrevista:
+    3:11 - ¿Cómo utilizas la información en tiempo real sobre el estado del estacionamiento para tomar decisiones diarias?
+    Jorge señala que es importante debido a que dependiendo del estado en el que este el estacionamiento puede tomar decisiones correspondientes a las tarifas y precios entre otras cosas.
+
+    3:40 - ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
+    Jorge indica que en el estacionamiento en que trabaja existen carros con tarifa fija que se estacionan en la noche. Vehiculos abonados que se quedan en el lugar toda la noche y se retiran en el día. Indica que la información de esto no se ve en la aplicación.
+
+    4:23 - ¿Cómo describirías la utilidad de los datos mostrados y su relevancia para tu gestión del estacionamiento?
+    Jorge señala que lo que presenta la app es muy interesante. Va a agilizar la administración en el sentido de tener mayor información sobre como es el movivmiento del negocio, para manejar precios, espacios vacios y mejorar la seguridad ya que las camaras permiten un visualizar el estado del estacionamiento.
+      
 ### 6.3.3. Evaluaciones según Heurísticas
 
 ## 6.4. Video About the Product
