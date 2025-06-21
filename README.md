@@ -4757,6 +4757,7 @@ Para validar las funcionalidades del sistema y su ajuste a las necesidades reale
 El guion se basó en hipótesis previas y en atributos de calidad como usabilidad, eficiencia y precisión. Las preguntas, de tipo cualitativo, permiten obtener percepciones detalladas sobre la experiencia de uso, la claridad de las interfaces y la utilidad de las funciones y datos presentados.
 
 Involucrar ambos perfiles permite evaluar la solución desde la experiencia individual del usuario y la gestión operativa. Además, las entrevistas ayudan a detectar problemas no previstos y a proponer mejoras que reduzcan el riesgo de baja adopción del sistema.
+
 ### 6.3.1. Diseño de Entrevistas
 
 ##### Entrevistas a Conductores
@@ -4780,6 +4781,32 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 6. ¿Cómo describirías la utilidad de los datos mostrados y su relevancia para tu gestión del estacionamiento?
 
 ### 6.3.2. Registro de Entrevistas
+
+
+##### Segmento 2: Administradores de parking
+
+- Primera Entrevista:
+  ![assets/capitulo-6/6.3.2-Entrevista-Administrador-1.PNG](assets/capitulo-6/6.3.2-Entrevista-Administrador-1.PNG)
+  
+  - Entrevistado: Alfredo Lozano
+  
+  - Residencia: Lima
+  
+  - Ocupación: Seguridad de Parking
+  
+  - Entrevistadora: Lucero Obispo
+  
+  - Enlace: [https://www.youtube.com/watch?v=X8_Dxt-xQq4]
+  
+  - Resumen de la entrevista:
+    0:30 - ¿Consideras que la navegación es intuitiva y fácil de entender?
+    El entrevistado afirma estar completamente de acuerdo. Señala que la navegación le resultó muy intuitiva y fácil de entender desde el primer uso. Considera que la experiencia general es fluida, lo cual facilita el acceso a las funciones principales sin dificultades.
+
+    1:13 - ¿Cómo utilizas la información en tiempo real sobre el estado del estacionamiento para tomar decisiones diarias?
+    El entrevistado menciona que está totalmente de acuerdo con la utilidad de esta información. Explica que la utiliza constantemente para decidir a qué hora salir o qué zona elegir para estacionar, lo cual le permite ahorrar tiempo y evitar zonas congestionadas, optimizando así sus rutas diarias y además evitando errores.
+
+    0:57 - ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
+    El entrevistado indica que no considera que falte ningún dato esencial en la plataforma. Señala que está conforme con toda la información que se ofrece actualmente, ya que cubre sus necesidades y le permite tomar decisiones informadas sin inconvenientes.
 
 ### 6.3.3. Evaluaciones según Heurísticas
 
