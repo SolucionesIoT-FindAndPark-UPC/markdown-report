@@ -4785,6 +4785,12 @@ Por otro lado, la **Landing Page** del proyecto ha sido alojada mediante GitHub 
 Se incluye un video explicativo donde se muestra la navegación por las vistas implementadas, explicando las funcionalidades alcanzadas durante el Sprint.:
 🔗 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/ETToi6vRrZVKrhDozFv9wDMBPkZsmpQTrd9aM21_HYkBBg?e=Zoe2mc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
+Finalmente, tenemos el **Backend** del proyecto que ha sido alojado con GCP Cloud Run (Google Cloud). Todo posible mediante dockerización y publicación del proyecto a la plataforma:
+
+![img_17.png](img_17.png)
+
+Link del backend: 🔗 https://park-up-backend-417071271046.us-central1.run.app/swagger-ui/index.html
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
 Durante este segundo sprint conseguimos tener avances sustanciales al momento de realizar la aplicación móvil, debido a que, al tener las pantallas y funcionalidades bien definidas desde el principio, nos facilitó la organización de ideas y la implementación de ellas.
