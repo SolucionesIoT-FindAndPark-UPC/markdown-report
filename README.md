@@ -4833,17 +4833,17 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 
 - Primera Entrevista:
   ![assets/capitulo-6/6.3.2-Entrevista-Administrador-1.PNG](assets/capitulo-6/6.3.2-Entrevista-Administrador-1.PNG)
-  
+
   - Entrevistado: Alfredo Lozano
-  
+
   - Residencia: Lima
-  
+
   - Ocupación: Seguridad de Parking
-  
+
   - Entrevistadora: Lucero Obispo
-  
+
   - Enlace: [https://www.youtube.com/watch?v=X8_Dxt-xQq4]
-  
+
   - Resumen de la entrevista:
     0:30 - ¿Consideras que la navegación es intuitiva y fácil de entender?
     El entrevistado afirma estar completamente de acuerdo. Señala que la navegación le resultó muy intuitiva y fácil de entender desde el primer uso. Considera que la experiencia general es fluida, lo cual facilita el acceso a las funciones principales sin dificultades.
@@ -4853,6 +4853,30 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 
     0:57 - ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
     El entrevistado indica que no considera que falte ningún dato esencial en la plataforma. Señala que está conforme con toda la información que se ofrece actualmente, ya que cubre sus necesidades y le permite tomar decisiones informadas sin inconvenientes.
+
+- Segunda Entrevista:
+  ![Validation Interview Sebastian Ramirez](https://private-user-images.githubusercontent.com/165408949/457591108-18ced8a9-f48c-4770-8e7d-5341799901b5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTA1MjIxMzUsIm5iZiI6MTc1MDUyMTgzNSwicGF0aCI6Ii8xNjU0MDg5NDkvNDU3NTkxMTA4LTE4Y2VkOGE5LWY0OGMtNDc3MC04ZTdkLTUzNDE3OTk5MDFiNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYyMVQxNjAzNTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jOGNjNzllOGMxNWEyNWUzYmRiMDYxZDRmYWM0NjAxYjEyYzExYTRlMWZkODhmNzQyMDZkOWU0NTJiMWM0YjM4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.05AhPDYXeKMJKmkTYb0Pv9hlUx1MGpQ3DqAQ9-f5zRY)
+
+  - Entrevistado: Sebastián Ramirez Hoffmann
+
+  - Residencia: Lima
+
+  - Ocupación: Seguridad de Parking
+
+  - Entrevistador: Luis Herrera
+
+  - Enlace: [https://www.youtube.com/watch?v=X8_Dxt-xQq4]
+
+  - Resumen de la entrevista:
+    2:24 - ¿Consideras que la navegación es intuitiva y fácil de entender?
+    Sebastián expresa, sin dudar, que la plataforma le resultó muy sencilla desde el primer momento. Para él, la experiencia es muy fluida, permitiéndole encontrar rápidamente las opciones que necesita sin perder tiempo. Incluso menciona que no tuvo que pedir ayuda ni revisar instrucciones adicionales; la navegación es, en sus palabras, “bastante amigable”.
+
+    3:50 - ¿Cómo utilizas la información en tiempo real sobre el estado del estacionamiento para tomar decisiones diarias?
+    Al ser consultado sobre la utilidad de los datos en tiempo real, Sebastián resalta que este aspecto ha hecho que su trabajo diario sea mucho más eficiente. Gracias a la actualización constante del estado del estacionamiento, puede anticipar en qué momento es mejor hacer recorridos o supervisar ciertas zonas. Así, evita las áreas de mayor congestión y puede gestionar mejor sus tiempos durante el turno.
+
+    5:11 - ¿Hay algún tipo de dato o métrica que consideras esencial y que actualmente no está disponible en la plataforma?
+    Sebastián señala que, por el momento, la plataforma cubre todas sus necesidades. Explica que la información disponible le permite tomar decisiones informadas y rápidas, y no siente que falte algún dato esencial para desempeñar su labor. Añade que, si en algún momento llegara a necesitar algo extra, lo comunicaría, pero hasta ahora está satisfecho con lo que ofrece el sistema.
+
 
 ### 6.3.3. Evaluaciones según Heurísticas
 
