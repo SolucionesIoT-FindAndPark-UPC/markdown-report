@@ -4701,6 +4701,27 @@ El Sprint 2 tuvo como objetivo continuar con el desarrollo de funcionalidades pl
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 
+A continuación se presenta la evidencia de desarrollo generada durante el Sprint. Se incluyen los commits realizados por el equipo en los distintos branches de desarrollo, especificando los mensajes de commit, ramas funcionales, repositorios utilizados y fechas. Esta evidencia respalda la trazabilidad del avance en los distintos componentes de la solución.
+
+| Repository                               | Branch                   | Commit ID                                | Commit Message                                                | Committed On | 
+|:-----------------------------------------|:-------------------------|:-----------------------------------------|:--------------------------------------------------------------|:-------------|
+| SolucionesIoT-FindAndPark-UPC mobile-app | main                     | d8cf6fb69138a285bb078ed0b2aeae09ac81546d | feat: Add Project Structure                                   | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/menu                | f54ed5fde1619da48fae4e935a2a9c8278b9637d | feat: Add menu screens                                        | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | da8ffee79da4622ee238d3a8ba92f30720186c16 | feat: Add Scan QR screen                                      | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 53544be1fefe5e197727d6642536de0190c9d546 | feat: Add parking detail screen                               | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 0cc526b517700cfef262ae73c18d947df7c30843 | feat: Add exit confirmation screen                            | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 80c95dfda0e3fd3af5be2e6170a008e6942c7a43 | fix: Change logo app icon                                     | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | 0defbb95e1b8db51b6e78211741a2fb3ecebbcd6 | feat: Add LogoutConfirmationScreen and VoucherScanner         | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | cbf887b04eda01681af489a4d68a0732c4980d6b | feat: Add payment details screen                              | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | 8906ce1e00b8367aea26c078ddcb33101f8d0ac7 | chore: Adjust responsiveness                                  | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | iam-payment              | 00f26c87e8650de6816e9a48254476765f0f9b45 | feat(iam-payment): implement IAM and Payment bounded contexts | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC backend    | iam-payment              | 61833abae401fb207816f4a4c601dadba89fa5b3 | feat(iam-payment): add iam and payment bounded contexts       | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/parking-circulation | 83f18ad71f3a6532429a44d7c68729204d223344 | feat: implement parking circulation bounded context           | Jun 19, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | 68b51381e33cf67de409d259f410a56505f41dd3 | feat: Implement camerafeed bounded context                    | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | add8e953513e5a5d2eedd12a0759b3dd54c3ff6b | fix: misplaced decorator in file VehicleRepository.           | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/parking-circulation | 405038d70fd372583179ea17349b923dff3d6bd9 | chore: remove temporal .gitkeeps.                             | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | 405038d70fd372583179ea17349b923dff3d6bd9 | chore: remove temporal .gitkeeps (camerafeed).                | Jun 20, 2025 |
+
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
 ###### Introducción: 
@@ -4745,7 +4766,32 @@ El objetivo de esta sección es validar el correcto funcionamiento de los Web Se
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
+Para el logro de este proyecto, se realizó el despliegue de la Base de Datos y la compilación de la aplicación móvil, y se mejoró la Landing Page y la aplicación web.
+
+La **Aplicación Web**, desarrollada en Angular, ha sido desplegada utilizando Netlify, una plataforma que facilita el alojamiento de aplicaciones modernas al permitir integración continua, despliegue automatizado y entrega optimizada de contenido estático y dinámico. Gracias a esta herramienta, se garantiza un acceso rápido, seguro y confiable a la solución. Puedes acceder a la aplicación mediante el siguiente enlace:
+🔗 https://parkup-webapp.netlify.app
+
+<a href="https://ibb.co/XrcqTbPy"><img src="https://i.ibb.co/hJ3SvyNX/webevidence-allotment.png" alt="webevidence-allotment" border="0"></a>
+
+<a href="https://ibb.co/V0WSzKF7"><img src="https://i.ibb.co/WNWyMTrb/webevidence-register.png" alt="webevidence-register" border="0"></a>
+
+<a href="https://ibb.co/Lzd49dFR"><img src="https://i.ibb.co/Z6zyczjX/webevidence-login.png" alt="webevidence-login" border="0"></a>
+
+Por otro lado, la **Landing Page** del proyecto ha sido alojada mediante GitHub Pages, un servicio gratuito que permite la publicación de sitios estáticos directamente desde un repositorio. Esta elección se hizo por su sencillez, integración nativa con GitHub y eficiencia para mostrar contenido informativo de forma ligera:
+🔗 https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page
+
+<a href="https://ibb.co/m5hxdvvM"><img src="https://i.ibb.co/TMPCJKKF/landing-deploy.png" alt="landing-deploy" border="0"></a>
+
+Se incluye un video explicativo donde se muestra la navegación por las vistas implementadas, explicando las funcionalidades alcanzadas durante el Sprint.:
+🔗 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/ETToi6vRrZVKrhDozFv9wDMBPkZsmpQTrd9aM21_HYkBBg?e=Zoe2mc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+Durante este segundo sprint conseguimos tener avances sustanciales al momento de realizar la primera versión de nuestra aplicación móvil, debido a que, al tener las pantallas y funcionalidades bien definidas desde el principio, nos facilitó la organización de ideas y la implementación de ellas.
+
+Adicionalmente, logramos implementar el backend y edge node de la solución, lo cual nos permitió tener una base sólida para la aplicación móvil y la aplicación web. Esto fue posible gracias a la implementación de los contextos acotados de *IAM*, *Payment*, *Parking Circulation* y *Camera Feed*, que son fundamentales para el funcionamiento del sistema.
+
+Además, utilizamos las funciones colaborativas de GitHub, las cuales nos beneficiaron en la cooperación entre todos los participantes. Esto tuvo como resultado una implementación eficiente y sin complicaciones, lo cual permitió que todos puedan visualizar cada cambio y el progreso realizado.
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
