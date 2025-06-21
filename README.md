@@ -180,6 +180,12 @@
 # Student Outcome
 
 <div align="justify">
+    
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 5**
+
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos. En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del *ABET – EAC - Student Outcome 5.*
 
 | Criterio específico                                                                             | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -210,13 +216,14 @@ Convertirnos en la plataforma líder de estacionamiento inteligente en Perú, si
 
 ### 1.1.2. Perfiles de integrantes del equipo 
 
-| Foto                                                                                                                                                                                                                                                                                                      | Perfil de Integrante                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" width="100" height="100"/></p>                                                                                                                                                                 | **Obispo Rios, Lucero Abigail**  <br> *U202111465 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.                                                                                                      |
-| <p align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQF0q82dzd577g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719029164195?e=1750896000&v=beta&t=XNTeNX_6dSYIsI75WWHmmJjOHW5Wr0RaHyLkeVk32oc" alt="Foto de integrante 2" width="100" height="100"/></p> | **Vargas Revollé, Ariana**  <br> *U20221A928 - Ingeniería de Software*  <br> <br>  Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas.                                                                                                                                                                                           |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 3" width="100" height="130"/></p>                                                                                                                                                                 | **Cuevas Rios, Eric Fernando**  <br> *U202112766 - Ingeniería de Software*  <br> <br> Soy capaz de brindar mi experiencia en redacción, diseño de soluciones y programación movil para ayudar a obtener las metas del grupo. Además, soy bueno brindando puntualidad y organización a los proyectos de los que tomo parte, lo que espero sirva al resto de mis compañeros de equipo. <br>                                                                       |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-4.jpg" alt="Foto de integrante 4" width="100" height="110"/></p>                                                                                                                                                                 | **Elsner De La Torre Ugarte, Julio Esteban**  <br> *U202111654 - Ingeniería de Software*  <br> <br> Para este proyecto, puedo aportar con habilidades de indagación y pensamiento crítico, diseño de prototipo en Figma y programación back-End. Añadido a esto, estoy me es grato poder aprender de mis demás compañeros y de sus habilidades individuales. Me considero una persona responsable y que cumple con los plazos establecidos en una entrega. <br> |
-| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-5.png" alt="Foto de integrante 5" width="100" height="100"/></p>                                                                                                                                                                 | **Herrera González, Luis Eduardo**  <br> *U202218227 - Ingeniería de Software*  <br> <br> Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software. Me apasiona el desarrollo de aplicaciones web y de escritorio eficientes, utilizando tecnologías modernas como Bun, Tauri y Lit. También cuento con experiencia en frameworks ampliamente adoptados como Next.js, Angular y Spring Boot. Además, tengo un gran interés en el área de Machine Learning, trabajando con CUDA, C++ y MLX para crear soluciones de alto rendimiento. Me considero una persona curiosa, enfocada en la innovación tecnológica y comprometida a aportar mis habilidades técnicas para el éxito del equipo.                                                                                                                                                                                                                                                                                                                                                                      |
+| Foto | Perfil de Integrante |
+|------|----------------------|
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-1.PNG" alt="Foto de integrante 1" style="width: 500px; "/></p> | <div style="min-height: 220px"><strong>Obispo Rios, Lucero Abigail</strong>  <br> <em>U202111465 - Ingeniería de Software</em>  <br><br> Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesta a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.</div> |
+| <p align="center"><img src="https://media.licdn.com/dms/image/v2/D5603AQF0q82dzd577g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719029164195?e=1750896000&v=beta&t=XNTeNX_6dSYIsI75WWHmmJjOHW5Wr0RaHyLkeVk32oc" alt="Foto de integrante 2" style="width: 500px; "/></p> | <div style="min-height: 220px"><strong>Vargas Revollé, Ariana</strong>  <br> <em>U20221A928 - Ingeniería de Software</em>  <br><br> Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas.</div> |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-3.jpg" alt="Foto de integrante 3" style="width: 500px; "/></p> | <div style="min-height: 220px"><strong>Cuevas Rios, Eric Fernando</strong>  <br> <em>U202112766 - Ingeniería de Software</em>  <br><br> Soy capaz de brindar mi experiencia en redacción, diseño de soluciones y programación móvil para ayudar a obtener las metas del grupo. Además, soy bueno brindando puntualidad y organización a los proyectos de los que tomo parte, lo que espero sirva al resto de mis compañeros de equipo.</div> |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-4.jpg" alt="Foto de integrante 4" style="width: 500px; "/></p> | <div style="min-height: 220px"><strong>Elsner De La Torre Ugarte, Julio Esteban</strong>  <br> <em>U202111654 - Ingeniería de Software</em>  <br><br> Para este proyecto, puedo aportar con habilidades de indagación y pensamiento crítico, diseño de prototipo en Figma y programación back-End. Añadido a esto, me es grato poder aprender de mis demás compañeros y de sus habilidades individuales. Me considero una persona responsable y que cumple con los plazos establecidos en una entrega.</div> |
+| <p align="center"><img src="assets/capitulo-1/1.1.2-Perfiles-Integrantes-5.png" alt="Foto de integrante 5" style="width: 500px; "/></p> | <div style="min-height: 220px"><strong>Herrera González, Luis Eduardo</strong>  <br> <em>U202218227 - Ingeniería de Software</em>  <br><br> Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software. Me apasiona el desarrollo de aplicaciones web y de escritorio eficientes, utilizando tecnologías modernas como Bun, Tauri y Lit. También cuento con experiencia en frameworks ampliamente adoptados como Next.js, Angular y Spring Boot. Además, tengo un gran interés en el área de Machine Learning, trabajando con CUDA, C++ y MLX para crear soluciones de alto rendimiento. Me considero una persona curiosa, enfocada en la innovación tecnológica y comprometida a aportar mis habilidades técnicas para el éxito del equipo.</div> |
+                                        
 
 
 ## 1.2. Solution Profile
@@ -334,18 +341,9 @@ Creemos que los usuarios valorarán altamente la experiencia de estacionamiento 
 Sabremos que hemos tenido éxito cuando al menos el 70% de usuarios completen el flujo completo sin necesidad de asistencia manual, y reporten una experiencia positiva en encuestas de satisfacción.
 
 #### 1.2.2.4. Lean UX Canvas
-
-| **Sección**    | **Contenido**  |
-|-----------------------------|----------------------------|
-| **1. Problema del negocio** | El proceso de estacionamiento en ciudades como Lima es manual, lento y poco eficiente. Los usuarios pierden tiempo en colas, tickets físicos y pagos manuales. Los operadores tienen operaciones costosas y desactualizadas. |
-| **2. Resultados del negocio** | - Reducir tiempo de ingreso y salida.<br>- Aumentar adopción del sistema.<br>- Generar ingresos por comisiones y planes B2B.<br>- Optimizar operaciones de operadores.<br>- Ser líderes en estacionamiento inteligente en Perú. |
-| **3. Usuarios**             | Segmento 1: Conductores urbanos (20-45 años) que usan apps, buscan rapidez y prefieren experiencias sin contacto.<br>Segmento 2: Operadores de estacionamiento que buscan digitalizar sus servicios y reducir costos. |
-| **4. Beneficios para el usuario** | - No necesita sacar su celular después del escaneo inicial.<br>- Flujo de estacionamiento sin contacto.<br>- Elimina tickets y pagos físicos.<br>- Ahorro de tiempo.<br>- Mayor seguridad y control. |
-| **5. Ideas de solución**    | - App con escaneo QR y vinculación a placa.<br>- Lectura automática de placas.<br>- Confirmación de estacionamiento automatizada.<br>- Pagos digitales o automáticos.<br>- Dashboard para operadores. |
-| **6. Hipótesis**            | - Los usuarios valorarán la experiencia sin contacto.<br>- Los operadores buscarán modernizar su operación.<br>- Éxito si +60% de usuarios son conductores frecuentes y +30% de operadores se suscriben. |
-| **7. Supuestos**            | - Usuarios están dispuestos a cambiar hábitos por comodidad.<br>- Operadores quieren digitalizar sus servicios.<br>- La tecnología de lectura de placas funcionará en distintos entornos.<br>- La app debe ser extremadamente intuitiva. |
-| **8. Métricas**             | - Tasa de adopción mensual.<br>- % de flujos completados sin asistencia.<br>- Número de estacionamientos afiliados.<br>- Tiempo promedio de ingreso/salida.<br>- Satisfacción del usuario (NPS).<br>- Retención mensual.<br>- Ingresos por comisiones y planes. |
-
+  
+![LeanUxCanva.png](assets/capitulo-1/Lean_UX_Canva_Iot.jpg)
+  
 ## 1.3. Segmentos objetivo
 
 Se plantearon 2 segmentos claramente diferenciados.
@@ -372,13 +370,26 @@ Se plantearon 2 segmentos claramente diferenciados.
 
 ### 2.1.1. Análisis competitivo
   
-| Perfil  | Parkner PE  | Apparka | Parkealo  | ParkUp  |
-|:----------------------:|:-------------------------:|:----------------------:|:---------------------:|:------------------------------------------:|
-| **Overview**          | Plataforma web que permite a los usuarios registrar y alquilar espacios de estacionamiento privados en Lima, operando principalmente en los distritos de San Isidro y Miraflores.| Aplicación móvil que facilita la búsqueda, reserva y pago de estacionamientos en Lima, ofreciendo opciones de pago como tarjeta de crédito, débito y su monedero digital "Apparka Wallet".| Plataforma que permite a los usuarios encontrar y reservar estacionamientos urbanos, ofreciendo una variedad de opciones para conductores y propietarios de estacionamientos. | Aplicación móvil que automatiza la experiencia de estacionamiento, incluyendo lectura de placas, vinculación con usuarios y pagos automáticos, mejorando la eficiencia y comodidad del proceso. |
-| **Mercado Objetivo**  | Conductores en Lima que buscan alquilar espacios de estacionamiento privados, especialmente en áreas con alta demanda como San Isidro y Miraflores. | Usuarios en Lima que requieren estacionamiento en zonas urbanas, incluyendo tanto conductores frecuentes como ocasionales. | Propietarios de estacionamientos y conductores en Lima que buscan soluciones eficientes para encontrar y reservar espacios de estacionamiento. | Conductores en Lima que buscan una experiencia de estacionamiento sin contacto, con procesos automatizados y pagos simplificados. |
-| **Estrategias**      | - Permitir a los propietarios de espacios libres registrarlos y establecer precios y tiempos de alquiler. <br> - Ofrecer una plataforma que facilite la búsqueda y reserva de estacionamientos. <br> - Expandirse a otros distritos y países.| - Integración con estacionamientos existentes en Lima. <br> - Ofrecer múltiples métodos de pago, incluyendo su propio monedero digital. <br> - Proporcionar información en tiempo real sobre disponibilidad y tarifas. | - Crear un marketplace que conecte a propietarios de estacionamientos con conductores. <br> - Ofrecer una plataforma fácil de usar para la reserva y gestión de espacios. | - Automatizar el proceso de estacionamiento desde la llegada hasta la salida. <br> - Integrar tecnología de lectura de placas y pagos automáticos. <br> - Mejorar la experiencia del usuario con interfaces intuitivas. |
-| **Ventaja Competitiva** | - Permite a los usuarios generar ingresos alquilando sus espacios privados. <br> - Ofrece una amplia variedad de opciones en zonas clave de Lima. | - Proporciona una solución integral para encontrar, reservar y pagar estacionamientos. <br> - Facilita el proceso con múltiples opciones de pago y gestión de tiempo. | - Amplia base de datos de estacionamientos disponibles en Lima. <br> - Plataforma intuitiva que simplifica la reserva y gestión de espacios. | - Proceso completamente automatizado que reduce tiempos y errores. <br> - Integración de tecnología avanzada para una experiencia sin fricciones. |
-| **Canal de distribución** | - Plataforma web accesible desde cualquier navegador. <br> - Aplicación móvil disponible para Android e iOS. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de estacionamientos locales. | - Aplicación móvil disponible para Android e iOS. <br> - Plataforma web para gestión de estacionamientos. | - Aplicación móvil disponible para Android e iOS. <br> - Integración con sistemas de gestión de estacionamientos y dispositivos IoT. |  
+| ¿Por qué llevar a cabo este análisis? | Conocer mejor a los competidores y visualizar las ventajas/desventajas que tenemos sobre ellos. |
+|---------------------------------------|---------------------------------------------------------------------------|
+
+|                                       | **ParkUp** | **Apparka** | **Parkealo** | **Parkner PE** |
+|---------------------------------------|----------------|------------------|------------------|------------------|
+| **Perfil**                            |                                                                                                                                                         |                                      |                                      |                                     |
+| Overview                              | Aplicación móvil que automatiza el estacionamiento con lectura de placas, pagos automáticos y vinculación de usuarios. Ideal para conductores que buscan eficiencia. | App móvil con reservas y monedero digital.          | Marketplace para reservar estacionamientos.       | Plataforma de alquiler de espacios privados. |
+| **Perfil de Marketing**               |                                                                                                                                                         |                                      |                                      |                                     |
+| Ventaja competitiva                   | **Tecnología avanzada**: Proceso 100% automatizado (sin contacto). **Rapidez**: Reduce tiempos vs competidores. **Experiencia premium**: Interfaces intuitivas.      | Múltiples métodos de pago integrados.               | Conexión amplia con estacionamientos.            | Flexibilidad para alquilar espacios privados. |
+| Mercado objetivo                      | Conductores en Lima que valoran tecnología, eficiencia y pagos sin fricciones.                                                                          | Conductores ocasionales y frecuentes.               | Propietarios y conductores.                      | Dueños de espacios y conductores en zonas premium. |
+| Estrategias de marketing              | - Campañas en redes sociales destacando la automatización.<br>- Alianzas con centros comerciales y empresas.<br>- Programa de referidos con beneficios. | Publicidad en apps de movilidad.                    | Promoción en estacionamientos asociados.         | Enfoque en propietarios de espacios. |
+| **Perfil de Producto**                |                                                                                                                                                         |                                      |                                      |                                     |
+| Productos & Servicios                 | - App móvil con lectura de placas.<br>- Pagos automáticos.<br>- Integración con IoT.                                                                    | Reservas + "Apparka Wallet".                        | Reservas + gestión para propietarios.            | Alquiler de espacios privados.      |
+| Precios & Costos                      | Tarifas dinámicas basadas en demanda. Costos operativos reducidos por automatización.                                                                   | Comisión por reserva.                               | Comisión por transacción.                        | Comisión por alquiler.              |
+| Canales de distribución               | - App Android/iOS.<br>- Integración con sistemas de estacionamientos.                                                                                   | App Android/iOS.                                    | App + web para gestión.                          | Plataforma web + app.               |
+| **Análisis SWOT**                     |                                                                                                                                                         |                                      |                                      |                                     |
+| Fortalezas                            | - Tecnología patentada.<br>- Experiencia de usuario superior.<br>- Red de socios estratégicos.                                                          | Monedero propio.                                    | Amplia base de estacionamientos.                 | Enfoque en espacios privados.       |
+| Debilidades                           | - Dependencia de infraestructura IoT.<br>- Menor reconocimiento de marca vs competidores.                                                               | Limitada a Lima.                                    | Interfaz menos intuitiva.                        | Cobertura geográfica reducida.      |
+| Oportunidades                         | - Expansión a otras ciudades.<br>- Integración con municipios para estacionamientos públicos.                                                           | Alianzas con bancos.                                | Crecimiento en segmento corporativo.             | Internacionalización.               |
+| Amenazas                              | - Competidores con mayor financiamiento.<br>- Resistencia al cambio por parte de usuarios tradicionales.                                                | Nuevos entrants con soluciones similares.           | Regulaciones municipales.                        | Saturación de mercado.              |
   
 ### 2.1.2. Estrategias y tácticas frente a competidores  
 
@@ -446,13 +457,32 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
   
 ## 2.2. Entrevistas
 
+Hacer entrevistas es fundamental porque permite ir más allá de suposiciones y conocer la realidad de los usuarios desde su propia voz. A través del diálogo directo, se descubren necesidades latentes, frustraciones no evidentes y oportunidades de mejora que no se pueden detectar solo con observación o datos cuantitativos. Las entrevistas aportan contexto, profundidad y empatía al proceso de diseño, asegurando que la solución tecnológica responda a problemas reales y sea aceptada por quienes la utilizarán.
+
 ### 2.2.1. Diseño de entrevistas
+
+Diseñar las entrevistas de manera estructurada es importante porque permite obtener información clara, comparable y útil según el perfil de cada tipo de usuario. Un buen diseño garantiza que las preguntas estén alineadas con los objetivos del proyecto, evite sesgos y facilite la identificación de patrones en las respuestas. Además, permite adaptar el enfoque según el segmento (conductores o administradores), asegurando que se profundice en los aspectos clave de su experiencia con el sistema de parqueo.
+
+#### Propósito de las entrevistas
+
+El propósito de las entrevistas es comprender en profundidad las necesidades, hábitos, frustraciones y expectativas de los usuarios clave involucrados en el uso y gestión de estacionamientos: conductores y administradores de parqueo. Esta etapa forma parte de un proceso de needfinding o identificación de necesidades, clave para diseñar una solución tecnológica que realmente aporte valor.
+
+Las entrevistas están diseñadas para:
+
+- Identificar los puntos de dolor actuales en el uso de estacionamientos, tanto desde el lado del usuario como del administrador.
+
+- Detectar oportunidades de mejora mediante tecnología, como la automatización del pago, reconocimiento de placas o monitoreo en tiempo real.
+
+- Evaluar la aceptación y confianza en soluciones tecnológicas propuestas, como el pago automático o el registro digital de ingresos/salidas.
+
+- Recoger insumos para el diseño de una app o plataforma web centrada en el usuario, orientada a una experiencia eficiente, segura y confiable.
+
+
 
 ##### Preguntas de introducción (Para todos los segmentos):
 1. ¿Cuál es su nombre?
 2. ¿Cuántos años tiene?
 3. ¿En qué cuidad del Perú reside?
-4. ¿Cuál considera que es su estatus social limitando la descripción a Clase Baja, Clase Media, Clase Media-Alta y Clase Alta? 
    
 ##### Segmento 1: Conductores
 1. ¿Con qué frecuencia utilizas estacionamientos privados durante tu semana?
@@ -479,7 +509,11 @@ Adoptar una estrategia de comunicación educativa y experiencial, donde el usuar
 
 
 ### 2.2.2. Registro de entrevistas
+
+Con el objetivo de comprender en profundidad las necesidades, preferencias y problemáticas de los distintos actores involucrados en el uso y gestión de estacionamientos, se realizaron entrevistas estructuradas a usuarios conductores y administradores de parqueo. Estas entrevistas permitieron identificar patrones de comportamiento, expectativas tecnológicas y desafíos operativos tanto desde la perspectiva del usuario final como del personal encargado de la administración. Los hallazgos obtenidos fueron fundamentales para definir requerimientos funcionales y no funcionales, así como oportunidades de mejora e innovación dentro del sistema de gestión de parqueos.
+
 ##### Segmento 1: Conductores
+- Primera Entrevista 
 ![](https://i.postimg.cc/rFVrFVWQ/interview-driver.png)
 
 Eva utiliza estacionamientos privados cinco veces por semana y valora una experiencia fluida, con espacios amplios y fáciles de encontrar. Considera la seguridad un aspecto esencial, destacando la importancia de contar con vigilancia. Siempre porta su celular, por lo que acepta el uso de aplicaciones móviles, y prefiere pagar con tarjeta. Aunque ve con buenos ojos la automatización mediante lectura de placas, le preocupa no poder validar cobros automáticos, por lo que el sistema debería ofrecer confirmación previa antes de realizar cargos. Además, considera fundamental que la aplicación muestre en tiempo real los espacios libres, priorizando los más cercanos a entradas y salidas para optimizar su tiempo.
@@ -643,9 +677,11 @@ Ian busca una experiencia de parqueo ágil donde la app le muestre los espacios 
 Oscar prioriza estacionar cerca de tiendas conocidas para evitar caminar largas distancias. Prefiere pagar con tarjeta y ha tenido experiencias negativas cuando sistemas de pago se caen, provocando largas filas. Se siente cómodo con el uso de lectura de placas y automatización de cobros, dado que ya está acostumbrado a ellos. Encuentra muy útil que la app muestre espacios disponibles en tiempo real, así como las tarifas vigentes y zonas cercanas, para ahorrar tiempo y evitar rondar buscando sitio.
 
 ##### Segmento 2: Administradores de parking
-- Primera Entrevista: El entrevistado señaló que el monitoreo se realiza principalmente mediante cámaras activas todo el tiempo y rondas presenciales para verificar el estado del parqueo. Ante emergencias, se comunica directamente con el gerente de tienda por radio, sin un protocolo formal establecido. La información más útil para su labor diaria incluye las grabaciones de las cámaras, el ticket del vehículo, la placa y el rostro del conductor. Actualmente no utilizan una plataforma web, ya que el parqueo es gratuito y no considera necesaria una visualización digital; sin embargo, si hubiera cobro, sí vería valor en implementarla. El control de ingreso y salida se realiza de forma manual con tickets y anotaciones en papel.
-- Segunda Entrevista: El entrevistado Señalo que se tienen contratado un sistema que les permite realizar las facturaciones, pero que el resto de los controles del estacionamiento los realizan manualmente y recae en los empleados aplicar los protocolos en caso de incidentes. A partir de esto señalo en las siguientes respuestas que esta interesado en adquirir un sistema que le permita automatizar más partes de la gestión del estacionamiento.
-- Tercera Entrevista: El entrevistado explicó que el monitoreo combina cámaras en funcionamiento continuo con personal en “postas” para actuar de inmediato si ocurre un incidente. Para emergencias, se apoya en las grabaciones y en la identificación visual del vehículo (placa, color y rasgos distintivos) a fin de rastrear rápidamente al propietario; considera indispensable vincular estos datos con los perfiles de los usuarios. La información diaria más valiosa es un registro en tiempo real de qué autos entran y salen y dónde se encuentran dentro del estacionamiento. Aunque hoy trabajan con un sistema de tickets/QR que sólo cubre el cobro, todas las verificaciones de seguridad se llevan a cabo de forma manual. El entrevistado ve gran utilidad en una plataforma web que muestre las entradas y salidas, integre las cámaras y automatice la asociación entre placa y perfil; sin embargo, advierte que debe garantizarse una respuesta rápida ante robos o siniestros. Afirma sentirse cómodo con la detección automática de placas y el cobro sin intervención humana, siempre que la solución mantenga o mejore los niveles de seguridad actuales.
+- Primera Entrevista (Jose Alberto): El entrevistado señaló que el monitoreo se realiza principalmente mediante cámaras activas todo el tiempo y rondas presenciales para verificar el estado del parqueo. Ante emergencias, se comunica directamente con el gerente de tienda por radio, sin un protocolo formal establecido. La información más útil para su labor diaria incluye las grabaciones de las cámaras, el ticket del vehículo, la placa y el rostro del conductor. Actualmente no utilizan una plataforma web, ya que el parqueo es gratuito y no considera necesaria una visualización digital; sin embargo, si hubiera cobro, sí vería valor en implementarla. El control de ingreso y salida se realiza de forma manual con tickets y anotaciones en papel.
+
+- Segunda Entrevista (Jorge Rosales): El entrevistado Señalo que se tienen contratado un sistema que les permite realizar las facturaciones, pero que el resto de los controles del estacionamiento los realizan manualmente y recae en los empleados aplicar los protocolos en caso de incidentes. A partir de esto señalo en las siguientes respuestas que esta interesado en adquirir un sistema que le permita automatizar más partes de la gestión del estacionamiento.
+
+- Tercera Entrevista (Sebastian Ramirez): El entrevistado explicó que el monitoreo combina cámaras en funcionamiento continuo con personal en “postas” para actuar de inmediato si ocurre un incidente. Para emergencias, se apoya en las grabaciones y en la identificación visual del vehículo (placa, color y rasgos distintivos) a fin de rastrear rápidamente al propietario; considera indispensable vincular estos datos con los perfiles de los usuarios. La información diaria más valiosa es un registro en tiempo real de qué autos entran y salen y dónde se encuentran dentro del estacionamiento. Aunque hoy trabajan con un sistema de tickets/QR que sólo cubre el cobro, todas las verificaciones de seguridad se llevan a cabo de forma manual. El entrevistado ve gran utilidad en una plataforma web que muestre las entradas y salidas, integre las cámaras y automatice la asociación entre placa y perfil; sin embargo, advierte que debe garantizarse una respuesta rápida ante robos o siniestros. Afirma sentirse cómodo con la detección automática de placas y el cobro sin intervención humana, siempre que la solución mantenga o mejore los niveles de seguridad actuales.
 
 ## 2.3. Needfinding
 
@@ -663,7 +699,8 @@ Se priorizó extraer información sobre los siguientes aspectos clave:
 
 A partir del análisis de esta información y de un benchmarking de soluciones similares en el mercado, se construyeron dos fichas de User Persona que representan a los principales usuarios de la solución propuesta:
 
-- **Diego Luxemburgo**, conductor urbano que busca eficiencia y simplicidad al momento de estacionar. 
+- **Diego Luxemburgo**, conductor urbano que busca eficiencia y simplicidad al momento de estacionar.
+  
 - **Dina Zimbabue**, administradora de estacionamientos que necesita control, automatización y reducción de la carga operativa.
 
 Ambos perfiles fueron elaborados utilizando la herramienta UXPressia, siguiendo las mejores prácticas en diseño UX y representando arquetipos realistas y accionables para el diseño posterior del sistema.
@@ -714,7 +751,7 @@ Con el fin de elaborar un Task Matrix adecuado para el proyecto, se han consider
 | Buscar estacionamiento cercano al destino                      | Alta           | Alta            |
 | Hacer fila para pagar el estacionamiento (manual o con ticket) | Alta           | Alta            |
 | Retirar ticket y conservarlo hasta el pago                     | Alta           | Alta            |
-| Buscar la máquina de pago en el local                          | Media          | Alta            |
+| Buscar la máquina de pago en el local        | Media          | Alta            |
 | Esperar a que el lector de ticket funcione correctamente       | Media          | Alta            |
 | Coordinar pagos en efectivo o encontrar sencillo               | Media          | Alta            |
 | Volver al vehículo antes que se venza el ticket o la tarifa    | Media          | Media           |
@@ -878,7 +915,7 @@ El To-Be Scenario Mapping para administradores de parking muestra cómo, al usar
 
 ***Epics***
 
-| Epic                                                                       | Description                                                                                                                                                                                                |
+| Epic                                                     | Description                                                                                                                                                                                                |
 | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | EP01 (Landing Page atractiva de ParkUp)                                    | Como visitante, deseo una landing page intuitiva y atractiva que proporcione información clara sobre la aplicación de ParkUp, para facilitar mi toma de decisiones y acelerar mi uso de la plataforma.     |
 | EP02 (Integración y desarrollo de Dispositivos IoT de Parking y Monitoreo) | Como developer, quiero que los sistemas de parqueo estén conectados mediante IoT, para obtener información en tiempo real sobre la disponibilidad de espacios y mejorar la experiencia de estacionamiento. |
@@ -966,7 +1003,7 @@ El To-Be Scenario Mapping para administradores de parking muestra cómo, al usar
 | EP09 (Gestión de Información de Dispositivos IoT) | Como administrador, quiero acceder y gestionar la información generada por los dispositivos IoT, para monitorear el sistema de parqueo y tomar decisiones basadas en datos. |
 | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | TS09                                              | Dispositivos de Monitoreo de Funcionalidad de otros Dispositivos IoT                                                                                                        |
-| US40                                              | Visualización de Resumen Estadístico del uso del Estacionamiento como menú principal                                                                                        |
+| US40                                              | Visualización de Resumen Estadístico del uso del Estacionamiento como menú principal                                                                      |
 | US41                                              | Visualización de las cámaras de seguridad del estacionamiento                                                                                                               |
 | US42                                              | Visualización detallada de una cámara de seguridad del estacionamiento                                                                                                      |
 | US43                                              | Visualización del listado de conductores estacionados actualmente y anteriormente                                                                                           |
@@ -979,7 +1016,7 @@ El To-Be Scenario Mapping para administradores de parking muestra cómo, al usar
 | EP10 (Optimización de la API) | Como desarrollador, quiero implementar los protocolos de comunicación correctos de cada endpoint API para mejorar la eficiencia en la entrega de recursos y optimizar el rendimiento del sistema. |
 |-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TS10                          | Implementación de un servicio IAM con REST API                                                                                                                                                    |
-| TS11                          | Implementación de un servicio Camera Feed con WebRTC                                                                                                                                              |
+| TS11                          | Implementación de un servicio Camera Feed con WebRTC                                                                                                                            |
 | TS13                          | Implementación de un servicio Payments con REST API                                                                                                                                               |
 | TS14                          | Implementación de un servicio Parking Circulation con REST API                                                                                                                                    |
 | TS15                          | Implementación de un servicio Monitoring con REST API                                                                                                                                             |
@@ -1038,7 +1075,7 @@ El To-Be Scenario Mapping para administradores de parking muestra cómo, al usar
 | US40           | Visualización de Resumen Estadístico del uso del Estacionamiento como menú principal       | Como administrador, quiero visualizar un resumen estadístico del uso del estacionamiento como menú principal, para obtener una visión general rápida del desempeño y uso del espacio.                                                                                           | Feature: Resumen estadístico como menú principal<br><br>Scenario: Acceso exitoso al panel estadístico<br>Given que el administrador inicia sesión en el sistema<br>When accede al menú principal<br>Then se muestran estadísticas de uso actual, histórico y ocupación promedio<br><br>Scenario: Fallo al cargar estadísticas por error de servicio<br>Given que hay un error en el servicio de estadísticas<br>When el administrador accede al menú principal<br>Then se muestra un mensaje de error<br>And se registra el incidente                                                                                                                                                                                                                                                                                                                                                                                              | EP08 |
 | US41           | Visualización de las cámaras de seguridad del estacionamiento                              | Como administrador, quiero ver las cámaras de seguridad del estacionamiento, para monitorear en tiempo real lo que sucede en las instalaciones.                                                                                                                                 | Feature: Visualización general de cámaras de seguridad<br><br>Scenario: El administrador visualiza correctamente todas las cámaras disponibles<br>Given que las cámaras están funcionando<br>When el administrador accede al módulo de cámaras<br>Then se muestran todas las transmisiones en tiempo real<br><br>Scenario: Una o más cámaras están desconectadas<br>Given que algunas cámaras están fuera de servicio<br>When el administrador accede al módulo de cámaras<br>Then el sistema muestra una indicación de cámara desconectada                                                                                                                                                                                                                                                                                                                                                                                        | EP09 |
 | US42           | Visualización detallada de una cámara de seguridad del estacionamiento                     | Como administrador, quiero visualizar de forma detallada una cámara de seguridad específica, para enfocar mi atención en un área particular del estacionamiento.                                                                                                                | Feature: Vista detallada de una cámara específica<br><br>Scenario: El administrador selecciona una cámara y visualiza su transmisión<br>Given que la cámara está conectada<br>When el administrador hace clic en una cámara del listado<br>Then se muestra su transmisión en vista ampliada<br><br>Scenario: La cámara seleccionada no tiene señal<br>Given que la cámara tiene problemas de conexión<br>When el administrador intenta abrir su vista detallada<br>Then el sistema informa que no hay señal disponible                                                                                                                                                                                                                                                                                                                                                                                                             | EP09 |
-| US43           | Visualización del listado de conductores estacionados actualmente y anteriormente          | Como administrador, quiero ver el listado de conductores actualmente estacionados y de los que han estado anteriormente, para tener control y trazabilidad del uso del estacionamiento.                                                                                         | Feature: Visualización de conductores estacionados<br><br>Scenario: Visualización de conductores actualmente estacionados<br>Given que hay vehículos estacionados<br>When el administrador accede al módulo de conductores<br>Then se muestra el listado de usuarios presentes<br><br>Scenario: Error al recuperar historial de estacionados anteriores<br>Given que el sistema presenta un error de conexión con la base de datos<br>When el administrador solicita el historial<br>Then se muestra un mensaje de error temporal                                                                                                                                                                                                                                                                                                                                                                                                  | EP09 |
+| US43           | Visualización del listado de conductores estacionados actualmente y anteriormente          | Como administrador, quiero ver el listado de conductores actualmente estacionados y de los que han estado anteriormente, para tener control y trazabilidad del uso del estacionamiento.                                                                                         | Feature: Visualización de conductores estacionados<br><br>Scenario: Visualización de conductores actualmente estacionados<br>Given que hay vehículos estacionados<br>When el administrador accede al módulo de conductores<br>Then se muestra el listado de usuarios presentes<br><br>Scenario: Error al recuperar historial de estacionados anteriores<br>Given que el sistema presenta un error de conexión con la base de datos<br>When el administrador solicita el historial<br>Then se muestra un mensaje de error temporal                                                                                                                                                                                                                                                                                                                                                                                | EP09 |
 | US44           | Visualización del listado de conductores estacionados durante un día en específico         | Como administrador, quiero ver el listado de conductores que estuvieron estacionados durante un día específico, para realizar análisis o auditorías por fecha.                                                                                                                  | Feature: Visualización por fecha de conductores estacionados<br><br>Scenario: El administrador consulta el listado por una fecha válida<br>Given que hay registros del 15 de marzo<br>When selecciona esa fecha en el calendario<br>Then se muestra el listado de conductores de ese día<br><br>Scenario: El administrador selecciona una fecha sin registros<br>Given que no hay datos del 1 de enero<br>When selecciona esa fecha<br>Then el sistema muestra un mensaje indicando que no hay resultados                                                                                                                                                                                                                                                                                                                                                                                                                          | EP09 |
 | US45           | Visualización detallada de un conductor en específico                                      | Como administrador, quiero visualizar el detalle de un conductor en específico, para revisar su historial, pagos o incidentes relacionados.                                                                                                                                     | Feature: Visualización del perfil de un conductor<br><br>Scenario: El administrador accede al perfil detallado de un conductor<br>Given que el conductor está registrado<br>When el administrador lo selecciona en la lista<br>Then se muestra su historial, pagos y eventos<br><br>Scenario: El conductor no existe en la base de datos<br>Given que el ID del conductor no es válido<br>When se intenta acceder a su detalle<br>Then el sistema muestra un mensaje de "conductor no encontrado"                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP09 |
 | US46           | Visualización de sistema de resolución de casos extremos en el estacionamiento             | Como administrador, quiero acceder al sistema de resolución de casos extremos en el estacionamiento, para poder actuar rápidamente ante situaciones fuera de lo común.                                                                                                          | Feature: Gestión de casos extremos<br><br>Scenario: El administrador accede al sistema de casos extremos<br>Given que está autenticado como administrador<br>When accede a la sección de resolución de casos<br>Then puede visualizar y gestionar los casos activos<br><br>Scenario: El administrador sin permisos especiales intenta acceder<br>Given que el usuario tiene rol limitado<br>When accede al módulo de casos extremos<br>Then se deniega el acceso<br>And se muestra un mensaje de autorización insuficiente                                                                                                                                                                                                                                                                                                                                                                                                         | EP09 |
@@ -1049,13 +1086,13 @@ El To-Be Scenario Mapping para administradores de parking muestra cómo, al usar
 | TS02           | Puerta de Salida del Parking IoT con Cámara                                                | Como desarrollador, quiero implementar una puerta de salida IoT con cámara, para registrar la salida de vehículos y validar su autorización de forma visual o automática.                                                                                                       | Feature: Registro de salida de vehículos mediante cámara IoT<br><br>Scenario: Vehículo con ticket válido sale y se registra su salida<br>Given que el sistema reconoce al vehículo mediante la cámara de salida<br>When el vehículo presenta un ticket válido<br>Then la cámara registra la salida<br>And la barrera se abre automáticamente<br><br>Scenario: Vehículo intenta salir sin autorización<br>Given que la cámara captura un vehículo en la salida<br>When el sistema no encuentra una entrada registrada o el ticket está vencido<br>Then el sistema muestra un mensaje de error<br>And no se abre la barrera                                                                                                                                                                                                                                                                                                          | EP02 |
 | TS03           | Sensores Magnéticos IoT en cada Estacionamiento                                            | Como desarrollador, quiero instalar e integrar sensores magnéticos IoT en cada plaza de estacionamiento, para detectar la ocupación en tiempo real y alimentar el sistema de disponibilidad.                                                                                    | Feature: Detección de ocupación en tiempo real<br><br>Scenario: Un vehículo ocupa una plaza vacía<br>Given que el sensor magnético está activo en una plaza de estacionamiento<br>When un vehículo se estaciona<br>Then el sistema marca esa plaza como ocupada en el sistema<br><br>Scenario: El sensor reporta falsos positivos<br>Given que el sensor está mal calibrado<br>When no hay vehículo presente<br>Then el sistema marca incorrectamente la plaza como ocupada<br>And se notifica al administrador de la anomalía                                                                                                                                                                                                                                                                                                                                                                                                     | EP02 |
 | TS04           | IoT Gateway                                                                                | Como desarrollador, quiero configurar un IoT Gateway que centralice la comunicación entre los dispositivos IoT y la nube, para asegurar la conectividad y sincronización de datos del sistema.                                                                                  | Feature: Comunicación centralizada entre dispositivos IoT y la nube<br><br>Scenario: Gateway conectado transmite datos correctamente<br>Given que todos los sensores y nodos Edge están conectados al Gateway<br>When se genera un evento de sensor<br>Then el Gateway transmite los datos a la nube exitosamente<br><br>Scenario: El Gateway pierde conexión con la nube<br>Given que el Gateway está en funcionamiento pero sin acceso a internet<br>When se genera un evento<br>Then el sistema guarda el evento en caché<br>And reintenta la sincronización cada 60 segundos                                                                                                                                                                                                                                                                                                                                                   | EP02 |
-| TS05           | Edge Node IoT en cada Estacionamiento                                                      | Como desarrollador, quiero desplegar nodos Edge IoT en cada estación de parqueo, para procesar datos localmente y reducir la latencia en la toma de decisiones.                                                                                                                 | Feature: Procesamiento local de datos con nodos Edge<br><br>Scenario: El nodo Edge procesa la entrada de un vehículo<br>Given que el nodo Edge está operativo<br>When detecta un evento de entrada por el sensor<br>Then procesa el dato localmente<br>And envía resumen al Gateway<br><br>Scenario: Nodo Edge se desconecta del sistema<br>Given que el nodo Edge pierde energía o se desconecta<br>When ocurre un evento de sensor<br>Then no se realiza el procesamiento local<br>And se reporta la falla al sistema central                                                                                                                                                                                                                                                                                                                                                                                                    | EP02 |
+| TS05           | Edge Node IoT en cada Estacionamiento                                                      | Como desarrollador, quiero desplegar nodos Edge IoT en cada estación de parqueo, para procesar datos localmente y reducir la latencia en la toma de decisiones.                                                                                                                 | Feature: Procesamiento local de datos con nodos Edge<br><br>Scenario: El nodo Edge procesa la entrada de un vehículo<br>Given que el nodo Edge está operativo<br>When detecta un evento de entrada por el sensor<br>Then procesa el dato localmente<br>And envía resumen al Gateway<br><br>Scenario: Nodo Edge se desconecta del sistema<br>Given que el nodo Edge pierde energía o se desconecta<br>When ocurre un evento de sensor<br>Then no se realiza el procesamiento local<br>And se reporta la falla al sistema central                                                                                                                                                                                                                                                                                                                                                                                  | EP02 |
 | TS06           | Autenticación basada en token JWT                                                          | Como desarrollador, quiero implementar un sistema de autenticación basado en tokens JWT, para permitir una autenticación segura y sin estado en todos los servicios del sistema.                                                                                                | Feature: Seguridad basada en autenticación JWT<br><br>Scenario: Usuario válido inicia sesión<br>Given que el usuario tiene credenciales válidas<br>When realiza login en la plataforma<br>Then se genera un token JWT firmado<br>And el usuario puede acceder a los servicios protegidos<br><br>Scenario: Usuario con credenciales inválidas<br>Given que el usuario proporciona una contraseña incorrecta<br>When intenta iniciar sesión<br>Then el sistema rechaza la solicitud<br>And no se genera ningún token JWT                                                                                                                                                                                                                                                                                                                                                                                                             | EP03 |
 | TS07           | Permiso de bancas para utilizar sus datos en la pasarela de pago                           | Como desarrollador, quiero gestionar los permisos y acuerdos necesarios con las instituciones bancarias o proveedores de pagos, para poder acceder y utilizar sus sistemas en la implementación de una pasarela de pago propia.                                                 | Feature: Integración con pasarelas de pago bancarias<br><br>Scenario: Acuerdo firmado con el banco<br>Given que se ha firmado un acuerdo de uso de API con el banco<br>When se realiza una transacción de pago<br>Then el sistema puede comunicarse con la API del banco<br>And la transacción se completa exitosamente<br><br>Scenario: No hay acuerdo firmado con el banco<br>Given que no se ha firmado ningún convenio con el banco<br>When se intenta acceder a sus sistemas de pago<br>Then el sistema bloquea el intento<br>And muestra un mensaje de error de integración no autorizada                                                                                                                                                                                                                                                                                                                                    | EP03 |
 | TS08           | Cámaras de Vigilancia IoT                                                                  | Como desarrollador, quiero integrar cámaras de vigilancia IoT al sistema, para monitorear el entorno del estacionamiento en tiempo real y mejorar la seguridad.                                                                                                                 | Feature: Monitoreo de seguridad con cámaras de vigilancia IoT<br><br>Scenario: Cámaras operativas transmiten video correctamente<br>Given que las cámaras están encendidas y conectadas al sistema<br>When se inicia el monitoreo en tiempo real<br>Then se muestra la transmisión en vivo sin interrupciones<br><br>Scenario: Cámara fuera de línea<br>Given que una cámara ha perdido conexión con el sistema<br>When el sistema intenta acceder a su transmisión<br>Then se muestra una alerta de desconexión<br>And se notifica al personal técnico                                                                                                                                                                                                                                                                                                                                                                            | EP06 |
 | TS09           | Dispositivos de Monitoreo de Funcionalidad de otros Dispositivos IoT                       | Como desarrollador, quiero implementar dispositivos que supervisen el estado de funcionamiento de otros dispositivos IoT, para detectar fallos y garantizar la operatividad del sistema.                                                                                        | Feature: Supervisión del estado de dispositivos IoT<br><br>Scenario: Dispositivo IoT operativo es monitoreado correctamente<br>Given que un sensor está funcionando correctamente<br>When el sistema de monitoreo realiza una verificación<br>Then se registra el estado como "Operativo"<br><br>Scenario: Dispositivo presenta fallas<br>Given que un dispositivo no responde a la verificación<br>When el sistema intenta conectarse<br>Then se marca como "Inactivo"<br>And se genera una alerta automática                                                                                                                                                                                                                                                                                                                                                                                                                     | EP02 |
 | TS10           | Implementación de un servicio IAM con REST API                                             | Como desarrollador, quiero implementar un servicio de gestión de identidades y accesos (IAM) usando una REST API, para controlar la autenticación y autorización de usuarios dentro del sistema.                                                                                | Feature: Gestión de identidades y accesos<br><br>Scenario: Usuario accede con token válido<br>Given que el usuario tiene un token válido<br>When accede a un recurso protegido vía API<br>Then el acceso es concedido<br><br>Scenario: Usuario intenta acceder sin token<br>Given que el usuario no proporciona un token<br>When intenta consumir un endpoint protegido<br>Then el sistema responde con código 401                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | EP09 |
-| TS11           | Implementación de un servicio Camera Feed con WebRTC                                       | Como desarrollador, quiero implementar un servicio de transmisión de video en tiempo real desde cámaras usando WebRTC, para permitir la visualización en vivo del entorno del estacionamiento.                                                                                  | Feature: Transmisión en vivo por WebRTC<br><br>Scenario: WebRTC inicia transmisión exitosamente<br>Given que la cámara y el servidor están configurados correctamente<br>When un usuario accede al feed en tiempo real<br>Then se establece la conexión WebRTC<br>And se visualiza el video en vivo<br><br>Scenario: WebRTC falla por configuración incorrecta<br>Given que la señal WebRTC no puede establecerse<br>When el usuario intenta conectarse<br>Then se muestra un mensaje de error<br>And no se transmite el video                                                                                                                                                                                                                                                                                                                                                                                                     | EP10 |
+| TS11           | Implementación de un servicio Camera Feed con WebRTC                     | Como desarrollador, quiero implementar un servicio de transmisión de video en tiempo real desde cámaras usando WebRTC, para permitir la visualización en vivo del entorno del estacionamiento.                                                                                  | Feature: Transmisión en vivo por WebRTC<br><br>Scenario: WebRTC inicia transmisión exitosamente<br>Given que la cámara y el servidor están configurados correctamente<br>When un usuario accede al feed en tiempo real<br>Then se establece la conexión WebRTC<br>And se visualiza el video en vivo<br><br>Scenario: WebRTC falla por configuración incorrecta<br>Given que la señal WebRTC no puede establecerse<br>When el usuario intenta conectarse<br>Then se muestra un mensaje de error<br>And no se transmite el video                                                                                                                                                                                                                                                                                                                                                                                                     | EP10 |
 | TS12           | Implementación de un servicio Parking Spots con REST API                                   | Como desarrollador, quiero crear un servicio REST API para gestionar la disponibilidad y estado de los espacios de estacionamiento, para facilitar la consulta y reserva en tiempo real.                                                                                        | Feature: Gestión de plazas de estacionamiento<br><br>Scenario: Consulta de disponibilidad exitosa<br>Given que hay plazas disponibles<br>When un cliente consulta el estado vía API<br>Then recibe una lista de espacios libres<br><br>Scenario: Reserva de una plaza ya ocupada<br>Given que una plaza ya está ocupada<br>When otro usuario intenta reservarla<br>Then el sistema responde con error de conflicto (409)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | EP10 |
 | TS13           | Implementación de un servicio Payments con REST API                                        | Como desarrollador, quiero implementar un servicio REST API que gestione los pagos de estacionamiento, para permitir transacciones electrónicas de forma segura y eficiente.                                                                                                    | Feature: Procesamiento de pagos de estacionamiento<br><br>Scenario: Realizar un pago exitoso<br>Given que un usuario tiene un ticket pendiente de pago<br>When accede al endpoint de pagos con los datos correctos<br>Then el sistema debe procesar el pago<br>And confirmar la transacción como exitosa<br><br>Scenario: Intentar pagar con datos incompletos<br>Given que un usuario intenta realizar un pago<br>When falta información requerida en la solicitud<br>Then el sistema debe rechazar el pago<br>And retornar un mensaje de error indicando qué falta<br><br>Scenario: Intentar pagar pero el banco rechaza la transacción<br>Given que un usuario envía los datos correctos<br>When el sistema contacta al banco y recibe un rechazo<br>Then el sistema debe marcar el pago como fallido<br>And notificar al usuario del rechazo                                                                                   | EP11 |
 | TS14           | Implementación de un servicio Parking Circulation con REST API                             | Como desarrollador, quiero desarrollar un servicio REST API para registrar y monitorear la circulación de vehículos dentro del estacionamiento, para tener trazabilidad y control del flujo vehicular.                                                                          | Feature: Registro de circulación vehicular<br><br>Scenario: Vehículo entra y se registra en el sistema<br>Given que el sistema está activo<br>When un vehículo entra al parqueadero<br>Then el evento de entrada es registrado vía API<br><br>Scenario: Vehículo no se registra por falla de red<br>Given que hay una interrupción en la conectividad<br>When el vehículo entra<br>Then no se registra el evento<br>And se almacena en buffer para reintento posterior                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP10 |
@@ -1132,10 +1169,10 @@ Seleccionamos esta User Story como base de referencia para la valorización de l
 | 43       | US32          | Visualización de tiempo de tolerancia desde cancelación del pago del estacionamiento                       | Como conductor, quiero visualizar el tiempo de tolerancia después de cancelar el pago del estacionamiento, para saber cuánto tiempo tengo antes de que se genere una penalización o multa.                                                                                       | 1                                        |
 | 44       | US33          | Visualización de boleta virtual e interactiva del estacionamiento realizado                                | Como conductor, quiero ver una boleta virtual e interactiva del estacionamiento realizado, para consultar los detalles de mi uso del estacionamiento de forma clara y digital.                                                                                                   | 1                                        |
 | 45       | US34          | Visualización de listado de boletas virtuales e interactivas de estacionamientos realizados                | Como conductor, quiero visualizar un listado de todas mis boletas virtuales e interactivas de estacionamientos realizados, para tener un historial de mis pagos y usos anteriores.                                                                                               | 1                                        |
-| 46       | TS11          | Implementación de un servicio Camera Feed con WebRTC                                                       | Como desarrollador, quiero implementar un servicio de transmisión de video en tiempo real desde cámaras usando WebRTC, para permitir la visualización en vivo del entorno del estacionamiento.                                                                                   | 3                                        |
+| 46       | TS11          | Implementación de un servicio Camera Feed con WebRTC                                     | Como desarrollador, quiero implementar un servicio de transmisión de video en tiempo real desde cámaras usando WebRTC, para permitir la visualización en vivo del entorno del estacionamiento.                                                                                   | 3                                        |
 | 47       | TS15          | Implementación de un servicio Monitoring con REST API                                                      | Como desarrollador, quiero implementar un servicio REST API que centralice información de estado y métricas del sistema, para facilitar el monitoreo y la detección temprana de incidentes.                                                                                      | 3                                        |
 | 48       | TS09          | Dispositivos de Monitoreo de Funcionalidad de otros Dispositivos IoT                                       | Como desarrollador, quiero implementar dispositivos que supervisen el estado de funcionamiento de otros dispositivos IoT, para detectar fallos y garantizar la operatividad del sistema.                                                                                         | 3                                        |
-| 49       | US40          | Visualización de Resumen Estadístico del uso del Estacionamiento como menú principal                       | Como administrador, quiero visualizar un resumen estadístico del uso del estacionamiento como menú principal, para obtener una visión general rápida del desempeño y uso del espacio.                                                                                            | 2                                        |
+| 49       | US40          | Visualización de Resumen Estadístico del uso del Estacionamiento como menú principal     | Como administrador, quiero visualizar un resumen estadístico del uso del estacionamiento como menú principal, para obtener una visión general rápida del desempeño y uso del espacio.                                                                                            | 2                                        |
 | 50       | US41          | Visualización de las cámaras de seguridad del estacionamiento                                              | Como administrador, quiero ver las cámaras de seguridad del estacionamiento, para monitorear en tiempo real lo que sucede en las instalaciones.                                                                                                                                  | 1                                        |
 | 51       | US42          | Visualización detallada de una cámara de seguridad del estacionamiento                                     | Como administrador, quiero visualizar de forma detallada una cámara de seguridad específica, para enfocar mi atención en un área particular del estacionamiento.                                                                                                                 | 1                                        |
 | 52       | US43          | Visualización del listado de conductores estacionados actualmente y anteriormente                          | Como administrador, quiero ver el listado de conductores actualmente estacionados y de los que han estado anteriormente, para tener control y trazabilidad del uso del estacionamiento.                                                                                          | 1                                        |
@@ -1351,7 +1388,7 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 
 ![4.1.3-Context.png](assets/capitulo-4/4.1.3-Context.png)
 
-| Actor / Sistema               | Interacción principal                                                                                 |
+| Actor / Sistema               | Interacción principal                                                               |
 |-------------------------------|--------------------------------------------------------------------------------------------------------|
 | **Conductor**                 | Usa **ParkUp Mobile App** para reservar, pagar y abrir la barrera.                                    |
 | **Administrador de Parking**  | Usa **ParkUp Web App SPA** para vigilar sensores, cámaras y alertas.                                  |
@@ -1362,7 +1399,7 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
-![4.1.3-Container.png](assets/capitulo-4/4.1.3-Container.png)
+![img_15.png](img_15.png)
 
 | Contenedor                  | Tecnología              | Responsabilidad                                             |
 |-----------------------------|-------------------------|-------------------------------------------------------------|
@@ -1394,7 +1431,7 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 | **PC del Administrador**              | Equipo de escritorio / laptop            | Windows / macOS                               | Navegador web → **ParkUp Web App SPA** (cargada como estático) | HTTPS                  |
 | **Nube ParkUp**                       | Servidor Front-End                       | Nginx en Docker                               | **Static Assets** (bundle SPA)                              | HTTPS                  |
 |                                       | Servidor Back-End                        | Java 17 + Spring Boot                         | **ParkUp API** (REST + WS)                                  | HTTPS, WebSocket       |
-|                                       | Base de datos central                    | PostgreSQL 15                                 | **Base de Datos Central**                                   | JDBC                   |
+|                                       | Base de datos central  | PostgreSQL 15                                 | **Base de Datos Central**                                   | JDBC |
 | **Sede de Parking**                   | Gateway IoT                              | Raspberry Pi / Linux                          | **IoT Gateway** (Go)                                        | MQTT, HTTP, Modbus     |
 |                                       | Edge Node                                | Industrial PC / Linux                         | **IoT Edge App** (Docker), **Edge Database** (TimescaleDB)   | HTTP Sync, JDBC        |
 |                                       | Clúster de dispositivos                  | Sensores, lectores, cámaras IP                | **Sensores Vehiculares**, **Lectores Entrada/Salida**, **Cámaras** | GPIO/I²C, RS-485, RTSP |
@@ -1424,7 +1461,13 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 
 **Software Components Diagram:**
 
+**Back-End:**
+
 ![4.1.3-Components.png](assets/capitulo-4/4.1.3-Components.png)
+
+**Edge Node:**
+
+![img_16.png](img_16.png)
 
 | Componente                 | Propósito clave                                                        |
 |----------------------------|------------------------------------------------------------------------|
@@ -1443,12 +1486,14 @@ Este diagrama muestra el ecosistema completo en el que opera **ParkUp IoT System
 
 ## 4.2.1. Bounded Context: IAM
 
+<p align="justify">
 En esta sección se documentan las principales clases que conforman el núcleo del contexto IAM, detallando sus atributos, métodos y relaciones.
 El agregado raíz User representa a cada usuario registrado en la plataforma, con credenciales de acceso (username, password) y la asignación de un único Role, lo cual refleja las reglas de negocio que restringen a un solo rol por usuario.
 
-La entidad Role modela los diferentes tipos de rol que puede asumir un usuario dentro del sistema, tales como administrador, usuario regular o instructor. Esta entidad incluye utilidades para la validación y conversión de roles a partir de representaciones textuales.
-Por su parte, el objeto de valor Roles encapsula los valores constantes de los posibles roles, implementado como un enumerado (enum), asegurando la integridad de los roles permitidos y evitando inconsistencias.
+- La entidad Role modela los diferentes tipos de rol que puede asumir un usuario dentro del sistema, tales como administrador, usuario regular o instructor. Esta entidad incluye utilidades para la validación y conversión de roles a partir de representaciones textuales.
+- Por su parte, el objeto de valor Roles encapsula los valores constantes de los posibles roles, implementado como un enumerado (enum), asegurando la integridad de los roles permitidos y evitando inconsistencias.
 
+<p align="justify">
 Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
 
 
@@ -1498,31 +1543,38 @@ Atributos
 | toRoleFromName(name: String): Role |
 
 ### 4.2.1.1. Domain Layer
-
+<p align="justify">
 En la capa de dominio se modelan los conceptos centrales del contexto IAM siguiendo los principios de Domain-Driven Design.
- El agregado raíz User representa a un usuario dentro del sistema, asociado a un único Role. Esta relación permite garantizar que cada usuario tenga exactamente un rol, como ROLE_ADMIN, ROLE_USER o ROLE_INSTRUCTOR.
-El objeto de valor Roles, modelado como un enum, establece un conjunto cerrado de posibles valores para la asignación de roles, garantizando la integridad del dominio.
-Adicionalmente, los servicios de dominio UserCommandService y RoleCommandService encapsulan operaciones de negocio que no pertenecen naturalmente a ninguna entidad, cumpliendo con el principio de separación de responsabilidades.
+
+- El agregado raíz User representa a un usuario dentro del sistema, asociado a un único Role. Esta relación permite garantizar que cada usuario tenga exactamente un rol, como ROLE_ADMIN, ROLE_USER o ROLE_INSTRUCTOR.
+- El objeto de valor Roles, modelado como un enum, establece un conjunto cerrado de posibles valores para la asignación de roles, garantizando la integridad del dominio.
+- Adicionalmente, los servicios de dominio UserCommandService y RoleCommandService encapsulan operaciones de negocio que no pertenecen naturalmente a ninguna entidad, cumpliendo con el principio de separación de responsabilidades.
+
+<p align="justify">
 Esta estructura permite mantener un dominio rico, expresivo y alineado con las reglas de negocio fundamentales del sistema.
 
-**Agregates**
-| Aggregate <<User>>                       |
-|-------------------------------------------|
+**User `<<Agregate>>`**
+| Aritributos                     |
+|-|
 | - Long id (heredado de AuditableAbstractAggregateRoot) |
 | - String username                         |
 | - String password                         |
 | - Role role                         |
+
+|Metodos|
 |-------------------------------------------|
 | + getUsername(): String                   |
 | + getPassword(): String                   |
 | + getRole(): Role                         |
 | + setRole(role: Role): User               |
 
-**Entities**
-| Entity <<Role>>                         |
+**Role `<<Entity>>`**
+| Aritributos                         |
 |------------------------------------------|
 | - Long id                                |
-| - Roles name                             |
+| - Roles name    |
+
+|Metodos|
 |------------------------------------------|
 | + getId(): Long                          |
 | + getName(): Roles                       |
@@ -1531,17 +1583,12 @@ Esta estructura permite mantener un dominio rico, expresivo y alineado con las r
 | + toRoleFromName(name: String): Role     |
 | + validateRoleSet(roles: List<Role>): List<Role> |
 
-**Value Objects**
-| Value Object <<Roles>>                 |
+**Roles `<<Value Object>>`**
+|  Roles                 |
 |-----------------------------------------|
 | + ROLE_ADMIN                            |
 | + ROLE_USER                             |
 | + ROLE_INSTRUCTOR                      |
-|-----------------------------------------|
-| (Métodos estándar de enum Java)         |
-| + name(): String                        |
-| + values(): Roles[]                     |
-| + valueOf(String): Roles                |
 
 **Domain Services**
 | RoleCommandService       |
@@ -1555,84 +1602,99 @@ Esta estructura permite mantener un dominio rico, expresivo y alineado con las r
 
 
 ### 4.2.1.2. Interface Layer
-
+<p align="justify">
 La capa de interfaz expone la funcionalidad del contexto IAM a través de controladores RESTful basados en el framework Spring Boot.
 AuthenticationController gestiona los procesos de autenticación de usuarios, permitiendo tanto el inicio de sesión como el registro de nuevos usuarios.
 RolesController proporciona endpoints para consultar los diferentes roles disponibles en el sistema, mientras que UsersController facilita la recuperación de información sobre los usuarios registrados.
 Cada controlador delega la lógica de negocio en los servicios de dominio apropiados, actuando únicamente como capa de orquestación, en conformidad con el principio de Controller Thin.
 
-
-| Controller <<AuthenticationController>>                         |
+**AuthenticationController`<<Controller>>`**
+|  Atributos                         |
 |-------------------------------------------------------------------|
 | - UserCommandService userCommandService                          |
+
+|Metodos|
 |-------------------------------------------------------------------|
 | + signIn(signInResource: SignInResource): ResponseEntity<AuthenticatedUserResource> |
 | + signUp(signUpResource: SignUpResource): ResponseEntity<UserResource>               |
 
-| Controller <<RolesController>>                    |
+**RolesController`<<Controller>>`**
+| Atributos                   |
 |----------------------------------------------------|
 | - RoleQueryService roleQueryService                |
+
+|Metodos|
 |----------------------------------------------------|
 | + getAllRoles(): ResponseEntity<List<RoleResource>> |
 
-| Controller <<UsersController>>                                 |
+**UsersController`<<Controller>>`**
+| Atributos                                 |
 |----------------------------------------------------------------|
 | - UserQueryService userQueryService                            |
+
+|Metodos|
 |----------------------------------------------------------------|
 | + getAllUsers(): ResponseEntity<List<UserResource>>            |
 | + getUserById(userId: Long): ResponseEntity<UserResource>      |
 
 
 ### 4.2.1.3. Application Layer
-
+<p align="justify">
 La capa de aplicación coordina la ejecución de las operaciones de negocio a través de componentes como event handlers y servicios de aplicación.
 El ApplicationReadyEventHandler es responsable de inicializar los roles del sistema cuando la aplicación arranca. Este componente escucha el evento ApplicationReadyEvent de Spring y dispara la ejecución del comando SeedRolesCommand, garantizando que los roles fundamentales estén disponibles sin intervención manual.
 Esta organización contribuye a desacoplar las operaciones de infraestructura del dominio y favorece la automatización de procesos iniciales del sistema.
 
-
-| Event Handler <<ApplicationReadyEventHandler>>          |
+**ApplicationReadyEventHandler`<<Event Handler>>`**
+|  Atributos            |
 |----------------------------------------------------------|
 | - Logger LOGGER                                          |
 | - RoleCommandService roleCommandService                  |
+
+|Metodos|
 |----------------------------------------------------------|
 | + on(event: ApplicationReadyEvent): void                 |
 | - getCurrentTimestamp(): Timestamp                      |
 
 
 ### 4.2.1.4. Infrastructure Layer
-
+<p align="justify">
 La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
 UserRepository y RoleRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades User y Role, respectivamente.
 Estos repositorios proporcionan métodos específicos como findByUsername, findByName y validaciones de existencia (existsByUsername, existsByName), que son esenciales para preservar la unicidad de los registros.
 Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dominio, favoreciendo una arquitectura limpia y sostenible.
 
-
-| Infrastructure Repository <<RoleRepository>>              |
+**RoleRepository`<<Repository>>`**
+|Atributos             |
 |-------------------------------------------------------------|
 | Extiende: JpaRepository<Role, Long>                         |
+
+|Metodos|
 |-------------------------------------------------------------|
 | + findByName(name: Roles): Optional<Role>                   |
 | + existsByName(name: Roles): boolean                        |
 
-| Infrastructure Repository <<UserRepository>>               |
+**UserRepository`<<Repository>>`**
+| Atributos              |
 |-------------------------------------------------------------|
 | Extiende: JpaRepository<User, Long>                         |
+
+|Metodos|
 |-------------------------------------------------------------|
 | + findByUsername(username: String): Optional<User>          |
 | + existsByUsername(username: String): boolean               |
 
 
 ### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-
+<p align="justify">
 En esta sección se presentan los diagramas de arquitectura a nivel de componentes para el contexto IAM.
 Estos diagramas ilustran la interacción entre los principales artefactos del sistema, como controladores, servicios de dominio, agregados y repositorios.
 La representación gráfica facilita la comprensión del flujo de información y responsabilidades entre capas, promoviendo la trazabilidad y la consistencia arquitectónica del contexto.
 
-![](https://i.postimg.cc/DZ37w4bq/container-diagram.png)
+![](./assets/capitulo-4/IAM12.png)
 
 
 ### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
-
+<p align="justify">
 Los diagramas a nivel de código detallan los flujos de ejecución de los principales casos de uso del contexto IAM, incluyendo el proceso de registro (sign-up) y autenticación (sign-in).
 Asimismo, se incluyen diagramas de clases que representan la estructura interna de las entidades y servicios, así como diagramas de base de datos que modelan la persistencia de los objetos del dominio.
 Esta representación contribuye a visualizar la implementación técnica del contexto y a validar su alineación con el diseño conceptual.
@@ -1651,97 +1713,274 @@ Esta representación contribuye a visualizar la implementación técnica del con
 ![](https://i.postimg.cc/jqQSCccC/iam-db-diagram.png)
 
 ## 4.2.2. Bounded Context: Parking Site
+<p align="justify">
+En esta sección se documentan las principales clases que conforman el núcleo del contexto Parking Site, detallando sus atributos, métodos y relaciones.
+El agregado raíz Site representa una ubicación física del estacionamiento, como un edificio o un nivel, con información sobre su capacidad y las plazas de estacionamiento que contiene.
 
-> **Propósito general**  
-> Este contexto modela la **infraestructura física** de un estacionamiento (sedes, pisos, plazas).
+- La entidad ParkingSpot modela cada plaza individual dentro de un Site, con atributos como su código identificador, tipo (compacto, grande, eléctrico, discapacitado) y estado (libre, ocupada, reservada, fuera de servicio).
+
+- Los objetos de valor SpotType y SpotState encapsulan los posibles tipos y estados de las plazas de estacionamiento, implementados como enumerados (enum), asegurando la integridad de los valores permitidos y evitando inconsistencias.
+
+<p align="justify">
+Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
+
+**Clase Site**
+
+| **Nombre** | Site                                                              |
+|-----------------|-------------------------------------------------------------------|
+| **Relaciones** | Uno a muchos con ParkingSpot                                      |
+| **Descripción** | Representa una ubicación física del estacionamiento.              |
+
+Atributos
+
+| Nombre          | Tipo de Dato      | Visibilidad |
+|-----------------|-------------------|-------------|
+| id              | Long              | private     |
+| name            | String            | private     |
+| address         | String            | private     |
+| totalCapacity   | Integer           | private     |
+| availableSpots  | Integer           | private     |
+| spots           | List<ParkingSpot> | private     |
+
+Métodos
+
+| Método                      |
+|-----------------------------|
+| addSpot(spot: ParkingSpot)  |
+| removeSpot(spotId: Long)   |
+| updateAvailability()        |
+| findFreeSpotsByType(type: SpotType): List<ParkingSpot> |
+
+**Clase ParkingSpot**
+
+| **Nombre** | ParkingSpot                                                       |
+|-----------------|-------------------------------------------------------------------|
+| **Relaciones** | Muchos a uno con Site                                             |
+| **Descripción** | Representa una plaza individual de estacionamiento.              |
+
+Atributos
+
+| Nombre   | Tipo de Dato             | Visibilidad |
+|----------|--------------------------|-------------|
+| id       | Long                     | private     |
+| code     | String                   | private     |
+| type     | SpotType (enum)          | private     |
+| state    | SpotState (enum)         | private     |
+| siteId   | Long                     | private     |
+
+Métodos
+
+| Método                   |
+|--------------------------|
+| occupy()                 |
+| release()                |
+| markOutOfService()       |
+
+**Enum SpotType**
+
+| **Nombre** | SpotType                                                        |
+|-----------------|-----------------------------------------------------------------|
+| **Descripción** | Define los tipos posibles de plazas de estacionamiento.          |
+
+Valores
+
+| Valor      |
+|------------|
+| COMPACT    |
+| LARGE      |
+| EV         |
+| HANDICAP   |
+
+**Enum SpotState**
+
+| **Nombre** | SpotState                                                         |
+|-----------------|-------------------------------------------------------------------|
+| **Descripción** | Define los estados posibles de una plaza de estacionamiento.       |
+
+Valores
+
+| Valor           |
+|-----------------|
+| FREE            |
+| OCCUPIED        |
+| RESERVED        |
+| OUT_OF_SERVICE  |
 
 ### 4.2.2.1. Domain Layer
+<p align="justify">
+En la capa de dominio se modelan los conceptos centrales del contexto Parking Site siguiendo los principios de Domain-Driven Design.
 
-| Agregado | Rol | Descripción breve |
-|----------|-----|-------------------|
-| **Site** `<<Aggregate Root>>` | Macro-unidad | Un establecimiento (o nivel) con dirección, capacidad y reglas. Contiene muchas `ParkingSpot`. |
-| **ParkingSpot** `<<Aggregate Root>>` | Micro-unidad | Una plaza individual identificada (código), de un **tipo** (COMPACT, EV, HANDICAP…) y con un **state** (FREE, OCCUPIED, OUT_OF_SERVICE). |
+- El agregado raíz Site representa una unidad física del estacionamiento y contiene una colección de entidades ParkingSpot. Esta relación asegura la consistencia y las reglas de negocio relacionadas con la gestión de las plazas dentro de un sitio.
+- Los objetos de valor SpotType y SpotState definen los posibles tipos y estados de las plazas, garantizando la integridad del dominio.
+- Adicionalmente, el servicio de dominio SpotAssignmentService encapsula la lógica de negocio para asignar plazas de estacionamiento basándose en criterios específicos.
 
-#### Site
+<p align="justify">
+Esta estructura permite mantener un dominio rico, expresivo y alineado con las reglas de negocio fundamentales del sistema de estacionamiento.
 
-| Atributo | Tipo | Vis. | Notas |
-|----------|------|------|-------|
-| id | Long | private | PK |
-| name | String | private | Nombre visible (“San Isidro – Sotano 1”) |
-| address | String | private | Dirección completa |
-| totalCapacity | Integer | private | Plazas totales |
-| availableSpots | Integer | private | Plazas libres (cálculo interno) |
+**Site `<<Aggregate>>`**
+| Atributos         |
+|-------------------|
+| - Long id         |
+| - String name       |
+| - String address    |
+| - Integer totalCapacity |
+| - Integer availableSpots |
+| - List<ParkingSpot> spots |
 
-| Método | Firma |
-|--------|-------|
-| addSpot(spot: ParkingSpot) |
-| removeSpot(spotId: Long) |
-| updateAvailability(): Site |
+| Métodos                                        |
+|------------------------------------------------|
+| + addSpot(spot: ParkingSpot): void             |
+| + removeSpot(spotId: Long): void              |
+| + updateAvailability(): void                  |
+| + findFreeSpotsByType(type: SpotType): List<ParkingSpot> |
 
-#### ParkingSpot
+**ParkingSpot `<<Entity>>`**
+| Atributos   |
+|-------------|
+| - Long id   |
+| - String code |
+| - SpotType type |
+| - SpotState state |
+| - Long siteId |
 
-| Atributo | Tipo | Vis. | Notas |
-|----------|------|------|-------|
-| id | Long | private | PK |
-| code | String | private | Ej. “B-12” |
-| type | SpotType `enum` | private | COMPACT, LARGE, EV, HANDICAP |
-| state | SpotState `enum` | private | FREE, OCCUPIED, RESERVED, OUT_OF_SERVICE |
-| siteId | Long | private | FK a `Site` |
+| Métodos                |
+|------------------------|
+| + occupy(): void       |
+| + release(): void      |
+| + markOutOfService(): void |
 
-| Método | Firma |
-|--------|-------|
-| occupy(): ParkingSpot |
-| release(): ParkingSpot |
-| markOutOfService(): ParkingSpot |
+**SpotType `<<Value Object>>`**
+| SpotType |
+|----------|
+| + COMPACT  |
+| + LARGE    |
+| + EV       |
+| + HANDICAP |
 
-#### Value Objects
+**SpotState `<<Value Object>>`**
+| SpotState      |
+|----------------|
+| + FREE         |
+| + OCCUPIED     |
+| + RESERVED     |
+| + OUT_OF_SERVICE |
 
-| Nombre | Valores |
-|--------|---------|
-| **SpotType** | COMPACT · LARGE · EV · HANDICAP |
-| **SpotState** | FREE · OCCUPIED · RESERVED · OUT_OF_SERVICE |
-
-#### Domain Services
-
-| Servicio | Responsabilidad principal |
-|----------|---------------------------|
-| **SpotAssignmentService** | Encontrar la siguiente plaza libre según *tipo preferido* y *reglas de negocio* (por ejemplo, prioridad EV). |
-
----
+**Domain Services**
+| SpotAssignmentService                                                                                                |
+|----------------------------------------------------------------------------------------------------------------------|
+| + findNextAvailableSpot(site: Site, preferredType: SpotType, rules: Map<String, Object>): Optional<ParkingSpot> |
 
 ### 4.2.2.2. Interface Layer
+<p align="justify">
+La capa de interfaz expone la funcionalidad del contexto Parking Site a través de controladores RESTful basados en el framework Spring Boot.
+SitesController gestiona las operaciones relacionadas con la creación y consulta de sitios de estacionamiento.
+SpotsController proporciona endpoints para consultar y modificar el estado de las plazas de estacionamiento individuales.
+Cada controlador delega la lógica de negocio en los servicios de aplicación apropiados, actuando únicamente como capa de orquestación, en conformidad con el principio de Controller Thin.
 
-| Controller | Endpoints clave |
-|------------|----------------|
-| **SitesController** | `GET /sites`, `GET /sites/{id}`, `POST /sites` |
-| **SpotsController** | `GET /spots/{id}`, `PATCH /spots/{id}/occupy`, `PATCH /spots/{id}/release` |
+**SitesController`<<Controller>>`**
+| Atributos          |
+|--------------------|
+| - ISiteService siteService |
 
----
+| Métodos                                      |
+|----------------------------------------------|
+| + getAllSites(): ResponseEntity<List<SiteResource>> |
+| + getSiteById(siteId: Long): ResponseEntity<SiteResource> |
+| + createSite(createSiteResource: CreateSiteResource): ResponseEntity<SiteResource> |
+
+**SpotsController`<<Controller>>`**
+| Atributos          |
+|--------------------|
+| - ISpotService spotService |
+
+| Métodos                                                        |
+|----------------------------------------------------------------|
+| + getSpotById(spotId: Long): ResponseEntity<ParkingSpotResource> |
+| + occupySpot(spotId: Long): ResponseEntity<ParkingSpotResource> |
+| + releaseSpot(spotId: Long): ResponseEntity<ParkingSpotResource> |
+| + markSpotOutOfService(spotId: Long): ResponseEntity<ParkingSpotResource> |
 
 ### 4.2.2.3. Application Layer
+<p align="justify">
+La capa de aplicación coordina la ejecución de las operaciones de negocio a través de servicios de aplicación.
+SiteService maneja la creación y consulta de objetos Site.
+SpotService gestiona las operaciones relacionadas con el estado y la disponibilidad de los objetos ParkingSpot.
 
-| Service Interface | Operaciones |
-|-------------------|-------------|
-| **ISiteService** | createSite · getSite · listSites |
-| **ISpotService** | occupySpot · releaseSpot · findNextFreeSpot |
+**ISiteService`<<Service Interface>>`**
+| Métodos                                      |
+|----------------------------------------------|
+| + getAllSites(): List<Site>                   |
+| + getSiteById(siteId: Long): Optional<Site>    |
+| + createSite(site: Site): Site               |
 
-Implementaciones: `SiteServiceImpl`, `SpotServiceImpl` (usan `ModelMapper` + reglas de dominio).
+**SiteServiceImpl`<<Service>>`**
+| Atributos            |
+|----------------------|
+| - SiteRepository siteRepository |
 
----
+| Métodos (implementa ISiteService)              |
+|------------------------------------------------|
+| + getAllSites(): List<Site>                   |
+| + getSiteById(siteId: Long): Optional<Site>    |
+| + createSite(site: Site): Site               |
+
+**ISpotService`<<Service Interface>>`**
+| Métodos                                                 |
+|---------------------------------------------------------|
+| + getSpotById(spotId: Long): Optional<ParkingSpot>      |
+| + occupySpot(spotId: Long): Optional<ParkingSpot>       |
+| + releaseSpot(spotId: Long): Optional<ParkingSpot>      |
+| + markSpotOutOfService(spotId: Long): Optional<ParkingSpot> |
+| + findNextFreeSpot(siteId: Long, preferredType: SpotType): Optional<ParkingSpot> |
+
+**SpotServiceImpl`<<Service>>`**
+| Atributos              |
+|------------------------|
+| - SpotRepository spotRepository |
+| - SiteRepository siteRepository |
+| - SpotAssignmentService spotAssignmentService |
+
+| Métodos (implementa ISpotService)                       |
+|-------------------------------------------------------|
+| + getSpotById(spotId: Long): Optional<ParkingSpot>    |
+| + occupySpot(spotId: Long): Optional<ParkingSpot>     |
+| + releaseSpot(spotId: Long): Optional<ParkingSpot>    |
+| + markSpotOutOfService(spotId: Long): Optional<ParkingSpot> |
+| + findNextFreeSpot(siteId: Long, preferredType: SpotType): Optional<ParkingSpot> |
 
 ### 4.2.2.4. Infrastructure Layer
+<p align="justify">
+La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
+SiteRepository y SpotRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades Site y ParkingSpot, respectivamente.
+Estos repositorios proporcionan métodos específicos para la consulta y manipulación de los datos del dominio.
 
-| Repository | Extiende | Métodos custom |
-|------------|----------|----------------|
-| **SiteRepository** | `JpaRepository<Site,Long>` | findByName |
-| **SpotRepository** | `JpaRepository<ParkingSpot,Long>` | countByStateAndSiteId |
+**SiteRepository`<<Repository>>`**
+| Atributos                        |
+|----------------------------------|
+| Extiende: JpaRepository<Site, Long> |
 
----
+| Métodos                                    |
+|--------------------------------------------|
+| + findByName(name: String): Optional<Site> |
+
+**SpotRepository`<<Repository>>`**
+| Atributos                             |
+|---------------------------------------|
+| Extiende: JpaRepository<ParkingSpot, Long> |
+
+| Métodos                                                                 |
+|-------------------------------------------------------------------------|
+| + countByStateAndSiteId(state: SpotState, siteId: Long): long           |
+| + findBySiteIdAndState(siteId: Long, state: SpotState): List<ParkingSpot> |
 
 ### 4.2.2.5. Component Diagram
+
 ![Parking Site Components](assets/capitulo-4/4.2.2.5-Diagram.png)
 
 ### 4.2.2.6. Code-Level Diagrams
+
+![img_14.png](img_14.png)
+
 #### 4.2.2.6.1. Domain Class Diagram
 ![Parking Site Classes](assets/capitulo-4/4.2.2.6.1-Diagram.png)
 
@@ -1749,209 +1988,338 @@ Implementaciones: `SiteServiceImpl`, `SpotServiceImpl` (usan `ModelMapper` + reg
 ![Parking Site DB](assets/capitulo-4/4.2.2.6.2-Diagram.png)
 
 ----
-### 4.2.3. Bounded Context: Camera Feed
 
-Este contexto está orientado a la gestión de dispositivos de cámaras, sus transmisiones (feeds) en vivo, capturas de pantalla (screenshots) y la relación de estas capturas con matrículas de automóviles (carplates).
+## 4.2.3. Bounded Context: Camera Feed
+<p align="justify">
+En esta sección se documentan las principales clases que conforman el núcleo del contexto Camera Feed, detallando sus atributos, métodos y relaciones.
+El agregado raíz CameraDevice representa un dispositivo físico de cámara que genera transmisiones de video (Feeds) y captura imágenes estáticas (Screenshots). Estas capturas pueden estar asociadas a la detección de matrículas de vehículos (CarPlates).
 
----
+- La entidad Feed modela una transmisión de video en vivo proveniente de una CameraDevice, registrando su URL de acceso y el momento en que comenzó.
 
-## Clase CameraDevice (Aggregate Root)
+- La entidad Screenshot representa una imagen capturada en un instante específico desde un Feed o directamente desde una CameraDevice. Puede contener información sobre la matrícula de un vehículo detectado.
 
-| **Nombre**           | **CameraDevice**             |
-|:---------------------|:------------------------------|
-| **Relaciones**       | Tiene muchos `Feed` y muchos `Screenshot`. |
-| **Descripción**      | Representa un dispositivo de cámara que envía transmisiones y toma capturas de pantalla. Es el agregado raíz de este contexto. |
+- La entidad CarPlate modela la información de una matrícula de vehículo detectada en una Screenshot, incluyendo el número de la placa y la hora de detección.
 
-### Atributos
+- Cada clase está diseñada con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
 
-| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
-|:---------------------|:-------------------|:----------------|
-| `id`                 | `Long`             | `private`       |
-| `deviceName`         | `String`           | `private`       |
-| `location`           | `String`           | `private`       |
-| `feeds`              | `List<Feed>`       | `private`       |
-| `screenshots`        | `List<Screenshot>` | `private`       |
+**Clase CameraDevice**
 
-### Métodos
+| **Nombre** | CameraDevice                                                      |
+|-----------------|-------------------------------------------------------------------|
+| **Relaciones** | Uno a muchos con Feed, uno a muchos con Screenshot                |
+| **Descripción** | Representa un dispositivo de cámara que genera feeds y screenshots. |
 
-| **Método**           | **Descripción**                             |
-|:---------------------|:-------------------------------------------|
-| `addFeed(feed: Feed)` | Agrega un nuevo feed al dispositivo.       |
-| `addScreenshot(screenshot: Screenshot)` | Agrega una nueva captura de pantalla. |
+Atributos
 
----
+| Nombre       | Tipo de Dato      | Visibilidad |
+|--------------|-------------------|-------------|
+| id           | Long              | private     |
+| deviceName   | String            | private     |
+| location     | String            | private     |
+| status       | Boolean           | private     |
+| feeds        | List<Feed>        | private     |
+| screenshots  | List<Screenshot>  | private     |
 
-## Clase Feed (Entity)
+Métodos
 
-| **Nombre**           | **Feed**                    |
-|:---------------------|:----------------------------|
-| **Relaciones**       | Pertenece a `CameraDevice`. |
-| **Descripción**      | Representa una transmisión de video proveniente de un dispositivo de cámara. |
+| Método                       |
+|------------------------------|
+| activateDevice()             |
+| deactivateDevice()           |
+| addFeed(feed: Feed)          |
+| addScreenshot(screenshot: Screenshot) |
+| captureFeed()                |
 
-### Atributos
+**Clase Feed**
 
-| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
-|:---------------------|:-------------------|:----------------|
-| `id`                 | `Long`             | `private`       |
-| `streamUrl`          | `String`           | `private`       |
-| `startedAt`          | `LocalDateTime`    | `private`       |
+| **Nombre** | Feed                                                            |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Muchos a uno con CameraDevice                                     |
+| **Descripción** | Representa una transmisión de video de una cámara.              |
 
-### Métodos
+Atributos
 
-| **Método**           | **Descripción**                             |
-|:---------------------|:-------------------------------------------|
-| `getStreamUrl()`     | Devuelve la URL del stream.                |
-| `getStartedAt()`     | Devuelve la fecha y hora de inicio del feed.|
+| Nombre      | Tipo de Dato    | Visibilidad |
+|-------------|-----------------|-------------|
+| id          | Long            | private     |
+| timestamp   | LocalDateTime   | private     |
+| imageData   | String          | private     |
 
----
+Métodos
 
-## Clase Screenshot (Entity)
+| Método              |
+|---------------------|
+| storeFeed()         |
+| analyzeFeed()       |
 
-| **Nombre**           | **Screenshot**              |
-|:---------------------|:----------------------------|
-| **Relaciones**       | Pertenece a `CameraDevice` y puede estar asociada a un `CarPlate`. |
-| **Descripción**      | Representa una captura de imagen tomada de un feed en vivo. |
+**Clase Screenshot**
 
-### Atributos
+| **Nombre** | Screenshot                                                      |
+|-----------------|-------------------------------------------------------------------|
+| **Relaciones** | Muchos a uno con CameraDevice, opcionalmente uno a uno con CarPlate |
+| **Descripción** | Representa una captura de imagen de una cámara.                 |
 
-| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
-|:---------------------|:-------------------|:----------------|
-| `id`                 | `Long`             | `private`       |
-| `imageUrl`           | `String`           | `private`       |
-| `takenAt`            | `LocalDateTime`    | `private`       |
-| `carPlate`           | `CarPlate`         | `private`       |
+Atributos
 
-### Métodos
+| Nombre       | Tipo de Dato    | Visibilidad |
+|--------------|-----------------|-------------|
+| id           | Long            | private     |
+| feedId       | Long            | private     |
+| imagePath    | String          | private     |
+| carPlate     | CarPlate        | private     |
 
-| **Método**           | **Descripción**                             |
-|:---------------------|:-------------------------------------------|
-| `assignCarPlate(carPlate: CarPlate)` | Asigna una matrícula detectada a la captura. |
+Métodos
 
----
+| Método                |
+|-----------------------|
+| saveScreenshot()      |
+| retrieveScreenshot()  |
+| assignCarPlate(carPlate: CarPlate) |
 
-## Clase CarPlate (Entity)
+**Clase CarPlate**
 
-| **Nombre**           | **CarPlate**                |
-|:---------------------|:----------------------------|
-| **Relaciones**       | Puede ser asociada a varios `Screenshot`. |
-| **Descripción**      | Representa la matrícula de un vehículo detectado en una captura. |
+| **Nombre** | CarPlate                                                        |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Uno a muchos con Screenshot                                     |
+| **Descripción** | Representa la matrícula de un vehículo detectada.               |
 
-### Atributos
+Atributos
 
-| **Nombre**           | **Tipo de Dato**   | **Visibilidad** |
-|:---------------------|:-------------------|:----------------|
-| `id`                 | `Long`             | `private`       |
-| `plateNumber`        | `String`           | `private`       |
-| `detectedAt`         | `LocalDateTime`    | `private`       |
+| Nombre        | Tipo de Dato    | Visibilidad |
+|---------------|-----------------|-------------|
+| id            | Long            | private     |
+| plateNumber   | String          | private     |
+| detectedAt    | LocalDateTime   | private     |
 
-### Métodos
+Métodos
 
-| **Método**           | **Descripción**                             |
-|:---------------------|:-------------------------------------------|
-| `getPlateNumber()`   | Devuelve el número de la matrícula detectada.|
-| `getDetectedAt()`    | Devuelve la fecha y hora de detección.      |
-
----
+| Método                     |
+|----------------------------|
+| validatePlate()            |
+| associateWithTicket()       |
+| getPlateNumber(): String   |
+| getDetectedAt(): LocalDateTime |
 
 ### 4.2.3.1. Domain Layer
-Esta capa representa el núcleo del modelo de negocio dentro del bounded context **Camera Feed**. Aquí se definen los principales conceptos del dominio, sus entidades, agregados y relaciones. 
+<p align="justify">
+En la capa de dominio se modelan los conceptos centrales del contexto Camera Feed siguiendo los principios de Domain-Driven Design.
 
-El aggregate root `CameraDevice` organiza la estructura general: cada dispositivo de cámara puede emitir múltiples transmisiones en vivo (`Feed`) y generar múltiples capturas de pantalla (`Screenshot`). Además, las capturas de pantalla pueden contener información relevante de matrículas de vehículos (`CarPlate`). 
+- El agregado raíz CameraDevice gestiona el ciclo de vida de los dispositivos de cámara, sus transmisiones (Feeds) y las capturas de pantalla (Screenshots) que generan.
+Las entidades Feed y Screenshot son dependientes de CameraDevice. - Un Screenshot puede opcionalmente estar asociado a una entidad CarPlate si se detecta una matrícula.
+- La entidad CarPlate representa la información de la matrícula detectada.
+- Esta estructura asegura la consistencia y las reglas de negocio relacionadas con la gestión de los dispositivos de cámara y la información que generan.
 
-Todas las reglas de negocio críticas y las asociaciones entre estos objetos del dominio se gestionan en esta capa, asegurando coherencia y consistencia en el modelo de datos.
+**CameraDevice `<<Aggregate>>`**
+| Atributos       |
+|-----------------|
+| - Long id       |
+| - String deviceName |
+| - String location   |
+| - Boolean status  |
+| - List<Feed> feeds |
+| - List<Screenshot> screenshots |
 
-#### Aggregate: CameraDevice
+| Métodos                               |
+|---------------------------------------|
+| + activateDevice(): void             |
+| + deactivateDevice(): void           |
+| + addFeed(feed: Feed): void          |
+| + addScreenshot(screenshot: Screenshot): void |
+| + captureFeed(): Feed                |
 
-| Entidad / Agregado | Descripción |
-|--------------------|-------------|
-| **CameraDevice** `<<Aggregate Root>>` | Representa un dispositivo de cámara. Contiene múltiples feeds y screenshots. |
-| **Feed** `<<Entity>>` | Representa una transmisión en vivo generada por una cámara. |
-| **Screenshot** `<<Entity>>` | Imagen capturada desde un feed en un momento específico. Puede estar relacionada a una matrícula de vehículo. |
-| **CarPlate** `<<Entity>>` | Información de una placa de vehículo detectada en un screenshot. |
+**Feed `<<Entity>>`**
+| Atributos         |
+|-------------------|
+| - Long id         |
+| - LocalDateTime timestamp |
+| - String imageData  |
+| - Long cameraDeviceId |
 
-#### CameraDevice (núcleo)
+| Métodos           |
+|-------------------|
+| + storeFeed(): void |
+| + analyzeFeed(): void |
 
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| name | String |
-| location | String |
-| feeds | List<Feed> |
-| screenshots | List<Screenshot> |
+**Screenshot `<<Entity>>`**
+| Atributos           |
+|---------------------|
+| - Long id           |
+| - Long feedId       |
+| - String imagePath  |
+| - Long cameraDeviceId |
+| - CarPlate carPlate (optional) |
 
-| Método | Firma |
-|--------|-------|
-| addFeed(feed: Feed): void |
-| captureScreenshot(screenshot: Screenshot): void |
+| Métodos                                  |
+|------------------------------------------|
+| + saveScreenshot(): void                |
+| + retrieveScreenshot(): String          |
+| + assignCarPlate(carPlate: CarPlate): void |
 
-#### Feed
+**CarPlate `<<Entity>>`**
+| Atributos       |
+|-----------------|
+| - Long id       |
+| - String plateNumber |
+| - LocalDateTime detectedAt |
 
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| cameraDeviceId | Long |
-| urlStream | String |
-| startedAt | Instant |
-| endedAt | Instant (nullable) |
+| Métodos                      |
+|------------------------------|
+| + validatePlate(): boolean    |
+| + associateWithTicket(): void |
+| + getPlateNumber(): String   |
+| + getDetectedAt(): LocalDateTime |
 
-#### Screenshot
-
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| cameraDeviceId | Long |
-| feedId | Long (opcional) |
-| capturedAt | Instant |
-| imageUrl | String |
-| carPlate | CarPlate (opcional) |
-
-#### CarPlate
-
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| plateNumber | String |
-| detectedAt | Instant |
-
----
+**Domain Services**
+| CarPlateDetectionService                                           |
+|--------------------------------------------------------------------|
+| + detectCarPlate(imagePath: String): Optional<CarPlate>           |
 
 ### 4.2.3.2. Interface Layer
 
-La capa de interfaz expone los servicios de `CameraDevice`, permitiendo registrar dispositivos, crear feeds y capturar screenshots, todo a través de APIs RESTful.
+La capa de interfaz expone la funcionalidad del contexto Camera Feed a través de controladores RESTful basados en el framework Spring Boot.
+CameraDeviceController gestiona las operaciones relacionadas con los dispositivos de cámara.
+FeedController proporciona endpoints para la gestión de las transmisiones de video.
+ScreenshotController facilita la gestión de las capturas de pantalla y la asociación con matrículas.
 
-| Controller | Endpoints |
-|------------|-----------|
-| **CameraDeviceController** | `POST /camera-devices` · `GET /camera-devices/{id}` |
-| **FeedController** | `POST /feeds` · `GET /feeds/{id}` |
-| **ScreenshotController** | `POST /screenshots` · `GET /screenshots/{id}` |
+**CameraDeviceController`<<Controller>>`**
+| Atributos                  |
+|----------------------------|
+| - ICameraDeviceService cameraDeviceService |
 
----
+| Métodos                                                        |
+|----------------------------------------------------------------|
+| + registerCameraDevice(registerResource: RegisterCameraDeviceResource): ResponseEntity<CameraDeviceResource> |
+| + getCameraDeviceById(deviceId: Long): ResponseEntity<CameraDeviceResource> |
+| + activateCamera(deviceId: Long): ResponseEntity<CameraDeviceResource> |
+| + deactivateCamera(deviceId: Long): ResponseEntity<CameraDeviceResource> |
+
+**FeedController`<<Controller>>`**
+| Atributos          |
+|--------------------|
+| - IFeedService feedService |
+
+| Métodos                                                  |
+|----------------------------------------------------------|
+| + startFeed(deviceId: Long): ResponseEntity<FeedResource> |
+| + getFeedById(feedId: Long): ResponseEntity<FeedResource> |
+
+**ScreenshotController`<<Controller>>`**
+| Atributos              |
+|------------------------|
+| - IScreenshotService screenshotService |
+
+| Métodos                                                                    |
+|----------------------------------------------------------------------------|
+| + captureNewScreenshot(deviceId: Long): ResponseEntity<ScreenshotResource>  |
+| + getScreenshotById(screenshotId: Long): ResponseEntity<ScreenshotResource> |
+| + associatePlateWithScreenshot(screenshotId: Long, plateNumber: String): ResponseEntity<ScreenshotResource> |
 
 ### 4.2.3.3. Application Layer
+<p align="justify">
+La capa de aplicación coordina la ejecución de las operaciones de negocio a través de servicios de aplicación.
+CameraDeviceService gestiona las operaciones relacionadas con los dispositivos de cámara.
+FeedService gestiona el ciclo de vida de las transmisiones de video.
+ScreenshotService maneja la captura y asociación de matrículas con las capturas de pantalla.
 
-El `CameraDeviceCommandService` maneja las operaciones de negocio como agregar feeds, registrar nuevos dispositivos y asociar screenshots a car plates.
+**ICameraDeviceService`<<Service Interface>>`**
+| Métodos                                          |
+|--------------------------------------------------|
+| + registerCameraDevice(cameraDevice: CameraDevice): CameraDevice |
+| + getCameraDeviceById(deviceId: Long): Optional<CameraDevice>  |
+| + activateCamera(deviceId: Long): Optional<CameraDevice>       |
+| + deactivateCamera(deviceId: Long): Optional<CameraDevice>     |
 
-| Service | Operaciones |
-|---------|-------------|
-| **ICameraFeedService** | registerCameraDevice · startFeed · captureScreenshot · associateCarPlate |
+**CameraDeviceServiceImpl`<<Service>>`**
+| Atributos                      |
+|--------------------------------|
+| - CameraDeviceRepository cameraDeviceRepository |
 
-Impl.: `CameraFeedServiceImpl`
+| Métodos (implementa ICameraDeviceService)                 |
+|---------------------------------------------------------|
+| + registerCameraDevice(cameraDevice: CameraDevice): CameraDevice |
+| + getCameraDeviceById(deviceId: Long): Optional<CameraDevice>  |
+| + activateCamera(deviceId: Long): Optional<CameraDevice>       |
+| + deactivateCamera(deviceId: Long): Optional<CameraDevice>     |
 
+**IFeedService`<<Service Interface>>`**
+| Métodos                                     |
+|---------------------------------------------|
+| + startFeed(deviceId: Long): Optional<Feed>  |
+| + getFeedById(feedId: Long): Optional<Feed> |
 
----
+**FeedServiceImpl`<<Service>>`**
+| Atributos                |
+|--------------------------|
+| - FeedRepository feedRepository |
+| - CameraDeviceRepository cameraDeviceRepository |
+
+| Métodos (implementa IFeedService)                |
+|------------------------------------------------|
+| + startFeed(deviceId: Long): Optional<Feed>     |
+| + getFeedById(feedId: Long): Optional<Feed>    |
+
+**IScreenshotService`<<Service Interface>>`**
+| Métodos                                                              |
+|----------------------------------------------------------------------|
+| + captureNewScreenshot(deviceId: Long): Optional<Screenshot>         |
+| + getScreenshotById(screenshotId: Long): Optional<Screenshot>        |
+| + associatePlateWithScreenshot(screenshotId: Long, plateNumber: String): Optional<Screenshot> |
+
+**ScreenshotServiceImpl`<<Service>>`**
+| Atributos                    |
+|------------------------------|
+| - ScreenshotRepository screenshotRepository |
+| - CameraDeviceRepository cameraDeviceRepository |
+| - CarPlateRepository carPlateRepository |
+| - CarPlateDetectionService carPlateDetectionService |
+
+| Métodos (implementa IScreenshotService)                                  |
+|-------------------------------------------------------------------------|
+| + captureNewScreenshot(deviceId: Long): Optional<Screenshot>            |
+| + getScreenshotById(screenshotId: Long): Optional<Screenshot>           |
+| + associatePlateWithScreenshot(screenshotId: Long, plateNumber: String): Optional<Screenshot> |
 
 ### 4.2.3.4. Infrastructure Layer
+<p align="justify">
+La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
+CameraDeviceRepository, FeedRepository, ScreenshotRepository y CarPlateRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades correspondientes.
+Estos repositorios proporcionan métodos específicos para la consulta y manipulación de los datos del dominio.
 
-`CameraDeviceRepository` es una interfaz que extiende `JpaRepository`, permitiendo el acceso y persistencia de dispositivos de cámara, junto con sus feeds y screenshots asociados.
+**CameraDeviceRepository`<<Repository>>`**
+| Atributos                                  |
+|--------------------------------------------|
+| Extiende: JpaRepository<CameraDevice, Long> |
 
+| Métodos                                         |
+|-------------------------------------------------|
+| + findByLocation(location: String): List<CameraDevice> |
 
-| Repository | Métodos custom |
-|------------|----------------|
-| **CameraDeviceRepository** | findByLocation |
-| **FeedRepository** | findActiveFeedsByCameraDeviceId |
-| **ScreenshotRepository** | findByCapturedAtBetween |
-| **CarPlateRepository** | findByPlateNumber |
+**FeedRepository`<<Repository>>`**
+| Atributos                      |
+|--------------------------------|
+| Extiende: JpaRepository<Feed, Long> |
 
+| Métodos                                                       |
+|---------------------------------------------------------------|
+| + findByCameraDeviceIdAndEndedAtIsNull(cameraDeviceId: Long): List<Feed> |
+
+**ScreenshotRepository`<<Repository>>`**
+| Atributos                          |
+|------------------------------------|
+| Extiende: JpaRepository<Screenshot, Long> |
+
+| Métodos                                                                 |
+|-------------------------------------------------------------------------|
+| + findByCapturedAtBetween(start: LocalDateTime, end: LocalDateTime): List<Screenshot> |
+
+**CarPlateRepository`<<Repository>>`**
+| Atributos                      |
+|--------------------------------|
+| Extiende: JpaRepository<CarPlate, Long> |
+
+| Métodos                                           |
+|---------------------------------------------------|
+| + findByPlateNumber(plateNumber: String): Optional<CarPlate> |
 
 ----
 
@@ -1972,73 +2340,271 @@ Impl.: `CameraFeedServiceImpl`
 ![Camera Feed Database Design Diagram](assets/capitulo-4/DBCameraFeed.png)
 
 ## 4.2.4. Bounded Context: Parking Circulation
+<p align="justify">
+En esta sección se documentan las principales clases que conforman el núcleo del contexto Parking Circulation, detallando sus atributos, métodos y relaciones.
+Este contexto se enfoca en modelar el flujo de vehículos dentro del estacionamiento, registrando los eventos de entrada (ParkingEntrance) y salida (ParkingExit), y emitiendo tickets (Ticket) que vinculan estos eventos con la información del usuario (UserId).
 
-> **Propósito**  
-> Modela **eventos de flujo**: ingreso, salida y emisión de tickets en tiempo real,  
-> orquestando la relación con *Camera Feed* y *Payments*.
+- La entidad ParkingEntrance representa el evento de llegada de un vehículo, capturando la matrícula, la hora de ingreso y la cámara que detectó la entrada.
 
-### 4.2.4.1. Domain Layer
+- La entidad ParkingExit representa el evento de salida de un vehículo, registrando la matrícula, la hora de salida y la cámara que detectó la salida.
 
-| Entidad / Agregado | Descripción |
-|--------------------|-------------|
-| **ParkingEntrance** | Evento de llegada (timestamp, plate, detectedBy). |
-| **ParkingExit** | Evento de salida. |
-| **Ticket** `<<Entity>>` | Correlaciona entrada + salida, lleva `userId` (VO), `status`, `amountToPay`, `totalDuration`. |
-| **UserId** `<<Value Object>>` | Cadena inmutable (“sub-dominio IAM”). |
+- La entidad Ticket es el agregado principal de este contexto, correlacionando un evento de entrada con uno de salida (cuando ocurre), almacenando información del usuario a través de un objeto de valor UserId, el estado del ticket, el monto a pagar y la duración total de la estancia.
 
-#### Ticket (núcleo)
+- El objeto de valor UserId encapsula el identificador del usuario proveniente del contexto IAM, asegurando la inmutabilidad de esta información dentro del contexto de circulación.
 
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| userId | UserId |
-| entranceId | Long |
-| exitId | Long (nullable hasta salida) |
-| status | TicketState `enum` |
-| amountToPay | BigDecimal |
-| totalDuration | Duration |
+- El enumerado TicketState define los posibles estados de un ticket de estacionamiento.
 
-| Método | Firma |
-|--------|-------|
+- El servicio de dominio CirculationDomainService orquesta la creación de tickets al registrar una entrada y su cierre al registrar una salida, además de calcular el monto a pagar.
+
+- Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
+
+**Clase ParkingEntrance**
+
+| **Nombre** | ParkingEntrance                                                   |
+|-----------------|---------------------------------------------------------------|
+| **Relaciones** | Uno a uno con Ticket (como evento inicial)                    |
+| **Descripción** | Representa el evento de entrada de un vehículo al estacionamiento. |
+
+Atributos
+
+| Nombre          | Tipo de Dato    | Visibilidad |
+|-----------------|-----------------|-------------|
+| id              | Long            | private     |
+| vehiclePlate    | String          | private     |
+| timestamp       | LocalDateTime   | private     |
+| detectedBy      | String          | private     |
+
+**Clase ParkingExit**
+
+| **Nombre** | ParkingExit                                                     |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Uno a uno con Ticket (como evento final)                       |
+| **Descripción** | Representa el evento de salida de un vehículo del estacionamiento. |
+
+Atributos
+
+| Nombre          | Tipo de Dato    | Visibilidad |
+|-----------------|-----------------|-------------|
+| id              | Long            | private     |
+| vehiclePlate    | String          | private     |
+| timestamp       | LocalDateTime   | private     |
+| detectedBy      | String          | private     |
+
+**Clase Ticket**
+
+| **Nombre** | Ticket                                                          |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Uno a uno con ParkingEntrance, opcionalmente uno a uno con ParkingExit |
+| **Descripción** | Representa un ticket de estacionamiento, vinculando entrada y salida. |
+
+Atributos
+
+| Nombre        | Tipo de Dato   | Visibilidad |
+|---------------|----------------|-------------|
+| id            | Long           | private     |
+| userId        | UserId         | private     |
+| entranceId    | Long           | private     |
+| exitId        | Long           | private     |
+| status        | TicketState (enum) | private     |
+| amountToPay   | BigDecimal     | private     |
+| totalDuration | Duration       | private     |
+
+Métodos
+
+| Método                          |
+|---------------------------------|
 | close(exit: ParkingExit): Ticket |
 | calculateAmount(rate: MoneyRate): BigDecimal |
 
-#### Enums
-`TicketState` → OPEN · CLOSED · CANCELLED
+**Enum TicketState**
 
-#### Domain Service
-`CirculationDomainService`  
-– vincula entrada, genera `Ticket`; al recibir salida, cierra + publica **ParkingCompletedEvent**.
+| **Nombre** | TicketState                                                       |
+|-----------------|-----------------------------------------------------------------|
+| **Descripción** | Define los estados posibles de un ticket de estacionamiento.      |
 
----
+Valores
+
+| Valor     |
+|-----------|
+| OPEN      |
+| CLOSED    |
+| CANCELLED |
+
+**Clase UserId (Value Object)**
+
+| **Nombre** | UserId                                                          |
+|-----------------|-----------------------------------------------------------------|
+| **Descripción** | Representa el identificador de un usuario del contexto IAM.     |
+
+Atributos
+
+| Nombre | Tipo de Dato | Visibilidad |
+|--------|--------------|-------------|
+| value  | String       | private     |
+
+Métodos
+
+| Método        |
+|---------------|
+| getValue(): String |
+
+### 4.2.4.1. Domain Layer
+<p align="justify">
+En la capa de dominio se modelan los conceptos centrales del contexto Parking Circulation siguiendo los principios de Domain-Driven Design.
+El agregado raíz Ticket coordina la información de los eventos de entrada (ParkingEntrance) y salida (ParkingExit), junto con la identidad del usuario (UserId) y el estado del ticket (TicketState).
+Las entidades ParkingEntrance y ParkingExit representan eventos inmutables en el tiempo.
+El objeto de valor UserId asegura la integridad de la identidad del usuario dentro de este contexto.
+El servicio de dominio CirculationDomainService encapsula la lógica de negocio para la creación, cierre y cálculo de costos de los tickets.
+Esta estructura permite mantener un dominio rico, expresivo y alineado con las reglas de negocio fundamentales de la circulación en el estacionamiento.
+
+**Ticket `<<Aggregate>>`**
+| Atributos         |
+|-------------------|
+| - Long id         |
+| - UserId userId   |
+| - Long entranceId |
+| - Long exitId (nullable) |
+| - TicketState status |
+| - BigDecimal amountToPay |
+| - Duration totalDuration |
+
+| Métodos                                         |
+|-------------------------------------------------|
+| + close(exit: ParkingExit): Ticket            |
+| + calculateAmount(rate: MoneyRate): BigDecimal |
+
+**ParkingEntrance `<<Entity>>`**
+| Atributos       |
+|-----------------|
+| - Long id       |
+| - String vehiclePlate |
+| - LocalDateTime timestamp |
+| - String detectedBy |
+
+**ParkingExit `<<Entity>>`**
+| Atributos       |
+|-----------------|
+| - Long id       |
+| - String vehiclePlate |
+| - LocalDateTime timestamp |
+| - String detectedBy |
+
+**UserId `<<Value Object>>`**
+| Atributos   |
+|-------------|
+| - String value |
+
+| Métodos         |
+|-----------------|
+| + getValue(): String |
+
+**TicketState `<<Value Object>>`**
+| TicketState |
+|-------------|
+| + OPEN      |
+| + CLOSED    |
+| + CANCELLED |
+
+**Domain Services**
+| CirculationDomainService                                                                                                   |
+|---------------------------------------------------------------------------------------------------------------------------|
+| + registerEntrance(vehiclePlate: String, detectedBy: String, userIdValue: String): Ticket                                |
+| + registerExit(ticket: Ticket, vehiclePlate: String, detectedBy: String): Optional<Ticket>                               |
+| + calculateParkingFee(ticket: Ticket, entryTime: LocalDateTime, exitTime: LocalDateTime, rate: MoneyRate): BigDecimal |
 
 ### 4.2.4.2. Interface Layer
+<p align="justify">
+La capa de interfaz expone la funcionalidad del contexto Parking Circulation a través de controladores RESTful basados en el framework Spring Boot.
+EntranceController gestiona el registro de entradas de vehículos.
+ExitController gestiona el registro de salidas de vehículos.
+TicketsController permite la consulta de información de los tickets.
 
-| Controller | Endpoints |
-|------------|-----------|
-| **EntranceController** | `POST /circulation/entrance` |
-| **ExitController** | `POST /circulation/exit` |
-| **TicketsController** | `GET /tickets/{id}` · `GET /tickets?userId=` |
+**EntranceController`<<Controller>>`**
+| Atributos                     |
+|-------------------------------|
+| - ICirculationService circulationService |
 
----
+| Métodos                                                                 |
+|-------------------------------------------------------------------------|
+| + registerEntrance(entranceResource: EntranceResource): ResponseEntity<TicketResource> |
+
+**ExitController`<<Controller>>`**
+| Atributos                  |
+|----------------------------|
+| - ICirculationService circulationService |
+
+| Métodos                                                              |
+|----------------------------------------------------------------------|
+| + registerExit(exitResource: ExitResource): ResponseEntity<TicketResource> |
+
+**TicketsController`<<Controller>>`**
+| Atributos                   |
+|-----------------------------|
+| - ICirculationService circulationService |
+
+| Métodos                                                        |
+|----------------------------------------------------------------|
+| + getTicketById(ticketId: Long): ResponseEntity<TicketResource> |
+| + getTicketsByUserId(userId: String): ResponseEntity<List<TicketResource>> |
 
 ### 4.2.4.3. Application Layer
+<p align="justify">
+La capa de aplicación coordina la ejecución de las operaciones de negocio a través de servicios de aplicación.
+CirculationService maneja el registro de entradas y salidas, la creación y consulta de tickets, y la publicación de eventos de dominio.
 
-| Service | Operaciones |
-|---------|-------------|
-| **ICirculationService** | registerEntrance · registerExit · getTicket · getActiveTickets |
+**ICirculationService`<<Service Interface>>`**
+| Métodos                                                                  |
+|--------------------------------------------------------------------------|
+| + registerEntrance(vehiclePlate: String, detectedBy: String, userIdValue: String): Ticket |
+| + registerExit(ticketId: Long, vehiclePlate: String, detectedBy: String): Optional<Ticket> |
+| + getTicketById(ticketId: Long): Optional<Ticket>                       |
+| + getActiveTicketsByUserId(userId: String): List<Ticket>                 |
 
-Impl.: `CirculationServiceImpl` (publica dominio events a *Payments* & *Notifications*).
+**CirculationServiceImpl`<<Service>>`**
+| Atributos                       |
+|---------------------------------|
+| - EntranceRepository entranceRepository |
+| - ExitRepository exitRepository     |
+| - TicketRepository ticketRepository     |
+| - CirculationDomainService circulationDomainService |
+| - ApplicationEventPublisher eventPublisher |
 
----
+| Métodos (implementa ICirculationService)                                      |
+|-----------------------------------------------------------------------------|
+| + registerEntrance(vehiclePlate: String, detectedBy: String, userIdValue: String): Ticket |
+| + registerExit(ticketId: Long, vehiclePlate: String, detectedBy: String): Optional<Ticket> |
+| + getTicketById(ticketId: Long): Optional<Ticket>                            |
+| + getActiveTicketsByUserId(userId: String): List<Ticket>                      |
 
 ### 4.2.4.4. Infrastructure Layer
+<p align="justify">
+La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
+EntranceRepository, ExitRepository y TicketRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades correspondientes.
+Estos repositorios proporcionan métodos específicos para la consulta y manipulación de los datos del dominio.
 
-| Repository | Métodos custom |
-|------------|----------------|
-| **EntranceRepository** | findByVehiclePlateAndDate |
-| **ExitRepository** | — |
-| **TicketRepository** | findByUserId · findOpenByPlate |
+**EntranceRepository`<<Repository>>`**
+| Atributos                                  |
+|--------------------------------------------|
+| Extiende: JpaRepository<ParkingEntrance, Long> |
+
+| Métodos                                                                 |
+|-------------------------------------------------------------------------|
+| + findByVehiclePlateAndTimestampBetween(plate: String, start: LocalDateTime, end: LocalDateTime): Optional<ParkingEntrance> |
+
+**ExitRepository`<<Repository>>`**
+| Atributos                               |
+|-----------------------------------------|
+| Extiende: JpaRepository<ParkingExit, Long> |
+
+**TicketRepository`<<Repository>>`**
+| Atributos                             |
+|---------------------------------------|
+| Extiende: JpaRepository<Ticket, Long> |
+
+| Métodos                                               |
+|-------------------------------------------------------|
+| + findByUserId_Value(userIdValue: String): List<Ticket> |
+| + findByVehiclePlateAndStatus(plate: String, status: TicketState): Optional<Ticket> |
 
 ---
 
@@ -2046,6 +2612,9 @@ Impl.: `CirculationServiceImpl` (publica dominio events a *Payments* & *Notifica
 ![Parking Circulation Components](assets/capitulo-4/4.2.4.5-Diagram.png)
 
 ### 4.2.4.6. Code-Level Diagrams
+
+![img_9.png](img_9.png)
+
 #### 4.2.4.6.1. Domain Class Diagram
 ![Parking Circulation Classes](assets/capitulo-4/4.2.4.6.1-Diagram.png)
 
@@ -2054,326 +2623,311 @@ Impl.: `CirculationServiceImpl` (publica dominio events a *Payments* & *Notifica
 
 ---
 
-## 4.2.5. Bounded Context: Payments 
-Esta capa modela los conceptos principales del contexto de pagos.
-El agregado raíz Payment representa un pago realizado en el sistema.
-El objeto de valor PaymentStatus, modelado como un enum, define los posibles estados de un pago.
+## 4.2.5. Bounded Context: Payments
+<p align="justify">
+En esta sección se documentan las principales clases que conforman el núcleo del contexto Payments, detallando sus atributos, métodos y relaciones.
+El agregado raíz Payment representa un pago realizado en el sistema, con información sobre el monto, la fecha, el método y el estado.
 
 
+- La entidad PaymentCard modela la información de una tarjeta de pago asociada a un usuario (UserId) para realizar transacciones.
+- La entidad Receipt representa el comprobante generado para un pago exitoso, vinculado a un Payment específico.
+- El objeto de valor UserId encapsula el identificador único del usuario, utilizado para relacionar pagos y tarjetas con el usuario correspondiente.
+- El enumerado PaymentStatus define los posibles estados de un pago.
+- El enumerado CardType enumera los tipos de tarjetas de pago aceptados.
+Cada clase y objeto de valor está diseñado con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
 
-## Clase PaymentCard
+**Clase Payment**
 
-| **Nombre** | **PaymentCard** |
-|:-----------|:----------------|
-| **Relaciones** | Muchos a uno con UserId. Puede tener varios Payment asociados. |
-| **Descripción** | Representa una tarjeta de pago asociada a un usuario para realizar transacciones. |
+| **Nombre** | Payment                                                         |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Uno a uno con Receipt, muchos a uno con UserId                   |
+| **Descripción** | Representa un pago realizado en el sistema.                     |
 
-### Atributos
+Atributos
 
-| **Nombre** | **Tipo de Dato** | **Visibilidad** |
-|:-----------|:-----------------|:----------------|
-| id | Long | private |
-| userId | UserId | private |
-| cardNumber | String | private |
-| cardHolderName | String | private |
-| expirationDate | String | private |
-| cardType | CardType (enum) | private |
+| Nombre             | Tipo de Dato      | Visibilidad |
+|--------------------|-------------------|-------------|
+| id                 | Long              | private     |
+| amount             | BigDecimal        | private     |
+| paymentDate        | LocalDateTime     | private     |
+| paymentMethod      | String            | private     |
+| paymentStatus      | PaymentStatus (enum) | private     |
+| profileId          | String            | private     |
+| userId             | UserId            | private     |
 
-### Métodos
+Métodos
 
-| **Método** | **Descripción** |
-|:-----------|:----------------|
-| maskCardNumber(): String | Devuelve el número de tarjeta enmascarado. |
-| isExpired(): boolean | Verifica si la tarjeta está vencida. |
+| Método                        |
+|-------------------------------|
+| getPaymentDetails(): String   |
+| updatePaymentMethod(): void   |
+| cancelPayment(): void        |
+| handleError(): void          |
+| retryPayment(): void          |
 
----
+**Clase PaymentCard**
 
-## Clase Receipt
+| **Nombre** | PaymentCard                                                     |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Muchos a uno con UserId                                         |
+| **Descripción** | Representa una tarjeta de pago asociada a un usuario.          |
 
-| **Nombre** | **Receipt** |
-|:-----------|:------------|
-| **Relaciones** | Uno a uno con Payment. |
-| **Descripción** | Representa el comprobante generado para un pago exitoso. |
+Atributos
 
-### Atributos
+| Nombre           | Tipo de Dato   | Visibilidad |
+|------------------|----------------|-------------|
+| id               | Long           | private     |
+| cardNumber       | String         | private     |
+| expirationDate   | String         | private     |
+| cvv              | String         | private     |
+| cardholderName   | String         | private     |
+| userId           | UserId         | private     |
+| cardType         | CardType (enum) | private     |
 
-| **Nombre** | **Tipo de Dato** | **Visibilidad** |
-|:-----------|:-----------------|:----------------|
-| id | Long | private |
-| paymentId | Long | private |
-| issuedDate | LocalDateTime | private |
-| receiptUrl | String | private |
+Métodos
 
-### Métodos
+| Método                     |
+|----------------------------|
+| maskCardNumber(): String   |
+| isExpired(): boolean       |
 
-| **Método** | **Descripción** |
-|:-----------|:----------------|
-| generateReceiptUrl(): String | Genera una URL para acceder al comprobante. |
+**Clase Receipt**
 
----
+| **Nombre** | Receipt                                                         |
+|-----------------|-----------------------------------------------------------------|
+| **Relaciones** | Uno a uno con Payment                                          |
+| **Descripción** | Representa el comprobante de un pago.                         |
 
-## Clase UserId (Value Object)
+Atributos
 
-| **Nombre** | **UserId** |
-|:-----------|:-----------|
-| **Relaciones** | Es utilizado por Payment y PaymentCard para identificar al usuario. |
-| **Descripción** | Value Object que encapsula el identificador único del usuario. |
+| Nombre        | Tipo de Dato    | Visibilidad |
+|---------------|-----------------|-------------|
+| id            | Long            | private     |
+| paymentId     | Long            | private     |
+| issueDate     | LocalDateTime   | private     |
+| totalAmount   | BigDecimal      | private     |
+| paymentMethod | String          | private     |
 
-### Atributos
+**Clase UserId (Value Object)**
 
-| **Nombre** | **Tipo de Dato** | **Visibilidad** |
-|:-----------|:-----------------|:----------------|
-| id | Long | private |
+| **Nombre** | UserId                                                          |
+|-----------------|-----------------------------------------------------------------|
+| **Descripción** | Representa el identificador único de un usuario.                |
 
-### Métodos
+Atributos
 
-| **Método** | **Descripción** |
-|:-----------|:----------------|
-| getId(): Long | Retorna el valor del ID del usuario. |
+| Nombre | Tipo de Dato | Visibilidad |
+|--------|--------------|-------------|
+| value  | Long         | private     |
 
----
+Métodos
 
-## Enum PaymentStatus
+| Método        |
+|---------------|
+| getValue(): Long |
 
-| **Nombre** | **PaymentStatus** |
-|:-----------|:------------------|
-| **Relaciones** | No tiene relaciones, es un enum. |
-| **Descripción** | Enumera los estados posibles de un pago. |
+**Enum PaymentStatus**
 
-### Valores
+| **Nombre** | PaymentStatus |
+|-----------------|---------------|
+| **Descripción** | Estados de un pago. |
 
-| **Valor** |
-|:----------|
-| PENDING |
+Valores
+
+| Valor     |
+|-----------|
+| PENDING   |
 | COMPLETED |
-| FAILED |
+| FAILED    |
 
----
+**Enum CardType**
 
-## Enum CardType
+| **Nombre** | CardType      |
+|-----------------|---------------|
+| **Descripción** | Tipos de tarjeta. |
 
-| **Nombre** | **CardType** |
-|:-----------|:-------------|
-| **Relaciones** | No tiene relaciones, es un enum. |
-| **Descripción** | Enumera los tipos de tarjetas disponibles. |
+Valores
 
-### Valores
-
-| **Valor** |
-|:----------|
-| VISA |
-| MASTERCARD |
-| AMEX |
-| OTHER |
-
-## Clase PaymentStatus
-
-| **Nombre** | **PaymentStatus** |
-|:-----------|:------------------|
-| **Relaciones** | No tiene relaciones, es un enum. |
-| **Descripción** | Enumera los posibles estados de un pago. |
-
-### Valores
-
-| **Valor** |
-|:----------|
-| PENDING |
-| COMPLETED |
-| FAILED |
-
-### Métodos
-
-| **Método** | **Descripción** |
-|:-----------|:----------------|
-| name(): String | Devuelve el nombre del estado. |
-| values(): PaymentStatus[] | Devuelve todos los valores posibles del enum. |
-| valueOf(name: String): PaymentStatus | Devuelve el estado correspondiente al nombre dado. |
-
------
+| Valor       |
+|-------------|
+| VISA        |
+| MASTERCARD  |
+| AMEX        |
+| OTHER       |
 
 ### 4.2.5.1. Domain Layer
+<p align="justify">
+En la capa de dominio se modelan los conceptos centrales del contexto Payments siguiendo los principios de Domain-Driven Design.
+El agregado raíz Payment gestiona el ciclo de vida de un pago, incluyendo su estado y la generación del recibo asociado.
+Las entidades PaymentCard y Receipt son dependientes de Payment y UserId. PaymentCard contiene la información de la tarjeta utilizada para el pago y está asociada a un UserId. Receipt contiene los detalles del comprobante generado para un Payment exitoso.
+El objeto de valor UserId asegura la integridad de la identidad del usuario dentro de este contexto.
+Los enumerados PaymentStatus y CardType definen los posibles estados de un pago y los tipos de tarjetas aceptados, respectivamente.
+Esta estructura permite mantener un dominio rico, expresivo y alineado con las reglas de negocio fundamentales del procesamiento de pagos.
 
-## Bounded Context: Payments
+**Payment `<<Aggregate>>`**
+| Atributos         |
+|-------------------|
+| - Long id         |
+| - BigDecimal amount |
+| - LocalDateTime paymentDate |
+| - String paymentMethod |
+| - PaymentStatus paymentStatus |
+| - String profileId |
+| - UserId userId   |
 
-### Aggregate
+| Métodos                      |
+|------------------------------|
+| + getPaymentDetails(): String   |
+| + updatePaymentMethod(): void   |
+| + cancelPayment(): void        |
+| + handleError(): void          |
+| + retryPayment(): void          |
 
-#### Aggregate: Payment
+**PaymentCard `<<Entity>>`**
+| Atributos          |
+|--------------------|
+| - Long id          |
+| - String cardNumber  |
+| - String expirationDate |
+| - String cvv         |
+| - String cardholderName |
+| - UserId userId    |
+| - CardType cardType |
 
-| **Attribute**       | **Data Type**     | **Description**                                    |
-|:--------------------|:------------------|:--------------------------------------------------|
-| `id`                | `Long`            | Unique identifier for the payment.                |
-| `amount`            | `BigDecimal`      | Amount of the payment.                            |
-| `paymentStatus`     | `PaymentStatus`   | Status of the payment (e.g., PENDING, COMPLETED). |
+| Métodos                   |
+|---------------------------|
+| + maskCardNumber(): String |
+| + isExpired(): boolean     |
 
-#### Methods
+**Receipt `<<Entity>>`**
+| Atributos         |
+|-------------------|
+| - Long id         |
+| - Long paymentId  |
+| - LocalDateTime issueDate |
+| - BigDecimal totalAmount |
+| - String paymentMethod |
 
-| **Method**          | **Description**                                    |
-|:--------------------|:---------------------------------------------------|
-| `getAmount()`       | Returns the amount of the payment.                 |
-| `getPaymentStatus()`| Returns the payment status.                        |
-| `setPaymentStatus(status: PaymentStatus)` | Sets the payment status. |
+**UserId `<<Value Object>>`**
+| Atributos   |
+|-------------|
+| - Long value |
 
----
+| Métodos         |
+|-----------------|
+| + getValue(): Long |
 
-### Entities
+**PaymentStatus `<<Value Object>>`**
+| PaymentStatus |
+|---------------|
+| + PENDING     |
+| + COMPLETED   |
+| + FAILED      |
 
-#### Entity: PaymentCard
+**CardType `<<Value Object>>`**
+| CardType    |
+|-------------|
+| + VISA      |
+| + MASTERCARD |
+| + AMEX      |
+| + OTHER     |
 
-| **Attribute**       | **Data Type**     | **Description**                                    |
-|:--------------------|:------------------|:--------------------------------------------------|
-| `id`                | `Long`            | Unique identifier for the payment card.           |
-| `userId`            | `UserId`          | Identifier for the associated user.               |
-| `cardNumber`        | `String`          | Payment card number.                              |
-| `cardHolderName`    | `String`          | Name of the cardholder.                           |
-| `expirationDate`    | `String`          | Expiration date of the payment card.              |
-| `cardType`          | `CardType`        | Type of the card (enum).                          |
-
-#### Methods
-
-| **Method**          | **Description**                                    |
-|:--------------------|:---------------------------------------------------|
-| `maskCardNumber()`   | Returns the masked payment card number.            |
-| `isExpired()`        | Checks if the payment card is expired.             |
-
----
-
-#### Entity: Receipt
-
-| **Attribute**       | **Data Type**     | **Description**                                    |
-|:--------------------|:------------------|:--------------------------------------------------|
-| `id`                | `Long`            | Unique identifier for the receipt.                |
-| `paymentId`         | `Long`            | Payment associated with the receipt.              |
-| `issuedDate`        | `LocalDateTime`   | Date and time when the receipt was issued.        |
-| `receiptUrl`        | `String`          | URL to access the receipt.                        |
-
-#### Methods
-
-| **Method**          | **Description**                                    |
-|:--------------------|:---------------------------------------------------|
-| `generateReceiptUrl()`| Generates a URL to access the receipt.           |
-
----
-
-### Value Objects
-
-#### Value Object: UserId
-
-| **Attribute**       | **Data Type**     | **Description**                                    |
-|:--------------------|:------------------|:--------------------------------------------------|
-| `id`                | `Long`            | Unique identifier for the user.                   |
-
-#### Methods
-
-| **Method**          | **Description**                                    |
-|:--------------------|:---------------------------------------------------|
-| `getId()`           | Returns the user ID value.                         |
-
----
-
-#### Enum: PaymentStatus
-
-| **Value**           |
-|:--------------------|
-| `PENDING`           |
-| `COMPLETED`         |
-| `FAILED`            |
-
-#### Methods
-
-| **Method**          | **Description**                                    |
-|:--------------------|:---------------------------------------------------|
-| `name()`            | Returns the name of the payment status.            |
-| `values()`          | Returns all possible values of the enum.           |
-| `valueOf(String)`   | Returns the status corresponding to the given name. |
-
----
-
-#### Enum: CardType
-
-| **Value**           |
-|:--------------------|
-| `VISA`              |
-| `MASTERCARD`        |
-| `AMEX`              |
-| `OTHER`             |
-
-#### Methods
-
-| **Method**          | **Description**                                    |
-|:--------------------|:---------------------------------------------------|
-| `name()`            | Returns the name of the card type.                 |
-| `values()`          | Returns all possible values of the enum.           |
-| `valueOf(String)`   | Returns the card type corresponding to the given name. |
-
----
-
-### Domain Services
-
-#### Service: RoleCommandService
-
-| **Method**                     | **Description**                                    |
-|:-------------------------------|:---------------------------------------------------|
-| `handle(command: SeedRolesCommand)` | Handles the command to seed roles in the system.  |
-
-#### Service: UserCommandService
-
-| **Method**                     | **Description**                                    |
-|:-------------------------------|:---------------------------------------------------|
-| `handle(command: SignUpCommand)` | Handles the command to sign up a new user.        |
-| `handle(command: SignInCommand)` | Handles the command to sign in a user.            |
+**Domain Services**
+| PaymentProcessingService                                                                 |
+|------------------------------------------------------------------------------------------|
+| + processPayment(payment: Payment, paymentCard: PaymentCard): Result<Payment, PaymentError> |
+| + generateReceiptForPayment(payment: Payment): Receipt                                   |
 
 ### 4.2.5.2. Interface Layer
 
-La capa de interfaz expone la funcionalidad del contexto Payments a través de controladores RESTful basados en el framework Spring Boot. PaymentController gestiona los procesos relacionados con los pagos, permitiendo tanto la creación de pagos como la consulta de su estado. ReceiptController facilita la generación y consulta de recibos asociados a los pagos. Cada controlador delega la lógica de negocio en los servicios de dominio apropiados, actuando únicamente como capa de orquestación, en conformidad con el principio de Controller Thin.
+La capa de interfaz expone la funcionalidad del contexto Payments a través de controladores RESTful basados en el framework Spring Boot.
+PaymentController gestiona la creación y consulta de pagos.
+ReceiptController facilita la consulta de recibos asociados a los pagos.
 
-| Controller PaymentController                       |
-|----------------------------------------------------------|
-| - PaymentCommandService paymentCommandService            |
-|----------------------------------------------------------|
+**PaymentController`<<Controller>>`**
+| Atributos                 |
+|---------------------------|
+| - IPaymentService paymentService |
+
+| Métodos                                                                 |
+|-------------------------------------------------------------------------|
 | + processPayment(paymentResource: PaymentResource): ResponseEntity<PaymentResource> |
-| + getPaymentStatus(paymentId: Long): ResponseEntity<PaymentStatusResource>            |
+| + getPaymentStatus(paymentId: Long): ResponseEntity<PaymentStatusResource> |
 
-| Controller ReceiptController                       |
-|--------------------------------------------------------|
-| - ReceiptQueryService receiptQueryService              |
-|--------------------------------------------------------|
+**ReceiptController`<<Controller>>`**
+| Atributos                |
+|--------------------------|
+| - IReceiptService receiptService |
+
+| Métodos                                                              |
+|----------------------------------------------------------------------|
 | + getReceiptByPaymentId(paymentId: Long): ResponseEntity<ReceiptResource> |
-| + generateReceipt(paymentId: Long): ResponseEntity<ReceiptResource> |
-
 
 ### 4.2.5.3. Application Layer
 
-El PaymentProcessingEventHandler es responsable de procesar los pagos cuando se recibe un evento de pago. Este componente escucha el evento PaymentProcessedEvent y desencadena la ejecución de los servicios correspondientes para completar el pago.
-Esta organización permite separar las responsabilidades del dominio, favoreciendo una arquitectura desacoplada y limpia.
+La capa de aplicación coordina la ejecución de las operaciones de negocio a través de servicios de aplicación y manejadores de eventos.
+PaymentService maneja la lógica de procesamiento de pagos.
+ReceiptService gestiona la generación y consulta de recibos.
+PaymentProcessedEventHandler reacciona a eventos de pago completado para realizar acciones posteriores.
 
-| Event Handler PaymentProcessingEventHandler          |
-|----------------------------------------------------------|
-| - Logger LOGGER                                          |
-| - PaymentCommandService paymentCommandService            |
-|----------------------------------------------------------|
-| + on(event: PaymentProcessedEvent): void                 |
-| - getCurrentTimestamp(): Timestamp                      |
+**IPaymentService`<<Service Interface>>`**
+| Métodos                                                                  |
+|--------------------------------------------------------------------------|
+| + processPayment(payment: Payment, paymentCard: PaymentCard): Payment      |
+| + getPaymentStatus(paymentId: Long): PaymentStatus                       |
+
+**PaymentServiceImpl`<<Service>>`**
+| Atributos                   |
+|-----------------------------|
+| - PaymentRepository paymentRepository |
+| - PaymentProcessingService paymentProcessingService |
+
+| Métodos (implementa IPaymentService)                   |
+|------------------------------------------------------|
+| + processPayment(payment: Payment, paymentCard: PaymentCard): Payment |
+| + getPaymentStatus(paymentId: Long): PaymentStatus    |
+
+**IReceiptService`<<Service Interface>>`**
+| Métodos                                                 |
+|---------------------------------------------------------|
+| + getReceiptByPaymentId(paymentId: Long): Optional<Receipt> |
+
+**ReceiptServiceImpl`<<Service>>`**
+| Atributos                 |
+|---------------------------|
+| - ReceiptRepository receiptRepository |
+
+| Métodos (implementa IReceiptService)                 |
+|------------------------------------------------------|
+| + getReceiptByPaymentId(paymentId: Long): Optional<Receipt> |
+
+**PaymentProcessedEventHandler`<<Event Handler>>`**
+| Atributos                       |
+|---------------------------------|
+| - Logger LOGGER                 |
+| - IReceiptService receiptService |
+
+| Métodos                                     |
+|---------------------------------------------|
+| + on(event: PaymentProcessedEvent): void    |
 
 ### 4.2.5.4. Infrastructure Layer
 
-PaymentRepository y ReceiptRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades Payment y Receipt, respectivamente.
-Estos repositorios proporcionan métodos específicos como findByPaymentId, findByReceiptId y validaciones de existencia (existsByPaymentId, existsByReceiptId), que son esenciales para preservar la unicidad de los registros.
-Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dominio, favoreciendo una arquitectura limpia y sostenible.
+La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
+PaymentRepository y ReceiptRepository son interfaces que extienden JpaRepository, permitiendo operaciones de acceso a datos sobre las entidades correspondientes.
+Estos repositorios proporcionan métodos específicos para la consulta y manipulación de los datos del dominio.
 
-| Infrastructure Repository PaymentRepository            |
-|-------------------------------------------------------------|
-| Extiende: JpaRepository<Payment, Long>                      |
-|-------------------------------------------------------------|
-| + findByPaymentId(paymentId: Long): Optional<Payment>       |
-| + existsByPaymentId(paymentId: Long): boolean               |
+**PaymentRepository`<<Repository>>`**
+| Atributos                        |
+|----------------------------------|
+| Extiende: JpaRepository<Payment, Long> |
 
-| Infrastructure Repository ReceiptRepository             |
-|-------------------------------------------------------------|
-| Extiende: JpaRepository<Receipt, Long>                      |
-|-------------------------------------------------------------|
-| + findByReceiptId(receiptId: Long): Optional<Receipt>       |
-| + existsByReceiptId(receiptId: Long): boolean               |
+**ReceiptRepository`<<Repository>>`**
+| Atributos                        |
+|----------------------------------|
+| Extiende: JpaRepository<Receipt, Long> |
 
+---
 ### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
 ![Payment Container](assets/capitulo-4/PaymentDiagram1.png)
@@ -2385,7 +2939,7 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 #### 4.2.1.5.1. Bounded Context Domain Layer Class Diagrams
 
-![Payment Domain Layer Class Diagrams](assets/capitulo-4/DomainLayerPayments.PNG)
+![Payment Domain Layer Class Diagrams](assets/capitulo-4/mermaid.png)
 
 
 #### 4.2.1.5.2. Bounded Context Database Design Diagram
@@ -2395,246 +2949,269 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 ---
 ## 4.2.6. Bounded Context: Monitoring
 
+En esta sección se documentan las principales clases que conforman el núcleo del contexto Monitoring, detallando sus atributos, métodos y relaciones.
+Este contexto se enfoca en el registro y seguimiento de eventos críticos (CriticalEventLog) que puedan requerir la cancelación de un pago, así como en la supervisión del estado de los vehículos (Vehicle) y dispositivos (Device) dentro del sistema.
+
+La entidad CriticalEventLog representa un registro de un evento significativo, como una violación o una situación que podría llevar a la cancelación de un pago. Contiene información sobre el tipo de violación, el vehículo involucrado, la hora del evento, el administrador que lo atendió, su estado y la duración total del caso.
+
+La entidad Vehicle modela la información de un vehículo dentro del sistema, incluyendo su ID, modelo, número de placa, estado y el ID del conductor asociado.
+
+La entidad Device representa un dispositivo de monitoreo dentro del sistema, con atributos como su ID, modelo y estado.
+
+Cada clase está diseñada con principios de encapsulamiento, visibilidad controlada y responsabilidad única, en conformidad con los estándares de modelado de software orientado a objetos y Domain-Driven Design.
+
+**Clase CriticalEventLog**
+
+| **Nombre** | CriticalEventLog                                                |
+|-----------------|---------------------------------------------------------------|
+| **Relaciones** | Uno a uno con Vehicle, uno a uno con Device                  |
+| **Descripción** | Registro de un evento crítico que puede llevar a la cancelación del pago. |
+
+Atributos
+
+| Nombre          | Tipo de Dato | Visibilidad |
+|-----------------|--------------|-------------|
+| id              | Long         | private     |
+| violationType   | String       | private     |
+| vehicle         | Vehicle      | private     |
+| timestamp       | String       | private     |
+| handledBy       | Long         | private     |
+| totalDuration   | String       | private     |
+| device          | Device       | private     |
+
+Métodos
+
+| Método                 |
+|------------------------|
+| CriticalEventLog()     |
+
+**Clase Vehicle**
+
+| **Nombre** | Vehicle                                                         |
+|-----------------|-----------------------------------------------------------------|
+| **Descripción** | Representa un vehículo en el sistema.                         |
+
+Atributos
+
+| Nombre        | Tipo de Dato | Visibilidad |
+|---------------|--------------|-------------|
+| id            | Long         | private     |
+| model         | String       | private     |
+| plateNumber   | String       | private     |
+| status        | String       | private     |
+| driverId      | Long         | private     |
+
+Métodos
+
+| Método            |
+|-------------------|
+| Vehicle()         |
+| getPlateNumber(): String |
+
+**Clase Device**
+
+| **Nombre** | Device                                                          |
+|-----------------|-----------------------------------------------------------------|
+| **Descripción** | Representa un dispositivo de monitoreo en el sistema.         |
+
+Atributos
+
+| Nombre    | Tipo de Dato | Visibilidad |
+|-----------|--------------|-------------|
+| id        | Long         | private     |
+| model     | String       | private     |
+| status    | String       | private     |
+
+Métodos
+
+| Método         |
+|----------------|
+| Device()       |
+| getModel(): String |
+| getStatus(): String |
+
 ### 4.2.6.1. Domain Layer
 
-### Entidad: CriticalEventLog
+En la capa de dominio se modelan los conceptos centrales del contexto Monitoring siguiendo los principios de Domain-Driven Design.
+El agregado raíz CriticalEventLog encapsula la información de un evento crítico, asociándolo con las entidades Vehicle y Device relevantes.
+Las entidades Vehicle y Device representan los elementos que son monitoreados dentro del sistema.
+Esta estructura permite mantener un dominio coherente para el registro y seguimiento de eventos importantes y el estado de los activos del sistema.
 
-| **Nombre**           | **Categoría** | **Propósito**                                               |
-|----------------------|---------------|-------------------------------------------------------------|
-| CriticalEventLog     | Entity        | Registro de un caso que lleve a la cancelación del pago     |
+**CriticalEventLog `<<Aggregate Root>>`**
+| Atributos       |
+|-----------------|
+| - Long id       |
+| - String violationType |
+| - Vehicle vehicle |
+| - String timestamp  |
+| - Long handledBy  |
+| - String totalDuration |
+| - Device device   |
 
-#### Atributos
+| Métodos            |
+|-------------------|
+| + CriticalEventLog() |
 
-| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
-|-------------------|------------------|-----------------|-------------------------------------------------------------|
-| id                | Long             | Private         | Identificador único para el caso                            |
-| typeOfViolation   | string           | Private         | Tipo de caso crítico registrado                             |
-| vehiclePlate      | string           | Private         | Placa del vehículo involucrado en el caso                   |
-| timestamp         | Time             | Private         | Hora de la ocurrencia                                       |
-| handledBy         | Long             | Private         | ID del administrador que trató el caso                      |
-| status            | string           | Private         | Estado actual del caso                                      |
-| totalDuration     | string           | Private         | Duración total del caso                                     |
-  
+**Vehicle `<<Entity>>`**
+| Atributos     |
+|---------------|
+| - Long id     |
+| - String model  |
+| - String plateNumber |
+| - String status |
+| - Long driverId |
+
+| Métodos            |
+|-------------------|
+| + Vehicle()         |
+| + getPlateNumber(): String |
+
+**Device `<<Entity>>`**
+| Atributos     |
+|---------------|
+| - Long id     |
+| - String model  |
+| - String status |
+
+| Métodos         |
+|----------------|
+| + Device()       |
+| + getModel(): String |
+| + getStatus(): String |
+
+**Domain Services**
+| MonitoringService                                                              |
+|------------------------------------------------------------------------------|
+| + logCriticalEvent(violationType: String, vehicle: Vehicle, device: Device): CriticalEventLog |
+| + updateCriticalEventStatus(eventLog: CriticalEventLog, status: String): void  |
+
 ### 4.2.6.2. Interface Layer
 
-### CriticalEventLogController  
-| **Nombre**                 | **Categoría** | **Propósito**                                               |
-|----------------------------|---------------|-------------------------------------------------------------|
-| CriticalEventLogController | Controller    | Endpoints para la gestión de casos críticos                 |
+La capa de interfaz expone la funcionalidad del contexto Monitoring a través de controladores RESTful basados en el framework Spring Boot.
+CriticalEventLogController gestiona la creación y consulta de registros de eventos críticos.
+VehicleMonitoringController proporciona endpoints para obtener el estado de los vehículos.
+DeviceMonitoringController permite obtener el estado de los dispositivos de monitoreo.
 
-| **Nombre**              | **Tipo de retorno**                                      | **Visibilidad** | **Descripción**                                             |
-|-------------------------|----------------------------------------------------------|-----------------|-------------------------------------------------------------|
-| Constructor             | void                                                     | Public          | Constructor del controlador                                  |
-| createCriticalEventLog  | ResponseEntity&lt;CriticalEventLogResponseDto&gt;        | Public          | Crear un nuevo caso crítico                                  |
-| getCriticalEventLog     | ResponseEntity&lt;CriticalEventLogResponseDto&gt;        | Public          | Obtener un caso crítico por su ID                            |
-| getAllCriticalEventLogs | ResponseEntity&lt;List&lt;CriticalEventLogResponseDto&gt;&gt; | Public      | Obtener todos los casos críticos                             |
+**CriticalEventLogController`<<Controller>>`**
+| Atributos                         |
+|-----------------------------------|
+| - ICriticalEventLogService criticalEventLogService |
 
+| Métodos                                                                      |
+|------------------------------------------------------------------------------|
+| + createCriticalEventLog(requestDto: CriticalEventLogRequestDto): ResponseEntity<CriticalEventLogResponseDto> |
+| + getCriticalEventLog(id: Long): ResponseEntity<CriticalEventLogResponseDto>   |
+| + getAllCriticalEventLogs(): ResponseEntity<List<CriticalEventLogResponseDto>> |
 
-#### CriticalEventLogRequestDto  
-| **Nombre**                   | **Categoría** | **Propósito**                                               |
-|------------------------------|---------------|-------------------------------------------------------------|
-| CriticalEventLogRequestDto   | DTO           | Datos necesarios para crear un nuevo caso crítico           |
+**VehicleMonitoringController`<<Controller>>`**
+| Atributos              |
+|------------------------|
+| - IVehicleService vehicleService |
 
-| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
-|------------------|------------------|-----------------|-------------------------------------------------------------|
-| typeOfViolation  | string           | Private         | Tipo de violación que originó el caso crítico               |
-| vehiclePlate     | string           | Private         | Placa del vehículo involucrado en el caso                   |
-| timestamp        | Time             | Private         | Fecha y hora de la ocurrencia del caso                      |
-| handledBy        | Long             | Private         | ID del administrador que atendió el caso                    |
-  
-#### CriticalEventLogResponseDto   
-| **Nombre**                   | **Categoría** | **Propósito**                                               |
-|------------------------------|---------------|-------------------------------------------------------------|
-| CriticalEventLogResponseDto  | DTO           | Representación de un caso crítico con detalles completos    |
+| Métodos                                                     |
+|-------------------------------------------------------------|
+| + getVehicleStatus(plateNumber: String): ResponseEntity<VehicleDto> |
+| + getAllVehiclesStatus(): ResponseEntity<List<VehicleDto>>  |
 
-| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
-|------------------|------------------|-----------------|-------------------------------------------------------------|
-| id               | Long             | Private         | Identificador único del caso crítico                        |
-| typeOfViolation  | string           | Private         | Tipo de violación que originó el caso crítico               |
-| vehiclePlate     | string           | Private         | Placa del vehículo involucrado en el caso                   |
-| timestamp        | Time             | Private         | Fecha y hora de la ocurrencia del caso                      |
-| handledBy        | Long             | Private         | ID del administrador que atendió el caso                    |
-| status           | string           | Private         | Estado actual del caso (ej. "En proceso", "Resuelto")       |
-| totalDuration    | string           | Private         | Duración total del caso en formato HH:mm:ss                 |
+**DeviceMonitoringController`<<Controller>>`**
+| Atributos             |
+|-----------------------|
+| - IDeviceService deviceService |
 
-### VehicleMonitoringController
-| **Nombre**                  | **Categoría** | **Propósito**                                               |
-|-----------------------------|---------------|-------------------------------------------------------------|
-| VehicleMonitoringController | Controller    | Gestiona las operaciones relacionadas con los vehículos en el estacionamiento |
-
-#### Atributos
-
-| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
-|----------------|------------------|-----------------|-------------------------------------------------|
-| vehicleService | IVehicleService  | Private         | Servicio para operaciones con vehículos         |
-
-#### Métodos
-
-| **Nombre**           | **Tipo de retorno**                  | **Visibilidad** | **Descripción**                                      |
-|----------------------|--------------------------------------|-----------------|------------------------------------------------------|
-| getVehicleStatus     | ResponseEntity<VehicleDto>           | Public          | Obtiene el estado actual de un vehículo por su placa |
-| getAllVehiclesStatus | ResponseEntity<List<VehicleDto>>     | Public          | Obtiene el estado de todos los vehículos             |
-
-### DeviceMonitoringController  
-| **Nombre**                  | **Categoría** | **Propósito**                                               |
-|-----------------------------|---------------|-------------------------------------------------------------|
-| DeviceMonitoringController  | Controller    | Gestiona las operaciones relacionadas con los dispositivos de monitoreo en el estacionamiento |
-
-#### Atributos
-
-| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
-|----------------|------------------|-----------------|-------------------------------------------------|
-| deviceService  | IDeviceService   | Private         | Servicio para operaciones con dispositivos de monitoreo |
-
-#### Métodos
-
-| **Nombre**           | **Tipo de retorno**                  | **Visibilidad** | **Descripción**                                      |
-|----------------------|--------------------------------------|-----------------|------------------------------------------------------|
-| getDeviceStatus      | ResponseEntity<DeviceDto>            | Public          | Obtiene el estado actual de un dispositivo por su ID |
-| getAllDevicesStatus  | ResponseEntity<List<DeviceDto>>      | Public          | Obtiene el estado de todos los dispositivos          |
-
+| Métodos                                                   |
+|-----------------------------------------------------------|
+| + getDeviceStatus(deviceId: Long): ResponseEntity<DeviceDto> |
+| + getAllDevicesStatus(): ResponseEntity<List<DeviceDto>>  |
 
 ### 4.2.6.3. Application Layer
-  
-### ICriticalEventLogService  
-| **Nombre**                 | **Categoría** | **Propósito**                                               |
-|----------------------------|---------------|-------------------------------------------------------------|
-| ICriticalEventLogService   | Service       | Define las operaciones para gestionar casos críticos        |
 
-#### Métodos
+La capa de aplicación coordina la ejecución de las operaciones de negocio a través de servicios de aplicación.
+CriticalEventLogService maneja la creación y consulta de registros de eventos críticos.
+VehicleService proporciona la funcionalidad para obtener el estado de los vehículos.
+DeviceService ofrece la funcionalidad para obtener el estado de los dispositivos de monitoreo.
 
-| **Nombre**              | **Tipo de retorno**                               | **Descripción**                                             |
-|-------------------------|---------------------------------------------------|-------------------------------------------------------------|
-| createCriticalEventLog  | CriticalEventLogResponseDto                       | Crea un nuevo caso crítico                                  |
-| getCriticalEventLog     | CriticalEventLogResponseDto                       | Obtiene un caso crítico por su ID                           |
-| getAllCriticalEventLogs | List&lt;CriticalEventLogResponseDto&gt;           | Obtiene todos los casos críticos                            |
+**ICriticalEventLogService`<<Service Interface>>`**
+| Métodos                                                                |
+|------------------------------------------------------------------------|
+| + createCriticalEventLog(requestDto: CriticalEventLogRequestDto): CriticalEventLogResponseDto |
+| + getCriticalEventLog(id: Long): CriticalEventLogResponseDto            |
+| + getAllCriticalEventLogs(): List<CriticalEventLogResponseDto>          |
 
-### CriticalEventLogServiceImpl  
-| **Nombre**                    | **Categoría** | **Propósito**                                                         |
-|-------------------------------|---------------|------------------------------------------------------------------------|
-| CriticalEventLogServiceImpl   | Service       | Implementa las operaciones definidas en ICriticalEventLogService      |
+**CriticalEventLogServiceImpl`<<Service>>`**
+| Atributos                           |
+|-------------------------------------|
+| - ICriticalEventLogRepository criticalEventLogRepository |
 
-#### Atributos
+| Métodos (implementa ICriticalEventLogService)                  |
+|--------------------------------------------------------------|
+| + createCriticalEventLog(requestDto: CriticalEventLogRequestDto): CriticalEventLogResponseDto |
+| + getCriticalEventLog(id: Long): CriticalEventLogResponseDto   |
+| + getAllCriticalEventLogs(): List<CriticalEventLogResponseDto> |
 
-| **Nombre**                  | **Tipo de dato**              | **Visibilidad** | **Descripción**                                       |
-|-----------------------------|-------------------------------|-----------------|-------------------------------------------------------|
-| criticalEventLogRepository  | ICriticalEventLogRepository   | Private         | Repositorio para acceder a los datos de casos críticos |
+**IVehicleService`<<Service Interface>>`**
+| Métodos                                    |
+|--------------------------------------------|
+| + getVehicleStatus(plateNumber: String): VehicleDto |
+| + getAllVehiclesStatus(): List<VehicleDto>  |
 
-#### Métodos
+**VehicleServiceImpl`<<Service>>`**
+| Atributos                  |
+|----------------------------|
+| - IVehicleRepository vehicleRepository |
 
-| **Nombre**              | **Tipo de retorno**                               | **Visibilidad** | **Descripción**                                             |
-|-------------------------|---------------------------------------------------|-----------------|-------------------------------------------------------------|
-| createCriticalEventLog  | CriticalEventLogResponseDto                       | Public          | Crea un nuevo caso crítico                                  |
-| getCriticalEventLog     | CriticalEventLogResponseDto                       | Public          | Obtiene un caso crítico por su ID                           |
-| getAllCriticalEventLogs | List&lt;CriticalEventLogResponseDto&gt;           | Public          | Obtiene todos los casos críticos                            |
-  
-### IVehicleService
-| **Nombre**     | **Categoría** | **Propósito**                                               |
-|----------------|---------------|-------------------------------------------------------------|
-| IVehicleService | Service       | Define las operaciones para gestionar los vehículos en el estacionamiento |
+| Métodos (implementa IVehicleService)      |
+|-------------------------------------------|
+| + getVehicleStatus(plateNumber: String): VehicleDto |
+| + getAllVehiclesStatus(): List<VehicleDto> |
 
-#### Métodos
+**IDeviceService`<<Service Interface>>`**
+| Métodos                                  |
+|------------------------------------------|
+| + getDeviceStatus(deviceId: Long): DeviceDto |
+| + getAllDevicesStatus(): List<DeviceDto>  |
 
-| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
-|----------------------|----------------------------|------------------------------------------------------|
-| getVehicleStatus     | VehicleDto                 | Obtiene el estado actual de un vehículo por su placa |
-| getAllVehiclesStatus | List<VehicleDto>           | Obtiene el estado de todos los vehículos             |
+**DeviceServiceImpl`<<Service>>`**
+| Atributos                |
+|--------------------------|
+| - IDeviceRepository deviceRepository |
 
-### VehicleServiceImpl 
-| **Nombre**             | **Categoría** | **Propósito**                                               |
-|------------------------|---------------|-------------------------------------------------------------|
-| VehicleServiceImpl     | Service       | Implementa las operaciones definidas en IVehicleService     |
-
-#### Atributos
-
-| **Nombre**         | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
-|--------------------|------------------|-----------------|-------------------------------------------------|
-| vehicleRepository  | IVehicleRepository | Private         | Repositorio para acceder a los datos de los vehículos |
-
-#### Métodos
-
-| **Nombre**           | **Tipo de retorno**        | **Visibilidad** | **Descripción**                                      |
-|----------------------|----------------------------|-----------------|------------------------------------------------------|
-| getVehicleStatus     | VehicleDto                 | Public          | Obtiene el estado actual de un vehículo por su placa |
-| getAllVehiclesStatus | List<VehicleDto>           | Public          | Obtiene el estado de todos los vehículos             |
-
-
-### IDeviceService
-| **Nombre**     | **Categoría** | **Propósito**                                               |
-|----------------|---------------|-------------------------------------------------------------|
-| IDeviceService | Service       | Define las operaciones para gestionar los dispositivos de monitoreo en el estacionamiento |
-
-#### Métodos
-
-| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
-|----------------------|----------------------------|------------------------------------------------------|
-| getDeviceStatus      | DeviceDto                  | Obtiene el estado actual de un dispositivo por su ID |
-| getAllDevicesStatus  | List<DeviceDto>            | Obtiene el estado de todos los dispositivos          |
-
-### DeviceServiceImpl    
-| **Nombre**             | **Categoría** | **Propósito**                                               |
-|------------------------|---------------|-------------------------------------------------------------|
-| DeviceServiceImpl      | Service       | Implementa las operaciones definidas en IDeviceService      |
-
-#### Atributos
-
-| **Nombre**         | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
-|--------------------|------------------|-----------------|-------------------------------------------------|
-| deviceRepository   | IDeviceRepository | Private         | Repositorio para acceder a los datos de los dispositivos |
-
-#### Métodos
-
-| **Nombre**           | **Tipo de retorno**        | **Visibilidad** | **Descripción**                                      |
-|----------------------|----------------------------|-----------------|------------------------------------------------------|
-| getDeviceStatus      | DeviceDto                  | Public          | Obtiene el estado actual de un dispositivo por su ID |
-| getAllDevicesStatus  | List<DeviceDto>            | Public          | Obtiene el estado de todos los dispositivos          |
-
+| Métodos (implementa IDeviceService)    |
+|---------------------------------------|
+| + getDeviceStatus(deviceId: Long): DeviceDto |
+| + getAllDevicesStatus(): List<DeviceDto> |
 
 ### 4.2.6.4. Infrastructure Layer
 
-### ICriticalEventLogRepository  
-| **Nombre**                  | **Categoría** | **Propósito**                                               |
-|-----------------------------|---------------|-------------------------------------------------------------|
-| ICriticalEventLogRepository | Repository    | Define las operaciones de acceso a datos para casos críticos |
+La capa de infraestructura implementa los mecanismos de persistencia requeridos para soportar el dominio.
+ICriticalEventLogRepository, IVehicleRepository e IDeviceRepository son interfaces que definen las operaciones de acceso a datos para las entidades correspondientes.
 
-#### Métodos
+**ICriticalEventLogRepository`<<Repository>>`**
+| Métodos                                                 |
+|---------------------------------------------------------|
+| + findById(id: Long): Optional<CriticalEventLog>         |
+| + findAll(): List<CriticalEventLog>                      |
+| + save(entity: CriticalEventLog): CriticalEventLog       |
+| + deleteById(id: Long): void                            |
 
-| **Nombre**   | **Tipo de retorno**                         | **Descripción**                                  |
-|--------------|---------------------------------------------|--------------------------------------------------|
-| findById     | Optional&lt;CriticalEventLog&gt;            | Encuentra un caso crítico por su ID              |
-| findAll      | List&lt;CriticalEventLog&gt;                | Encuentra todos los casos críticos               |
-| save         | CriticalEventLog                            | Guarda un nuevo caso crítico                     |
-| deleteById   | void                                        | Elimina un caso crítico por su ID                |
+**IVehicleRepository`<<Repository>>`**
+| Métodos                                           |
+|---------------------------------------------------|
+| + findByPlateNumber(plateNumber: String): Optional<Vehicle> |
+| + findAll(): List<Vehicle>                         |
 
-### IVehicleRepository  
-| **Nombre**           | **Categoría** | **Propósito**                                               |
-|----------------------|---------------|-------------------------------------------------------------|
-| IVehicleRepository   | Repository    | Define las operaciones de acceso a datos para los vehículos |
-
-#### Métodos
-
-| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
-|----------------------|----------------------------|------------------------------------------------------|
-| findByLicensePlate   | VehicleDto                 | Encuentra un vehículo por su placa                   |
-| findAll              | List<VehicleDto>           | Encuentra todos los vehículos                        |
-
-### IDeviceRepository  
-| **Nombre**             | **Categoría** | **Propósito**                                               |
-|------------------------|---------------|-------------------------------------------------------------|
-| IDeviceRepository      | Repository    | Define las operaciones de acceso a datos para los dispositivos de monitoreo |
-
-### Métodos
-
-| **Nombre**           | **Tipo de retorno**        | **Descripción**                                      |
-|----------------------|----------------------------|------------------------------------------------------|
-| findByDeviceId       | DeviceDto                  | Encuentra un dispositivo por su ID                   |
-| findAll              | List<DeviceDto>            | Encuentra todos los dispositivos                     |
-
+**IDeviceRepository`<<Repository>>`**
+| Métodos                                       |
+|-----------------------------------------------|
+| + findById(id: Long): Optional<Device>         |
+| + findAll(): List<Device>                      |
+---
 ### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-<p align="center"><img src="assets/capitulo-4/4.2.6.5-Monitoring-ComponentDiagram.png" alt="Component Diagram Monitoring"/></p>
+![img.png](img.png)
 
 ### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+![img_10.png](img_10.png)
 
 #### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
 
@@ -2644,145 +3221,151 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 <p align="center"><img src="assets/capitulo-4/4.2.6.6.2-MonitoringDatabase.jpg" alt="Monitoring DB Diagram"/></p>
 
-## 4.2.7. Bounded Context: Ticket validation
+## 4.2.7. Bounded Context: Ticket Validation
+
+<p align="justify">
+El contexto Ticket Validation se centra en la gestión del ciclo de vida de los tickets de estacionamiento. Desde el registro de la entrada de un vehículo hasta el seguimiento del pago y la salida, este contexto modela la información esencial para la validación y el control de acceso al estacionamiento. La entidad central, Ticket, captura los detalles cruciales de cada estancia, mientras que las capas de interfaz, aplicación e infraestructura colaboran para exponer y persistir esta información de manera coherente.
+
 
 ### 4.2.7.1. Domain Layer
 
 #### Entidad: Ticket
 
-| **Nombre**     | **Categoría** | **Propósito**                                               |
-|----------------|---------------|--------------------------------------------------------------|
-| Ticket   | Entity        | Registro de un ticket que indica la entrada y salida de un vehiculo del estacionamiento, asi como el pago.  |
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| Ticket | Entity | Representa el registro de la entrada y salida de un vehículo del estacionamiento, así como la información del pago asociado. |
 
 #### Atributos
 
-| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                          |
-|-------------------|------------------|------------------|-------------------------------------------|
-| id                | Long             | Private          | Identificador único para el ticket                       |
-| userId   | string           | Private          | Id de usuario que utilizo la app para entrar al estacionamiento |
-| vehiclePlate      | string           | Private          | Placa del vehículo que ingreso al estacionamiento |
-| entryTime         | Time             | Private          | Hora de entrada del vehiculo     |
-| status        | Long             | Private          | Estado del ticket   |
-| amountCharged            | string           | Private          | Cantidad que pago el usuario por su estancia en el estacionamiento     |
-| paymentStatus     | string           | Private          | Estado actual del pago                   |
-| totalDuration | string | Private | Duración total de la estancia del vehiculo en el estacionamiento |
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| id | Long | Private | Identificador único del ticket. |
+| userId | String | Private | Identificador del usuario que utilizó la aplicación para ingresar. |
+| vehiclePlate | String | Private | Placa del vehículo que ingresó al estacionamiento. |
+| entryTime | LocalDateTime | Private | Hora de entrada del vehículo. |
+| status | String | Private | Estado del ticket (ej. Activo, Cerrado, Pagado). |
+| amountCharged | BigDecimal | Private | Cantidad que pagó el usuario por su estancia. |
+| paymentStatus | String | Private | Estado del pago (ej. Pendiente, Completo, Fallido). |
+| totalDuration | Duration | Private | Duración total de la estancia del vehículo. |
 
 ### 4.2.7.2. Interface Layer
 
-### Entidad: TicketsController
+#### Entidad: TicketsController
 
-| **Nombre**           | **Categoría** | **Propósito**                                              |
-|----------------------|---------------|------------------------------------------------------------|
-| TicketsController    | Controller    | Endpoints para la gestión de tickets                       |
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| TicketsController | Controller | Expone los endpoints para la gestión de tickets. |
 
-### Atributos
+#### Atributos
 
-| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                        |
-|------------------|------------------|-----------------|----------------------------------------|
-| ticketService    | ITicketService   | Private         | Servicio de gestión de tickets         |
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| ticketService | ITicketService | Private | Servicio para la lógica de negocio de los tickets. |
 
-### Métodos
+#### Métodos
 
-| **Nombre**       | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                              |
-|------------------|----------------------------------------------|-----------------|--------------------------------------------------------------|
-| Constructor      | Void                                         | Public          | Constructor del controlador                                   |
-| getTicket        | ResponseEntity<TicketResponseDto>      | Public          | Obtener un ticket por su ID                                   |
-| createTicket     | ResponseEntity<TicketResponseDto>        | Public          | Crear un nuevo ticket                                         |
-| getTicketHistory | ResponseEntity<Array<TicketResponseDto>> | Public          | Obtener el historial de tickets de un usuario por su Id       |
-  
-### Entidad: TicketRequestDto
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| Constructor | Void | Public | Constructor del controlador. |
+| getTicket | ResponseEntity\<TicketResponseDto> | Public | Obtiene un ticket por su ID. |
+| createTicket | ResponseEntity\<TicketResponseDto> | Public | Crea un nuevo ticket. |
+| getTicketHistory | ResponseEntity\<List\<TicketResponseDto>> | Public | Obtiene el historial de tickets de un usuario por su ID. |
 
-| **Nombre**       | **Categoría** | **Propósito**                                               |
-|------------------|---------------|-------------------------------------------------------------|
-| TicketRequestDto | DTO           | Datos necesarios para crear un nuevo ticket en el sistema   |
+#### Entidad: TicketRequestDto
 
-### Atributos
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| TicketRequestDto | DTO | Define la estructura de los datos necesarios para crear un nuevo ticket. |
 
-| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
-|------------------|------------------|-----------------|-------------------------------------------------------------|
-| vehiclePlate     | string           | Private         | Placa del vehículo que ingresará al estacionamiento         |
-| userId           | string           | Private         | ID del usuario que utilizará la app para ingresar           |
-   
-### Entidad: TicketResponseDto
+#### Atributos
 
-| **Nombre**         | **Categoría** | **Propósito**                                               |
-|--------------------|---------------|-------------------------------------------------------------|
-| TicketResponseDto  | DTO           | Representación de un ticket con los detalles de entrada, salida y pago |
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| vehiclePlate | String | Private | Placa del vehículo que ingresará. |
+| userId | String | Private | ID del usuario que ingresará. |
 
-### Atributos
+#### Entidad: TicketResponseDto
 
-| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                                                 |
-|-------------------|------------------|-----------------|---------------------------------------------------------------------------------|
-| id                | Long             | Private         | Identificador único del ticket                                                  |
-| userId            | string           | Private         | ID del usuario que utilizó la app para ingresar al estacionamiento              |
-| vehiclePlate      | string           | Private         | Placa del vehículo que ingresó al estacionamiento                               |
-| entryTime         | Time             | Private         | Hora de entrada del vehículo al estacionamiento                                 |
-| status            | Long             | Private         | Estado actual del ticket                                                        |
-| amountCharged     | string           | Private         | Monto que pagó el usuario por su estancia en el estacionamiento                  |
-| paymentStatus     | string           | Private         | Estado actual del pago (ej. "Pagado", "Pendiente")                              |
-| totalDuration     | string           | Private         | Duración total de la estancia del vehículo en el estacionamiento                 |
-  
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| TicketResponseDto | DTO | Representa la información de un ticket para la respuesta. |
+
+#### Atributos
+
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| id | Long | Private | Identificador único del ticket. |
+| userId | String | Private | ID del usuario. |
+| vehiclePlate | String | Private | Placa del vehículo. |
+| entryTime | LocalDateTime | Private | Hora de entrada. |
+| status | String | Private | Estado del ticket. |
+| amountCharged | BigDecimal | Private | Monto cobrado. |
+| paymentStatus | String | Private | Estado del pago. |
+| totalDuration | Duration | Private | Duración total de la estancia. |
+
 ### 4.2.7.3. Application Layer
-  
-### Entidad: ITicketService
 
-| **Nombre**     | **Categoría** | **Propósito**                                               |
-|----------------|---------------|-------------------------------------------------------------|
-| ITicketService | Interface     | Define las operaciones para la gestión de tickets           |
+#### Entidad: ITicketService
 
-### Métodos
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| ITicketService | Interface | Define las operaciones para la gestión de tickets en la capa de aplicación. |
 
-| **Nombre**        | **Tipo de retorno**                          | **Descripción**                                              |
-|-------------------|----------------------------------------------|--------------------------------------------------------------|
-| createTicket      | TicketResponseDto                            | Crea un nuevo ticket con la placa del vehículo y el ID del usuario |
-| getTicket         | TicketResponseDto                            | Obtiene un ticket por su ID                                   |
-| getTicketHistory  | List<TicketResponseDto>                         | Obtiene el historial de eventos de un ticket                  |
-  
-  
-### Entidad: TicketServiceImpl
+#### Métodos
 
-| **Nombre**        | **Categoría** | **Propósito**                                               |
-|-------------------|---------------|-------------------------------------------------------------|
-| TicketServiceImpl | Service       | Implementa las operaciones para la gestión de tickets       |
+| **Nombre** | **Tipo de retorno** | **Descripción** |
+|---|---|---|
+| createTicket | TicketResponseDto | Crea un nuevo ticket. |
+| getTicket | TicketResponseDto | Obtiene un ticket por su ID. |
+| getTicketHistory | List\<TicketResponseDto> | Obtiene el historial de tickets de un usuario. |
 
-### Atributos
+#### Entidad: TicketServiceImpl
 
-| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                                             |
-|-------------------|------------------|-----------------|-------------------------------------------------------------|
-| ticketRepository  | ITicketRepository| Private         | Repositorio para acceder a los datos de los tickets         |
-| modelMapper       | ModelMapper      | Private         | Mapper para convertir entre entidades y DTOs                |
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| TicketServiceImpl | Service | Implementa las operaciones definidas en ITicketService. |
 
-### Métodos
+#### Atributos
 
-| **Nombre**        | **Tipo de retorno**                          | **Visibilidad** | **Descripción**                                              |
-|-------------------|----------------------------------------------|-----------------|--------------------------------------------------------------|
-| Constructor       | void                                         | Public          | Constructor de la clase                                      |
-| createTicket      | TicketResponseDto                            | Public          | Crea un nuevo ticket con la placa del vehículo y el ID del usuario |
-| getTicket         | TicketResponseDto                            | Public          | Obtiene un ticket por su ID                                   |
-| getTicketHistory  | List<TicketResponseDto>                         | Public          | Obtiene el historial de eventos de un ticket                  |
-  
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| ticketRepository | ITicketRepository | Private | Repositorio para acceder a los datos de los tickets. |
+| modelMapper | ModelMapper | Private | Mapper para la conversión entre entidades y DTOs. |
+
+#### Métodos
+
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|---|---|---|---|
+| Constructor | void | Public | Constructor de la clase. |
+| createTicket | TicketResponseDto | Public | Crea un nuevo ticket. |
+| getTicket | TicketResponseDto | Public | Obtiene un ticket por su ID. |
+| getTicketHistory | List\<TicketResponseDto> | Public | Obtiene el historial de tickets de un usuario. |
+
 ### 4.2.7.4. Infrastructure Layer
 
-### Repository Interface
+#### Repository Interface
 
-| **Nombre**              | **Categoría** | **Propósito**                                               |
-|-------------------------|---------------|-------------------------------------------------------------|
-| ITicketRepository       | Repository    | Repositorio JPA para la entidad Ticket                      |
+| **Nombre** | **Categoría** | **Propósito** |
+|---|---|---|
+| ITicketRepository | Repository | Define las operaciones de acceso a datos para la entidad Ticket. |
 
-### Atributos
+#### Métodos
 
-| **Nombre**             | **Tipo de retorno** | **Visibilidad** | **Descripción**                                             |
-|------------------------|---------------------|-----------------|-------------------------------------------------------------|
-| findByVehiclePlate     | List<Ticket>  | Public          | Encontrar tickets por la placa del vehículo                 |
-| findByUserId           | List<Ticket>  | Public          | Encontrar tickets por el ID del usuario                     |
-| findByStatus           | List<Ticket>  | Public          | Encontrar tickets por su estado (por ejemplo, "Activo")     |
-| findByEntryTimeBetween | List<Ticket>  | Public          | Encontrar tickets por rango de tiempo de entrada            |
+| **Nombre** | **Tipo de retorno** | **Descripción** |
+|---|---|---|
+| findByVehiclePlate | List\<Ticket> | Encuentra tickets por la placa del vehículo. |
+| findByUserId | List\<Ticket> | Encuentra tickets por el ID del usuario. |
+| findByStatus | List\<Ticket> | Encuentra tickets por su estado. |
+| findByEntryTimeBetween | List\<Ticket> | Encuentra tickets por rango de tiempo de entrada. |
+---
 
 ### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
-<p align="center"><img src="assets/capitulo-4/4.2.7.5-TicketValidation-ComponentDiagram.png" alt="Ticket Validation Component Diagram"/></p>
+![img_1.png](img_1.png)
 
 ### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
+
+![img_11.png](img_11.png)
 
 #### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 
@@ -2794,143 +3377,183 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 
 ## 4.2.8. Bounded Context: Notifications
 
+<p align="justify">
+El contexto Notifications se encarga de la gestión del envío y el estado de las notificaciones dentro del sistema. Define la entidad Notification, que contiene la información del mensaje, el destinatario y el estado de cada notificación. A través de sus capas de interfaz, aplicación e infraestructura, este contexto permite la creación, el envío, la consulta del estado y la persistencia de las notificaciones, facilitando la comunicación con los usuarios del sistema.
+
+
 ### 4.2.8.1. Domain Layer
 
 **Entity: Notification**
 
-| Nombre      | Categoría | Propósito                                      |
-|-------------|-----------|------------------------------------------------|
-| Notification| Entity    | Representa una notificación que será enviada al usuario. |
+| Nombre       | Categoría | Propósito                                                  |
+|--------------|-----------|------------------------------------------------------------|
+| Notification | Entity    | Representa una notificación que será enviada al usuario.     |
 
 **Atributos:**
-| Nombre        | Tipo de dato | Visibilidad | Descripción                                                |
-|---------------|--------------|-------------|------------------------------------------------------------|
-| id            | Long         | Private     | Identificador único de la notificación.                    |
-| message       | String       | Private     | Contenido del mensaje de la notificación.                 |
-| status        | String       | Private     | Estado de la notificación (enviado, pendiente, fallido).   |
-| recipient     | String       | Private     | Usuario al que se le envía la notificación.               |
-| timestamp     | LocalDate    | Private     | Fecha y hora en que se generó la notificación.            |
+
+| Nombre      | Tipo de dato | Visibilidad | Descripción                                                  |
+|-------------|--------------|-------------|--------------------------------------------------------------|
+| id          | Long         | private     | Identificador único de la notificación.                        |
+| message     | String       | private     | Contenido del mensaje de la notificación.                    |
+| status      | Status (enum) | private     | Estado de la notificación (UNREAD, READ).                    |
+| recipient   | UserId (VO)  | private     | Usuario al que se le envía la notificación.                   |
+| timestamp   | LocalDate    | private     | Fecha en que se generó la notificación.                      |
+
+**Métodos:**
+
+| Nombre                      |
+|-----------------------------|
+| getNotificationByUserId()   |
+| sendNotificationToUserId()  |
+
+**Value Object: UserId**
+
+| Nombre   | Categoría    | Propósito                                    |
+|----------|--------------|----------------------------------------------|
+| UserId   | Value Object | Representa el identificador único de un usuario. |
+
+**Atributos:**
+
+| Nombre   | Tipo de dato | Visibilidad | Descripción                                    |
+|----------|--------------|-------------|------------------------------------------------|
+| userId   | Long         | private     | Identificador único del usuario.                 |
+
+**Métodos:**
+
+| Nombre      |
+|-------------|
+| getUserId() |
+
+**Enum: Status**
+
+| Nombre   | Categoría | Propósito                                  |
+|----------|-----------|--------------------------------------------|
+| Status   | Enum      | Define los posibles estados de una notificación. |
+
+**Valores:**
+
+| Valor    |
+|----------|
+| UNREAD   |
+| READ     |
 
 ### 4.2.8.2. Interface Layer
 
 **Controller: NotificationController**
 
-| Nombre                   | Categoría   | Propósito                                                        |
-|--------------------------|-------------|------------------------------------------------------------------|
-| NotificationController    | Controller  | Endpoints para gestionar las notificaciones.                     |
+| Nombre                 | Categoría  | Propósito                                           |
+|------------------------|------------|-----------------------------------------------------|
+| NotificationController | Controller | Endpoints para gestionar las notificaciones.          |
 
 **Atributos:**
 
-| Nombre                  | Tipo de dato          | Visibilidad | Descripción                                                   |
-|-------------------------|-----------------------|-------------|---------------------------------------------------------------|
-| notificationService      | INotificationService  | Private     | Servicio para gestionar operaciones de notificación.          |
+| Nombre              | Tipo de dato        | Visibilidad | Descripción                                          |
+|---------------------|---------------------|-------------|------------------------------------------------------|
+| notificationService | INotificationService | private     | Servicio para gestionar operaciones de notificación. |
 
 **Métodos:**
 
-| Nombre                         | Tipo de retorno                          | Visibilidad | Descripción                                                       |
-|---------------------------------|------------------------------------------|-------------|-------------------------------------------------------------------|
-| Constructor                    | Void                                     | Public      | Constructor del controlador.                                       |              |
-| getNotificationByUserId            | ResponseEntity<NotificationResponseDto>  | Public      | Obtener una notificación específica por el user ID.                   |
-| createNotification             | ResponseEntity<NotificationResponseDto>  | Public      | Crear una nueva notificación.                                     |
-| deleteNotification             | ResponseEntity<Void>                    | Public      | Eliminar una notificación específica.                            |
-
----
+| Nombre                      | Tipo de retorno                       | Visibilidad | Descripción                                                    |
+|-----------------------------|---------------------------------------|-------------|----------------------------------------------------------------|
+| Constructor                 | Void                                  | public      | Constructor del controlador.                                   |
+| getNotificationByUserId     | ResponseEntity\<NotificationResponseDto> | public      | Obtener una notificación específica por el user ID.             |
+| createNotification          | ResponseEntity\<NotificationResponseDto> | public      | Crear una nueva notificación.                                  |
+| deleteNotification          | ResponseEntity\<Void>                   | public      | Eliminar una notificación específica.                            |
 
 **DTO: NotificationRequestDto**
 
-| Nombre                   | Categoría   | Propósito                                                       |
-|--------------------------|-------------|---------------------------------------------------------------|
-| NotificationRequestDto    | DTO         | Clase para crear una notificación.                             |
+| Nombre                   | Categoría | Propósito                                  |
+|--------------------------|-----------|--------------------------------------------|
+| NotificationRequestDto   | DTO       | Clase para crear una notificación.          |
 
 **Atributos:**
 
-| Nombre              | Tipo de dato | Visibilidad | Descripción                                                |
-|---------------------|--------------|-------------|------------------------------------------------------------|
-| message             | String       | Private     | Mensaje de la notificación.                                |
-| recipient           | String       | Private     | Usuario destinatario de la notificación.                   |
-| deliveryMethod      | String       | Private     | Método de entrega (ej., SMS, Email, Push Notification).    |
-
----
+| Nombre           | Tipo de dato | Visibilidad | Descripción                              |
+|------------------|--------------|-------------|------------------------------------------|
+| message          | String       | private     | Mensaje de la notificación.              |
+| recipientUserId   | Long         | private     | ID del usuario destinatario.             |
+| deliveryMethod   | String       | private     | Método de entrega (ej., SMS, Email).     |
 
 **DTO: NotificationResponseDto**
 
-| Nombre                   | Categoría   | Propósito                                                        |
-|--------------------------|-------------|------------------------------------------------------------------|
-| NotificationResponseDto   | DTO         | Clase para devolver la respuesta de la notificación.             |
+| Nombre                    | Categoría | Propósito                                    |
+|---------------------------|-----------|----------------------------------------------|
+| NotificationResponseDto     | DTO       | Clase para devolver la respuesta de la notificación. |
 
 **Atributos:**
 
-| Nombre              | Tipo de dato      | Visibilidad | Descripción                                                |
-|---------------------|-------------------|-------------|------------------------------------------------------------|
-| id                  | Long              | Private     | Identificador único de la notificación.                    |
-| message             | String            | Private     | Mensaje de la notificación.                                |
-| recipient           | String            | Private     | Usuario destinatario de la notificación.                   |
-| status              | String            | Private     | Estado de la notificación (enviado, pendiente, fallido).   |
-| timestamp           | LocalDateTime     | Private     | Fecha y hora de creación de la notificación.               |
-
+| Nombre    | Tipo de dato | Visibilidad | Descripción                                |
+|-----------|--------------|-------------|--------------------------------------------|
+| id        | Long         | private     | Identificador único de la notificación.      |
+| message   | String       | private     | Mensaje de la notificación.                |
+| recipient | Long         | private     | ID del usuario destinatario.               |
+| status    | String       | private     | Estado de la notificación.                 |
+| timestamp | LocalDate    | private     | Fecha de creación de la notificación.      |
 
 ### 4.2.8.3. Application Layer
 
 **Service Interface: INotificationService**
 
-| Nombre                | Categoría | Propósito                                                      |
-|-----------------------|-----------|----------------------------------------------------------------|
-| INotificationService   | Service   | Operaciones para la gestión de las notificaciones.             |
+| Nombre                 | Categoría | Propósito                                        |
+|------------------------|-----------|--------------------------------------------------|
+| INotificationService   | Service   | Operaciones para la gestión de las notificaciones. |
 
 **Métodos:**
 
-| Nombre                  | Tipo de retorno                      | Visibilidad | Descripción                                                     |
-|-------------------------|--------------------------------------|-------------|-----------------------------------------------------------------|
-| sendNotification        | Void                                 | Public      | Envía una notificación a un usuario.                            |
-| getNotificationStatus   | String                               | Public      | Obtiene el estado de entrega de la notificación.                |
-| getNotificationsHistory | List<Notification>                   | Public      | Obtiene el historial de notificaciones enviadas.                |
-| updateNotificationStatus| Void                                 | Public      | Actualiza el estado de una notificación (ej., fallida, exitosa).|
-
----
+| Nombre                      | Tipo de retorno       | Descripción                                                  |
+|-----------------------------|-----------------------|--------------------------------------------------------------|
+| sendNotification            | Void                  | Envía una notificación a un usuario.                           |
+| getNotificationStatus       | String                | Obtiene el estado de entrega de la notificación.             |
+| getNotificationsHistory     | List\<Notification>  | Obtiene el historial de notificaciones enviadas.             |
+| updateNotificationStatus    | Void                  | Actualiza el estado de una notificación.                     |
+| getNotificationByUserId     | NotificationResponseDto | Obtiene una notificación por el ID del usuario.              |
+| createNotification          | NotificationResponseDto | Crea una nueva notificación.                                 |
+| deleteNotification          | Void                  | Elimina una notificación específica.                           |
 
 **Service Implementation: NotificationServiceImpl**
 
-| Nombre                | Categoría | Propósito                                                      |
-|-----------------------|-----------|----------------------------------------------------------------|
-| NotificationServiceImpl | Service   | Implementación de la lógica de negocio para las notificaciones. |
+| Nombre                    | Categoría | Propósito                                          |
+|---------------------------|-----------|----------------------------------------------------|
+| NotificationServiceImpl     | Service   | Implementación de la lógica de negocio para las notificaciones. |
 
 **Atributos:**
 
-| Nombre                 | Tipo de dato      | Visibilidad | Descripción                                                   |
-|------------------------|-------------------|-------------|---------------------------------------------------------------|
-| notificationRepository | INotificationRepository | Private     | Repositorio para acceder a los datos de notificaciones.      |
-| modelMapper            | ModelMapper       | Private     | Mapper para transformar entidades y DTOs.                     |
-| restTemplate           | RestTemplate      | Private     | Cliente para hacer llamadas HTTP a servicios externos.        |
+| Nombre              | Tipo de dato           | Visibilidad | Descripción                                                |
+|---------------------|------------------------|-------------|------------------------------------------------------------|
+| notificationRepository | INotificationRepository | private     | Repositorio para acceder a los datos de notificaciones.     |
+| modelMapper         | ModelMapper            | private     | Mapper para transformar entidades y DTOs.                 |
+| restTemplate        | RestTemplate           | private     | Cliente para hacer llamadas HTTP a servicios externos.      |
 
 **Métodos:**
 
-| Nombre                    | Tipo de retorno                      | Visibilidad | Descripción                                                     |
-|---------------------------|--------------------------------------|-------------|-----------------------------------------------------------------|
-| Constructor                | Void                                 | Public      | Constructor que inyecta dependencias.                           |
-| sendNotification           | Void                                 | Public      | Envía una notificación a través de los servicios externos.      |
-| getNotificationStatus      | String                               | Public      | Obtiene el estado actual de la notificación.                    |
-| getNotificationsHistory    | List<Notification>                   | Public      | Obtiene todas las notificaciones previas.                       |
-| updateNotificationStatus   | Void                                 | Public      | Actualiza el estado de la notificación en la base de datos.    |
-
----
+| Nombre                      | Tipo de retorno       | Visibilidad | Descripción                                                      |
+|-----------------------------|-----------------------|-------------|------------------------------------------------------------------|
+| Constructor                 | Void                  | public      | Constructor que inyecta dependencias.                            |
+| sendNotification            | Void                  | public      | Envía una notificación a través de los servicios externos.       |
+| getNotificationStatus       | String                | public      | Obtiene el estado actual de la notificación.                     |
+| getNotificationsHistory     | List\<Notification>  | public      | Obtiene todas las notificaciones previas.                        |
+| updateNotificationStatus    | Void                  | public      | Actualiza el estado de la notificación en la base de datos.      |
+| getNotificationByUserId     | NotificationResponseDto | public      | Obtiene una notificación por el ID del usuario.                 |
+| createNotification          | NotificationResponseDto | public      | Crea una nueva notificación.                                     |
+| deleteNotification          | Void                  | public      | Elimina una notificación de la base de datos.                    |
 
 ### 4.2.8.4. Infrastructure Layer
 
 **Repository Interface: INotificationRepository**
 
-| Nombre                 | Categoría   | Propósito                                                      |
-|------------------------|-------------|----------------------------------------------------------------|
-| INotificationRepository | Repository  | Repositorio para manejar las notificaciones almacenadas.       |
+| Nombre                    | Categoría  | Propósito                                          |
+|---------------------------|------------|----------------------------------------------------|
+| INotificationRepository   | Repository | Repositorio para manejar las notificaciones almacenadas. |
 
 **Métodos:**
 
-| Nombre                    | Tipo de retorno           | Visibilidad | Descripción                                                   |
-|---------------------------|---------------------------|-------------|---------------------------------------------------------------|
-| saveNotification           | Notification              | Public      | Guarda una nueva notificación en la base de datos.            |
-| findById                   | Optional<Notification>    | Public      | Encuentra una notificación específica por su ID.              |
-| findByRecipient            | List<Notification>        | Public      | Encuentra todas las notificaciones de un usuario específico.   |
-| findByStatus               | List<Notification>        | Public      | Encuentra las notificaciones por su estado (enviado, pendiente).|
-| deleteNotification         | Void                      | Public      | Elimina una notificación de la base de datos.                 |
+| Nombre             | Tipo de retorno          | Visibilidad | Descripción                                                |
+|--------------------|--------------------------|-------------|------------------------------------------------------------|
+| saveNotification   | Notification             | public      | Guarda una nueva notificación en la base de datos.         |
+| findById           | Optional\<Notification> | public      | Encuentra una notificación específica por su ID.           |
+| findByRecipient    | List\<Notification>     | public      | Encuentra todas las notificaciones de un usuario específico. |
+| findByStatus       | List\<Notification>     | public      | Encuentra las notificaciones por su estado.                |
+| deleteNotification | Void                     | public      | Elimina una notificación de la base de datos.               |
 
 ---
 
@@ -2939,6 +3562,8 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 <p align="center"><img src="assets/capitulo-4/4.2.8.5-Notifications-Component-Diagram.PNG" alt="Notifications Class Diagram"/></p>
 
 ### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
+
+![img_12.png](img_12.png)
 
 #### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 
@@ -2949,74 +3574,90 @@ Al delegar la persistencia en esta capa, se preserva la pureza del modelo de dom
 <p align="center"><img src="assets/capitulo-4/4.2.8.6.2-Notifications-Database-Model.PNG" alt="Notifications DB Diagram"/></p>
 
 ## 4.2.9. Bounded Context: Profiles
-
-> **Propósito**  
-> Agrupa los **datos extendidos** de los distintos tipos de usuario (no credenciales):  
-> preferencias, información de contacto, métricas de uso, etc.
+<p align="justify">
+Este contexto se encarga de gestionar la información extendida de los usuarios del sistema, diferenciando entre perfiles de conductores y administradores. Almacena detalles como preferencias, información de contacto y métricas de uso, separándolos de las credenciales de autenticación.
 
 ### 4.2.9.1. Domain Layer
 
-| Agregado | Rol |
-|----------|-----|
-| **DriverProfile** `<<Aggregate Root>>` | Información de un conductor (licencia, preferencia de pago, vehículo favorito). |
-| **AdminProfile** `<<Aggregate Root>>` | Datos de un administrador (scope de parking, contacto directo). |
+En la capa de dominio se definen los agregados raíz DriverProfile y AdminProfile, que encapsulan la información específica de cada tipo de usuario. Se utiliza un objeto de valor Language para representar las preferencias de idioma.
 
-#### DriverProfile
+**DriverProfile `<<Aggregate Root>>`**
 
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| userId | UserId |
-| fullName | String |
-| licenseNumber | String |
-| favouritePaymentCard | String |
-| preferredLanguage | Language `enum` |
+| Atributos             | Tipo     |
+|-----------------------|----------|
+| id                    | Long     |
+| userId                | UserId   |
+| fullName              | String   |
+| licenseNumber         | String   |
+| favouritePaymentCard  | String   |
+| preferredLanguage     | Language |
 
-#### AdminProfile
+**AdminProfile `<<Aggregate Root>>`**
 
-| Atributo | Tipo |
-|----------|------|
-| id | Long |
-| userId | UserId |
-| fullName | String |
-| phoneNumber | String |
-| managedSiteIds | List<Long> |
+| Atributos        | Tipo          |
+|------------------|---------------|
+| id               | Long          |
+| userId           | UserId        |
+| fullName         | String        |
+| phoneNumber      | String        |
+| managedSiteIds   | List\<Long>  |
 
-#### Value Objects
-`Language` → ES · EN · PT
+**Value Object: Language `<<Value Object>>`**
 
----
+| Valores |
+|---------|
+| ES      |
+| EN      |
+| PT      |
 
 ### 4.2.9.2. Interface Layer
 
-| Controller | Endpoints |
-|------------|-----------|
-| **ProfilesController** | `GET /profiles/{userId}` · `POST /profiles/driver` · `POST /profiles/admin` |
+La capa de interfaz expone la funcionalidad de gestión de perfiles a través del controlador ProfilesController, que ofrece endpoints para la creación y consulta de perfiles basados en el ID de usuario.
 
----
+**Controller: ProfilesController `<<Controller>>`**
+
+| Endpoints                |
+|--------------------------|
+| `GET /profiles/{userId}`  |
+| `POST /profiles/driver`   |
+| `POST /profiles/admin`    |
 
 ### 4.2.9.3. Application Layer
 
-| Service | Operaciones |
-|---------|-------------|
-| **IProfileService** | createDriverProfile · createAdminProfile · getProfileByUserId |
+La capa de aplicación define la interfaz IProfileService con las operaciones necesarias para la creación y recuperación de perfiles. La implementación ProfileServiceImpl utiliza un ModelMapper para la conversión entre entidades y DTOs, y se comunica con el ProfileRepository para la persistencia de los datos.
 
-Impl.: `ProfileServiceImpl` (usa `ModelMapper` + `ProfileRepository`).
+**Service Interface: IProfileService `<<Service Interface>>`**
 
----
+| Operaciones           |
+|-----------------------|
+| createDriverProfile   |
+| createAdminProfile    |
+| getProfileByUserId    |
+
+**Service Implementation: ProfileServiceImpl `<<Service>>`**
+
+| Dependencias        |
+|---------------------|
+| ModelMapper         |
+| ProfileRepository   |
 
 ### 4.2.9.4. Infrastructure Layer
 
-| Repository | Extiende |
-|------------|----------|
-| **ProfileRepository** | `JpaRepository<BaseProfile,Long>` con estrategia *single-table* + `dtype` |
+La capa de infraestructura implementa el mecanismo de persistencia para los perfiles utilizando un único repositorio ProfileRepository que extiende JpaRepository. Se emplea una estrategia de tabla única (`single-table`) con una columna discriminadora (`dtype`) para diferenciar entre los perfiles de conductores y administradores.
 
----
+**Repository: ProfileRepository `<<Repository>>`**
+
+| Extiende                      | Estrategia de Persistencia |
+|-------------------------------|--------------------------|
+| `JpaRepository<BaseProfile,Long>` | `single-table` + `dtype` |
 
 ### 4.2.9.5. Component Diagram
 ![Profiles Components](assets/capitulo-4/4.2.9.5-Diagram.png)
 
 ### 4.2.9.6. Code-Level Diagrams
+
+![img_13.png](img_13.png)
+
 #### 4.2.9.6.1. Domain Class Diagram
 ![Profiles Classes](assets/capitulo-4/4.2.9.6.1-Diagram.png)
 
@@ -3200,6 +3841,80 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 ## 5.3. Landing Page UI Design
 
+
+### 5.3.1. Landing Page Wireframe
+
+
+**Hero Section**
+
+<p align="center">
+  <img src="assets/capitulo-5/1wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**About Us**
+
+<p align="center">
+  <img src="assets/capitulo-5/2wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Our Product**
+
+<p align="center">
+  <img src="assets/capitulo-5/3wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Description of the Product**
+
+<p align="center">
+  <img src="assets/capitulo-5/4wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Endorsed By**
+
+<p align="center">
+  <img src="assets/capitulo-5/endorsedbywireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+**F&A**
+
+<p align="center">
+  <img src="assets/capitulo-5/5wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Testimonials**
+
+<p align="center">
+  <img src="assets/capitulo-5/testimonialwireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Contact US**
+
+<p align="center">
+  <img src="assets/capitulo-5/6wireframe.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
+<br>
+
+**Footer**
+
+<a href="https://ibb.co/9HYg20Dq"><img src="https://i.ibb.co/zVfxbgMS/image.png" alt="image" border="0"></a>
+
+<br>
+
+### 5.3.2. Landing Page Mock-up
+
 **Hero Section**
 
 <p align="center">
@@ -3272,81 +3987,6 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 </p>
 
 <br>
-
-### 5.3.1. Landing Page Wireframe
-
-
-**Hero Section**
-
-<p align="center">
-  <img src="assets/capitulo-5/1wireframe.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**About Us**
-
-<p align="center">
-  <img src="assets/capitulo-5/2wireframe.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**Our Product**
-
-<p align="center">
-  <img src="assets/capitulo-5/3wireframe.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**Description of the Product**
-
-<p align="center">
-  <img src="assets/capitulo-5/4wireframe.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**Endorsed By**
-
-<p align="center">
-  <img src="assets/capitulo-5/endorsedbywireframe.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-**F&A**
-
-<p align="center">
-  <img src="assets/capitulo-5/5wireframe.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**Testimonials**
-
-<p align="center">
-  <img src="assets/capitulo-5/testimonialwireframe.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**Contact US**
-
-<p align="center">
-  <img src="assets/capitulo-5/6wireframe.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-**Footer**
-
-<p align="center">
-  <img src="assets/capitulo-5/footerwireframe&apos;.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<br>
-
-### 5.3.2. Landing Page Mock-up
 
 ## 5.4. Applications UX/UI Design
 
@@ -3560,9 +4200,67 @@ Navegación coherente y simplificada: Toda la plataforma mantendrá un esquema d
 
 ### 5.4.2. Applications Wireflow Diagrams
 
+Los siguientes diagramas de wireflow representan visualmente las pantallas y transiciones más relevantes de la aplicación, tanto para la versión web como móvil. A diferencia del user flow, los wireflows incorporan no solo la lógica de navegación, sino también la disposición de los elementos visuales, facilitando la validación temprana de la experiencia de usuario (UX) antes del diseño final.
+
+Los siguientes diagramas de wireflow representan visualmente las pantallas y transiciones más relevantes de la aplicación, tanto para la versión web como móvil. A diferencia del user flow, los wireflows incorporan no solo la lógica de navegación, sino también la disposición preliminar de los elementos visuales, facilitando la validación temprana de la experiencia de usuario (UX) antes del diseño final.
+<a href="https://ibb.co/G39H9Dtg"><img src="https://i.ibb.co/JFq3qTyX/login-wireflow-web.png" alt="login-wireflow-web" border="0"></a>
+
+Representa la navegación entre las vistas del panel de administración. Se incluyen componentes como la visualización de cámaras, gestión de tarifas y acceso a estadísticas. El flujo permite al usuario recorrer las principales funciones administrativas desde una interfaz centralizada e intuitiva.
+<a href="https://ibb.co/bxsZH4C"><img src="https://i.ibb.co/fbk583y/service-wireflow-web.png" alt="service-wireflow-web" border="0"></a>
+
+Este flujo refleja el proceso de autenticación desde la aplicación móvil. Contempla la introducción de usuario y contraseña, validación y acceso a la pantalla de bienvenida o directamente a la disponibilidad de parqueo. Se prioriza la simplicidad para mejorar la experiencia de ingreso desde dispositivos pequeños.
+<a href="https://ibb.co/JjhGPmsP"><img src="https://i.ibb.co/s9BNrbVr/login-wireflow-mov.png" alt="login-wireflow-mov" border="0"></a>
+
+En este wireflow se simula el recorrido del usuario al momento de buscar y reservar un espacio de estacionamiento. Incluye pantallas de disponibilidad, selección de plaza y confirmación. Este flujo permite una interacción eficiente en contextos urbanos donde el tiempo es clave.
+<a href="https://ibb.co/N66d4qDS"><img src="https://i.ibb.co/5WWg73pF/parking-wireflow-mov.png" alt="parking-wireflow-mov" border="0"></a>
+
+Describe el proceso de pago dentro de la app móvil. Se muestran las pantallas para seleccionar método de pago, visualizar monto, aplicar promociones y confirmar la transacción. La intención es brindar una experiencia de pago fluida, rápida y sin contacto.
+<a href="https://ibb.co/pBVW4nkY"><img src="https://i.ibb.co/ksb3qMPN/payment-wireflow-mov.png" alt="payment-wireflow-mov" border="0"></a>
+
 ### 5.4.3. Applications User Flow Diagrams
+En esta sección se describen los flujos de usuario diseñados para la aplicación web y móvil del proyecto FindAndPark. Cada diagrama representa el recorrido que realiza un tipo de usuario (administrador) al interactuar con las distintas funcionalidades clave del sistema, asegurando que cada acción esté alineada con los objetivos de la solución: control, monitoreo y gestión de estacionamientos inteligentes.
+
+Este flujo representa el proceso de registro para nuevos administradores. El usuario accede al formulario de creación de cuenta, completa los campos obligatorios y envía la solicitud. Una vez validada, la cuenta es creada y el usuario es redirigido al login. Este flujo asegura un control centralizado de accesos administrativos.
+![](https://i.postimg.cc/NfjBFcLP/userflow-register.png)
+
+El dashboard muestra el acceso principal al sistema luego del inicio de sesión. Aquí el usuario visualiza de forma resumida estadísticas relevantes, alertas y accesos rápidos a las demás funcionalidades. Sirve como punto de control central para la operación diaria del estacionamiento.
+![](https://i.postimg.cc/GtqRKMgQ/userflow-dashboard.png)
+
+Aca se permite al administrador configurar y visualizar las tarifas asociadas al estacionamiento. Se incluye la opción de editar o actualizar montos, aplicar promociones o tarifas por horario, garantizando flexibilidad y control económico sobre el espacio.
+![](https://i.postimg.cc/rmGM0yS7/userflow-fee.png)
+
+En eesta parte del programa, el usuario puede acceder al monitoreo en tiempo real de las cámaras del estacionamiento. Se incluye la visualización del estado actual, transmisión en vivo y posiblemente la interacción con las cámaras (zoom, cambio de ángulo, etc.). Este módulo contribuye a la seguridad operativa.
+![](https://i.postimg.cc/RVp9nDHC/userflow-monitoring.png)
+
+Representa la gestión de los espacios de parqueo. El usuario puede ver los slots disponibles, ocupados y en mantenimiento, así como añadir o editar plazas. Este flujo asegura una gestión eficiente del espacio físico del estacionamiento.
+![](https://i.postimg.cc/mkbRQxjk/userflow-slots.png)
+
+En este userflow se accede a los indicadores de uso, ingresos, frecuencia de visitas y otros datos analíticos. El administrador puede visualizar métricas en tiempo real o históricas, lo cual respalda la toma de decisiones estratégicas.
+![](https://i.postimg.cc/1RHyytRq/userflow-statistics.png)
+
+En la aplicación móvil, este flujo permite a los usuarios verificar la disponibilidad de estacionamientos, iniciar su proceso de ingreso y registrar su vehículo. El objetivo es facilitar el acceso rápido y sin fricciones al servicio.
+![](https://i.postimg.cc/yNZVKyW1/userflow-parking-mov.png)
+
+Aquí se describe el proceso de pago desde la aplicación móvil. El usuario elige su método de pago, visualiza el monto correspondiente a su estancia, y finaliza la transacción de forma segura. Se promueve una experiencia contactless y eficiente.
+![](https://i.postimg.cc/qvgJbTTC/userflow-payment-mov.png)
+
+Este flujo está diseñado para que nuevos usuarios móviles puedan registrarse en la aplicación. Incluye la validación de datos básicos y la creación de credenciales de acceso para facilitar el ingreso posterior.
+![](https://i.postimg.cc/dVXqgxsN/userflow-register-mov.png)
+
 
 ## 5.5. Applications Prototyping
+
+En esta sección se presentan los prototipos desarrollados en Figma para la aplicación web y móvil. Estas interfaces fueron diseñadas considerando principios de usabilidad, accesibilidad y consistencia visual. El objetivo principal fue anticipar la experiencia final del usuario y validar el diseño antes de iniciar el desarrollo.
+
+- Prototipo Web: Se enfoca en las funcionalidades administrativas (dashboard, monitoreo, tarifas, estadísticas) y refleja la lógica de operación de un administrador de estacionamiento inteligente.
+
+- Prototipo Móvil: Diseñado para los usuarios que acceden al servicio desde sus dispositivos móviles. Incluye flujos clave como registro, reserva de parqueo y pago, optimizando la experiencia desde cualquier lugar.
+
+![](https://i.postimg.cc/7YrT8ZV7/web-prototype.png)
+![](https://i.postimg.cc/150V91Cd/mov-prototype.png)
+
+https://www.figma.com/proto/kSN0rxeKp9wzzeF3SMnC8U/IOT-PROJECT?node-id=1-2&t=JFxyk3KOYuGbNKD1-1 
+
 
 
 # Capítulo VI: Product Implementation & Validation
@@ -3681,9 +4379,51 @@ Convenciones de formato:
 
 #### Despliegue Backend
 
+**Despliegue Backend (Central / Nube)**
+
+El backend central, desarrollado con Spring Boot, se empaquetará como un archivo JAR ejecutable. Se planea su despliegue en un proveedor de servicios en la nube con AWS Fargate utilizando contenedores Docker para asegurar la portabilidad y escalabilidad. La gestión de la infraestructura como código (IaC) con herramientas como Terraform y la integración continua/despliegue continuo (CI/CD) mediante GitHub Actions se configurarán para automatizar las actualizaciones y el mantenimiento. Este backend expondrá las APIs principales consumidas por las aplicaciones móviles de los conductores, la aplicación web de administración y potencialmente por sistemas externos autorizados.
+
+![img_3.png](img_3.png)
+
+![img_2.png](img_2.png)
+
+**Despliegue Backend / Lógica Aplicativa (Nodo Edge)**
+
+Adicionalmente, cada Nodo Edge en las ubicaciones físicas de los estacionamientos ejecutará su propia instancia de una aplicación o backend ligero. Si bien los diagramas C4 sugieren tecnologías como Go/Node.js para el "IoT Edge App" (lo cual es común por su bajo consumo de recursos), si se optara por una solución basada en Java para la lógica de borde, esta también se empaquetaría (posiblemente como un JAR más pequeño o una aplicación Quarkus/Micronaut optimizada para el borde) y se desplegaría en el hardware del Nodo Edge (ej. Raspberry Pi, PC Industrial, o dispositivos específicos de IoT).
+
+- **Propósito**: Procesamiento local de datos de sensores, comunicación con actuadores, toma de decisiones en tiempo real, buffering de datos y sincronización con el Backend Central.
+- **Empaquetado y Ejecución**: Generalmente dentro de contenedores Docker para consistencia y facilidad de gestión en el hardware del borde.
+- **Accesibilidad**: Principalmente restringido a la red local del estacionamiento, interactuando con el Gateway IoT, los dispositivos locales y el Backend Central. No estará expuesto directamente a internet público.
+- **Actualizaciones y Gestión**: Las actualizaciones de software en los Nodos Edge se gestionarían de forma remota, utilizando plataformas de gestión de dispositivos IoT/Edge (como AWS IoT Greengrass, Azure IoT Edge) o mediante pipelines de CI/CD específicamente diseñados para despliegues en el borde.
+
+![img_3.png](img_3.png)
+
 #### Despliegue Frontend Web
 
+La aplicación web frontend, desarrollada con Angular, se compila en archivos estáticos (HTML, CSS, JavaScript). Para el Sprint 1, esta aplicación ha sido desplegada utilizando Netlify (como se evidencia en la sección 6.2.1.8). Netlify se integra directamente con repositorios de GitHub, permitiendo despliegues automáticos tras cada push a la rama principal o ramas de feature configuradas. Esto facilita un flujo de CI/CD para el frontend.
+
+![img_5.png](img_5.png)
+
+![img_4.png](img_4.png)
+
+La Landing Page, siendo una aplicación web estática, ha sido desplegada utilizando GitHub Pages (evidenciado en 6.2.1.8), aprovechando la integración directa con el repositorio de código fuente para una publicación sencilla y eficiente.
+
+![img_5.png](img_5.png)
+
+![img_6.png](img_6.png)
+
 #### Despliegue Mobile App 
+
+La aplicación móvil, que se desarrollará con Flutter, generará artefactos específicos para cada plataforma: un archivo APK para Android y un archivo IPA para iOS.
+
+- **Android**: El APK se compilará y firmará, listo para ser subido a Google Play Store. Para pruebas internas, se podría utilizar Firebase App Distribution.
+- **iOS**: El archivo IPA se compilará y firmará utilizando un certificado de desarrollador de Apple. Se distribuirá a través de TestFlight para pruebas y, finalmente, se subirá a la Apple App Store para su publicación.
+
+![img_7.png](img_7.png)
+
+La configuración de CI/CD con GitHub Actions también se explorará para automatizar la compilación y firma de estos artefactos.
+
+![img_8.png](img_8.png)
 
 ## 6.2. Landing Page, Services & Applications Implementation
 
@@ -3691,21 +4431,208 @@ Convenciones de formato:
 
 #### 6.2.1.1. Sprint Planning 1
 
+Esta sección presenta la planificación inicial del Sprint 1, en la cual se establecieron las metas de desarrollo y la estrategia de trabajo para la implementación de la Landing Page y la interfaz web de administración. Se detallan los participantes de la reunión de planificación, el contexto del sprint previo (Sprint 0), así como los objetivos, la velocidad estimada y los Story Points asignados al equipo.
+
+| **Sprint #**                       | Sprint 1                                                                 |
+|-----------------------------------|--------------------------------------------------------------------------|
+| **Sprint Planning Background**                                                                              |
+| **Date**                          | 2025-05-06                                                               |
+| **Time**                          | 10:00 PM                                                                 |
+| **Location**                      | Google Teams / Whatsapp                                                  |
+| **Prepared By**                   | Herrera González, Luis Eduardo                                          |
+| **Attendees (to planning meeting)** | Herrera González, Luis Eduardo<br>Obispo Rios, Lucero Abigail<br>Cuevas Rios, Eric Fernando<br>Elsner De La Torre Ugarte, Julio Esteban<br>Vargas Revollé, Ariana |
+| **Sprint 0 – 1 Review Summary**   | En el sprint 0 establecimos el alcance del proyecto y un avance significativo de la documentación de la solución así como un avance del Landing page |
+| **Sprint 0 – 1 Retrospective Summary** | Se identificaron mejoras en la documentación que deben ser corregidas así como implementación de componentes en las aplicaciones para poder cumplir con los requisitos funcionales de la aplicación |
+| **Sprint Goal & User Stories**                                                                            |
+| **Sprint n Goal**                 | Our focus is on completar el Frontend funcional de la Landing Page y vista de administración.<br>We believe it delivers una experiencia accesible y funcional a los usuarios nuevos y administradores.<br>This will be confirmed when todos los componentes de la Landing Page estén desplegados y operativos en producción. |
+| **Sprint n Velocity**             | 18                                                                       |
+| **Sum of Story Points**           | 16                                                                       |
+
+<a href="https://ibb.co/LDsTLZHL"><img src="https://i.ibb.co/bjG4SKDS/sprint-1-evidence.png" alt="sprint-1-evidence" border="0"></a>
+
 #### 6.2.1.2. Aspect Leaders and Collaborators
+
+En este apartado se identifican los roles específicos asumidos por cada integrante del equipo durante el Sprint. Se diferencian responsabilidades entre líderes y colaboradores en áreas clave como documentación, diseño y desarrollo tanto para la Landing Page como para la aplicación web y móvil, así como despliegue.
+
+| Team Member (Last Name, First Name)             | GitHub Username      | Documentacion | Diseño de Landing Page | Desarrollo de Landing Page | Diseño de Mobile App | Diseño de Web App | Desarrollo de Web App | Deployment de Landing Page | Deployment de Web App |
+|--------------------------------------------------|----------------------|----------------|--------------------------|-----------------------------|------------------------|---------------------|---------------------------|-----------------------------|------------------------|
+| Herrera González, Luis Eduardo | LuisHerreraG| C| C | C | C | C | L       | C         | C    |
+| Obispo Rios, Lucero Abigail                      | LuceroObispoRios| C              | C      | C         | C    | C | C       | L         | L    |
+| Cuevas Rios, Eric Fernando                      | Ericcuevas03         | L              | C      | C         | C    | C | C       | C         | C    |
+| Elsner De La Torre Ugarte, Julio Esteban        | JulioElsnerDLTU      | C              | L      | C         | C    | L | C       | C         | C    |
+| Vargas Revollé, Ariana                          | vargas3470           | C              | C      | C         | L    | C | C       | C         | C    |
 
 #### 6.2.1.3. Sprint Backlog 1
 
+Se detalla el backlog correspondiente al Sprint 1, incluyendo las historias de usuario priorizadas, sus respectivas tareas (work items), descripciones funcionales, estimaciones de esfuerzo, responsables asignados y el estado de finalización de cada ítem. Esta planificación fue fundamental para garantizar una ejecución organizada y alineada a los objetivos del Sprint.
+
+| User Story |User Story Title| Work Item ID | Work Item Title  | Description | Estimation (Hours) | Assigned To | Status     |
+|------------|---------------|-|------------------------------------------|------------------------------------------------------------------------------|---------------------|---------------------------------------------|------------|
+| US01     | Barra de navegación en Landing Page | TS-01         | Nav bar implementation (Landing)         | Implementacion de la barra de navegacion en Landing Page de la solucion     | 2                   | Herrera González, Luis Eduardo              | done       |
+| US02      |Encabezado de Bienvenida de Landing Page | TS-02         | Hero implementation (Landing)           | Implementación del encabezado principal de bienvenida con texto llamativo e imagen destacada. | 3         | Herrera González, Luis Eduardo              | done       |
+| US03      |Sección Sobre Nosotros de Landing page | TS-03         | About-us implementation (Landing)       | Desarrollo de la sección 'Sobre Nosotros' con descripción de la empresa y su misión. | 3             | Elsner De La Torre Ugarte, Julio Esteban    | done       |
+| US04       |Demostración del funcionamiento de la aplicación en el Landing Page | TS-04         | Display demo implementation (Landing)   | Integración de una sección interactiva que muestre una demostración visual de la aplicación. | 3         | Vargas Revollé, Ariana                      | done       |
+| US05       |Descripción de las funcionalidades de la aplicación en el Landing Page | TS-05         | Features implementation (Landing)       | Implementación de una sección con las principales funcionalidades.           | 3                   | Vargas Revollé, Ariana                      | done       |
+| US06       | Reseñas en el Landing page| TS-06         | Reviews implementation (Landing)        | Desarrollo de la sección de reseñas de usuarios con calificaciones y testimonios. | 2              | Obispo Rios, Lucero Abigail                 | done       |
+| US07       |Preguntas y Respuestas en Landing Page | TS-07         | FAQ implementation (Landing)            | Implementación de la sección de Preguntas Frecuentes con respuestas desplegables. | 2            | Obispo Rios, Lucero Abigail                 | done       |
+| US08       |Sección de Clientes Satisfechos | TS-08         | Endorsements implementation (Landing)   | Sección de empresas o clientes destacados que respaldan la aplicación.       | 2                   | Cuevas Rios, Eric Fernando                  | done       |
+| US09       | Sección de Contáctanos en Landing Page| TS-09         | Contact-us implementation (Landing)     | Formulario de contacto con campos para nombre, correo y mensaje.             | 2                   | Elsner De La Torre Ugarte, Julio Esteban    | done       |
+| US10       | Footer en Landing Page| TS-10         | Footer Implementation (Landing)         | Desarrollo del pie de página con enlaces útiles, derechos de autor y redes sociales. | 2         | Cuevas Rios, Eric Fernando                  | done       |
+| US35       | Obtención de cuenta administrativa de un estacionamiento| TS-11         | Regiter Component Implementation (WebApp) | Formulario de registro para crear cuentas administrativas de estacionamientos. | 6         | Cuevas Rios, Eric Fernando                  | done       |
+| US36       |Inicio de sesión de administrador | TS-12         | Login Component Implementation (WebApp) | Componente de inicio de sesión para administradores del sistema web.         | 5                   | Cuevas Rios, Eric Fernando                  | done       |
+| US39       | Edición del perfil de una cuenta administrativa| TS-13         | SerringsComponent Implementation (WebApp) | Interfaz de configuración para edición de perfil de la cuenta administrativa. | 5         | Herrera González, Luis Eduardo              | Penediente  |
+| US40       | Visualización de Resumen Estadístico del uso del Estacionamiento como menú principal| TS-14         | StatisticsComponent Implementation (WebApp) | Visualización de estadísticas del uso del estacionamiento como panel principal. | 6      | Herrera González, Luis Eduardo              | done       |
+| US41       |Visualización de las cámaras de seguridad del estacionamiento | TS-15         | Regiter Component Implementation (WebApp) | Integración del componente de cámaras para visualizar transmisiones en vivo de seguridad. | 7 | Vargas Revollé, Ariana                      | done       |
+
+
 #### 6.2.1.4. Development Evidence for Sprint Review
 
-#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+A continuación se presenta la evidencia de desarrollo generada durante el Sprint. Se incluyen los commits realizados por el equipo en los distintos branches de desarrollo, especificando los mensajes de commit, ramas funcionales, repositorios utilizados y fechas. Esta evidencia respalda la trazabilidad del avance en los distintos componentes de la solución.
 
+| Repository                    | Branch        | Commit ID                                | Commit Message                                                                 | Committed On   | 
+|:------------------------------|:-------------|:-----------------------------------|:-----------------------------------------|:-------------------------------------------------------------------------------|
+| SolucionesIoT-FindAndPark-UPC landing-page | feature/reviews |  cfb118b675357cf57d8a3371bb926397961e3f60 | feat: Add testimonials section                                                 | Apr 20, 2025   |
+| SolucionesIoT-FindAndPark-UPC landing-page | feature/reviews | 7b54f9b08872d88d12e33b8714a50d17dfecbaa6 | feat: Add components | Apr 20, 2025|
+| SolucionesIoT-FindAndPark-UPC landing-page | feature/frequestly-asked-questions | 7b54f9b08872d88d12e33b8714a50d17dfecbaa6 | feat: Add components                                                           | Apr 20, 2025   |
+| SolucionesIoT-FindAndPark-UPC landing-page | feature/frequestly-asked-questions | feature/frequestly-asked-questions | cfb118b675357cf57d8a3371bb926397961e3f60 | feat: Add testimonials section                                                 | Apr 20, 2025   |
+| SolucionesIoT-FindAndPark-UPC landing-page | feature/frequestly-asked-questions | 940cf3c8c3c82c81026af50759d3d1a8c1f3f6b6 | feat: Creat faq component                                                      | Apr 20, 2025   |
+| SolucionesIoT-FindAndPark-UPC landing-page | feature/frequestly-asked-questions | e41a8847894590a5a68c2d5772ddf9824a821daa | feat: Add questions and answers                                                | Apr 20, 2025   |
+| SolucionesIoT-FindAndPark-UPC landing-page | feature/frequestly-asked-questions | 98ad6f53b7d0bf740271cc4e8fa46f9be9c3b5dd | fix: Delete comments                                                           | Apr 20, 2025   |
+| SolucionesIoT-FindAndPark-UPC landing-page  | feature/product                    | bb19fb71d8c06b9ab57d7c7f51c7c7d77b3d088e | feat: added about the product section and product feature section              | Apr 24, 2025   |
+| SolucionesIoT-FindAndPark-UPC landing-page  | feature/footer                     | cf371de6110daec034e833008521d5f1ebf0e412 | fix: duplicate footer deletion                                                 | Apr 25, 2025   |
+| SolucionesIoT-FindAndPark-UPC landing-page| feature/footer                     | 0de9be3c734b67a927765b11727ec73757f2be30 | fix: footer                                                                    | Apr 25, 2025   |
+| SolucionesIoT-FindAndPark-UPC landing-page  | feature/footer                     | c56ce253b22070b2ed5d7512f1a829d173b4d0e5 | Feat: Endorsed By                                                              | Apr 25, 2025   |
+| SolucionesIoT-FindAndPark-UPC landing-page  | feature/aboutus                    | 7e8579dfac549086943298f504f8bd72d54f3a57 | added about us section                                                         | May 2, 2025    |
+| SolucionesIoT-FindAndPark-UPC landing-page  | feature/aboutus                    | e3dbe7ff13eb055de540eb018c5289d4d5443bb0 | added about us section                                                         | May 2, 2025    |
+| SolucionesIoT-FindAndPark-UPC landing-page | feature/contactus                  | 15bb838bd7142c513af59ac10bea30df992b34b4 | added contact us                                                               | May 2, 2025    |
+| SolucionesIoT-FindAndPark-UPC landing-page | feature/hero                       | c0ac16d4254a0a2e866dcffe8769ffb93b85558d | feat: included roboto as font-family and removed margin not included in figma. | May 3, 2025    |
+| SolucionesIoT-FindAndPark-UPC landing-page |feature/hero                       | da2b6bbbaf1745e78525ea002ecc27adf10551e8 | feat: hero-image                                                               | May 3, 2025    |
+| SolucionesIoT-FindAndPark-UPC landing-page |feature/hero                       | 72c04d166f2b2cbb933ee9b3b7bfcb129a93fe9f | fix: dimensions of hero-image                                                  | May 3, 2025    |
+| SolucionesIoT-FindAndPark-UPC landing-page |feature/hero                       | 4203f76e21d9c4b56a8995a2ca7d6f51163d89d0 | feat: toolbar                                                                  | May 3, 2025    |
+| SolucionesIoT-FindAndPark-UPC landing-page |feature/hero                       | ca7341399068652381c31d127ae370c79413e4a1 | fix: roboto inclusion fixed                                                    | May 3, 2025    |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/dashboard       | c7b8df78200d395beeb8f650c085606df58f2339 | feat: Connect to service and db.json | May 12, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/dashboard       | 1172a8b5a7b66ad580f24e4dbf5f5e3005092891 | fix: Update camera feed design       | May 12, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/dashboard       | 697954416044d048ebc7c96c43861a1c55a6366a | fix: Update notifications bar design | May 12, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/dashboard       | aa4bdcb4885f1783463484750a27c4f20041a436 | fix: Update feed design              | May 12, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/dashboard       | 10e0780da33fc419583bc11fb5d8155fdeedab8a | fix: Update camera status design     | May 12, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/login           | ec41577a0c14c2af5d1d721bf95e7707637e77be | feat: login screen                   | May 13, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/login           | e228ea7c049658caab07b4209dd19e6865c514f2 | fix: map image                       | May 13, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/login           | 26c83b317939799f46c191215e607090698a141b | feat: validation screen              | May 13, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feature/parking-fees | 4a2418d1d2763737e5b8802a438882a35c14e8ef | feat: parking-lot.                   | May 13, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/Allotment       | 8e861954a1bce45b06799d78e5f4a99cc9e4236a | feat: Allotment Front                | May 13, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feature/header       | e4842e8787c9998b48ecd008c33336b79a2afb4f | feat: header with ng-content.        | May 14, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feature/parking-fees | b66cc64ad33fd9e763bc31f9817090d097a710e0 | feat: parking lots.                  | May 14, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feature/parking-fees | 63701f51376957f53d1770ab8dda357cee089a30 | feat: parking lots.                  | May 14, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/login           | 0af2b8e47813eaac177d5f3a2f90efd064b859df | feat: validation screen              | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/login           | 58b8d1f560a5906a6cc7c5b376e43b5e540e1aad | fix: responsive                      | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/login           | 6efa815788bbb2ac81ab9ecf2cca6dd868b2fd50 | fix: register page                   | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/login           | 4931da988b26f8899b8d02d4542c296c833ea82e | fix: validation screen               | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feature/monitoring   | 03af6cd177cda50a69a6902efcc0c84f3a1d277d | feat(monitoring): add component      | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/Allotment       | d7f8017f7368f74f6ac782fca93682e9daa8643c | added footer                         | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/Allotment       | 0f70fd7e41a7c6d64d5d7a12a76ada86023c654f | fix: added content into app-header   | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/login           | f6e9e4330470d8dbcf40e106fb7f37c67f66aa95 | fix: for merge                       | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/login           | 7fd55e1a48aa2d2205b63df987cf4414b2a3d75f | fix: redirecting                     | May 15, 2025   |
+| SolucionesIoT-FindAndPark-UPC web-application-frontend | feat/dashboard       | e305ed6f86ebc0a701b02860a15f194d3f74aab7 | feat: add header                     | May 15, 2025   |
+
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+Durante este Sprint no se realizó la implementación de funcionalidades de backend ni servicios, por lo que no se desarrolló una suite de pruebas automatizadas. Las tareas completadas correspondieron únicamente al desarrollo del frontend, especialmente de la Landing Page y la interfaz de la aplicación.
 #### 6.2.1.6. Execution Evidence for Sprint Review
+Para el logro de este proyecto, se realizó el despliegue tanto de la Landing Page como de la primera versión funcional de la aplicación web. Ambos entornos se encuentran disponibles de forma pública a través de los siguientes enlaces:
+
+La **Aplicación Web**, desarrollada en Angular, ha sido desplegada utilizando Netlify, una plataforma que facilita el alojamiento de aplicaciones modernas al permitir integración continua, despliegue automatizado y entrega optimizada de contenido estático y dinámico. Gracias a esta herramienta, se garantiza un acceso rápido, seguro y confiable a la solución. Puedes acceder a la aplicación mediante el siguiente enlace:
+🔗 https://parkup-webapp.netlify.app 
+
+Asignación de estacionamiento (Allotment):
+*Muestra el módulo donde se visualizan los estacionamientos asignados a los usuarios. Esta vista permite gestionar y consultar la distribución de espacios disponibles.*
+
+<a href="https://ibb.co/XrcqTbPy"><img src="https://i.ibb.co/hJ3SvyNX/webevidence-allotment.png" alt="webevidence-allotment" border="0"></a>
+
+Registro de usuario:
+*Pantalla donde los nuevos usuarios pueden registrarse en la plataforma, completando datos personales y de acceso.*
+
+<a href="https://ibb.co/V0WSzKF7"><img src="https://i.ibb.co/WNWyMTrb/webevidence-register.png" alt="webevidence-register" border="0"></a>
+
+Inicio de sesión:
+*Formulario de login para usuarios registrados. Permite el ingreso seguro al sistema con validación de credenciales.*
+
+<a href="https://ibb.co/Lzd49dFR"><img src="https://i.ibb.co/Z6zyczjX/webevidence-login.png" alt="webevidence-login" border="0"></a>
+
+Dashboard de usuario:
+*Vista principal que resume la información del usuario, incluyendo accesos rápidos a módulos clave como asignaciones y monitoreo.*
+
+<a href="https://ibb.co/4wjk76FX"><img src="https://i.ibb.co/hxK0yPg4/webevidence-dashboard.png" alt="webevidence-dashboard" border="0"></a>
+
+Panel de monitoreo:
+*Muestra los estacionamientos activos y permite visualizar en tiempo real los espacios disponibles u ocupados.*
+
+<a href="https://ibb.co/nM2vLCvn"><img src="https://i.ibb.co/TMXSgLSb/webevidence-monitoring.png" alt="webevidence-monitoring" border="0"></a>
+
+Por otro lado, la **Landing Page** del proyecto ha sido alojada mediante GitHub Pages, un servicio gratuito que permite la publicación de sitios estáticos directamente desde un repositorio. Esta elección se hizo por su sencillez, integración nativa con GitHub y eficiencia para mostrar contenido informativo de forma ligera:
+🔗 https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page  
+
+*Sitio informativo del proyecto con detalles del propósito, características principales y enlaces directos a la aplicación funcional.*
+
+<a href="https://ibb.co/m5hxdvvM"><img src="https://i.ibb.co/TMPCJKKF/landing-deploy.png" alt="landing-deploy" border="0"></a>
+
+Se incluye un video explicativo donde se muestra la navegación por las vistas implementadas, explicando las funcionalidades alcanzadas durante el Sprint.: 
+🔗 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/ETToi6vRrZVKrhDozFv9wDMBPkZsmpQTrd9aM21_HYkBBg?e=Zoe2mc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
-
+Durante este Sprint, el equipo se enfocó exclusivamente en el desarrollo de componentes del Frontend y el despliegue de la Landing Page. Por tal motivo, no se ha desarrollado ni documentado ningún Web Service, ya que estos no forman parte del alcance actual de la iteración.
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
+Durante este Sprint se realizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**. Estos despliegues permiten que ambos entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders.
+
+
+##### GitHub Pages – Landing Page
+
+Para el despliegue de la Landing Page se realizaron los siguientes pasos:
+
+1. Se creó un repositorio en GitHub bajo la organización del proyecto.  
+2. Se configuró la rama principal con el contenido del sitio estático en Angular.  
+3. Se habilitó GitHub Pages desde la configuración del repositorio, seleccionando la carpeta `/dist` como fuente de despliegue.  
+4. Se verificó el enlace público generado por GitHub y se realizaron pruebas de navegación.
+
+[![Despliegue GitHub Pages 1](https://i.postimg.cc/d0drrTb1/Whats-App-Image-2025-05-16-at-12-30-14-f02b10ef.jpg)](https://postimg.cc/06kzqr2R)  
+*Captura de la sección "Pages" en GitHub, donde se habilita el despliegue desde la rama seleccionada.*
+
+[![Despliegue GitHub Pages 2](https://i.postimg.cc/fRS9Q9TK/Whats-App-Image-2025-05-16-at-12-30-23-a32c0999.jpg)](https://postimg.cc/VJ16j5tr)  
+*Configuración del repositorio con los archivos de la Landing Page ya compilados y listos para producción.*
+
+##### Netlify – Aplicación Web
+
+La aplicación funcional fue desplegada en Netlify mediante los siguientes pasos:
+
+1. Se creó una cuenta de equipo en Netlify y se vinculó con el repositorio de GitHub.  
+2. Se configuró el flujo de integración continua para que Netlify realice el build automático al hacer push.  
+3. Se especificaron los comandos de build (`ng build`) y la carpeta de salida (`/dist`).  
+4. Se monitorearon los logs de despliegue y se verificó el acceso al sitio web generado.
+
+[![Configuración en Netlify 1](https://i.postimg.cc/j5twf36g/Whats-App-Image-2025-05-16-at-12-30-33-9c691cb6.jpg)](https://postimg.cc/yJp84Pbc)  
+*Vista general del proyecto conectado desde GitHub en la plataforma Netlify.*
+
+[![Configuración en Netlify 2](https://i.postimg.cc/65y7CvRX/Whats-App-Image-2025-05-16-at-12-30-50-753523f9.jpg)](https://postimg.cc/qzHMTgjb)  
+*Parámetros configurados para el build automático, incluyendo comandos y carpeta de publicación.*
+
+[![Confirmación de Build](https://i.postimg.cc/s2RvFHLj/Whats-App-Image-2025-05-16-at-12-32-05-cf087a6d.jpg)](https://postimg.cc/ts2XWkyw)  
+*Historial del despliegue mostrando un build exitoso en la consola de Netlify.*
+
+[![Deploy final y dominio](https://i.postimg.cc/R0QqvQrc/Whats-App-Image-2025-05-16-at-12-32-16-001711db.jpg)](https://postimg.cc/06j9fSyQ)  
+*Sitio final activo con URL pública asignada por Netlify.*
+
+
+- Landing Page: [https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page](https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page)  
+- Aplicación Web: [https://parkup-webapp.netlify.app](https://parkup-webapp.netlify.app)
+ 
+
 #### 6.2.1.9. Team Collaboration Insights during Sprint
+
+Esta sección refleja la colaboración efectiva del equipo durante el Sprint. Se adjuntan evidencias visuales del trabajo conjunto y los avances coordinados en ambas soluciones: la Landing Page y la aplicación web. La sinergia entre los miembros permitió cumplir los objetivos propuestos en tiempo y forma.
+
+<a href="https://ibb.co/twkCHwp2"><img src="https://i.ibb.co/bjqd6j5v/team-collaboration-insigth-landing.png" alt="team-collaboration-insigth-landing" border="0"></a>
+
+<a href="https://ibb.co/LmJcbvz"><img src="https://i.ibb.co/2xsCm57/team-collaboration-insigth-web.png" alt="team-collaboration-insigth-web" border="0"></a>
 
 ## 6.3. Validation Interviews
 
@@ -3741,6 +4668,6 @@ Convenciones de formato:
 - Angular. (s.f.). Overview. Recuperado el 20 de abril de 2025, de https://angular.dev/overview
 
 # Anexos
-
+ - Video Exposicion TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/Eb1kqjnpiUFKnz9hGzRkaxUBQC6Z9XsDL2-5lUOU4rg6zg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VLs2IA 
 
 
