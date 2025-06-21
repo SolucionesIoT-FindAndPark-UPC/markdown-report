@@ -4828,6 +4828,56 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 
 ### 6.3.2. Registro de Entrevistas
 
+##### Segmento 1: Conductores
+
+- Primera Entrevista:
+  ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-6/6.3.2-Entrevista-Conductor-2.png)
+
+  - Entrevistado: Elizabeth Mendoza 
+
+  - Residencia: Lima
+
+  - Ocupación: Conductor
+
+  - Entrevistadora: Julio Elsner
+
+  - Enlace: [https://upcedupe-my.sharepoint.com/personal/u202111654_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202111654%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20IOT%2FVideo%20Conductor%201%20Julio%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee43d311f%2D3ac1%2D4444%2D9012%2D13ff51347562]
+
+  - Resumen de la entrevista:
+    2:30 - ¿Qué opinas sobre los datos que se te pidieron al registrarte? ¿Te parecieron necesarios o hubo alguno que sentiste innecesario?
+    El entrevistado considera que los datos solicitados en el registro fueron apropiados y necesarios para el funcionamiento de la aplicación. Menciona que no percibió ningún dato como innecesario y que el proceso fue rápido y claro. Aprecia que no se soliciten datos excesivos, lo cual genera confianza en el uso de la plataforma.
+
+    3:00 - ¿Cómo describirías tu experiencia general usando la app para estacionar, desde que llegaste hasta que saliste del estacionamiento?
+    El entrevistado califica su experiencia como muy positiva. Desde la llegada hasta la salida del estacionamiento, sintió que todo el proceso fue fluido y sin complicaciones. Resalta que la app le permitió identificar con rapidez un espacio disponible y que la integración entre los pasos fue eficiente, lo que le ahorró tiempo y facilitó la experiencia.
+
+    3:30 - Durante el proceso de escaneo con QR, ¿sentiste que sabías claramente lo que tenías que hacer, o hubo algo que te generó duda o confusión?
+    El entrevistado indica que sí comprendió claramente lo que debía hacer. Señala que las instrucciones fueron intuitivas y que el escaneo del código QR funcionó sin problemas. Destaca que no tuvo dudas en ningún momento y que la interfaz guiaba adecuadamente al usuario durante ese proceso.
+
+
+- Segunda Entrevista:
+  ![assets/capitulo-6/6.3.2-Entrevista-Conductor-2.PNG](assets/capitulo-6/6.3.2-Entrevista-Conductor-1.png)
+
+  - Entrevistado: Ian Sanchez
+
+  - Residencia: Lima
+
+  - Ocupación: Conductor
+
+  - Entrevistadora: Julio Elsner
+
+  - Enlace: [https://upcedupe-my.sharepoint.com/personal/u202111654_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202111654%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20IOT%2FVideo%20Conductor%202%20Julio%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E56401d33%2D12f8%2D4776%2D9373%2D086fadf679a8]
+
+  - Resumen de la entrevista:
+    
+    2:00 - ¿Qué opinas sobre los datos que se te pidieron al registrarte? ¿Te parecieron necesarios o hubo alguno que sentiste innecesario?
+    El entrevistado comenta que los datos solicitados le parecieron adecuados y acordes al servicio. Considera que el requerimiento de datos como el correo y número de placa es razonable para asegurar una experiencia personalizada y segura. Sin embargo, sugiere que podría incluirse una opción para registrarse con Google o redes sociales para hacer el proceso aún más ágil.
+
+    2:40 - ¿Cómo describirías tu experiencia general usando la app para estacionar, desde que llegaste hasta que saliste del estacionamiento?
+    La experiencia fue descrita como satisfactoria. El entrevistado menciona que la aplicación le permitió encontrar rápidamente un estacionamiento cercano y que todo el proceso —desde la reserva hasta el pago— fue fluido. Destacó la utilidad del mapa interactivo y el tiempo estimado de caminata hasta el destino como funciones que agregan mucho valor.
+
+    3:30 - Durante el proceso de escaneo con QR, ¿sentiste que sabías claramente lo que tenías que hacer, o hubo algo que te generó duda o confusión?
+    Señala que al inicio tuvo una ligera duda sobre en qué parte exacta del ingreso debía escanear el QR, pero que una vez ubicado el lector, el proceso fue rápido y sin errores. Sugiere que un pequeño tutorial visual o una animación dentro de la app podría ayudar a nuevos usuarios a familiarizarse aún más rápido con este paso.
+
 
 ##### Segmento 2: Administradores de parking
 
