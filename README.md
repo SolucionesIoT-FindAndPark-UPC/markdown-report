@@ -4853,9 +4853,7 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
   01:25 - ¿Hubo algo en el flujo de entrada o salida del estacionamiento que te causó confusión o molestia?
   Comentó que algunos estacionamientos pueden ser grandes y confusos si no los conoce, pero la app ayuda a ubicarse mejor.
 
-##### Segmento 1: Conductores
-
-- Primera Entrevista:
+- Segunda Entrevista:
   ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-6/6.3.2-Entrevista-Conductor-2.png)
 
   - Entrevistado: Elizabeth Mendoza 
@@ -4879,7 +4877,7 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
     El entrevistado indica que sí comprendió claramente lo que debía hacer. Señala que las instrucciones fueron intuitivas y que el escaneo del código QR funcionó sin problemas. Destaca que no tuvo dudas en ningún momento y que la interfaz guiaba adecuadamente al usuario durante ese proceso.
 
 
-- Segunda Entrevista:
+- Tercera Entrevista:
   ![assets/capitulo-6/6.3.2-Entrevista-Conductor-2.PNG](assets/capitulo-6/6.3.2-Entrevista-Conductor-1.png)
 
   - Entrevistado: Ian Sanchez
