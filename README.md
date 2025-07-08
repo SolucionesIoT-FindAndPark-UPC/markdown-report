@@ -5029,6 +5029,11 @@ A continuación se presenta la evidencia de desarrollo generada durante el Sprin
 | SolucionesIoT-FindAndPark-UPC Backend-ParkUp | main | 6ed3b6d035a42b8ddbd625fc2a8948c3ac1598e9 | feat(edgenodes): added edge nodes bounded context | Jul 6, 2025 |
 | SolucionesIoT-FindAndPark-UPC parkup_esp32_cam | main                     | cba0a5045b0da427b15492fa546b75d1b955331f | feat: add servo, camera and wifi connection                   | Jul 8, 2025  |
 | SolucionesIoT-FindAndPark-UPC park_up_esp32_screen | main | d9b8d4d4656f41fd3684e51b753e1c197b36563d | feat: added QR screen based on WiFi connection                | Jul 8, 2025 |
+
+Los repositorios de los dispositivos IoT se encuentran aquí:
+
+- [parkup_esp32_cam](https://github.com/SolucionesIoT-FindAndPark-UPC/parkup_esp32_cam)
+- [park_up_esp32_screen](https://github.com/SolucionesIoT-FindAndPark-UPC/park_up_esp32_screen)
  
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
