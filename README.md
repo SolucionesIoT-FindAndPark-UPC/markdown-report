@@ -172,6 +172,16 @@
       - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
       - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
       - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+      - [6.2.3.2. Leadership Roles & Collaborator Updates](#6232-leadership-roles-collaborator-updates)
+      - [6.2.3.3. Sprint 3 Backlog](#6233-sprint-3-backlog)
+      - [6.2.3.4. Development Progress & Review Evidence](#6234-development-progress-review-evidence)
+      - [6.2.3.5. Testing Suite Results & Sprint Review](#6235-testing-suite-results-sprint-review)
+      - [6.2.3.6. Execution Logs & Sprint Validation](#6236-execution-logs-sprint-validation)
+      - [6.2.3.7. Service Documentation & Updates](#6237-service-documentation-updates)
+      - [6.2.3.8. Software Deployment Proof & Outcomes](#6238-software-deployment-proof-outcomes)
+      - [6.2.3.9. Teamwork Insights & Sprint Reflection](#6239-teamwork-insights-sprint-reflection)
 - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseno-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -4931,6 +4941,27 @@ El Sprint 3 tuvo como objetivo concluir el desarrollo de funcionalidades de la s
 |  |  | TSK-63 | Integración con el frontend administrativo | Conectar el servicio con la interfaz de monitoreo para mostrar la información relevante en tiempo real. | 1 | Herrera González, Luis Eduardo | Done |
  
 #### 6.2.3.4. Development Evidence for Sprint Review 
+
+A continuación se presenta la evidencia de desarrollo generada durante el Sprint. Se incluyen los commits realizados por el equipo en los distintos branches de desarrollo, especificando los mensajes de commit, ramas funcionales, repositorios utilizados y fechas. Esta evidencia respalda la trazabilidad del avance en los distintos componentes de la solución.
+
+| Repository                               | Branch                   | Commit ID                                | Commit Message                                                | Committed On | 
+|:-----------------------------------------|:-------------------------|:-----------------------------------------|:--------------------------------------------------------------|:-------------|
+| SolucionesIoT-FindAndPark-UPC mobile-app | main                     | d8cf6fb69138a285bb078ed0b2aeae09ac81546d | feat: Add Project Structure                                   | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/menu                | f54ed5fde1619da48fae4e935a2a9c8278b9637d | feat: Add menu screens                                        | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | da8ffee79da4622ee238d3a8ba92f30720186c16 | feat: Add Scan QR screen                                      | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 53544be1fefe5e197727d6642536de0190c9d546 | feat: Add parking detail screen                               | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 0cc526b517700cfef262ae73c18d947df7c30843 | feat: Add exit confirmation screen                            | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 80c95dfda0e3fd3af5be2e6170a008e6942c7a43 | fix: Change logo app icon                                     | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | 0defbb95e1b8db51b6e78211741a2fb3ecebbcd6 | feat: Add LogoutConfirmationScreen and VoucherScanner         | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | cbf887b04eda01681af489a4d68a0732c4980d6b | feat: Add payment details screen                              | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | 8906ce1e00b8367aea26c078ddcb33101f8d0ac7 | chore: Adjust responsiveness                                  | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | iam-payment              | 00f26c87e8650de6816e9a48254476765f0f9b45 | feat(iam-payment): implement IAM and Payment bounded contexts | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC backend    | iam-payment              | 61833abae401fb207816f4a4c601dadba89fa5b3 | feat(iam-payment): add iam and payment bounded contexts       | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/parking-circulation | 83f18ad71f3a6532429a44d7c68729204d223344 | feat: implement parking circulation bounded context           | Jun 19, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | 68b51381e33cf67de409d259f410a56505f41dd3 | feat: Implement camerafeed bounded context                    | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | add8e953513e5a5d2eedd12a0759b3dd54c3ff6b | fix: misplaced decorator in file VehicleRepository.           | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/parking-circulation | 405038d70fd372583179ea17349b923dff3d6bd9 | chore: remove temporal .gitkeeps.                             | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | 405038d70fd372583179ea17349b923dff3d6bd9 | chore: remove temporal .gitkeeps (camerafeed).                | Jun 20, 2025 |
  
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
@@ -4995,7 +5026,64 @@ Link del backend: 🔗 https://iot-project-service-417071271046.us-central1.run.
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review 
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review 
+  
+Durante este Sprint se actualizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, la aplicación web, desarrollada en Angular y desplegada en **Netlify**, y la applicación movil la cual fue desarrollada con Flutter. 
+  
+##### GitHub Pages – Landing Page
 
+Para el despliegue de la Landing Page se realizaron los siguientes pasos:
+
+1. Se creó un repositorio en GitHub bajo la organización del proyecto.  
+2. Se configuró la rama principal con el contenido del sitio estático en Angular.  
+3. Se habilitó GitHub Pages desde la configuración del repositorio, seleccionando la carpeta `/dist` como fuente de despliegue.  
+4. Se verificó el enlace público generado por GitHub y se realizaron pruebas de navegación.
+
+[![Despliegue GitHub Pages 1](https://i.postimg.cc/d0drrTb1/Whats-App-Image-2025-05-16-at-12-30-14-f02b10ef.jpg)](https://postimg.cc/06kzqr2R)  
+*Captura de la sección "Pages" en GitHub, donde se habilita el despliegue desde la rama seleccionada.*
+
+[![Despliegue GitHub Pages 2](https://i.postimg.cc/fRS9Q9TK/Whats-App-Image-2025-05-16-at-12-30-23-a32c0999.jpg)](https://postimg.cc/VJ16j5tr)  
+*Configuración del repositorio con los archivos de la Landing Page ya compilados y listos para producción.*
+
+##### Netlify – Aplicación Web
+
+La aplicación fue desplegada en Netlify mediante los siguientes pasos:
+
+1. Se creó una cuenta de equipo en Netlify y se vinculó con el repositorio de GitHub.  
+2. Se configuró el flujo de integración continua para que Netlify realice el build automático al hacer push.  
+3. Se especificaron los comandos de build (`ng build`) y la carpeta de salida (`/dist`).  
+4. Se monitorearon los logs de despliegue y se verificó el acceso al sitio web generado.
+
+[![Configuración en Netlify 1](https://i.postimg.cc/j5twf36g/Whats-App-Image-2025-05-16-at-12-30-33-9c691cb6.jpg)](https://postimg.cc/yJp84Pbc)  
+*Vista general del proyecto conectado desde GitHub en la plataforma Netlify.*
+
+[![Configuración en Netlify 2](https://i.postimg.cc/65y7CvRX/Whats-App-Image-2025-05-16-at-12-30-50-753523f9.jpg)](https://postimg.cc/qzHMTgjb)  
+*Parámetros configurados para el build automático, incluyendo comandos y carpeta de publicación.*
+
+[![Confirmación de Build](https://i.postimg.cc/s2RvFHLj/Whats-App-Image-2025-05-16-at-12-32-05-cf087a6d.jpg)](https://postimg.cc/ts2XWkyw)  
+*Historial del despliegue mostrando un build exitoso en la consola de Netlify.*
+
+[![Deploy final y dominio](https://i.postimg.cc/R0QqvQrc/Whats-App-Image-2025-05-16-at-12-32-16-001711db.jpg)](https://postimg.cc/06j9fSyQ)  
+*Sitio final activo con URL pública asignada por Netlify.*
+
+##### Android - Aplicación Movil
+
+Se genero a partir de la aplicación movil un apk que permite la instalación de esta aplicación en dispositivos moviles.
+  
+[![Generación de APK](https://i.postimg.cc/gcTr1kTq/apk-generation.jpg)](https://postimg.cc/CdbFqYYz)  
+
+##### Google Cloud - Backend
+
+Se realizo el despliegue del backend del proyecto por medio de Google Cloud. Por medio de este se realizara la integración de los servicios los las pantallas de la aplicación.
+
+[![Backend Desplegado](https://i.postimg.cc/N0mQD1Wn/2025-06-21-17-37-15-Window.png)](https://postimg.cc/Y42cqm2N)  
+
+### Enlaces a los despliegues  
+  
+- Landing Page: [https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page](https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page)  
+- Aplicación Web: [https://parkup-webapp.netlify.app](https://parkup-webapp.netlify.app)
+- Aplicación Movil: [https://drive.google.com/drive/folders/1kFf31QKxUntiHhUWuL_TJ42uBKRhqw7T](https://drive.google.com/drive/folders/1kFf31QKxUntiHhUWuL_TJ42uBKRhqw7T)  
+- Backend: [https://iot-project-service-417071271046.us-central1.run.app/swagger-ui/index.html](https://iot-project-service-417071271046.us-central1.run.app/swagger-ui/index.html)
+  
 #### 6.2.3.9. Team Collaboration Insights during Sprint  
  
 Durante este Sprint se realizaron los despliegues correspondientes al backend, edge node, applicación web y aplicación movil partes principales del sistema *ParkUp*. La Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**, asi como la aplicación movil, desarrollada con Flutter. Estos despliegues permiten que los entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders. 
