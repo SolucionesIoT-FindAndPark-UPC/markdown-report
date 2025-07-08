@@ -7,7 +7,7 @@
     <strong>1ASI0572 - DESARROLLO DE SOLUCIONES IOT - 2941</strong><br>  
     <br>
     <strong>Profesor: Marco Antonio Leon Baca</strong><br>
-    <br> <strong>INFORME DE TRABAJO 1 - TB1</strong> 
+    <br> <strong>INFORME DE TRABAJO FINAL - TF</strong> 
 </p>
 <p align="center">
     <strong>Startup: Find&Park</strong><br>
