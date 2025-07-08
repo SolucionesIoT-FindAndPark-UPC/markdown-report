@@ -4988,7 +4988,7 @@ Link del backend: 🔗 https://iot-project-service-417071271046.us-central1.run.
  
 Durante este Sprint se realizaron los despliegues correspondientes al backend, edge node, applicación web y aplicación movil partes principales del sistema *ParkUp*. La Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**, asi como la aplicación movil, desarrollada con Flutter. Estos despliegues permiten que los entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders. 
   
-[![Team Collaboration](https://i.postimg.cc/RFmrh8ZZ/2025-06-21-16-26-50-Window.png)](https://postimg.cc/zLx2Pxhs)   
+[![Team Collaboration](https://i.postimg.cc/26n79Bf5/2025-07-08-09-46-26-Window.png)](https://postimg.cc/BLQFXbbW)   
   
 ## 6.3. Validation Interviews
 Para validar las funcionalidades del sistema y su ajuste a las necesidades reales de los usuarios, se realizaron entrevistas estructuradas a dos perfiles clave: conductores (usuarios móviles) y administradores de estacionamientos (usuarios de la plataforma web). Estas entrevistas forman parte del enfoque de diseño centrado en el usuario y buscan identificar fricciones, confirmar decisiones de diseño y detectar mejoras antes del despliegue.
