@@ -4878,6 +4878,7 @@ Se realizo el despliegue del backend del proyecto por medio de Google Cloud. Por
 Durante este Sprint se realizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**, asi como la aplicación movil, desarrollada con Flutter. Estos despliegues permiten que los entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders.
 
 [![Team Collaboration](https://i.postimg.cc/RFmrh8ZZ/2025-06-21-16-26-50-Window.png)](https://postimg.cc/zLx2Pxhs)   
+ 
 ### 6.2.3. Sprint 3
 El Sprint 3 tuvo como objetivo concluir el desarrollo de funcionalidades de la solucion en base a la revisión de pendientes del Sprint 2. Se organizaron tareas por áreas de responsabilidad y se establecieron metas específicas para cada miembro del equipo.
 
@@ -4942,13 +4943,60 @@ El Sprint 3 tuvo como objetivo concluir el desarrollo de funcionalidades de la s
 |  TS15-3  | Implementación de un servicio Monitoring con REST API | TSK-61 | Definición de endpoints REST para monitoreo | Diseñar los endpoints necesarios para monitorear el estado de sensores, cámaras, y edge nodes. | 1 | Herrera González, Luis Eduardo | Done |
 |  |  | TSK-62 | Implementación del servicio de monitoreo en backend | Programar la lógica que permite centralizar y consultar el estado de todos los dispositivos IoT. | 1 | Herrera González, Luis Eduardo | Done |
 |  |  | TSK-63 | Integración con el frontend administrativo | Conectar el servicio con la interfaz de monitoreo para mostrar la información relevante en tiempo real. | 1 | Herrera González, Luis Eduardo | Done |
+ 
+#### 6.2.3.4. Development Evidence for Sprint Review 
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review 
+
+#### 6.2.3.6. Execution Evidence for Sprint Review 
+
+Para el logro de este proyecto, se realizó el despliegue de las interfaces para los usuarios, las aplicaciones web y movil, además de integrar estas con el backend y l edge node.
+
+La **Landing Page** del proyecto ha sido alojada mediante GitHub Pages, un servicio gratuito que permite la publicación de sitios estáticos directamente desde un repositorio. Esta elección se hizo por su sencillez, integración nativa con GitHub y eficiencia para mostrar contenido informativo de forma ligera:
+🔗 https://solucionesiot-findandpark-upc.github.io/landing-page/#/landing-page
+
+<a href="https://ibb.co/m5hxdvvM"><img src="https://i.ibb.co/TMPCJKKF/landing-deploy.png" alt="landing-deploy" border="0"></a>
+
+La **Aplicación Web**, desarrollada en Angular, ha sido desplegada utilizando Netlify, una plataforma que facilita el alojamiento de aplicaciones modernas al permitir integración continua, despliegue automatizado y entrega optimizada de contenido estático y dinámico. Gracias a esta herramienta, se garantiza un acceso rápido, seguro y confiable a la solución. Puedes acceder a la aplicación mediante el siguiente enlace:
+🔗 https://parkup-webapp.netlify.app
+
+<a href="https://i.postimg.cc/7hHVdY9r/2025-07-08-09-39-01-Window.png"><img src="https://i.postimg.cc/7hHVdY9r/2025-07-08-09-39-01-Window.png" alt="webevidence-allotment" border="0"></a>
+
+<a href="https://ibb.co/V0WSzKF7"><img src="https://i.ibb.co/WNWyMTrb/webevidence-register.png" alt="webevidence-register" border="0"></a>
+
+<a href="https://ibb.co/Lzd49dFR"><img src="https://i.ibb.co/Z6zyczjX/webevidence-login.png" alt="webevidence-login" border="0"></a>
+
+La aplicación movil, desarrollada en Flutter, ha sido convertida en un apk para dispositivos android y su descarga esta disponible a traves del siguiente enlace:
+🔗 https://drive.google.com/drive/folders/1kFf31QKxUntiHhUWuL_TJ42uBKRhqw7T
+ 
+<a href="https://drive.google.com/drive/folders/1kFf31QKxUntiHhUWuL_TJ42uBKRhqw7T"><img src="https://i.postimg.cc/NjQ5q2qn/2025-07-08-09-43-29-Window.png" alt="apk en drive" border="0"></a> 
+ 
+Se incluye un video explicativo donde se muestra la navegación por las vistas implementadas, explicando las funcionalidades alcanzadas durante el Sprint.:
+🔗 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/ETToi6vRrZVKrhDozFv9wDMBPkZsmpQTrd9aM21_HYkBBg?e=Zoe2mc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+Finalmente, tenemos el **Backend** del proyecto que ha sido alojado con GCP Cloud Run (Google Cloud). Todo posible mediante dockerización y publicación del proyecto a la plataforma:
+
+![https://i.postimg.cc/bwHZDNgn/2025-07-08-09-32-06-Window.png](https://i.postimg.cc/bwHZDNgn/2025-07-08-09-32-06-Window.png)
+
+Link del backend: 🔗 https://iot-project-service-417071271046.us-central1.run.app/swagger-ui/index.html
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review 
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review 
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint  
+ 
+Durante este Sprint se realizaron los despliegues correspondientes al backend, edge node, applicación web y aplicación movil partes principales del sistema *ParkUp*. La Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**, asi como la aplicación movil, desarrollada con Flutter. Estos despliegues permiten que los entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders. 
+  
+[![Team Collaboration](https://i.postimg.cc/RFmrh8ZZ/2025-06-21-16-26-50-Window.png)](https://postimg.cc/zLx2Pxhs)   
+  
 ## 6.3. Validation Interviews
 Para validar las funcionalidades del sistema y su ajuste a las necesidades reales de los usuarios, se realizaron entrevistas estructuradas a dos perfiles clave: conductores (usuarios móviles) y administradores de estacionamientos (usuarios de la plataforma web). Estas entrevistas forman parte del enfoque de diseño centrado en el usuario y buscan identificar fricciones, confirmar decisiones de diseño y detectar mejoras antes del despliegue.
 
 El guion se basó en hipótesis previas y en atributos de calidad como usabilidad, eficiencia y precisión. Las preguntas, de tipo cualitativo, permiten obtener percepciones detalladas sobre la experiencia de uso, la claridad de las interfaces y la utilidad de las funciones y datos presentados.
 
-Involucrar ambos perfiles permite evaluar la solución desde la experiencia individual del usuario y la gestión operativa. Además, las entrevistas ayudan a detectar problemas no previstos y a proponer mejoras que reduzcan el riesgo de baja adopción del sistema.
-
+Involucrar ambos perfiles permite evaluar la solución desde la experiencia individual del usuario y la gestión operativa. Además, las entrevistas ayudan a detectar problemas no previstos y a proponer mejoras que reduzcan el riesgo de baja adopción del sistema. 
+  
 ### 6.3.1. Diseño de Entrevistas
 
 ##### Entrevistas a Conductores
