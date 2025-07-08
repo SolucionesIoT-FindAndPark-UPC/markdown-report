@@ -172,6 +172,16 @@
       - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
       - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
       - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+      - [6.2.3.2. Leadership Roles & Collaborator Updates](#6232-leadership-roles-collaborator-updates)
+      - [6.2.3.3. Sprint 3 Backlog](#6233-sprint-3-backlog)
+      - [6.2.3.4. Development Progress & Review Evidence](#6234-development-progress-review-evidence)
+      - [6.2.3.5. Testing Suite Results & Sprint Review](#6235-testing-suite-results-sprint-review)
+      - [6.2.3.6. Execution Logs & Sprint Validation](#6236-execution-logs-sprint-validation)
+      - [6.2.3.7. Service Documentation & Updates](#6237-service-documentation-updates)
+      - [6.2.3.8. Software Deployment Proof & Outcomes](#6238-software-deployment-proof-outcomes)
+      - [6.2.3.9. Teamwork Insights & Sprint Reflection](#6239-teamwork-insights-sprint-reflection)
 - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseno-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -4701,7 +4711,7 @@ A continuación se presenta la evidencia de desarrollo generada durante el Sprin
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
 ###### Introducción: 
-En esta sección se presenta la evidencia de las pruebas funcionales automatizadas realizadas durante el sprint actual. Se detalla la implementación y ejecución de tests para las funcionalidades de inicio de sesión y visualización de estadísticas como administrador del sistema de estacionamiento.
+En esta sección se presenta la evidencia de las pruebas funcionales automatizadas realizadas durante el sprint actual. Se detalla la implementación y ejecución de tests para las funcionalidades de inicio de sesión como administrador del sistema de estacionamiento.
 
 ###### Objetivo:
 El objetivo de esta sección es validar el correcto funcionamiento de los Web Services relacionados con los User Stories del Sprint, garantizando que las funcionalidades desarrolladas cumplen con los requisitos definidos y operan de manera esperada.
@@ -4721,23 +4731,9 @@ El objetivo de esta sección es validar el correcto funcionamiento de los Web Se
   -  Login Page:
     ![6.2.2.5-Testing-Login-Page.PNG](assets/capitulo-6/6.2.2.5-Testing-Login-Page.PNG)
 
-1. Prueba de Visualización de Estadísticas (como Administrador):
-
-- User Story Relacionado: "Como administrador, quiero visualizar un resumen estadístico del uso del estacionamiento como menú principal, para obtener una visión general rápida del desempeño y uso del espacio."
-- Detalle: Se desarrolló una prueba automatizada para asegurar que, una vez autenticado, un administrador puede acceder y visualizar las estadísticas en tiempo real del estacionamiento de manera correcta.
-- Evidencia: Se elaboró un archivo .feature con su respectiva implementación de Steps, Steps Definitions y Pages. Esta prueba se ejecutó con éxito, verificando la adecuada presentación de las estadísticas para el administrador.
-  -  Statistics Feature: 
-     ![6.2.2.5-Testing-Statistics-Feature.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Feature.PNG)
-  -  Statistics Steps Definitions:
-     ![6.2.2.5-Testing-Statistics-Steps-Defintions.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Steps-Defintions.PNG)
-  -  Statistics Steps:
-     ![6.2.2.5-Testing-Statistics-Steps.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Steps.PNG)
-  -  Statistics Page:
-     ![6.2.2.5-Testing-Statistics-Page.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Page.PNG)
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |---|---|---|---|---|---|
-| https://github.com/SolucionesIoT-FindAndPark-UPC/testing-park-up| main | a20b56de459dd0dfc30ca2f5167ad8cd45653a15 | feat: Add statistics feature test  | - | 21-06-2025 |
 | https://github.com/SolucionesIoT-FindAndPark-UPC/testing-park-up| main | 2ff79790b68715f55f314996b351c18c3e4fec10 | feat: Add Login Feature Test | - | 21-06-2025 |
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
@@ -4946,7 +4942,54 @@ El Sprint 3 tuvo como objetivo concluir el desarrollo de funcionalidades de la s
  
 #### 6.2.3.4. Development Evidence for Sprint Review 
 
-#### 6.2.3.5. Testing Suite Evidence for Sprint Review 
+A continuación se presenta la evidencia de desarrollo generada durante el Sprint. Se incluyen los commits realizados por el equipo en los distintos branches de desarrollo, especificando los mensajes de commit, ramas funcionales, repositorios utilizados y fechas. Esta evidencia respalda la trazabilidad del avance en los distintos componentes de la solución.
+
+| Repository                               | Branch                   | Commit ID                                | Commit Message                                                | Committed On | 
+|:-----------------------------------------|:-------------------------|:-----------------------------------------|:--------------------------------------------------------------|:-------------|
+| SolucionesIoT-FindAndPark-UPC mobile-app | main                     | d8cf6fb69138a285bb078ed0b2aeae09ac81546d | feat: Add Project Structure                                   | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/menu                | f54ed5fde1619da48fae4e935a2a9c8278b9637d | feat: Add menu screens                                        | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | da8ffee79da4622ee238d3a8ba92f30720186c16 | feat: Add Scan QR screen                                      | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 53544be1fefe5e197727d6642536de0190c9d546 | feat: Add parking detail screen                               | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 0cc526b517700cfef262ae73c18d947df7c30843 | feat: Add exit confirmation screen                            | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/qr                  | 80c95dfda0e3fd3af5be2e6170a008e6942c7a43 | fix: Change logo app icon                                     | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | 0defbb95e1b8db51b6e78211741a2fb3ecebbcd6 | feat: Add LogoutConfirmationScreen and VoucherScanner         | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | cbf887b04eda01681af489a4d68a0732c4980d6b | feat: Add payment details screen                              | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC mobile-app | feat/payment             | 8906ce1e00b8367aea26c078ddcb33101f8d0ac7 | chore: Adjust responsiveness                                  | Jun 11, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | iam-payment              | 00f26c87e8650de6816e9a48254476765f0f9b45 | feat(iam-payment): implement IAM and Payment bounded contexts | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC backend    | iam-payment              | 61833abae401fb207816f4a4c601dadba89fa5b3 | feat(iam-payment): add iam and payment bounded contexts       | Jun 6, 2025  |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/parking-circulation | 83f18ad71f3a6532429a44d7c68729204d223344 | feat: implement parking circulation bounded context           | Jun 19, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | 68b51381e33cf67de409d259f410a56505f41dd3 | feat: Implement camerafeed bounded context                    | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | add8e953513e5a5d2eedd12a0759b3dd54c3ff6b | fix: misplaced decorator in file VehicleRepository.           | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/parking-circulation | 405038d70fd372583179ea17349b923dff3d6bd9 | chore: remove temporal .gitkeeps.                             | Jun 20, 2025 |
+| SolucionesIoT-FindAndPark-UPC backend    | feat/camera-feed         | 405038d70fd372583179ea17349b923dff3d6bd9 | chore: remove temporal .gitkeeps (camerafeed).                | Jun 20, 2025 |
+ 
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review
+
+###### Introducción: 
+En esta sección se presenta la evidencia de las pruebas funcionales automatizadas realizadas durante el sprint actual. Se detalla la implementación y ejecución de tests para la funcionalidad de visualización de estadísticas como administrador del sistema de estacionamiento.
+
+###### Objetivo:
+El objetivo de esta sección es validar el correcto funcionamiento de los Web Services relacionados con los User Stories del Sprint, garantizando que las funcionalidades desarrolladas cumplen con los requisitos definidos y operan de manera esperada.
+
+
+1. Prueba de Visualización de Estadísticas (como Administrador):
+
+- User Story Relacionado: "Como administrador, quiero visualizar un resumen estadístico del uso del estacionamiento como menú principal, para obtener una visión general rápida del desempeño y uso del espacio."
+- Detalle: Se desarrolló una prueba automatizada para asegurar que, una vez autenticado, un administrador puede acceder y visualizar las estadísticas en tiempo real del estacionamiento de manera correcta.
+- Evidencia: Se elaboró un archivo .feature con su respectiva implementación de Steps, Steps Definitions y Pages. Esta prueba se ejecutó con éxito, verificando la adecuada presentación de las estadísticas para el administrador.
+  -  Statistics Feature: 
+     ![6.2.2.5-Testing-Statistics-Feature.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Feature.PNG)
+  -  Statistics Steps Definitions:
+     ![6.2.2.5-Testing-Statistics-Steps-Defintions.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Steps-Defintions.PNG)
+  -  Statistics Steps:
+     ![6.2.2.5-Testing-Statistics-Steps.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Steps.PNG)
+  -  Statistics Page:
+     ![6.2.2.5-Testing-Statistics-Page.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Page.PNG)
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| https://github.com/SolucionesIoT-FindAndPark-UPC/testing-park-up| main | a20b56de459dd0dfc30ca2f5167ad8cd45653a15 | feat: Add statistics feature test  | - | 21-06-2025 |
+
 
 #### 6.2.3.6. Execution Evidence for Sprint Review 
 
@@ -4990,6 +5033,7 @@ Durante este Sprint se realizaron los despliegues correspondientes al backend, e
   
 [![Team Collaboration](https://i.postimg.cc/26n79Bf5/2025-07-08-09-46-26-Window.png)](https://postimg.cc/BLQFXbbW)   
   
+
 ## 6.3. Validation Interviews
 Para validar las funcionalidades del sistema y su ajuste a las necesidades reales de los usuarios, se realizaron entrevistas estructuradas a dos perfiles clave: conductores (usuarios móviles) y administradores de estacionamientos (usuarios de la plataforma web). Estas entrevistas forman parte del enfoque de diseño centrado en el usuario y buscan identificar fricciones, confirmar decisiones de diseño y detectar mejoras antes del despliegue.
 
