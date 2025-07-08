@@ -5024,6 +5024,7 @@ Finalmente, tenemos el **Backend** del proyecto que ha sido alojado con GCP Clou
 Link del backend: 🔗 https://iot-project-service-417071271046.us-central1.run.app/swagger-ui/index.html
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review 
+
 Durante este Sprint, el equipo se enfocó exclusivamente en el desarrollo e integración de los componentes que conforman el módulo Edge, orientado al control del acceso vehicular mediante dispositivos IoT. La implementación abarcó tanto la lógica de bajo nivel en hardware como la conexión con la aplicación Web para la visualización de datos por parte del administrador.
 
 Se logró la conexión e interoperabilidad de los siguientes dispositivos con el módulo Edge:
@@ -5058,6 +5059,13 @@ Se crearon los siguientes servicios RESTful:
 | SolucionesIoT-FindAndPark-UPC/backend-api-python     | feature/qr-service        | i9e72c4   | feat: Add QR generation service                | Jul 7, 2025   |
 | SolucionesIoT-FindAndPark-UPC/backend-api-python     | feature/api-entry-control | h8d19b2   | feat: Create endpoint for plate validation     | Jul 7, 2025   |
 | SolucionesIoT-FindAndPark-UPC/web-application-frontend | feature/edge-monitor     | m8f4a3c   | feat: Add admin panel for Edge monitoring      | Jul 8, 2025   |
+
+
+Camera Feed : Post
+![https://i.postimg.cc/RZXCsjLn/camerafeed-post.png](https://i.postimg.cc/RZXCsjLn/camerafeed-post.png)
+
+Camera Feed : Get
+![https://i.postimg.cc/VsrSSLBZ/camerafeed-get.png](https://i.postimg.cc/VsrSSLBZ/camerafeed-get.png)
 
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review 
