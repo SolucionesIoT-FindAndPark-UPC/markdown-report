@@ -5024,9 +5024,11 @@ Finalmente, tenemos el **Backend** del proyecto que ha sido alojado con GCP Clou
 Link del backend: 🔗 https://iot-project-service-417071271046.us-central1.run.app/swagger-ui/index.html
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review 
-
+Durante este Sprint, el equipo se enfocó exclusivamente en el desarrollo de componentes para la integración del modulo Edge a los dispositivos IOT (CAMARA, SERVOMOTOR, SENSOR DE PESO) y mostrar los resultados en la aplicación Web para la vista del administrador.Además se desplego de manera satisfactoria el back-end de la aplicación Web. Se enfoco en toda la integración y creación de un esquema de 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review 
-
+Durante este Sprint se realizaron los despliegues correspondientes al backend, edge node, applicación web y aplicación movil partes principales del sistema *ParkUp*. La Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**, asi como la aplicación movil, desarrollada con Flutter. Estos despliegues permiten que los entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders. 
+  
+[![Team Collaboration](https://i.postimg.cc/26n79Bf5/2025-07-08-09-46-26-Window.png)](https://postimg.cc/BLQFXbbW)   
 #### 6.2.3.9. Team Collaboration Insights during Sprint  
  
 Durante este Sprint se realizaron los despliegues correspondientes al backend, edge node, applicación web y aplicación movil partes principales del sistema *ParkUp*. La Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**, asi como la aplicación movil, desarrollada con Flutter. Estos despliegues permiten que los entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders. 
