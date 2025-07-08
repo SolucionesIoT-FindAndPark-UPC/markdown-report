@@ -5060,12 +5060,14 @@ Se crearon los siguientes servicios RESTful:
 | SolucionesIoT-FindAndPark-UPC/backend-api-python     | feature/api-entry-control | h8d19b2   | feat: Create endpoint for plate validation     | Jul 7, 2025   |
 | SolucionesIoT-FindAndPark-UPC/web-application-frontend | feature/edge-monitor     | m8f4a3c   | feat: Add admin panel for Edge monitoring      | Jul 8, 2025   |
 
+Camera Feed : STREAM
+![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-6/1.png)
 
-Camera Feed : Post
-![https://i.postimg.cc/RZXCsjLn/camerafeed-post.png](https://i.postimg.cc/RZXCsjLn/camerafeed-post.png)
+Camera Feed : PLATE RECOGNITION
+![https://i.postimg.cc/VsrSSLBZ/camerafeed-get.png](assets/capitulo-6/22.png)
 
-Camera Feed : Get
-![https://i.postimg.cc/VsrSSLBZ/camerafeed-get.png](https://i.postimg.cc/VsrSSLBZ/camerafeed-get.png)
+USER: Get
+![https://i.postimg.cc/VsrSSLBZ/camerafeed-get.png](assets/capitulo-6/33.png)
 
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review 
