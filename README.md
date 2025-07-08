@@ -622,7 +622,7 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
   
   - Entrevistadora: Ariana Vargas
 
- - Enlace: [Entrevista driver Eva](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/EfYrrssrhMtJgwaB70Bbw08BUB1vmFhogew_rTpUJlsqYg?e=uiQebR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+ - Enlace: [Entrevista driver Eva](https://upcedupe-my.sharepoint.com/`:v:`/g/personal/u20221a928_upc_edu_pe/EfYrrssrhMtJgwaB70Bbw08BUB1vmFhogew_rTpUJlsqYg?e=uiQebR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
  
   Segunda Entrevista:
   - Entrevistado: Ian Sanchez
@@ -746,7 +746,7 @@ Eva utiliza estacionamientos privados cinco veces por semana y valora una experi
     - Residencia: Lima
     - Ocupación: Seguridad de Parking
     - Entrevistador: Luis Herrera
-    - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218227_upc_edu_pe/EUfQx0ozblVNoU8SJ2yKbvEB_WRjYS2x0stY1GG0cZfkyQ?e=99ONRH]
+    - Enlace: [https://upcedupe-my.sharepoint.com/`:v:`/g/personal/u202218227_upc_edu_pe/EUfQx0ozblVNoU8SJ2yKbvEB_WRjYS2x0stY1GG0cZfkyQ?e=99ONRH]
     - Resumen de la entrevista:
       2:55 – ¿Qué tipo de información te resulta más útil visualizar a diario para monitorear el funcionamiento del estacionamiento? 
       Lo más valioso es ver, en tiempo real, qué vehículos ingresan: su placa, color y características distintivas. Ese registro permite rastrear al dueño si ocurre un robo o incidente y facilita a Seguridad actuar de inmediato.
@@ -4648,7 +4648,7 @@ Por otro lado, la **Landing Page** del proyecto ha sido alojada mediante GitHub 
 <a href="https://ibb.co/m5hxdvvM"><img src="https://i.ibb.co/TMPCJKKF/landing-deploy.png" alt="landing-deploy" border="0"></a>
 
 Se incluye un video explicativo donde se muestra la navegación por las vistas implementadas, explicando las funcionalidades alcanzadas durante el Sprint.: 
-🔗 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/ETToi6vRrZVKrhDozFv9wDMBPkZsmpQTrd9aM21_HYkBBg?e=Zoe2mc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+🔗 https://upcedupe-my.sharepoint.com/`:v:`/g/personal/u20221a928_upc_edu_pe/ETToi6vRrZVKrhDozFv9wDMBPkZsmpQTrd9aM21_HYkBBg?e=Zoe2mc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 Durante este Sprint, el equipo se enfocó exclusivamente en el desarrollo de componentes del Frontend y el despliegue de la Landing Page. Por tal motivo, no se ha desarrollado ni documentado ningún Web Service, ya que estos no forman parte del alcance actual de la iteración.
@@ -4830,7 +4830,7 @@ Por otro lado, la **Landing Page** del proyecto ha sido alojada mediante GitHub 
 <a href="https://ibb.co/m5hxdvvM"><img src="https://i.ibb.co/TMPCJKKF/landing-deploy.png" alt="landing-deploy" border="0"></a>
 
 Se incluye un video explicativo donde se muestra la navegación por las vistas implementadas, explicando las funcionalidades alcanzadas durante el Sprint.:
-🔗 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/ETToi6vRrZVKrhDozFv9wDMBPkZsmpQTrd9aM21_HYkBBg?e=Zoe2mc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+🔗 https://upcedupe-my.sharepoint.com/`:v:`/g/personal/u20221a928_upc_edu_pe/ETToi6vRrZVKrhDozFv9wDMBPkZsmpQTrd9aM21_HYkBBg?e=Zoe2mc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Finalmente, tenemos el **Backend** del proyecto que ha sido alojado con GCP Cloud Run (Google Cloud). Todo posible mediante dockerización y publicación del proyecto a la plataforma:
 
@@ -5082,7 +5082,7 @@ La aplicación movil, desarrollada en Flutter, ha sido convertida en un apk para
 <a href="https://drive.google.com/drive/folders/1kFf31QKxUntiHhUWuL_TJ42uBKRhqw7T"><img src="https://i.postimg.cc/NjQ5q2qn/2025-07-08-09-43-29-Window.png" alt="apk en drive" border="0"></a> 
  
 Se incluye un video explicativo donde se muestra la navegación por las vistas implementadas, explicando las funcionalidades alcanzadas durante el Sprint.:
-🔗 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/ETToi6vRrZVKrhDozFv9wDMBPkZsmpQTrd9aM21_HYkBBg?e=Zoe2mc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+🔗 https://upcedupe-my.sharepoint.com/`:v:`/g/personal/u20221a928_upc_edu_pe/ETToi6vRrZVKrhDozFv9wDMBPkZsmpQTrd9aM21_HYkBBg?e=Zoe2mc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Finalmente, tenemos el **Backend** del proyecto que ha sido alojado con GCP Cloud Run (Google Cloud). Todo posible mediante dockerización y publicación del proyecto a la plataforma:
 
@@ -5245,7 +5245,7 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 
   - Entrevistadora: Ariana Vargas
 
-  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/EYWPigNyp7ZGjkvzR0AJfzwBXsCQ5a40_5WV0YdjHM-14g?e=atxlme]
+  - Enlace: [https://upcedupe-my.sharepoint.com/`:v:`/g/personal/u20221a928_upc_edu_pe/EYWPigNyp7ZGjkvzR0AJfzwBXsCQ5a40_5WV0YdjHM-14g?e=atxlme]
   
   - Resumen de la entrevista:
   00:31 - ¿Qué opinas sobre los datos que se te pidieron al registrarte? ¿Te parecieron necesarios o hubo alguno que sentiste innecesario?
@@ -5270,7 +5270,7 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 
   - Entrevistadora: Julio Elsner
 
-  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111654_upc_edu_pe/EZDTyJSZ1pxOnZUNhLZwEEUBarRdZwhkGYGuh7FHFbEfbA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xpZTrP]
+  - Enlace: [https://upcedupe-my.sharepoint.com/`:v:`/g/personal/u202111654_upc_edu_pe/EZDTyJSZ1pxOnZUNhLZwEEUBarRdZwhkGYGuh7FHFbEfbA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xpZTrP]
 
   - Resumen de la entrevista:
     2:30 - ¿Qué opinas sobre los datos que se te pidieron al registrarte? ¿Te parecieron necesarios o hubo alguno que sentiste innecesario?
@@ -5294,7 +5294,7 @@ Las preguntas dirigidas a los administradores se enfocaron en validar la utilida
 
   - Entrevistadora: Julio Elsner
 
-  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111654_upc_edu_pe/ERv74CMznQNBmps6QESpil8BCM97sbs3pvblLFFrt27R-w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2IOgd6]
+  - Enlace: [https://upcedupe-my.sharepoint.com/`:v:`/g/personal/u202111654_upc_edu_pe/ERv74CMznQNBmps6QESpil8BCM97sbs3pvblLFFrt27R-w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2IOgd6]
 
   - Resumen de la entrevista:
     
@@ -5421,6 +5421,6 @@ Enlace del video about the team: https://youtu.be/vcHtZZRLjJY
 - Angular. (s.f.). Overview. Recuperado el 20 de abril de 2025, de https://angular.dev/overview
 
 # Anexos
- - Video Exposicion TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a928_upc_edu_pe/Eb1kqjnpiUFKnz9hGzRkaxUBQC6Z9XsDL2-5lUOU4rg6zg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VLs2IA 
+ - Video Exposicion TP: https://upcedupe-my.sharepoint.com/`:v:`/g/personal/u20221a928_upc_edu_pe/Eb1kqjnpiUFKnz9hGzRkaxUBQC6Z9XsDL2-5lUOU4rg6zg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VLs2IA 
 
 
