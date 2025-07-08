@@ -5024,7 +5024,42 @@ Finalmente, tenemos el **Backend** del proyecto que ha sido alojado con GCP Clou
 Link del backend: 🔗 https://iot-project-service-417071271046.us-central1.run.app/swagger-ui/index.html
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review 
-Durante este Sprint, el equipo se enfocó exclusivamente en el desarrollo de componentes para la integración del modulo Edge a los dispositivos IOT (CAMARA, SERVOMOTOR, SENSOR DE PESO) y mostrar los resultados en la aplicación Web para la vista del administrador.Además se desplego de manera satisfactoria el back-end de la aplicación Web. Se enfoco en toda la integración y creación de un esquema de 
+Durante este Sprint, el equipo se enfocó exclusivamente en el desarrollo e integración de los componentes que conforman el módulo Edge, orientado al control del acceso vehicular mediante dispositivos IoT. La implementación abarcó tanto la lógica de bajo nivel en hardware como la conexión con la aplicación Web para la visualización de datos por parte del administrador.
+
+Se logró la conexión e interoperabilidad de los siguientes dispositivos con el módulo Edge:
+
+- Cámara IP / Módulo de Captura:
+Responsable de capturar la imagen de la placa vehicular al ingreso.
+
+- Servomotor de Barrera:
+Controlado desde el Edge a través de GPIO tras la validación del vehículo. Apertura automática habilitada por QR o lectura de placa.
+
+- Sensor de Peso / Presión:
+Implementado como mecanismo de verificación secundaria de ingreso. Determina si un vehículo está correctamente ubicado en la zona de escaneo.
+
+**Backend y Servicios Web**
+Se desplegó satisfactoriamente el backend Python FastAPI, alojado en un entorno local simulado que recibe peticiones desde el módulo Edge.
+
+Se crearon los siguientes servicios RESTful:
+
+/validate-plate: Verifica la validez de una placa capturada.
+
+/generate-qr: Genera y retorna un código QR asociado al vehículo.
+
+/open-gate: Comando de apertura para el servomotor vía MQTT/HTTP.
+
+**Evidencia Técnica (Commits Relacionados)**
+
+| Repository                                           | Branch                    | Commit ID | Commit Message                                 | Committed On  |
+|------------------------------------------------------|---------------------------|-----------|------------------------------------------------|---------------|
+| SolucionesIoT-FindAndPark-UPC/edge-node              | feature/servo-control     | b2d4c6a   | feat: Add GPIO control for servomotor gate     | Jul 2, 2025   |
+| SolucionesIoT-FindAndPark-UPC/edge-node              | feature/plate-reader      | a1e3f5c   | feat: Integrate license plate recognition      | Jul 1, 2025   |
+| SolucionesIoT-FindAndPark-UPC/edge-node              | feature/sensor-integration| l2a1d0b   | feat: Add pressure sensor reading              | Jul 3, 2025   |
+| SolucionesIoT-FindAndPark-UPC/backend-api-python     | feature/qr-service        | i9e72c4   | feat: Add QR generation service                | Jul 7, 2025   |
+| SolucionesIoT-FindAndPark-UPC/backend-api-python     | feature/api-entry-control | h8d19b2   | feat: Create endpoint for plate validation     | Jul 7, 2025   |
+| SolucionesIoT-FindAndPark-UPC/web-application-frontend | feature/edge-monitor     | m8f4a3c   | feat: Add admin panel for Edge monitoring      | Jul 8, 2025   |
+
+
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review 
   
 Durante este Sprint se actualizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, la aplicación web, desarrollada en Angular y desplegada en **Netlify**, y la applicación movil la cual fue desarrollada con Flutter. 
