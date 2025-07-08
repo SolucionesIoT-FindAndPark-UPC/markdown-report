@@ -4701,7 +4701,7 @@ A continuación se presenta la evidencia de desarrollo generada durante el Sprin
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
 ###### Introducción: 
-En esta sección se presenta la evidencia de las pruebas funcionales automatizadas realizadas durante el sprint actual. Se detalla la implementación y ejecución de tests para las funcionalidades de inicio de sesión y visualización de estadísticas como administrador del sistema de estacionamiento.
+En esta sección se presenta la evidencia de las pruebas funcionales automatizadas realizadas durante el sprint actual. Se detalla la implementación y ejecución de tests para las funcionalidades de inicio de sesión como administrador del sistema de estacionamiento.
 
 ###### Objetivo:
 El objetivo de esta sección es validar el correcto funcionamiento de los Web Services relacionados con los User Stories del Sprint, garantizando que las funcionalidades desarrolladas cumplen con los requisitos definidos y operan de manera esperada.
@@ -4721,23 +4721,9 @@ El objetivo de esta sección es validar el correcto funcionamiento de los Web Se
   -  Login Page:
     ![6.2.2.5-Testing-Login-Page.PNG](assets/capitulo-6/6.2.2.5-Testing-Login-Page.PNG)
 
-1. Prueba de Visualización de Estadísticas (como Administrador):
-
-- User Story Relacionado: "Como administrador, quiero visualizar un resumen estadístico del uso del estacionamiento como menú principal, para obtener una visión general rápida del desempeño y uso del espacio."
-- Detalle: Se desarrolló una prueba automatizada para asegurar que, una vez autenticado, un administrador puede acceder y visualizar las estadísticas en tiempo real del estacionamiento de manera correcta.
-- Evidencia: Se elaboró un archivo .feature con su respectiva implementación de Steps, Steps Definitions y Pages. Esta prueba se ejecutó con éxito, verificando la adecuada presentación de las estadísticas para el administrador.
-  -  Statistics Feature: 
-     ![6.2.2.5-Testing-Statistics-Feature.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Feature.PNG)
-  -  Statistics Steps Definitions:
-     ![6.2.2.5-Testing-Statistics-Steps-Defintions.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Steps-Defintions.PNG)
-  -  Statistics Steps:
-     ![6.2.2.5-Testing-Statistics-Steps.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Steps.PNG)
-  -  Statistics Page:
-     ![6.2.2.5-Testing-Statistics-Page.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Page.PNG)
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |---|---|---|---|---|---|
-| https://github.com/SolucionesIoT-FindAndPark-UPC/testing-park-up| main | a20b56de459dd0dfc30ca2f5167ad8cd45653a15 | feat: Add statistics feature test  | - | 21-06-2025 |
 | https://github.com/SolucionesIoT-FindAndPark-UPC/testing-park-up| main | 2ff79790b68715f55f314996b351c18c3e4fec10 | feat: Add Login Feature Test | - | 21-06-2025 |
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
@@ -4945,8 +4931,34 @@ El Sprint 3 tuvo como objetivo concluir el desarrollo de funcionalidades de la s
 |  |  | TSK-63 | Integración con el frontend administrativo | Conectar el servicio con la interfaz de monitoreo para mostrar la información relevante en tiempo real. | 1 | Herrera González, Luis Eduardo | Done |
  
 #### 6.2.3.4. Development Evidence for Sprint Review 
+ 
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
-#### 6.2.3.5. Testing Suite Evidence for Sprint Review 
+###### Introducción: 
+En esta sección se presenta la evidencia de las pruebas funcionales automatizadas realizadas durante el sprint actual. Se detalla la implementación y ejecución de tests para la funcionalidad de visualización de estadísticas como administrador del sistema de estacionamiento.
+
+###### Objetivo:
+El objetivo de esta sección es validar el correcto funcionamiento de los Web Services relacionados con los User Stories del Sprint, garantizando que las funcionalidades desarrolladas cumplen con los requisitos definidos y operan de manera esperada.
+
+
+1. Prueba de Visualización de Estadísticas (como Administrador):
+
+- User Story Relacionado: "Como administrador, quiero visualizar un resumen estadístico del uso del estacionamiento como menú principal, para obtener una visión general rápida del desempeño y uso del espacio."
+- Detalle: Se desarrolló una prueba automatizada para asegurar que, una vez autenticado, un administrador puede acceder y visualizar las estadísticas en tiempo real del estacionamiento de manera correcta.
+- Evidencia: Se elaboró un archivo .feature con su respectiva implementación de Steps, Steps Definitions y Pages. Esta prueba se ejecutó con éxito, verificando la adecuada presentación de las estadísticas para el administrador.
+  -  Statistics Feature: 
+     ![6.2.2.5-Testing-Statistics-Feature.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Feature.PNG)
+  -  Statistics Steps Definitions:
+     ![6.2.2.5-Testing-Statistics-Steps-Defintions.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Steps-Defintions.PNG)
+  -  Statistics Steps:
+     ![6.2.2.5-Testing-Statistics-Steps.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Steps.PNG)
+  -  Statistics Page:
+     ![6.2.2.5-Testing-Statistics-Page.PNG](assets/capitulo-6/6.2.2.5-Testing-Statistics-Page.PNG)
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| https://github.com/SolucionesIoT-FindAndPark-UPC/testing-park-up| main | a20b56de459dd0dfc30ca2f5167ad8cd45653a15 | feat: Add statistics feature test  | - | 21-06-2025 |
+
 
 #### 6.2.3.6. Execution Evidence for Sprint Review 
 
@@ -4990,6 +5002,7 @@ Durante este Sprint se realizaron los despliegues correspondientes al backend, e
   
 [![Team Collaboration](https://i.postimg.cc/26n79Bf5/2025-07-08-09-46-26-Window.png)](https://postimg.cc/BLQFXbbW)   
   
+
 ## 6.3. Validation Interviews
 Para validar las funcionalidades del sistema y su ajuste a las necesidades reales de los usuarios, se realizaron entrevistas estructuradas a dos perfiles clave: conductores (usuarios móviles) y administradores de estacionamientos (usuarios de la plataforma web). Estas entrevistas forman parte del enfoque de diseño centrado en el usuario y buscan identificar fricciones, confirmar decisiones de diseño y detectar mejoras antes del despliegue.
 
