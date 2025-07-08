@@ -5024,7 +5024,7 @@ Finalmente, tenemos el **Backend** del proyecto que ha sido alojado con GCP Clou
 Link del backend: 🔗 https://iot-project-service-417071271046.us-central1.run.app/swagger-ui/index.html
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review 
-
+Durante este Sprint, el equipo se enfocó exclusivamente en el desarrollo de componentes para la integración del modulo Edge a los dispositivos IOT (CAMARA, SERVOMOTOR, SENSOR DE PESO) y mostrar los resultados en la aplicación Web para la vista del administrador.Además se desplego de manera satisfactoria el back-end de la aplicación Web. Se enfoco en toda la integración y creación de un esquema de 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review 
   
 Durante este Sprint se actualizaron los despliegues correspondientes a los dos productos principales del sistema *ParkUp*: la Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, la aplicación web, desarrollada en Angular y desplegada en **Netlify**, y la applicación movil la cual fue desarrollada con Flutter. 
@@ -5083,7 +5083,7 @@ Se realizo el despliegue del backend del proyecto por medio de Google Cloud. Por
 - Aplicación Web: [https://parkup-webapp.netlify.app](https://parkup-webapp.netlify.app)
 - Aplicación Movil: [https://drive.google.com/drive/folders/1kFf31QKxUntiHhUWuL_TJ42uBKRhqw7T](https://drive.google.com/drive/folders/1kFf31QKxUntiHhUWuL_TJ42uBKRhqw7T)  
 - Backend: [https://iot-project-service-417071271046.us-central1.run.app/swagger-ui/index.html](https://iot-project-service-417071271046.us-central1.run.app/swagger-ui/index.html)
-  
+
 #### 6.2.3.9. Team Collaboration Insights during Sprint  
  
 Durante este Sprint se realizaron los despliegues correspondientes al backend, edge node, applicación web y aplicación movil partes principales del sistema *ParkUp*. La Landing Page, desarrollada con tecnologías web estáticas y publicada mediante **GitHub Pages**, y la aplicación web, desarrollada en Angular y desplegada en **Netlify**, asi como la aplicación movil, desarrollada con Flutter. Estos despliegues permiten que los entornos estén accesibles públicamente, habilitando pruebas, validaciones y retroalimentación por parte de usuarios y stakeholders. 
